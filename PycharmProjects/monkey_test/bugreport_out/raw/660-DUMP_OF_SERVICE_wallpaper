@@ -1,0 +1,15 @@
+System wallpaper state:
+ User 0: id=0
+  mWidth=320 mHeight=386
+  mCropHint=Rect(0, 0 - 320, 386)
+  mPadding=Rect(0, 0 - 0, 0)
+  mName=
+  mAllowBackup=true
+  mWallpaperComponent=ComponentInfo{com.android.systemui/com.android.systemui.ImageWallpaper}
+  Wallpaper connection com.android.server.wallpaper.WallpaperManagerService$WallpaperConnection@1217bf2:
+    mToken=android.os.Binder@9c7653e
+    mService=android.service.wallpaper.IWallpaperService$Stub$Proxy@f4d9b8e
+    mEngine=android.service.wallpaper.IWallpaperEngine$Stub$Proxy@744afaf
+    mLastDiedTime=-376034
+Lock wallpaper state:
+--------- 0.001s was the duration of dumpsys wallpaper, ending at: 2023-05-18 12:38:59

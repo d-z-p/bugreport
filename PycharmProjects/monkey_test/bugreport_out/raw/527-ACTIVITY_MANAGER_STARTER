@@ -1,0 +1,94 @@
+  mCurrentUser=0
+  mLastStartReason=startActivityAsUser
+  mLastStartActivityTimeMs=2023???5???18??? ??????12:38:55
+  mLastStartActivityResult=2
+  mLastStartActivityRecord:
+    packageName=com.jx.launcher processName=com.jx.launcher
+    launchedFromUid=0 launchedFromPackage=null userId=0
+    app=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.jx.launcher/.Launcher }
+    frontOfTask=true task=TaskRecord{9b4b4d4 #4 A=com.jx.launcher U=0 StackId=0 sz=1}
+    taskAffinity=com.jx.launcher
+    realActivity=com.jx.launcher/.Launcher
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    stateNotNeeded=true componentSpecified=false mActivityType=1
+    compat={160dpi always-compat} labelRes=0x7f120042 icon=0x7f0f0014 theme=0x7f130116
+    mLastReportedConfigurations:
+     mGlobalConfig={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+     mOverrideConfig={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+    CurrentConfiguration={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+    taskDescription: iconFilename=null label="null" primaryColor=fff5f5f5
+      backgroundColor=fffafafa
+      statusBarColor=ff757575
+      navigationBarColor=ff000000
+    launchFailed=false launchCount=0 lastLaunchTime=-1m4s438ms
+    haveState=false icicle=null
+    state=RESUMED stopped=false delayedResume=false finishing=false
+    keysPaused=false inHistory=true visible=true sleeping=false idle=false mStartingWindowState=STARTING_WINDOW_REMOVED
+    fullscreen=true noDisplay=false immersive=false launchMode=2
+    frozenBeforeDestroy=false forceNewConfig=false
+    mActivityType=HOME_ACTIVITY_TYPE
+    waitingVisible=false nowVisible=false lastVisibleTime=-5s630ms
+    resizeMode=RESIZE_MODE_UNRESIZEABLE
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  mLastHomeActivityStartResult=0
+  mLastHomeActivityStartRecord:
+    packageName=com.jx.launcher processName=com.jx.launcher
+    launchedFromUid=0 launchedFromPackage=null userId=0
+    app=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.jx.launcher/.Launcher }
+    frontOfTask=true task=TaskRecord{9b4b4d4 #4 A=com.jx.launcher U=0 StackId=0 sz=1}
+    taskAffinity=com.jx.launcher
+    realActivity=com.jx.launcher/.Launcher
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    stateNotNeeded=true componentSpecified=false mActivityType=1
+    compat={160dpi always-compat} labelRes=0x7f120042 icon=0x7f0f0014 theme=0x7f130116
+    mLastReportedConfigurations:
+     mGlobalConfig={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+     mOverrideConfig={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+    CurrentConfiguration={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+    taskDescription: iconFilename=null label="null" primaryColor=fff5f5f5
+      backgroundColor=fffafafa
+      statusBarColor=ff757575
+      navigationBarColor=ff000000
+    launchFailed=false launchCount=0 lastLaunchTime=-1m4s438ms
+    haveState=false icicle=null
+    state=RESUMED stopped=false delayedResume=false finishing=false
+    keysPaused=false inHistory=true visible=true sleeping=false idle=false mStartingWindowState=STARTING_WINDOW_REMOVED
+    fullscreen=true noDisplay=false immersive=false launchMode=2
+    frozenBeforeDestroy=false forceNewConfig=false
+    mActivityType=HOME_ACTIVITY_TYPE
+    waitingVisible=false nowVisible=false lastVisibleTime=-5s630ms
+    resizeMode=RESIZE_MODE_UNRESIZEABLE
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  mStartActivity:
+    packageName=com.jx.launcher processName=com.jx.launcher
+    launchedFromUid=1000 launchedFromPackage=android userId=0
+    app=null
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10600000 cmp=com.jx.launcher/.Launcher (has extras) }
+    frontOfTask=false task=TaskRecord{9b4b4d4 #4 A=com.jx.launcher U=0 StackId=0 sz=1}
+    taskAffinity=com.jx.launcher
+    realActivity=com.jx.launcher/.Launcher
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    stateNotNeeded=true componentSpecified=false mActivityType=1
+    compat=null labelRes=0x7f120042 icon=0x7f0f0014 theme=0x7f130116
+    mLastReportedConfigurations:
+     mGlobalConfig={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+     mOverrideConfig={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+    CurrentConfiguration={1.0 460mcc1mnc [zh_CN] ldltr sw320dp w320dp h386dp 160dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 320, 386) s.5}
+    launchFailed=false launchCount=0 lastLaunchTime=0
+    haveState=true icicle=null
+    state=INITIALIZING stopped=false delayedResume=false finishing=false
+    keysPaused=false inHistory=false visible=false sleeping=false idle=false mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+    fullscreen=true noDisplay=false immersive=false launchMode=2
+    frozenBeforeDestroy=false forceNewConfig=false
+    mActivityType=HOME_ACTIVITY_TYPE
+    resizeMode=RESIZE_MODE_UNRESIZEABLE
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  mIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10600000 cmp=com.jx.launcher/.Launcher (has extras) }
+  mLaunchSingleTop=false mLaunchSingleInstance=false mLaunchSingleTask=true
+  mLaunchFlags=0x10200000 mDoResume=true mAddingToTask=false
+

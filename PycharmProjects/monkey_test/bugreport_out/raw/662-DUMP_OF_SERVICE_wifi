@@ -1,0 +1,300 @@
+Wi-Fi is disabled
+Stay-awake conditions: 0
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=23
+ rec[0]: time=05-18 12:35:02.339 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[1]: time=05-18 12:35:02.339 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[2]: time=05-18 12:35:02.340 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[3]: time=05-18 12:35:02.341 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[4]: time=05-18 12:35:02.342 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[5]: time=05-18 12:35:02.405 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[6]: time=05-18 12:35:02.641 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[7]: time=05-18 12:35:02.909 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[8]: time=05-18 12:35:05.051 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[9]: time=05-18 12:35:14.702 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[10]: time=05-18 12:35:37.559 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[11]: time=05-18 12:35:38.330 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[12]: time=05-18 12:35:38.878 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[13]: time=05-18 12:35:40.328 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[14]: time=05-18 12:36:26.649 processed=ApStaDisabledState org=ApStaDisabledState dest=<null> what=155658(0x2600a)
+ rec[15]: time=05-18 12:36:40.326 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[16]: time=05-18 12:37:32.099 processed=DefaultState org=ApStaDisabledState dest=<null> what=155650(0x26002)
+ rec[17]: time=05-18 12:37:32.232 processed=DefaultState org=ApStaDisabledState dest=<null> what=155651(0x26003)
+ rec[18]: time=05-18 12:37:32.595 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[19]: time=05-18 12:37:42.975 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[20]: time=05-18 12:37:42.994 processed=DefaultState org=ApStaDisabledState dest=<null> what=155650(0x26002)
+ rec[21]: time=05-18 12:38:17.719 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[22]: time=05-18 12:38:40.642 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+curState=ApStaDisabledState
+mScreenOff false
+mDeviceIdle false
+mPluggedType 2
+mIdleMillis 900000
+mSleepPolicy 2
+mPersistWifiState 0
+mAirplaneModeOn false
+mEnableTrafficStatsPoll false
+mTrafficStatsPollToken 0
+mTxPkts 0
+mRxPkts 0
+mDataActivity 0
+
+Locks held:
+Locks acquired: 0 full, 0 full high perf, 0 scan
+Locks released: 0 full, 0 full high perf, 0 scan
+
+Locks held:
+
+mMulticastEnabled 0
+mMulticastDisabled 0
+Multicast Locks held:
+
+WifiStateMachine:
+ total records=36
+ rec[0]: time=05-18 12:34:59.951 processed=DefaultState org=InitialState dest=<null> what=131207(0x20087) !CMD_INITIALIZE uid=1000 rt=136691/136691 0 0
+ rec[1]: time=05-18 12:34:59.952 processed=DefaultState org=InitialState dest=<null> what=131084(0x2000c) !(-5)CMD_STOP_SUPPLICANT rt=136691/136691 0 0
+ rec[2]: time=05-18 12:35:00.782 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=137522/137522 0 0
+ rec[3]: time=05-18 12:35:04.446 processed=DefaultState org=InitialState dest=<null> what=131206(0x20086) !CMD_BOOT_COMPLETED rt=141186/141186 0 0
+ rec[4]: time=05-18 12:35:04.447 processed=DefaultState org=InitialState dest=<null> what=69632(0x11000) !CMD_CHANNEL_HALF_CONNECTED rt=141186/141186 0 0
+ rec[5]: time=05-18 12:35:04.447 processed=DefaultState org=InitialState dest=<null> what=131203(0x20083) !(-5)CMD_ENABLE_P2P rt=141187/141187 0 0
+ rec[6]: time=05-18 12:35:04.464 processed=DefaultState org=InitialState dest=<null> what=131278(0x200ce) !CMD_USER_UNLOCK rt=141204/141204 0 0
+ rec[7]: time=05-18 12:35:10.781 processed=DefaultState org=InitialState dest=<null> what=131173(0x20065) !(-4)CMD_RESET_SIM_NETWORKS rt=147521/147521 1 0
+ rec[8]: time=05-18 12:35:37.553 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=173966/173966 0 0
+ rec[9]: time=05-18 12:35:38.316 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=174729/174729 0 0
+ rec[10]: time=05-18 12:35:38.876 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=175289/175289 0 0
+ rec[11]: time=05-18 12:35:40.322 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=176736/176736 0 0
+ rec[12]: time=05-18 12:36:22.536 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=218949/218949 0 0
+ rec[13]: time=05-18 12:36:22.560 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=218973/218973 0 0
+ rec[14]: time=05-18 12:36:24.842 processed=DefaultState org=InitialState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=221255/221255 1000 0 num=0
+ rec[15]: time=05-18 12:36:43.442 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=239856/239856 0 0
+ rec[16]: time=05-18 12:36:46.237 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=242650/242650 0 0
+ rec[17]: time=05-18 12:36:48.783 processed=DefaultState org=InitialState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=10087 rt=245196/245196 10087 0 num=0
+ rec[18]: time=05-18 12:36:49.995 processed=DefaultState org=InitialState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=10087 rt=246409/246409 10087 0 num=0
+ rec[19]: time=05-18 12:36:52.794 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=249207/249207 0 0
+ rec[20]: time=05-18 12:37:32.088 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) !CMD_SCREEN_STATE_CHANGED rt=288501/288501 1 0
+ rec[21]: time=05-18 12:37:32.088 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) !CMD_ENABLE_RSSI_POLL rt=288501/288501 1 0
+ rec[22]: time=05-18 12:37:32.088 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) !CMD_SET_SUSPEND_OPT_ENABLED rt=288501/288501 0 0
+ rec[23]: time=05-18 12:37:32.223 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) CMD_SCREEN_STATE_CHANGED rt=288636/288636 0 0
+ rec[24]: time=05-18 12:37:32.223 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) CMD_ENABLE_RSSI_POLL rt=288637/288637 0 0
+ rec[25]: time=05-18 12:37:32.223 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) CMD_SET_SUSPEND_OPT_ENABLED rt=288637/288637 1 0
+ rec[26]: time=05-18 12:37:42.980 processed=DefaultState org=InitialState dest=<null> what=131167(0x2005f) !CMD_SCREEN_STATE_CHANGED rt=299394/299394 1 0
+ rec[27]: time=05-18 12:37:42.981 processed=DefaultState org=InitialState dest=<null> what=131154(0x20052) !CMD_ENABLE_RSSI_POLL rt=299394/299394 1 0
+ rec[28]: time=05-18 12:37:42.981 processed=DefaultState org=InitialState dest=<null> what=131158(0x20056) !CMD_SET_SUSPEND_OPT_ENABLED rt=299394/299394 0 0
+ rec[29]: time=05-18 12:37:44.265 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=300678/300678 0 0
+ rec[30]: time=05-18 12:37:44.469 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=300883/300883 0 0
+ rec[31]: time=05-18 12:37:44.479 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=300892/300892 0 0
+ rec[32]: time=05-18 12:37:44.502 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=300915/300915 0 0
+ rec[33]: time=05-18 12:37:44.772 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=301186/301186 0 0
+ rec[34]: time=05-18 12:37:44.786 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=301200/301200 0 0
+ rec[35]: time=05-18 12:38:56.827 processed=DefaultState org=InitialState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=373241/373241 0 0
+curState=InitialState
+SupplicantStateTracker:
+ total records=0
+curState=UninitializedState
+mAuthFailureInSupplicantBroadcast false
+mAuthFailureReason 0
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}
+mWifiInfo SSID: <unknown ssid>, BSSID: <none>, MAC: 02:00:00:00:00:00, Supplicant state: UNINITIALIZED, RSSI: -127, Link speed: -1Mbps, Frequency: -1MHz, Net ID: -1, Metered hint: false, score: 0
+mDhcpResults null
+mNetworkInfo [type: WIFI[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), failover: false, available: false, roaming: false]
+mLastSignalLevel -1
+mLastBssid null
+mLastNetworkId -1
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 4
+CountryCode: CN was not sent to driver
+mConnectionReqCount 3
+mUntrustedReqCount 0
+Wlan Wake Reasons:null
+
+Dump of WifiConfigManager
+WifiConfigManager - Log Begin ----
+WifiConfigManager - Log End ----
+WifiConfigManager - Configured networks Begin ----
+WifiConfigManager - Configured networks End ----
+WifiConfigManager - Next network ID to be allocated 0
+WifiConfigManager - Last selected network ID -1
+
+Dump of PasspointManager
+PasspointManager - Providers Begin ---
+PasspointManager - Providers End ---
+PasspointManager - Next provider ID to be assigned 0
+Last sweep 0:04:00.129 ago.
+
+Chipset information :-----------------------------------------------
+FW Version is: null
+Driver Version is: null
+Supported Feature set: -1
+*** firmware logging disabled, no debug data ****
+set config_wifi_enable_wifi_firmware_debugging to enable
+IpManager.wlan0 APF dump:
+  No active ApfFilter; IpManager not yet started.
+
+IpManager.wlan0 current ProvisioningConfiguration:
+  N/A
+
+IpManager.wlan0 StateMachine dump:
+  2023-05-18T04:34:59.294 - ERROR Failed to disable IPv6: java.lang.IllegalStateException: command '1 interface ipv6 wlan0 disable' failed with '400 1 Failed to change IPv6 state (No such file or directory)'
+  2023-05-18T04:34:59.298 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+
+IpManager.wlan0 connectivity packet log:
+
+Debug with python and scapy via:
+shell$ python
+>>> from scapy import all as scapy
+>>> scapy.Ether("<paste_hex_string>".decode("hex")).show2()
+
+mWifiConnectivityManager is not initialized
+
+WifiMetrics:
+mConnectionEvents:
+mWifiLogProto.numSavedNetworks=0
+mWifiLogProto.numOpenNetworks=0
+mWifiLogProto.numPersonalNetworks=0
+mWifiLogProto.numEnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=0
+mWifiLogProto.numNonEmptyScanResults=0
+mWifiLogProto.numEmptyScanResults=0
+mWifiLogProto.numOneshotScans=0
+mWifiLogProto.numBackgroundScans=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 0
+  SCAN_SUCCESS: 0
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 0
+  WIFI_DISCONNECTED  ON: 0
+  WIFI_ASSOCIATED    ON: 0
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.recordDurationSec=241
+mWifiLogProto.rssiPollRssiCount: Printing counts for [-127, 0]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.rssiPollDeltaCount: Printing counts for [-127, 127]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=0
+mWifiLogProto.numOpenNetworkScanResults=0
+mWifiLogProto.numPersonalNetworkScanResults=0
+mWifiLogProto.numEnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=0
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=0
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.SoftApManagerReturnCodeCounts:
+  SUCCESS: 0
+  FAILED_GENERAL_ERROR: 0
+  FAILED_NO_CHANNEL: 0
+
+mWifiLogProto.numHalCrashes=0
+mWifiLogProto.numWificondCrashes=0
+mWifiLogProto.numWifiOnFailureDueToHal=0
+mWifiLogProto.numWifiOnFailureDueToWificond=0
+StaEventList:
+mWifiLogProto.numPasspointProviders=0
+mWifiLogProto.numPasspointProviderInstallation=0
+mWifiLogProto.numPasspointProviderInstallSuccess=0
+mWifiLogProto.numPasspointProviderUninstallation=0
+mWifiLogProto.numPasspointProviderUninstallSuccess=0
+mWifiLogProto.numPasspointProvidersSuccessfullyConnected=0
+mTotalSsidsInScanHistogram:{}
+mTotalBssidsInScanHistogram:{}
+mAvailableOpenSsidsInScanHistogram:{}
+mAvailableOpenBssidsInScanHistogram:{}
+mAvailableSavedSsidsInScanHistogram:{}
+mAvailableSavedBssidsInScanHistogram:{}
+mAvailableOpenOrSavedSsidsInScanHistogram:{}
+mAvailableOpenOrSavedBssidsInScanHistogram:{}
+mAvailableSavedPasspointProviderProfilesInScanHistogram:{}
+mAvailableSavedPasspointProviderBssidsInScanHistogram:{}
+mWifiLogProto.partialAllSingleScanListenerResults=0
+mWifiLogProto.fullBandAllSingleScanListenerResults=0
+mWifiAwareMetrics:
+mLastEnableUsageMs:0
+mLastEnableUsageInThisSampleWindowMs:0
+mAvailableTimeMs:0
+mHistogramAwareAvailableDurationMs:
+mLastEnableAwareMs:0
+mLastEnableAwareInThisSampleWindowMs:0
+mEnabledTimeMs:0
+mHistogramAwareEnabledDurationMs:
+mAttachDataByUid:
+mAttachStatusData:
+mHistogramAttachDuration:
+mMaxPublishInApp:0
+mMaxSubscribeInApp:0
+mMaxDiscoveryInApp:0
+mMaxPublishInSystem:0
+mMaxSubscribeInSystem:0
+mMaxDiscoveryInSystem:0
+mPublishStatusData:
+mSubscribeStatusData:
+mHistogramPublishDuration:
+mHistogramSubscribeDuration:
+mAppsWithDiscoverySessionResourceFailure:
+mMaxNdiInApp:0
+mMaxNdpInApp:0
+mMaxSecureNdpInApp:0
+mMaxNdiInSystem:0
+mMaxNdpInSystem:0
+mMaxSecureNdpInSystem:0
+mMaxNdpPerNdi:0
+mInBandNdpStatusData:
+mOutOfBandNdpStatusData:
+mNdpCreationTimeDuration:
+mNdpCreationTimeMin:-1
+mNdpCreationTimeMax:0
+mNdpCreationTimeSum:0
+mNdpCreationTimeSumSq:0
+mNdpCreationTimeNumSamples:0
+mHistogramNdpDuration:
+mPnoScanMetrics.numPnoScanAttempts=0
+mPnoScanMetrics.numPnoScanFailed=0
+mPnoScanMetrics.numPnoScanStartedOverOffload=0
+mPnoScanMetrics.numPnoScanFailedOverOffload=0
+mPnoScanMetrics.numPnoFoundNetworkEvents=0
+mWifiLogProto.connectToNetworkNotificationCount={}
+mWifiLogProto.connectToNetworkNotificationActionCount={}
+mWifiLogProto.openNetworkRecommenderBlacklistSize=0
+mWifiLogProto.isWifiNetworksAvailableNotificationOn=true
+mWifiLogProto.numOpenNetworkRecommendationUpdates=0
+mWifiLogProto.numOpenNetworkConnectMessageFailedToSend=0
+
+Dump of WifiBackupRestore
+
+WifiScoreReport:
+time,session,rssi,freq,linkspeed,tx_good,tx_retry,tx_bad,rx,s0,s1
+
+--------- 0.032s was the duration of dumpsys wifi, ending at: 2023-05-18 12:38:59

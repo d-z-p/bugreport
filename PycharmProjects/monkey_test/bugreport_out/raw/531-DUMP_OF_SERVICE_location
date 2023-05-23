@@ -1,0 +1,50 @@
+Current Location Manager state:
+  Location Listeners:
+    Reciever[e2b6448 listener UpdateRecord[passive android(1000 foreground) Request[POWER_NONE passive fastest=+30m0s0ms]]]
+    Reciever[38b8806 listener UpdateRecord[passive android(1000 foreground) Request[POWER_NONE passive fastest=0]]]
+  Active Records by Provider:
+    passive:
+      UpdateRecord[passive android(1000 foreground) Request[POWER_NONE passive fastest=0]]
+      UpdateRecord[passive android(1000 foreground) Request[POWER_NONE passive fastest=+30m0s0ms]]
+  Overlay Provider Packages:
+    fused: com.android.location.fused
+  Historical Records by Provider:
+    android: passive: Min interval 0 seconds: Max interval 1800 seconds: Duration requested 14 out of the last 14 minutes: Currently active
+  Last Known Locations:
+  Last Known Locations Coarse Intervals:
+  Geofences:
+  Enabled Providers:
+    fused
+    passive
+  mWhitelist=[] mBlacklist=[]
+  Throttling Whitelisted Packages:
+    
+  fudger: offset: 435, 1194 (meters)
+passive Internal State:
+mReportLocation=true
+gps Internal State:
+  mStarted=false
+  mFixInterval=1000
+  mDisableGps (battery saver mode)=false
+  mEngineCapabilities=0xd7 ( SCHEDULING MSB MSA ON_DEMAND_TIME MEASUREMENTS NAV_MESSAGES )
+GNSS_KPI_START
+  KPI logging start time: +1m10s995ms
+  KPI logging end time: +15m38s389ms
+  Number of location reports: 0
+  Number of TTFF reports: 0
+  Number of position accuracy reports: 0
+  Number of CN0 reports: 0
+GNSS_KPI_END
+  native internal state: Gnss Location Data:: not valid
+Gnss Time Data:: timeEstimate: 0, timeUncertaintyNs: 0, frequencyUncertaintyNsPerSec: 0
+constellation: 1=GPS, 2=SBAS, 3=GLO, 4=QZSS, 5=BDS, 6=GAL; ephemerisType: 0=Eph, 1=Alm, 2=?; ephemerisSource: 0=Demod, 1=Supl, 2=Server, 3=?; ephemerisHealth: 0=Good, 1=Bad, 2=?
+
+fused Internal State (com.android.location.fused):
+REMOTE SERVICE name=fused pkg=com.android.location.fused version=0
+mEnabled=false null
+fused=null
+gps Location[ 0.000000,0.000000 hAcc=340282346638528860000000000000000000000 t=?!? et=?!? vAcc=??? sAcc=??? bAcc=???]
+     ---
+net Location[ 0.000000,0.000000 hAcc=340282346638528860000000000000000000000 t=?!? et=?!? vAcc=??? sAcc=??? bAcc=???]
+     ---
+--------- 0.043s was the duration of dumpsys location, ending at: 2023-05-22 17:52:09

@@ -1,0 +1,8 @@
+Filesystem                                                        1K-blocks    Used Available Use% Mounted on
+tmpfs                                                                448960     660    448300   1% /dev
+/dev/block/dm-0                                                     1952384 1793668    142332  93% /system
+/dev/block/dm-1                                                      292784  157564    129176  55% /vendor
+tmpfs                                                                448960       0    448960   0% /mnt
+/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata  12575708 1001336  11369572   9% /data
+/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache       140060     156    136976   1% /cache
+/data/media                                                        12575708 1001336  11369572   9% /storage/emulated

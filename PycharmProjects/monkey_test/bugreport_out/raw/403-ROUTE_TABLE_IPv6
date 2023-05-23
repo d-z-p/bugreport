@@ -1,0 +1,5 @@
+local ::1 dev lo  proto none  metric 0  pref medium
+local fe80::6c42:ab9b:c45b:9abb dev lo  proto none  metric 0  pref medium
+local fe80::6cad:a0ff:fe19:744d dev lo  proto none  metric 0  pref medium
+ff00::/8 dev dummy0  metric 256  pref medium
+ff00::/8 dev wlan0  metric 256  pref medium

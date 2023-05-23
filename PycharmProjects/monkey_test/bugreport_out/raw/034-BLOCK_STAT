@@ -1,0 +1,57 @@
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/stat                 :	   48931   223578  6136246    65080     9058   120453 25654086   620110        1    35680   687470
+/mmcblk0/stat                 : perf(ios) rd: 930152KB/s(14487/s) wr: 408119KB/s(281/s) q: 19
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p1/stat       :	      17        0      402        0       49       70     1160       60        0       50       60
+/mmcblk0/mmcblk0p1/stat       : perf(ios) rd: 0KB/s(0/s) wr: 11878KB/s(980/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p14/stat      :	      23        3     4080       60       12      591     4824      110        0      110      170
+/mmcblk0/mmcblk0p14/stat      : perf(ios) rd: 53807KB/s(592/s) wr: 34701KB/s(169/s) q: 2
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p15/stat      :	      14        2     2064       10       12      591     4824      150        0       60      160
+/mmcblk0/mmcblk0p15/stat      : perf(ios) rd: 281805KB/s(3733/s) wr: 43909KB/s(213/s) q: 3
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p16/stat      :	      22        0     2160       30       21     1145     9328      210        0      110      240
+/mmcblk0/mmcblk0p16/stat      : perf(ios) rd: 80431KB/s(1600/s) wr: 49620KB/s(218/s) q: 2
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p17/stat      :	      22        0     2160       40       22     1144     9328      410        0      190      450
+/mmcblk0/mmcblk0p17/stat      : perf(ios) rd: 65482KB/s(1303/s) wr: 27589KB/s(127/s) q: 2
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p18/stat      :	       6        1     2048       10        0        0        0        0        0       10       10
+/mmcblk0/mmcblk0p18/stat      : perf(ios) rd: 104858KB/s(600/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p20/stat      :	      45        3    13312       30        0        0        0        0        0       30       30
+/mmcblk0/mmcblk0p20/stat      : perf(ios) rd: 227191KB/s(1500/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p21/stat      :	      83        0    16440      100        5        0       40        0        0      100      100
+/mmcblk0/mmcblk0p21/stat      : perf(ios) rd: 84173KB/s(830/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p22/stat      :	      75       21    24360      140        0        0        0        0        0      130      140
+/mmcblk0/mmcblk0p22/stat      : perf(ios) rd: 95941KB/s(577/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p23/stat      :	       6        1     2048       10        0        0        0        0        0       10       10
+/mmcblk0/mmcblk0p23/stat      : perf(ios) rd: 104858KB/s(600/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p24/stat      :	      39        3    10760       40        0        0        0        0        0       30       40
+/mmcblk0/mmcblk0p24/stat      : perf(ios) rd: 183637KB/s(1300/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p25/stat      :	      79       10    22792       70        0        0        0        0        0       60       70
+/mmcblk0/mmcblk0p25/stat      : perf(ios) rd: 194492KB/s(1317/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p26/stat      :	       8        0     2056       10        0        0        0        0        0       10       10
+/mmcblk0/mmcblk0p26/stat      : perf(ios) rd: 105267KB/s(800/s) q: 1
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p28/stat      :	   44022   210509  5572072    57500        0        0        0        0        3    26890    59510
+/mmcblk0/mmcblk0p28/stat      : perf(ios) rd: 109804KB/s(1694/s) q: 2
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p29/stat      :	      33       54      788       10       40       18   282352      470        0      100      480
+/mmcblk0/mmcblk0p29/stat      : perf(ios) rd: 193659KB/s(15840/s) wr: 1476401KB/s(409/s) q: 5
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p30/stat      :	    3033    10966   327736     5520        0        0        0        0        0     1730     5710
+/mmcblk0/mmcblk0p30/stat      : perf(ios) rd: 100333KB/s(1814/s) q: 3
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p31/stat      :	       1        0      256        0        0        0        0        0        0        0        0
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/mmcblk0/mmcblk0p33/stat      :	    1395     2068   130648     1520     7909   116894 25343974   618050        2    14070   619560
+/mmcblk0/mmcblk0p33/stat      : perf(ios) rd: 1937842KB/s(40413/s) wr: 924507KB/s(563/s) q: 44
+

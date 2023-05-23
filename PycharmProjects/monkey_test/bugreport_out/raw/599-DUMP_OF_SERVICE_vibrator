@@ -1,0 +1,5 @@
+Previous vibrations:
+  , startTime: 898927, effect: OneShot{mTiming=150, mAmplitude=-1}, usageHint: 0, uid: 0, opPkg: dumpstate
+  , startTime: 910182, effect: OneShot{mTiming=50, mAmplitude=-1}, usageHint: 0, uid: 10022, opPkg: com.android.systemui
+  , startTime: 918913, effect: OneShot{mTiming=50, mAmplitude=-1}, usageHint: 0, uid: 10022, opPkg: com.android.systemui
+--------- 0.006s was the duration of dumpsys vibrator, ending at: 2023-05-22 17:52:12

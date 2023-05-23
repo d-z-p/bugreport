@@ -1,0 +1,187 @@
+Libraries NOT loaded:
+Libraries loaded:
+ Library loudness_enhancer
+  path: /vendor/lib/soundfx/libldnhncr.so
+  Loudness Enhancer / The Android Open Source Project
+    UUID: fa415329-2034-4bea-b5dc-5b381c8d1e2c
+    TYPE: fe3199be-aed0-413f-87bb-11260eb63cf1
+    apiVersion: 00020000
+    flags: 00000008
+ Library downmix
+  path: /vendor/lib/soundfx/libdownmix.so
+  Multichannel Downmix To Stereo / The Android Open Source Project
+    UUID: 93f04452-e4fe-41cc-91f9-e475b6d1d69f
+    TYPE: 381e49cc-a858-4aa2-87f6-e8388e7601b2
+    apiVersion: 00020000
+    flags: 00000008
+ Library visualizer
+  path: /vendor/lib/soundfx/libvisualizer.so
+  Visualizer / The Android Open Source Project
+    UUID: d069d9e0-8329-11df-9168-0002a5d5c51b
+    TYPE: e46b26a0-dddd-11db-8afd-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000008
+ Library reverb
+  path: /vendor/lib/soundfx/libreverbwrapper.so
+  Insert Preset Reverb / NXP Software Ltd.
+    UUID: 172cdf00-a3bc-11df-a72f-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Preset Reverb / NXP Software Ltd.
+    UUID: f29a1400-a3bb-11df-8ddc-0002a5d5c51b
+    TYPE: 47382d60-ddd8-11db-bf3a-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000001
+  Insert Environmental Reverb / NXP Software Ltd.
+    UUID: c7a511a0-a3bb-11df-860e-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000048
+  Auxiliary Environmental Reverb / NXP Software Ltd.
+    UUID: 4a387fc0-8ab3-11df-8bad-0002a5d5c51b
+    TYPE: c2e5d5f0-94bd-4763-9cac-4e234d06839e
+    apiVersion: 00020000
+    flags: 00000001
+ Library bundle
+  path: /vendor/lib/soundfx/libbundlewrapper.so
+  Volume / NXP Software Ltd.
+    UUID: 119341a0-8469-11df-81f9-0002a5d5c51b
+    TYPE: 09e8ede0-ddde-11db-b4f6-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000050
+  Equalizer / NXP Software Ltd.
+    UUID: ce772f20-847d-11df-bb17-0002a5d5c51b
+    TYPE: 0bed4300-ddd6-11db-8f34-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000048
+  Virtualizer / NXP Software Ltd.
+    UUID: 1d4033c0-8557-11df-9f2d-0002a5d5c51b
+    TYPE: 37cc2c00-dddd-11db-8577-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000250
+  Dynamic Bass Boost / NXP Software Ltd.
+    UUID: 8631f300-72e2-11df-b57e-0002a5d5c51b
+    TYPE: 0634f220-ddd4-11db-a0fc-0002a5d5c51b
+    apiVersion: 00020000
+    flags: 00000248
+XML effect configuration failed to load.
+Clients:
+Notification Clients:
+  pid: 3037
+  pid: 3038
+  pid: 3049
+  pid: 3369
+  pid: 4188
+  pid: 9929
+  pid: 11082
+Global session refs:
+  session   pid count
+      185  9929     1
+Hardware status: 0
+Standby Time mSec: 3000
+
+Output thread 0xe78a0480, name AudioOut_D, tid 3325, type 0 (MIXER):
+  I/O handle: 13
+  Standby: yes
+  Sample rate: 44100 Hz
+  HAL frame count: 960
+  HAL format: 0x1 (AUDIO_FORMAT_PCM_16_BIT)
+  HAL buffer size: 3840 bytes
+  Channel count: 2
+  Channel mask: 0x00000003 (front-left, front-right)
+  Processing format: 0x1 (AUDIO_FORMAT_PCM_16_BIT)
+  Processing frame size: 4 bytes
+  Pending config events: none
+  Output device: 0x2 (AUDIO_DEVICE_OUT_SPEAKER)
+  Input device: 0 (AUDIO_DEVICE_NONE)
+  Audio source: 0 (default)
+  Normal frame count: 960
+  Last write occurred (msecs): 67496
+  Total writes: 1282
+  Delayed writes: 0
+  Blocked in write: no
+  Suspend count: 0
+  Sink buffer : 0xe8109000
+  Mixer buffer: 0xe817a000
+  Effect buffer: 0xe810a000
+  Fast track availMask=0xfe
+  Standby delay ns=3000000000
+  AudioStreamOut: 0xe8133298 flags 0x2 (AUDIO_OUTPUT_FLAG_PRIMARY)
+  Frames written: 1230720
+  Suspended frames: 0
+  Hal stream dump:
+
+output dump ---->
+flags:2  audio_app_type:0 standby
+<----output dump
+  Thread throttle time (msecs): 39
+  AudioMixer tracks: 0x00000000
+  Master mono: off
+  No FastMixer
+  Stream volumes in dB: 0:0, 1:-16, 2:0, 3:-11, 4:0, 5:0, 6:0, 7:-6, 8:-6, 9:0, 10:0, 11:0, 12:0, 13:0
+  Normal mixer raw underrun counters: partial=0 empty=0
+  0 Tracks
+  0 Effect Chains
+  Local log:
+   05-18 12:32:51.864 CFG_EVENT_CREATE_AUDIO_PATCH: old device 0x2 (AUDIO_DEVICE_OUT_SPEAKER) new device 0x2 (AUDIO_DEVICE_OUT_SPEAKER)
+   05-18 12:35:34.104 removeTrack_l (0xe7896180)      0     no   5663       9 T  0x200 00000001 00000001  44100  8   -10   -10     0  00000000   3848       0 I         0        0 E8109000 00000000
+   05-18 12:36:06.059 removeTrack_l (0xe7896180)      0     no   5663      17 T  0x200 00000001 00000001  44100  8   -10   -10     0  00000000   3848       0 I         0        0 E8109000 00000000
+   05-18 12:36:11.888 AT::add       (0xe72d8000)      0     no   6242      41 A  0x000 00000001 00000003  48000  3     0     0     0  00000000  24012       0 f         0        0 E8109000 00000000
+   05-18 12:36:12.381 AT::remove    (0xe72d8000)      0     no   6242      41 T  0x600 00000001 00000003  48000  3     0     0     0  00003D39  24012   24012 f         0        0 E8109000 00000000
+   05-18 12:36:12.382 removeTrack_l (0xe72d8000)      0     no   6242      41 T  0x600 00000001 00000003  48000  3     0     0     0  00003D39  24012   24012 f         0        0 E8109000 00000000
+   05-18 12:36:32.542 AT::add       (0xe72d8600)      0     no   6987      57 A  0x000 00000001 00000003  48000  3     0     0     0  00000000  24012       0 f         0        0 E8109000 00000000
+   05-18 12:36:33.294 AT::remove    (0xe72d8600)      0     no   6987      57 T  0x601 00000001 00000003  48000  3     0     0     0  000048FC  24012       0 f     18982    33080 E8109000 00000000
+   05-18 12:36:33.294 removeTrack_l (0xe72d8600)      0     no   6987      57 T  0x601 00000001 00000003  48000  3     0     0     0  000048FC  24012       0 f     18982    33080 E8109000 00000000
+   05-18 12:36:34.555 AT::add       (0xe7896000) S    0     no   7086      65 A  0x000 00000001 00000001  44100  1     0     0     0  00000000  88289   88289 F         0        0 E8109000 00000000
+   05-18 12:36:36.373 AT::add       (0xe72d8180)      1     no   6987      73 A  0x000 00000001 00000003  48000  3     0     0     0  00000000  24012       0 f         0      920 E8109000 00000000
+   05-18 12:36:36.647 AT::remove    (0xe7896000) S    0     no   7086      65 S  0x600 00000001 00000001  44100  1  -inf  -inf     0  000158E1  88289       0 f         0        0 E8109000 00000000
+   05-18 12:36:37.041 AT::remove    (0xe72d8180)      1     no   6987      73 T  0x601 00000001 00000003  48000  3     0     0     0  00004F98  24012       0 f     10476    16176 E8109000 00000000
+   05-18 12:36:37.041 removeTrack_l (0xe72d8180)      1     no   6987      73 T  0x601 00000001 00000003  48000  3     0     0     0  00004F98  24012       0 f     10476    16176 E8109000 00000000
+   05-18 12:36:41.050 removeTrack_l (0xe7896000) S    0     no   7086      65 T  0x600 00000001 00000001  44100  1  -inf  -inf     0  000158E1  88289       0 f         0        0 E8109000 00000000
+   05-18 12:36:48.206 AT::add       (0xe7896180)      0     no   7851     137 A  0x000 00000001 00000003  24000  3     0     0     0  00000000  12006       0 f         0        0 E8109000 00000000
+   05-18 12:36:48.227 AT::add       (0xe72d8780)      1     no   7851     129 A  0x000 00000001 00000003  24000  3     0     0     0  00000000  12006       0 f         0        0 E8109000 00000000
+   05-18 12:36:48.241 AT::add       (0xe7896600)      2     no   7851     145 A  0x000 00000001 00000003  24000  3     0     0     0  00000000  12006       0 f         0        0 E8109000 00000000
+   05-18 12:36:55.171 AT::remove    (0xe72d8780)      1     no   7851     129 S  0x601 00000001 00000003  24000  3     0     0     0  00027A80  12006       0 f      1052        0 E8109000 00000000
+   05-18 12:36:58.501 AT::remove    (0xe7896180)      0     no   7851     137 S  0x601 00000001 00000003  24000  3     0     0     0  0003B100  12006       0 f       526        0 E8109000 00000000
+   05-18 12:36:59.023 AT::remove    (0xe7896600)      2     no   7851     145 S  0x601 00000001 00000003  24000  3     0     0     0  0003E280  12006       0 f      1052        0 E8109000 00000000
+   05-18 12:37:45.251 removeTrack_l (0xe7896600)      2     no   7851     145 T  0x601 00000001 00000003  24000  3     0     0     0  0003E280  12006       0 f      1052        0 E8109000 00000000
+   05-18 12:37:45.260 removeTrack_l (0xe72d8780)      1     no   7851     129 T  0x601 00000001 00000003  24000  3     0     0     0  00027A80  12006       0 f      1052        0 E8109000 00000000
+   05-18 12:37:45.272 removeTrack_l (0xe7896180)      0     no   7851     137 T  0x601 00000001 00000003  24000  3     0     0     0  0003B100  12006       0 f       526        0 E8109000 00000000
+   05-18 12:37:46.856 AT::add       (0xe7896180) S    0     no   8724     177 A  0x000 00000001 00000001  48000  7     0     0     0  00000000  20073   20073 F         0        0 E8109000 00000000
+   05-18 12:37:47.387 AT::remove    (0xe7896180) S    0     no   8724     177 S  0x600 00000001 00000001  48000  7  -inf  -inf     0  00004E69  20073       0 f         0        0 E8109000 00000000
+   05-18 12:38:40.802 removeTrack_l (0xe72d8300)      1     no  11082     193 T  0x200 00000001 00000001  44100  8   -10   -10     0  00000000   3848       0 I         0        0 E8109000 00000000
+   05-18 12:38:55.620 removeTrack_l (0xe7896180) S    0     no   8724     177 T  0x600 00000001 00000001  48000  7  -inf  -inf     0  00004E69  20073       0 f         0        0 E8109000 00000000
+
+adev_dump ===>
+devices:out_devices:0x2 in_devices:0x0 prev_out_devices:0x2 prev_in_devices:0x0 routeDev:0x0 device_force_set:0x0
+voice infor:cur_vbpipe_fd:0x0 voip_playback_start:0x0 cp_type:0x0 call_start:0 call_connected:0 call_prestop:0 realCall:0 mode:0 voip_state:0x0 voip_start:0x0
+volume:mic_mute:0 master_mute:0 cache_mute:0 fm_mute:0 force_fm_mute:0
+voice_volume:0x0
+fm:fm_volume:-1 fm_open:0 fm_record:0 fm_type:0 i2sfm_flag:0x0
+other status:vbc_2arm:1 deepbuffer_enable:0 bluetooth_nrec:1 bluetooth_type:8000 low_power:0 hfp_start:0 is_offload_running:0 audio_outputs_state:0x0 aud_proc_init:0
+other status:dump_flag:0xf5c06730 SmartAmp:isEnable:0 isDump:0 isBoostDevice:0 boostVoltage:5000
+
+output dump ---->
+flags:2  audio_app_type:0 standby
+<----output dump
+
+adev_dump <===
+
+Reroute submix audio module:
+ route[0] rate in=0 out=0, addr=[]
+ route[1] rate in=0 out=0, addr=[]
+ route[2] rate in=0 out=0, addr=[]
+ route[3] rate in=0 out=0, addr=[]
+ route[4] rate in=0 out=0, addr=[]
+ route[5] rate in=0 out=0, addr=[]
+ route[6] rate in=0 out=0, addr=[]
+ route[7] rate in=0 out=0, addr=[]
+ route[8] rate in=0 out=0, addr=[]
+ route[9] rate in=48000 out=48000, addr=[]
+
+USB audio module:
+  No output streams.
+
+  No input streams.
+--------- 0.006s was the duration of dumpsys media.audio_flinger, ending at: 2023-05-18 12:38:57

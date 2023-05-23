@@ -1,0 +1,4 @@
+Block-Dev                     :    R-IOs   R-merg   R-sect   R-wait    W-IOs   W-merg   W-sect   W-wait   in-fli    activ   T-wait
+/dm-1/stat                    :	    2175        0   229424     4400        0        0        0        0        0     2510     4430
+/dm-1/stat                    : perf(ios) rd: 47118KB/s(872/s) q: 2
+

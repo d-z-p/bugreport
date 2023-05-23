@@ -1,0 +1,291 @@
+PROVIDER ContentProviderRecord{bc01728 u0 com.android.providers.telephony/.TelephonyProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ae3a5e6 u0 com.android.providers.telephony/.MmsProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4937dd4 u0 com.android.providers.telephony/.CarrierProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6343a72 u0 com.android.providers.settings/.SettingsProvider} pid=622
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{437cec3 u0 android/com.android.server.am.DumpHeapProvider} pid=622
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a94a340 u0 com.android.providers.telephony/.ServiceStateProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3878bbe u0 com.android.providers.telephony/.HbpcdLookupProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ac0b36c u0 com.android.providers.telephony/.MmsSmsProvider} pid=891
+    Client:
+      Default SMS app: com.android.messaging
+
+PROVIDER ContentProviderRecord{b2ca5ca u0 com.android.providers.telephony/.SmsProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2bb9a58 u0 com.jx.childlike/android.support.v4.content.FileProvider} pid=2227
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9575496 u0 com.yingyonghui.market/.provider.YYHProvider} pid=2492
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{11f1ded u0 com.android.providers.downloads/.DownloadStorageProvider} pid=1404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b99eeb3 u0 com.tencent.mm/androidx.lifecycle.ProcessLifecycleOwnerInitializer} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2dcabe9 u0 com.tencent.mm/.plugin.appbrand.app.AppBrandCriticalDataProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6d7f485 u0 com.ztapp.callbyvideo/androidx.core.content.FileProvider} pid=3478
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b3ac30f u0 com.sohu.inputmethod.sogou/android.support.v4.content.FileProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d22157a u0 com.tencent.mm/android.support.v4.content.FileProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2f64988 u0 com.sohu.inputmethod.sogou/com.sogou.apm.android.core.ApmProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b2c0f46 u0 com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonClientProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6a7634 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderUI} pid=2940
+    Client:
+
+PROVIDER ContentProviderRecord{f89d9d2 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b52c1a0 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderUI} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{887c11e u0 com.tencent.mm/.plugin.base.stub.WXCommProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{eb257cc u0 com.tencent.mm/com.facebook.internal.FacebookInitProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{aead12a u0 com.yingyonghui.market/androidx.core.content.FileProvider} pid=2492
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9324b8 u0 com.yingyonghui.market/androidx.work.impl.WorkManagerInitializer} pid=2492
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bcd5f6 u0 com.tencent.mm/com.google.firebase.provider.FirebaseInitProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bb1d464 u0 com.yingyonghui.market/com.facebook.internal.FacebookInitProvider} pid=2492
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8d85b82 u0 com.android.phone/.IccProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7e9d2d0 u0 com.sohu.inputmethod.sogou/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{334adce u0 com.zmapp.chat/android.support.v4.content.FileProvider} pid=3208
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d614bfc u0 com.yingyonghui.market/com.facebook.FacebookContentProvider} pid=2492
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5f1d8da u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e752be8 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{724a8a6 u0 com.jx.launcher/com.zmapp.provider.GlobalProvider} pid=1310
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4651e94 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.packages.PluginFastInstallProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{762a932 u0 com.android.settings/android.support.v4.content.FileProvider} pid=2898
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{1708039 u0 com.abupdate.fota_demo_iot/android.arch.lifecycle.ProcessLifecycleOwnerInitializer} pid=1264
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{58dac2c u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{622c8a u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{e3f5f18 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderPersist} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{83e8756 u0 com.sohu.inputmethod.sogou/com.qihoo360.mobilesafe.svcmanager.ServiceProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{35754c4 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7b3c2e2 u0 com.android.phone/.PhoneSearchIndexablesProvider} pid=891
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6d6f930 u0 com.android.settings/com.sprd.audioprofile.AudioProfileProvider} pid=2898
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{44f2b2e u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderPersist} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{76a785c u0 com.sohu.inputmethod.sogou/com.huawei.hms.update.provider.UpdateProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d26cc3a u0 com.android.providers.media/.MediaProvider} pid=1404
+    Client:
+      internal.db: version 801, 45 rows, 56 inserts, 0 updates, 0 deletes, 97 queries, scan started 2019???1???1??? 08:08 (38457:44:19) (scanning null)
+      2019-01-01 00:08:05.736 : Database upgraded from version 0 to 801 in 0 seconds
+      external-fffffff.db: version 801, 36 rows, 38 inserts, 9 updates, 0 deletes, 78 queries, scan started 2019???1???1??? 08:08 (00:00)
+      2019-01-01 00:07:31.468 : Database upgraded from version 0 to 801 in 0 seconds
+      2019-01-01 00:07:32.797 : external-fffffff.db: version 801, 28 rows, 28 inserts, 3 updates, 0 deletes, 34 queries, scan started 1???1??? 00:07 (00:00)
+      2019-01-01 00:08:05.946 : external-fffffff.db: version 801, 32 rows, 34 inserts, 9 updates, 0 deletes, 76 queries, scan started 1???1??? 00:08 (00:00)
+
+PROVIDER ContentProviderRecord{e285401 u0 com.ztapp.callbyvideo/com.yanzhenjie.permission.FileProvider} pid=3478
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{54be48 u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{aa57206 u0 com.tencent.mm/.plugin.normsg.NormsgInfoProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6ee7263 u0 com.android.providers.downloads/.DownloadProvider} pid=1404
+    Client:
+      Downloads updated in last hour:
+
+PROVIDER ContentProviderRecord{51e8f19 u0 com.sohu.inputmethod.sogou/android.arch.lifecycle.ProcessLifecycleOwnerInitializer} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f4bd1bf u0 com.tencent.mm/.plugin.expansions.ExpansionsGlobal$CP} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f0003d5 u0 com.tencent.mm/.plugin.emoji.provider.EmotionContentProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3f5cadb u0 com.android.systemui/android.support.v4.content.FileProvider} pid=925
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{44a0851 u0 com.tencent.mm/.app.AppForegroundDelegate$Provider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{47c39b7 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{955d88d u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f90ba53 u0 com.android.settings/com.sprd.audioprofile.AudioProfileSearchIndexablesProvider} pid=2898
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4d47089 u0 com.tencent.mm/.plugin.sns.waid.WaidProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{362a8af u0 com.android.settings/.search.SettingsSearchIndexablesProvider} pid=2898
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d8a8c45 u0 com.jx.launcher/.LauncherProvider} pid=1310
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{d866b66 u0 com.android.settings/com.sprd.settings.timerpower.AlarmProvider} pid=2898
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f257f54 u0 com.yingyonghui.market/com.github.panpf.activity.monitor.ActivityLifecycleMonitorInitProvider} pid=2492
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{3fdd7f2 u0 com.tencent.mm/androidx.startup.InitializationProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6053cc0 u0 com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.SogouContentProvider} pid=2940
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{40d813e u0 com.android.providers.media/.MediaDocumentsProvider} pid=1404
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{26164ec u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{9dc734a u0 com.tencent.mm/.plugin.lite.storage.LiteAppContentProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{575e3d8 u0 com.tencent.mm/.plugin.recordvideo.background.provider.WeSeeProvider} pid=2766
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{af67a16 u0 com.spreadtrum.vowifi/.conf.AccountSettingsProvider} pid=1484
+    Client:
+      nothing to dump

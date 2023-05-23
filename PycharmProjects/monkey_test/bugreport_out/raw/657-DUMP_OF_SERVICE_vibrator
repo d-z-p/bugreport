@@ -1,0 +1,11 @@
+Previous vibrations:
+  , startTime: 211887, effect: OneShot{mTiming=150, mAmplitude=-1}, usageHint: 0, uid: 0, opPkg: dumpstate
+  , startTime: 226315, effect: OneShot{mTiming=50, mAmplitude=-1}, usageHint: 0, uid: 10020, opPkg: com.android.systemui
+  , startTime: 283533, effect: OneShot{mTiming=75, mAmplitude=-1}, usageHint: 0, uid: 2000, opPkg: dumpstate
+  , startTime: 283728, effect: OneShot{mTiming=75, mAmplitude=-1}, usageHint: 0, uid: 2000, opPkg: dumpstate
+  , startTime: 283929, effect: OneShot{mTiming=75, mAmplitude=-1}, usageHint: 0, uid: 2000, opPkg: dumpstate
+  , startTime: 306413, effect: OneShot{mTiming=50, mAmplitude=-1}, usageHint: 0, uid: 10020, opPkg: com.android.systemui
+  , startTime: 308896, effect: OneShot{mTiming=150, mAmplitude=-1}, usageHint: 0, uid: 0, opPkg: dumpstate
+  , startTime: 337740, effect: Waveform{mTimings=[0, 100, 150, 100], mAmplitudes=[0, -1, 0, -1], mRepeat=-1}, usageHint: 5, uid: 10081, opPkg: com.jx.market
+  , startTime: 343674, effect: OneShot{mTiming=150, mAmplitude=-1}, usageHint: 0, uid: 0, opPkg: dumpstate
+--------- 0.003s was the duration of dumpsys vibrator, ending at: 2023-05-18 12:38:59

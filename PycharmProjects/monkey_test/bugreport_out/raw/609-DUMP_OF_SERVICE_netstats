@@ -1,0 +1,17 @@
+Active interfaces:
+  iface=seth_lte0 ident=[{type=MOBILE, subType=COMBINED, subscriberId=460012..., metered=true}] 
+Active UID interfaces:
+  iface=seth_lte0 ident=[{type=MOBILE, subType=COMBINED, subscriberId=460012..., metered=true}] 
+Dev stats:
+  Pending bytes: 0
+  History since boot:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=460012..., metered=true}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1684382400 rb=16366065 rp=13631 tb=919347 tp=9455 op=0
+Xt stats:
+  Pending bytes: 0
+  History since boot:
+  ident=[{type=MOBILE, subType=COMBINED, subscriberId=460012..., metered=true}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1684382400 rb=16366065 rp=13631 tb=919214 tp=9454 op=0
+--------- 0.001s was the duration of dumpsys netstats, ending at: 2023-05-18 12:38:57

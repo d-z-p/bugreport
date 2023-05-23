@@ -1,0 +1,25 @@
+
+  NetworkController
+    Default network: 100
+
+    Networks:
+      51 DUMMY dummy0
+        No DNS servers defined
+        No search domains defined
+
+      99 LOCAL
+        No DNS servers defined
+        No search domains defined
+
+      100 PHYSICAL seth_lte0
+        Required permission: NONE
+        DNS servers: # IP (total, successes, errors, timeouts, internal errors, RTT avg, last sample)
+          120.80.80.80 (64, 64, 0, 0, 0, 55ms, 2s)
+          221.5.88.88 <no data>
+          2408:8888:0:8888::8 <no data>
+          2408:8899:0:8899::8 <no data>
+        No search domains defined
+        DNS parameters: sample validity = 1800s, success threshold = 25%, samples (min, max) = (8, 64)
+
+
+--------- 0.007s was the duration of dumpsys netd, ending at: 2023-05-18 12:38:57

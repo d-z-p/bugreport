@@ -1,0 +1,474 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{bc01728 u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@8c83c41
+    singleton=true
+    authority=telephony
+  * ContentProviderRecord{ae3a5e6 u0 com.android.providers.telephony/.MmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@55de727
+    singleton=true
+    authority=mms
+  * ContentProviderRecord{4937dd4 u0 com.android.providers.telephony/.CarrierProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@91b5b7d
+    singleton=true
+    authority=carrier_information
+  * ContentProviderRecord{6343a72 u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{c78fcb7 622:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@be30613
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 925:com.android.systemui/u0a22 s1/1 u0/0 +14m24s333ms
+      -> 891:com.android.phone/1001 s1/1 u0/0 +14m20s269ms
+      -> 1310:com.jx.launcher/1000 s1/1 u0/0 +14m19s358ms
+      -> 1449:com.jx.inputmethod.pinyin/u0a72 s1/1 u0/0 +14m18s177ms
+      -> 1404:android.process.media/u0a9 s1/1 u0/0 +14m17s222ms
+      -> 2227:com.jx.childlike/u0a74 s1/1 u0/0 +45s503ms
+      -> 1771:com.android.packageinstaller/u0a21 s1/1 u0/0 +45s202ms
+      -> 2363:com.android.systemui:screenshot/u0a22 s1/1 u0/0 +40s849ms
+      -> 2440:com.zmapp.sms/1000 s1/1 u0/0 +38s381ms
+      -> 2492:com.yingyonghui.market/u0a76 s1/1 u0/0 +35s534ms
+      -> 2653:com.example.demo1/u0a81 s1/1 u0/0 +30s438ms
+      -> 2766:com.tencent.mm/u0a80 s1/1 u0/0 +19s564ms
+      -> 2898:com.android.settings/1000 s1/1 u0/0 +15s540ms
+      -> 2940:com.sohu.inputmethod.sogou/u0a78 s1/1 u0/0 +10s358ms
+      -> 3071:com.sohu.inputmethod.sogou:daemon/u0a78 s1/1 u0/0 +6s905ms
+      -> 2974:com.tencent.mm:push/u0a80 s1/1 u0/0 +4s720ms
+      -> 3208:com.zmapp.chat/u0a77 s1/1 u0/0 +3s69ms
+  * ContentProviderRecord{437cec3 u0 android/com.android.server.am.DumpHeapProvider}
+    package=android process=system
+    proc=ProcessRecord{c78fcb7 622:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@894da40
+    singleton=true
+    authority=com.android.server.heapdump
+  * ContentProviderRecord{a94a340 u0 com.android.providers.telephony/.ServiceStateProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@e873279
+    singleton=true
+    authority=service-state
+  * ContentProviderRecord{3878bbe u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@3e941f
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{ac0b36c u0 com.android.providers.telephony/.MmsSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@c3f7d35
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{b2ca5ca u0 com.android.providers.telephony/.SmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@c2533b
+    singleton=true
+    authority=sms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{2bb9a58 u0 com.jx.childlike/android.support.v4.content.FileProvider}
+    package=com.jx.childlike process=com.jx.childlike
+    proc=ProcessRecord{192d19b 2227:com.jx.childlike/u0a74}
+    uid=10074 provider=android.content.ContentProviderProxy@af7b7b1
+    authority=com.jx.childlike.fileprovider
+  * ContentProviderRecord{9575496 u0 com.yingyonghui.market/.provider.YYHProvider}
+    package=com.yingyonghui.market process=com.yingyonghui.market
+    proc=ProcessRecord{7f8e817 2492:com.yingyonghui.market/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@47c0404
+    authority=com.yingyonghui.provider.PAY
+  * ContentProviderRecord{11f1ded u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{dc0cf0d 1404:android.process.media/u0a9}
+    uid=10009 provider=android.content.ContentProviderProxy@7ac2422
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{b99eeb3 u0 com.tencent.mm/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@8b75c70
+    authority=com.tencent.mm.lifecycle-process
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{2dcabe9 u0 com.tencent.mm/.plugin.appbrand.app.AppBrandCriticalDataProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@38c606e
+    authority=com.tencent.mm.wxa_critical_content
+  * ContentProviderRecord{b3ac30f u0 com.sohu.inputmethod.sogou/android.support.v4.content.FileProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@5cb1da5
+    authority=com.sohu.inputmethod.sogou.provider
+  * ContentProviderRecord{d22157a u0 com.tencent.mm/android.support.v4.content.FileProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@6a812b
+    authority=com.tencent.mm.external.fileprovider
+  * ContentProviderRecord{2f64988 u0 com.sohu.inputmethod.sogou/com.sogou.apm.android.core.ApmProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@474ef21
+    authority=com.sohu.inputmethod.sogou.apm.storage
+  * ContentProviderRecord{b2c0f46 u0 com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonClientProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@48e0507
+    authority=com.sohu.inputmethod.sogou.daemon.client
+  * ContentProviderRecord{6a7634 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderUI}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@d905c5d
+    authority=com.sohu.inputmethod.sogou.loader.p.mainN1
+  * ContentProviderRecord{f89d9d2 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@87beaa3
+    authority=com.tencent.mm.plugin.ext.NearBy
+  * ContentProviderRecord{b52c1a0 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderUI}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@afb6159
+    authority=com.sohu.inputmethod.sogou.Plugin.NP.UIP
+  * ContentProviderRecord{887c11e u0 com.tencent.mm/.plugin.base.stub.WXCommProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@9d88dff
+    authority=com.tencent.mm.sdk.comm.provider
+  * ContentProviderRecord{eb257cc u0 com.tencent.mm/com.facebook.internal.FacebookInitProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@c77ba15
+    authority=com.tencent.mm.FacebookInitProvider
+  * ContentProviderRecord{aead12a u0 com.yingyonghui.market/androidx.core.content.FileProvider}
+    package=com.yingyonghui.market process=com.yingyonghui.market
+    proc=ProcessRecord{7f8e817 2492:com.yingyonghui.market/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@2320b1b
+    authority=com.yingyonghui.market.provider
+  * ContentProviderRecord{9324b8 u0 com.yingyonghui.market/androidx.work.impl.WorkManagerInitializer}
+    package=com.yingyonghui.market process=com.yingyonghui.market
+    proc=ProcessRecord{7f8e817 2492:com.yingyonghui.market/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@226e291
+    authority=com.yingyonghui.market.workmanager-init
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{bcd5f6 u0 com.tencent.mm/com.google.firebase.provider.FirebaseInitProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@bdc3df7
+    authority=com.tencent.mm.firebaseinitprovider
+    isSyncable=false multiprocess=false initOrder=100
+  * ContentProviderRecord{bb1d464 u0 com.yingyonghui.market/com.facebook.internal.FacebookInitProvider}
+    package=com.yingyonghui.market process=com.yingyonghui.market
+    proc=ProcessRecord{7f8e817 2492:com.yingyonghui.market/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@2c616cd
+    authority=com.yingyonghui.market.FacebookInitProvider
+  * ContentProviderRecord{8d85b82 u0 com.android.phone/.IccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@88cc293
+    authority=icc
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{7e9d2d0 u0 com.sohu.inputmethod.sogou/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@9aa52c9
+    authority=com.sohu.inputmethod.sogou.updateSdk.fileProvider
+  * ContentProviderRecord{334adce u0 com.zmapp.chat/android.support.v4.content.FileProvider}
+    package=com.zmapp.chat process=com.zmapp.chat
+    proc=ProcessRecord{85a5b8f 3208:com.zmapp.chat/u0a77}
+    uid=10077 provider=android.content.ContentProviderProxy@5b6f4ef
+    authority=com.zmapp.chat.fileprovider
+  * ContentProviderRecord{d614bfc u0 com.yingyonghui.market/com.facebook.FacebookContentProvider}
+    package=com.yingyonghui.market process=com.yingyonghui.market
+    proc=ProcessRecord{7f8e817 2492:com.yingyonghui.market/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@87c5285
+    authority=com.facebook.app.FacebookContentProvider187909574952726
+  * ContentProviderRecord{5f1d8da u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@aa7f10b
+    authority=com.tencent.mm.plugin.ext.AccountSync
+  * ContentProviderRecord{e752be8 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@8b49201
+    authority=com.tencent.mm.plugin.ext.entry
+  * ContentProviderRecord{724a8a6 u0 com.jx.launcher/com.zmapp.provider.GlobalProvider}
+    package=com.jx.launcher process=com.jx.launcher
+    proc=ProcessRecord{b97b447 1310:com.jx.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c6292e7
+    authority=com.jx.launcher
+  * ContentProviderRecord{4651e94 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.packages.PluginFastInstallProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@8d74d3d
+    authority=com.sohu.inputmethod.sogou.loader.p.pip
+  * ContentProviderRecord{762a932 u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{33b7683 2898:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@abf9000
+    authority=com.android.settings.files
+  * ContentProviderRecord{1708039 u0 com.abupdate.fota_demo_iot/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.abupdate.fota_demo_iot process=com.abupdate.fota_demo_iot
+    proc=ProcessRecord{90e267e 1264:com.abupdate.fota_demo_iot/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@e34f7df
+    authority=com.abupdate.fota_demo_iot.lifecycle-trojan
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{58dac2c u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@dcfe6f5
+    authority=com.tencent.mm.plugin.ext.message
+  * ContentProviderRecord{622c8a u0 com.tencent.mm/.plugin.base.stub.MMPluginProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@1b32fb
+    authority=com.tencent.mm.sdk.plugin.provider
+  * ContentProviderRecord{e3f5f18 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderPersist}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@484fd71
+    authority=com.sohu.inputmethod.sogou.loader.p.main
+  * ContentProviderRecord{83e8756 u0 com.sohu.inputmethod.sogou/com.qihoo360.mobilesafe.svcmanager.ServiceProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@26003d7
+    authority=com.sohu.inputmethod.sogou.svcmanager
+  * ContentProviderRecord{35754c4 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@b9affad
+    authority=com.tencent.mm.plugin.ext.SNS
+  * ContentProviderRecord{7b3c2e2 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{c990712 891:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@9b70673
+    authority=com.android.phone
+  * ContentProviderRecord{6d6f930 u0 com.android.settings/com.sprd.audioprofile.AudioProfileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{33b7683 2898:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@494e9a9
+    authority=com.sprd.audioprofile.provider
+  * ContentProviderRecord{44f2b2e u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderPersist}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@87196cf
+    authority=com.sohu.inputmethod.sogou.Plugin.NP.PSP
+  * ContentProviderRecord{76a785c u0 com.sohu.inputmethod.sogou/com.huawei.hms.update.provider.UpdateProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@c297765
+    authority=com.sohu.inputmethod.sogou.hms.update.provider
+  * ContentProviderRecord{d26cc3a u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{dc0cf0d 1404:android.process.media/u0a9}
+    uid=10009 provider=android.content.ContentProviderProxy@a9ad0eb
+    authority=media
+  * ContentProviderRecord{54be48 u0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@9bf24e1
+    authority=com.tencent.mm.plugin.gwallet.queryprovider
+  * ContentProviderRecord{aa57206 u0 com.tencent.mm/.plugin.normsg.NormsgInfoProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@7d390c7
+    authority=com.tencent.mm.plugin.normsg.NMInfo
+  * ContentProviderRecord{c1b76f4 u0 com.android.packageinstaller/.wear.WearPackageIconProvider}
+    package=com.android.packageinstaller process=com.android.packageinstaller
+    proc=ProcessRecord{aa82e1d 1771:com.android.packageinstaller/u0a21}
+    uid=10021 provider=android.content.ContentProviderProxy@f16a892
+    authority=com.google.android.packageinstaller.wear.provider
+  * ContentProviderRecord{6ee7263 u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{dc0cf0d 1404:android.process.media/u0a9}
+    uid=10009 provider=android.content.ContentProviderProxy@5f30e60
+    authority=downloads
+  * ContentProviderRecord{51e8f19 u0 com.sohu.inputmethod.sogou/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@3f2bbde
+    authority=com.sohu.inputmethod.sogou.lifecycle-trojan
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{f4bd1bf u0 com.tencent.mm/.plugin.expansions.ExpansionsGlobal$CP}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@5eab08c
+    authority=com.tencent.mm.provider.expansions
+  * ContentProviderRecord{f0003d5 u0 com.tencent.mm/.plugin.emoji.provider.EmotionContentProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@feab7ea
+    authority=com.tencent.mm.storage.provider.emotion
+  * ContentProviderRecord{3f5cadb u0 com.android.systemui/android.support.v4.content.FileProvider}
+    package=com.android.systemui process=com.android.systemui
+    proc=ProcessRecord{e40db4 925:com.android.systemui/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@3d84978
+    authority=com.android.systemui.fileprovider
+  * ContentProviderRecord{44a0851 u0 com.tencent.mm/.app.AppForegroundDelegate$Provider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@1b468b6
+    authority=com.tencent.mm.AppForegroundDelegate.Provider
+  * ContentProviderRecord{47c39b7 u0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@d048524
+    authority=com.tencent.mm.plugin.ext.SearchContact
+  * ContentProviderRecord{955d88d u0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@b965a42
+    authority=com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences
+  * ContentProviderRecord{f90ba53 u0 com.android.settings/com.sprd.audioprofile.AudioProfileSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{33b7683 2898:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@896cf90
+    authority=com.sprd.audioprofile
+  * ContentProviderRecord{4d47089 u0 com.tencent.mm/.plugin.sns.waid.WaidProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@bb3d88e
+    authority=com.tencent.mm.ad.waid
+  * ContentProviderRecord{362a8af u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{33b7683 2898:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@6c154bc
+    authority=com.android.settings
+  * ContentProviderRecord{d8a8c45 u0 com.jx.launcher/.LauncherProvider}
+    package=com.jx.launcher process=com.jx.launcher
+    proc=ProcessRecord{b97b447 1310:com.jx.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@d18ef9a
+    authority=com.jx.launcher.settings
+  * ContentProviderRecord{7bb20cb u0 com.android.deskclock/.provider.ClockProvider}
+    package=com.android.deskclock process=com.android.deskclock
+    proc=ProcessRecord{6ad00a8 1737:com.android.deskclock/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@7cca7c1
+    authority=com.android.deskclock
+  * ContentProviderRecord{d866b66 u0 com.android.settings/com.sprd.settings.timerpower.AlarmProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{33b7683 2898:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@dd8fea7
+    authority=com.android.settings.alarm
+  * ContentProviderRecord{f257f54 u0 com.yingyonghui.market/com.github.panpf.activity.monitor.ActivityLifecycleMonitorInitProvider}
+    package=com.yingyonghui.market process=com.yingyonghui.market
+    proc=ProcessRecord{7f8e817 2492:com.yingyonghui.market/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@ebafefd
+    authority=com.yingyonghui.market.activity_lifecycle_monitor_init_provider
+  * ContentProviderRecord{3fdd7f2 u0 com.tencent.mm/androidx.startup.InitializationProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@20cde43
+    authority=com.tencent.mm.androidx-startup
+  * ContentProviderRecord{6053cc0 u0 com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.SogouContentProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{c0dcf9c 2940:com.sohu.inputmethod.sogou/u0a78}
+    uid=10078 provider=android.content.ContentProviderProxy@53d8df9
+    authority=com.sohu.inputmethod.sogou
+  * ContentProviderRecord{40d813e u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{dc0cf0d 1404:android.process.media/u0a9}
+    uid=10009 provider=android.content.ContentProviderProxy@b151b9f
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{26164ec u0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@ac010b5
+    authority=com.tencent.mm.plugin.ext.ExtContentProviderBase
+  * ContentProviderRecord{9dc734a u0 com.tencent.mm/.plugin.lite.storage.LiteAppContentProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@339d2bb
+    authority=com.tencent.mm.plugin.lite.logic.LiteAppInfo
+  * ContentProviderRecord{575e3d8 u0 com.tencent.mm/.plugin.recordvideo.background.provider.WeSeeProvider}
+    package=com.tencent.mm process=com.tencent.mm
+    proc=ProcessRecord{8d30a2 2766:com.tencent.mm/u0a80}
+    uid=10080 provider=android.content.ContentProviderProxy@fae0331
+    authority=com.tencent.mm.plugin.recordvideo.background.provider.WeSeeProvider
+  * ContentProviderRecord{af67a16 u0 com.spreadtrum.vowifi/.conf.AccountSettingsProvider}
+    package=com.spreadtrum.vowifi process=com.spreadtrum.vowifi
+    proc=ProcessRecord{728df97 1484:com.spreadtrum.vowifi/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@6516584
+    authority=com.spreadtrum.vowifi.accountsettings
+
+  Single-user authority to provider mappings:
+  settings: 6343a72/com.android.providers.settings/.SettingsProvider
+  mms: ae3a5e6/com.android.providers.telephony/.MmsProvider
+  com.android.server.heapdump: 437cec3/android/com.android.server.am.DumpHeapProvider
+  hbpcd_lookup: 3878bbe/com.android.providers.telephony/.HbpcdLookupProvider
+  telephony: bc01728/com.android.providers.telephony/.TelephonyProvider
+  sms: b2ca5ca/com.android.providers.telephony/.SmsProvider
+  carrier_information: 4937dd4/com.android.providers.telephony/.CarrierProvider
+  mms-sms: ac0b36c/com.android.providers.telephony/.MmsSmsProvider
+  service-state: a94a340/com.android.providers.telephony/.ServiceStateProvider
+
+  User 0 authority to provider mappings:
+  com.tencent.mm.firebaseinitprovider: bcd5f6/com.tencent.mm/com.google.firebase.provider.FirebaseInitProvider
+  com.tencent.mm.plugin.ext.SearchContact: 47c39b7/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact
+  com.abupdate.fota_demo_iot.lifecycle-trojan: 1708039/com.abupdate.fota_demo_iot/android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+  icc: 8d85b82/com.android.phone/.IccProvider
+  com.yingyonghui.market.FacebookInitProvider: bb1d464/com.yingyonghui.market/com.facebook.internal.FacebookInitProvider
+  com.tencent.mm.wxa_critical_content: 2dcabe9/com.tencent.mm/.plugin.appbrand.app.AppBrandCriticalDataProvider
+  com.yingyonghui.provider.PAY: 9575496/com.yingyonghui.market/.provider.YYHProvider
+  com.android.phone: 7b3c2e2/com.android.phone/.PhoneSearchIndexablesProvider
+  com.android.providers.media.documents: 40d813e/com.android.providers.media/.MediaDocumentsProvider
+  com.sohu.inputmethod.sogou.daemon.client: b2c0f46/com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonClientProvider
+  com.sohu.inputmethod.sogou.loader.p.main: e3f5f18/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderPersist
+  com.tencent.mm.lifecycle-process: b99eeb3/com.tencent.mm/androidx.lifecycle.ProcessLifecycleOwnerInitializer
+  com.tencent.mm.plugin.ext.SNS: 35754c4/com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS
+  com.tencent.mm.androidx-startup: 3fdd7f2/com.tencent.mm/androidx.startup.InitializationProvider
+  com.jx.launcher: 724a8a6/com.jx.launcher/com.zmapp.provider.GlobalProvider
+  com.tencent.mm.plugin.normsg.NMInfo: aa57206/com.tencent.mm/.plugin.normsg.NormsgInfoProvider
+  com.sohu.inputmethod.sogou: 6053cc0/com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.SogouContentProvider
+  com.android.providers.downloads.documents: 11f1ded/com.android.providers.downloads/.DownloadStorageProvider
+  com.sohu.inputmethod.sogou.hms.update.provider: 76a785c/com.sohu.inputmethod.sogou/com.huawei.hms.update.provider.UpdateProvider
+  com.android.deskclock: 7bb20cb/com.android.deskclock/.provider.ClockProvider
+  com.tencent.mm.plugin.ext.AccountSync: 5f1d8da/com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync
+  com.facebook.app.FacebookContentProvider187909574952726: d614bfc/com.yingyonghui.market/com.facebook.FacebookContentProvider
+  com.zmapp.chat.fileprovider: 334adce/com.zmapp.chat/android.support.v4.content.FileProvider
+  com.tencent.mm.plugin.ext.entry: e752be8/com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry
+  com.yingyonghui.market.workmanager-init: 9324b8/com.yingyonghui.market/androidx.work.impl.WorkManagerInitializer
+  com.tencent.mm.plugin.ext.ExtContentProviderBase: 26164ec/com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase
+  com.tencent.mm.FacebookInitProvider: eb257cc/com.tencent.mm/com.facebook.internal.FacebookInitProvider
+  com.yingyonghui.market.provider: aead12a/com.yingyonghui.market/androidx.core.content.FileProvider
+  com.tencent.mm.external.fileprovider: d22157a/com.tencent.mm/android.support.v4.content.FileProvider
+  com.tencent.mm.ad.waid: 4d47089/com.tencent.mm/.plugin.sns.waid.WaidProvider
+  com.sprd.audioprofile: f90ba53/com.android.settings/com.sprd.audioprofile.AudioProfileSearchIndexablesProvider
+  com.sohu.inputmethod.sogou.apm.storage: 2f64988/com.sohu.inputmethod.sogou/com.sogou.apm.android.core.ApmProvider
+  com.tencent.mm.plugin.gwallet.queryprovider: 54be48/com.tencent.mm/.plugin.gwallet.GWalletQueryProvider
+  com.tencent.mm.plugin.lite.logic.LiteAppInfo: 9dc734a/com.tencent.mm/.plugin.lite.storage.LiteAppContentProvider
+  media: d26cc3a/com.android.providers.media/.MediaProvider
+  com.sohu.inputmethod.sogou.Plugin.NP.PSP: 44f2b2e/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderPersist
+  com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences: 955d88d/com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences
+  com.sohu.inputmethod.sogou.loader.p.pip: 4651e94/com.sohu.inputmethod.sogou/com.qihoo360.replugin.packages.PluginFastInstallProvider
+  downloads: 6ee7263/com.android.providers.downloads/.DownloadProvider
+  com.sohu.inputmethod.sogou.Plugin.NP.UIP: b52c1a0/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderUI
+  com.sohu.inputmethod.sogou.svcmanager: 83e8756/com.sohu.inputmethod.sogou/com.qihoo360.mobilesafe.svcmanager.ServiceProvider
+  com.android.settings.alarm: d866b66/com.android.settings/com.sprd.settings.timerpower.AlarmProvider
+  com.tencent.mm.storage.provider.emotion: f0003d5/com.tencent.mm/.plugin.emoji.provider.EmotionContentProvider
+  com.tencent.mm.sdk.comm.provider: 887c11e/com.tencent.mm/.plugin.base.stub.WXCommProvider
+  com.sohu.inputmethod.sogou.provider: b3ac30f/com.sohu.inputmethod.sogou/android.support.v4.content.FileProvider
+  com.tencent.mm.plugin.recordvideo.background.provider.WeSeeProvider: 575e3d8/com.tencent.mm/.plugin.recordvideo.background.provider.WeSeeProvider
+  com.tencent.mm.plugin.ext.message: 58dac2c/com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg
+  com.tencent.mm.AppForegroundDelegate.Provider: 44a0851/com.tencent.mm/.app.AppForegroundDelegate$Provider
+  com.jx.launcher.settings: d8a8c45/com.jx.launcher/.LauncherProvider
+  com.tencent.mm.provider.expansions: f4bd1bf/com.tencent.mm/.plugin.expansions.ExpansionsGlobal$CP
+  com.sprd.audioprofile.provider: 6d6f930/com.android.settings/com.sprd.audioprofile.AudioProfileProvider
+  com.sohu.inputmethod.sogou.updateSdk.fileProvider: 7e9d2d0/com.sohu.inputmethod.sogou/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+  com.jx.childlike.fileprovider: 2bb9a58/com.jx.childlike/android.support.v4.content.FileProvider
+  com.sohu.inputmethod.sogou.lifecycle-trojan: 51e8f19/com.sohu.inputmethod.sogou/android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+  com.google.android.packageinstaller.wear.provider: c1b76f4/com.android.packageinstaller/.wear.WearPackageIconProvider
+  com.spreadtrum.vowifi.accountsettings: af67a16/com.spreadtrum.vowifi/.conf.AccountSettingsProvider
+  com.tencent.mm.plugin.ext.NearBy: f89d9d2/com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy
+  com.tencent.mm.sdk.plugin.provider: 622c8a/com.tencent.mm/.plugin.base.stub.MMPluginProvider
+  com.android.systemui.fileprovider: 3f5cadb/com.android.systemui/android.support.v4.content.FileProvider
+  com.android.settings.files: 762a932/com.android.settings/android.support.v4.content.FileProvider
+  com.android.settings: 362a8af/com.android.settings/.search.SettingsSearchIndexablesProvider
+  com.yingyonghui.market.activity_lifecycle_monitor_init_provider: f257f54/com.yingyonghui.market/com.github.panpf.activity.monitor.ActivityLifecycleMonitorInitProvider
+  com.sohu.inputmethod.sogou.loader.p.mainN1: 6a7634/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderUI
+

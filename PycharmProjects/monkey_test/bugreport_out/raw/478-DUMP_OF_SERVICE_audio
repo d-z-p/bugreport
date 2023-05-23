@@ -1,0 +1,212 @@
+
+MediaFocusControl dump time: ??????5:52:06
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@354f666 -- pack: com.jx.childlike -- client: android.media.AudioManagerEx@30719a8com.jx.childlike.MainActivity$a@3c74cc1 -- gain: GAIN_TRANSIENT -- flags:  -- loss: none -- notified: true -- uid: 10074 -- attr: AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x0 tags= bundle=null -- sdk:27
+
+
+No external focus policy
+
+
+
+ Notify on duck:  true
+
+ In ring or call: false
+
+
+
+Audio event log: focus commands as seen by MediaFocusControl
+05-22 09:51:24:142 requestAudioFocus() from uid/pid 10074/2227 clientId=android.media.AudioManagerEx@30719a8com.jx.childlike.MainActivity$a@3c74cc1 callingPack=com.jx.childlike req=2 flags=0x0 sdk=27
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Min: 1
+   Max: 5
+   Current: 40000000 (default): 5
+   Devices: earpiece
+- STREAM_SYSTEM:
+   Muted: false
+   Min: 0
+   Max: 7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_RING:
+   Muted: false
+   Min: 0
+   Max: 7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_MUSIC:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 2, 4 (headset): 10, 8 (headphone): 10, 4000000 (usb_headset): 3, 40000000 (default): 15
+   Devices: speaker
+- STREAM_ALARM:
+   Muted: false
+   Min: 0
+   Max: 7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_NOTIFICATION:
+   Muted: false
+   Min: 0
+   Max: 7
+   Current: 2 (speaker): 4, 40000000 (default): 7
+   Devices: speaker
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 15
+   Devices: earpiece
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Min: 0
+   Max: 7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_DTMF:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 15, 40000000 (default): 15
+   Devices: speaker
+- STREAM_TTS:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 2, 4 (headset): 10, 8 (headphone): 10, 4000000 (usb_headset): 3, 40000000 (default): 15
+   Devices: speaker
+- STREAM_ACCESSIBILITY:
+   Muted: false
+   Min: 0
+   Max: 15
+   Current: 2 (speaker): 2, 4 (headset): 10, 8 (headphone): 10, 4000000 (usb_headset): 3, 40000000 (default): 15
+   Devices: speaker
+
+- mute affected streams = 0x2e
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- ringer mode affected streams = 0x126 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_DTMF)
+- ringer mode muted streams = 0x0
+- delegate = ZenModeHelper
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@725747f,mVisible=true)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_ACTIVE
+  mSafeMediaVolumeIndex=100
+  mSafeUsbMediaVolumeIndex=30
+  sIndependentA11yVolume=false
+  mPendingVolumeCommand=null
+  mMusicActiveMs=0
+  mMcc=0
+  mCameraSoundForced=true
+  mHasVibrator=true
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=true,volumeUpToExitSilent=true,doNotDisturbWhenSilent=true,vibrateToSilentDebounce=400]
+  mAvrcpAbsVolSupported=false
+
+Audio policies:
+
+PlaybackActivityMonitor dump time: ??????5:52:06
+
+  playback listeners:
+ (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@7242da7
+
+
+  players:
+  ID:23 -- type:android.media.SoundPool -- u/pid:10022/925 -- state:idle -- attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+  ID:39 -- type:android.media.SoundPool -- u/pid:10022/2363 -- state:idle -- attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x1 tags= bundle=null
+
+  ducked players piids:
+
+  muted player piids:
+
+  banned uids:
+
+Audio event log: playback activity as reported through PlayerBase
+01-01 00:07:24:632 new player piid:15 uid/pid:1000/622 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+01-01 00:07:25:299 new player piid:23 uid/pid:10022/925 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+01-01 00:07:26:338 new player piid:31 uid/pid:1000/1061 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+01-01 00:07:36:155 releasing player piid:31
+05-22 09:51:25:224 new player piid:39 uid/pid:10022/2363 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x1 tags= bundle=null
+05-22 09:51:25:641 player piid:39 state:started
+05-22 09:51:45:099 releasing player piid:15
+05-22 09:51:50:862 new player piid:47 uid/pid:1000/2898 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x0 tags= bundle=null
+05-22 09:51:53:338 player piid:39 state:started
+05-22 09:51:55:481 releasing player piid:47
+05-22 09:52:01:230 player piid:39 state:started
+
+RecordActivityMonitor dump time: ??????5:52:06
+
+
+
+Event logs:
+Audio event log: phone state (logged after successfull call to AudioSystem.setPhoneState(int))
+
+
+Audio event log: wired device connection (logged before onSetWiredDeviceConnectionState() is executed)
+
+
+Audio event log: force use (logged before setForceUse() is executed)
+01-01 00:07:23:150 setForceUse(FOR_SYSTEM, FORCE_SYSTEM_ENFORCED) due to AudioService ctor
+01-01 00:07:23:162 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+01-01 00:07:23:163 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+01-01 00:07:25:641 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to resetBluetoothSco
+01-01 00:07:25:641 setForceUse(FOR_RECORD, FORCE_NONE) due to resetBluetoothSco
+01-01 00:07:26:753 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+01-01 00:07:26:754 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+01-01 00:07:26:797 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+01-01 00:07:27:602 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to resetBluetoothSco
+01-01 00:07:27:602 setForceUse(FOR_RECORD, FORCE_NONE) due to resetBluetoothSco
+
+
+Audio event log: volume changes (logged when command received by AudioService)
+05-22 09:51:45:070 setStreamVolume(stream:STREAM_NOTIFICATION index:2 flags:0x0) from com.android.settings
+05-22 09:51:45:075 setStreamVolume(stream:STREAM_RING index:3 flags:0x0) from com.android.settings
+05-22 09:51:45:081 setStreamVolume(stream:STREAM_ALARM index:7 flags:0x0) from com.android.settings
+05-22 09:51:45:084 setStreamVolume(stream:STREAM_MUSIC index:0 flags:0x0) from com.android.settings
+05-22 09:51:45:167 setStreamVolume(stream:STREAM_NOTIFICATION index:2 flags:0x0) from com.android.settings
+05-22 09:51:45:168 setStreamVolume(stream:STREAM_RING index:3 flags:0x0) from com.android.settings
+05-22 09:51:45:172 setStreamVolume(stream:STREAM_ALARM index:7 flags:0x0) from com.android.settings
+05-22 09:51:45:174 setStreamVolume(stream:STREAM_MUSIC index:0 flags:0x0) from com.android.settings
+05-22 09:51:49:025 setStreamVolume(stream:STREAM_MUSIC index:3 flags:0x0) from com.android.systemui
+05-22 09:51:49:031 setStreamVolume(stream:STREAM_MUSIC index:5 flags:0x0) from com.android.systemui
+05-22 09:51:49:585 setStreamVolume(stream:STREAM_ALARM index:1 flags:0x0) from com.android.systemui
+05-22 09:51:49:598 setStreamVolume(stream:STREAM_ALARM index:5 flags:0x0) from com.android.systemui
+05-22 09:51:49:777 setStreamVolume(stream:STREAM_RING index:4 flags:0x0) from com.android.systemui
+05-22 09:51:49:885 setStreamVolume(stream:STREAM_MUSIC index:11 flags:0x0) from com.android.systemui
+05-22 09:51:49:903 setStreamVolume(stream:STREAM_NOTIFICATION index:3 flags:0x0) from com.android.systemui
+05-22 09:51:49:925 setStreamVolume(stream:STREAM_MUSIC index:3 flags:0x0) from com.android.systemui
+05-22 09:51:49:941 setStreamVolume(stream:STREAM_MUSIC index:2 flags:0x0) from com.android.systemui
+05-22 09:51:49:990 setStreamVolume(stream:STREAM_ALARM index:6 flags:0x0) from com.android.systemui
+05-22 09:51:50:004 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+05-22 09:51:50:258 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+05-22 09:51:50:802 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+05-22 09:51:50:952 setStreamVolume(stream:STREAM_RING index:6 flags:0x0) from com.android.systemui
+05-22 09:51:51:030 setStreamVolume(stream:STREAM_RING index:7 flags:0x0) from com.android.systemui
+05-22 09:51:51:147 setStreamVolume(stream:STREAM_NOTIFICATION index:3 flags:0x0) from com.android.settings
+05-22 09:51:51:173 setStreamVolume(stream:STREAM_NOTIFICATION index:1 flags:0x0) from com.android.systemui
+05-22 09:51:51:176 setStreamVolume(stream:STREAM_NOTIFICATION index:2 flags:0x0) from com.android.systemui
+05-22 09:51:51:178 setStreamVolume(stream:STREAM_NOTIFICATION index:1 flags:0x0) from com.android.systemui
+05-22 09:51:51:217 setStreamVolume(stream:STREAM_RING index:7 flags:0x0) from com.android.settings
+05-22 09:51:51:225 setStreamVolume(stream:STREAM_ALARM index:7 flags:0x0) from com.android.settings
+05-22 09:51:51:233 setStreamVolume(stream:STREAM_MUSIC index:2 flags:0x0) from com.android.settings
+05-22 09:51:51:378 setStreamVolume(stream:STREAM_NOTIFICATION index:1 flags:0x0) from com.android.settings
+05-22 09:51:51:388 setStreamVolume(stream:STREAM_RING index:7 flags:0x0) from com.android.settings
+05-22 09:51:51:401 setStreamVolume(stream:STREAM_ALARM index:7 flags:0x0) from com.android.settings
+05-22 09:51:51:412 setStreamVolume(stream:STREAM_MUSIC index:2 flags:0x0) from com.android.settings
+05-22 09:51:52:448 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+05-22 09:51:52:640 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+05-22 09:51:52:724 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+05-22 09:51:53:333 setStreamVolume(stream:STREAM_NOTIFICATION index:3 flags:0x0) from com.android.systemui
+05-22 09:52:05:894 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_RAISE flags:0x1011) from android/MediaSessionService uid:1000
+05-22 09:52:06:258 adjustSuggestedStreamVolume(sugg:USE_DEFAULT_STREAM_TYPE dir:ADJUST_SAME flags:0x1014) from android/MediaSessionService uid:1000
+--------- 0.029s was the duration of dumpsys audio, ending at: 2023-05-22 17:52:06

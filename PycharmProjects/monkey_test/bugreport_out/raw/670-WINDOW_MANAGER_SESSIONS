@@ -1,0 +1,55 @@
+  Session Session{c602ff 7184:u0a10010}:
+    mNumWindow=2 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@f51fec
+    mPackageName=com.android.documentsui
+  Session Session{2a34211 8668:1000}:
+    mNumWindow=2 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@3bb4674
+    mPackageName=com.jx.launcher
+  Session Session{3d7be98 10264:u0a10022}:
+    mNumWindow=0 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@7ec879d
+    mPackageName=com.android.packageinstaller
+  Session Session{3d9ffa0 8117:1000}:
+    mNumWindow=2 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@175c412
+    mPackageName=com.zmapp.album
+  Session Session{51b971a 9144:u0a10047}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@8ce27e3
+    mPackageName=com.sprd.fileexplorer
+  Session Session{5a0a991 9929:u0a10054}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@c8055e0
+    mPackageName=com.android.music
+  Session Session{613a829 10764:1000}:
+    mNumWindow=0 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@80f0099
+    mPackageName=com.jx.watchos.setting
+  Session Session{66a3793 3369:1000}:
+    mNumWindow=1 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@e0109bb
+    mPackageName=null
+  Session Session{700fadb 9764:1000}:
+    mNumWindow=2 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@fe80f5e
+    mPackageName=com.goodix.health
+  Session Session{a48344d 11082:1000}:
+    mNumWindow=0 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@b315f3f
+    mPackageName=com.divo.phone
+  Session Session{a617e17 8052:u0a10070}:
+    mNumWindow=2 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@8c4f00c
+    mPackageName=com.android.calendar
+  Session Session{aa7fd44 4340:1000}:
+    mNumWindow=7 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@799231
+    mPackageName=com.android.settings
+  Session Session{b8750c8 10465:1000}:
+    mNumWindow=3 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@2460d55
+    mPackageName=com.jx.watchos.contact
+  Session Session{da0b8cd 9033:1000}:
+    mNumWindow=1 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@4a1c36a
+    mPackageName=com.android.deskclock
+  Session Session{daa4bbd 8961:u0a10080}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@66b05b
+    mPackageName=com.jx.inputmethod.pinyin
+  Session Session{dbbabdd 4923:u0a10088}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@1345d16
+    mPackageName=com.sohu.inputmethod.sogou
+  Session Session{f190e28 8762:1000}:
+    mNumWindow=1 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@6d700f8
+    mPackageName=com.zmapp.sms
+  Session Session{f9303c6 4188:u0a10020}:
+    mNumWindow=4 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@924206d
+    mPackageName=com.android.systemui
+

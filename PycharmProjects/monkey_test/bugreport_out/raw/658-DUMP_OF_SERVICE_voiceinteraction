@@ -1,0 +1,4 @@
+VOICE INTERACTION MANAGER (dumpsys voiceinteraction)
+  mEnableService: true
+  (No active implementation)
+--------- 0.002s was the duration of dumpsys voiceinteraction, ending at: 2023-05-18 12:38:59

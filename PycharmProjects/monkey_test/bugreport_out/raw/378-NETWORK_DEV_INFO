@@ -1,0 +1,17 @@
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+seth_lte0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+seth_lte5:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ wlan0:  166167    2344    0    0    0     0          0         0    12380     111    0    0    0     0       0          0
+seth_lte2:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+  sit0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+dummy0:       0       0    0    0    0     0          0         0      560       8    0    0    0     0       0          0
+seth_lte7:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+vowifi_tun0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+seth_lte4:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+    lo:    7488      96    0    0    0     0          0         0     7488      96    0    0    0     0       0          0
+seth_lte1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+seth_lte6:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ip6tnl0:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+seth_lte3:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+

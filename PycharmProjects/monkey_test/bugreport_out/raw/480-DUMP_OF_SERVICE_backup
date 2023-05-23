@@ -1,0 +1,113 @@
+Backup Manager is disabled / provisioned / not pending init
+Auto-restore is enabled
+Last backup pass started: 0 (now = 1684749126603)
+  next scheduled: 1546315729674
+Transport whitelist:
+    android/com.android.internal.backup.LocalTransportService
+Available transports:
+  * android/com.android.internal.backup.LocalTransport
+       destination: Backing up to debug-only private cache
+       intent: null
+Pending init: 0
+Ancestral: 0
+Current:   0
+Participants:
+  uid: 1000
+    com.android.providers.settings
+    android
+  uid: 10002
+    com.android.providers.blockednumber
+    com.android.calllogbackup
+    com.android.providers.userdictionary
+  uid: 10006
+    com.android.cellbroadcastreceiver
+  uid: 10008
+    com.android.documentsui
+  uid: 10018
+    com.android.sharedstoragebackup
+  uid: 10060
+    com.android.browser
+  uid: 10061
+    com.android.calendar
+Ancestral packages: none
+Ever backed up: 0
+Pending key/value backup: 11
+    BackupRequest{pkg=com.android.providers.blockednumber}
+    BackupRequest{pkg=com.android.providers.settings}
+    BackupRequest{pkg=com.android.sharedstoragebackup}
+    BackupRequest{pkg=com.android.documentsui}
+    BackupRequest{pkg=android}
+    BackupRequest{pkg=com.android.calllogbackup}
+    BackupRequest{pkg=com.android.calendar}
+    BackupRequest{pkg=com.android.providers.userdictionary}
+    BackupRequest{pkg=com.android.browser}
+    BackupRequest{pkg=@pm@}
+    BackupRequest{pkg=com.android.cellbroadcastreceiver}
+Full backup queue:66
+    0 : com.android.cts.priv.ctsshim
+    0 : com.android.providers.telephony
+    0 : com.zmapp.chat
+    0 : plugin.sprd.supportcpversion
+    0 : plugin.sprd.wakeupScreen
+    0 : com.android.externalstorage
+    0 : com.android.htmlviewer
+    0 : com.sprd.telecom.ringbackTonePlugin
+    0 : com.jx.inputmethod.pinyin
+    0 : com.android.soundrecorder
+    0 : plugin.sprd.contactsdefaultcontact
+    0 : plugin.sprd.simlock
+    0 : com.android.providers.downloads.ui
+    0 : com.android.pacprocessor
+    0 : plugin.sprd.supportForFastScrollBar
+    0 : com.android.mtp
+    0 : plugin.sprd.contactsEFDisplay
+    0 : addon.sprd.downloadprovider
+    0 : com.android.provision
+    0 : com.android.messaging.smilplayer
+    0 : com.android.systemui.theme.dark
+    0 : plugin.sprd.pickUpToAnswerIncomingCall
+    0 : plugin.sprd.shakePhoneToStartRecording
+    0 : com.android.webview
+    0 : plugin.sprd.flipToMute
+    0 : plugin.sprd.otaupdate
+    0 : plugin.sprd.speakerToHeadset
+    0 : addon.sprd.documentsui.plugindrm
+    0 : com.android.mmsfolderview
+    0 : com.android.onetimeinitializer
+    0 : com.ztapp.callbyvideo
+    0 : plugin.sprd.supportapnsettings
+    0 : com.sprd.uasetting
+    0 : com.android.dialer
+    0 : com.android.gallery3d
+    0 : com.ss.android.ugc.aweme
+    0 : com.jx.childlike
+    0 : android.ext.services
+    0 : com.android.carrierdefaultapp
+    0 : com.android.proxyhandler
+    0 : addon.sprd.browser.storage
+    0 : plugin.sprd.maxRingingVolumeAndVibrate
+    0 : plugin.sprdst.contactsblacklist
+    0 : com.android.managedprovisioning
+    0 : com.sprd.cellbroadcastreceiver
+    0 : com.android.appsfolder
+    0 : com.jx.market
+    0 : plugin.sprd.pressbrightness
+    0 : addon.sprd.browser.plugindrm
+    0 : com.android.cts.ctsshim
+    0 : com.zmapp.plugin.addfriend
+    0 : plugin.sprd.fadeDownRingtoneToVibrate
+    0 : com.jx.timer
+    0 : com.ztapp.themestore
+    0 : addon.sprd.browser.custom
+    0 : com.android.music
+    0 : com.android.emergency
+    0 : com.android.deskclock
+    0 : com.android.bluetoothmidiservice
+    0 : plugin.sprd.vodafonefeatures
+    0 : cn.heils.faceunlock
+    0 : com.android.modemnotifier
+    0 : com.sprd.recents
+    0 : com.android.captiveportallogin
+    0 : plugin.sprd.limitinfolength
+    1684749081378 : com.example.demo1
+--------- 0.018s was the duration of dumpsys backup, ending at: 2023-05-22 17:52:06

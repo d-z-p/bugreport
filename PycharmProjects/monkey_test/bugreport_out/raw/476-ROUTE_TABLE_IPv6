@@ -1,0 +1,2 @@
+fe80::/64 dev dummy0  proto kernel  metric 256  pref medium
+default dev dummy0  proto static  metric 1024  pref medium

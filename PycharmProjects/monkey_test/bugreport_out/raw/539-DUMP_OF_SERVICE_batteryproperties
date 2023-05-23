@@ -1,0 +1,9 @@
+ac: 0 usb: 1 wireless: 0 current_max: 500000 voltage_max: 5000000
+status: 2 health: 2 present: 1
+level: 99 voltage: 4262 temp: 231
+current now: -175000
+current avg: -175000
+charge counter: 891000
+current now: -257
+Full charge: 900000
+--------- 0.005s was the duration of dumpsys batteryproperties, ending at: 2023-05-18 12:38:56

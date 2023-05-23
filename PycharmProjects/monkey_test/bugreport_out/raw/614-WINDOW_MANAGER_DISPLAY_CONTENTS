@@ -1,0 +1,362 @@
+  Display: mDisplayId=0
+    init=240x240 120dpi cur=240x240 app=240x240 rng=240x239-240x239
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,240,240))
+
+  Application tokens in top down Z order:
+    mStackId=1
+    mDeferRemoval=false
+    mFillsParent=true
+    mBounds=[0,0][240,240]
+      taskId=10
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{3b4a7ab token=Token{8865697 ActivityRecord{136d16 u0 com.jx.childlike/.MainActivity t10}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{3b4a7ab token=Token{8865697 ActivityRecord{136d16 u0 com.jx.childlike/.MainActivity t10}}}
+          windows=[Window{e97bc02 u0 com.jx.childlike/com.jx.childlike.MainActivity}]
+          windowType=2 hidden=false hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=10
+           mFillsParent=true mOrientation=1
+          hiddenRequested=false mClientHidden=false reportedDrawn=true reportedVisible=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{8865697 ActivityRecord{136d16 u0 com.jx.childlike/.MainActivity t10}} mContainer=AppWindowToken{3b4a7ab token=Token{8865697 ActivityRecord{136d16 u0 com.jx.childlike/.MainActivity t10}}} mListener=ActivityRecord{136d16 u0 com.jx.childlike/.MainActivity t10}}
+      taskId=13
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{8209f79 token=Token{8a7d5c5 ActivityRecord{947d43c u0 com.ztapp.callbyvideo/.activities.MainActivity t13}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{8209f79 token=Token{8a7d5c5 ActivityRecord{947d43c u0 com.ztapp.callbyvideo/.activities.MainActivity t13}}}
+          windows=[]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=13
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          controller=AppWindowContainerController{ token=Token{8a7d5c5 ActivityRecord{947d43c u0 com.ztapp.callbyvideo/.activities.MainActivity t13}} mContainer=AppWindowToken{8209f79 token=Token{8a7d5c5 ActivityRecord{947d43c u0 com.ztapp.callbyvideo/.activities.MainActivity t13}}} mListener=ActivityRecord{947d43c u0 com.ztapp.callbyvideo/.activities.MainActivity t13}}
+      taskId=28
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{15adecc token=Token{f7dcf59 ActivityRecord{bc227a0 u0 com.jx.market/.ui.SplashActivity t28}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{15adecc token=Token{f7dcf59 ActivityRecord{bc227a0 u0 com.jx.market/.ui.SplashActivity t28}}}
+          windows=[]
+          windowType=2 hidden=true hasVisible=false
+          app=true mVoiceInteraction=false
+          task=Task=28
+           mFillsParent=false mOrientation=-1
+          hiddenRequested=true mClientHidden=false reportedDrawn=false reportedVisible=false
+          controller=AppWindowContainerController{ token=Token{f7dcf59 ActivityRecord{bc227a0 u0 com.jx.market/.ui.SplashActivity t28}} mContainer=AppWindowToken{15adecc token=Token{f7dcf59 ActivityRecord{bc227a0 u0 com.jx.market/.ui.SplashActivity t28}}} mListener=ActivityRecord{bc227a0 u0 com.jx.market/.ui.SplashActivity t28}}
+      taskId=26
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{96f337b token=Token{4ed375 ActivityRecord{d3a7aac u0 com.zmapp.plugin.addfriend/.activity.MainActivity t26}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{96f337b token=Token{4ed375 ActivityRecord{d3a7aac u0 com.zmapp.plugin.addfriend/.activity.MainActivity t26}}}
+          windows=[Window{976eba5 u0 com.zmapp.plugin.addfriend/com.zmapp.plugin.addfriend.activity.MainActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=26
+           mFillsParent=false mOrientation=-1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{4ed375 ActivityRecord{d3a7aac u0 com.zmapp.plugin.addfriend/.activity.MainActivity t26}} mContainer=AppWindowToken{96f337b token=Token{4ed375 ActivityRecord{d3a7aac u0 com.zmapp.plugin.addfriend/.activity.MainActivity t26}}} mListener=ActivityRecord{d3a7aac u0 com.zmapp.plugin.addfriend/.activity.MainActivity t26}}
+      taskId=25
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{1b35b53 token=Token{d25b60 ActivityRecord{1b6d363 u0 com.zmapp.chat/.activity.MainActivity t25}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{1b35b53 token=Token{d25b60 ActivityRecord{1b6d363 u0 com.zmapp.chat/.activity.MainActivity t25}}}
+          windows=[Window{44f467f u0 com.zmapp.chat/com.zmapp.chat.activity.MainActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=25
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mNumInterestingWindows=2 mNumDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{d25b60 ActivityRecord{1b6d363 u0 com.zmapp.chat/.activity.MainActivity t25}} mContainer=AppWindowToken{1b35b53 token=Token{d25b60 ActivityRecord{1b6d363 u0 com.zmapp.chat/.activity.MainActivity t25}}} mListener=ActivityRecord{1b6d363 u0 com.zmapp.chat/.activity.MainActivity t25}}
+      taskId=21
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{587bb3a token=Token{b00f5c ActivityRecord{18329cf u0 com.tencent.mm/.ui.LauncherUI t21}}}, AppWindowToken{66ae5b1 token=Token{c4cd2b6 ActivityRecord{5b9da51 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}}, AppWindowToken{adbe990 token=Token{6f0ca8d ActivityRecord{94bff24 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}}, AppWindowToken{6a2b520 token=Token{908c152 ActivityRecord{6a431dd u0 com.tencent.mm/.plugin.account.ui.RegByMobileRegAIOUI t21}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #3 AppWindowToken{6a2b520 token=Token{908c152 ActivityRecord{6a431dd u0 com.tencent.mm/.plugin.account.ui.RegByMobileRegAIOUI t21}}}
+          windows=[Window{36b50b2 u0 com.tencent.mm/com.tencent.mm.plugin.account.ui.RegByMobileRegAIOUI}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=21
+           mFillsParent=false mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{908c152 ActivityRecord{6a431dd u0 com.tencent.mm/.plugin.account.ui.RegByMobileRegAIOUI t21}} mContainer=AppWindowToken{6a2b520 token=Token{908c152 ActivityRecord{6a431dd u0 com.tencent.mm/.plugin.account.ui.RegByMobileRegAIOUI t21}}} mListener=ActivityRecord{6a431dd u0 com.tencent.mm/.plugin.account.ui.RegByMobileRegAIOUI t21}}
+          Activity #2 AppWindowToken{adbe990 token=Token{6f0ca8d ActivityRecord{94bff24 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}}
+          windows=[Window{fb7c2b5 u0 com.tencent.mm/com.tencent.mm.plugin.account.ui.WelcomeActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=21
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{6f0ca8d ActivityRecord{94bff24 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}} mContainer=AppWindowToken{adbe990 token=Token{6f0ca8d ActivityRecord{94bff24 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}} mListener=ActivityRecord{94bff24 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}
+          Activity #1 AppWindowToken{66ae5b1 token=Token{c4cd2b6 ActivityRecord{5b9da51 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}}
+          windows=[]
+          windowType=2 hidden=true hasVisible=false
+          app=true mVoiceInteraction=false
+          task=Task=21
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=false reportedDrawn=false reportedVisible=false
+          controller=AppWindowContainerController{ token=Token{c4cd2b6 ActivityRecord{5b9da51 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}} mContainer=AppWindowToken{66ae5b1 token=Token{c4cd2b6 ActivityRecord{5b9da51 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}} mListener=ActivityRecord{5b9da51 u0 com.tencent.mm/.plugin.account.ui.WelcomeActivity t21}}
+          Activity #0 AppWindowToken{587bb3a token=Token{b00f5c ActivityRecord{18329cf u0 com.tencent.mm/.ui.LauncherUI t21}}}
+          windows=[Window{db1fc53 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=21
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{b00f5c ActivityRecord{18329cf u0 com.tencent.mm/.ui.LauncherUI t21}} mContainer=AppWindowToken{587bb3a token=Token{b00f5c ActivityRecord{18329cf u0 com.tencent.mm/.ui.LauncherUI t21}}} mListener=ActivityRecord{18329cf u0 com.tencent.mm/.ui.LauncherUI t21}}
+      taskId=15
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{f8ba6e4 token=Token{b4369d9 ActivityRecord{c0b9c20 u0 com.yingyonghui.market/.ui.MainActivity t15}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{f8ba6e4 token=Token{b4369d9 ActivityRecord{c0b9c20 u0 com.yingyonghui.market/.ui.MainActivity t15}}}
+          windows=[Window{e6ceeac u0 com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}, Window{880c515 u0 com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=15
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=2 mNumDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{b4369d9 ActivityRecord{c0b9c20 u0 com.yingyonghui.market/.ui.MainActivity t15}} mContainer=AppWindowToken{f8ba6e4 token=Token{b4369d9 ActivityRecord{c0b9c20 u0 com.yingyonghui.market/.ui.MainActivity t15}}} mListener=ActivityRecord{c0b9c20 u0 com.yingyonghui.market/.ui.MainActivity t15}}
+      taskId=18
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{461839a token=Token{16ac8bc ActivityRecord{9b96caf u0 com.jx.launcher/.Launcher t18}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{461839a token=Token{16ac8bc ActivityRecord{9b96caf u0 com.jx.launcher/.Launcher t18}}}
+          windows=[Window{d94ca9e u0 com.jx.launcher/com.jx.launcher.Launcher}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=18
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{16ac8bc ActivityRecord{9b96caf u0 com.jx.launcher/.Launcher t18}} mContainer=AppWindowToken{461839a token=Token{16ac8bc ActivityRecord{9b96caf u0 com.jx.launcher/.Launcher t18}}} mListener=ActivityRecord{9b96caf u0 com.jx.launcher/.Launcher t18}}
+      taskId=17
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{3ab4af5 token=Token{46e7ca6 ActivityRecord{713601 u0 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity t17}}}, AppWindowToken{ecd121d token=Token{3ccd4c7 ActivityRecord{9694606 u0 com.example.demo1/com.example.plokmju.activity.LoginActivity t17}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #1 AppWindowToken{ecd121d token=Token{3ccd4c7 ActivityRecord{9694606 u0 com.example.demo1/com.example.plokmju.activity.LoginActivity t17}}}
+          windows=[Window{4dd0fde u0 com.example.demo1/com.example.plokmju.activity.LoginActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=17
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=2 mNumDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{3ccd4c7 ActivityRecord{9694606 u0 com.example.demo1/com.example.plokmju.activity.LoginActivity t17}} mContainer=AppWindowToken{ecd121d token=Token{3ccd4c7 ActivityRecord{9694606 u0 com.example.demo1/com.example.plokmju.activity.LoginActivity t17}}} mListener=ActivityRecord{9694606 u0 com.example.demo1/com.example.plokmju.activity.LoginActivity t17}}
+          Activity #0 AppWindowToken{3ab4af5 token=Token{46e7ca6 ActivityRecord{713601 u0 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity t17}}}
+          windows=[Window{5165acf u0 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=17
+           mFillsParent=true mOrientation=-1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{46e7ca6 ActivityRecord{713601 u0 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity t17}} mContainer=AppWindowToken{3ab4af5 token=Token{46e7ca6 ActivityRecord{713601 u0 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity t17}}} mListener=ActivityRecord{713601 u0 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity t17}}
+      taskId=14
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{11e8018 token=Token{7b70f94 ActivityRecord{cf1a7e7 u0 com.zmapp.sms/.MainActivity t14}}}, AppWindowToken{a277c19 token=Token{9078f60 ActivityRecord{9705763 u0 com.zmapp.sms/.NewSmsActivity t14}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #1 AppWindowToken{a277c19 token=Token{9078f60 ActivityRecord{9705763 u0 com.zmapp.sms/.NewSmsActivity t14}}}
+          windows=[Window{b0b71b6 u0 com.zmapp.sms/com.zmapp.sms.NewSmsActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=14
+           mFillsParent=false mOrientation=-1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=2 mNumDrawnWindows=2 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{9078f60 ActivityRecord{9705763 u0 com.zmapp.sms/.NewSmsActivity t14}} mContainer=AppWindowToken{a277c19 token=Token{9078f60 ActivityRecord{9705763 u0 com.zmapp.sms/.NewSmsActivity t14}}} mListener=ActivityRecord{9705763 u0 com.zmapp.sms/.NewSmsActivity t14}}
+          Activity #0 AppWindowToken{11e8018 token=Token{7b70f94 ActivityRecord{cf1a7e7 u0 com.zmapp.sms/.MainActivity t14}}}
+          windows=[Window{cef053a u0 com.zmapp.sms/com.zmapp.sms.MainActivity}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=14
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{7b70f94 ActivityRecord{cf1a7e7 u0 com.zmapp.sms/.MainActivity t14}} mContainer=AppWindowToken{11e8018 token=Token{7b70f94 ActivityRecord{cf1a7e7 u0 com.zmapp.sms/.MainActivity t14}}} mListener=ActivityRecord{cf1a7e7 u0 com.zmapp.sms/.MainActivity t14}}
+      taskId=9
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{ca75865 token=Token{4ac79c4 ActivityRecord{eee9cd7 u0 com.android.settings/.Settings2 t9}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{ca75865 token=Token{4ac79c4 ActivityRecord{eee9cd7 u0 com.android.settings/.Settings2 t9}}}
+          windows=[]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=9
+           mFillsParent=true mOrientation=-1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=false (animator=false)
+          controller=AppWindowContainerController{ token=Token{4ac79c4 ActivityRecord{eee9cd7 u0 com.android.settings/.Settings2 t9}} mContainer=AppWindowToken{ca75865 token=Token{4ac79c4 ActivityRecord{eee9cd7 u0 com.android.settings/.Settings2 t9}}} mListener=ActivityRecord{eee9cd7 u0 com.android.settings/.Settings2 t9}}
+    mStackId=0
+    mDeferRemoval=false
+    mFillsParent=true
+    mBounds=[0,0][240,240]
+      taskId=4
+        mFillsParent=true
+        mBounds=[0,0][240,240]
+        mdr=false
+        appTokens=[AppWindowToken{ad2acfe token=Token{a9e1280 ActivityRecord{6507303 u0 com.jx.launcher/.Launcher t4}}}]
+        mTempInsetBounds=[0,0][0,0]
+          Activity #0 AppWindowToken{ad2acfe token=Token{a9e1280 ActivityRecord{6507303 u0 com.jx.launcher/.Launcher t4}}}
+          windows=[Window{291729e u0 com.jx.launcher/com.jx.launcher.Launcher}]
+          windowType=2 hidden=true hasVisible=true
+          app=true mVoiceInteraction=false
+          task=Task=4
+           mFillsParent=true mOrientation=1
+          hiddenRequested=true mClientHidden=true reportedDrawn=false reportedVisible=false
+          mAppStopped=true
+          mNumInterestingWindows=1 mNumDrawnWindows=1 inPendingTransaction=false allDrawn=true (animator=true)
+          startingData=null removed=false firstWindowDrawn=true mIsExiting=false
+          controller=AppWindowContainerController{ token=Token{a9e1280 ActivityRecord{6507303 u0 com.jx.launcher/.Launcher t4}} mContainer=AppWindowToken{ad2acfe token=Token{a9e1280 ActivityRecord{6507303 u0 com.jx.launcher/.Launcher t4}}} mListener=ActivityRecord{6507303 u0 com.jx.launcher/.Launcher t4}}
+
+
+  DimLayerController
+    Task=26
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=10
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=9
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Stack=1
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=14
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=21
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=18
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941204
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=15
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=25
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=17
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=4
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=13
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Task=28
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+    Stack=0
+      dimLayer=shared, animator=null, continueDimming=false
+      mDimSurface=Surface(name=DimLayerController/Stack=0) mLayer=21044 mAlpha=0.0
+      mLastBounds=[-60,-60][300,300] mBounds=[-60,-60][300,300]
+      Last animation:  mDuration=200 mStartTime=918114 curTime=941205
+       mStartAlpha=0.6 mTargetAlpha=0.0
+
+  DockedStackDividerController
+    mLastVisibility=false
+    mMinimizedDock=false
+    mAdjustedForIme=false
+    mAdjustedForDivider=false
+
+  PinnedStackController
+    defaultBounds=[84,147][228,228]
+    movementBounds=[12,13][228,228]
+    mIsImeShowing=false
+    mIsMinimized=false
+    mActions=[]
+

@@ -1,0 +1,8 @@
+ 3 registered handlers:
+  67: <stale>
+  69: <stale>
+  71: <stale>
+ No media recorder client
+
+ Files opened and/or mapped:
+--------- 0.006s was the duration of dumpsys media.player, ending at: 2023-05-18 12:38:57

@@ -1,0 +1,6 @@
+ConnectivityMetricsEvent(12:35:12.046): NetworkEvent(100, NETWORK_CONNECTED, 0ms)
+ConnectivityMetricsEvent(12:35:12.075): NetworkEvent(100, NETWORK_FIRST_VALIDATION_SUCCESS, 29ms)
+ConnectivityMetricsEvent(12:35:12.121): DefaultNetworkEvent(0 -> 100:CELLULAR)
+ConnectStats(100, CELLULAR, 327 success, 37 blocking, 255 IPv6 dst, EAFNOSUPPORT: 8)
+DnsEvent(100, CELLULAR, 194 events)
+--------- 0.005s was the duration of dumpsys connmetrics, ending at: 2023-05-18 12:38:56

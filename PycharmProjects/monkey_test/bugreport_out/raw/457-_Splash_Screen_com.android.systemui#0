@@ -1,0 +1,30 @@
+       22075 |     Client |    0    0  240  240 |    0.0    0.0  240.0  240.0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ navbackleft#0
+      281000 |     Client |    0   42    5  240 |    0.0    0.0    5.0  198.0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+h/w composer state:
+  h/w composer enabled
+Allocated buffers:
+0xb1dbd540:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0x1a00 | FramebufferSurface
+0xb1dbd600:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0x1a00 | FramebufferSurface
+0xb1dbd6c0:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0x1a00 | FramebufferSurface
+0xb1dbd900:  225.00 KiB |  240 ( 240) x  240 |    1 |        2 | 0x933 | com.android.systemui.ImageWallpaper#0
+0xb1dbd9c0: 1601.25 KiB |  480 ( 480) x  854 |    1 |        2 | 0x933 | com.android.systemui.ImageWallpaper#0
+0xb1dbdcc0:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0xb00 | com.zmapp.chat/com.zmapp.chat.activity.MainActivity#0
+0xb1dbdd80:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0xb00 | com.zmapp.chat/com.zmapp.chat.activity.MainActivity#0
+0xb1dbde40:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0xb00 | com.zmapp.chat/com.zmapp.chat.activity.MainActivity#0
+0xb1dbdfc0:   16.88 KiB |  240 ( 240) x   18 |    1 |        1 | 0xb00 | StatusBar#0
+0xb1dbe080:   16.88 KiB |  240 ( 240) x   18 |    1 |        1 | 0xb00 | StatusBar#0
+0xb1dbe140:   16.88 KiB |  240 ( 240) x   18 |    1 |        1 | 0xb00 | StatusBar#0
+0xb1dbe380:   15.00 KiB |    5 (  16) x  240 |    1 |        1 | 0xb00 | navbackleft#0
+0xb1dbe500:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0xb00 | PopupWindow:c05a0b9#0
+0xb1dbe5c0:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0xb00 | PopupWindow:c05a0b9#0
+0xb1dbe800:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0x933 | Splash Screen com.android.systemui#0
+0xb1dbe8c0:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0x900 | com.android.systemui/com.android.systemui.NoNetAlertActivity#0
+0xb1dbe980:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0x900 | com.android.systemui/com.android.systemui.NoNetAlertActivity#0
+0xb1dbea40:  225.00 KiB |  240 ( 240) x  240 |    1 |        1 | 0xb00 | com.android.systemui/com.android.systemui.NoNetAlertActivity#0
+0xb1dbeb00:  127.12 KiB |  288 ( 288) x  113 |    1 |        1 | 0x900 | 
+Total allocated (estimate): 4719.00 KB
+--------- 0.010s was the duration of dumpsys SurfaceFlinger, ending at: 2023-05-22 17:52:06

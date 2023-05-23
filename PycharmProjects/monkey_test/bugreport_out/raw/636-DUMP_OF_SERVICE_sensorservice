@@ -1,0 +1,299 @@
+Sensor Device:
+Total 4 h/w sensors, 4 running:
+0x00000000) active-count = 1; sampling_period(ms) = {66.7}, selected = 66.67 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x00000005) active-count = 3; sampling_period(ms) = {200.0, 200.0, 200.0}, selected = 200.00 ms; batching_period(ms) = {0.0, 0.0, 0.0}, selected = 0.00 ms
+Sensor List:
+0000000000) ST Xr 3-axis Accelerometer | ST              | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x00000003) Light Sensor              | NULL            | ver: 0 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | 
+0x00000004) Proximity Sensor          | NULL            | ver: 0 | type: android.sensor.proximity(8) | perm: n/a | flags: 0x00000003
+	on-change | maxDelay=0us | minDelay=0us | no batching | wakeUp | 
+0x00000005) NULL Sensor               | Null            | ver: 0 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | 
+0x5f676172) Game Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x5f677276) Gravity Sensor            | AOSP            | ver: 3 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=100.00Hz | no batching | non-wakeUp | 
+Fusion States:
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+game fusion(no mag) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+geomag fusion (no gyro) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+Recent Sensor events:
+ST Xr 3-axis Accelerometer: last 50 events
+	 1 (ts=374.770354000, wall=12:38:58.357) 0.91, -2.38, 8.87, 
+	 2 (ts=374.790337000, wall=12:38:58.377) 0.91, -2.38, 8.89, 
+	 3 (ts=374.811096000, wall=12:38:58.397) 0.92, -2.36, 8.91, 
+	 4 (ts=374.830414000, wall=12:38:58.417) 0.92, -2.34, 8.90, 
+	 5 (ts=374.851084000, wall=12:38:58.437) 0.91, -2.34, 8.89, 
+	 6 (ts=374.870430000, wall=12:38:58.457) 0.91, -2.35, 8.89, 
+	 7 (ts=374.891071000, wall=12:38:58.478) 0.90, -2.35, 8.88, 
+	 8 (ts=374.910480000, wall=12:38:58.497) 0.89, -2.37, 8.89, 
+	 9 (ts=374.950412000, wall=12:38:58.537) 0.91, -2.38, 8.92, 
+	10 (ts=374.971527000, wall=12:38:58.558) 0.92, -2.39, 8.92, 
+	11 (ts=374.990384000, wall=12:38:58.577) 0.94, -2.38, 8.93, 
+	12 (ts=375.012433000, wall=12:38:58.599) 0.93, -2.38, 8.93, 
+	13 (ts=375.030607000, wall=12:38:58.617) 0.92, -2.38, 8.90, 
+	14 (ts=375.050408000, wall=12:38:58.637) 0.92, -2.36, 8.91, 
+	15 (ts=375.070417000, wall=12:38:58.657) 0.90, -2.35, 8.89, 
+	16 (ts=375.090640000, wall=12:38:58.677) 0.90, -2.34, 8.88, 
+	17 (ts=375.130407000, wall=12:38:58.717) 0.89, -2.35, 8.88, 
+	18 (ts=375.161044000, wall=12:38:58.747) 0.91, -2.36, 8.88, 
+	19 (ts=375.170696000, wall=12:38:58.757) 0.92, -2.38, 8.90, 
+	20 (ts=375.190555000, wall=12:38:58.777) 0.93, -2.38, 8.90, 
+	21 (ts=375.210740000, wall=12:38:58.797) 0.93, -2.37, 8.91, 
+	22 (ts=375.230573000, wall=12:38:58.817) 0.92, -2.36, 8.90, 
+	23 (ts=375.250680000, wall=12:38:58.837) 0.92, -2.36, 8.89, 
+	24 (ts=375.270677000, wall=12:38:58.857) 0.92, -2.34, 8.88, 
+	25 (ts=375.290542000, wall=12:38:58.877) 0.90, -2.35, 8.88, 
+	26 (ts=375.312342000, wall=12:38:58.899) 0.89, -2.37, 8.88, 
+	27 (ts=375.330792000, wall=12:38:58.917) 0.89, -2.38, 8.87, 
+	28 (ts=375.350379000, wall=12:38:58.937) 0.88, -2.38, 8.87, 
+	29 (ts=375.370382000, wall=12:38:58.957) 0.88, -2.38, 8.88, 
+	30 (ts=375.390492000, wall=12:38:58.977) 0.91, -2.38, 8.87, 
+	31 (ts=375.410378000, wall=12:38:58.997) 0.90, -2.38, 8.88, 
+	32 (ts=375.432825000, wall=12:38:59.019) 0.91, -2.38, 8.89, 
+	33 (ts=375.450451000, wall=12:38:59.037) 0.92, -2.38, 8.87, 
+	34 (ts=375.470409000, wall=12:38:59.057) 0.91, -2.38, 8.87, 
+	35 (ts=375.491065000, wall=12:38:59.077) 0.93, -2.38, 8.89, 
+	36 (ts=375.510391000, wall=12:38:59.097) 0.94, -2.38, 8.88, 
+	37 (ts=375.530381000, wall=12:38:59.117) 0.93, -2.37, 8.91, 
+	38 (ts=375.550399000, wall=12:38:59.137) 0.94, -2.35, 8.91, 
+	39 (ts=375.570396000, wall=12:38:59.157) 0.93, -2.35, 8.91, 
+	40 (ts=375.590750000, wall=12:38:59.177) 0.91, -2.36, 8.91, 
+	41 (ts=375.610414000, wall=12:38:59.197) 0.91, -2.36, 8.86, 
+	42 (ts=375.630378000, wall=12:38:59.217) 0.89, -2.38, 8.86, 
+	43 (ts=375.650359000, wall=12:38:59.237) 0.89, -2.36, 8.85, 
+	44 (ts=375.670397000, wall=12:38:59.257) 0.89, -2.36, 8.86, 
+	45 (ts=375.690668000, wall=12:38:59.277) 0.90, -2.36, 8.88, 
+	46 (ts=375.710378000, wall=12:38:59.297) 0.91, -2.34, 8.88, 
+	47 (ts=375.730382000, wall=12:38:59.317) 0.91, -2.36, 8.88, 
+	48 (ts=375.750373000, wall=12:38:59.337) 0.91, -2.38, 8.87, 
+	49 (ts=375.770429000, wall=12:38:59.357) 0.91, -2.38, 8.88, 
+	50 (ts=375.790393000, wall=12:38:59.377) 0.91, -2.39, 8.91, 
+Active sensors:
+ST Xr 3-axis Accelerometer (handle=0x00000000, connections=1)
+NULL Sensor (handle=0x00000005, connections=3)
+Socket Buffer size = 39 events
+WakeLock Status: not held 
+Mode : NORMAL
+4 active connections
+Connection Number: 0 
+	Operating Mode: NORMAL
+	 com.zmapp.hall.StepService | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 984
+	 ST Xr 3-axis Accelerometer 0x00000000 | status: active | pending flush events 0 
+Connection Number: 1 
+	Operating Mode: NORMAL
+	 android.app.EventEncoderHelper | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0
+	 NULL Sensor 0x00000005 | status: active | pending flush events 0 
+Connection Number: 2 
+	Operating Mode: NORMAL
+	 android.app.EventEncoderHelper | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0
+	 NULL Sensor 0x00000005 | status: active | pending flush events 0 
+Connection Number: 3 
+	Operating Mode: NORMAL
+	 android.app.EventEncoderHelper | WakeLockRefCount 0 | uid 10070 | cache size 0 | max cache size 0
+	 NULL Sensor 0x00000005 | status: active | pending flush events 0 
+0 direct connections
+Previous Registrations:
+12:38:57 + 0x00000005 pid= 8052 uid=10070 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:56 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:56 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:56 - 0x00000000 pid=11530 uid=10087 package=com.badlogic.gdx.c.a.p
+12:38:56 - 0x00000005 pid=11530 uid=10087 package=android.app.EventEncoderHelper
+12:38:54 + 0x00000000 pid=11530 uid=10087 package=com.badlogic.gdx.c.a.p samplingPeriod=20000us batchingPeriod=0us
+12:38:54 + 0x00000005 pid=11530 uid=10087 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:54 - 0x00000005 pid=11530 uid=10087 package=android.app.EventEncoderHelper
+12:38:54 + 0x00000005 pid=11530 uid=10087 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:53 - 0x00000005 pid=11446 uid=10071 package=android.app.EventEncoderHelper
+12:38:53 + 0x00000005 pid=11446 uid=10071 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:52 - 0x00000005 pid=10264 uid=10022 package=android.app.EventEncoderHelper
+12:38:52 + 0x00000005 pid=10264 uid=10022 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:51 - 0x00000005 pid=11385 uid=10082 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:51 - 0x00000005 pid=11385 uid=10082 package=android.app.EventEncoderHelper
+12:38:51 + 0x00000005 pid=11385 uid=10082 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:51 + 0x00000005 pid=11385 uid=10082 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:51 - 0x00000005 pid=11385 uid=10082 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:51 + 0x00000005 pid=11385 uid=10082 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:51 + 0x00000005 pid=11385 uid=10082 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+12:38:51 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:50 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:50 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:50 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:50 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:49 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:49 - 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:49 + 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:49 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:49 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:49 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:48 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:45 - 0x00000005 pid=11128 uid=10084 package=android.app.EventEncoderHelper
+12:38:44 + 0x00000005 pid=11128 uid=10084 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:42 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:41 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:41 - 0x00000005 pid= 8961 uid=10080 package=android.app.EventEncoderHelper
+12:38:41 + 0x00000005 pid= 8961 uid=10080 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:41 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:40 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:40 - 0x00000005 pid=10940 uid=10090 package=android.app.EventEncoderHelper
+12:38:39 + 0x00000005 pid=10940 uid=10090 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:39 - 0x00000005 pid=11082 uid= 1000 package=android.app.EventEncoderHelper
+12:38:39 + 0x00000005 pid=11082 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:39 - 0x00000005 pid=10940 uid=10090 package=android.app.EventEncoderHelper
+12:38:37 + 0x00000005 pid=10940 uid=10090 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:37 - 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:37 + 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:37 - 0x00000005 pid= 4188 uid=10020 package=android.app.EventEncoderHelper
+12:38:37 + 0x00000005 pid= 4188 uid=10020 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:36 - 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:36 + 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:35 + 0x00000005 pid=10841 uid=10081 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+12:38:35 - 0x00000005 pid=10701 uid=10089 package=android.app.EventEncoderHelper
+12:38:35 - 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:35 + 0x00000005 pid=10701 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:34 + 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:34 - 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:34 + 0x00000005 pid=10764 uid= 1000 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:33 - 0x00000005 pid=10701 uid=10089 package=android.app.EventEncoderHelper
+12:38:33 + 0x00000005 pid=10701 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:32 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:32 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:32 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:32 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:31 - 0x00000005 pid= 4188 uid=10020 package=android.app.EventEncoderHelper
+12:38:31 + 0x00000005 pid= 4188 uid=10020 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:31 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:31 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:31 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:30 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:30 - 0x00000005 pid=10583 uid=10071 package=android.app.EventEncoderHelper
+12:38:30 + 0x00000005 pid=10583 uid=10071 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:29 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:29 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:29 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:29 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:28 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:28 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:28 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:27 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:27 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:38:27 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:27 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:26 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:26 - 0x00000005 pid=10465 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:26 - 0x00000005 pid=10465 uid= 1000 package=android.app.EventEncoderHelper
+12:38:26 + 0x00000005 pid=10465 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:26 + 0x00000005 pid=10465 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:26 - 0x00000005 pid=10465 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:26 - 0x00000005 pid=10465 uid= 1000 package=android.app.EventEncoderHelper
+12:38:25 + 0x00000005 pid=10465 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:25 + 0x00000005 pid=10465 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:25 - 0x00000005 pid=10465 uid= 1000 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:25 + 0x00000005 pid=10465 uid= 1000 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:24 - 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper
+12:38:24 + 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:24 - 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper
+12:38:24 + 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:23 - 0x00000005 pid= 9764 uid= 1000 package=android.app.EventEncoderHelper
+12:38:23 + 0x00000005 pid= 9764 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:23 - 0x00000005 pid=10185 uid=10082 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:23 - 0x00000005 pid=10185 uid=10082 package=android.app.EventEncoderHelper
+12:38:22 + 0x00000005 pid=10185 uid=10082 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:22 + 0x00000005 pid=10185 uid=10082 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:22 - 0x00000005 pid= 9764 uid= 1000 package=android.app.EventEncoderHelper
+12:38:22 + 0x00000005 pid= 9764 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:22 - 0x00000005 pid= 8052 uid=10070 package=android.app.EventEncoderHelper
+12:38:21 + 0x00000005 pid= 8052 uid=10070 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:21 - 0x00000005 pid=10138 uid=10081 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:20 + 0x00000005 pid=10138 uid=10081 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:19 - 0x00000005 pid=10138 uid=10081 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:19 + 0x00000005 pid=10138 uid=10081 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:19 - 0x00000005 pid=10264 uid=10022 package=android.app.EventEncoderHelper
+12:38:19 + 0x00000005 pid=10264 uid=10022 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:19 - 0x00000005 pid=10185 uid=10082 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:19 - 0x00000005 pid=10185 uid=10082 package=android.app.EventEncoderHelper
+12:38:19 + 0x00000005 pid=10185 uid=10082 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:19 + 0x00000005 pid=10185 uid=10082 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:19 - 0x00000005 pid=10185 uid=10082 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:19 + 0x00000005 pid=10185 uid=10082 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:19 + 0x00000005 pid=10185 uid=10082 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+12:38:18 + 0x00000005 pid=10138 uid=10081 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+12:38:18 - 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper
+12:38:17 + 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:16 - 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper
+12:38:16 + 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:15 - 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper
+12:38:15 + 0x00000005 pid= 9980 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:14 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:14 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:14 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:14 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:13 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:13 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:13 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:13 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:13 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:13 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:13 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:13 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:13 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:13 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:13 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:12 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:12 - 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper
+12:38:12 + 0x00000005 pid= 9929 uid=10054 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:12 - 0x00000005 pid= 9804 uid=10083 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:12 + 0x00000005 pid= 9804 uid=10083 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:12 - 0x00000005 pid= 9893 uid=10077 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:11 + 0x00000005 pid= 9893 uid=10077 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:11 - 0x00000005 pid= 9893 uid=10077 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:11 + 0x00000005 pid= 9893 uid=10077 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:11 - 0x00000005 pid= 9804 uid=10083 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:10 + 0x00000005 pid= 9804 uid=10083 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:10 - 0x00000005 pid= 9804 uid=10083 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:38:10 + 0x00000005 pid= 9804 uid=10083 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:09 + 0x00000005 pid= 9804 uid=10083 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+12:38:09 - 0x00000005 pid= 9764 uid= 1000 package=android.app.EventEncoderHelper
+12:38:09 + 0x00000005 pid= 9764 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:09 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:09 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:09 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:08 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:08 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:08 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:08 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:38:08 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:38:07 - 0x00000005 pid= 9245 uid=10084 package=android.app.EventEncoderHelper
+12:38:06 + 0x00000005 pid= 9245 uid=10084 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:05 - 0x00000005 pid= 9245 uid=10084 package=android.app.EventEncoderHelper
+12:38:01 + 0x00000005 pid= 9245 uid=10084 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:38:01 + 0x00000005 pid= 9487 uid=10081 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+12:38:00 - 0x00000005 pid= 9245 uid=10084 package=android.app.EventEncoderHelper
+12:37:59 + 0x00000005 pid= 9245 uid=10084 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:56 - 0x00000005 pid= 8117 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:37:56 + 0x00000005 pid= 8117 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:37:56 - 0x00000005 pid= 9144 uid=10047 package=android.app.EventEncoderHelper
+12:37:55 + 0x00000005 pid= 9144 uid=10047 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:55 - 0x00000005 pid= 9033 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:37:55 - 0x00000005 pid= 9033 uid= 1000 package=android.app.EventEncoderHelper
+12:37:52 - 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+12:37:52 + 0x00000005 pid= 9033 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:37:52 + 0x00000005 pid= 9033 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:52 + 0x00000005 pid= 8668 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:37:52 - 0x00000005 pid= 9033 uid= 1000 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:37:52 + 0x00000005 pid= 9033 uid= 1000 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:52 - 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper
+12:37:51 + 0x00000005 pid= 4340 uid= 1000 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:51 - 0x00000005 pid= 8961 uid=10080 package=android.app.EventEncoderHelper
+12:37:50 + 0x00000005 pid= 8961 uid=10080 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:50 - 0x00000005 pid= 8922 uid=10077 package=com.jx.knobencoder.SensorEventEncoder2
+12:37:50 + 0x00000005 pid= 8922 uid=10077 package=com.jx.knobencoder.SensorEventEncoder2 samplingPeriod=200000us batchingPeriod=0us
+12:37:50 - 0x00000005 pid= 8922 uid=10077 package=com.jx.knobencoder.KnobEventEncoderHelper
+12:37:50 + 0x00000005 pid= 8922 uid=10077 package=com.jx.knobencoder.KnobEventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:49 - 0x00000005 pid= 8807 uid=10089 package=android.app.EventEncoderHelper
+12:37:49 + 0x00000005 pid= 8807 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:49 - 0x00000005 pid= 8807 uid=10089 package=android.app.EventEncoderHelper
+12:37:48 + 0x00000005 pid= 8807 uid=10089 package=android.app.EventEncoderHelper samplingPeriod=200000us batchingPeriod=0us
+12:37:47 - 0x00000005 pid= 8762 uid= 1000 package=com.jx.knobencoder.SensorEventEncoder2
+--------- 0.006s was the duration of dumpsys sensorservice, ending at: 2023-05-18 12:38:59

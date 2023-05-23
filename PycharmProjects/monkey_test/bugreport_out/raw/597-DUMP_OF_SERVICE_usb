@@ -1,0 +1,34 @@
+USB Manager State:
+  USB Device State:
+    mCurrentFunctions: ptp,adb
+    mCurrentOemFunctions: ptp,adb
+    mCurrentFunctionsApplied: true
+    mConnected: true
+    mConfigured: true
+    mUsbDataUnlocked: false
+    mCurrentAccessory: null
+    mHostConnected: false
+    mSourcePower: false
+    mSinkPower: false
+    mUsbCharging: true
+    mHideUsbNotification: false
+    mAudioAccessoryConnected: false
+    Kernel state: CONFIGURED
+  IOException: java.io.FileNotFoundException: /sys/class/android_usb/android0/functions (No such file or directory)
+  USB Debugging State:
+    Connected to adbd: true
+    Last key received: 2F:F8:BA:46:A5:2A:E1:E0:49:62:54:76:C0:D5:06:2D
+    User keys:
+  QAAAABMF6AXlciupfCsxfoMJBDEpCOj08cYAH+Ntoq9zWREbIgB+l8ZDihUxL3IVPMd5cmWbyKIqjeBviyLYXWi2QKcZtTqWoCZMXWwhvi+Wchjv7O642hpSlp9Cd2epxGvTmVBRXvCndQf37ba94HzX8y30EN3J7F1F7Eu62lIJguwfwnGkg6AwufqJl3s/uS98imMigKM6UHQgotrCEQLRLnIYZYY/lMPSIaymKpDqAWFAmcle5RMa3dGa2zyQI+tL09ivrohN7LM+o9TDSZ9jFLB1cAXS/VraH6p8n07R81sJMSaZwqkMwFlQ4v81yyEQuAPGtbnH9TXXDVdJoChMQPiIXra5uCcLHlqz8SxHH/N2RG3Lt2KSYRZbauuepWO7UEG+urD1rYxFuu9GXrKGjIogim9HaM2IKkp4VVIKumITXg0ynBAHZC5J4BTXpFFUplLj4UIQebYFe7a7epnziTQgwqEx/1NaohOMk5ROf5eNhbCm26gLppE1EX50F9w7gXqhGNQDJmV+ygV0AzKc8fTSndMrw6VAUJ2MqP0qZRinPEuFRaq+h04vehHhxsMEW4rQi8z4zLXRzbEV8J5UKX65mBeE87reeJTwkUowcpU6hFQwa4tWuiMunk5oL7y35PmUNTCNoWv+WjMqJ2cxNOqjLt7DYhEbHu6aBWWW++8mkv2sYAEAAQA= Administrator@PC-20221008GXAE
+  
+    System keys:
+  IOException: java.io.FileNotFoundException: /adb_keys (No such file or directory)
+  USB Host State:
+  USB Port State:
+    sprd_dual_role_usb: port=UsbPort{id=sprd_dual_role_usb, supportedModes=dual}, status=UsbPortStatus{connected=false, currentMode=none, currentPowerRole=no-power, currentDataRole=no-data, supportedRoleCombinations=[no-power:no-data]}, canChangeMode=false, canChangePowerRole=false, canChangeDataRole=false
+  USB Audio Devices:
+  USB MIDI Devices:
+  Settings for profile group 0:
+    Device preferences:
+    Accessory preferences:
+--------- 0.007s was the duration of dumpsys usb, ending at: 2023-05-22 17:52:12

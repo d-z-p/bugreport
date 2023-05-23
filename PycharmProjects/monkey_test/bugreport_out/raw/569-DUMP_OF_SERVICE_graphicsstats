@@ -1,0 +1,562 @@
+
+Package: android
+Version: 27
+Stats since: 1684384500017ns
+Stats end: 1684384737598ns
+Total frames rendered: 373
+Janky frames: 149 (39.95%)
+50th percentile: 14ms
+90th percentile: 61ms
+95th percentile: 85ms
+99th percentile: 150ms
+Number Missed Vsync: 15
+Number High input latency: 3
+Number Slow UI thread: 14
+Number Slow bitmap uploads: 8
+Number Slow issue draw commands: 139
+HISTOGRAM: 5ms=74 6ms=10 7ms=19 8ms=11 9ms=12 10ms=15 11ms=14 12ms=15 13ms=11 14ms=7 15ms=7 16ms=11 17ms=10 18ms=5 19ms=2 20ms=6 21ms=7 22ms=9 23ms=4 24ms=8 25ms=5 26ms=1 27ms=5 28ms=2 29ms=6 30ms=1 31ms=1 32ms=5 34ms=4 36ms=6 38ms=5 40ms=1 42ms=9 44ms=5 46ms=3 48ms=2 53ms=9 57ms=7 61ms=5 65ms=2 69ms=3 73ms=4 77ms=3 81ms=3 85ms=2 89ms=1 93ms=0 97ms=1 101ms=3 105ms=2 109ms=2 113ms=0 117ms=1 121ms=0 125ms=0 129ms=1 133ms=0 150ms=4 200ms=0 250ms=2 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.systemui
+Version: 27
+Stats since: 1684384502108ns
+Stats end: 1684384737598ns
+Total frames rendered: 453
+Janky frames: 149 (32.89%)
+50th percentile: 10ms
+90th percentile: 69ms
+95th percentile: 97ms
+99th percentile: 250ms
+Number Missed Vsync: 57
+Number High input latency: 7
+Number Slow UI thread: 84
+Number Slow bitmap uploads: 10
+Number Slow issue draw commands: 80
+HISTOGRAM: 5ms=142 6ms=26 7ms=23 8ms=23 9ms=10 10ms=13 11ms=15 12ms=10 13ms=5 14ms=7 15ms=6 16ms=2 17ms=9 18ms=8 19ms=5 20ms=7 21ms=6 22ms=4 23ms=10 24ms=9 25ms=5 26ms=6 27ms=1 28ms=1 29ms=2 30ms=5 31ms=2 32ms=8 34ms=7 36ms=3 38ms=1 40ms=2 42ms=0 44ms=2 46ms=5 48ms=5 53ms=3 57ms=3 61ms=3 65ms=2 69ms=3 73ms=5 77ms=5 81ms=3 85ms=3 89ms=2 93ms=2 97ms=2 101ms=0 105ms=0 109ms=0 113ms=1 117ms=2 121ms=3 125ms=2 129ms=0 133ms=1 150ms=5 200ms=1 250ms=3 300ms=2 350ms=0 400ms=0 450ms=1 500ms=0 550ms=0 600ms=0 650ms=1 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.settings
+Version: 27
+Stats since: 1684384502190ns
+Stats end: 1684384737598ns
+Total frames rendered: 488
+Janky frames: 163 (33.40%)
+50th percentile: 10ms
+90th percentile: 89ms
+95th percentile: 150ms
+99th percentile: 400ms
+Number Missed Vsync: 103
+Number High input latency: 47
+Number Slow UI thread: 121
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 47
+HISTOGRAM: 5ms=27 6ms=44 7ms=64 8ms=53 9ms=36 10ms=21 11ms=16 12ms=11 13ms=14 14ms=8 15ms=8 16ms=8 17ms=10 18ms=4 19ms=1 20ms=2 21ms=6 22ms=5 23ms=3 24ms=5 25ms=5 26ms=1 27ms=3 28ms=2 29ms=3 30ms=5 31ms=2 32ms=2 34ms=3 36ms=7 38ms=0 40ms=2 42ms=1 44ms=4 46ms=3 48ms=8 53ms=5 57ms=7 61ms=5 65ms=3 69ms=2 73ms=5 77ms=5 81ms=6 85ms=3 89ms=8 93ms=1 97ms=0 101ms=2 105ms=4 109ms=0 113ms=1 117ms=2 121ms=0 125ms=2 129ms=0 133ms=2 150ms=11 200ms=3 250ms=4 300ms=2 350ms=1 400ms=3 450ms=0 500ms=0 550ms=0 600ms=1 650ms=0 700ms=1 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=2 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.sohu.inputmethod.sogou
+Version: 1352
+Stats since: 1684384567467ns
+Stats end: 1684384737598ns
+Total frames rendered: 11
+Janky frames: 5 (45.45%)
+50th percentile: 17ms
+90th percentile: 450ms
+95th percentile: 500ms
+99th percentile: 500ms
+Number Missed Vsync: 4
+Number High input latency: 0
+Number Slow UI thread: 5
+Number Slow bitmap uploads: 2
+Number Slow issue draw commands: 2
+HISTOGRAM: 5ms=1 6ms=0 7ms=0 8ms=1 9ms=1 10ms=0 11ms=1 12ms=0 13ms=0 14ms=0 15ms=0 16ms=1 17ms=1 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=1 81ms=0 85ms=1 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=1 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=1 500ms=1 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.documentsui
+Version: 27
+Stats since: 1684384598344ns
+Stats end: 1684384737598ns
+Total frames rendered: 100
+Janky frames: 43 (43.00%)
+50th percentile: 15ms
+90th percentile: 97ms
+95th percentile: 121ms
+99th percentile: 350ms
+Number Missed Vsync: 28
+Number High input latency: 17
+Number Slow UI thread: 37
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 9
+HISTOGRAM: 5ms=3 6ms=5 7ms=9 8ms=11 9ms=7 10ms=5 11ms=0 12ms=3 13ms=2 14ms=4 15ms=2 16ms=2 17ms=3 18ms=0 19ms=1 20ms=1 21ms=0 22ms=0 23ms=1 24ms=1 25ms=0 26ms=2 27ms=0 28ms=0 29ms=0 30ms=1 31ms=1 32ms=3 34ms=1 36ms=2 38ms=0 40ms=1 42ms=1 44ms=1 46ms=0 48ms=2 53ms=3 57ms=1 61ms=1 65ms=2 69ms=0 73ms=2 77ms=1 81ms=0 85ms=2 89ms=1 93ms=1 97ms=2 101ms=1 105ms=1 109ms=0 113ms=2 117ms=0 121ms=1 125ms=0 129ms=1 133ms=1 150ms=0 200ms=0 250ms=0 300ms=1 350ms=1 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.calendar
+Version: 27
+Stats since: 1684384608810ns
+Stats end: 1684384737598ns
+Total frames rendered: 17
+Janky frames: 12 (70.59%)
+50th percentile: 53ms
+90th percentile: 200ms
+95th percentile: 250ms
+99th percentile: 250ms
+Number Missed Vsync: 9
+Number High input latency: 2
+Number Slow UI thread: 11
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 4
+HISTOGRAM: 5ms=0 6ms=1 7ms=0 8ms=0 9ms=0 10ms=0 11ms=1 12ms=0 13ms=1 14ms=0 15ms=0 16ms=1 17ms=0 18ms=0 19ms=1 20ms=0 21ms=0 22ms=0 23ms=0 24ms=1 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=1 44ms=1 46ms=0 48ms=0 53ms=1 57ms=0 61ms=1 65ms=1 69ms=0 73ms=0 77ms=2 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=2 250ms=1 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.zmapp.album
+Version: 23
+Stats since: 1684384609528ns
+Stats end: 1684384737598ns
+Total frames rendered: 48
+Janky frames: 19 (39.58%)
+50th percentile: 12ms
+90th percentile: 77ms
+95th percentile: 97ms
+99th percentile: 200ms
+Number Missed Vsync: 7
+Number High input latency: 4
+Number Slow UI thread: 17
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=9 6ms=5 7ms=1 8ms=3 9ms=3 10ms=2 11ms=1 12ms=1 13ms=2 14ms=0 15ms=0 16ms=0 17ms=0 18ms=1 19ms=1 20ms=1 21ms=0 22ms=0 23ms=0 24ms=1 25ms=0 26ms=0 27ms=1 28ms=2 29ms=2 30ms=0 31ms=1 32ms=1 34ms=0 36ms=0 38ms=1 40ms=1 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=2 69ms=1 73ms=0 77ms=1 81ms=0 85ms=1 89ms=0 93ms=0 97ms=1 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=1 150ms=0 200ms=1 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.jx.launcher
+Version: 11030
+Stats since: 1684384506087ns
+Stats end: 1684384737598ns
+Total frames rendered: 1000
+Janky frames: 58 (5.80%)
+50th percentile: 5ms
+90th percentile: 12ms
+95th percentile: 23ms
+99th percentile: 69ms
+Number Missed Vsync: 23
+Number High input latency: 15
+Number Slow UI thread: 33
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 19
+HISTOGRAM: 5ms=658 6ms=107 7ms=51 8ms=30 9ms=25 10ms=21 11ms=6 12ms=13 13ms=8 14ms=4 15ms=2 16ms=9 17ms=2 18ms=1 19ms=5 20ms=1 21ms=3 22ms=3 23ms=4 24ms=2 25ms=2 26ms=1 27ms=2 28ms=1 29ms=1 30ms=1 31ms=2 32ms=1 34ms=6 36ms=1 38ms=3 40ms=2 42ms=1 44ms=2 46ms=3 48ms=0 53ms=2 57ms=1 61ms=1 65ms=1 69ms=2 73ms=0 77ms=0 81ms=1 85ms=1 89ms=0 93ms=1 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=1 125ms=0 129ms=0 133ms=1 150ms=1 200ms=2 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=1 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.zmapp.sms
+Version: 211
+Stats since: 1684384667138ns
+Stats end: 1684384737598ns
+Total frames rendered: 2
+Janky frames: 1 (50.00%)
+50th percentile: 109ms
+90th percentile: 109ms
+95th percentile: 109ms
+99th percentile: 109ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 1
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 1
+HISTOGRAM: 5ms=0 6ms=1 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=1 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.jx.inputmethod.pinyin
+Version: 21
+Stats since: 1684384670901ns
+Stats end: 1684384737598ns
+Total frames rendered: 12
+Janky frames: 2 (16.67%)
+50th percentile: 11ms
+90th percentile: 150ms
+95th percentile: 150ms
+99th percentile: 150ms
+Number Missed Vsync: 1
+Number High input latency: 2
+Number Slow UI thread: 1
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 1
+HISTOGRAM: 5ms=0 6ms=0 7ms=3 8ms=1 9ms=1 10ms=1 11ms=1 12ms=0 13ms=0 14ms=0 15ms=1 16ms=1 17ms=0 18ms=1 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=2 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.deskclock
+Version: 19
+Stats since: 1684384672735ns
+Stats end: 1684384737598ns
+Total frames rendered: 79
+Janky frames: 37 (46.84%)
+50th percentile: 17ms
+90th percentile: 69ms
+95th percentile: 105ms
+99th percentile: 300ms
+Number Missed Vsync: 18
+Number High input latency: 16
+Number Slow UI thread: 19
+Number Slow bitmap uploads: 2
+Number Slow issue draw commands: 16
+HISTOGRAM: 5ms=4 6ms=6 7ms=8 8ms=4 9ms=7 10ms=2 11ms=0 12ms=4 13ms=1 14ms=1 15ms=0 16ms=0 17ms=3 18ms=2 19ms=0 20ms=2 21ms=0 22ms=2 23ms=1 24ms=0 25ms=0 26ms=1 27ms=1 28ms=1 29ms=0 30ms=0 31ms=0 32ms=2 34ms=2 36ms=1 38ms=0 40ms=0 42ms=1 44ms=2 46ms=0 48ms=3 53ms=4 57ms=2 61ms=3 65ms=1 69ms=1 73ms=0 77ms=2 81ms=0 85ms=0 89ms=0 93ms=0 97ms=1 101ms=0 105ms=1 109ms=0 113ms=0 117ms=1 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=0 250ms=0 300ms=1 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.sprd.fileexplorer
+Version: 1
+Stats since: 1684384675901ns
+Stats end: 1684384737598ns
+Total frames rendered: 11
+Janky frames: 5 (45.45%)
+50th percentile: 17ms
+90th percentile: 300ms
+95th percentile: 300ms
+99th percentile: 300ms
+Number Missed Vsync: 4
+Number High input latency: 3
+Number Slow UI thread: 3
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=2 6ms=0 7ms=1 8ms=0 9ms=0 10ms=2 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=1 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=1 34ms=0 36ms=1 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=1 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=2 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.goodix.health
+Version: 1000000
+Stats since: 1684384689450ns
+Stats end: 1684384737598ns
+Total frames rendered: 41
+Janky frames: 10 (24.39%)
+50th percentile: 7ms
+90th percentile: 32ms
+95th percentile: 46ms
+99th percentile: 69ms
+Number Missed Vsync: 2
+Number High input latency: 2
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 7
+HISTOGRAM: 5ms=17 6ms=3 7ms=3 8ms=2 9ms=2 10ms=1 11ms=1 12ms=1 13ms=0 14ms=0 15ms=1 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=4 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=1 30ms=0 31ms=0 32ms=1 34ms=1 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=1 48ms=0 53ms=0 57ms=0 61ms=0 65ms=1 69ms=1 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.music
+Version: 27
+Stats since: 1684384692508ns
+Stats end: 1684384737598ns
+Total frames rendered: 71
+Janky frames: 46 (64.79%)
+50th percentile: 30ms
+90th percentile: 77ms
+95th percentile: 97ms
+99th percentile: 150ms
+Number Missed Vsync: 29
+Number High input latency: 24
+Number Slow UI thread: 32
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 5
+HISTOGRAM: 5ms=9 6ms=4 7ms=1 8ms=1 9ms=1 10ms=1 11ms=2 12ms=1 13ms=1 14ms=0 15ms=1 16ms=2 17ms=1 18ms=0 19ms=0 20ms=1 21ms=1 22ms=1 23ms=0 24ms=0 25ms=2 26ms=1 27ms=1 28ms=0 29ms=2 30ms=3 31ms=2 32ms=3 34ms=3 36ms=3 38ms=3 40ms=4 42ms=0 44ms=1 46ms=0 48ms=1 53ms=1 57ms=0 61ms=3 65ms=1 69ms=0 73ms=1 77ms=1 81ms=2 85ms=0 89ms=0 93ms=1 97ms=1 101ms=0 105ms=0 109ms=0 113ms=1 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=2 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.packageinstaller
+Version: 27
+Stats since: 1684384699691ns
+Stats end: 1684384737598ns
+Total frames rendered: 13
+Janky frames: 9 (69.23%)
+50th percentile: 53ms
+90th percentile: 109ms
+95th percentile: 300ms
+99th percentile: 300ms
+Number Missed Vsync: 6
+Number High input latency: 4
+Number Slow UI thread: 4
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=0 6ms=0 7ms=1 8ms=0 9ms=1 10ms=1 11ms=0 12ms=1 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=1 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=1 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=1 57ms=0 61ms=0 65ms=0 69ms=0 73ms=1 77ms=1 81ms=0 85ms=0 89ms=2 93ms=0 97ms=0 101ms=0 105ms=0 109ms=1 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=1 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.jx.watchos.contact
+Version: 102
+Stats since: 1684384575528ns
+Stats end: 1684384737598ns
+Total frames rendered: 72
+Janky frames: 18 (25.00%)
+50th percentile: 9ms
+90th percentile: 109ms
+95th percentile: 150ms
+99th percentile: 300ms
+Number Missed Vsync: 13
+Number High input latency: 10
+Number Slow UI thread: 11
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 8
+HISTOGRAM: 5ms=9 6ms=13 7ms=7 8ms=4 9ms=5 10ms=4 11ms=2 12ms=2 13ms=1 14ms=2 15ms=0 16ms=1 17ms=2 18ms=1 19ms=1 20ms=0 21ms=0 22ms=1 23ms=0 24ms=1 25ms=0 26ms=0 27ms=1 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=2 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=1 53ms=1 57ms=1 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=1 105ms=0 109ms=2 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=5 200ms=0 250ms=1 300ms=1 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.jx.watchos.setting
+Version: 14
+Stats since: 1684384576489ns
+Stats end: 1684384737598ns
+Total frames rendered: 68
+Janky frames: 28 (41.18%)
+50th percentile: 15ms
+90th percentile: 85ms
+95th percentile: 101ms
+99th percentile: 200ms
+Number Missed Vsync: 13
+Number High input latency: 3
+Number Slow UI thread: 12
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 16
+HISTOGRAM: 5ms=8 6ms=2 7ms=9 8ms=4 9ms=1 10ms=3 11ms=5 12ms=0 13ms=0 14ms=2 15ms=2 16ms=1 17ms=2 18ms=1 19ms=0 20ms=2 21ms=0 22ms=2 23ms=2 24ms=0 25ms=0 26ms=0 27ms=0 28ms=1 29ms=0 30ms=1 31ms=1 32ms=1 34ms=2 36ms=2 38ms=0 40ms=0 42ms=0 44ms=0 46ms=1 48ms=1 53ms=0 57ms=0 61ms=0 65ms=2 69ms=0 73ms=0 77ms=2 81ms=1 85ms=2 89ms=0 93ms=0 97ms=1 101ms=1 105ms=0 109ms=0 113ms=1 117ms=1 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=1 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.divo.phone
+Version: 27
+Stats since: 1684384529435ns
+Stats end: 1684384737598ns
+Total frames rendered: 82
+Janky frames: 4 (4.88%)
+50th percentile: 5ms
+90th percentile: 13ms
+95th percentile: 17ms
+99th percentile: 150ms
+Number Missed Vsync: 1
+Number High input latency: 1
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=46 6ms=20 7ms=3 8ms=2 9ms=1 10ms=0 11ms=0 12ms=0 13ms=2 14ms=0 15ms=2 16ms=1 17ms=1 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=1 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=1 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=1 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.tencent.qqlite
+Version: 1002
+Stats since: 1684384565777ns
+Stats end: 1684384575093ns
+Total frames rendered: 15
+Janky frames: 5 (33.33%)
+50th percentile: 14ms
+90th percentile: 150ms
+95th percentile: 250ms
+99th percentile: 250ms
+Number Missed Vsync: 5
+Number High input latency: 1
+Number Slow UI thread: 4
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 4
+HISTOGRAM: 5ms=4 6ms=1 7ms=0 8ms=1 9ms=0 10ms=0 11ms=1 12ms=0 13ms=0 14ms=2 15ms=0 16ms=0 17ms=0 18ms=1 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=1 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=1 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=2 200ms=0 250ms=1 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.browser
+Version: 27
+Stats since: 1684384578900ns
+Stats end: 1684384737015ns
+Total frames rendered: 73
+Janky frames: 44 (60.27%)
+50th percentile: 24ms
+90th percentile: 89ms
+95th percentile: 150ms
+99th percentile: 350ms
+Number Missed Vsync: 17
+Number High input latency: 9
+Number Slow UI thread: 28
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 25
+HISTOGRAM: 5ms=2 6ms=1 7ms=4 8ms=4 9ms=3 10ms=2 11ms=3 12ms=4 13ms=0 14ms=0 15ms=1 16ms=2 17ms=0 18ms=1 19ms=2 20ms=1 21ms=3 22ms=1 23ms=2 24ms=2 25ms=3 26ms=3 27ms=2 28ms=1 29ms=0 30ms=2 31ms=0 32ms=1 34ms=1 36ms=0 38ms=2 40ms=0 42ms=1 44ms=1 46ms=3 48ms=1 53ms=1 57ms=2 61ms=1 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=3 93ms=1 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=1 129ms=0 133ms=0 150ms=3 200ms=1 250ms=0 300ms=0 350ms=1 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.zmapp.plugin.addfriend
+Version: 13
+Stats since: 1684384580543ns
+Stats end: 1684384692302ns
+Total frames rendered: 53
+Janky frames: 26 (49.06%)
+50th percentile: 18ms
+90th percentile: 69ms
+95th percentile: 77ms
+99th percentile: 200ms
+Number Missed Vsync: 10
+Number High input latency: 5
+Number Slow UI thread: 19
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 9
+HISTOGRAM: 5ms=4 6ms=2 7ms=3 8ms=0 9ms=2 10ms=1 11ms=4 12ms=4 13ms=0 14ms=2 15ms=2 16ms=2 17ms=0 18ms=1 19ms=0 20ms=2 21ms=1 22ms=1 23ms=1 24ms=2 25ms=0 26ms=2 27ms=1 28ms=0 29ms=1 30ms=1 31ms=1 32ms=3 34ms=0 36ms=0 38ms=1 40ms=0 42ms=0 44ms=0 46ms=1 48ms=0 53ms=0 57ms=2 61ms=0 65ms=0 69ms=2 73ms=1 77ms=1 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=1 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=1 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.jx.timer
+Version: 3
+Stats since: 1684384600006ns
+Stats end: 1684384600937ns
+Total frames rendered: 0
+Janky frames: 0 (nan%)
+50th percentile: 4950ms
+90th percentile: 4950ms
+95th percentile: 4950ms
+99th percentile: 4950ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 0
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.tencent.wechatkids
+Version: 10601
+Stats since: 1684384594141ns
+Stats end: 1684384601051ns
+Total frames rendered: 8
+Janky frames: 2 (25.00%)
+50th percentile: 11ms
+90th percentile: 125ms
+95th percentile: 125ms
+99th percentile: 125ms
+Number Missed Vsync: 0
+Number High input latency: 0
+Number Slow UI thread: 0
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 2
+HISTOGRAM: 5ms=0 6ms=1 7ms=0 8ms=1 9ms=0 10ms=2 11ms=1 12ms=0 13ms=1 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=1 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=1 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.eg.android.AlipayGphone
+Version: 137
+Stats since: 1684384601963ns
+Stats end: 1684384737271ns
+Total frames rendered: 26
+Janky frames: 14 (53.85%)
+50th percentile: 27ms
+90th percentile: 150ms
+95th percentile: 400ms
+99th percentile: 400ms
+Number Missed Vsync: 10
+Number High input latency: 6
+Number Slow UI thread: 10
+Number Slow bitmap uploads: 2
+Number Slow issue draw commands: 9
+HISTOGRAM: 5ms=2 6ms=1 7ms=2 8ms=0 9ms=1 10ms=1 11ms=0 12ms=0 13ms=1 14ms=1 15ms=2 16ms=1 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=1 23ms=0 24ms=0 25ms=0 26ms=0 27ms=1 28ms=0 29ms=1 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=1 46ms=0 48ms=1 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=1 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=1 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=5 200ms=0 250ms=0 300ms=0 350ms=0 400ms=2 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.android.gallery3d
+Version: 40030
+Stats since: 1684384591476ns
+Stats end: 1684384687073ns
+Total frames rendered: 188
+Janky frames: 33 (17.55%)
+50th percentile: 8ms
+90th percentile: 32ms
+95th percentile: 53ms
+99th percentile: 150ms
+Number Missed Vsync: 13
+Number High input latency: 11
+Number Slow UI thread: 30
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 6
+HISTOGRAM: 5ms=29 6ms=25 7ms=33 8ms=18 9ms=19 10ms=12 11ms=5 12ms=2 13ms=5 14ms=1 15ms=2 16ms=2 17ms=1 18ms=0 19ms=1 20ms=0 21ms=0 22ms=0 23ms=0 24ms=2 25ms=0 26ms=0 27ms=2 28ms=2 29ms=2 30ms=3 31ms=0 32ms=5 34ms=0 36ms=1 38ms=1 40ms=0 42ms=1 44ms=1 46ms=1 48ms=1 53ms=2 57ms=1 61ms=1 65ms=0 69ms=1 73ms=0 77ms=0 81ms=0 85ms=0 89ms=1 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=1 121ms=0 125ms=1 129ms=0 133ms=0 150ms=2 200ms=0 250ms=0 300ms=0 350ms=1 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.jx.market
+Version: 416
+Stats since: 1684384681296ns
+Stats end: 1684384721470ns
+Total frames rendered: 40
+Janky frames: 18 (45.00%)
+50th percentile: 19ms
+90th percentile: 350ms
+95th percentile: 450ms
+99th percentile: 550ms
+Number Missed Vsync: 11
+Number High input latency: 11
+Number Slow UI thread: 18
+Number Slow bitmap uploads: 1
+Number Slow issue draw commands: 8
+HISTOGRAM: 5ms=2 6ms=3 7ms=4 8ms=1 9ms=1 10ms=2 11ms=2 12ms=2 13ms=0 14ms=0 15ms=0 16ms=2 17ms=0 18ms=1 19ms=2 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=1 30ms=1 31ms=1 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=1 53ms=0 57ms=0 61ms=0 65ms=0 69ms=1 73ms=0 77ms=1 81ms=2 85ms=0 89ms=1 93ms=0 97ms=1 101ms=1 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=2 250ms=0 300ms=1 350ms=1 400ms=0 450ms=2 500ms=0 550ms=1 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.tencent.mm
+Version: 2040
+Stats since: 1684384669469ns
+Stats end: 1684384721209ns
+Total frames rendered: 8
+Janky frames: 8 (100.00%)
+50th percentile: 200ms
+90th percentile: 500ms
+95th percentile: 500ms
+99th percentile: 500ms
+Number Missed Vsync: 6
+Number High input latency: 3
+Number Slow UI thread: 6
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 6
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=1 97ms=0 101ms=0 105ms=1 109ms=1 113ms=0 117ms=1 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=1 250ms=0 300ms=1 350ms=0 400ms=0 450ms=1 500ms=1 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.ss.android.ugc.aweme
+Version: 150301
+Stats since: 1684384679469ns
+Stats end: 1684384726241ns
+Total frames rendered: 128
+Janky frames: 67 (52.34%)
+50th percentile: 23ms
+90th percentile: 150ms
+95th percentile: 450ms
+99th percentile: 800ms
+Number Missed Vsync: 38
+Number High input latency: 25
+Number Slow UI thread: 49
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 37
+HISTOGRAM: 5ms=3 6ms=7 7ms=5 8ms=8 9ms=4 10ms=7 11ms=7 12ms=3 13ms=5 14ms=1 15ms=2 16ms=1 17ms=2 18ms=2 19ms=4 20ms=0 21ms=1 22ms=1 23ms=3 24ms=1 25ms=1 26ms=3 27ms=1 28ms=1 29ms=1 30ms=3 31ms=2 32ms=1 34ms=2 36ms=3 38ms=1 40ms=1 42ms=1 44ms=1 46ms=0 48ms=1 53ms=1 57ms=0 61ms=2 65ms=0 69ms=0 73ms=0 77ms=1 81ms=2 85ms=1 89ms=2 93ms=0 97ms=0 101ms=1 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=1 129ms=0 133ms=2 150ms=13 200ms=1 250ms=0 300ms=2 350ms=1 400ms=1 450ms=1 500ms=0 550ms=1 600ms=0 650ms=1 700ms=1 750ms=1 800ms=1 850ms=0 900ms=1 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.zmapp.chat
+Version: 46
+Stats since: 1684384690103ns
+Stats end: 1684384706997ns
+Total frames rendered: 33
+Janky frames: 9 (27.27%)
+50th percentile: 11ms
+90th percentile: 77ms
+95th percentile: 105ms
+99th percentile: 250ms
+Number Missed Vsync: 4
+Number High input latency: 3
+Number Slow UI thread: 7
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 2
+HISTOGRAM: 5ms=8 6ms=3 7ms=2 8ms=2 9ms=0 10ms=1 11ms=1 12ms=2 13ms=1 14ms=1 15ms=2 16ms=0 17ms=0 18ms=0 19ms=1 20ms=0 21ms=1 22ms=0 23ms=0 24ms=0 25ms=0 26ms=1 27ms=1 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=1 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=1 69ms=0 73ms=0 77ms=1 81ms=0 85ms=0 89ms=0 93ms=1 97ms=0 101ms=0 105ms=1 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=1 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.ztapp.themestore
+Version: 305
+Stats since: 1684384699241ns
+Stats end: 1684384737100ns
+Total frames rendered: 4
+Janky frames: 4 (100.00%)
+50th percentile: 150ms
+90th percentile: 200ms
+95th percentile: 200ms
+99th percentile: 200ms
+Number Missed Vsync: 1
+Number High input latency: 2
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=0 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=1 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=1 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=1 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.sprd.bootres
+Version: 1
+Stats since: 1684384662550ns
+Stats end: 1684384721089ns
+Total frames rendered: 5
+Janky frames: 4 (80.00%)
+50th percentile: 117ms
+90th percentile: 750ms
+95th percentile: 750ms
+99th percentile: 750ms
+Number Missed Vsync: 2
+Number High input latency: 0
+Number Slow UI thread: 2
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=1 6ms=0 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=1 40ms=0 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=1 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=1 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.tencent.android.qqdownloader
+Version: 8412130
+Stats since: 1684384717978ns
+Stats end: 1684384721461ns
+Total frames rendered: 40
+Janky frames: 11 (27.50%)
+50th percentile: 12ms
+90th percentile: 450ms
+95th percentile: 750ms
+99th percentile: 750ms
+Number Missed Vsync: 7
+Number High input latency: 5
+Number Slow UI thread: 6
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 3
+HISTOGRAM: 5ms=1 6ms=3 7ms=2 8ms=3 9ms=5 10ms=3 11ms=3 12ms=3 13ms=1 14ms=1 15ms=0 16ms=1 17ms=2 18ms=1 19ms=0 20ms=0 21ms=0 22ms=1 23ms=0 24ms=0 25ms=0 26ms=0 27ms=0 28ms=0 29ms=0 30ms=0 31ms=0 32ms=1 34ms=0 36ms=0 38ms=0 40ms=0 42ms=0 44ms=0 46ms=0 48ms=1 53ms=1 57ms=0 61ms=0 65ms=0 69ms=0 73ms=1 77ms=0 81ms=1 85ms=0 89ms=1 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=1 500ms=1 550ms=0 600ms=0 650ms=0 700ms=0 750ms=2 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+
+Package: com.zmapp.camera
+Version: 37
+Stats since: 1684384603629ns
+Stats end: 1684384735641ns
+Total frames rendered: 58
+Janky frames: 11 (18.97%)
+50th percentile: 8ms
+90th percentile: 40ms
+95th percentile: 150ms
+99th percentile: 600ms
+Number Missed Vsync: 5
+Number High input latency: 3
+Number Slow UI thread: 6
+Number Slow bitmap uploads: 0
+Number Slow issue draw commands: 6
+HISTOGRAM: 5ms=18 6ms=6 7ms=4 8ms=5 9ms=4 10ms=1 11ms=1 12ms=1 13ms=4 14ms=1 15ms=1 16ms=0 17ms=0 18ms=0 19ms=1 20ms=2 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 26ms=0 27ms=1 28ms=1 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=1 38ms=0 40ms=3 42ms=0 44ms=0 46ms=0 48ms=0 53ms=0 57ms=0 61ms=0 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=1 200ms=0 250ms=0 300ms=0 350ms=0 400ms=0 450ms=1 500ms=0 550ms=0 600ms=1 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+--------- 0.065s was the duration of dumpsys graphicsstats, ending at: 2023-05-18 12:38:57

@@ -1,0 +1,16 @@
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Max charging current: 500000
+  Max charging voltage: 5000000
+  Charge counter: 891000
+  status: 2
+  health: 2
+  present: true
+  level: 99
+  scale: 100
+  voltage: 4292
+  temperature: 243
+  technology: Li-ion
+--------- 0.011s was the duration of dumpsys battery, ending at: 2023-05-22 17:52:06

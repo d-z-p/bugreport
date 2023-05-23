@@ -1,0 +1,5 @@
+ifname total_skb_rx_bytes total_skb_rx_packets total_skb_tx_bytes total_skb_tx_packets rx_tcp_bytes rx_tcp_packets rx_udp_bytes rx_udp_packets rx_other_bytes rx_other_packets tx_tcp_bytes tx_tcp_packets tx_udp_bytes tx_udp_packets tx_other_bytes tx_other_packets
+seth_lte0 16375687 13653 924381 9478 16312382 13347 62637 295 668 11 889695 9142 23315 295 11371 41
+dummy0 0 0 392 7 0 0 0 0 0 0 0 0 0 0 392 7
+lo 5937 61 5937 61 1240 23 0 0 4697 38 1240 23 0 0 4697 38
+

@@ -1,0 +1,32 @@
+  4294967293 |     Client |    0    0  320  386 |    0.0    0.0   -1.0   -1.0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ com.eg.android.AlipayGphone/com.alipay.watch.game.GameActivity#0
+       21135 |     Client |    0    0  320  386 |    0.0    0.0  320.0  386.0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ Navtion#0
+      311000 |     Client |    0    0  320  386 |    0.0    0.0  320.0  386.0
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+h/w composer state:
+  h/w composer enabled
+Allocated buffers:
+0x7f9000fc40:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0x900 | 
+0x7f90102900:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | Navtion#0
+0x7f90104f40:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | com.eg.android.AlipayGphone/com.alipay.watch.game.GameActivity#0
+0x7f907923c0: 3255.88 KiB |  961 ( 976) x  854 |    1 |        2 | 0xb00 | com.android.systemui.ImageWallpaper#0
+0x7f90793ec0:    1.25 KiB |  320 ( 320) x    1 |    1 |        1 | 0xb00 | StatusBar#0
+0x7f90793f80:    1.25 KiB |  320 ( 320) x    1 |    1 |        1 | 0xb00 | StatusBar#0
+0x7f90794040:    1.25 KiB |  320 ( 320) x    1 |    1 |        1 | 0xb00 | StatusBar#0
+0x7f909ddf00:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0x1a00 | FramebufferSurface
+0x7f909ddfc0:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0x1a00 | FramebufferSurface
+0x7f909de080:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0x1a00 | FramebufferSurface
+0x7f93e23a80:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | com.eg.android.AlipayGphone/com.alipay.watch.ui.GameWatchBindingActivity#0
+0x7f93e23d80:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | com.zmapp.album/com.zmapp.album.MainActivity#0
+0x7f93e23fc0:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0x900 | com.jx.launcher/com.jx.launcher.Launcher#0
+0x7f93e24080:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | com.jx.launcher/com.jx.launcher.Launcher#0
+0x7f93e242c0:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | com.eg.android.AlipayGphone/com.alipay.watch.game.GameActivity#0
+0x7f93e24380:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0x900 | com.eg.android.AlipayGphone/com.alipay.watch.game.GameActivity#0
+0x7f93e24bc0:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | Navtion#0
+0x7f93e24c80:  482.50 KiB |  320 ( 320) x  386 |    1 |        1 | 0xb00 | Navtion#0
+Total allocated (estimate): 10014.62 KB
+--------- 0.021s was the duration of dumpsys SurfaceFlinger, ending at: 2023-05-18 12:38:56

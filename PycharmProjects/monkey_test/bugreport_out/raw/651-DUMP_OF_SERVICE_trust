@@ -1,0 +1,6 @@
+Trust manager state:
+ User "??????" (id=0, flags=0x13) (current): trusted=0, trustManaged=0, deviceLocked=0, strongAuthRequired=0x0
+   Enabled agents:
+   Events:
+
+--------- 0.003s was the duration of dumpsys trust, ending at: 2023-05-18 12:38:59

@@ -1,0 +1,648 @@
+--------- beginning of system
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445107] ro.bootimage.build.date.utc=1683675187
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445113] ro.bootimage.build.fingerprint=SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19307:user/release-keys
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445119] ro.softaplte.coexist=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445134] ro.telephony.default_network=9
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445141] ro.bootloader=unknown
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445146] ro.debuggable=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445152] ro.recovery_id=0x3ded90250b47658d740f93eb7ea235120d0c1edc000000000000000000000000
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445158] ro.btwifisoftap.coexist=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445163] ro.audio_tunning.nr=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445169] ro.lockwallpaper.enable=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445174] ro.void_charge_tip=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445180] ro.property_service.version=2
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445186] add.heartrate=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445191] add.salesservices.register=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445197] drm.service.enabled=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445202] hsc.disable.mingshi=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445208] hsc.disable.yingyongbao=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445213] key.need.wait=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445219] key.test.up=139
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445224] key.test.down=26
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445230] lcd.switch=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445236] ram.set.byrom.xiwang=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445241] ram.set16g=8GB
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445247] ram.set16g.true=2GB
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445253] ram.set64g=8GB
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445258] ram.set64g.true=4GB
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445264] rom.set16g=128G
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445269] rom.set64g=128G
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445275] sos.with.shutdown.add=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445280] init.svc.ueventd=running
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445286] init.svc.recovery=running
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445292] mute.all=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445297] palm.press.screen=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445303] wifi.interface=wlan0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445308] quick.key.long.voice=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445314] quick.key.short.back=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445319] swipe.to.app=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445325] zmapp.alarm=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445331] zmapp.newui=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445336] zmapp.camera.exist=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445342] camera.disable_zsl_mode=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445347] custom.powersave=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445353] delete.nosim.shut=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445358] remove.setting.cpuinfo=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445364] string.qrcode.label=?????????
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445369] factory.delete.keytest=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445375] persist.dbg.wfc_avail_ovr=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445381] persist.msms.phone_count=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445386] persist.sprd.fp.lockapp=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445392] persist.sprd.fp.launchapp=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445397] persist.wifi.func.hidessid=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445403] persist.modem.l.nvp=l_
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445408] persist.modem.l.enable=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445414] persist.recents.sprd=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445420] persist.support.fingerprint=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445425] presist.zy.nosim.poweroff=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445431] presist.zy.charge.low=5
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445437] presist.zy.charge.tip=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445442] support.vibrate=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445448] keyguard.no_require_sim=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445453] tempture.wear.alert=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445459] heartrate.play.voice=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445464] heartraue.bd6122=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445470] notspport.browser.download.apk=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445476] ISShowfraud=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445481] temperature.play.voice=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445487] slide_enable=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445492] delete_24hour=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445498] jx_show_volte=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445503] jx_vibrate_ring=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445509] reset_default_http_response=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445517] sys.usb.config=adb,vser,gser
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445524] sys.usb.configfs=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445529] security.perf_harden=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445535] ro.build.fingerprint=SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19307:user/release-keys
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445541] ro.boot.serialno=51364993376097
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.445546] ro.serialno=51364993376097
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446145] ril.sim.phone_ex.start=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446158] persist.radio.volte.mode=Normal
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446167] persist.radio.multisim.config=ssss
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446316] net.bt.name=Android
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446325] sys.lcd.info=lcd_st77916_mipi_boe196
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446332]
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446340] sys.usb.controller=musb-hdrc.0.auto
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446346] sys.gsensor.info=sc7a22
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446352] sys.rotation.animscale=0.5
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446359] sys.touchscreen.info=CST0XX
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446364] sys.use_fifo_ui=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446370] persist.sys.3d.calibraion=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446378] persist.sys.5g=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446385] persist.sys.apr.reload=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446390] persist.sys.apr.enabled=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446396] persist.sys.apr.lifetime=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446402] persist.sys.apr.rlchanged=800
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446408] persist.sys.apr.testgroup=CSSLAB
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446413] persist.sys.apr.autoupload=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446419] persist.sys.apr.reportlevel=2
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446424] persist.sys.apr.timechanged=180
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446430] persist.sys.apr.intervaltime=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446438] persist.sys.apr.exceptionnode=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446445] persist.sys.cam.ba.blur.version=3
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446451] persist.sys.cam.fr.blur.version=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446456] persist.sys.cam.sr.enable=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446471] persist.sys.cam.sfv.alter=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446478] persist.sys.cam.3dnr=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446485] persist.sys.cam.3dnr.version=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446490] persist.sys.cam.blur.cov.id=3
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446499] persist.sys.cam.fast.thumb=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446504] persist.sys.cam.beauty.fullfuc=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446510] persist.sys.cam.faceid.version=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446516] persist.sys.cam.filter.version=2
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446522] persist.sys.cam.battery.flash=10
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446527] persist.sys.cam.refocus.enable=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446533] persist.sys.cam.normalhdr=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446541] persist.sys.cam.facebeauty.corp=2
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446547] persist.sys.cpu=10
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446553] persist.sys.rom.fake=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446559] persist.sys.usb.config=ptp
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446564] persist.sys.wcn.log_dest=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446570] persist.sys.csvt=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446575] persist.sys.logo=5G
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446581] persist.sys.sprd.wcnreset=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446587] persist.sys.sprd.modemreset=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446592] persist.sys.wifi.pocketmode=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446598] persist.sys.modem.log_dest=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446603] persist.sys.power.touch=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446609] persist.sys.romSP=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446614] persist.sys.rompt=1.0f
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446620] persist.sys.spapp=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446625] persist.sys.vilte.socket=ap
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446631] persist.sys.volte.enable=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446636] persist.sys.dalvik.vm.lib.2=libart.so
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446642] persist.sys.sensor.id=trigger_srid
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446648] persist.sys.android.version=9.0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446653] persist.sys.support.vt=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446659] persist.sys.blending.enable=false
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446664] persist.sys.sdcardfs=force_on
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446670] persist.sys.bsservice.enable=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446676] persist.sys.firstboot=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446681] persist.sys.heartbeat.enable=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446687] persist.sys.isshowrealram=1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446695] persist.sys.start_udpdatastall=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446705] debug.atrace.tags.enableflags=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446711] ro.dalvik.vm.native.bridge=0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446717] dalvik.vm.isa.arm.variant=cortex-a15
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446723] dalvik.vm.isa.arm.features=default
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446729] dalvik.vm.isa.arm64.variant=generic
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446734] dalvik.vm.isa.arm64.features=default
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446740] dalvik.vm.dexopt.secondary=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446746] dalvik.vm.usejit=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446751] dalvik.vm.heapsize=512m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446757] dalvik.vm.dex2oat-Xms=64m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446763] dalvik.vm.dex2oat-Xmx=512m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446768] dalvik.vm.heapmaxfree=8m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446776] dalvik.vm.heapminfree=512k
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446782] dalvik.vm.heapstartsize=8m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446788] dalvik.vm.appimageformat=lz4
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446794] dalvik.vm.usejitprofiles=true
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446799] dalvik.vm.heapgrowthlimit=192m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446805] dalvik.vm.stack-trace-dir=/data/anr
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446811] dalvik.vm.image-dex2oat-Xms=64m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446817] dalvik.vm.image-dex2oat-Xmx=64m
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446822] dalvik.vm.heaptargetutilization=0.75
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446830] ro.config.ringtone=Ring_Synth_04.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446836] ro.config.ringtone0=Ring_Synth_04.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446842] ro.config.ringtone1=Ring_Synth_02.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446848] ro.config.alarm_alert=Alarm_Classic.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446853] ro.config.default_message=Argon.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446859] ro.config.default_message0=Argon.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446864] ro.config.default_message1=Highwire.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446870] ro.config.notification_sound=pixiedust.ogg
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446878]
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.446884] Supported API: 3
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.460637]
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.460674] -- Wiping data...
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    0.520634] Formatting /data...
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242578]
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242625] 	F2FS-tools: mkfs.f2fs Ver: 1.8.0 (2017-02-03)
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242636]
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242643] Info: Disable heap-based policy
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242651] Info: Debug level = 0
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242658] Info: Label = 
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242665] Info: Trim is disabled
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242671] Info: total device sectors = 22892511 (in 512 bytes)
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242677] Info: Segments per section = 1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242683] Info: Sections per zone = 1
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242689] Info: sector size = 512
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242695] Info: total sectors = 22892479 (11177 MB)
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242701] Info: zone aligned segment0 blkaddr: 512
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242706] Info: format version with
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242749]   "Linux version 4.4.83 (hsc003@hsc003-PowerEdge-R720) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Wed May 10 07:45:52 CST 2023"
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242758] Info: Overprovision ratio = 1.900%
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242776] Info: Overprovision segments = 216 (GC reserved = 113)
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242783] Info: format successful
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.242850] E:format_volume: mkfs.f2fs -t0 -O encrypt /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.258791] E:format_volume: 22892479
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.343953] Formatting /cache...
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.414404] format_volume() using_tmp_e2fs = 0 
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.416075] mke2fs 1.43.3 (04-Sep-2016)
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.463949] Discarding device blocks:  4096/38400\b\b\b\b\b\b\b\b\b\b\b           \b\b\b\b\b\b\b\b\b\b\bdone                            
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464320] Creating filesystem with 38400 4k blocks and 38400 inodes
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464350] Filesystem UUID: 5db853be-40b7-49ec-9212-d159f756f3cf
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464358] Superblock backups stored on blocks: 
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464364] 	32768
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464370]
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464400] Allocating group tables: 0/2\b\b\b   \b\b\bdone                            
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.464648] Writing inode tables: 0/2\b\b\b   \b\b\bdone                            
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.491569] Creating journal (4096 blocks): done
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.854436] Writing superblocks and filesystem accounting information: 0/2\b\b\b   \b\b\bdone
+05-18 12:32:34.000  root  2831  2831 I recovery:last_log: [    1.854471]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000199] Starting recovery (pid 2831) on Thu May 18 04:32:33 2023
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000247] recovery filesystem table
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000255] =========================
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000262]   0 /system ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000268]   1 /vendor ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000274]   2 /spl emmc /dev/block/mmcblk0boot0 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000280]   3 /spl_bk emmc /dev/block/mmcblk0boot1 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000286]   4 /uboot emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/uboot 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000292]   5 /uboot_bak emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/uboot_bak 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000298]   6 /sml emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/sml 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000304]   7 /sml_bak emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/sml_bak 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000309]   8 /tos emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/trustos 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000315]   9 /tos_bak emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/trustos_bak 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000321]   10 /vbmeta emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vbmeta 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000327]   11 /vbmeta_bak emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vbmeta_bak 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000332]   12 /ltedsp emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_ldsp 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000338]   13 /ltegdsp emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_gdsp 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000344]   14 /ltemodem emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_modem 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000349]   15 /ltedeltanv emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_deltanv 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000355]   16 /ltefixnv1 emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_fixnv1 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000361]   17 /ltefixnv2 emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_fixnv2 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000367]   18 /lteruntimenv1 emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_runtimenv1 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000373]   19 /lteruntimenv2 emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/l_runtimenv2 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000379]   20 /wcnmodem emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/wcnmodem 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000385]   21 /gnssmodem emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/gpsgl 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000396]   22 /gnssbdmodem emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/gpsbd 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000402]   23 /pmsys emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/pm_sys 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000408]   24 /misc emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/misc 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000414]   25 /boot emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/boot 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000419]   26 /recovery emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/recovery 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000425]   27 /persist emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000431]   28 /logo emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/logo 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000436]   29 /fbootlogo emmc /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/fbootlogo 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000442]   30 /system ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/system 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000448]   31 /vendor ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/vendor 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000453]   32 /data f2fs /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000459]   33 /cache ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/cache 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000465]   34 /productinfo ext4 /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/prodnv 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000472]   35 /storage/sdcard0 vfat /dev/block/platform/soc/soc:ap-ahb/20300000.sdio/mmcblk1p1 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000480]   36 /tmp ramdisk ramdisk 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000486]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000835] I:Boot command: boot-recovery
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.000873] I:Got 4 arguments from boot message
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.004820] locale is [zh-CN]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.004848] stage is []
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.004855] reason is [MasterClearConfirm]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.080316] W:Failed to read max brightness: No such file or directory
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.080346] I:Screensaver disabled
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.158462]           erasing_text: zh-CN (82 x 29 @ 3750)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.169269]        no_command_text: zh-CN (63 x 29 @ 3750)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.178093]             error_text: zh-CN (69 x 29 @ 3750)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.201675]   verifySystemError_text: zh (316 x 38 @ 5337)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.402392]        installing_text: zh-CN (112 x 19 @ 2500)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.443760] SELinux: Loaded file_contexts
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.443793] Command: "/sbin/recovery" "--wipe_data" "--reason=MasterClearConfirm" "--locale=zh-CN"
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.443801]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.443807]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444084] dw.divoiot.app.qrcode=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444095] is.have.matar=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444105] is.zmapp.launcher=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444111] is.zmapp.inputmethod=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444117] jx.qq=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444123] jx.habit=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444129] jx.music.player=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444135] jx.camera.num=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444143] jx.cource=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444149] jx.vibrate=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444158] jx.heartrate=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444163] jx.videocall=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444169] jx.temperature=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444175] no.sim.power.off=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444180] pm.dexopt.boot=verify
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444186] pm.dexopt.ab-ota=speed-profile
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444192] pm.dexopt.shared=speed
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444198] pm.dexopt.install=quicken
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444208] pm.dexopt.inactive=verify
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444214] pm.dexopt.bg-dexopt=speed-profile
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444222] pm.dexopt.first-boot=quicken
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444228] ro.dw.notclosebt=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444234] ro.sf.lcd_width=24
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444239] ro.sf.lcd_height=28
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444245] ro.sf.lcd_density=160
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444251] ro.sp.log=/dev/slog_pm
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444256] ro.adb.secure=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444262] ro.com.android.dataroaming=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444268] ro.frp.pst=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/persist
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444275] ro.gpu.boost=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444280] ro.gpu.boost.path=/vendor/lib/libboost.so
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444286] ro.has.camera=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444291] ro.has.vibrator=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444297] ro.hsc.anims=S30
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444305] ro.hsc.enableencoder=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444311] ro.lmk.vmpressurenhanced=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444317] ro.sos.add=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444323] ro.sys.pwctl.ultrasaving=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444329] ro.sys.sdcardfs=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444334] ro.wcn=enabled
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444340] ro.wcn.gpschip=ge2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444346] ro.wcn.hardware.etcpath=/vendor/etc
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444351] ro.wcn.hardware.product=sharkle
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444360] ro.boot.mode=recovery
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444366] ro.boot.flash.locked=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444371] ro.boot.vbmeta.size=13056
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444378] ro.boot.vbmeta.digest=b5cb09e5aeff94b6899d792c98b6b975786ab0dbc31e0a3fe833688517021916
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444384] ro.boot.vbmeta.hash_alg=sha256
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444389] ro.boot.vbmeta.avb_version=1.0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444395] ro.boot.vbmeta.device_state=locked
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444400] ro.boot.hardware=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444406] ro.boot.avb_version=1.0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444412] ro.boot.verifiedbootstate=green
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444418] ro.fota.oem=heshuncheng8541e
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444423] ro.fota.type=watch
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444429] ro.fota.device=S30
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444435] ro.fota.version=K7_V13A_XTQ_S30_CN_ZX_F3.0_4.4V800_20230510_20230510-0736
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444441] ro.fota.platform=SC8541E
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444449] ro.hwui.use_offline_shader=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444456] ro.ifaa.device.vendor=0x08
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444462] ro.ifaa.support=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444467] ro.ifaa.testmode.off=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444473] ro.show.file=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444478] ro.show.storage=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444484] ro.show.deviceiinfo.ram=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444490] ro.wifi.signal.optimized=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444495] ro.wifi.softap.maxstanum=10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444501] ro.wifi.channels=
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444507] ro.allow.mock.location=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444513] ro.board.platform=sp9832e
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444518] ro.build.id=OPM2.171019.012
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444526] ro.build.date=2023??? 05??? 10??? ????????? 07:33:07 CST
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444531] ro.build.date.utc=1683675187
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444537] ro.build.host=hsc003-PowerEdge-R720
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444543] ro.build.tags=release-keys
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444549] ro.build.type=user
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444554] ro.build.user=hsc003
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444560] ro.build.flavor=sl8541e_1h10_oversea-user
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444566] ro.build.display.id=K7_V13A_XTQ_S30_CN_ZX_F3.0_4.4V800_20230510
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444572] ro.build.product=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444578] ro.build.version.sdk=27
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444583] ro.build.version.base_os=
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444588] ro.build.version.release=8.1.0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444594] ro.build.version.codename=REL
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444600] ro.build.version.incremental=19307
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444606] ro.build.version.preview_sdk=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444624] ro.build.version.all_codenames=REL
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444633] ro.build.version.security_patch=2019-11-05
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444642] ro.build.description=sl8541e_1h10_oversea-user 8.1.0 OPM2.171019.012 19307 release-keys
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444648] ro.build.characteristics=default
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444654] ro.modem.l.id=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444659] ro.modem.l.nv=/dev/spipe_lte1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444665] ro.modem.l.dev=/proc/cptl/
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444671] ro.modem.l.eth=seth_lte
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444677] ro.modem.l.log=/dev/slog_lte
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444682] ro.modem.l.snd=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444691] ro.modem.l.tty=/dev/stty_lte
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444697] ro.modem.l.vbc=/dev/spipe_lte6
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444703] ro.modem.l.diag=/dev/sdiag_lte
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444709] ro.modem.l.loop=/dev/spipe_lte0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444715] ro.modem.l.count=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444720] ro.modem.l.assert=/dev/spipe_lte2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444726] ro.modem.l.fixnv_size=0xc8000
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444732] ro.modem.l.runnv_size=0xe8000
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444737] ro.modem.wcn.id=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444743] ro.modem.wcn.diag=/dev/slog_wcn
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444748] ro.modem.wcn.count=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444755] ro.modem.wcn.enable=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444760] ro.modem.gnss.diag=/dev/slog_gnss
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444766] ro.radio.flavor=oversea
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444772] ro.radio.modemtype=l
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444777] ro.soter.support=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444783] ro.custom.build.version=
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444788] ro.custom.engineer.version1=8541EB
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444794] ro.custom.engineer.version2=K7_V13A_XTQ_S30_CN_ZX_F3.0_4.4V800
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444799] ro.custom.engineer.version3=G358_W158_FDD1358_TDD38394041_320X386_K711001_20230510
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444805] ro.keybox.id.value=SPRD
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444811] ro.secure=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444816] ro.softap.whitelist=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444822] ro.treble.enabled=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444828] ro.vendor.vndk.version=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444834] ro.vendor.build.date=2023??? 05??? 10??? ????????? 07:33:07 CST
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444840] ro.vendor.build.date.utc=1683675187
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444846] ro.vendor.build.fingerprint=SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19307:user/release-keys
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444852] ro.vendor.product.name=sl8541e_1h10_oversea
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444858] ro.vendor.product.brand=SPRD
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444864] ro.vendor.product.model=S30
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444870] ro.vendor.product.device=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444876] ro.vendor.product.manufacturer=S30
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444882] ro.vowifi.softap.ee_warning=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444887] ro.zygote=zygote64_32
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444893] ro.carrier=unknown
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444899] ro.factory.xl.test=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444904] ro.hotspot.enabled=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444910] ro.product.cpu.abi=arm64-v8a
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444916] ro.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444922] ro.product.cpu.abilist32=armeabi-v7a,armeabi
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444927] ro.product.cpu.abilist64=arm64-v8a
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444933] ro.product.name=sl8541e_1h10_oversea
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444939] ro.product.board=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444945] ro.product.brand=SPRD
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444951] ro.product.model=S30
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444957] ro.product.device=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444963] ro.product.locale=zh-CN
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444968] ro.product.hscname=k7_v12_xtq_s30_mipi_320X386
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444974] ro.product.hardware=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444980] ro.product.manufacturer=S30
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444986] ro.product.partitionpath=/dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444991] ro.product.assistanttouch=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.444997] ro.product.first_api_level=26
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445002] ro.ramsize=2048M
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445008] ro.simlock.onekey.lock=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445014] ro.simlock.unlock.bynv=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445019] ro.simlock.unlock.autoshow=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445025] ro.storage.flash_type=2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445030] ro.storage.install2internal=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445036] ro.support.auto.roam=disabled
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445041] ro.support.matar=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445047] ro.version.click=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445053] ro.wifip2p.coexist=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445058] ro.baseband=unknown
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445064] ro.bootmode=recovery
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445072] ro.hardware=sl8541e_1h10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445078] ro.hardware.keystore=sprdtrusty
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445084] ro.launcher.shakewallpaper=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445090] ro.powerkey.back=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445096] ro.revision=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445101] ro.bootimage.build.date=2023??? 05??? 10??? ????????? 07:33:07 CST
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445107] ro.bootimage.build.date.utc=1683675187
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445113] ro.bootimage.build.fingerprint=SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19307:user/release-keys
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445119] ro.softaplte.coexist=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445134] ro.telephony.default_network=9
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445141] ro.bootloader=unknown
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445146] ro.debuggable=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445152] ro.recovery_id=0x3ded90250b47658d740f93eb7ea235120d0c1edc000000000000000000000000
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445158] ro.btwifisoftap.coexist=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445163] ro.audio_tunning.nr=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445169] ro.lockwallpaper.enable=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445174] ro.void_charge_tip=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445180] ro.property_service.version=2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445186] add.heartrate=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445191] add.salesservices.register=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445197] drm.service.enabled=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445202] hsc.disable.mingshi=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445208] hsc.disable.yingyongbao=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445213] key.need.wait=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445219] key.test.up=139
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445224] key.test.down=26
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445230] lcd.switch=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445236] ram.set.byrom.xiwang=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445241] ram.set16g=8GB
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445247] ram.set16g.true=2GB
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445253] ram.set64g=8GB
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445258] ram.set64g.true=4GB
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445264] rom.set16g=128G
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445269] rom.set64g=128G
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445275] sos.with.shutdown.add=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445280] init.svc.ueventd=running
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445286] init.svc.recovery=running
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445292] mute.all=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445297] palm.press.screen=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445303] wifi.interface=wlan0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445308] quick.key.long.voice=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445314] quick.key.short.back=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445319] swipe.to.app=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445325] zmapp.alarm=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445331] zmapp.newui=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445336] zmapp.camera.exist=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445342] camera.disable_zsl_mode=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445347] custom.powersave=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445353] delete.nosim.shut=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445358] remove.setting.cpuinfo=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445364] string.qrcode.label=?????????
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445369] factory.delete.keytest=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445375] persist.dbg.wfc_avail_ovr=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445381] persist.msms.phone_count=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445386] persist.sprd.fp.lockapp=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445392] persist.sprd.fp.launchapp=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445397] persist.wifi.func.hidessid=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445403] persist.modem.l.nvp=l_
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445408] persist.modem.l.enable=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445414] persist.recents.sprd=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445420] persist.support.fingerprint=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445425] presist.zy.nosim.poweroff=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445431] presist.zy.charge.low=5
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445437] presist.zy.charge.tip=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445442] support.vibrate=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445448] keyguard.no_require_sim=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445453] tempture.wear.alert=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445459] heartrate.play.voice=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445464] heartraue.bd6122=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445470] notspport.browser.download.apk=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445476] ISShowfraud=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445481] temperature.play.voice=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445487] slide_enable=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445492] delete_24hour=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445498] jx_show_volte=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445503] jx_vibrate_ring=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445509] reset_default_http_response=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445517] sys.usb.config=adb,vser,gser
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445524] sys.usb.configfs=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445529] security.perf_harden=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445535] ro.build.fingerprint=SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19307:user/release-keys
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445541] ro.boot.serialno=51364993376097
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.445546] ro.serialno=51364993376097
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446145] ril.sim.phone_ex.start=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446158] persist.radio.volte.mode=Normal
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446167] persist.radio.multisim.config=ssss
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446316] net.bt.name=Android
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446325] sys.lcd.info=lcd_st77916_mipi_boe196
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446332]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446340] sys.usb.controller=musb-hdrc.0.auto
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446346] sys.gsensor.info=sc7a22
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446352] sys.rotation.animscale=0.5
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446359] sys.touchscreen.info=CST0XX
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446364] sys.use_fifo_ui=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446370] persist.sys.3d.calibraion=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446378] persist.sys.5g=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446385] persist.sys.apr.reload=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446390] persist.sys.apr.enabled=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446396] persist.sys.apr.lifetime=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446402] persist.sys.apr.rlchanged=800
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446408] persist.sys.apr.testgroup=CSSLAB
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446413] persist.sys.apr.autoupload=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446419] persist.sys.apr.reportlevel=2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446424] persist.sys.apr.timechanged=180
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446430] persist.sys.apr.intervaltime=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446438] persist.sys.apr.exceptionnode=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446445] persist.sys.cam.ba.blur.version=3
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446451] persist.sys.cam.fr.blur.version=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446456] persist.sys.cam.sr.enable=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446471] persist.sys.cam.sfv.alter=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446478] persist.sys.cam.3dnr=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446485] persist.sys.cam.3dnr.version=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446490] persist.sys.cam.blur.cov.id=3
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446499] persist.sys.cam.fast.thumb=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446504] persist.sys.cam.beauty.fullfuc=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446510] persist.sys.cam.faceid.version=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446516] persist.sys.cam.filter.version=2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446522] persist.sys.cam.battery.flash=10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446527] persist.sys.cam.refocus.enable=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446533] persist.sys.cam.normalhdr=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446541] persist.sys.cam.facebeauty.corp=2
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446547] persist.sys.cpu=10
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446553] persist.sys.rom.fake=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446559] persist.sys.usb.config=ptp
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446564] persist.sys.wcn.log_dest=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446570] persist.sys.csvt=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446575] persist.sys.logo=5G
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446581] persist.sys.sprd.wcnreset=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446587] persist.sys.sprd.modemreset=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446592] persist.sys.wifi.pocketmode=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446598] persist.sys.modem.log_dest=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446603] persist.sys.power.touch=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446609] persist.sys.romSP=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446614] persist.sys.rompt=1.0f
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446620] persist.sys.spapp=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446625] persist.sys.vilte.socket=ap
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446631] persist.sys.volte.enable=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446636] persist.sys.dalvik.vm.lib.2=libart.so
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446642] persist.sys.sensor.id=trigger_srid
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446648] persist.sys.android.version=9.0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446653] persist.sys.support.vt=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446659] persist.sys.blending.enable=false
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446664] persist.sys.sdcardfs=force_on
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446670] persist.sys.bsservice.enable=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446676] persist.sys.firstboot=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446681] persist.sys.heartbeat.enable=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446687] persist.sys.isshowrealram=1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446695] persist.sys.start_udpdatastall=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446705] debug.atrace.tags.enableflags=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446711] ro.dalvik.vm.native.bridge=0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446717] dalvik.vm.isa.arm.variant=cortex-a15
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446723] dalvik.vm.isa.arm.features=default
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446729] dalvik.vm.isa.arm64.variant=generic
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446734] dalvik.vm.isa.arm64.features=default
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446740] dalvik.vm.dexopt.secondary=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446746] dalvik.vm.usejit=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446751] dalvik.vm.heapsize=512m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446757] dalvik.vm.dex2oat-Xms=64m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446763] dalvik.vm.dex2oat-Xmx=512m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446768] dalvik.vm.heapmaxfree=8m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446776] dalvik.vm.heapminfree=512k
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446782] dalvik.vm.heapstartsize=8m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446788] dalvik.vm.appimageformat=lz4
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446794] dalvik.vm.usejitprofiles=true
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446799] dalvik.vm.heapgrowthlimit=192m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446805] dalvik.vm.stack-trace-dir=/data/anr
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446811] dalvik.vm.image-dex2oat-Xms=64m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446817] dalvik.vm.image-dex2oat-Xmx=64m
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446822] dalvik.vm.heaptargetutilization=0.75
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446830] ro.config.ringtone=Ring_Synth_04.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446836] ro.config.ringtone0=Ring_Synth_04.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446842] ro.config.ringtone1=Ring_Synth_02.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446848] ro.config.alarm_alert=Alarm_Classic.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446853] ro.config.default_message=Argon.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446859] ro.config.default_message0=Argon.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446864] ro.config.default_message1=Highwire.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446870] ro.config.notification_sound=pixiedust.ogg
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446878]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.446884] Supported API: 3
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.460637]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.460674] -- Wiping data...
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    0.520634] Formatting /data...
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242578]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242625] 	F2FS-tools: mkfs.f2fs Ver: 1.8.0 (2017-02-03)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242636]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242643] Info: Disable heap-based policy
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242651] Info: Debug level = 0
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242658] Info: Label = 
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242665] Info: Trim is disabled
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242671] Info: total device sectors = 22892511 (in 512 bytes)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242677] Info: Segments per section = 1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242683] Info: Sections per zone = 1
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242689] Info: sector size = 512
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242695] Info: total sectors = 22892479 (11177 MB)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242701] Info: zone aligned segment0 blkaddr: 512
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242706] Info: format version with
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242749]   "Linux version 4.4.83 (hsc003@hsc003-PowerEdge-R720) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Wed May 10 07:45:52 CST 2023"
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242758] Info: Overprovision ratio = 1.900%
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242776] Info: Overprovision segments = 216 (GC reserved = 113)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242783] Info: format successful
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.242850] E:format_volume: mkfs.f2fs -t0 -O encrypt /dev/block/platform/soc/soc:ap-ahb/20600000.sdio/by-name/userdata
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.258791] E:format_volume: 22892479
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.343953] Formatting /cache...
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.414404] format_volume() using_tmp_e2fs = 0 
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.416075] mke2fs 1.43.3 (04-Sep-2016)
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.463949] Discarding device blocks:  4096/38400\b\b\b\b\b\b\b\b\b\b\b           \b\b\b\b\b\b\b\b\b\b\bdone                            
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464320] Creating filesystem with 38400 4k blocks and 38400 inodes
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464350] Filesystem UUID: 5db853be-40b7-49ec-9212-d159f756f3cf
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464358] Superblock backups stored on blocks: 
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464364] 	32768
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464370]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464400] Allocating group tables: 0/2\b\b\b   \b\b\bdone                            
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.464648] Writing inode tables: 0/2\b\b\b   \b\b\bdone                            
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.491569] Creating journal (4096 blocks): done
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.854436] Writing superblocks and filesystem accounting information: 0/2\b\b\b   \b\b\bdone
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.854471]
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.899098] Data wipe complete.
+05-18 12:32:35.000  root  2831  2831 I recovery:last_log: [    1.937148] I:Saving locale "zh-CN"

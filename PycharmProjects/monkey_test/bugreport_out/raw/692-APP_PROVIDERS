@@ -1,0 +1,195 @@
+PROVIDER ContentProviderRecord{e430864 u0 com.android.providers.telephony/.TelephonyProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7aeaf82 u0 com.android.providers.telephony/.MmsProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{45a46d0 u0 com.android.providers.telephony/.CarrierProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b1c41ce u0 com.android.providers.settings/.SettingsProvider} pid=3369
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{a68f8ef u0 android/com.android.server.am.DumpHeapProvider} pid=3369
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{264fffc u0 com.android.providers.telephony/.ServiceStateProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6beacda u0 com.android.providers.telephony/.HbpcdLookupProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{2001fe8 u0 com.android.providers.telephony/.MmsSmsProvider} pid=4156
+    Client:
+      Default SMS app: com.android.messaging
+
+PROVIDER ContentProviderRecord{9eabca6 u0 com.android.providers.telephony/.SmsProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{402ba7e u0 com.android.providers.downloads/.DownloadStorageProvider} pid=4847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{80c008a u0 com.sohu.inputmethod.sogou/android.support.v4.content.FileProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{b47e171 u0 com.sohu.inputmethod.sogou/com.sogou.apm.android.core.ApmProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c916d30 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderUI} pid=4923
+    Client:
+
+PROVIDER ContentProviderRecord{d3e796 u0 com.android.providers.calendar/.CalendarProvider2} pid=10366
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{aaa6497 u0 com.android.calendar/.CalendarRecentSuggestionsProvider} pid=8052
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fad648c u0 com.android.settings/android.support.v4.content.FileProvider} pid=4340
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f3a3045 u0 com.android.phone/.PhoneSearchIndexablesProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{ed28bc1 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderPersist} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{743a243 u0 com.sohu.inputmethod.sogou/com.huawei.hms.update.provider.UpdateProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{29bf1f9 u0 com.android.providers.media/.MediaProvider} pid=4847
+    Client:
+      internal.db: version 801, 209 rows, 224 inserts, 0 updates, 0 deletes, 355 queries, scan started 5???18??? 12:35 (04:08) (scanning null)
+      2023-05-18 04:35:18.917 : Database upgraded from version 0 to 801 in 0 seconds
+      external-fffffff.db: version 801, 48 rows, 50 inserts, 13 updates, 0 deletes, 135 queries, scan started 5???18??? 12:35 (00:02)
+      2023-05-18 04:35:06.593 : Database upgraded from version 0 to 801 in 0 seconds
+      2023-05-18 04:35:14.955 : external-fffffff.db: version 801, 29 rows, 29 inserts, 5 updates, 0 deletes, 35 queries, scan started 5???18??? 12:35 (00:04)
+      2023-05-18 04:35:20.389 : external-fffffff.db: version 801, 46 rows, 48 inserts, 13 updates, 0 deletes, 93 queries, scan started 5???18??? 12:35 (00:02)
+
+PROVIDER ContentProviderRecord{a5ca21c u0 com.android.calendar/android.support.v4.content.FileProvider} pid=8052
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{101eca5 u0 com.jx.watchos.setting/com.yanzhenjie.permission.FileProvider} pid=10764
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{fa93525 u0 com.android.settings/com.sprd.settings.timerpower.AlarmProvider} pid=4340
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8998134 u0 com.android.deskclock/.provider.ClockProvider} pid=9033
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{df6bb4 u0 com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.SogouContentProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6318b52 u0 com.android.providers.media/.MediaDocumentsProvider} pid=4847
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{31c8e9b u0 com.spreadtrum.vowifi/.conf.AccountSettingsProvider} pid=4883
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{84416e2 u0 com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonClientProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{f90bf2e u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderUI} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{c69b248 u0 com.android.phone/.IccProvider} pid=4156
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{68baaf4 u0 com.sohu.inputmethod.sogou/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{4490059 u0 com.sprd.fileexplorer/android.support.v4.content.FileProvider} pid=9144
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{8936db5 u0 com.jx.launcher/com.zmapp.provider.GlobalProvider} pid=12061
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{cc14fde u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.packages.PluginFastInstallProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{acf0edb u0 com.abupdate.fota_demo_iot/android.arch.lifecycle.ProcessLifecycleOwnerInitializer} pid=4649
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{de9b924 u0 com.android.documentsui/.picker.LastAccessedProvider} pid=7184
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{62477aa u0 com.jx.launcher/android.support.v4.content.FileProvider} pid=12061
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{611d489 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderPersist} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{bb8acaf u0 com.sohu.inputmethod.sogou/com.qihoo360.mobilesafe.svcmanager.ServiceProvider} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{96d64cb u0 com.android.settings/com.sprd.audioprofile.AudioProfileProvider} pid=4340
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5a96191 u0 com.android.packageinstaller/.wear.WearPackageIconProvider} pid=10264
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{6f41f9f u0 com.android.providers.downloads/.DownloadProvider} pid=4847
+    Client:
+      Downloads updated in last hour:
+
+PROVIDER ContentProviderRecord{9a0b4b5 u0 com.sohu.inputmethod.sogou/android.arch.lifecycle.ProcessLifecycleOwnerInitializer} pid=4923
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{5f4e731 u0 com.android.documentsui/.archives.ArchivesProvider} pid=7184
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{7646397 u0 com.android.systemui/android.support.v4.content.FileProvider} pid=4188
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{901a233 u0 com.android.settings/com.sprd.audioprofile.AudioProfileSearchIndexablesProvider} pid=4340
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{62a2e8f u0 com.android.settings/.search.SettingsSearchIndexablesProvider} pid=4340
+    Client:
+      nothing to dump
+
+PROVIDER ContentProviderRecord{93b55ab u0 com.zmapp.album/android.support.v4.content.FileProvider} pid=8117
+    Client:
+      nothing to dump

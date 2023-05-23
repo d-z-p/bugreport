@@ -1,0 +1,34 @@
+USB Manager State:
+  USB Device State:
+    mCurrentFunctions: ptp,adb
+    mCurrentOemFunctions: ptp,adb
+    mCurrentFunctionsApplied: true
+    mConnected: true
+    mConfigured: true
+    mUsbDataUnlocked: false
+    mCurrentAccessory: null
+    mHostConnected: false
+    mSourcePower: false
+    mSinkPower: false
+    mUsbCharging: true
+    mHideUsbNotification: false
+    mAudioAccessoryConnected: false
+    Kernel state: CONFIGURED
+  IOException: java.io.FileNotFoundException: /sys/class/android_usb/android0/functions (No such file or directory)
+  USB Debugging State:
+    Connected to adbd: true
+    Last key received: AF:00:FB:01:92:81:2D:0C:E5:66:7B:FE:8A:9C:75:D6
+    User keys:
+  QAAAAJPr2BVlFYjQjZXmzXgYK3O0JvmB3UYWHZD66O5w+H0KBjPXQHhVQowiYgIRBz9SBQgQBzFB4ZfqYbCTpS8zbizV5ysjrgnUjc2z7uoyNPy8kaseZ8XXKH8cIsRe2CjCLuWXKg35b8D3sMqgGWrCLIkD0Pi0Djr9zPgwPKF2W+HPOBruLX4Z+y/hEGBZY14dwpqEzn4fxNvi+l08AAh2/a6tfYyYyzomoX5sKrY+I89Bu8QqAQcMd7uVgVW4gkIarJTFGFohyhJVUZ2yiFwpRn68BOzJ/pWHVWfnZ1Obb8sQHRiSlbLpR1FmemRPZrOPM6AQsdzBdWVcaNVtgNWG8NyHMrGlaCo3LdSqMuwdE6ufEv4aMHKoQH/lK/d3/2qrVMewf/FC3/mspbLoxxnlvXyIBgPTQbG0Ob4C0qtLdJ/nEv0VFB7Cv0GpcfxKtSHzQmWFw7ZwiZ35QsT9Gg5XsqhWYIeG0LnlKmcDVZriM2O7GEk5yugReftB0uumVUPJKs4Ug0SFEBMKK1ux6sybV7nIuooznuDbK4z/tXlXab2JU0k1gQoH0Grtuq3ZGTCodtYKV7Z7CD4w7CqTHSfnjzbOt+aDIOtcot9+gl+LiqGRX0cca2OkN1HpMyE1HAb0Fm7ZZWcP8GfhfWwwc3DWEUef9WTFns/Uda0Yxk4M3m2OsEZjCwEAAQA= @unknown
+  
+    System keys:
+  IOException: java.io.FileNotFoundException: /adb_keys (No such file or directory)
+  USB Host State:
+  USB Port State:
+    sprd_dual_role_usb: port=UsbPort{id=sprd_dual_role_usb, supportedModes=dual}, status=UsbPortStatus{connected=false, currentMode=none, currentPowerRole=no-power, currentDataRole=no-data, supportedRoleCombinations=[no-power:no-data]}, canChangeMode=false, canChangePowerRole=false, canChangeDataRole=false
+  USB Audio Devices:
+  USB MIDI Devices:
+  Settings for profile group 0:
+    Device preferences:
+    Accessory preferences:
+--------- 0.008s was the duration of dumpsys usb, ending at: 2023-05-18 12:38:59

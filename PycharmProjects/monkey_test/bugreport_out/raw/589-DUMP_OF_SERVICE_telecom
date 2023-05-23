@@ -1,0 +1,33 @@
+CallsManager: 
+  mCalls: 
+  mCallAudioManager:
+    All calls:
+    Active dialing, or connecting calls:
+    Ringing calls:
+    Holding calls:
+    Foreground call:
+    null
+    CallAudioModeStateMachine pending messages:
+      Looper (CallAudioModeStateMachine, tid 181) {12d2ea1}
+        (Total messages: 0, polling=true, quitting=false)
+    CallAudioRouteStateMachine pending messages:
+      Looper (com.android.server.telecom.CallAudioRouteStateMachine, tid 180) {5f818c6}
+        (Total messages: 0, polling=true, quitting=false)
+  mTtyManager:
+    mCurrentTtyMode: 0
+  mInCallController:
+    mInCallServices (InCalls registered):
+    ServiceConnections (InCalls bound):
+  mDefaultDialerCache:
+    User 0: com.android.dialer
+  mConnectionServiceRepository:
+    mServiceCache:
+PhoneAccountRegistrar: 
+  xmlVersion: 0
+  defaultOutgoing: none
+  simCallManager: null
+  phoneAccounts:
+    [[X] PhoneAccount: ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [****], UserHandle{0} Capabilities: CallProvider MultiUser PlaceEmerg SimSub  Audio Routes: BESW Schemes: tel voicemail  Extras: Bundle[{android.telecom.extra.SUPPORTS_VIDEO_CALLING_FALLBACK=false}] GroupId: [****]]
+Analytics:
+Historical Events:
+--------- 0.036s was the duration of dumpsys telecom, ending at: 2023-05-22 17:52:12

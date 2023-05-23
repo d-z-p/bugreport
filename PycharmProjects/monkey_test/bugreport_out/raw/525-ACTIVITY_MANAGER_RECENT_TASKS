@@ -1,0 +1,416 @@
+  Recent tasks:
+  * Recent #0: TaskRecord{9b4b4d4 #4 A=com.jx.launcher U=0 StackId=0 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=android
+    affinity=com.jx.launcher
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.jx.launcher/.Launcher}
+    realActivity=com.jx.launcher/.Launcher
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{48c3c31 u0 com.jx.launcher/.Launcher t4}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/4_task_thumbnail.png
+    stackId=0
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384505061 lastActiveTime=1684384736404 (inactive for 0s)
+  * Recent #1: TaskRecord{bc7c3d #65 A=com.eg.android.AlipayGphone U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=u0a87 mCallingUid=u0a87 mUserSetupComplete=true mCallingPackage=com.eg.android.AlipayGphone
+    affinity=com.eg.android.AlipayGphone
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.eg.android.AlipayGphone/com.alipay.watch.ui.MainActivity}
+    realActivity=com.eg.android.AlipayGphone/com.alipay.watch.ui.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{dcdebd8 u0 com.eg.android.AlipayGphone/com.alipay.watch.ui.GameWatchBindingActivity t65}, ActivityRecord{955514c u0 com.eg.android.AlipayGphone/com.alipay.watch.game.GameActivity t65}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/65_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384733526 lastActiveTime=1684384735893 (inactive for 0s)
+  * Recent #2: TaskRecord{249ac32 #64 A=android.task.browser U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=u0a71 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=android.task.browser
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.browser/.BrowserActivity}
+    realActivity=com.android.browser/.BrowserActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{629331b u0 com.android.browser/.BrowserActivity t64}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/64_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384732223 lastActiveTime=1684384733537 (inactive for 3s)
+  * Recent #3: TaskRecord{c81bd83 #63 A=com.ztapp.themestore U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=u0a82 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.ztapp.themestore
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10a00000 cmp=com.ztapp.themestore/.activity.SplashActivity}
+    realActivity=com.ztapp.themestore/.activity.SplashActivity
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{313a94b u0 com.ztapp.themestore/.activity.SplashActivity t63}, ActivityRecord{2786470 u0 com.android.packageinstaller/.permission.ui.GrantPermissionsActivity t63}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/63_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384731499 lastActiveTime=1684384732288 (inactive for 4s)
+  * Recent #4: TaskRecord{14dcb00 #61 A=com.jx.watchos.setting U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.jx.launcher
+    affinity=com.jx.watchos.setting
+    intent={flg=0x10008000 cmp=com.jx.watchos.setting/.theme.activity.WatchDialModelActivity}
+    realActivity=com.jx.watchos.setting/.theme.activity.WatchDialModelActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{f9b9c0f u0 com.jx.watchos.setting/.theme.activity.WatchDialModelActivity t61}, ActivityRecord{4b12320 u0 com.jx.watchos.setting/.SettingActivity t61}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/61_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384722224 lastActiveTime=1684384730784 (inactive for 5s)
+  * Recent #5: TaskRecord{3f99f39 #62 A=com.ss.android.ugc.aweme U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a84 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.ss.android.ugc.aweme
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ss.android.ugc.aweme/.splash.SplashActivity}
+    realActivity=com.ss.android.ugc.aweme/.splash.SplashActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/62_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_FORCE_RESIZABLE_PORTRAIT_ONLY mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384722256 lastActiveTime=1684384725840 (inactive for 10s)
+  * Recent #6: TaskRecord{ee2597e #38 A=com.jx.inputmethod.pinyin U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=u0a80 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.jx.inputmethod.pinyin
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jx.inputmethod.pinyin/.T9SettingActivity}
+    realActivity=com.jx.inputmethod.pinyin/.T9SettingActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{1184297 u0 com.jx.inputmethod.pinyin/.T9SettingActivity t38}, ActivityRecord{ef1760d u0 com.android.settings/.Settings$AvailableVirtualKeyboardActivity t38}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/38_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384670329 lastActiveTime=1684384722232 (inactive for 14s)
+  * Recent #7: TaskRecord{318aedf #59 A=com.tencent.android.qqdownloader U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a90 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.tencent.android.qqdownloader
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.android.qqdownloader/com.tencent.pangu.link.SplashActivity}
+    realActivity=com.tencent.android.qqdownloader/com.tencent.pangu.link.SplashActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/59_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384717298 lastActiveTime=1684384720849 (inactive for 15s)
+  * Recent #8: TaskRecord{644972c #60 A=com.divo.phone U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.divo.phone
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.divo.phone/.MainActivity}
+    realActivity=com.divo.phone/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/60_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384719413 lastActiveTime=1684384719848 (inactive for 16s)
+  * Recent #9: TaskRecord{94bf5f5 #58 A=com.android.systemui U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a20 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=android
+    affinity=com.android.systemui
+    intent={act=com.android.intent.action.SHOW_BRIGHTNESS_DIALOG flg=0x10800000 cmp=com.android.systemui/.settings.BrightnessDialog}
+    realActivity=com.android.systemui/.settings.BrightnessDialog
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/58_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384716974 lastActiveTime=1684384717155 (inactive for 19s)
+  * Recent #10: TaskRecord{ac68f8a #57 A=com.jx.market U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a81 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.jx.market
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10a00000 cmp=com.jx.market/.ui.SplashActivity}
+    realActivity=com.jx.market/.ui.SplashActivity
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/57_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384715102 lastActiveTime=1684384716311 (inactive for 20s)
+  * Recent #11: TaskRecord{50359fb #56 A=com.tencent.mm U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a89 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.tencent.mm
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI}
+    realActivity=com.tencent.mm/.ui.LauncherUI
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/56_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384712626 lastActiveTime=1684384713282 (inactive for 23s)
+  * Recent #12: TaskRecord{af9fa18 #54 I=com.android.settings/.Settings$DisplaySettingsActivity U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.android.settings
+    intent={flg=0x10000000 cmp=com.android.settings/.Settings$DisplaySettingsActivity}
+    realActivity=com.android.settings/.Settings$DisplaySettingsActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{d935c0b u0 com.android.settings/.Settings$DisplaySettingsActivity t54}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/54_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384710983 lastActiveTime=1684384712153 (inactive for 24s)
+  * Recent #13: TaskRecord{d32fc71 #52 A=com.android.settings U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.android.settings
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings2}
+    realActivity=com.android.settings/.Settings2
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{196283a u0 com.android.settings/.Settings2 t52}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/52_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384707335 lastActiveTime=1684384710990 (inactive for 25s)
+  * Recent #14: TaskRecord{df1ca6c #15 A=com.jx.launcher U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.jx.launcher
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jx.launcher/.Launcher}
+    realActivity=com.jx.launcher/.Launcher
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{b0e6251 u0 com.jx.launcher/.Launcher t15}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/15_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384576831 lastActiveTime=1684384707341 (inactive for 29s)
+  * Recent #15: TaskRecord{2514ca #13 A=com.jx.watchos.contact U=0 StackId=1 sz=4}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.jx.launcher
+    affinity=com.jx.watchos.contact
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.jx.watchos.contact cmp=com.jx.watchos.contact/.MainActivity}
+    realActivity=com.jx.watchos.contact/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=3 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{1e29622 u0 com.jx.watchos.contact/.MainActivity t13}, ActivityRecord{91bb893 u0 com.jx.watchos.contact/.MainActivity t13}, ActivityRecord{9a35550 u0 com.jx.watchos.contact/.MainActivity t13}, ActivityRecord{4324841 u0 com.jx.watchos.contact/.AddContactActivity t13}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/13_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384575233 lastActiveTime=1684384706635 (inactive for 30s)
+  * Recent #16: TaskRecord{8061a56 #43 A=com.goodix.health U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.jx.launcher
+    affinity=com.goodix.health
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.goodix.health cmp=com.goodix.health/.main.BloodOxygenActivity}
+    realActivity=com.goodix.health/.main.BloodOxygenActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{b2f7756 u0 com.goodix.health/.main.BloodOxygenActivity t43}, ActivityRecord{c24230 u0 com.goodix.health/.main.BloodOxygenActivity t43}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/43_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_FORCE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384689224 lastActiveTime=1684384703706 (inactive for 32s)
+  * Recent #17: TaskRecord{48f372b #31 A=android.task.calendar U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=u0a70 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=android
+    affinity=android.task.calendar
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.android.calendar/.AllInOneActivity}
+    realActivity=com.android.calendar/.AllInOneActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{38e4f47 u0 com.android.calendar/.AllInOneActivity t31}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/31_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384607782 lastActiveTime=1684384702352 (inactive for 34s)
+  * Recent #18: TaskRecord{b239ad7 #46 A=android.task.music U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=u0a54 mCallingUid=u0a54 mUserSetupComplete=true mCallingPackage=com.android.music
+    affinity=android.task.music
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.music/.MusicBrowserActivity}
+    realActivity=com.android.music/.MusicBrowserActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{99f889d u0 com.android.music/.AlbumBrowserActivity t46}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/46_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_FORCE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384692132 lastActiveTime=1684384694459 (inactive for 42s)
+  * Recent #19: TaskRecord{a09fc4 #44 A=com.zmapp.chat U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a83 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.zmapp.chat
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.zmapp.chat/.activity.MainActivity}
+    realActivity=com.zmapp.chat/.activity.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/44_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384689704 lastActiveTime=1684384692140 (inactive for 44s)
+  * Recent #20: TaskRecord{aa9eead #45 A=com.zmapp.plugin.addfriend U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a77 mCallingUid=u0a83 mUserSetupComplete=true mCallingPackage=com.zmapp.chat
+    affinity=com.zmapp.plugin.addfriend
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.zmapp.plugin.addfriend cmp=com.zmapp.plugin.addfriend/.activity.MainActivity}
+    realActivity=com.zmapp.plugin.addfriend/.activity.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/45_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384691308 lastActiveTime=1684384692060 (inactive for 44s)
+  * Recent #21: TaskRecord{7e185e2 #30 A=com.zmapp.album U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.zmapp.album
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.zmapp.album/.MainActivity}
+    realActivity=com.zmapp.album/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{1a6822d u0 com.zmapp.album/.MainActivity t30}, ActivityRecord{3102371 u0 com.zmapp.album/.ImageBrowseNewActivity t30}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/30_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384607745 lastActiveTime=1684384676880 (inactive for 59s)
+  * Recent #22: TaskRecord{9d0d73 #40 A=com.sprd.fileexplorer U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=u0a47 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.sprd.fileexplorer
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sprd.fileexplorer/.activities.FileManagerActivity}
+    realActivity=com.sprd.fileexplorer/.activities.FileManagerActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{be99db9 u0 com.sprd.fileexplorer/.activities.FileManagerActivity t40}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/40_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384675416 lastActiveTime=1684384676397 (inactive for 60s)
+  * Recent #23: TaskRecord{6e9f430 #39 A=com.android.deskclock U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.android.deskclock
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.deskclock/.DeskClock}
+    realActivity=com.android.deskclock/.DeskClock
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{de0a5be u0 com.android.deskclock/.DeskClock t39}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/39_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384672210 lastActiveTime=1684384675433 (inactive for 61s)
+  * Recent #24: TaskRecord{723c8a9 #35 A=com.zmapp.sms U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.zmapp.sms
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.zmapp.sms/.MainActivity}
+    realActivity=com.zmapp.sms/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{52375e3 u0 com.zmapp.sms/.MainActivity t35}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/35_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384666752 lastActiveTime=1684384667375 (inactive for 69s)
+  * Recent #25: TaskRecord{d161e2e #34 A=com.sprd.bootres U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.sprd.bootres
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sprd.bootres/com.sprd.settings.newsettings.ClearCache}
+    realActivity=com.sprd.bootres/com.sprd.settings.newsettings.ClearCache
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/34_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384662310 lastActiveTime=1684384662944 (inactive for 73s)
+  * Recent #26: TaskRecord{5310dcf #32 I=com.android.settings/.Settings$StorageUseActivity U=0 StackId=1 sz=2}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.settings/.Settings$StorageUseActivity}
+    realActivity=com.android.settings/.Settings$StorageUseActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=2 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{ebc276d u0 com.android.settings/.Settings$StorageUseActivity t32}, ActivityRecord{4ce5ad6 u0 com.android.settings/.SubSettings t32}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/32_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384611647 lastActiveTime=1684384612568 (inactive for 124s)
+  * Recent #27: TaskRecord{bd8fb04 #28 A=com.zmapp.camera U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=1000 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.zmapp.camera
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.zmapp.camera/.MainActivity}
+    realActivity=com.zmapp.camera/.MainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{fb2b3f8 u0 com.zmapp.camera/.MainActivity t28}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/28_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384603170 lastActiveTime=1684384611653 (inactive for 125s)
+  * Recent #28: TaskRecord{d672158 #11 A=com.baidu.voicesearch U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a73 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.baidu.voicesearch
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.baidu.voicesearch/.NewMainActivity}
+    realActivity=com.baidu.voicesearch/.NewMainActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/11_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384569653 lastActiveTime=1684384610846 (inactive for 125s)
+  * Recent #29: TaskRecord{9e9c972 #24 A=com.android.documentsui U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=u0a10 mCallingUid=u0a10 mUserSetupComplete=true mCallingPackage=com.android.documentsui
+    affinity=com.android.documentsui
+    intent={dat=//com.android.documentsui.launchControl#1684384597535 flg=0x10280000 cmp=com.android.documentsui/.files.FilesActivity}
+    realActivity=com.android.documentsui/.files.FilesActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{35915c5 u0 com.android.documentsui/.files.FilesActivity t24}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/24_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384597542 lastActiveTime=1684384600574 (inactive for 136s)
+  * Recent #30: TaskRecord{417b1c3 #21 A=com.sprd.gallery3d.app.NewVideoActivity U=0 StackId=1 sz=1}
+    userId=0 effectiveUid=u0a26 mCallingUid=2000 mUserSetupComplete=true mCallingPackage=null
+    affinity=com.sprd.gallery3d.app.NewVideoActivity
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.gallery3d/com.sprd.gallery3d.app.NewVideoActivity}
+    realActivity=com.android.gallery3d/com.sprd.gallery3d.app.NewVideoActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[ActivityRecord{3935fd6 u0 com.android.gallery3d/com.sprd.gallery3d.app.NewVideoActivity t21}]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/21_task_thumbnail.png
+    stackId=1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384591168 lastActiveTime=1684384597322 (inactive for 139s)
+  * Recent #31: TaskRecord{6124a40 #22 A=com.tencent.wechatkids U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a85 mCallingUid=u0a85 mUserSetupComplete=true mCallingPackage=com.tencent.wechatkids
+    affinity=com.tencent.wechatkids
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.wechatkids/.ui.start.SplashActivity}
+    realActivity=com.tencent.wechatkids/.ui.start.SplashActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/22_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384593377 lastActiveTime=1684384594652 (inactive for 142s)
+  * Recent #32: TaskRecord{a5b963b #12 A=com.tencent.qqlite U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=u0a79 mCallingUid=u0a79 mUserSetupComplete=true mCallingPackage=com.tencent.qqlite
+    affinity=com.tencent.qqlite
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.qqlite/com.tencent.mobileqq.activity.SplashActivity}
+    realActivity=com.tencent.qqlite/com.tencent.mobileqq.activity.SplashActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=0
+    rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/12_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384570413 lastActiveTime=1684384574842 (inactive for 161s)
+  * Recent #33: TaskRecord{6e7b396 #5 I=com.android.settings/.DwDevelopSetActivity U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=1000 mCallingUid=1000 mUserSetupComplete=true mCallingPackage=com.sprd.engineermode
+    intent={act=android.intent.action.MAIN flg=0x10000000 cmp=com.android.settings/.DwDevelopSetActivity}
+    realActivity=com.android.settings/.DwDevelopSetActivity
+    autoRemoveRecents=false isPersistable=true numFullscreen=0 taskType=0 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/5_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true firstActiveTime=1684384533785 lastActiveTime=1684384534666 (inactive for 202s)
+  * Recent #34: TaskRecord{5635b17 #2 I=com.android.settings/.FallbackHome U=0 StackId=-1 sz=0}
+    userId=0 effectiveUid=1000 mCallingUid=0 mUserSetupComplete=false mCallingPackage=null
+    intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10800100 cmp=com.android.settings/.FallbackHome}
+    realActivity=com.android.settings/.FallbackHome
+    autoRemoveRecents=false isPersistable=false numFullscreen=0 taskType=1 mTaskToReturnTo=1
+    rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+    Activities=[]
+    askedCompatMode=false inRecents=true isAvailable=true
+    lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/2_task_thumbnail.png
+    stackId=-1
+    hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false firstActiveTime=1684384501883 lastActiveTime=1684384504807 (inactive for 231s)
+

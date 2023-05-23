@@ -1,0 +1,85 @@
+Sensor Device:
+Total 3 h/w sensors, 3 running:
+Sensor List:
+0000000000) ST Xr 3-axis Accelerometer | ST              | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.00Hz | maxRate=100.00Hz | no batching | non-wakeUp | 
+0x00000003) Light Sensor              | NULL            | ver: 0 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | maxDelay=0us | minDelay=0us | no batching | non-wakeUp | 
+0x00000004) Proximity Sensor          | NULL            | ver: 0 | type: android.sensor.proximity(8) | perm: n/a | flags: 0x00000003
+	on-change | maxDelay=0us | minDelay=0us | no batching | wakeUp | 
+Fusion States:
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+game fusion(no mag) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+geomag fusion (no gyro) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+Recent Sensor events:
+ST Xr 3-axis Accelerometer: last 50 events
+	 1 (ts=932.490477000, wall=17:52:03.923) -1.00, 0.13, -8.33, 
+	 2 (ts=932.507567000, wall=17:52:03.940) -0.90, 0.08, -8.26, 
+	 3 (ts=932.510410000, wall=17:52:03.943) -0.94, 0.14, -8.28, 
+	 4 (ts=932.520898000, wall=17:52:03.953) -1.01, 0.14, -8.33, 
+	 5 (ts=932.530581000, wall=17:52:03.963) -0.94, 0.15, -8.35, 
+	 6 (ts=932.540488000, wall=17:52:03.973) -1.01, 0.17, -8.36, 
+	 7 (ts=932.550373000, wall=17:52:03.983) -0.98, 0.21, -8.28, 
+	 8 (ts=932.560387000, wall=17:52:03.993) -0.94, 0.17, -8.41, 
+	 9 (ts=932.570800000, wall=17:52:04.003) -0.92, 0.18, -8.25, 
+	10 (ts=932.580415000, wall=17:52:04.013) -0.96, 0.24, -8.47, 
+	11 (ts=932.591213000, wall=17:52:04.023) -0.94, 0.19, -8.19, 
+	12 (ts=932.600410000, wall=17:52:04.033) -0.97, 0.17, -8.28, 
+	13 (ts=932.610729000, wall=17:52:04.043) -0.93, 0.24, -8.33, 
+	14 (ts=932.620616000, wall=17:52:04.053) -0.99, 0.21, -8.29, 
+	15 (ts=932.630571000, wall=17:52:04.063) -0.95, 0.17, -8.41, 
+	16 (ts=932.640392000, wall=17:52:04.073) -0.94, 0.21, -8.33, 
+	17 (ts=932.656436000, wall=17:52:04.089) -0.92, 0.24, -8.27, 
+	18 (ts=932.660618000, wall=17:52:04.093) -0.96, 0.15, -8.34, 
+	19 (ts=932.670825000, wall=17:52:04.103) -0.94, 0.20, -8.33, 
+	20 (ts=932.680374000, wall=17:52:04.113) -0.95, 0.19, -8.35, 
+	21 (ts=932.690383000, wall=17:52:04.123) -0.91, 0.18, -8.23, 
+	22 (ts=932.700561000, wall=17:52:04.133) -0.95, 0.18, -8.31, 
+	23 (ts=932.710509000, wall=17:52:04.143) -1.01, 0.16, -8.25, 
+	24 (ts=932.723193000, wall=17:52:04.155) -1.01, 0.19, -8.53, 
+	25 (ts=932.730474000, wall=17:52:04.163) -0.98, 0.13, -8.26, 
+	26 (ts=932.740402000, wall=17:52:04.173) -0.98, 0.17, -8.42, 
+	27 (ts=932.750465000, wall=17:52:04.183) -0.96, 0.11, -8.26, 
+	28 (ts=932.760667000, wall=17:52:04.193) -0.94, 0.17, -8.19, 
+	29 (ts=932.771559000, wall=17:52:04.204) -1.05, 0.11, -8.40, 
+	30 (ts=932.780439000, wall=17:52:04.213) -0.99, 0.17, -8.31, 
+	31 (ts=936.160465000, wall=17:52:07.593) -0.94, 0.24, -8.23, 
+	32 (ts=936.170376000, wall=17:52:07.609) -0.90, 0.22, -8.20, 
+	33 (ts=936.180423000, wall=17:52:07.613) -0.92, 0.19, -8.27, 
+	34 (ts=936.190404000, wall=17:52:07.623) -0.93, 0.14, -8.26, 
+	35 (ts=936.200404000, wall=17:52:07.633) -0.89, 0.18, -8.38, 
+	36 (ts=936.210418000, wall=17:52:07.643) -0.94, 0.26, -8.28, 
+	37 (ts=936.220400000, wall=17:52:07.653) -0.87, 0.17, -8.38, 
+	38 (ts=936.230417000, wall=17:52:07.663) -0.86, 0.19, -8.33, 
+	39 (ts=936.240379000, wall=17:52:07.673) -0.97, 0.20, -8.34, 
+	40 (ts=936.250368000, wall=17:52:07.683) -0.91, 0.23, -8.31, 
+	41 (ts=936.260421000, wall=17:52:07.693) -0.86, 0.24, -8.21, 
+	42 (ts=936.270524000, wall=17:52:07.703) -0.97, 0.17, -8.26, 
+	43 (ts=936.280591000, wall=17:52:07.713) -0.92, 0.22, -8.27, 
+	44 (ts=936.292791000, wall=17:52:07.725) -0.97, 0.22, -8.28, 
+	45 (ts=936.300550000, wall=17:52:07.733) -0.94, 0.22, -8.26, 
+	46 (ts=936.310505000, wall=17:52:07.743) -0.83, 0.23, -8.26, 
+	47 (ts=936.320493000, wall=17:52:07.753) -0.94, 0.22, -8.28, 
+	48 (ts=936.331144000, wall=17:52:07.763) -0.92, 0.26, -8.28, 
+	49 (ts=936.340760000, wall=17:52:07.773) -0.88, 0.28, -8.18, 
+	50 (ts=936.350465000, wall=17:52:07.783) -0.87, 0.22, -8.31, 
+Active sensors:
+Socket Buffer size = 39 events
+WakeLock Status: not held 
+Mode : NORMAL
+0 active connections
+0 direct connections
+Previous Registrations:
+17:52:07 - 0x00000000 pid= 3208 uid=10077 package=com.umeng.commonsdk.internal.utils.j
+17:52:07 + 0x00000000 pid= 3208 uid=10077 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+17:52:04 - 0x00000000 pid= 3208 uid=10077 package=com.umeng.commonsdk.internal.utils.j
+17:52:03 + 0x00000000 pid= 3208 uid=10077 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+17:51:36 - 0x00000000 pid= 2492 uid=10076 package=com.umeng.commonsdk.internal.utils.j
+17:51:35 + 0x00000000 pid= 2492 uid=10076 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+17:51:31 - 0x00000000 pid= 2492 uid=10076 package=com.umeng.commonsdk.internal.utils.j
+17:51:30 + 0x00000000 pid= 2492 uid=10076 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+17:51:25 - 0x00000000 pid= 2227 uid=10074 package=com.umeng.commonsdk.internal.utils.j
+17:51:25 + 0x00000000 pid= 2227 uid=10074 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+17:51:21 - 0x00000000 pid= 2227 uid=10074 package=com.umeng.commonsdk.internal.utils.j
+17:51:21 + 0x00000000 pid= 2227 uid=10074 package=com.umeng.commonsdk.internal.utils.j samplingPeriod=50000us batchingPeriod=0us
+--------- 0.007s was the duration of dumpsys sensorservice, ending at: 2023-05-22 17:52:12

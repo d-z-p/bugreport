@@ -1,0 +1,31 @@
+MEDIA ROUTER SERVICE (dumpsys media_router)
+
+Global state
+  mCurrentUserId=0
+
+User 0
+  Client android (pid 3369)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  Client com.android.systemui (pid 4188)
+    mTrusted=true
+    mRouteTypes=0x0
+    mActiveScan=false
+    mSelectedRouteId=null
+  State
+  mRouterState=null
+  Handler
+    mRunning=true
+    mDiscoveryMode=0
+    mSelectedRouteRecord=null
+    mConnectionPhase=-1
+    mConnectionTimeoutReason=0
+    mConnectionTimeoutStartTime=<n/a>
+  Watcher
+    mUserId=0
+    mRunning=true
+    mProviders.size()=0
+    <no providers>
+--------- 0.002s was the duration of dumpsys media_router, ending at: 2023-05-18 12:38:57

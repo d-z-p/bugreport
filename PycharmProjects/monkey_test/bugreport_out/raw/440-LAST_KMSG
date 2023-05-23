@@ -1,0 +1,19 @@
+[    0.000000] c0 sysdump: [sysdump_magic_setup]SYSDUMP paddr from uboot: 0x85500000
+[    0.621776] c3 vaddr is ffffffc005500000,paddr is 0000000085500000
+[    3.134324] c3 sprd_wdt_sys: sprd_wdt_probe: ANA_REG_GLB_POR_RST_MONITOR value is = 0
+[    3.142090] c3 sprd_wdt_sys: sprd_wdt_probe: ANA_REG_GLB_POR_RST_MONITOR value is = f0
+[    3.270136] c2 ###### dmc dfs name: count: 4
+[    3.274305] c2 ### sc_ptr: 0xffffffc07735e1b0
+[    3.278851] c2 ###### dmc dfs name: scent0xffffffc07735e1b0
+[    3.284318] c2 ###### dmc dfs name: count 4 name lcdon freq: 256
+[    3.290427] c2 ### sc_ptr: 0xffffffc07735e1c0
+[    3.294684] c2 ###### dmc dfs name: scent0xffffffc07735e1c0
+[    3.300239] c2 ###### dmc dfs name: count 4 name lcdoff freq: 256
+[    3.306285] c2 ### sc_ptr: 0xffffffc07735e1d0
+[    3.310608] c2 ###### dmc dfs name: scent0xffffffc07735e1d0
+[    3.316145] c2 ###### dmc dfs name: count 4 name camlow freq: 384
+[    3.322227] c2 ### sc_ptr: 0xffffffc07735e1e0
+[    3.326542] c2 ###### dmc dfs name: scent0xffffffc07735e1e0
+[    3.332068] c2 ###### dmc dfs name: count 4 name camhigh freq: 667
+[    9.316965] c0 reboot: Restarting system with command ''
+

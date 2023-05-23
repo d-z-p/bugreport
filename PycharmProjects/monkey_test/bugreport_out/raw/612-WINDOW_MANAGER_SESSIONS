@@ -1,0 +1,43 @@
+  Session Session{e04df8 1771:u0a10021}:
+    mNumWindow=0 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@cd1b47a
+    mPackageName=com.android.packageinstaller
+  Session Session{11515a1 2766:u0a10080}:
+    mNumWindow=3 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@aa3342b
+    mPackageName=com.tencent.mm
+  Session Session{1a6d99b 925:u0a10022}:
+    mNumWindow=5 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@5a48088
+    mPackageName=com.android.systemui
+  Session Session{3098162 622:1000}:
+    mNumWindow=0 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@7645a21
+    mPackageName=com.android.systemui
+  Session Session{6458bcf 2440:1000}:
+    mNumWindow=2 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@fb69e46
+    mPackageName=com.zmapp.sms
+  Session Session{7c799e9 3367:u0a10068}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@51ee807
+    mPackageName=com.zmapp.plugin.addfriend
+  Session Session{7d67c52 3208:u0a10077}:
+    mNumWindow=2 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@5451d34
+    mPackageName=com.zmapp.chat
+  Session Session{82513b4 1310:1000}:
+    mNumWindow=2 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@78b775d
+    mPackageName=com.jx.launcher
+  Session Session{8feb22f 2940:u0a10078}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@3ae58d2
+    mPackageName=com.sohu.inputmethod.sogou
+  Session Session{ac2ec77 2227:u0a10074}:
+    mNumWindow=1 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@4b7fda3
+    mPackageName=com.jx.childlike
+  Session Session{acbda50 2363:u0a10022}:
+    mNumWindow=0 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@b0d8a0
+    mPackageName=com.android.systemui
+  Session Session{ad78a73 2653:u0a10081}:
+    mNumWindow=2 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@90d2c59
+    mPackageName=com.example.demo1
+  Session Session{d34b20b 2898:1000}:
+    mNumWindow=0 mCanAddInternalSystemWindow=true mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@3f5301e
+    mPackageName=com.android.settings
+  Session Session{d66c8b9 2492:u0a10076}:
+    mNumWindow=2 mCanAddInternalSystemWindow=false mAppOverlaySurfaces=[] mAlertWindowSurfaces=[] mClientDead=false mSurfaceSession=android.view.SurfaceSession@942d0ff
+    mPackageName=com.yingyonghui.market
+

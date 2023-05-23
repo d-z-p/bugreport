@@ -1,0 +1,40 @@
+ResourceManagerService: 0xa808d6c0
+  Policies:
+    SupportsMultipleSecureCodecs: 1
+    SupportsSecureWithNonSecureCodec: 1
+  Processes:
+    Pid: 1990
+      Client:
+        Id: 2799985952
+        Name: OMX.sprd.h264.encoder
+        Resources:
+          non-secure-codec/video-codec:1
+          graphic-memory/unspecified:0
+  Events logs (most recent at top):
+    05-22 17:51:51 removeResource(pid 2898, clientId 2779292192)
+    05-22 17:51:51 removeResource(pid 2898, clientId 2779292192)
+    05-22 17:51:25 removeResource(pid 2363, clientId 2760180544)
+    05-22 17:51:25 removeResource(pid 2363, clientId 2760180544)
+    01-01 08:09:12 addResource(pid 1990, clientId 2799985952, resources graphic-memory/unspecified:0 )
+    01-01 08:09:12 addResource(pid 1990, clientId 2799985952, resources non-secure-codec/video-codec:1 )
+    01-01 00:07:28 removeResource(pid 441, clientId 2819160800)
+    01-01 00:07:28 removeResource(pid 441, clientId 2819160800)
+    01-01 00:07:26 removeResource(pid 1061, clientId 2779299808)
+    01-01 00:07:26 removeResource(pid 1061, clientId 2779299808)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497035456)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497035456)
+    01-01 00:07:25 removeResource(pid 925, clientId 2760176736)
+    01-01 00:07:25 removeResource(pid 925, clientId 2760176736)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497035328)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497035328)
+    01-01 00:07:25 removeResource(pid 925, clientId 2776036192)
+    01-01 00:07:25 removeResource(pid 925, clientId 2776036192)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034720)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034720)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034624)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034624)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034592)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034592)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034464)
+    01-01 00:07:25 removeResource(pid 622, clientId 2497034464)
+--------- 0.007s was the duration of dumpsys media.resource_manager, ending at: 2023-05-22 17:52:10

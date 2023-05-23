@@ -1,0 +1,334 @@
+  Settings:
+    min_idle_count=1
+    min_charging_count=1
+    min_battery_not_low_count=1
+    min_storage_not_low_count=1
+    min_connectivity_count=1
+    min_content_count=1
+    min_ready_jobs_count=1
+    heavy_use_factor=0.9
+    moderate_use_factor=0.5
+    fg_job_count=4
+    bg_normal_job_count=6
+    bg_moderate_job_count=4
+    bg_low_job_count=1
+    bg_critical_job_count=1
+    max_standard_reschedule_count=2147483647
+    max_work_reschedule_count=2147483647
+    min_linear_backoff_time=10000
+    min_exp_backoff_time=10000
+
+Started users: [0]
+Registered 11 jobs:
+  JOB #1000/800: 6e0df6a android/com.android.server.pm.BackgroundDexOptService
+    1000 tag=*job*/android/com.android.server.pm.BackgroundDexOptService
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.pm.BackgroundDexOptService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      Requires: charging=true batteryNotLow=false deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Tracking: BATTERY IDLE
+    Enqueue time: -14m29s329ms
+    Run time: earliest=-14m29s329ms, latest=+23h45m30s671ms
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/808: 95907ea android/com.android.server.MountServiceIdler
+    1000 tag=*job*/android/com.android.server.MountServiceIdler
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.MountServiceIdler
+      Requires: charging=true batteryNotLow=false deviceIdle=true
+      Minimum latency: +1d2h52m35s480ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+    Required constraints: CHARGING TIMING_DELAY IDLE
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY IDLE
+    Tracking: BATTERY IDLE TIME
+    Enqueue time: -14m28s311ms
+    Run time: earliest=+1d2h38m7s169ms, latest=none
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/888: c357110 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService
+    1000 tag=*job*/com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService
+    Source: uid=1000 user=0 pkg=com.abupdate.fota_demo_iot
+    JobInfo:
+      Service: com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      PERSISTED
+      Requires: charging=false batteryNotLow=false deviceIdle=false
+      Network type: 1
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Tracking: CONNECTIVITY TIME
+    Enqueue time: -9m42s561ms
+    Run time: earliest=+23h45m41s735ms, latest=+1d23h45m41s735ms
+    Last successful run: 2023-05-22 17:42:27
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/20536: 2eec2c4 android/com.android.server.backup.FullBackupJob
+    1000 tag=*job*/android/com.android.server.backup.FullBackupJob
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.backup.FullBackupJob
+      Requires: charging=true batteryNotLow=false deviceIdle=true
+      Network type: 2
+      Backoff: policy=1 initial=+30s0ms
+    Required constraints: CHARGING IDLE UNMETERED
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: IDLE UNMETERED
+    Tracking: BATTERY CONNECTIVITY IDLE
+    Enqueue time: -45s872ms
+    Run time: earliest=none, latest=none
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/20537: 3fdedcb android/com.android.server.backup.KeyValueBackupJob
+    1000 tag=*job*/android/com.android.server.backup.KeyValueBackupJob
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.backup.KeyValueBackupJob
+      Requires: charging=true batteryNotLow=false deviceIdle=false
+      Network type: 1
+      Minimum latency: +4h1m20s482ms
+      Max execution delay: +1d0h0m0s0ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE CONNECTIVITY
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Tracking: BATTERY CONNECTIVITY TIME
+    Enqueue time: -14m23s648ms
+    Run time: earliest=+3h46m56s833ms, latest=+23h45m36s351ms
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/765123: 7cd9c5b android/com.android.server.PruneInstantAppsJobService
+    1000 tag=*job*/android/com.android.server.PruneInstantAppsJobService
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.PruneInstantAppsJobService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      Requires: charging=false batteryNotLow=false deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Tracking: IDLE
+    Enqueue time: -14m29s328ms
+    Run time: earliest=-14m29s328ms, latest=+23h45m30s672ms
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/13254266: f2a206c android/com.android.server.camera.CameraStatsJobService
+    1000 tag=*job*/android/com.android.server.camera.CameraStatsJobService
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.camera.CameraStatsJobService
+      Requires: charging=false batteryNotLow=false deviceIdle=true
+      Minimum latency: +1d0h0m0s0ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+    Required constraints: TIMING_DELAY IDLE
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY IDLE
+    Tracking: IDLE TIME
+    Enqueue time: -14m29s283ms
+    Run time: earliest=+23h45m30s717ms, latest=none
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #1000/1145656139: a7c13ba android/com.android.server.storage.DiskStatsLoggingService
+    1000 tag=*job*/android/com.android.server.storage.DiskStatsLoggingService
+    Source: uid=1000 user=0 pkg=android
+    JobInfo:
+      Service: android/com.android.server.storage.DiskStatsLoggingService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      Requires: charging=true batteryNotLow=false deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Tracking: BATTERY IDLE
+    Enqueue time: -14m29s442ms
+    Run time: earliest=-14m29s442ms, latest=+23h45m30s558ms
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #u0a2/201: fe6dab0 com.android.dialer/com.android.voicemail.impl.StatusCheckJobService
+    u0a2 tag=*job*/com.android.dialer/com.android.voicemail.impl.StatusCheckJobService
+    Source: uid=u0a2 user=0 pkg=com.android.dialer
+    JobInfo:
+      Service: com.android.dialer/com.android.voicemail.impl.StatusCheckJobService
+      PERIODIC: interval=+1d0h0m0s0ms flex=+1d0h0m0s0ms
+      Requires: charging=true batteryNotLow=false deviceIdle=false
+      Network type: 1
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE CONNECTIVITY
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY DEADLINE CONNECTIVITY
+    Tracking: BATTERY CONNECTIVITY TIME
+    Enqueue time: -10m12s710ms
+    Run time: earliest=+23h46m12s311ms, latest=+1d23h46m12s311ms
+    Last successful run: 2023-05-22 17:41:57
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #u0a9/-100: bacd0ed com.android.providers.downloads/.DownloadIdleService
+    u0a9 tag=*job*/com.android.providers.downloads/.DownloadIdleService
+    Source: uid=u0a9 user=0 pkg=com.android.providers.downloads
+    JobInfo:
+      Service: com.android.providers.downloads/.DownloadIdleService
+      PERIODIC: interval=+12h0m0s0ms flex=+12h0m0s0ms
+      Requires: charging=true batteryNotLow=false deviceIdle=true
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+      Has late constraint
+    Required constraints: CHARGING TIMING_DELAY DEADLINE IDLE
+    Satisfied constraints: CHARGING BATTERY_NOT_LOW TIMING_DELAY APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: DEADLINE IDLE
+    Tracking: BATTERY IDLE
+    Enqueue time: -14m21s21ms
+    Run time: earliest=-14m21s21ms, latest=+11h45m38s979ms
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+  JOB #u0a76/0: b37da5e com.yingyonghui.market/androidx.work.impl.background.systemjob.SystemJobService
+    u0a76 tag=*job*/com.yingyonghui.market/androidx.work.impl.background.systemjob.SystemJobService
+    Source: uid=u0a76 user=0 pkg=com.yingyonghui.market
+    JobInfo:
+      Service: com.yingyonghui.market/androidx.work.impl.background.systemjob.SystemJobService
+      Requires: charging=false batteryNotLow=false deviceIdle=false
+      Extras: {EXTRA_WORK_SPEC_ID=72cbf0df-fe36-40a9-8554-4c853b84ebdf, EXTRA_IS_PERIODIC=true}
+      Minimum latency: +4h0m0s0ms
+      Backoff: policy=1 initial=+30s0ms
+      Has early constraint
+    Required constraints: TIMING_DELAY
+    Satisfied constraints: APP_NOT_IDLE DEVICE_NOT_DOZING
+    Unsatisfied constraints: TIMING_DELAY
+    Tracking: TIME
+    Enqueue time: -37s986ms
+    Run time: earliest=+3h59m22s14ms, latest=none
+    Ready: false (job=false user=true !pending=true !active=true !backingup=true comp=true)
+
+Connectivity: connected=false validated=false
+Tracking 4:
+  #1000/20536 from 1000: C=false: M=false: UM=true: NR=false
+  #1000/20537 from 1000: C=true: M=false: UM=false: NR=false
+  #1000/888 from 1000: C=true: M=false: UM=false: NR=false
+  #u0a2/201 from u0a2: C=true: M=false: UM=false: NR=false
+
+Alarms: now=938365
+Next delay alarm in +3h46m56s824ms
+Next deadline alarm in +23h45m36s342ms
+Tracking 6:
+  #1000/20537 from 1000: Delay=+3h46m56s824ms, Deadline=+23h45m36s342ms
+  #1000/888 from 1000: Delay=+23h45m41s726ms, Deadline=+1d23h45m41s726ms
+  #u0a2/201 from u0a2: Delay=+23h46m12s302ms, Deadline=+1d23h46m12s302ms
+  #u0a76/0 from u0a76: Delay=+3h59m22s5ms, Deadline=N/A
+  #1000/808 from 1000: Delay=+1d2h38m7s160ms, Deadline=N/A
+  #1000/13254266 from 1000: Delay=+23h45m30s708ms, Deadline=N/A
+
+Idle: false
+Tracking 7:
+  #1000/20536 from 1000
+  #1000/800 from 1000
+  #1000/765123 from 1000
+  #1000/808 from 1000
+  #1000/1145656139 from 1000
+  #u0a9/-100 from u0a9
+  #1000/13254266 from 1000
+
+Battery: stable power = true, not low = true
+Tracking 7:
+  #1000/20536 from 1000
+  #1000/20537 from 1000
+  #1000/800 from 1000
+  #1000/808 from 1000
+  #1000/1145656139 from 1000
+  #u0a9/-100 from u0a9
+  #u0a2/201 from u0a2
+
+Storage: not low = true, seq=-1
+Tracking 0:
+
+AppIdle: parole on = true
+  #u0a76/0 from u0a76: com.yingyonghui.market RUNNABLE
+  #u0a9/-100 from u0a9: com.android.providers.downloads RUNNABLE
+  #u0a2/201 from u0a2: com.android.dialer RUNNABLE
+  #1000/13254266 from 1000: android RUNNABLE
+  #1000/888 from 1000: com.abupdate.fota_demo_iot RUNNABLE
+  #1000/1145656139 from 1000: android RUNNABLE
+  #1000/808 from 1000: android RUNNABLE
+  #1000/765123 from 1000: android RUNNABLE
+  #1000/800 from 1000: android RUNNABLE
+  #1000/20537 from 1000: android RUNNABLE
+  #1000/20536 from 1000: android RUNNABLE
+
+Content:
+
+DeviceIdleJobsController
+  #u0a76/0 from u0a76: com.yingyonghui.market RUNNABLE
+  #u0a9/-100 from u0a9: com.android.providers.downloads RUNNABLE
+  #u0a2/201 from u0a2: com.android.dialer RUNNABLE
+  #1000/13254266 from 1000: android RUNNABLE
+  #1000/888 from 1000: com.abupdate.fota_demo_iot RUNNABLE
+  #1000/1145656139 from 1000: android RUNNABLE
+  #1000/808 from 1000: android RUNNABLE
+  #1000/765123 from 1000: android RUNNABLE
+  #1000/800 from 1000: android RUNNABLE
+  #1000/20537 from 1000: android RUNNABLE
+  #1000/20536 from 1000: android RUNNABLE
+
+Uid priority overrides:
+  1001: 30
+  u0a22: 30
+  u0a66: 30
+
+Current stats at 2019-01-01-08-07-23 (-14m29s540ms) over +14m29s540ms:
+  1000 / com.abupdate.fota_demo_iot:
+    1x pending 3% 1x active
+    1x canceled
+  1000 / android:
+    1x pending 1x active
+    1x canceled
+  u0a2 / com.android.dialer:
+    1x pending 1x active
+    1x canceled
+  Max concurrency: 2 total, 0 foreground
+
+  Job history:
+       -13m29s332ms   START: #1000/801 android/com.android.server.pm.BackgroundDexOptService
+       -13m28s644ms  STOP-P: #1000/801 android/com.android.server.pm.BackgroundDexOptService canceled
+       -10m12s781ms START-P: #1000/888 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService
+       -10m12s771ms START-P: #u0a2/201 com.android.dialer/com.android.voicemail.impl.StatusCheckJobService
+       -10m12s732ms    STOP: #u0a2/201 com.android.dialer/com.android.voicemail.impl.StatusCheckJobService canceled
+        -9m42s579ms    STOP: #1000/888 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService canceled
+
+Pending queue:
+
+Active jobs:
+  Slot #0: inactive since -9m42s564ms, stopped because: app called jobFinished
+  Slot #1: inactive since -10m12s717ms, stopped because: onStartJob returned false
+  Slot #2: inactive
+  Slot #3: inactive
+  Slot #4: inactive
+  Slot #5: inactive
+  Slot #6: inactive
+  Slot #7: inactive
+  Slot #8: inactive
+  Slot #9: inactive
+  Slot #10: inactive
+  Slot #11: inactive
+  Slot #12: inactive
+  Slot #13: inactive
+  Slot #14: inactive
+  Slot #15: inactive
+
+mReadyToRock=true
+mReportedActive=false
+mMaxActiveJobs=6
+
+PersistStats: FirstLoad: 0/0/0 LastSave: 1/1/0
+
+--------- 0.017s was the duration of dumpsys jobscheduler, ending at: 2023-05-22 17:52:09

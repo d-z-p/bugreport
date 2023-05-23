@@ -1,0 +1,34 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10071, cmp:ComponentInfo{com.android.browser/com.android.browser.widget.BookmarkThumbnailWidgetProvider}}
+    min=(46081x28161)   minResize=(28161x10241) updatePeriodMillis=0 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f04000e initialKeyguardLayout=#0 zombie=false
+  [1] provider ProviderId{user:0, app:10070, cmp:ComponentInfo{com.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider}}
+    min=(46081x28161)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f04000d initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider}}
+    min=(28161x28161)   minResize=(14081x14081) updatePeriodMillis=0 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0c0022 initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider}}
+    min=(64001x10241)   minResize=(35841x10241) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0c0034 initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:10026, cmp:ComponentInfo{com.android.gallery3d/com.android.gallery3d.gadget.PhotoAppWidgetProvider}}
+    min=(46081x46081)   minResize=(46081x46081) updatePeriodMillis=86400000 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f04002a initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:10059, cmp:ComponentInfo{com.android.messaging/com.android.messaging.widget.BugleWidgetProvider}}
+    min=(102401x71681)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0400b2 initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:10059, cmp:ComponentInfo{com.android.messaging/com.android.messaging.widget.WidgetConversationProvider}}
+    min=(46081x46081)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0400b1 initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10054, cmp:ComponentInfo{com.android.music/com.android.music.MediaAppWidgetProvider}}
+    min=(75265x18433)   minResize=(75265x18433) updatePeriodMillis=0 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+  [8] provider ProviderId{user:0, app:10090, cmp:ComponentInfo{com.tencent.android.qqdownloader/com.tencent.assistant.foundation.appwidget.provider.YYBWidgetProviderOneAnOne}}
+    min=(10241x10241)   minResize=(10241x10241) updatePeriodMillis=1800000 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0a032e initialKeyguardLayout=#0 zombie=false
+  [9] provider ProviderId{user:0, app:10090, cmp:ComponentInfo{com.tencent.android.qqdownloader/com.tencent.assistant.foundation.appwidget.provider.YYBWidgetProviderTwoAnTwo}}
+    min=(28161x28161)   minResize=(28161x28161) updatePeriodMillis=1800000 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0a032e initialKeyguardLayout=#0 zombie=false
+  [10] provider ProviderId{user:0, app:10090, cmp:ComponentInfo{com.tencent.android.qqdownloader/com.tencent.assistant.foundation.appwidget.provider.YYBWidgetProviderFourAnOne}}
+    min=(81921x10241)   minResize=(81921x10241) updatePeriodMillis=1800000 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0a032e initialKeyguardLayout=#0 zombie=false
+  [11] provider ProviderId{user:0, app:10090, cmp:ComponentInfo{com.tencent.android.qqdownloader/com.tencent.assistant.foundation.appwidget.provider.YYBWidgetProviderFourAnTwo}}
+    min=(81921x28161)   minResize=(81921x28161) updatePeriodMillis=1800000 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0a032e initialKeyguardLayout=#0 zombie=false
+  [12] provider ProviderId{user:0, app:10090, cmp:ComponentInfo{com.tencent.android.qqdownloader/com.tencent.assistant.shortcuttowidget.ShortcutWidgetProvider}}
+    min=(11521x11521)   minResize=(11521x11521) updatePeriodMillis=60000 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0a0362 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+ 
+Hosts:
+ 
+Grants:
+--------- 0.004s was the duration of dumpsys appwidget, ending at: 2023-05-18 12:38:56

@@ -1,0 +1,374 @@
+Build configuration: [sf HAS_CONTEXT_PRIORITY=0 DISABLE_TRIPLE_BUFFERING PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=0 MAX_VIRT_DISPLAY_DIM=0 RUNNING_WITHOUT_SYNC_FRAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=3] [libui] [libgui]
+
+Wide-Color information:
+hasWideColorDisplay: 0
+forceNativeColorMode: 0
+Display 0 color modes:
+    Current color mode: HAL_COLOR_MODE_NATIVE (0)
+
+Sync configuration: [using: EGL_ANDROID_native_fence_sync EGL_KHR_wait_sync]
+DispSync configuration: app phase 1000000 ns, sf phase 1000000 ns, present offset 0 ns (refresh 30303000 ns)
+
+Static screen stats:
+  < 1 frames: 2.805 s (0.3%)
+  < 2 frames: 66.730 s (7.2%)
+  < 3 frames: 136.995 s (14.8%)
+  < 4 frames: 10.212 s (1.1%)
+  < 5 frames: 3.608 s (0.4%)
+  < 6 frames: 1.675 s (0.2%)
+  < 7 frames: 30.273 s (3.3%)
+  7+ frames: 672.707 s (72.7%)
+
+Buffering stats:
+  [Layer name] <Active time> <Two buffer> <Double buffered> <Triple buffered>
+  [com.android.settings/com.android.settings.SubSettings#0] 127.63 0.863 1.000 0.000
+  [BootAnimation#0] 61.88 1.000 1.000 0.000
+  [com.jx.launcher/com.jx.launcher.Launcher#0] 38.95 0.310 1.000 0.000
+  [VolumeDialogImpl#0] 10.10 0.375 1.000 0.000
+  [com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity#0] 9.08 0.014 1.000 0.000
+  [com.jx.launcher/com.zmapp.activity.WifiInputActivity#0] 4.47 0.895 1.000 0.000
+  [com.tencent.mm/com.tencent.mm.plugin.account.ui.WelcomeActivity#0] 2.89 0.171 1.000 0.000
+  [com.jx.launcher/com.zmapp.activity.PlaysimActivity#0] 2.69 0.000 1.000 0.000
+  [com.android.settings/com.android.settings.Settings$NetworkDashboardActivity#0] 2.11 0.584 1.000 0.000
+  [InputMethod#0] 1.80 0.000 1.000 0.000
+  [SurfaceView - com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity#0] 1.70 1.000 1.000 0.000
+  [ScreenshotAnimation#0] 1.43 0.590 1.000 0.000
+  [com.android.settings/com.android.settings.Settings$DisplaySettingsActivity#0] 1.36 0.756 1.000 0.000
+  [com.ztapp.callbyvideo/com.ztapp.callbyvideo.activities.MainActivity#0] 1.34 0.000 1.000 0.000
+  [com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity#1] 1.01 0.732 1.000 0.000
+  [StatusBar#0] 1.00 0.136 1.000 0.000
+  [com.android.packageinstaller/com.android.packageinstaller.permission.ui.GrantPermissionsActivity#0] 0.92 0.000 1.000 0.000
+  [com.android.settings/com.android.settings.Settings$DisplaySettingsActivity#1] 0.87 1.000 1.000 0.000
+  [#0] 0.83 0.289 0.833 0.167
+  [heshuncheng-5G#0] 0.74 0.478 1.000 0.000
+  [com.tencent.mm/com.tencent.mm.plugin.account.ui.RegByMobileRegAIOUI#0] 0.72 0.000 1.000 0.000
+  [com.zmapp.sms/com.zmapp.sms.NewSmsActivity#0] 0.60 1.000 1.000 0.000
+  [com.android.settings/com.android.settings.Settings2#0] 0.47 1.000 1.000 0.000
+  [com.zmapp.chat/com.zmapp.chat.activity.MainActivity#0] 0.32 0.368 1.000 0.000
+  [PopupWindow:bf55b9e#0] 0.29 0.000 1.000 0.000
+  [com.android.systemui/com.android.systemui.settings.BrightnessDialog#0] 0.21 1.000 1.000 0.000
+  [com.zmapp.sms/com.zmapp.sms.MainActivity#0] 0.15 1.000 1.000 0.000
+
+Visible layers (count = 11)
++ Layer 0xae2f4000 (com.android.systemui.ImageWallpaper#0)
+  Region transparentRegion (this=0xae2f4280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae2f4008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae2f4044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    11000, pos=(0,-307), size=( 480, 854), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=1, invalidate=0, dataspace=Default (0), pixelformat=RGBx_8888 alpha=1.000, flags=0x00000003, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da3d60
+      format= 2, activeBuffer=[ 480x 854: 480,  2], queued-frames=0, mRefreshPending=0
+            mTexName=6 mCurrentTexture=1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[480x854] default-format=2 transform-hint=00 frame-counter=2
+            FIFO(0):
+            Slots:
+             >[01:0xb1dca5a0] state=ACQUIRED 0xb1dbd9c0 frame=2 [ 480x 854: 480,  2]
+              [00:0xb1dca640] state=FREE     0xb1dbd900 frame=1 [ 240x 240: 240,  2]
+              [02:0x0] state=FREE    
++ LayerDim 0xae237000 (animation background stackId=0#0)
+  Region transparentRegion (this=0xae237280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae237008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae237044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    20999, pos=(-60,-60), size=( 360, 360), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=Unknown/None alpha=0.000, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da43f0
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=3 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[360x360] default-format=1 transform-hint=00 frame-counter=0
+            FIFO(0):
+            Slots:
+              [00:0x0] state=FREE    
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
++ LayerDim 0xae21c000 (DimLayerController/Stack=0#0)
+  Region transparentRegion (this=0xae21c280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae21c008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae21c044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21044, pos=(-60,-60), size=( 360, 360), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=Unknown/None alpha=0.000, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da43f0
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=2 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[360x360] default-format=1 transform-hint=00 frame-counter=0
+            FIFO(0):
+            Slots:
+              [00:0x0] state=FREE    
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
++ LayerDim 0xae268000 (animation background stackId=1#0)
+  Region transparentRegion (this=0xae268280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae268008, count=4)
+    [-60, -60, 300,   0]
+    [-60,   0,   0, 240]
+    [240,   0, 300, 240]
+    [-60, 240, 300, 300]
+  Region surfaceDamageRegion (this=0xae268044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21059, pos=(-60,-60), size=( 360, 360), crop=(   0,   0,  -1,  -1), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=Unknown/None alpha=1.000, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da43f0
+      format= 0, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=9 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[360x360] default-format=1 transform-hint=00 frame-counter=0
+            FIFO(0):
+            Slots:
+              [00:0x0] state=FREE    
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
++ Layer 0xae216000 (com.zmapp.chat/com.zmapp.chat.activity.MainActivity#0)
+  Region transparentRegion (this=0xae216280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae216008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae216044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21060, pos=(12,34), size=( 240, 240), crop=(   0,   0, 240, 240), finalCrop=(   0,   0, 240, 240), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=RGBA_8888 alpha=0.600, flags=0x00000000, tr=[0.90, 0.00][0.00, 0.90]
+      client=0xb1da5200
+      format= 1, activeBuffer=[ 240x 240: 240,  1], queued-frames=0, mRefreshPending=0
+            mTexName=17 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[240x240] default-format=1 transform-hint=00 frame-counter=24
+            FIFO(0):
+            Slots:
+             >[00:0xb1dca960] state=ACQUIRED 0xb1dbdcc0 frame=24 [ 240x 240: 240,  1]
+              [02:0xb1dcae60] state=FREE     0xb1dbde40 frame=22 [ 240x 240: 240,  1]
+              [01:0xb1dca780] state=FREE     0xb1dbdd80 frame=23 [ 240x 240: 240,  1]
++ Layer 0xae26b000 (PopupWindow:c05a0b9#0)
+  Region transparentRegion (this=0xae26b280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae26b008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae26b044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    21065, pos=(12,34), size=( 240, 240), crop=(   0,   0, 240, 240), finalCrop=(   0,   0, 240, 240), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=RGBA_8888 alpha=0.600, flags=0x00000000, tr=[0.90, 0.00][0.00, 0.90]
+      client=0xb1da5200
+      format= 1, activeBuffer=[ 240x 240: 240,  1], queued-frames=0, mRefreshPending=0
+            mTexName=15 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[240x240] default-format=1 transform-hint=00 frame-counter=9
+            FIFO(0):
+            Slots:
+              [00:0x0] state=FREE    
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
++ Layer 0xadd8e000 (com.android.systemui/com.android.systemui.NoNetAlertActivity#0)
+  Region transparentRegion (this=0xadd8e280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xadd8e008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xadd8e044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    22070, pos=(0,0), size=( 240, 240), crop=(   0,   0, 240, 240), finalCrop=(   0,   0, 240, 240), isOpaque=1, invalidate=0, dataspace=Default (0), pixelformat=RGBA_8888 alpha=1.000, flags=0x00000003, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da3d60
+      format= 1, activeBuffer=[ 240x 240: 240,  1], queued-frames=0, mRefreshPending=0
+            mTexName=11 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[240x240] default-format=1 transform-hint=00 frame-counter=1
+            FIFO(0):
+            Slots:
+             >[02:0xb1dcaf00] state=ACQUIRED 0xb1dbea40 frame=1 [ 240x 240: 240,  1]
+              [01:0xb1dcb040] state=FREE     0xb1dbe980 frame=0 [ 240x 240: 240,  1]
+              [00:0xb1dcafa0] state=FREE     0xb1dbe8c0 frame=0 [ 240x 240: 240,  1]
++ Layer 0xaddaf000 (Splash Screen com.android.systemui#0)
+  Region transparentRegion (this=0xaddaf280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xaddaf008, count=1)
+    [  0,   0, 240, 240]
+  Region surfaceDamageRegion (this=0xaddaf044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=    22075, pos=(0,0), size=( 240, 240), crop=(   0,   0, 240, 240), finalCrop=(   0,   0, 240, 240), isOpaque=1, invalidate=0, dataspace=Default (0), pixelformat=RGBA_8888 alpha=1.000, flags=0x00000002, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da4530
+      format= 1, activeBuffer=[ 240x 240: 240,  1], queued-frames=0, mRefreshPending=0
+            mTexName=7 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[240x240] default-format=1 transform-hint=00 frame-counter=1
+            FIFO(0):
+            Slots:
+             >[00:0xb1dcb180] state=ACQUIRED 0xb1dbe800 frame=1 [ 240x 240: 240,  1]
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
++ Layer 0xae2ec000 (StatusBar#0)
+  Region transparentRegion (this=0xae2ec280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae2ec008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xae2ec044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   181000, pos=(0,0), size=( 240,  18), crop=(   0,   0, 240,  18), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=RGBA_8888 alpha=1.000, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da3d60
+      format= 1, activeBuffer=[ 240x  18: 240,  1], queued-frames=0, mRefreshPending=0
+            mTexName=4 mCurrentTexture=2
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[240x18] default-format=1 transform-hint=00 frame-counter=235
+            FIFO(0):
+            Slots:
+             >[02:0xb1dcaaa0] state=ACQUIRED 0xb1dbe140 frame=235 [ 240x  18: 240,  1]
+              [01:0xb1dcaa00] state=FREE     0xb1dbe080 frame=233 [ 240x  18: 240,  1]
+              [00:0xb1dca8c0] state=FREE     0xb1dbdfc0 frame=234 [ 240x  18: 240,  1]
++ Layer 0xaddf6000 (VolumeDialogImpl#0)
+  Region transparentRegion (this=0xaddf6280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xaddf6008, count=1)
+    [  0,   0,   0,   0]
+  Region surfaceDamageRegion (this=0xaddf6044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   211000, pos=(-24,-24), size=(  49,  49), crop=(   0,   0, 288, 113), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=Unknown/None alpha=1.000, flags=0x00000001, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da3d60
+      format= 1, activeBuffer=[   0x   0:   0,  0], queued-frames=0, mRefreshPending=0
+            mTexName=14 mCurrentTexture=-1
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[288x113] default-format=1 transform-hint=00 frame-counter=0
+            FIFO(0):
+            Slots:
+              [00:0x0] state=FREE    
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
++ Layer 0xae2f0000 (navbackleft#0)
+  Region transparentRegion (this=0xae2f0280, count=1)
+    [  0,   0,   0,   0]
+  Region visibleRegion (this=0xae2f0008, count=1)
+    [  0,  42,   5, 282]
+  Region surfaceDamageRegion (this=0xae2f0044, count=1)
+    [  0,   0,   0,   0]
+      layerStack=   0, z=   281000, pos=(0,42), size=(   5, 240), crop=(   0,   0,   5, 240), finalCrop=(   0,   0,  -1,  -1), isOpaque=0, invalidate=0, dataspace=Default (0), pixelformat=RGBA_8888 alpha=1.000, flags=0x00000000, tr=[1.00, 0.00][0.00, 1.00]
+      client=0xb1da3d60
+      format= 1, activeBuffer=[   5x 240:  16,  1], queued-frames=0, mRefreshPending=0
+            mTexName=5 mCurrentTexture=0
+            mCurrentCrop=[0,0,0,0] mCurrentTransform=0
+            mAbandoned=0
+            - BufferQueue mMaxAcquiredBufferCount=1 mMaxDequeuedBufferCount=2
+              mDequeueBufferCannotBlock=0 mAsyncMode=0
+              default-size=[5x240] default-format=1 transform-hint=00 frame-counter=6
+            FIFO(0):
+            Slots:
+             >[00:0xb1dca820] state=ACQUIRED 0xb1dbe380 frame=6 [   5x 240:  16,  1]
+              [01:0x0] state=FREE    
+              [02:0x0] state=FREE    
+Displays (2 entries)
++ DisplayDevice: Built-in Screen
+   type=0, hwcId=0, layerStack=0, ( 240x 240), ANativeWindow=0xb1de2808 (8:8:8:8), orient= 0 (type=00000000), flips=8552, isSecure=1, powerMode=2, activeConfig=0, numLayers=2
+   v:[0,0,240,240], f:[0,0,240,240], s:[0,0,240,240],transform:[[1.000,0.000,-0.000][0.000,1.000,-0.000][0.000,0.000,1.000]]
+mAbandoned=0
+- BufferQueue mMaxAcquiredBufferCount=2 mMaxDequeuedBufferCount=1
+  mDequeueBufferCannotBlock=0 mAsyncMode=0
+  default-size=[240x240] default-format=1 transform-hint=00 frame-counter=8550
+FIFO(0):
+Slots:
+ >[00:0xb1dca3c0] state=ACQUIRED 0xb1dbd540 frame=8550 [ 240x 240: 240,  1]
+ >[01:0xb1dca460] state=ACQUIRED 0xb1dbd600 frame=8549 [ 240x 240: 240,  1]
+  [02:0xb1dca500] state=FREE     0xb1dbd6c0 frame=8548 [ 240x 240: 240,  1]
++ DisplayDevice: scrcpy
+   type=2, hwcId=-1, layerStack=0, ( 240x 240), ANativeWindow=0xae2f7808 (8:8:8:8), orient= 0 (type=00000000), flips=6371, isSecure=1, powerMode=2, activeConfig=0, numLayers=2
+   v:[0,0,240,240], f:[0,0,240,240], s:[0,0,240,240],transform:[[1.000,0.000,-0.000][0.000,1.000,-0.000][0.000,0.000,1.000]]
+SurfaceFlinger global state:
+EGL implementation : 1.4 Midgard-"r21p0-01rel0"
+EGL_ANDROID_image_native_buffer EGL_ANDROID_recordable EGL_ANDROID_native_fence_sync EGL_ANDROID_framebuffer_target EGL_ANDROID_image_crop EGL_ANDROID_blob_cache EGL_KHR_partial_update EGL_KHR_mutable_render_buffer EGL_KHR_config_attribs EGL_KHR_image EGL_KHR_image_base EGL_KHR_fence_sync EGL_KHR_wait_sync EGL_KHR_get_all_proc_addresses EGL_IMG_context_priority EGL_KHR_no_config_context EGL_ARM_pixmap_multisample_discard EGL_ARM_implicit_external_sync EGL_KHR_gl_texture_2D_image EGL_KHR_gl_renderbuffer_image EGL_KHR_create_context EGL_KHR_surfaceless_context EGL_KHR_gl_texture_cubemap_image EGL_EXT_create_context_robustness
+GLES: ARM, Mali-T820, OpenGL ES 3.2 v1.r21p0-01rel0.8d14470f4a4efa41c56886e163344dbf
+GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 GL_EXT_shader_pixel_local_storage GL_ARM_shader_framebuffer_fetch GL_ARM_shader_framebuffer_fetch_depth_stencil GL_ARM_mali_program_binary GL_EXT_sRGB GL_EXT_sRGB_write_control GL_EXT_texture_sRGB_decode GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OES_texture_storage_multisample_2d_array GL_OES_shader_image_atomic GL_EXT_robustness GL_EXT_draw_buffers_indexed GL_OES_draw_buffers_indexed GL_EXT_texture_border_clamp GL_OES_texture_border_clamp GL_EXT_texture_cube_map_array GL_OES_texture_cube_map_array GL_OES_sample_variables GL_OES_sample_shading GL_OES_shader_multisample_interpolation GL_EXT_shader_io_blocks GL_OES_shader_io_blocks GL_EXT_tessellation_shader GL_OES_tessellation_shader GL_EXT_primitive_bounding_box GL_OES_primitive_bounding_box GL_EXT_geometry_shader GL_OES_geometry_shader GL_ANDROID_extension_pack_es31a GL_EXT_gpu_shader5 GL_OES_gpu_shader5 GL_EXT_texture_buffer GL_OES_texture_buffer GL_EXT_copy_image GL_OES_copy_image GL_EXT_shader_non_constant_global_initializers GL_EXT_color_buffer_half_float GL_EXT_color_buffer_float GL_EXT_YUV_target GL_OVR_multiview GL_OVR_multiview2 GL_OVR_multiview_multisampled_render_to_texture GL_KHR_robustness GL_KHR_robust_buffer_access_behavior GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_EXT_protected_textures 
+Wide-color: Off
+  Region undefinedRegion (this=0xae8fc02c, count=1)
+    [  0,   0,   0,   0]
+  orientation=0, isDisplayOn=1
+  last eglSwapBuffers() time: 19611.885000 us
+  last transaction time     : 69.538000 us
+  transaction-flags         : 00000000
+  refresh-rate              : 33.000033 fps
+  x-dpi                     : 89.647003
+  y-dpi                     : 50.380001
+  gpu_to_cpu_unsupported    : 0
+  eglSwapBuffers time: 0.000000 us
+  transaction time: 0.000000 us
+VSYNC state: disabled
+  soft-vsync: disabled
+  numListeners=48,
+  events-delivered: 56767
+    0xb1d96860: count=-1
+    0xb1d968f0: count=-1
+    0xb1d96920: count=-1
+    0xb1d96980: count=-1
+    0xb1d969e0: count=-1
+    0xb1d96a10: count=-1
+    0xb1d96a40: count=-1
+    0xb1d96a70: count=-1
+    0xb1d96aa0: count=-1
+    0xb1d96ad0: count=-1
+    0xb1d96b00: count=-1
+    0xb1d96b30: count=-1
+    0xb1d96b60: count=-1
+    0xb1d96bf0: count=-1
+    0xb1d96c20: count=-1
+    0xb1d96c50: count=-1
+    0xb1d96ce0: count=-1
+    0xb1d96dd0: count=-1
+    0xb1d96e30: count=-1
+    0xb1d96e60: count=-1
+    0xb1d96e90: count=-1
+    0xb1d96ec0: count=-1
+    0xb1d96f20: count=-1
+    0xb1d96fb0: count=-1
+    0xb1d96fe0: count=-1
+    0xb1d97010: count=-1
+    0xb1d97040: count=-1
+    0xb1d97070: count=-1
+    0xb1d970a0: count=-1
+    0xb1d970d0: count=-1
+    0xb1d97130: count=-1
+    0xb1d97160: count=-1
+    0xb1d97190: count=-1
+    0xb1d97220: count=-1
+    0xb1d97250: count=-1
+    0xb1d97280: count=-1
+    0xb1d972e0: count=-1
+    0xb1d97370: count=-1
+    0xb1d973a0: count=-1
+    0xb1d973d0: count=-1
+    0xb1d97400: count=-1
+    0xb1d97430: count=-1
+    0xb1d97460: count=-1
+    0xb1d97490: count=-1
+    0xb1d974c0: count=-1
+    0xb1d974f0: count=-1
+    0xb1d97520: count=-1
+    0xb1d97580: count=-1
+
+Display 0 HWC layers:

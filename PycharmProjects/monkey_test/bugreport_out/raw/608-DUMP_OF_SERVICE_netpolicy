@@ -1,0 +1,248 @@
+System ready: true
+Restrict background: false
+Restrict power: false
+Device idle: false
+Metered ifaces: {seth_lte0}
+
+Network policies:
+  NetworkPolicy{template=NetworkTemplate: matchRule=MOBILE_ALL, subscriberId=460012..., matchSubscriberIds=[460012...] cycleRule=RecurrenceRule{start=2022-01-18T00:00+08:00[Asia/Shanghai] end=null period=P1M} warningBytes=2147483648 limitBytes=-1 lastWarningSnooze=-1 lastLimitSnooze=-1 metered=true inferred=true}
+  NetworkPolicy{template=NetworkTemplate: matchRule=MOBILE_ALL, matchSubscriberIds=[null] cycleRule=RecurrenceRule{start=2022-01-18T00:00Z[GMT] end=null period=P1M} warningBytes=2147483648 limitBytes=-1 lastWarningSnooze=-1 lastLimitSnooze=-1 metered=true inferred=true}
+
+Subscription plans:
+
+Policy for UIDs:
+  UID=10008 policy=4 (ALLOW_METERED_BACKGROUND)
+Power save whitelist (except idle) app ids:
+  UID=1000: true
+  UID=1001: true
+  UID=2000: true
+  UID=10005: true
+  UID=10008: true
+  UID=10083: true
+Power save whitelist app ids:
+  UID=1000: true
+  UID=1001: true
+  UID=2000: true
+  UID=10005: true
+  UID=10008: true
+  UID=10083: true
+Default restrict background whitelist uids:
+  UID=10008
+Status for all known UIDs:
+  UID=1000 state=0 (fg) rules=0 (NONE)
+  UID=10004 state=17 (bg) rules=0 (NONE)
+  UID=10008 state=11 (bg) rules=0 (NONE)
+  UID=10010 state=15 (bg) rules=0 (NONE)
+  UID=10019 state=14 (bg) rules=0 (NONE)
+  UID=10020 state=0 (fg) rules=0 (NONE)
+  UID=10022 state=17 (bg) rules=0 (NONE)
+  UID=10047 state=15 (bg) rules=0 (NONE)
+  UID=10054 state=11 (bg) rules=0 (NONE)
+  UID=10069 state=6 (bg) rules=0 (NONE)
+  UID=10070 state=2 (fg) rules=0 (NONE)
+  UID=10075 state=0 (fg) rules=0 (NONE)
+  UID=10080 state=11 (bg) rules=0 (NONE)
+  UID=10088 state=7 (bg) rules=0 (NONE)
+Status for just UIDs with rules:
+Observed uid state changes:
+  UID=10019 Seq=0
+  UID=10019 Seq=0
+  UID=10022 Seq=0
+  UID=10070 Seq=0
+  UID=10047 Seq=0
+  UID=10019 Seq=0
+  UID=10022 Seq=0
+  UID=10022 Seq=0
+  UID=10071 Seq=0
+  UID=10087 Seq=0
+  UID=10071 Seq=0
+  UID=10082 Seq=0
+  UID=10071 Seq=0
+  UID=10082 Seq=0
+  UID=10022 Seq=0
+  UID=10082 Seq=0
+  UID=10080 Seq=0
+  UID=1000 Seq=0
+  UID=10080 Seq=0
+  UID=10080 Seq=0
+  UID=10002 Seq=0
+  UID=10084 Seq=0
+  UID=10080 Seq=0
+  UID=10084 Seq=0
+  UID=10080 Seq=0
+  UID=10080 Seq=0
+  UID=10080 Seq=0
+  UID=10090 Seq=0
+  UID=10089 Seq=0
+  UID=10090 Seq=0
+  UID=10020 Seq=0
+  UID=10020 Seq=0
+  UID=10081 Seq=0
+  UID=10070 Seq=0
+  UID=10019 Seq=0
+  UID=10019 Seq=0
+  UID=10081 Seq=0
+  UID=10089 Seq=0
+  UID=10089 Seq=0
+  UID=10020 Seq=0
+  UID=10071 Seq=0
+  UID=10020 Seq=0
+  UID=10071 Seq=0
+  UID=10071 Seq=0
+  UID=10071 Seq=0
+  UID=10019 Seq=0
+  UID=10088 Seq=0
+  UID=10004 Seq=0
+  UID=10019 Seq=0
+  UID=10004 Seq=0
+  UID=10070 Seq=0
+  UID=10070 Seq=0
+  UID=10088 Seq=0
+  UID=10070 Seq=0
+  UID=10089 Seq=0
+  UID=10002 Seq=0
+  UID=10002 Seq=0
+  UID=10089 Seq=0
+  UID=10082 Seq=0
+  UID=10081 Seq=0
+  UID=10070 Seq=0
+  UID=10082 Seq=0
+  UID=10022 Seq=0
+  UID=10081 Seq=0
+  UID=10019 Seq=0
+  UID=10070 Seq=0
+  UID=10022 Seq=0
+  UID=10082 Seq=0
+  UID=10022 Seq=0
+  UID=10082 Seq=0
+  UID=10089 Seq=0
+  UID=1000 Seq=0
+  UID=10022 Seq=0
+  UID=10082 Seq=0
+  UID=10081 Seq=0
+  UID=10010 Seq=0
+  UID=10010 Seq=0
+  UID=10004 Seq=0
+  UID=10083 Seq=0
+  UID=10008 Seq=0
+  UID=10054 Seq=0
+  UID=10089 Seq=0
+  UID=10089 Seq=0
+  UID=1000 Seq=0
+  UID=10083 Seq=0
+  UID=10008 Seq=0
+  UID=10054 Seq=0
+  UID=10054 Seq=0
+  UID=10077 Seq=0
+  UID=10077 Seq=0
+  UID=10083 Seq=0
+  UID=10071 Seq=0
+  UID=10071 Seq=0
+  UID=10071 Seq=0
+  UID=10084 Seq=0
+  UID=10089 Seq=0
+  UID=10089 Seq=0
+  UID=10081 Seq=0
+  UID=10047 Seq=0
+  UID=10081 Seq=0
+  UID=10089 Seq=0
+  UID=10089 Seq=0
+  UID=10084 Seq=0
+  UID=10084 Seq=0
+  UID=10047 Seq=0
+  UID=10080 Seq=0
+  UID=10089 Seq=0
+  UID=10047 Seq=0
+  UID=10047 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10073 Seq=0
+  UID=10073 Seq=0
+  UID=10080 Seq=0
+  UID=10080 Seq=0
+  UID=10089 Seq=0
+  UID=10080 Seq=0
+  UID=10002 Seq=0
+  UID=10004 Seq=0
+  UID=10004 Seq=0
+  UID=10089 Seq=0
+  UID=10080 Seq=0
+  UID=10077 Seq=0
+  UID=10080 Seq=0
+  UID=10070 Seq=0
+  UID=10077 Seq=0
+  UID=10089 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10089 Seq=0
+  UID=1000 Seq=0
+  UID=10004 Seq=0
+  UID=10010 Seq=0
+  UID=10026 Seq=0
+  UID=10007 Seq=0
+  UID=10008 Seq=0
+  UID=10087 Seq=0
+  UID=10087 Seq=0
+  UID=10019 Seq=0
+  UID=10002 Seq=0
+  UID=10070 Seq=0
+  UID=10007 Seq=0
+  UID=10002 Seq=0
+  UID=10002 Seq=0
+  UID=10019 Seq=0
+  UID=10019 Seq=0
+  UID=10070 Seq=0
+  UID=10070 Seq=0
+  UID=10002 Seq=0
+  UID=10002 Seq=0
+  UID=10073 Seq=0
+  UID=10070 Seq=0
+  UID=10002 Seq=0
+  UID=10073 Seq=0
+  UID=10087 Seq=0
+  UID=10070 Seq=0
+  UID=10087 Seq=0
+  UID=10019 Seq=0
+  UID=10070 Seq=0
+  UID=10070 Seq=0
+  UID=10010 Seq=0
+  UID=10087 Seq=0
+  UID=10087 Seq=0
+  UID=10087 Seq=0
+  UID=10087 Seq=0
+  UID=10026 Seq=0
+  UID=10010 Seq=0
+  UID=10078 Seq=0
+  UID=10078 Seq=0
+  UID=10078 Seq=0
+  UID=10026 Seq=0
+  UID=10090 Seq=0
+  UID=10008 Seq=0
+  UID=10007 Seq=0
+  UID=10090 Seq=0
+  UID=10008 Seq=0
+  UID=10090 Seq=0
+  UID=10007 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10007 Seq=0
+  UID=10008 Seq=0
+  UID=10090 Seq=0
+  UID=10007 Seq=0
+  UID=10010 Seq=0
+  UID=10002 Seq=0
+  UID=10085 Seq=0
+  UID=10026 Seq=0
+  UID=10026 Seq=0
+  UID=10085 Seq=0
+  UID=10085 Seq=0
+  UID=10008 Seq=0
+  UID=10008 Seq=0
+  UID=10026 Seq=0
+  UID=10059 Seq=0
+  UID=10077 Seq=0
+  UID=10071 Seq=0
+--------- 0.002s was the duration of dumpsys netpolicy, ending at: 2023-05-18 12:38:57

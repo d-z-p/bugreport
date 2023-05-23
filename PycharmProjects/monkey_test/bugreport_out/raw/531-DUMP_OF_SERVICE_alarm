@@ -1,0 +1,253 @@
+Current Alarm Manager state:
+  Settings:
+    min_futurity=+5s0ms
+    min_interval=+1m0s0ms
+    listener_timeout=+5s0ms
+    allow_while_idle_short_time=+5s0ms
+    allow_while_idle_long_time=+9m0s0ms
+    allow_while_idle_whitelist_duration=+10s0ms
+
+  nowRTC=1684384736741=2023-05-18 12:38:56 nowELAPSED=373154
+  mLastTimeChangeClockTime=1684384512812=2023-05-18 12:35:12
+  mLastTimeChangeRealtime=+2m29s225ms
+  Next non-wakeup alarm: +3s259ms = 2023-05-18 12:39:00
+  Next wakeup: +1m9s686ms = 2023-05-18 12:40:06
+  Last wakeup: -13s707ms set at -57s434ms
+  Num time change events: 1
+  mDeviceIdleUserWhitelist=[10083]
+
+  Next alarm clock information: 
+    user:0 pendingSend:false time:1684456200000 = 2023-05-19 08:30:00 = +19h51m3s259ms
+
+  Pending alarm batches: 24
+Batch{8631fb5 num=1 start=376413 end=376413 flgs=0x1}:
+    ELAPSED #0: Alarm{dbd64a type 3 when 376413 android}
+      tag=*alarm*:android.intent.action.TIME_TICK
+      type=3 whenElapsed=+3s259ms when=+3s259ms
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{e21f24d: PendingIntentRecord{d5d102 android broadcastIntent}}
+Batch{20f9bb num=1 start=442840 end=442840 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{3cb6030 type 2 when 442840 com.jx.launcher}
+      tag=*walarm*:jx.android.provider.RtcWakeUp
+      type=2 whenElapsed=+1m9s686ms when=+1m9s686ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{db12f97: PendingIntentRecord{6bb7584 com.jx.launcher broadcastIntent}}
+Batch{bc37ed8 num=2 start=458565 end=464453 flgs=0x8}:
+    RTC #1: Alarm{7e269cf type 1 when 1684384822151 com.sohu.inputmethod.sogou}
+      tag=*alarm*:init.mobiletools.sdk
+      type=1 whenElapsed=+1m25s411ms when=2023-05-18 12:40:22
+      window=+3m44s999ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{a262b95: PendingIntentRecord{dc624aa com.sohu.inputmethod.sogou broadcastIntent}}
+    ELAPSED #0: Alarm{5f30231 type 3 when 419453 com.android.phone}
+      tag=*alarm*:com.android.internal.telephony.data-stall
+      type=3 whenElapsed=+46s299ms when=+46s299ms
+      window=+45s0ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{36da394: PendingIntentRecord{95aec29 com.android.phone broadcastIntent}}
+Batch{6090d16 num=1 start=468693 end=468693 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{8db7697 type 2 when 468693 com.zmapp.camera}
+      tag=*walarm*:action_exit_camera
+      type=2 whenElapsed=+1m35s539ms when=+1m35s539ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{405fa77: PendingIntentRecord{7e616e4 com.zmapp.camera broadcastIntent}}
+Batch{35db084 num=1 start=602273 end=602273 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{4c4906d type 2 when 602273 com.jx.launcher}
+      tag=*walarm*:jx.android.provider.RtcWakeUp
+      type=2 whenElapsed=+3m49s119ms when=+3m49s119ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{2ce3050: PendingIntentRecord{2632249 com.jx.launcher broadcastIntent}}
+Batch{d00e4a2 num=1 start=613273 end=838273 flgs=0x8}:
+    ELAPSED #0: Alarm{656e533 type 3 when 613273 android}
+      tag=*alarm*:com.android.server.powercontroller.CHECK_APPSTATE
+      type=3 whenElapsed=+4m0s119ms when=+4m0s119ms
+      window=+3m45s0ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{5d6a91d: PendingIntentRecord{d5b0792 android broadcastIntent}}
+Batch{54750f0 num=1 start=737414 end=737414 flgs=0x9}:
+    RTC #0: Alarm{65e0265 type 1 when 1684385101000 com.android.deskclock}
+      tag=*alarm*:com.android.deskclock.ON_QUARTER_HOUR
+      type=1 whenElapsed=+6m4s260ms when=2023-05-18 12:45:01
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{1a89527: PendingIntentRecord{56393d4 com.android.deskclock broadcastIntent}}
+Batch{3a6c669 num=1 start=737414 end=737414 flgs=0x9}:
+    RTC #0: Alarm{bc5d3eb type 1 when 1684385101000 com.android.deskclock}
+      tag=*alarm*:com.android.deskclock.ON_QUARTER_HOUR
+      type=1 whenElapsed=+6m4s260ms when=2023-05-18 12:45:01
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{3dddf5: PendingIntentRecord{476578a com.android.deskclock broadcastIntent}}
+Batch{caca8ee num=1 start=1040203 end=1040203 flgs=0x9}:
+    ELAPSED_WAKEUP #0: Alarm{a315fe1 type 2 when 1040203 com.android.systemui}
+      tag=*walarm*:android.intent.action.dw_nosim_shutdown
+      type=2 whenElapsed=+11m7s49ms when=+11m7s49ms
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{3368f72: PendingIntentRecord{21bffc3 com.android.systemui broadcastIntent}}
+Batch{710a18f num=1 start=1937536 end=3287536 flgs=0x8}:
+    ELAPSED #0: Alarm{42bc3c7 type 3 when 1937536 android}
+      tag=*alarm*:com.android.server.action.NETWORK_STATS_POLL
+      type=3 whenElapsed=+26m4s382ms when=+26m4s382ms
+      window=+22m30s0ms repeatInterval=1800000 count=0 flags=0x8
+      operation=PendingIntent{81286fb: PendingIntentRecord{6262318 android broadcastIntent}}
+Batch{6e88c1c num=1 start=3819635 end=6519631}:
+    RTC #0: Alarm{f83191d type 1 when 1684388183221 com.sohu.inputmethod.sogou}
+      tag=*alarm*:sogou.action.excute.for.one.hour
+      type=1 whenElapsed=+57m26s481ms when=2023-05-18 13:36:23
+      window=+44m59s996ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{a48f3b2: PendingIntentRecord{c359f4c com.sohu.inputmethod.sogou broadcastIntent}}
+Batch{55c6025 num=1 start=15057855 end=26194160}:
+    ELAPSED_WAKEUP #0: Alarm{c16d563 type 2 when 15057855 android}
+      tag=*walarm*:*job.delay*
+      type=2 whenElapsed=+4h4m44s701ms when=+4h4m44s701ms
+      window=+3h5m36s305ms repeatInterval=0 count=0 flags=0x0
+      operation=null
+      listener=android.app.AlarmManager$ListenerWrapper@84f3560
+Batch{f3e65fa num=1 start=34036414 end=34036414 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{9ffc7ab type 0 when 1684418400000 android}
+      tag=*walarm*:ScheduleConditionProvider.EVALUATE
+      type=0 whenElapsed=+9h21m3s260ms when=2023-05-18 22:00:00
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{f581302: PendingIntentRecord{902a6ef android broadcastIntent}}
+Batch{a004e08 num=2 start=41236414 end=71906122}:
+    RTC #1: Alarm{c17d9a1 type 1 when 1684425600000 com.android.calendar}
+      tag=*alarm*:com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+      type=1 whenElapsed=+11h21m3s260ms when=2023-05-19 00:00:00
+      window=+8h31m9s708ms repeatInterval=0 count=0 flags=0x0
+      operation=PendingIntent{5839ee2: PendingIntentRecord{f0d6ad com.android.calendar broadcastIntent}}
+    RTC #0: Alarm{f62478c type 1 when 1684425600000 com.sohu.inputmethod.sogou}
+      tag=*alarm*:sogou.action.statisticsdata.onedayup
+      type=1 whenElapsed=+11h21m3s260ms when=2023-05-19 00:00:00
+      window=+18h0m0s0ms repeatInterval=86400000 count=0 flags=0x0
+      operation=PendingIntent{b423573: PendingIntentRecord{16bfc30 com.sohu.inputmethod.sogou broadcastIntent}}
+Batch{dfce7c6 num=1 start=41236414 end=41236414 flgs=0x1}:
+    RTC #0: Alarm{3678ddb type 1 when 1684425600000 android}
+      tag=*alarm*:android.intent.action.DATE_CHANGED
+      type=1 whenElapsed=+11h21m3s260ms when=2023-05-19 00:00:00
+      window=0 repeatInterval=0 count=0 flags=0x1
+      operation=PendingIntent{a44ca13: PendingIntentRecord{28e0450 android broadcastIntent}}
+Batch{c713387 num=1 start=64636414 end=64636414 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{b5042b4 type 0 when 1684449000000 com.android.deskclock}
+      tag=*walarm*:change_state
+      type=0 whenElapsed=+17h51m3s260ms when=2023-05-19 06:30:00
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{79c6f95: PendingIntentRecord{9d918aa com.android.deskclock startService}}
+Batch{b76edd num=1 start=70036414 end=70036414 flgs=0x9}:
+    RTC #0: Alarm{f410351 type 1 when 1684454400000 android}
+      tag=*alarm*:GraphicsStatsService
+      type=1 whenElapsed=+19h21m3s260ms when=2023-05-19 08:00:00
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=null
+      listener=android.app.AlarmManager$ListenerWrapper@f5747b6
+Batch{dcfba52 num=1 start=71836414 end=71836414 flgs=0x3}:
+    RTC_WAKEUP #0: Alarm{9a38123 type 0 when 1684456200000 com.android.deskclock}
+      tag=*walarm*:indicator
+      type=0 whenElapsed=+19h51m3s260ms when=2023-05-19 08:30:00
+      window=0 repeatInterval=0 count=0 flags=0x3
+      Alarm clock:
+        triggerTime=2023-05-19 08:30:00
+        showIntent=PendingIntent{8d620: PendingIntentRecord{3aee9e3 com.android.deskclock startActivity}}
+      operation=PendingIntent{63f4777: PendingIntentRecord{dc67ebc com.android.deskclock broadcastIntent}}
+Batch{1c11bd9 num=1 start=71836414 end=125480347 flgs=0xb}:
+    POWER_OFF_ALARM #0: Alarm{88b299e type 6 when 1684456200000 com.android.deskclock}
+      tag=*walarm*:com.sprd.deskclock.rtc_state
+      type=6 whenElapsed=+19h51m3s260ms when=2023-05-19 08:30:00
+      window=+14h54m3s933ms repeatInterval=0 count=0 flags=0xb
+      operation=PendingIntent{46f7c9b: PendingIntentRecord{6517838 com.android.deskclock broadcastIntent}}
+Batch{8230c7f num=2 start=86549400 end=151290530 flgs=0x8}:
+    ELAPSED #1: Alarm{cf7fc24 type 3 when 86549400 android}
+      tag=*alarm*:com.android.server.NetworkTimeUpdateService.action.POLL
+      type=3 whenElapsed=+23h56m16s246ms when=+23h56m16s246ms
+      window=+18h0m0s0ms repeatInterval=0 count=0 flags=0x8
+      operation=PendingIntent{613bae: PendingIntentRecord{299d4f android broadcastIntent}}
+    ELAPSED_WAKEUP #0: Alarm{c41838d type 2 when 86541491 android}
+      tag=*walarm*:*job.deadline*
+      type=2 whenElapsed=+23h56m8s337ms when=+23h56m8s337ms
+      window=+17h59m9s39ms repeatInterval=0 count=0 flags=0x0
+      operation=null
+      listener=android.app.AlarmManager$ListenerWrapper@a082942
+Batch{df5344c num=1 start=86549419 end=86549419 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{9cab690 type 0 when 1684470913005 android}
+      tag=*walarm*:EventConditionProvider.EVALUATE
+      type=0 whenElapsed=+23h56m16s265ms when=2023-05-19 12:35:13
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{2b5aae0: PendingIntentRecord{b6e34c9 android broadcastIntent}}
+Batch{61e9c95 num=1 start=90151569 end=90151569 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{f3978e type 0 when 1684474515155 com.abupdate.fota_demo_iot}
+      tag=*walarm*:ACTION_COM_ABUPDATE_ALARM_CHECK_VERSION
+      type=0 whenElapsed=+1d0h56m18s415ms when=2023-05-19 13:35:15
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{97ffbed: PendingIntentRecord{8eaa22 com.abupdate.fota_demo_iot broadcastIntent}}
+Batch{efc41aa num=1 start=152836414 end=152836414 flgs=0x9}:
+    RTC_WAKEUP #0: Alarm{e5f19b type 0 when 1684537200000 com.android.deskclock}
+      tag=*walarm*:change_state
+      type=0 whenElapsed=+1d18h21m3s260ms when=2023-05-20 07:00:00
+      window=0 repeatInterval=0 count=0 flags=0x9
+      operation=PendingIntent{66f7325: PendingIntentRecord{6277cfa com.android.deskclock startService}}
+Batch{a674938 num=1 start=160036414 end=279830532 flgs=0xb}:
+    POWER_OFF_ALARM #0: Alarm{f996d11 type 6 when 1684544400000 com.android.deskclock}
+      tag=*walarm*:com.sprd.deskclock.rtc_state
+      type=6 whenElapsed=+1d20h21m3s260ms when=2023-05-20 09:00:00
+      window=+1d9h16m34s118ms repeatInterval=0 count=0 flags=0xb
+      operation=PendingIntent{a4092ab: PendingIntentRecord{886728e com.android.deskclock broadcastIntent}}
+
+  Next wake from idle: Alarm{88b299e type 6 when 1684456200000 com.android.deskclock}
+    tag=*walarm*:com.sprd.deskclock.rtc_state
+    type=6 whenElapsed=+19h51m3s260ms when=2023-05-19 08:30:00
+    window=+14h54m3s933ms repeatInterval=0 count=0 flags=0xb
+    operation=PendingIntent{46f7c9b: PendingIntentRecord{6517838 com.android.deskclock broadcastIntent}}
+
+  Past-due non-wakeup alarms: (none)
+    Number of delayed alarms: 0, total delay time: 0
+    Max delay time: 0, max non-interactive time: +10s660ms
+
+  Broadcast ref count: 0
+  PendingIntent send count: 15
+  PendingIntent finish count: 15
+  Listener send count: 2
+  Listener finish count: 2
+
+  mAllowWhileIdleMinTime=+5s0ms
+  Last allow while idle dispatch times:
+  UID u0a73: -1m4s524ms
+
+  Top Alarms:
+    +1m22s360ms running, 0 wakeups, 4 alarms: 1000:android
+      *alarm*:android.intent.action.TIME_TICK
+    +3s946ms running, 0 wakeups, 3 alarms: u0a19:com.android.providers.calendar
+      *alarm*:android.intent.action.PROVIDER_CHANGED
+    +3s605ms running, 1 wakeups, 1 alarms: u0a20:com.android.systemui
+      *walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+    +2s956ms running, 0 wakeups, 1 alarms: 1000:android
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +39ms running, 1 wakeups, 1 alarms: u0a73:com.baidu.voicesearch
+      *walarm*:com.baidu.duer.KILL_APP_ACTION
+    +33ms running, 1 wakeups, 1 alarms: u0a19:com.android.providers.calendar
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+    +26ms running, 0 wakeups, 3 alarms: 1001:com.android.phone
+      *alarm*:com.android.internal.telephony.data-stall
+    +10ms running, 1 wakeups, 1 alarms: 1000:android
+      *walarm*:*job.delay*
+    +10ms running, 1 wakeups, 1 alarms: 1000:android
+      *walarm*:*job.deadline*
+ 
+  Alarm Stats:
+  1000:android +1m25s326ms running, 2 wakeups:
+    +1m22s360ms 0 wakes 4 alarms, last -56s741ms:
+      *alarm*:android.intent.action.TIME_TICK
+    +2s956ms 0 wakes 1 alarms, last -3m47s613ms:
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +10ms 1 wakes 1 alarms, last -2m43s716ms:
+      *walarm*:*job.deadline*
+    +10ms 1 wakes 1 alarms, last -2m43s716ms:
+      *walarm*:*job.delay*
+  1001:com.android.phone +26ms running, 0 wakeups:
+    +26ms 0 wakes 3 alarms, last -13s707ms:
+      *alarm*:com.android.internal.telephony.data-stall
+  u0a19:com.android.providers.calendar +3s979ms running, 1 wakeups:
+    +3s946ms 0 wakes 3 alarms, last -30s57ms:
+      *alarm*:android.intent.action.PROVIDER_CHANGED
+    +33ms 1 wakes 1 alarms, last -3m33s867ms:
+      *walarm*:com.android.providers.calendar.intent.CalendarProvider2
+  u0a20:com.android.systemui +3s605ms running, 1 wakeups:
+    +3s605ms 1 wakes 1 alarms, last -1m28s133ms:
+      *walarm*:com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+  u0a73:com.baidu.voicesearch +39ms running, 1 wakeups:
+    +39ms 1 wakes 1 alarms, last -1m4s524ms:
+      *walarm*:com.baidu.duer.KILL_APP_ACTION
+--------- 0.007s was the duration of dumpsys alarm, ending at: 2023-05-18 12:38:56

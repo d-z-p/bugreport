@@ -1,0 +1,13 @@
+Current WebView Update Service state
+  Fallback logic enabled: true
+  Multiprocess enabled: false
+  Current WebView package (name, version): (com.android.webview, Developer Build)
+  Minimum WebView version code: 1
+  Number of relros started: 1
+  Number of relros finished: 1
+  WebView package dirty: false
+  Any WebView package installed: true
+  Preferred WebView package (name, version): (com.android.webview, Developer Build)
+  WebView packages:
+    Valid package com.android.webview (versionName: Developer Build, versionCode: 1, targetSdkVersion: 26) is  installed/enabled for all users
+--------- 0.014s was the duration of dumpsys webviewupdate, ending at: 2023-05-22 17:52:12

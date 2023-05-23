@@ -1,0 +1,829 @@
+Battery History (0% used, 2300 used of 256KB, 47 strings using 2454):
+                    0 (10) RESET:TIME: 2023-05-18-12-35-38
+                    0 (2) 099 c2101a21 status=discharging health=good plug=none temp=231 volt=4344 charge=891 +running +wake_lock +mobile_radio +screen data_conn=lte phone_signal_strength=great brightness=dim top=1000:"com.jx.launcher"
+                    0 (2) 099 c2101a21 job=1000:"com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService"
+                    0 (2) 099 c2101a21 user=0:"0"
+                    0 (2) 099 c2101a21 userfg=0:"0"
+                +14ms (2) 099 c2101a21 -top=1000:"com.jx.launcher"
+                +14ms (3) 099 c2101a19 phone_signal_strength=good +top=1000:"com.divo.phone"
+             +1s435ms (2) 099 c2101a19 stats=0:"battery-state"
+             +1s443ms (4) 099 c2181a19 status=charging plug=usb volt=4278 +plugged +charging -top=1000:"com.divo.phone"
+             +1s449ms (3) 099 c2181a21 phone_signal_strength=great +top=1000:"com.jx.launcher"
+             +4s922ms (2) 099 c2181a21 -job=1000:"com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService"
+             +6s508ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+             +6s508ms (2) 099 c2181a21 +top=1000:"com.divo.phone"
+             +7s227ms (2) 099 c2181a21 -top=1000:"com.divo.phone"
+             +7s227ms (2) 099 c2181a21 +top=u0a20:"com.android.systemui"
+             +7s340ms (2) 099 c2181a21 -top=u0a20:"com.android.systemui"
+             +7s340ms (2) 099 c2181a21 +top=1000:"com.divo.phone"
+            +14s717ms (2) 099 c0181a21 -mobile_radio stats=0:"modem-data"
+            +24s326ms (2) 099 c2181a21 +mobile_radio wakeupap=1000:""
+            +25s436ms (2) 099 c2181a20 brightness=dark
+            +26s575ms (3) 099 c2181a21 brightness=dim -top=1000:"com.divo.phone"
+            +26s587ms (2) 099 c2181a21 +top=u0a79:"com.tencent.qqlite"
+            +26s779ms (2) 099 c2181a21 pkginst=1:"com.example.demo1"
+            +29s314ms (2) 099 c2181a21 -top=u0a79:"com.tencent.qqlite"
+            +29s314ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+            +29s845ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+            +29s845ms (2) 099 c2181a21 +top=u0a89:"com.tencent.mm"
+            +29s862ms (2) 099 c2181a21 -top=u0a89:"com.tencent.mm"
+            +29s862ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+            +30s795ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+            +30s795ms (2) 099 c2181a21 +top=u0a73:"com.baidu.voicesearch"
+            +32s056ms (2) 099 c2181a21 -top=u0a73:"com.baidu.voicesearch"
+            +32s056ms (2) 099 c2181a21 +top=u0a79:"com.tencent.qqlite"
+            +32s433ms (3) 099 c2581a21 +audio +fg=u0a73:"com.baidu.voicesearch"
+            +33s491ms (3) 099 c2181a21 -audio +job=1000:"android/com.android.server.pm.BackgroundDexOptService"
+            +35s969ms (2) 099 c2181a21 -top=u0a79:"com.tencent.qqlite"
+            +35s969ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+            +36s386ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+            +36s386ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.contact"
+            +36s386ms (2) 099 c2181a21 -job=1000:"android/com.android.server.pm.BackgroundDexOptService"
+            +37s248ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.contact"
+            +37s248ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.setting"
+            +38s001ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.setting"
+            +38s001ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+            +38s867ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+            +38s867ms (2) 099 c2181a21 +top=u0a71:"com.android.browser"
+            +41s415ms (2) 099 c2181a21 -top=u0a71:"com.android.browser"
+            +41s415ms (2) 099 c2181a21 +top=u0a77:"com.zmapp.plugin.addfriend"
+            +42s247ms (2) 099 c2181a21 -top=u0a77:"com.zmapp.plugin.addfriend"
+            +42s247ms (2) 099 c2181a21 +top=1000:"com.android.settings"
+            +43s648ms (2) 099 c2181a21 stats=0:"get-stats"
+            +43s676ms (2) 099 c2181a21 stats=0:"get-stats"
+            +50s177ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+            +50s177ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+            +51s606ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+            +51s606ms (2) 099 c2181a21 +top=1000:"com.sprd.bootres"
+            +51s715ms (2) 099 c2181a21 -top=1000:"com.sprd.bootres"
+            +51s715ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+            +52s358ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+            +52s358ms (2) 099 c2181a21 +video +top=u0a26:"com.android.gallery3d"
+            +53s270ms (1) 099 c2181a21 -video
+            +53s610ms (2) 099 c2581a20 +audio brightness=dark +video
+            +54s394ms (3) 099 c2181a20 -audio -video -top=u0a26:"com.android.gallery3d"
+            +54s544ms (3) 099 c2181a21 brightness=dim +top=u0a85:"com.tencent.wechatkids"
+            +55s667ms (3) 099 c2581a21 +audio -top=u0a85:"com.tencent.wechatkids"
+            +55s777ms (3) 099 c2581a20 brightness=dark +video +top=u0a26:"com.android.gallery3d"
+            +58s135ms (3) 099 c2181a21 -audio brightness=dim -video -top=u0a26:"com.android.gallery3d"
+            +58s506ms (2) 099 c2181a21 +top=u0a10:"com.android.documentsui"
+          +1m00s935ms (2) 099 c2181a21 -top=u0a10:"com.android.documentsui"
+          +1m00s935ms (2) 099 c2181a21 +top=u0a78:"com.jx.timer"
+          +1m01s131ms (2) 099 c2181a21 -top=u0a78:"com.jx.timer"
+          +1m01s131ms (2) 099 c2181a21 +top=u0a10:"com.android.documentsui"
+          +1m01s737ms (2) 099 c2181a21 -top=u0a10:"com.android.documentsui"
+          +1m01s737ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +1m02s288ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +1m02s288ms (2) 099 c2181a21 +top=u0a87:"com.eg.android.AlipayGphone"
+          +1m03s304ms (3) 099 c2181a24 brightness=bright -top=u0a87:"com.eg.android.AlipayGphone"
+          +1m03s460ms (3) 099 c2181a21 brightness=dim +top=1000:"com.jx.launcher"
+          +1m04s458ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +1m04s458ms (2) 099 c2181a21 +top=1000:"com.zmapp.camera"
+          +1m04s554ms (3) 099 c2181a22 brightness=medium +camera stats=0:"dump"
+          +1m06s578ms (2) 099 c2181a22 -top=1000:"com.zmapp.camera"
+          +1m06s578ms (3) 099 c2181a21 brightness=dim +top=u0a87:"com.eg.android.AlipayGphone"
+          +1m07s327ms (3) 099 c2181a24 brightness=bright -camera stats=0:"dump"
+          +1m07s661ms (2) 099 c2181a21 brightness=dim
+          +1m09s308ms (2) 099 c2181a21 -top=u0a87:"com.eg.android.AlipayGphone"
+          +1m09s308ms (3) 099 c2581a21 +audio +top=u0a70:"com.android.calendar"
+          +1m10s437ms (2) 099 c2581a21 -top=u0a70:"com.android.calendar"
+          +1m10s437ms (2) 099 c2581a21 +top=1000:"com.zmapp.album"
+          +1m10s910ms (2) 099 c2581a21 -top=1000:"com.zmapp.album"
+          +1m10s910ms (2) 099 c2581a21 +top=1000:"com.jx.watchos.contact"
+          +1m10s947ms (2) 099 c2581a21 -top=1000:"com.jx.watchos.contact"
+          +1m10s947ms (2) 099 c2581a21 +video +top=1000:"com.zmapp.album"
+          +1m11s160ms (2) 099 c2581a21 -video -top=1000:"com.zmapp.album"
+          +1m11s537ms (2) 099 c2581a21 +video +top=u0a73:"com.baidu.voicesearch"
+          +1m11s807ms (2) 099 c2581a21 -video -top=u0a73:"com.baidu.voicesearch"
+          +1m12s209ms (3) 099 c2581a22 brightness=medium +camera +top=1000:"com.zmapp.camera"
+          +1m12s777ms (2) 099 c2581a22 -top=1000:"com.zmapp.camera"
+          +1m12s778ms (3) 099 c2581a21 brightness=dim -camera +top=1000:"com.android.settings"
+          +1m13s906ms (2) 099 c2581a21 stats=0:"get-stats"
+          +1m20s133ms (2) 099 c2181a21 -audio
+          +1m38s686ms (2) 099 c2181a20 brightness=dark
+          +1m44s689ms (2) 099 82081a20 -wake_lock -screen
+          +1m44s691ms (2) 099 c2081a20 +wake_lock=1000:"ActivityManager-Sleep"
+          +1m53s322ms (1) 099 82081a20 -wake_lock
+          +1m53s703ms (2) 099 82081a20 volt=4322
+          +2m02s952ms (3) 099 c2081a20 +wake_lock=u0a91:"*dexopt*" -top=1000:"com.android.settings"
+          +2m03s478ms (2) 099 82081a20 -wake_lock +top=1000:"com.sprd.bootres"
+          +2m03s948ms (4) 099 c2181a21 +wake_lock=-1:"screen" +screen brightness=dim screenwake=1000:"android.policy:KEY"
+          +2m04s063ms (2) 099 c2181a21 -top=1000:"com.sprd.bootres"
+          +2m04s063ms (2) 099 c2181a21 +top=1000:"com.android.settings"
+          +2m04s888ms (2) 099 c2181a21 +tmpwhitelist=1000:"keychain"
+          +2m04s960ms (2) 099 c2181a21 pkginst=1:"com.example.demo1"
+          +2m05s376ms (2) 099 c2181a21 stats=0:"get-stats"
+          +2m05s580ms (2) 099 c2181a21 stats=0:"get-stats"
+          +2m05s595ms (2) 099 c2181a21 stats=0:"get-stats"
+          +2m05s615ms (2) 099 c2181a21 stats=0:"get-stats"
+          +2m05s884ms (2) 099 c2181a21 stats=0:"get-stats"
+          +2m05s902ms (2) 099 c2181a21 stats=0:"get-stats"
+          +2m06s154ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+          +2m06s154ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +2m07s904ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +2m07s904ms (3) 099 c2581a21 +audio +top=1000:"com.zmapp.sms"
+          +2m08s496ms (3) 099 c2181a21 -audio -top=1000:"com.zmapp.sms"
+          +2m08s551ms (2) 099 c2181a21 +top=u0a89:"com.tencent.mm"
+          +2m11s020ms (2) 099 c2181a21 -top=u0a89:"com.tencent.mm"
+          +2m11s020ms (2) 099 c2181a21 +top=u0a77:"com.zmapp.plugin.addfriend"
+          +2m11s547ms (2) 099 c2181a21 -top=u0a77:"com.zmapp.plugin.addfriend"
+          +2m11s547ms (2) 099 c2181a21 +top=u0a80:"com.jx.inputmethod.pinyin"
+          +2m12s502ms (2) 099 c2181a21 -top=u0a80:"com.jx.inputmethod.pinyin"
+          +2m12s502ms (2) 099 c2181a21 +top=1000:"com.android.settings"
+          +2m13s284ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+          +2m13s284ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +2m13s353ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +2m13s353ms (2) 099 c2181a21 +top=1000:"com.android.deskclock"
+          +2m14s527ms (2) 099 c2181a21 -fg=u0a73:"com.baidu.voicesearch"
+          +2m16s609ms (2) 099 c2181a21 -top=1000:"com.android.deskclock"
+          +2m16s609ms (2) 099 c2181a21 +top=u0a47:"com.sprd.fileexplorer"
+          +2m17s561ms (2) 099 c2181a21 -top=u0a47:"com.sprd.fileexplorer"
+          +2m17s561ms (2) 099 c2181a21 +top=1000:"com.zmapp.album"
+          +2m18s034ms (2) 099 c2181a21 -top=1000:"com.zmapp.album"
+          +2m18s034ms (2) 099 c2181a21 +top=u0a84:"com.ss.android.ugc.aweme"
+          +2m21s812ms (2) 099 c2181a21 -top=u0a84:"com.ss.android.ugc.aweme"
+          +2m21s812ms (2) 099 c2181a21 +top=u0a81:"com.jx.market"
+          +2m22s689ms (2) 099 c2181a21 -top=u0a81:"com.jx.market"
+          +2m22s689ms (2) 099 c2181a21 +top=u0a84:"com.ss.android.ugc.aweme"
+          +2m29s117ms (2) 099 c2181a21 -top=u0a84:"com.ss.android.ugc.aweme"
+          +2m29s117ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +2m30s367ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +2m30s367ms (2) 099 c2181a21 +top=1000:"com.goodix.health"
+          +2m30s864ms (2) 099 c2181a21 -top=1000:"com.goodix.health"
+          +2m30s864ms (2) 099 c2181a21 +top=u0a83:"com.zmapp.chat"
+          +2m32s477ms (2) 099 c2181a21 -top=u0a83:"com.zmapp.chat"
+          +2m32s477ms (2) 099 c2181a21 +top=u0a77:"com.zmapp.plugin.addfriend"
+          +2m33s192ms (2) 099 c2181a21 -top=u0a77:"com.zmapp.plugin.addfriend"
+          +2m33s192ms (2) 099 c2181a21 +top=u0a83:"com.zmapp.chat"
+          +2m33s293ms (2) 099 c2181a21 -top=u0a83:"com.zmapp.chat"
+          +2m33s293ms (2) 099 c2181a21 +top=u0a54:"com.android.music"
+          +2m34s930ms (2) 099 c2181a21 -tmpwhitelist=1000:"keychain"
+          +2m35s599ms (2) 099 c2181a21 -top=u0a54:"com.android.music"
+          +2m35s599ms (2) 099 c2181a21 +top=u0a89:"com.tencent.mm"
+          +2m37s913ms (2) 099 c2181a21 -top=u0a89:"com.tencent.mm"
+          +2m37s913ms (2) 099 c2181a21 +top=u0a10:"com.android.documentsui"
+          +2m38s030ms (2) 099 c2181a21 -top=u0a10:"com.android.documentsui"
+          +2m38s030ms (2) 099 c2181a21 +top=u0a89:"com.tencent.mm"
+          +2m38s826ms (3) 099 c2181a21 volt=4271 -top=u0a89:"com.tencent.mm"
+          +2m39s332ms (2) 099 c2181a21 +top=u0a81:"com.jx.market"
+          +2m39s886ms (2) 099 c2181a21 -top=u0a81:"com.jx.market"
+          +2m39s886ms (2) 099 c2181a21 +top=u0a82:"com.ztapp.themestore"
+          +2m40s442ms (2) 099 c2181a21 -top=u0a82:"com.ztapp.themestore"
+          +2m40s442ms (2) 099 c2181a21 +top=u0a22:"com.android.packageinstaller"
+          +2m40s906ms (2) 099 c2181a21 -top=u0a22:"com.android.packageinstaller"
+          +2m40s906ms (2) 099 c2181a21 +top=u0a81:"com.jx.market"
+          +2m41s663ms (2) 099 c2181a21 +tmpwhitelist=1000:"keychain"
+          +2m41s689ms (2) 099 c2181a21 pkginst=1:"com.example.demo1"
+          +2m42s246ms (2) 099 c2181a21 +fg=u0a81:"com.jx.market"
+          +2m42s507ms (2) 099 c2181a21 -fg=u0a81:"com.jx.market"
+          +2m43s013ms (2) 099 c2181a21 -top=u0a81:"com.jx.market"
+          +2m43s013ms (2) 099 c2181a21 +top=u0a70:"com.android.calendar"
+          +2m43s495ms (2) 099 c2181a21 -top=u0a70:"com.android.calendar"
+          +2m43s495ms (2) 099 c2181a21 +top=1000:"com.goodix.health"
+          +2m43s746ms (2) 099 c2181a21 -top=1000:"com.goodix.health"
+          +2m43s746ms (2) 099 c2181a21 +top=u0a82:"com.ztapp.themestore"
+          +2m44s155ms (2) 099 c2181a21 -top=u0a82:"com.ztapp.themestore"
+          +2m44s155ms (2) 099 c2181a21 +top=1000:"com.goodix.health"
+          +2m44s824ms (2) 099 c2181a21 -top=1000:"com.goodix.health"
+          +2m44s824ms (2) 099 c2181a21 +top=u0a89:"com.tencent.mm"
+          +2m46s147ms (2) 099 c2181a21 -top=u0a89:"com.tencent.mm"
+          +2m46s147ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.contact"
+          +2m47s798ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.contact"
+          +2m47s799ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +2m48s476ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +2m48s476ms (3) 099 c2181a19 phone_signal_strength=good +top=1000:"com.android.settings"
+          +2m50s649ms (2) 099 c2181a19 -top=1000:"com.android.settings"
+          +2m50s650ms (2) 099 c2181a19 +top=u0a71:"com.android.browser"
+          +2m51s723ms (3) 099 c2181a21 phone_signal_strength=great -top=u0a71:"com.android.browser"
+          +2m51s832ms (2) 099 c2181a21 +top=1000:"com.android.settings"
+          +2m52s535ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+          +2m52s535ms (3) 099 c2181a20 brightness=dark +top=u0a20:"com.android.systemui"
+          +2m52s868ms (2) 099 c2181a21 brightness=dim
+          +2m52s908ms (2) 099 c2181a20 brightness=dark
+          +2m52s977ms (2) 099 c2181a21 brightness=dim
+          +2m52s982ms (2) 099 c2181a20 brightness=dark
+          +2m52s982ms (2) 099 c2181a21 brightness=dim
+          +2m53s052ms (2) 099 c2181a20 brightness=dark
+          +2m53s053ms (2) 099 c2181a21 brightness=dim
+          +2m53s079ms (3) 099 c2181a20 brightness=dark -top=u0a20:"com.android.systemui"
+          +2m53s088ms (3) 099 c2181a21 brightness=dim +top=1000:"com.android.settings"
+          +2m53s332ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+          +2m53s332ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +2m53s783ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +2m53s783ms (2) 099 c2181a21 +top=u0a89:"com.tencent.mm"
+          +2m54s907ms (2) 099 c2181a21 -top=u0a89:"com.tencent.mm"
+          +2m54s907ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.setting"
+          +2m56s276ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.setting"
+          +2m56s276ms (2) 099 c2181a21 +top=u0a81:"com.jx.market"
+          +2m57s442ms (2) 099 c2181a21 -top=u0a81:"com.jx.market"
+          +2m57s442ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.setting"
+          +2m58s107ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.setting"
+          +2m58s107ms (2) 099 c2181a21 +top=u0a20:"com.android.systemui"
+          +2m58s289ms (2) 099 c2181a21 -top=u0a20:"com.android.systemui"
+          +2m58s289ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.setting"
+          +2m58s537ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.setting"
+          +2m58s537ms (2) 099 c2181a21 +top=u0a90:"com.tencent.android.qqdownloader"
+          +3m00s633ms (2) 099 c2181a21 -top=u0a90:"com.tencent.android.qqdownloader"
+          +3m00s633ms (2) 099 c2181a21 +top=1000:"com.divo.phone"
+          +3m01s013ms (2) 099 c2181a21 -top=1000:"com.divo.phone"
+          +3m01s013ms (2) 099 c2181a21 +top=u0a90:"com.tencent.android.qqdownloader"
+          +3m01s993ms (2) 099 c2181a21 -top=u0a90:"com.tencent.android.qqdownloader"
+          +3m01s993ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +3m02s415ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +3m02s415ms (2) 099 c2181a21 +top=u0a80:"com.jx.inputmethod.pinyin"
+          +3m02s668ms (2) 099 c2181a21 -top=u0a80:"com.jx.inputmethod.pinyin"
+          +3m02s668ms (2) 099 c2181a21 +top=1000:"com.android.settings"
+          +3m03s437ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+          +3m03s437ms (2) 099 c2181a21 +top=u0a84:"com.ss.android.ugc.aweme"
+          +3m07s119ms (2) 099 c2181a21 -top=u0a84:"com.ss.android.ugc.aweme"
+          +3m07s119ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +3m10s439ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +3m10s439ms (2) 099 c2181a21 +top=1000:"com.jx.watchos.setting"
+          +3m10s830ms (2) 099 c2181a21 -top=1000:"com.jx.watchos.setting"
+          +3m10s830ms (2) 099 c2181a21 +top=1000:"com.android.settings"
+          +3m11s706ms (2) 099 c2181a21 -tmpwhitelist=1000:"keychain"
+          +3m12s032ms (2) 099 c2181a21 -top=1000:"com.android.settings"
+          +3m12s032ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +3m12s665ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +3m12s665ms (2) 099 c2181a21 +top=u0a82:"com.ztapp.themestore"
+          +3m13s101ms (2) 099 c2181a21 -top=u0a82:"com.ztapp.themestore"
+          +3m13s101ms (2) 099 c2181a21 +top=u0a22:"com.android.packageinstaller"
+          +3m13s531ms (2) 099 c2181a21 -top=u0a22:"com.android.packageinstaller"
+          +3m13s531ms (2) 099 c2181a21 +top=u0a71:"com.android.browser"
+          +3m14s783ms (2) 099 c2181a21 -top=u0a71:"com.android.browser"
+          +3m14s783ms (3) 099 c2181a24 brightness=bright +top=u0a87:"com.eg.android.AlipayGphone"
+          +3m15s975ms (2) 099 c2181a21 brightness=dim
+          +3m17s513ms (2) 099 c2181a21 -top=u0a87:"com.eg.android.AlipayGphone"
+          +3m17s514ms (2) 099 c2181a21 +top=1000:"com.jx.launcher"
+          +3m17s907ms (2) 099 c2181a21 -top=1000:"com.jx.launcher"
+          +3m17s907ms (2) 099 c2181a21 +top=u0a86:"com.zmapp.supercleanmaster"
+          +3m17s948ms (2) 099 c2181a21 stats=0:"dump"
+          +3m17s966ms (2) 099 c2181a21 -top=u0a86:"com.zmapp.supercleanmaster"
+          +3m17s966ms (2) 099 c2181a21 +top=u0a70:"com.android.calendar"
+
+Per-PID Stats:
+  PID 3369 wake time: +1m39s289ms
+  PID 3369 wake time: +112ms
+  PID 4156 wake time: +1s38ms
+  PID 3369 wake time: +3ms
+  PID 0 wake time: +27s643ms
+  PID 3369 wake time: +24ms
+  PID 3369 wake time: +96ms
+  PID 3369 wake time: +5ms
+  PID 3369 wake time: +5ms
+  PID 3369 wake time: +38ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +7ms
+  PID 3369 wake time: +19ms
+  PID 3369 wake time: +15ms
+  PID 3369 wake time: +2s356ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +33ms
+  PID 3369 wake time: +60ms
+  PID 3369 wake time: +14ms
+  PID 3369 wake time: +17ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +15ms
+  PID 3369 wake time: +671ms
+  PID 0 wake time: +530ms
+  PID 3369 wake time: +4s207ms
+  PID 3369 wake time: +6ms
+  PID 3369 wake time: +919ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +20ms
+  PID 3369 wake time: +4ms
+  PID 0 wake time: +1s406ms
+  PID 3369 wake time: +2s211ms
+  PID 3369 wake time: +5ms
+  PID 3369 wake time: +7ms
+  PID 3369 wake time: +8ms
+  PID 3369 wake time: +7ms
+  PID 3369 wake time: +4ms
+  PID 3369 wake time: +1ms
+  PID 3369 wake time: +6ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +8ms
+  PID 3369 wake time: +9ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +5ms
+  PID 3369 wake time: +4ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +6ms
+  PID 3369 wake time: +14ms
+  PID 3369 wake time: +5ms
+  PID 3369 wake time: +964ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +12ms
+  PID 3369 wake time: +6ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +2s92ms
+  PID 3369 wake time: +17ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +12ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +30ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +4ms
+  PID 3369 wake time: +5ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +3ms
+  PID 3369 wake time: +4ms
+  PID 3369 wake time: +1s606ms
+  PID 3369 wake time: +3s814ms
+  PID 11446 wake time: +2s124ms
+  PID 3369 wake time: +7ms
+  PID 0 wake time: +493ms
+  PID 3369 wake time: +1s208ms
+  PID 4156 wake time: +32ms
+  PID 3369 wake time: +13ms
+  PID 3369 wake time: +2ms
+  PID 3369 wake time: +15ms
+  PID 3369 wake time: +1s360ms
+  PID 3369 wake time: +124ms
+  PID 3369 wake time: +2s738ms
+  PID 3369 wake time: +1s35ms
+  PID 3369 wake time: +4s178ms
+  PID 3369 wake time: +1s426ms
+  PID 3369 wake time: +1s139ms
+  PID 3369 wake time: +13s151ms
+  PID 0 wake time: +2s89ms
+  PID 3369 wake time: +1s200ms
+  PID 3369 wake time: +96ms
+  PID 0 wake time: +10s817ms
+  PID 3369 wake time: +5s112ms
+  PID 3369 wake time: +11ms
+  PID 3369 wake time: +7s682ms
+  PID 9018 wake time: +5s639ms
+  PID 10409 wake time: +456ms
+  PID 3369 wake time: +2s112ms
+  PID 3369 wake time: +4s407ms
+
+Daily stats:
+  Current start time: 2023-05-18-12-32-54
+  Next min deadline: 2023-05-19-09-00-00
+  Next max deadline: 2023-05-19-11-00-00
+    Package changes:
+      Update com.tencent.android.qqdownloader vers=8412130
+      Update com.example.demo1 vers=1
+      Update com.example.demo1 vers=1
+      Update com.example.demo1 vers=1
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Estimated battery capacity: 900 mAh
+  Min learned battery capacity: 900 mAh
+  Max learned battery capacity: 900 mAh
+  Time on battery: 1s 443ms (0.7%) realtime, 1s 443ms (100.0%) uptime
+  Time on battery screen off: 0ms (0.0%) realtime, 0ms (0.0%) uptime
+  Time on battery screen doze: 0ms (0.0%)
+  Total run time: 3m 17s 982ms realtime, 3m 17s 982ms uptime
+  Discharge: 0 mAh
+  Screen off discharge: 0 mAh
+  Screen doze discharge: 0 mAh
+  Screen on discharge: 0 mAh
+  Start clock time: 2023-05-18-12-35-38
+  Screen on: 1s 443ms (100.0%) 0x, Interactive: 1s 443ms (100.0%)
+  Screen brightnesses:
+    dim 1s 443ms (100.0%)
+
+  CONNECTIVITY POWER SUMMARY START
+  Logging duration for connectivity statistics: 1s 443ms 
+  Cellular Statistics:
+     Cellular kernel active time: 1s 443ms (100.0%)
+     Cellular data received: 0B
+     Cellular data sent: 0B
+     Cellular packets received: 0
+     Cellular packets sent: 0
+     Cellular Radio Access Technology:
+       lte 1s 443ms (100.0%) 
+     Cellular Rx signal strength (RSRP):
+       good (-108dBm to -98dBm):  474ms (32.8%) 
+       great (greater than -98dBm):  969ms (67.2%) 
+     Cellular Sleep time:  1s 443ms (100.0%)
+     Cellular Idle time:   0ms (0.0%)
+     Cellular Rx time:     0ms (0.0%)
+     Cellular Tx time:     
+       less than 0dBm:  0ms (0.0%)
+       0dBm to 8dBm:  0ms (0.0%)
+       8dBm to 15dBm:  0ms (0.0%)
+       15dBm to 20dBm:  0ms (0.0%)
+       above 20dBm:  0ms (0.0%)
+  Wifi Statistics:
+     Wifi data received: 0B
+     Wifi data sent: 0B
+     Wifi packets received: 0
+     Wifi packets sent: 0
+     Wifi states: (no activity)
+     Wifi supplicant states: (no activity)
+     Wifi Rx signal strength (RSSI): (no activity)
+     WiFi Sleep time:  1s 443ms (100.0%)
+     WiFi Idle time:   0ms (0.0%)
+     WiFi Rx time:     0ms (0.0%)
+     WiFi Tx time:     0ms (0.0%)
+  CONNECTIVITY POWER SUMMARY END
+
+  Bluetooth total received: 0B, sent: 0B
+  Bluetooth scan time: 0ms 
+     Bluetooth Sleep time:  1s 443ms (100.0%)
+     Bluetooth Idle time:   0ms (0.0%)
+     Bluetooth Rx time:     0ms (0.0%)
+     Bluetooth Tx time:     0ms (0.0%)
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+    Amount discharged while screen doze: 0
+
+  Estimated power use (mAh):
+    Capacity: 1380, Computed drain: 0.175, actual drain: 0
+    Cell standby: 0.0891 ( radio=0.0891 ) Excluded from smearing
+    Screen: 0.0453 Excluded from smearing
+    Idle: 0.0162 Excluded from smearing
+    Uid 1000: 0.0120 ( cpu=0.0120 sensor=0.00000039 ) Excluded from smearing
+    Uid u0a88: 0.00519 ( cpu=0.00519 ) Including smearing: 0.0130 ( proportional=0.00781 )
+    Uid u0a90: 0.00297 ( cpu=0.00297 ) Including smearing: 0.00743 ( proportional=0.00446 )
+    Uid 0: 0.00260 ( cpu=0.00260 ) Excluded from smearing
+    Uid 1001: 0.000371 ( cpu=0.000371 ) Excluded from smearing
+    Uid 1036: 0.000371 ( cpu=0.000371 ) Excluded from smearing
+    Uid u0a20: 0.000371 ( cpu=0.000371 ) Excluded from smearing
+
+  0:
+    Total cpu time: u=30ms s=40ms 
+    (nothing executed)
+  1000:
+    User activity: 1 other, 1 touch
+    Wake lock ActivityManager-Sleep realtime
+    Wake lock *job*/com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService realtime
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Wake lock AlarmClock realtime
+    Wake lock *launch* realtime
+    Wake lock NetworkStats realtime
+    Wake lock launcher:myTag realtime
+    Wake lock WindowManager realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock SyncLoopWakeLock realtime
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Job com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService: 1s 443ms realtime (0 times)
+    Sensor 0: (not used)
+    Sensor 5: 1s 412ms realtime (1 times)
+    Foreground activities: 1s 422ms realtime (1 times)
+    Fg Service for: 1s 443ms 
+    Total running: 1s 443ms 
+    Total cpu time: u=260ms s=60ms 
+    Proc com.jx.launcher:
+      CPU: 0ms usr + 0ms krn ; 440ms fg
+    Apk com.android.deskclock:
+      (nothing executed)
+    Apk com.jx.launcher:
+      Service com.zmapp.aidldemo.WatchInfoService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.android.keychain:
+      (nothing executed)
+    Apk com.goodix.health:
+      Service com.goodix.health.service.GoodixHealthLocalService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk android:
+      (nothing executed)
+  1001:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Wake lock RILJ realtime
+    Fg Service for: 1s 443ms 
+    Total running: 1s 443ms 
+    Total cpu time: u=10ms s=0ms 
+  1002:
+    Wake lock *dexopt* realtime
+  1036:
+    Total cpu time: u=10ms s=0ms 
+    (nothing executed)
+  1041:
+    Wake lock AudioMixAudioOut_D realtime
+  2000:
+    Wake lock *dexopt* realtime
+  u0a2:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a3:
+    Wake lock *dexopt* realtime
+  u0a4:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+    Apk com.android.defcontainer:
+      (nothing executed)
+  u0a5:
+    Wake lock *dexopt* realtime
+  u0a6:
+    Wake lock *dexopt* realtime
+  u0a7:
+    Wake lock *dexopt* realtime
+  u0a8:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a9:
+    Wake lock *dexopt* realtime
+  u0a10:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a11:
+    Wake lock *dexopt* realtime
+  u0a13:
+    Wake lock *dexopt* realtime
+  u0a14:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a15:
+    Wake lock *dexopt* realtime
+  u0a16:
+    Wake lock *dexopt* realtime
+  u0a17:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a18:
+    Wake lock *dexopt* realtime
+  u0a19:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a20:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Wake lock AudioMixAudioOut_D realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+    Fg Service for: 1s 443ms 
+    Total running: 1s 443ms 
+    Total cpu time: u=10ms s=0ms 
+    Apk com.android.systemui:
+      (nothing executed)
+  u0a21:
+    Wake lock *dexopt* realtime
+  u0a22:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a23:
+    Wake lock *dexopt* realtime
+  u0a24:
+    Wake lock *dexopt* realtime
+  u0a25:
+    Wake lock *dexopt* realtime
+  u0a26:
+    Wake lock *dexopt* realtime
+    Wake lock AudioMixAudioOut_D realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 0: (not used)
+    Sensor 5: (not used)
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a27:
+    Wake lock *dexopt* realtime
+  u0a28:
+    Wake lock *dexopt* realtime
+  u0a29:
+    Wake lock *dexopt* realtime
+  u0a30:
+    Wake lock *dexopt* realtime
+  u0a31:
+    Wake lock *dexopt* realtime
+  u0a32:
+    Wake lock *dexopt* realtime
+  u0a33:
+    Wake lock *dexopt* realtime
+  u0a34:
+    Wake lock *dexopt* realtime
+  u0a35:
+    Wake lock *dexopt* realtime
+  u0a36:
+    Wake lock *dexopt* realtime
+  u0a38:
+    Wake lock *dexopt* realtime
+  u0a39:
+    Wake lock *dexopt* realtime
+  u0a40:
+    Wake lock *dexopt* realtime
+  u0a41:
+    Wake lock *dexopt* realtime
+  u0a42:
+    Wake lock *dexopt* realtime
+  u0a43:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a44:
+    Wake lock *dexopt* realtime
+  u0a45:
+    Wake lock *dexopt* realtime
+  u0a46:
+    Wake lock *dexopt* realtime
+  u0a47:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a48:
+    Wake lock *dexopt* realtime
+  u0a49:
+    Wake lock *dexopt* realtime
+  u0a50:
+    Wake lock *dexopt* realtime
+  u0a51:
+    Wake lock *dexopt* realtime
+  u0a52:
+    Wake lock *dexopt* realtime
+  u0a53:
+    Wake lock *dexopt* realtime
+  u0a54:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+    Apk com.android.music:
+      Service com.android.music.MediaPlaybackService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a55:
+    Wake lock *dexopt* realtime
+  u0a56:
+    Wake lock *dexopt* realtime
+  u0a57:
+    Wake lock *dexopt* realtime
+  u0a58:
+    Wake lock *dexopt* realtime
+  u0a59:
+    Wake lock *dexopt* realtime
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a60:
+    Wake lock *dexopt* realtime
+  u0a61:
+    Wake lock *dexopt* realtime
+  u0a62:
+    Wake lock *dexopt* realtime
+  u0a63:
+    Wake lock *dexopt* realtime
+  u0a64:
+    Wake lock *dexopt* realtime
+  u0a65:
+    Wake lock *dexopt* realtime
+  u0a66:
+    Wake lock *dexopt* realtime
+  u0a67:
+    Wake lock *dexopt* realtime
+  u0a68:
+    Wake lock *dexopt* realtime
+  u0a69:
+    Wake lock *dexopt* realtime
+    Foreground for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a70:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+    Apk com.android.calendar:
+      (nothing executed)
+  u0a71:
+    Wake lock Browser realtime
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a72:
+    Wake lock *dexopt* realtime
+  u0a73:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Wake lock AudioMixAudioOut_D realtime
+    Wake lock *launch* realtime
+    Wake lock RILJ realtime
+    Wake lock WindowManager realtime
+    Sensor 5: (not used)
+    Apk com.baidu.voicesearch:
+      (nothing executed)
+  u0a74:
+    Wake lock *dexopt* realtime
+  u0a75:
+    Wake lock *dexopt* realtime
+    Fg Service for: 1s 443ms 
+    Total running: 1s 443ms 
+  u0a76:
+    Wake lock *dexopt* realtime
+  u0a77:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 5: (not used)
+  u0a78:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+  u0a79:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+    Apk com.tencent.qqlite:
+      Service com.tencent.mobileqq.msf.service.MsfService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+  u0a80:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a81:
+    Wake lock *dexopt* realtime
+    Wake lock *vibrator* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 5: (not used)
+    Apk com.jx.market:
+      (nothing executed)
+  u0a82:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a83:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a84:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 5: (not used)
+    Apk com.ss.android.ugc.aweme:
+      Service com.ss.android.socialbase.downloader.downloader.DownloadService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+      Service com.ss.android.websocket.internal.WebSocketService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+      Service com.ss.android.socialbase.downloader.notification.DownloadNotificationService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+  u0a85:
+    Wake lock *dexopt* realtime
+    Wake lock WakeLockStatus.kt realtime
+    Wake lock AudioMixAudioOut_D realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+  u0a86:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+  u0a87:
+    Wake lock *dexopt* realtime
+    Wake lock AudioMixAudioOut_D realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 0: (not used)
+    Sensor 5: (not used)
+  u0a88:
+    Wake lock *dexopt* realtime
+    Background for: 1s 443ms 
+    Total running: 1s 443ms 
+    Total cpu time: u=130ms s=10ms 
+  u0a89:
+    Wake lock MicroMsg.MMAutoAuth realtime
+    Wake lock *dexopt* realtime
+    Wake lock PlatformComm realtime
+    Wake lock *launch* realtime
+    Sensor 5: (not used)
+    Apk com.tencent.mm:
+      (nothing executed)
+  u0a90:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 5: (not used)
+    Cached for: 1s 443ms 
+    Total running: 1s 443ms 
+    Total cpu time: u=80ms s=0ms 
+    Apk com.tencent.android.qqdownloader:
+      Service com.tencent.assistant.sdk.SDKSupportService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 0
+  u0a91:
+    Wake lock *dexopt* realtime
+
+--------- 0.065s was the duration of dumpsys batterystats, ending at: 2023-05-18 12:38:56

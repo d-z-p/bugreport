@@ -1,0 +1,2 @@
+default via 10.37.95.143 dev seth_lte0  proto static 
+10.37.95.143 dev seth_lte0  proto static  scope link 

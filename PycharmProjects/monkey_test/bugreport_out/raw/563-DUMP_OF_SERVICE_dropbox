@@ -1,0 +1,27 @@
+Unknown argument: -a
+Drop box contents: 11 entries
+Max entries: 1000
+
+2023-05-18 12:34:59 storage_trim (text, 31 bytes)
+    internal 11032301568 2628758498
+2023-05-18 12:34:59 storage_trim (text, 26 bytes)
+    unknown 134946816 55400923
+2023-05-18 12:34:59 storage_trim (text, 15 bytes)
+    unknown 0 11269
+2023-05-18 12:35:14 SYSTEM_RECOVERY_LOG (compressed text, 6708 bytes)
+    isPrevious: false/Build: SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19 ...
+2023-05-18 12:35:14 SYSTEM_BOOT (text, 316 bytes)
+    isPrevious: false/Build: SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19 ...
+2023-05-18 12:35:14 SYSTEM_RECOVERY_KMSG (compressed text, 13045 bytes)
+    isPrevious: false/Build: SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19 ...
+2023-05-18 12:36:10 data_app_wtf (text, 3167 bytes)
+    Process: com.tencent.mm/PID: 6212/Flags: 0x38b83e44/Package: com.tence ...
+2023-05-18 12:37:32 system_app_anr (compressed text, 20143 bytes)
+    Process: com.jx.launcher/PID: 4621/Flags: 0x38c8be45/Package: com.jx.l ...
+2023-05-18 12:37:48 data_app_wtf (text, 3168 bytes)
+    Process: com.tencent.mm/PID: 8807/Flags: 0x38b83e44/Package: com.tence ...
+2023-05-18 12:38:15 data_app_wtf (text, 3168 bytes)
+    Process: com.tencent.mm/PID: 9980/Flags: 0x38b83e44/Package: com.tence ...
+2023-05-18 12:38:33 data_app_wtf (text, 3169 bytes)
+    Process: com.tencent.mm/PID: 10701/Flags: 0x38b83e44/Package: com.tenc ...
+--------- 0.008s was the duration of dumpsys dropbox, ending at: 2023-05-18 12:38:57

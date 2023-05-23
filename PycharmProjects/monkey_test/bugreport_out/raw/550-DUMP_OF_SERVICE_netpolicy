@@ -1,0 +1,97 @@
+System ready: true
+Restrict background: false
+Restrict power: false
+Device idle: false
+Metered ifaces: {}
+
+Network policies:
+  NetworkPolicy{template=NetworkTemplate: matchRule=MOBILE_ALL, matchSubscriberIds=[null] cycleRule=RecurrenceRule{start=2018-01-01T00:00+08:00[Asia/Shanghai] end=null period=P1M} warningBytes=2147483648 limitBytes=-1 lastWarningSnooze=-1 lastLimitSnooze=-1 metered=true inferred=true}
+
+Subscription plans:
+
+Policy for UIDs:
+  UID=10009 policy=4 (ALLOW_METERED_BACKGROUND)
+Power save whitelist (except idle) app ids:
+  UID=1000: true
+  UID=1001: true
+  UID=2000: true
+  UID=10006: true
+  UID=10009: true
+  UID=10025: true
+  UID=10077: true
+Power save whitelist app ids:
+  UID=1000: true
+  UID=1001: true
+  UID=2000: true
+  UID=10006: true
+  UID=10009: true
+  UID=10025: true
+  UID=10077: true
+Default restrict background whitelist uids:
+  UID=10009
+Status for all known UIDs:
+  UID=10005 state=17 (bg) rules=0 (NONE)
+  UID=10009 state=11 (bg) rules=0 (NONE)
+  UID=10021 state=17 (bg) rules=0 (NONE)
+  UID=10022 state=0 (fg) rules=0 (NONE)
+  UID=10066 state=0 (fg) rules=0 (NONE)
+  UID=10068 state=11 (bg) rules=0 (NONE)
+  UID=10074 state=2 (fg) rules=0 (NONE)
+  UID=10076 state=11 (bg) rules=0 (NONE)
+  UID=10077 state=11 (bg) rules=0 (NONE)
+  UID=10078 state=7 (bg) rules=0 (NONE)
+  UID=10080 state=14 (bg) rules=0 (NONE)
+  UID=10081 state=11 (bg) rules=0 (NONE)
+Status for just UIDs with rules:
+Observed uid state changes:
+  UID=10068 Seq=0
+  UID=10022 Seq=0
+  UID=10074 Seq=0
+  UID=10080 Seq=0
+  UID=10080 Seq=0
+  UID=10074 Seq=0
+  UID=10022 Seq=0
+  UID=10077 Seq=0
+  UID=10068 Seq=0
+  UID=10074 Seq=0
+  UID=10065 Seq=0
+  UID=10077 Seq=0
+  UID=10022 Seq=0
+  UID=10068 Seq=0
+  UID=10077 Seq=0
+  UID=10077 Seq=0
+  UID=10022 Seq=0
+  UID=10068 Seq=0
+  UID=10080 Seq=0
+  UID=10077 Seq=0
+  UID=10077 Seq=0
+  UID=10080 Seq=0
+  UID=10078 Seq=0
+  UID=10022 Seq=0
+  UID=10078 Seq=0
+  UID=10078 Seq=0
+  UID=10078 Seq=0
+  UID=10080 Seq=0
+  UID=10078 Seq=0
+  UID=10072 Seq=0
+  UID=10078 Seq=0
+  UID=10072 Seq=0
+  UID=10080 Seq=0
+  UID=10022 Seq=0
+  UID=10022 Seq=0
+  UID=10080 Seq=0
+  UID=10080 Seq=0
+  UID=10022 Seq=0
+  UID=10081 Seq=0
+  UID=10022 Seq=0
+  UID=10076 Seq=0
+  UID=10080 Seq=0
+  UID=10022 Seq=0
+  UID=10076 Seq=0
+  UID=10022 Seq=0
+  UID=10081 Seq=0
+  UID=10081 Seq=0
+  UID=10022 Seq=0
+  UID=10081 Seq=0
+  UID=10022 Seq=0
+--------- 0.017s was the duration of dumpsys netpolicy, ending at: 2023-05-22 17:52:10

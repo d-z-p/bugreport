@@ -1,0 +1,27 @@
+Providers:
+  [0] provider ProviderId{user:0, app:10060, cmp:ComponentInfo{com.android.browser/com.android.browser.widget.BookmarkThumbnailWidgetProvider}}
+    min=(46081x28161)   minResize=(28161x10241) updatePeriodMillis=0 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f04000e initialKeyguardLayout=#0 zombie=false
+  [1] provider ProviderId{user:0, app:10061, cmp:ComponentInfo{com.android.calendar/com.android.calendar.widget.CalendarAppWidgetProvider}}
+    min=(46081x28161)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f04000d initialKeyguardLayout=#0 zombie=false
+  [2] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider}}
+    min=(28161x28161)   minResize=(14081x14081) updatePeriodMillis=0 resizeMode=3 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f0c0022 initialKeyguardLayout=#0 zombie=false
+  [3] provider ProviderId{user:0, app:1000, cmp:ComponentInfo{com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider}}
+    min=(64001x10241)   minResize=(35841x10241) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0c0034 initialKeyguardLayout=#0 zombie=false
+  [4] provider ProviderId{user:0, app:10020, cmp:ComponentInfo{com.android.gallery3d/com.android.gallery3d.gadget.PhotoAppWidgetProvider}}
+    min=(46081x46081)   minResize=(46081x46081) updatePeriodMillis=86400000 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f04002a initialKeyguardLayout=#0 zombie=false
+  [5] provider ProviderId{user:0, app:10050, cmp:ComponentInfo{com.android.messaging/com.android.messaging.widget.BugleWidgetProvider}}
+    min=(102401x71681)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0400b2 initialKeyguardLayout=#0 zombie=false
+  [6] provider ProviderId{user:0, app:10050, cmp:ComponentInfo{com.android.messaging/com.android.messaging.widget.WidgetConversationProvider}}
+    min=(46081x46081)   minResize=(28161x28161) updatePeriodMillis=0 resizeMode=3 widgetCategory=3 autoAdvanceViewId=-1 initialLayout=#7f0400b1 initialKeyguardLayout=#0 zombie=false
+  [7] provider ProviderId{user:0, app:10051, cmp:ComponentInfo{com.android.music/com.android.music.MediaAppWidgetProvider}}
+    min=(75265x18433)   minResize=(75265x18433) updatePeriodMillis=0 resizeMode=0 widgetCategory=1 autoAdvanceViewId=-1 initialLayout=#7f030000 initialKeyguardLayout=#0 zombie=false
+ 
+Widgets:
+ 
+Hosts:
+  [0] hostId=HostId{user:0, app:1000, hostId:1024, pkg:com.jx.launcher}
+    callbacks=com.android.internal.appwidget.IAppWidgetHost$Stub$Proxy@ee27ec1
+    widgets.size=0 zombie=false
+ 
+Grants:
+--------- 0.007s was the duration of dumpsys appwidget, ending at: 2023-05-22 17:52:06

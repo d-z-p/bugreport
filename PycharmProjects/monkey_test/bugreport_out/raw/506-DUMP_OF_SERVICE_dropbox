@@ -1,0 +1,7 @@
+Unknown argument: -a
+Drop box contents: 1 entries
+Max entries: 300
+
+2023-05-22 17:51:46 data_app_wtf (text, 3168 bytes)
+    Process: com.tencent.mm/PID: 2766/Flags: 0x38b83e44/Package: com.tence ...
+--------- 0.004s was the duration of dumpsys dropbox, ending at: 2023-05-22 17:52:09

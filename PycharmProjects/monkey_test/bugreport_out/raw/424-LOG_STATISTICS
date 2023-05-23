@@ -1,0 +1,119 @@
+size/num main               radio              events             system             crash              security           kernel             Total
+Total    12756884/108543    1297037/21863      407238/5287        2116232/15659      1784/2             0/0                0/0                16579175/151354
+Now      248938/2587        248130/4629        251334/3435        253072/1398        1784/2                                                   1003258/12051
+Logspan  23.626(4.9%)       3:41.714(95.8%)    2:37.037           3:50.849(1%)       4:52.618                                                 6:06.734
+Overhead 393810             507354             443694             331360             1896                                                     1698093
+
+Chattiest UIDs in main log buffer:                           Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+1000  system                                                70209  -60%    3465
+  PID/UID   COMMAND LINE                                       "             "
+ 3003/1000 .../bin/hw/vendor.sprd.hardware.power@2.0-service 9358          1062
+ 3011/1000  /system/bin/surfaceflinger                       8585           308
+ 2990/1000 ...ndroid.hardware.graphics.allocator@2.0-service 8540           454
+ 2991/1000 ...android.hardware.graphics.composer@2.1-service 5244           193
+ 3369/1000  system_server                                    4979           430
+ 2993/1000 /vendor/bin/hw/android.hardware.light@2.0-service 4854
+ 2994/1000 ...r/bin/hw/android.hardware.memtrack@1.0-service 4116             8
+ 4559/1000  com.sprd.applock                                 3810           111
+ 8668/1000  com.jx.launcher                                  3523           288
+ 2995/1000 ...or/bin/hw/android.hardware.sensors@1.0-service 3515            31
+10764/1000  com.jx.watchos.setting                           3459           508
+ 4340/1000  com.android.settings                             3413            72
+11082/1000  com.divo.phone                                   2019
+ 4883/1000  com.spreadtrum.vowifi                             855
+10020 com.android.systemui                                  27524  2.5X      11
+2000  shell                                                 24667  2.6X       5
+1041  audioserver                                           22694  +94%      74
+10090 com.tencent.android.qqdownloader                      15618  2.5X       4
+1058  tombstoned                                            12555  2.7X
+10084 com.ss.android.ugc.aweme                              12420  2.7X
+0     root                                                  11816  2.7X
+10089 com.tencent.mm                                        10064  2.6X
+10071 com.android.browser                                    8422  2.7X
+10081 com.jx.market                                          6699  2.6X
+10010 com.android.documentsui                                3649  2.8X
+10022 com.android.packageinstaller                           3389  2.6X
+10087 com.eg.android.AlipayGphone                            3058  3.0X
+10080 com.jx.inputmethod.pinyin                              2725  2.5X
+10082 com.ztapp.themestore                                   2481  3.0X
+1046  mediacodec                                             2272  3.0X
+1001  radio                                                  1324  5.0X
+1047  cameraserver                                           1135  4.0X
+1036  auditd                                                 1106  2.0X       4
+
+
+Chattiest UIDs in radio log buffer:                          Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+1001  radio                                                247026  0.3%   12296
+
+
+Chattiest UIDs in events log buffer:                         Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+1000  system                                               160613  +1.4%     11
+  PID/UID   COMMAND LINE                                       "             "
+ 3369/1000  system_server                                  136404             3
+ 4340/1000  com.android.settings                             9947
+ 8668/1000  com.jx.launcher                                  3018
+ 9033/1000  com.android.deskclock                            1928             7
+1013  media                                                 20278  -1.2%      9
+1040  mediaex                                               10457  +2.5%
+10089 com.tencent.mm                                         9668             4
+10020 com.android.systemui                                   9390  +2.7%
+10087 com.eg.android.AlipayGphone                            7139  -9.6%     12
+2000  shell                                                  3848
+1047  cameraserver                                           3292  +8.3%
+1046  mediacodec                                             2958
+10022 com.android.packageinstaller                           2564
+10090 com.tencent.android.qqdownloader                       2497  -39%      19
+10084 com.ss.android.ugc.aweme                               2137
+10054 com.android.music                                      2074
+
+
+Chattiest UIDs in system log buffer:                         Size   +/-  Pruned
+UID   PACKAGE                                               BYTES           NUM
+1000  system                                                96041  -51%    7798
+  PID/UID   COMMAND LINE                                       "             "
+ 3369/1000  system_server                                   10665          6576
+ 4621/1000  com.jx.launcher                                 10399           199
+ 4340/1000  com.android.settings                            10314           506
+10764/1000  com.jx.watchos.setting                          10086            78
+ 9764/1000  com.goodix.health                               10009            95
+ 8668/1000  com.jx.launcher                                  9929           151
+ 8117/1000  com.zmapp.album                                  6565            32
+ 8597/1000  com.sprd.bootres                                 6384            60
+ 9033/1000  com.android.deskclock                            3930            35
+ 6597/1000  com.jx.watchos.contact                           3636            28
+ 8762/1000  com.zmapp.sms                                    2997            19
+ 7600/1000  com.zmapp.camera                                 2707             8
+10465/1000  com.jx.watchos.contact                           2401             7
+ 5663/1000  com.divo.phone                                   1472
+ 6644/1000  com.jx.watchos.setting                           1195
+10084 com.ss.android.ugc.aweme                              29321  2.8X     223
+10079 com.tencent.qqlite                                    14581  3.0X     102
+10054 com.android.music                                     12879  2.9X      90
+10081 com.jx.market                                         12091  2.9X      91
+10026 com.android.gallery3d                                 10202  3.0X      71
+1001  radio                                                  9580  6.1X
+10010 com.android.documentsui                                9162  3.0X      64
+10089 com.tencent.mm                                         7503  2.9X      54
+10083 com.zmapp.chat                                         7479  2.9X      57
+10071 com.android.browser                                    6934  3.8X      32
+10080 com.jx.inputmethod.pinyin                              6633  3.2X      39
+10082 com.ztapp.themestore                                   5558  3.0X      38
+10077 com.zmapp.plugin.addfriend                             5332  3.5X      34
+10087 com.eg.android.AlipayGphone                            4914  3.8X      19
+10020 com.android.systemui                                   4299  2.6X      39
+10047 com.sprd.fileexplorer                                  3779  3.5X      19
+10022 com.android.packageinstaller                           1849  3.5X      14
+10070 com.android.calendar                                   1701  3.0X      14
+10090 com.tencent.android.qqdownloader                       1608  6.0X       4
+
+
+Chattiest UIDs in crash log buffer:                          Size
+UID   PACKAGE                                               BYTES
+1000  system                                                 1784
+  PID/UID   COMMAND LINE                                       "
+ 8529/1000  com.jx.launcher                                   892
+ 8506/1000  com.jx.launcher                                   892
+

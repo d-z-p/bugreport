@@ -1,0 +1,1327 @@
+LABEL                          USER           PID   TID  PPID     VSZ    RSS WCHAN            ADDR S PRI  NI RTPRIO SCH PCY CMD            
+u:r:init:s0                    root             1     1     0    9612   1456 0                   0 S  19   0      -   0  fg init
+u:r:kernel:s0                  root             2     2     0       0      0 0                   0 S  19   0      -   0  fg kthreadd
+u:r:kernel:s0                  root             3     3     2       0      0 0                   0 S  19   0      -   0  fg ksoftirqd/0
+u:r:kernel:s0                  root             5     5     2       0      0 0                   0 S  39 -20      -   0  fg kworker/0:0H
+u:r:kernel:s0                  root             6     6     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:0
+u:r:kernel:s0                  root             7     7     2       0      0 0                   0 S  19   0      -   0  fg rcu_preempt
+u:r:kernel:s0                  root             8     8     2       0      0 0                   0 S  19   0      -   0  fg rcu_sched
+u:r:kernel:s0                  root             9     9     2       0      0 0                   0 S  19   0      -   0  fg rcu_bh
+u:r:kernel:s0                  root            10    10     2       0      0 0                   0 S 139   0     99   1  fg migration/0
+u:r:kernel:s0                  root            11    11     2       0      0 0                   0 S 139   0     99   1  fg migration/1
+u:r:kernel:s0                  root            12    12     2       0      0 0                   0 S  19   0      -   0  fg ksoftirqd/1
+u:r:kernel:s0                  root            14    14     2       0      0 0                   0 S  39 -20      -   0  fg kworker/1:0H
+u:r:kernel:s0                  root            15    15     2       0      0 0                   0 S 139   0     99   1  fg migration/2
+u:r:kernel:s0                  root            16    16     2       0      0 0                   0 S  19   0      -   0  fg ksoftirqd/2
+u:r:kernel:s0                  root            18    18     2       0      0 0                   0 S  39 -20      -   0  fg kworker/2:0H
+u:r:kernel:s0                  root            19    19     2       0      0 0                   0 S 139   0     99   1  fg migration/3
+u:r:kernel:s0                  root            20    20     2       0      0 0                   0 S  19   0      -   0  fg ksoftirqd/3
+u:r:kernel:s0                  root            22    22     2       0      0 0                   0 S  39 -20      -   0  fg kworker/3:0H
+u:r:kernel:s0                  root            23    23     2       0      0 0                   0 S  19   0      -   0  fg kdevtmpfs
+u:r:kernel:s0                  root            24    24     2       0      0 0                   0 S  39 -20      -   0  fg suspend_sys_syn
+u:r:kernel:s0                  root            25    25     2       0      0 0                   0 S  39 -20      -   0  fg perf
+u:r:kernel:s0                  root            26    26     2       0      0 0                   0 S  90   0     50   1  fg irq/20-70500000
+u:r:kernel:s0                  root            27    27     2       0      0 0                   0 S  19   0      -   0  fg kworker/0:1
+u:r:kernel:s0                  root            28    28     2       0      0 0                   0 S  90   0     50   1  fg irq/21-70700000
+u:r:kernel:s0                  root            29    29     2       0      0 0                   0 S  90   0     50   1  fg irq/22-70800000
+u:r:kernel:s0                  root            30    30     2       0      0 0                   0 S  90   0     50   1  fg irq/23-70900000
+u:r:kernel:s0                  root            31    31     2       0      0 0                   0 S  39 -20      -   0  fg writeback
+u:r:kernel:s0                  root            32    32     2       0      0 0                   0 S  39 -20      -   0  fg crypto
+u:r:kernel:s0                  root            33    33     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root            34    34     2       0      0 0                   0 S  39 -20      -   0  fg kblockd
+u:r:kernel:s0                  root            35    35     2       0      0 0                   0 S  19   0      -   0  fg sprd_deep_print
+u:r:kernel:s0                  root            36    36     2       0      0 0                   0 S  19   0      -   0  fg spi0
+u:r:kernel:s0                  root            37    37     2       0      0 0                   0 S  19   0      -   0  fg spi1
+u:r:kernel:s0                  root            38    38     2       0      0 0                   0 S  19   0      -   0  fg spi5
+u:r:kernel:s0                  root            39    39     2       0      0 0                   0 S  19   0      -   0  fg system
+u:r:kernel:s0                  root            40    40     2       0      0 0                   0 S  19   0      -   0  fg carveout_fb
+u:r:kernel:s0                  root            41    41     2       0      0 0                   0 D  19   0      -   0  fg mbox-send-threa
+u:r:kernel:s0                  root            42    42     2       0      0 0                   0 S  39 -20      -   0  fg devfreq_wq
+u:r:kernel:s0                  root            43    43     2       0      0 0                   0 S  39 -20      -   0  fg cfg80211
+u:r:kernel:s0                  root            44    44     2       0      0 0                   0 S  90   0     50   1  fg irq/57-spi5.0
+u:r:kernel:s0                  root            45    45     2       0      0 0                   0 S  39 -20      -   0  fg sprdfgu_monitor
+u:r:kernel:s0                  root            46    46     2       0      0 0                   0 S 139   0     99   1  fg cfinteractive
+u:r:kernel:s0                  root            65    65     2       0      0 0                   0 S  19   0      -   0  fg kswapd0
+u:r:kernel:s0                  root            66    66     2       0      0 0                   0 S  39 -20      -   0  fg vmstat
+u:r:kernel:s0                  root            67    67     2       0      0 0                   0 S  19   0      -   0  fg fsnotify_mark
+u:r:kernel:s0                  root           100   100     2       0      0 0                   0 S  19   0      -   0  fg sprd-adf-dev
+u:r:kernel:s0                  root           101   101     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           102   102     2       0      0 0                   0 S  39 -20      -   0  fg saudio
+u:r:kernel:s0                  root           103   103     2       0      0 0                   0 S  19   0      -   0  fg saudio-5-10
+u:r:kernel:s0                  root           104   104     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-13
+u:r:kernel:s0                  root           105   105     2       0      0 0                   0 S  39 -20      -   0  fg saudio
+u:r:kernel:s0                  root           106   106     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-10
+u:r:kernel:s0                  root           107   107     2       0      0 0                   0 S  19   0      -   0  fg saudio-5-14
+u:r:kernel:s0                  root           108   108     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-11
+u:r:kernel:s0                  root           109   109     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-12
+u:r:kernel:s0                  root           110   110     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-17
+u:r:kernel:s0                  root           111   111     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-131
+u:r:kernel:s0                  root           112   112     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-14
+u:r:kernel:s0                  root           113   113     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-15
+u:r:kernel:s0                  root           114   114     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-16
+u:r:kernel:s0                  root           115   115     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-151
+u:r:kernel:s0                  root           116   116     2       0      0 0                   0 S  39 -20      -   0  fg uether
+u:r:kernel:s0                  root           117   117     2       0      0 0                   0 S  19   0      -   0  fg kworker/1:1
+u:r:kernel:s0                  root           119   119     2       0      0 0                   0 S  19   0      -   0  fg Betterlife_ts
+u:r:kernel:s0                  root           120   120     2       0      0 0                   0 S  19   0      -   0  fg kworker/2:1
+u:r:kernel:s0                  root           121   121     2       0      0 0                   0 S  19   0      -   0  fg kworker/3:1
+u:r:kernel:s0                  root           122   122     2       0      0 0                   0 S  19   0      -   0  fg watchdog_feeder
+u:r:kernel:s0                  root           123   123     2       0      0 0                   0 S  39 -20      -   0  fg dm_bufio_cache
+u:r:kernel:s0                  root           124   124     2       0      0 0                   0 S 139   0     99   1  fg sprdhotplug
+u:r:kernel:s0                  root           126   126     2       0      0 0                   0 S  90   0     50   1  fg irq/69-20300000
+u:r:kernel:s0                  root           127   127     2       0      0 0                   0 S 130   0     90   2  fg sbuf-6-5
+u:r:kernel:s0                  root           128   128     2       0      0 0                   0 S 130   0     90   2  fg sbuf-6-6
+u:r:kernel:s0                  root           129   129     2       0      0 0                   0 S 130   0     90   2  fg sbuf-5-4
+u:r:kernel:s0                  root           130   130     2       0      0 0                   0 S 130   0     90   2  fg sbuf-5-21
+u:r:kernel:s0                  root           131   131     2       0      0 0                   0 S 130   0     90   2  fg sbuf-5-6
+u:r:kernel:s0                  root           132   132     2       0      0 0                   0 S 130   0     90   2  fg sbuf-3-4
+u:r:kernel:s0                  root           133   133     2       0      0 0                   0 S 130   0     90   2  fg sbuf-4-4
+u:r:kernel:s0                  root           134   134     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-5
+u:r:kernel:s0                  root           135   135     2       0      0 0                   0 S 130   0     90   2  fg swcnblk-3-7
+u:r:kernel:s0                  root           136   136     2       0      0 0                   0 S 130   0     90   2  fg swcnblk-3-8
+u:r:kernel:s0                  root           137   137     2       0      0 0                   0 S 130   0     90   2  fg swcnblk-3-9
+u:r:kernel:s0                  root           138   138     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           139   139     2       0      0 0                   0 S  41   0      1   1  fg mmcqd/0
+u:r:kernel:s0                  root           140   140     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           141   141     2       0      0 0                   0 S  41   0      1   1  fg mmcqd/0boot0
+u:r:kernel:s0                  root           142   142     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           143   143     2       0      0 0                   0 S  41   0      1   1  fg mmcqd/0boot1
+u:r:kernel:s0                  root           144   144     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           145   145     2       0      0 0                   0 S  41   0      1   1  fg mmcqd/0rpmb
+u:r:kernel:s0                  root           147   147     2       0      0 0                   0 S  39 -20      -   0  fg binder
+u:r:kernel:s0                  root           148   148     2       0      0 0                   0 S  39 -20      -   0  fg ipv6_addrconf
+u:r:kernel:s0                  root           149   149     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-2
+u:r:kernel:s0                  root           150   150     2       0      0 0                   0 S  39 -20      -   0  fg imsbr-data[5-2]
+u:r:kernel:s0                  root           151   151     2       0      0 0                   0 S 130   0     90   2  fg sblock-5-3
+u:r:kernel:s0                  root           152   152     2       0      0 0                   0 S  39 -20      -   0  fg imsbr-ctrl[5-3]
+u:r:kernel:s0                  root           161   161     2       0      0 0                   0 S  39 -20      -   0  fg deferwq
+u:r:kernel:s0                  root           162   162     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-7
+u:r:kernel:s0                  root           163   163     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-8
+u:r:kernel:s0                  root           164   164     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-9
+u:r:kernel:s0                  root           165   165     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-18
+u:r:kernel:s0                  root           166   166     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-19
+u:r:kernel:s0                  root           167   167     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-20
+u:r:kernel:s0                  root           168   168     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-24
+u:r:kernel:s0                  root           169   169     2       0      0 0                   0 S 130   0     90   2  fg sipx-5-25
+u:r:kernel:s0                  root           170   170     2       0      0 0                   0 S 130   0     90   2  fg sbuf-3-5
+u:r:kernel:s0                  root           171   171     2       0      0 0                   0 S 130   0     90   2  fg sbuf-3-11
+u:r:kernel:s0                  root           172   172     2       0      0 0                   0 S 130   0     90   2  fg sbuf-3-12
+u:r:kernel:s0                  root           173   173     2       0      0 0                   0 S  39 -20      -   0  fg sprdbat_monitor
+u:r:kernel:s0                  root           175   175     2       0      0 0                   0 S  19   0      -   0  fg kworker/1:4
+u:r:kernel:s0                  root           177   177     2       0      0 0                   0 S  39 -20      -   0  fg headset_button
+u:r:kernel:s0                  root           178   178     2       0      0 0                   0 S  39 -20      -   0  fg headset_detect_
+u:r:kernel:s0                  root           179   179     2       0      0 0                   0 S  39 -20      -   0  fg headset_reg_dum
+u:r:kernel:s0                  root           180   180     2       0      0 0                   0 S  39 -20      -   0  fg kworker/3:1H
+u:r:kernel:s0                  root           182   182     2       0      0 0                   0 S  39 -20      -   0  fg kdmflush
+u:r:kernel:s0                  root           183   183     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           184   184     2       0      0 0                   0 S  39 -20      -   0  fg kverityd
+u:r:kernel:s0                  root           185   185     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           186   186     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           187   187     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           188   188     2       0      0 0                   0 S  19   0      -   0  fg jbd2/dm-0-8
+u:r:kernel:s0                  root           189   189     2       0      0 0                   0 S  39 -20      -   0  fg ext4-rsv-conver
+u:r:kernel:s0                  root           191   191     2       0      0 0                   0 S  39 -20      -   0  fg kdmflush
+u:r:kernel:s0                  root           192   192     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           193   193     2       0      0 0                   0 S  39 -20      -   0  fg kverityd
+u:r:kernel:s0                  root           194   194     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           195   195     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           196   196     2       0      0 0                   0 S  39 -20      -   0  fg bioset
+u:r:kernel:s0                  root           197   197     2       0      0 0                   0 S  19   0      -   0  fg jbd2/dm-1-8
+u:r:kernel:s0                  root           198   198     2       0      0 0                   0 S  39 -20      -   0  fg ext4-rsv-conver
+u:r:ueventd:s0                 root           199   199     1    2956   1160 0                   0 S  19   0      -   0  fg ueventd
+u:r:kernel:s0                  root           204   204     2       0      0 0                   0 S  39 -20      -   0  fg f_mtp
+u:r:kernel:s0                  root           205   205     2       0      0 0                   0 S  39 -20      -   0  fg VserTestWq
+u:r:kernel:s0                  root           211   211     2       0      0 0                   0 S  39 -20      -   0  fg kworker/0:1H
+u:r:kernel:s0                  root           212   212     2       0      0 0                   0 S  19   0      -   0  fg f2fs_flush-259:
+u:r:kernel:s0                  root           213   213     2       0      0 0                   0 S  19   0      -   0  fg f2fs_discard-25
+u:r:kernel:s0                  root           214   214     2       0      0 0                   0 S  19   0      -   0  fg f2fs_gc-259:17
+u:r:kernel:s0                  root           219   219     2       0      0 0                   0 S  19   0      -   0  fg jbd2/mmcblk0p29
+u:r:kernel:s0                  root           220   220     2       0      0 0                   0 S  39 -20      -   0  fg ext4-rsv-conver
+u:r:kernel:s0                  root           222   222     2       0      0 0                   0 S  19   0      -   0  fg jbd2/mmcblk0p1-
+u:r:kernel:s0                  root           223   223     2       0      0 0                   0 S  39 -20      -   0  fg ext4-rsv-conver
+u:r:logd:s0                    logd           224   224     1   13564   3216 0                   0 S   9  10      -   3     logd
+u:r:logd:s0                    logd           224   230     1   13564   3216 0                   0 S   9  10      -   3     logd.daemon
+u:r:logd:s0                    logd           224   231     1   13564   3216 0                   0 S  19   0      -   0     YlogSenderNew
+u:r:logd:s0                    logd           224   233     1   13564   3216 0                   0 S   9  10      -   3     logd
+u:r:logd:s0                    logd           224   234     1   13564   3216 0                   0 R   9  10      -   3     logd.writer
+u:r:logd:s0                    logd           224   235     1   13564   3216 0                   0 S   9  10      -   3     logd.control
+u:r:logd:s0                    logd           224   241     1   13564   3216 0                   0 S   9  10      -   3     logd.auditd
+u:r:servicemanager:s0          system         225   225     1    5536   1584 0                   0 S  19   0      -   0     servicemanager
+u:r:hwservicemanager:s0        system         226   226     1    8676   2932 0                   0 S  19   0      -   0     hwservicemanage
+u:r:vndservicemanager:s0       system         227   227     1    5360    876 0                   0 S  19   0      -   0     vndservicemanag
+u:r:kernel:s0                  root           228   228     2       0      0 0                   0 S  39 -20      -   0  fg gpu_dfs
+u:r:kernel:s0                  root           232   232     2       0      0 0                   0 S  39 -20      -   0  fg kbase_job_fault
+u:r:kernel:s0                  root           236   236     2       0      0 0                   0 S  19   0      -   0  fg kauditd
+u:r:hal_keymaster_default:s0   system         237   237     1    8304   1040 0                   0 S  19   0      -   0  fg keymaster@3.0-s
+u:r:vold:s0                    root           239   239     1   16348   2912 0                   0 S  19   0      -   0  fg vold
+u:r:vold:s0                    root           239   243     1   16348   2912 0                   0 S  19   0      -   0  fg vold
+u:r:vold:s0                    root           239   244     1   16348   2912 0                   0 S  19   0      -   0  fg vold
+u:r:vold:s0                    root           239   245     1   16348   2912 0                   0 S  19   0      -   0  fg vold
+u:r:kernel:s0                  root           240   240     2       0      0 0                   0 S  39 -20      -   0  fg kworker/u9:1
+u:r:netd:s0                    root           249   249     1   27212   3148 0                   0 S  19   0      -   0  fg Binder:249_2
+u:r:netd:s0                    root           249   305     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   306     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   307     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   308     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   309     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   310     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   311     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   312     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   313     1   27212   3148 0                   0 S  19   0      -   0  fg netd
+u:r:netd:s0                    root           249   317     1   27212   3148 0                   0 S  19   0      -   0  fg Binder:249_1
+u:r:netd:s0                    root           249   318     1   27212   3148 0                   0 S  19   0      -   0  fg Binder:249_2
+u:r:netd:s0                    root           249   319     1   27212   3148 0                   0 S  19   0      -   0  fg HwBinder:249_1
+u:r:zygote:s0                  root           250   250     1 1038484  47176 0                   0 S  19   0      -   0  fg main
+u:r:zygote:s0                  root           250  3073     1 1038484  47176 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:zygote:s0                  root           250  3074     1 1038484  47176 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:zygote:s0                  root           250  3075     1 1038484  47176 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:zygote:s0                  root           250  3076     1 1038484  47176 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:hal_allocator_default:s0   system         253   253     1    7104   2112 0                   0 S  19   0      -   0  fg allocator@1.0-s
+u:r:hal_audio_default:s0       audioserver    254   254     1   29092   2140 0                   0 S  19   0      -   0  fg audio@2.0-servi
+u:r:hal_audio_default:s0       audioserver    254   452     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   522     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   523     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   524     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   525     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   526     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   527     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   528     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   529     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_1
+u:r:hal_audio_default:s0       audioserver    254   530     1   29092   2140 0                   0 S  19   0      -   0  fg Audio Misc Ctrl
+u:r:hal_audio_default:s0       audioserver    254   532     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_2
+u:r:hal_audio_default:s0       audioserver    254   602     1   29092   2140 0                   0 S  38 -19      -   0  fg writer
+u:r:hal_audio_default:s0       audioserver    254  2718     1   29092   2140 0                   0 S  19   0      -   0  fg HwBinder:254_3
+u:r:hal_bluetooth_default:s0   bluetooth      255   255     1    8380   1332 0                   0 S  19   0      -   0  fg bluetooth@1.0-s
+u:r:hal_bluetooth_default:s0   bluetooth      255  2726     1    8380   1332 0                   0 S  19   0      -   0  fg HwBinder:255_1
+u:r:hal_camera_default:s0      cameraserver   256   256     1   38232   1784 0                   0 S  19   0      -   0  fg provider@2.4-se
+u:r:hal_camera_default:s0      cameraserver   256   448     1   38232   1784 0                   0 S  19   0      -   0  fg HwBinder:256_1
+u:r:hal_camera_default:s0      cameraserver   256   451     1   38232   1784 0                   0 S  19   0      -   0  fg HwBinder:256_2
+u:r:hal_camera_default:s0      cameraserver   256   458     1   38232   1784 0                   0 S  19   0      -   0  fg HwBinder:256_3
+u:r:hal_cas_default:s0         media          257   257     1   12112   1436 0                   0 S  19   0      -   0  fg cas@1.0-service
+u:r:hal_configstore_default:s0 system         258   258     1    9336   1304 0                   0 S  19   0      -   0  fg configstore@1.0
+u:r:hal_configstore_default:s0 system         258   395     1    9336   1304 0                   0 S  19   0      -   0  fg HwBinder:258_1
+u:r:hal_configstore_default:s0 system         258  2393     1    9336   1304 0                   0 S  19   0      -   0  fg HwBinder:258_2
+u:r:hal_drm_default:s0         media          259   259     1   13592   1436 0                   0 S  19   0      -   0  fg drm@1.0-service
+u:r:hal_dumpstate_default:s0   system         260   260     1    7108   1028 0                   0 S  19   0      -   0  fg dumpstate@1.0-s
+u:r:hal_gatekeeper_default:s0  system         261   261     1    7216   1132 0                   0 S  19   0      -   0  fg gatekeeper@1.0-
+u:r:hal_graphics_allocator_default:s0 system  262   262     1   10068   1636 0                   0 S  19   0      -   0  fg allocator@2.0-s
+u:r:hal_graphics_allocator_default:s0 system  262   423     1   10068   1636 0                   0 S  19   0      -   0  fg HwBinder:262_1
+u:r:hal_graphics_allocator_default:s0 system  262   424     1   10068   1636 0                   0 S  19   0      -   0  fg HwBinder:262_2
+u:r:hal_graphics_composer_default:s0 system   263   263     1   66204   4844 0                   0 S  41  -8      1   1  fg composer@2.1-se
+u:r:hal_graphics_composer_default:s0 system   263   292     1   66204   4844 0                   0 S  19   0      -   0  fg Binder:263_1
+u:r:hal_graphics_composer_default:s0 system   263   293     1   66204   4844 0                   0 S  19   0      -   0  fg Binder:263_2
+u:r:hal_graphics_composer_default:s0 system   263   298     1   66204   4844 0                   0 S  27  -8      -   0  fg android.hardwar
+u:r:hal_graphics_composer_default:s0 system   263   299     1   66204   4844 0                   0 S  28  -9      -   0  fg SprdWIDIBlit
+u:r:hal_graphics_composer_default:s0 system   263   338     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-mem-purge
+u:r:hal_graphics_composer_default:s0 system   263   339     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-utility-wo
+u:r:hal_graphics_composer_default:s0 system   263   340     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-utility-wo
+u:r:hal_graphics_composer_default:s0 system   263   341     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-utility-wo
+u:r:hal_graphics_composer_default:s0 system   263   342     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-utility-wo
+u:r:hal_graphics_composer_default:s0 system   263   343     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-cmar-backe
+u:r:hal_graphics_composer_default:s0 system   263   344     1   66204   4844 0                   0 S  28  -9      -   0  fg mali-hist-dump
+u:r:hal_graphics_composer_default:s0 system   263   417     1   66204   4844 0                   0 S  42   0      2   1  fg HwBinder:263_1
+u:r:hal_graphics_composer_default:s0 system   263   418     1   66204   4844 0                   0 S  19   0      -   0  fg composer@2.1-se
+u:r:hal_graphics_composer_default:s0 system   263   419     1   66204   4844 0                   0 S  28  -9      -   0  fg OverlayComposer
+u:r:hal_graphics_composer_default:s0 system   263   420     1   66204   4844 0                   0 S  42  -8      2   1  fg HwBinder:263_2
+u:r:hal_graphics_composer_default:s0 system   263  2732     1   66204   4844 0                   0 S  42  -8      2   1  fg HwBinder:263_3
+u:r:hal_health_default:s0      system         264   264     1    7124   1224 0                   0 S  19   0      -   0  fg health@1.0-serv
+u:r:hal_light_default:s0       system         265   265     1    7160   1340 0                   0 S  19   0      -   0  fg light@2.0-servi
+u:r:hal_memtrack_default:s0    system         266   266     1    7152   1284 0                   0 S  19   0      -   0  fg memtrack@1.0-se
+u:r:hal_sensors_default:s0     system         267   267     1    8444   1624 0                   0 S  19   0      -   0  fg sensors@1.0-ser
+u:r:hal_sensors_default:s0     system         267   726     1    8444   1624 0                   0 S  50   0     10   1  fg HwBinder:267_1
+u:r:hal_usb_default:s0         system         268   268     1    8448   1268 0                   0 S  19   0      -   0  fg usb@1.1-service
+u:r:hal_usb_default:s0         system         268   879     1    8448   1268 0                   0 S  19   0      -   0  fg usb@1.1-service
+u:r:hal_vibrator_default:s0    system         269   269     1    7156   1192 0                   0 S  19   0      -   0  fg vibrator@1.0-se
+u:r:hal_wifi_default:s0        root           271   271     1    9852   2380 0                   0 S  19   0      -   0  fg android.hardwar
+u:r:hal_wifi_default:s0        root           271  2062     1    9852   2380 0                   0 S  19   0      -   0  fg android.hardwar
+u:r:hal_connmgr_default:s0     system         272   272     1    7284   1192 0                   0 S  19   0      -   0  fg connmgr@1.0-ser
+u:r:hal_face_default:s0        system         273   273     1   12476   1164 0                   0 S  19   0      -   0  fg face@1.0-servic
+u:r:hal_ifaa_default:s0        system         274   274     1    7296   1196 0                   0 S  19   0      -   0  fg ifaa@1.0-servic
+u:r:hal_log_default:s0         system         275   275     1    8332   1172 0                   0 S  19   0      -   0  fg log@1.0-service
+u:r:hal_log_default:s0         system         275   316     1    8332   1172 0                   0 S  19   0      -   0  fg vendor.sprd.har
+u:r:hal_power_default:s0       system         276   276     1   17424   1764 0                   0 S  19   0      -   0  fg power@2.0-servi
+u:r:hal_power_default:s0       system         276   381     1   17424   1764 0                   0 S  15   4      -   0  fg power_hint
+u:r:hal_power_default:s0       system         276   640     1   17424   1764 0                   0 S  19   0      -   0  fg HwBinder:276_1
+u:r:hal_power_default:s0       system         276  1736     1   17424   1764 0                   0 S  19   0      -   0  fg HwBinder:276_2
+u:r:hal_power_default:s0       system         276  2097     1   17424   1764 0                   0 S  19   0      -   0  fg HwBinder:276_3
+u:r:hal_power_default:s0       system         276  2439     1   17424   1764 0                   0 S  19   0      -   0  fg HwBinder:276_4
+u:r:hal_thermal_ext:s0         system         277   277     1    7396   1204 0                   0 S  19   0      -   0  fg thermal@1.0-ser
+u:r:healthd:s0                 root           278   278     1   11544   2564 0                   0 S  19   0      -   0  fg healthd
+u:r:gpsd:s0                    system         279   279     1    6568    888 0                   0 S  19   0      -   0  fg gpsd
+u:r:gpsd:s0                    system         279   295     1    6568    888 0                   0 S  19   0      -   0  fg gpsd
+u:r:gpsd:s0                    system         279   296     1    6568    888 0                   0 S  19   0      -   0  fg gpsd
+u:r:engpc:s0                   root           280   280     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:engpc:s0                   root           280   482     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:engpc:s0                   root           280   483     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:engpc:s0                   root           280   484     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:engpc:s0                   root           280   486     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:engpc:s0                   root           280   560     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:engpc:s0                   root           280   561     1   29572   2052 0                   0 S  39 -20      -   0  fg engpc
+u:r:lmkd:s0                    root           281   281     1    6028   2768 0                   0 S  41   0      1   1     lmkd
+u:r:lmkd:s0                    root           281   297     1    6028   2768 0                   0 S  41   0      1   1     lmkd
+u:r:performancemanager:s0      root           282   282     1   12060   2084 0                   0 S  19   0      -   0  fg performancemana
+u:r:performancemanager:s0      root           282   379     1   12060   2084 0                   0 S  19   0      -   0  fg Binder:282_1
+u:r:performancemanager:s0      root           282   382     1   12060   2084 0                   0 S  19   0      -   0  fg Binder:282_2
+u:r:surfaceflinger:s0          system         283   283     1   80336  10868 0                   0 S  41 -20      1   1     surfaceflinger
+u:r:surfaceflinger:s0          system         283   396     1   80336  10868 0                   0 S  19   0      -   0  fg HwBinder:283_1
+u:r:surfaceflinger:s0          system         283   397     1   80336  10868 0                   0 R  19   0      -   0  fg Binder:283_1
+u:r:surfaceflinger:s0          system         283   398     1   80336  10868 0                   0 S  42  -9      2   1  fg DispSync
+u:r:surfaceflinger:s0          system         283   400     1   80336  10868 0                   0 S  19   0      -   0  fg Binder:283_2
+u:r:surfaceflinger:s0          system         283   405     1   80336  10868 0                   0 S  27  -8      -   0     mali-mem-purge
+u:r:surfaceflinger:s0          system         283   406     1   80336  10868 0                   0 S  27  -8      -   0     mali-utility-wo
+u:r:surfaceflinger:s0          system         283   407     1   80336  10868 0                   0 S  27  -8      -   0     mali-utility-wo
+u:r:surfaceflinger:s0          system         283   408     1   80336  10868 0                   0 S  27  -8      -   0     mali-utility-wo
+u:r:surfaceflinger:s0          system         283   409     1   80336  10868 0                   0 S  27  -8      -   0     mali-utility-wo
+u:r:surfaceflinger:s0          system         283   410     1   80336  10868 0                   0 S  27  -8      -   0     mali-cmar-backe
+u:r:surfaceflinger:s0          system         283   411     1   80336  10868 0                   0 S  27  -8      -   0     mali-hist-dump
+u:r:surfaceflinger:s0          system         283   412     1   80336  10868 0                   0 S  27  -8      -   0     POSIX timer 0
+u:r:surfaceflinger:s0          system         283   413     1   80336  10868 0                   0 S  42  -9      2   1     EventThread
+u:r:surfaceflinger:s0          system         283   414     1   80336  10868 0                   0 S  27  -8      -   0     POSIX timer 1
+u:r:surfaceflinger:s0          system         283   415     1   80336  10868 0                   0 S  42  -9      2   1     EventThread
+u:r:surfaceflinger:s0          system         283   422     1   80336  10868 0                   0 S  27  -8      -   0     surfaceflinger
+u:r:surfaceflinger:s0          system         283   429     1   80336  10868 0                   0 S  27  -8      -   0     EventControl
+u:r:surfaceflinger:s0          system         283   599     1   80336  10868 0                   0 S  19   0      -   0  fg Binder:283_3
+u:r:surfaceflinger:s0          system         283  1128     1   80336  10868 0                   0 S  19   0      -   0  fg Binder:283_4
+u:r:surfaceflinger:s0          system         283  1732     1   80336  10868 0                   0 S  19   0      -   0  fg Binder:283_5
+u:r:thermalserviced:s0         root           284   284     1   13820   2344 0                   0 S  19   0      -   0  fg thermalserviced
+u:r:thermalserviced:s0         root           284   320     1   13820   2344 0                   0 S  19   0      -   0  fg HwBinder:284_1
+u:r:thermalserviced:s0         root           284   330     1   13820   2344 0                   0 S  19   0      -   0  fg HwBinder:284_2
+u:r:gnss_download:s0           system         285   285     1    6604    860 0                   0 S  19   0      -   0  fg gnss_download
+u:r:gnss_download:s0           system         285   302     1    6604    860 0                   0 S  19   0      -   0  fg gnss_download
+u:r:gnss_download:s0           system         285   303     1    6604    860 0                   0 S  19   0      -   0  fg gnss_download
+u:r:modem_control:s0           system         286   286     1    9816    852 0                   0 S  19   0      -   0  fg modem_control
+u:r:modem_control:s0           system         286   322     1    9816    852 0                   0 S  19   0      -   0  fg modem_control
+u:r:modem_control:s0           system         286   323     1    9816    852 0                   0 S  19   0      -   0  fg modem_control
+u:r:modem_control:s0           system         286   324     1    9816    852 0                   0 S  19   0      -   0  fg modem_control
+u:r:rild:s0                    system         287   287     1    7752    808 0                   0 S  19   0      -   0  fg modemd
+u:r:rild:s0                    system         287   300     1    7752    808 0                   0 S  19   0      -   0  fg modemd
+u:r:rild:s0                    system         287   301     1    7752    808 0                   0 S  19   0      -   0  fg modemd
+u:r:rild:s0                    system         287   304     1    7752    808 0                   0 S  19   0      -   0  fg modemd
+u:r:netd:s0                    root           288   288   249    4804   1272 0                   0 S  19   0      -   0  fg iptables-restor
+u:r:netd:s0                    root           289   289   249    4812   1236 0                   0 S  19   0      -   0  fg ip6tables-resto
+u:r:tee:s0                     system         290   290     1    4480    832 0                   0 S  19   0      -   0  fg sprdstorageprox
+u:r:tee:s0                     system         291   291     1    5252   1048 0                   0 S  19   0      -   0  fg tsupplicant
+u:r:kernel:s0                  root           294   294     2       0      0 0                   0 S  39 -20      -   0  fg kworker/1:1H
+u:r:kernel:s0                  root           315   315     2       0      0 0                   0 S  19   0      -   0  fg kworker/3:2
+u:r:srtd:s0                    root           326   326     1    4972   1348 0                   0 S  19   0      -   0  fg srtd
+u:r:audioserver:s0             audioserver    327   327     1   34376   5188 0                   0 S  19   0      -   0  fg audioserver
+u:r:audioserver:s0             audioserver    327   453     1   34376   5188 0                   0 S  19   0      -   0  fg HwBinder:327_1
+u:r:audioserver:s0             audioserver    327   455     1   34376   5188 0                   0 S  35 -16      -   0  fg ApmTone
+u:r:audioserver:s0             audioserver    327   456     1   34376   5188 0                   0 S  35 -16      -   0  fg ApmAudio
+u:r:audioserver:s0             audioserver    327   457     1   34376   5188 0                   0 S  35 -16      -   0  fg ApmOutput
+u:r:audioserver:s0             audioserver    327   468     1   34376   5188 0                   0 S  19   0      -   0  fg Binder:327_1
+u:r:audioserver:s0             audioserver    327   472     1   34376   5188 0                   0 S  19   0      -   0  fg Binder:327_2
+u:r:audioserver:s0             audioserver    327   545     1   34376   5188 0                   0 S  38 -19      -   0  fg AudioOut_D
+u:r:audioserver:s0             audioserver    327  1153     1   34376   5188 0                   0 S  19   0      -   0  fg Binder:327_3
+u:r:audioserver:s0             audioserver    327  2028     1   34376   5188 0                   0 S  19   0      -   0  fg Binder:327_4
+u:r:cameraserver:s0            cameraserver   328   328     1   24644   4364 0                   0 S  19   0      -   0  fg cameraserver
+u:r:cameraserver:s0            cameraserver   328   447     1   24644   4364 0                   0 S  19   0      -   0  fg HwBinder:328_1
+u:r:cameraserver:s0            cameraserver   328   449     1   24644   4364 0                   0 S  19   0      -   0  fg HwBinder:328_2
+u:r:cameraserver:s0            cameraserver   328   459     1   24644   4364 0                   0 S  19   0      -   0  fg Binder:328_1
+u:r:cameraserver:s0            cameraserver   328   460     1   24644   4364 0                   0 S  19   0      -   0  fg HwBinder:328_3
+u:r:cameraserver:s0            cameraserver   328  2744     1   24644   4364 0                   0 S  19   0      -   0  fg Binder:328_2
+u:r:drmserver:s0               drm            329   329     1   41384   5764 0                   0 S  19   0      -   0  fg drmserver
+u:r:drmserver:s0               drm            329   567     1   41384   5764 0                   0 S  19   0      -   0  fg Binder:329_1
+u:r:drmserver:s0               drm            329   993     1   41384   5764 0                   0 S  19   0      -   0  fg Binder:329_2
+u:r:drmserver:s0               drm            329   994     1   41384   5764 0                   0 S  19   0      -   0  fg Binder:329_3
+u:r:ims_bridged:s0             root           331   331     1    4644   1404 0                   0 S  19   0      -   0  fg ims_bridged
+u:r:kernel:s0                  root           332   332     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:installd:s0                root           333   333     1   16644   2644 0                   0 S  19   0      -   0  fg Binder:333_2
+u:r:installd:s0                root           333   383     1   16644   2644 0                   0 S  19   0      -   0  fg Binder:333_1
+u:r:installd:s0                root           333   720     1   16644   2644 0                   0 S  19   0      -   0  fg Binder:333_3
+u:r:installd:s0                root           333   722     1   16644   2644 0                   0 S  19   0      -   0  fg Binder:333_4
+u:r:installd:s0                root           333   781     1   16644   2644 0                   0 S  19   0      -   0  fg Binder:333_5
+u:r:installd:s0                root           333  1174     1   16644   2644 0                   0 S  19   0      -   0  fg Binder:333_6
+u:r:netbox:s0                  root           334   334     1    4408   1084 0                   0 S  19   0      -   0  fg ip_monitor.sh
+u:r:keystore:s0                keystore       335   335     1   14496   2708 0                   0 S  19   0      -   0  fg keystore
+u:r:keystore:s0                keystore       335   402     1   14496   2708 0                   0 S  19   0      -   0  fg HwBinder:335_1
+u:r:log_service:s0             root           336   336     1    6904   1752 0                   0 S  19   0      -   0  fg log_service
+u:r:mediadrmserver:s0          media          337   337     1   15424   2752 0                   0 S  19   0      -   0  fg mediadrmserver
+u:r:mediadrmserver:s0          media          337   427     1   15424   2752 0                   0 S  19   0      -   0  fg Binder:337_1
+u:r:mediadrmserver:s0          media          337  2754     1   15424   2752 0                   0 S  19   0      -   0  fg Binder:337_2
+u:r:mediadrmserver:s0          media          337  2757     1   15424   2752 0                   0 S  19   0      -   0  fg Binder:337_3
+u:r:mediametrics:s0            media          346   346     1   17548   3864 0                   0 S  19   0      -   0  fg mediametrics
+u:r:mediametrics:s0            media          346   439     1   17548   3864 0                   0 S  19   0      -   0  fg Binder:346_1
+u:r:mediametrics:s0            media          346   592     1   17548   3864 0                   0 S  19   0      -   0  fg Binder:346_2
+u:r:kernel:s0                  root           347   347     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:7
+u:r:mediaserver:s0             media          348   348     1   51196   7376 0                   0 S  19   0      -   0  fg mediaserver
+u:r:mediaserver:s0             media          348   450     1   51196   7376 0                   0 S  19   0      -   0  fg HwBinder:348_1
+u:r:mediaserver:s0             media          348   574     1   51196   7376 0                   0 S  19   0      -   0  fg Binder:348_1
+u:r:mediaserver:s0             media          348   960     1   51196   7376 0                   0 S  19   0      -   0  fg Binder:348_2
+u:r:mediaserver:s0             media          348  1788     1   51196   7376 0                   0 S  19   0      -   0  fg Binder:348_3
+u:r:mediaserver:s0             media          348  1789     1   51196   7376 0                   0 S  19   0      -   0  fg Binder:348_4
+u:r:phasecheckserver:s0        system         349   349     1    8888   1184 0                   0 S  19   0      -   0  fg phasecheckserve
+u:r:racoon:s0                  root           350   350     1    4540   1312 0                   0 S  19   0      -   0  fg ju_ipsec_server
+u:r:storaged:s0                root           351   351     1   12288   2384 0                   0 S   9  10      -   0     storaged
+u:r:storaged:s0                root           351   496     1   12288   2384 0                   0 S   9  10      -   0     storaged
+u:r:storaged:s0                root           351   508     1   12288   2384 0                   0 S   9  10      -   0     Binder:351_1
+u:r:wificond:s0                wifi           353   353     1   12844   3184 0                   0 S  19   0      -   0  fg wificond
+u:r:mediacodec:s0              mediacodec     354   354     1   44908   7900 0                   0 S  19   0      -   0  fg omx@1.0-service
+u:r:mediacodec:s0              mediacodec     354   436     1   44908   7900 0                   0 S  19   0      -   0  fg HwBinder:354_1
+u:r:mediacodec:s0              mediacodec     354   437     1   44908   7900 0                   0 S  19   0      -   0  fg HwBinder:354_2
+u:r:mediacodec:s0              mediacodec     354   438     1   44908   7900 0                   0 S  19   0      -   0  fg Binder:354_1
+u:r:mediacodec:s0              mediacodec     354   463     1   44908   7900 0                   0 S  19   0      -   0  fg HwBinder:354_3
+u:r:mediacodec:s0              mediacodec     354   562     1   44908   7900 0                   0 S  19   0      -   0  fg HwBinder:354_4
+u:r:mediacodec:s0              mediacodec     354  1032     1   44908   7900 0                   0 S  19   0      -   0  fg HwBinder:354_5
+u:r:mediacodec:s0              mediacodec     354  2014     1   44908   7900 0                   0 S  21  -2      -   0  fg rd.h264.encoder
+u:r:mediacodec:s0              mediacodec     354  2015     1   44908   7900 0                   0 S  21  -2      -   0  fg OMXCallbackDisp
+u:r:mediacodec:s0              mediacodec     354  2017     1   44908   7900 0                   0 S  39 -20      -   0  fg HwBinder:354_5
+u:r:mediacodec:s0              mediacodec     354  2018     1   44908   7900 0                   0 S  19   0      -   0  fg ALooper
+u:r:ext_data:s0                root           355   355     1    4496    816 0                   0 S  19   0      -   0  fg ext_data
+u:r:refnotify:s0               system         356   356     1    8628    916 0                   0 S  19   0      -   0  fg refnotify
+u:r:refnotify:s0               system         356   593     1    8628    916 0                   0 S  19   0      -   0  fg refnotify
+u:r:refnotify:s0               system         356   621     1    8628    916 0                   0 S  19   0      -   0  fg refnotify
+u:r:slogmodem:s0               shell          357   357     1    8808   1080 0                   0 S  19   0      -   0  fg slogmodem
+u:r:slogmodem:s0               shell          357   369     1    8808   1080 0                   0 S  19   0      -   0  fg slogmodem
+u:r:slogmodem:s0               shell          357   370     1    8808   1080 0                   0 S  19   0      -   0  fg slogmodem
+u:r:slogmodem:s0               shell          357   371     1    8808   1080 0                   0 S  19   0      -   0  fg slogmodem
+u:r:slogmodem:s0               shell          357   372     1    8808   1080 0                   0 S  19   0      -   0  fg slogmodem
+u:r:thermald:s0                system         358   358     1   18396   1692 0                   0 S  19   0      -   0  fg thermald
+u:r:thermald:s0                system         358   431     1   18396   1692 0                   0 S  19   0      -   0  fg thermald
+u:r:thermald:s0                system         358   432     1   18396   1692 0                   0 S  19   0      -   0  fg thermald
+u:r:thermald:s0                system         358   433     1   18396   1692 0                   0 S  19   0      -   0  fg thermald
+u:r:thermald:s0                system         358   434     1   18396   1692 0                   0 S  19   0      -   0  fg thermald
+u:r:thermald:s0                system         358   435     1   18396   1692 0                   0 S  19   0      -   0  fg thermald
+u:r:hal_gnss_ext_default:s0    system         359   359     1   61748   5380 0                   0 S  19   0      -   0  fg gnss@1.0-servic
+u:r:hal_gnss_ext_default:s0    system         359   980     1   61748   5380 0                   0 S  21  -2      -   0  fg LCSAGT_READER
+u:r:hal_gnss_ext_default:s0    system         359   982     1   61748   5380 0                   0 S  21  -2      -   0  fg LCSMGT_TASK
+u:r:hal_gnss_ext_default:s0    system         359   983     1   61748   5380 0                   0 S  21  -2      -   0  fg POSIX timer 0
+u:r:hal_gnss_ext_default:s0    system         359  1017     1   61748   5380 0                   0 S   3  16      -   0  fg lte
+u:r:hal_gnss_ext_default:s0    system         359  1019     1   61748   5380 0                   0 S  21  -2      -   0  fg libgps
+u:r:hal_gnss_ext_default:s0    system         359  1021     1   61748   5380 0                   0 S  21  -2      -   0  fg libgps_daemon
+u:r:hal_gnss_ext_default:s0    system         359  1022     1   61748   5380 0                   0 S  21  -2      -   0  fg lib_gnss_log
+u:r:hal_gnss_ext_default:s0    system         359  1026     1   61748   5380 0                   0 S  21  -2      -   0  fg libgps_data
+u:r:hal_gnss_ext_default:s0    system         359  1027     1   61748   5380 0                   0 S  21  -2      -   0  fg watchdog
+u:r:hal_gnss_ext_default:s0    system         359  1028     1   61748   5380 0                   0 S  21  -2      -   0  fg lcs_client
+u:r:hal_gnss_ext_default:s0    system         359  1029     1   61748   5380 0                   0 S  21  -2      -   0  fg gnss@1.0-servic
+u:r:hal_gnss_ext_default:s0    system         359  1030     1   61748   5380 0                   0 S  21  -2      -   0  fg libgps_pm
+u:r:hal_gnss_ext_default:s0    system         359  1031     1   61748   5380 0                   0 S  21  -2      -   0  fg libagps
+u:r:hal_gnss_ext_default:s0    system         359  1033     1   61748   5380 0                   0 S  21  -2      -   0  fg SUPL_TASK
+u:r:hal_gnss_ext_default:s0    system         359  1034     1   61748   5380 0                   0 S  21  -2      -   0  fg POSIX timer 1
+u:r:hal_gnss_ext_default:s0    system         359  1035     1   61748   5380 0                   0 S  21  -2      -   0  fg CTRL_PLANE_TASK
+u:r:hal_gnss_ext_default:s0    system         359  1036     1   61748   5380 0                   0 S  21  -2      -   0  fg POSIX timer 2
+u:r:gatekeeperd:s0             system         360   360     1   13028   2684 0                   0 S  19   0      -   0     gatekeeperd
+u:r:tombstoned:s0              tombstoned     361   361     1    4588   1516 0                   0 S  19   0      -   0     tombstoned
+u:r:hal_fingerprint_default:s0 system         362   362     1   13264   1516 0                   0 S  19   0      -   0  fg fingerprint@2.1
+u:r:hal_fingerprint_default:s0 system         362   416     1   13264   1516 0                   0 S  19   0      -   0  fg android.hardwar
+u:r:tee:s0                     system         363   363     1    4480    824 0                   0 S  19   0      -   0  fg sprdstorageprox
+u:r:wcnd:s0                    system         364   364     1   19084   2044 0                   0 S  19   0      -   0  fg connmgr
+u:r:wcnd:s0                    system         364   539     1   19084   2044 0                   0 S  19   0      -   0  fg connmgr
+u:r:wcnd:s0                    system         364   540     1   19084   2044 0                   0 S  19   0      -   0  fg connmgr
+u:r:wcnd:s0                    system         364   541     1   19084   2044 0                   0 S  19   0      -   0  fg connmgr
+u:r:wcnd:s0                    system         364   542     1   19084   2044 0                   0 S  19   0      -   0  fg connmgr
+u:r:srtd:s0                    root           365   365   326    5228      4 0                   0 S  19   0      -   0  fg srtd
+u:r:kernel:s0                  root           368   368     2       0      0 0                   0 S  39 -20      -   0  fg kworker/2:1H
+u:r:netbox:s0                  root           374   374   334    4532   1424 0                   0 S  19   0      -   0  fg ip
+u:r:netbox:s0                  root           376   376   334    4408    920 0                   0 S  19   0      -   0  fg ip_monitor.sh
+u:r:kernel:s0                  root           404   404     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:rild:s0                    radio          600   600     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   604     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   605     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   606     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   607     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   608     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   609     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   610     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   611     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   612     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   613     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   615     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   616     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   617     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   618     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   619     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:rild:s0                    radio          600   620     1   27636   3052 0                   0 S  19   0      -   0  fg sprdrild
+u:r:cp_diskserver:s0           root           601   601     1   12504   1352 0                   0 S  19   0      -   0  fg cp_diskserver
+u:r:cp_diskserver:s0           root           601   603     1   12504   1352 0                   0 S  19   0      -   0  fg cp_diskserver
+u:r:system_server:s0           system         622   622   250 1254120 152672 0                   0 S  21  -2      -   0  fg system_server
+u:r:system_server:s0           system         622   627   250 1254120 152684 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:system_server:s0           system         622   628   250 1254120 152684 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:system_server:s0           system         622   629   250 1254120 152684 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:system_server:s0           system         622   630   250 1254120 152684 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:system_server:s0           system         622   631   250 1254120 152684 0                   0 R  15   4      -   0  fg HeapTaskDaemon
+u:r:system_server:s0           system         622   632   250 1254120 152684 0                   0 S  19   0      -   0  fg Binder:622_1
+u:r:system_server:s0           system         622   633   250 1254120 152684 0                   0 R  19   0      -   0  fg Binder:622_2
+u:r:system_server:s0           system         622   635   250 1254120 152684 0                   0 S   9  10      -   0  fg android.bg
+u:r:system_server:s0           system         622   636   250 1254120 152684 0                   0 S  21  -2      -   0  fg ActivityManager
+u:r:system_server:s0           system         622   637   250 1254120 152684 0                   0 S  21  -2      -   0  fg android.ui
+u:r:system_server:s0           system         622   638   250 1254120 152684 0                   0 S   9  10      -   0  fg ActivityManager
+u:r:system_server:s0           system         622   639   250 1254120 152684 0                   0 S  19   0      -   0  fg batterystats-wo
+u:r:system_server:s0           system         622   641   250 1254120 152684 0                   0 S  19   0      -   0  fg FileObserver
+u:r:system_server:s0           system         622   642   250 1254120 152684 0                   0 S  19   0      -   0  fg android.fg
+u:r:system_server:s0           system         622   643   250 1254140 152684 0                   0 S  19   0      -   0  fg android.io
+u:r:system_server:s0           system         622   644   250 1254140 152684 0                   0 S  22  -3      -   0  ta android.display
+u:r:system_server:s0           system         622   645   250 1254140 152684 0                   0 S  19   0      -   0  fg CpuTracker
+u:r:system_server:s0           system         622   646   250 1254140 152756 0                   0 S  23  -4      -   0  fg PowerManagerSer
+u:r:system_server:s0           system         622   647   250 1255212 152756 0                   0 S  21  -2      -   0  fg system_server
+u:r:system_server:s0           system         622   648   250 1255212 152756 0                   0 S  21  -2      -   0  fg BatteryStats_wa
+u:r:system_server:s0           system         622   649   250 1255212 152756 0                   0 S   9  10      -   0  fg PackageManager
+u:r:system_server:s0           system         622   721   250 1255212 152756 0                   0 S  19   0      -   0  fg PackageInstalle
+u:r:system_server:s0           system         622   723   250 1255212 152756 0                   0 S  23  -4      -   0  ta android.anim
+u:r:system_server:s0           system         622   727   250 1255212 152756 0                   0 S  27  -8      -   0  fg SensorEventAckR
+u:r:system_server:s0           system         622   728   250 1255212 152796 0                   0 S  50  -8     10   1  fg SensorService
+u:r:system_server:s0           system         622   730   250 1255212 152796 0                   0 S   9  10      -   0  fg SettingsProvide
+u:r:system_server:s0           system         622   731   250 1255212 152796 0                   0 S  21  -2      -   0  fg AccountManagerS
+u:r:system_server:s0           system         622   732   250 1255212 152796 0                   0 S   9  10      -   0  fg SettingsProvide
+u:r:system_server:s0           system         622   733   250 1255212 152796 0                   0 S  19   0      -   0  fg AlarmManager
+u:r:system_server:s0           system         622   734   250 1255212 152796 0                   0 S  19   0      -   0  fg HwBinder:622_1
+u:r:system_server:s0           system         622   735   250 1255212 152796 0                   0 S  19   0      -   0  fg HwBinder:622_2
+u:r:system_server:s0           system         622   736   250 1255212 152796 0                   0 R  27  -8      -   0  fg InputDispatcher
+u:r:system_server:s0           system         622   737   250 1255212 152796 0                   0 S  27  -8      -   0  fg InputReader
+u:r:system_server:s0           system         622   738   250 1255212 152796 0                   0 S  19   0      -   0  fg performance
+u:r:system_server:s0           system         622   739   250 1255212 152796 0                   0 S   9  10      -   0  fg splash-update
+u:r:system_server:s0           system         622   740   250 1255212 152796 0                   0 S  19   0      -   0  fg RamPolicyExecut
+u:r:system_server:s0           system         622   741   250 1255212 152796 0                   0 S  19   0      -   0  fg SchedPolicyExec
+u:r:system_server:s0           system         622   742   250 1255212 152796 0                   0 S  19   0      -   0  fg StorageManagerS
+u:r:system_server:s0           system         622   743   250 1255212 152796 0                   0 S  19   0      -   0  fg VoldConnector
+u:r:system_server:s0           system         622   744   250 1255212 152796 0                   0 S  19   0      -   0  fg CryptdConnector
+u:r:system_server:s0           system         622   855   250 1255212 152796 0                   0 S  19   0      -   0  fg NetdConnector
+u:r:system_server:s0           system         622   856   250 1255212 152796 0                   0 S  19   0      -   0  fg NetworkStats
+u:r:system_server:s0           system         622   857   250 1255212 152796 0                   0 S  19   0      -   0  fg NetworkPolicy
+u:r:system_server:s0           system         622   858   250 1255212 152796 0                   0 S  21  -2      -   0  fg tworkPolicy.uid
+u:r:system_server:s0           system         622   859   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiService
+u:r:system_server:s0           system         622   860   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiStateMachin
+u:r:system_server:s0           system         622   861   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiApClientSta
+u:r:system_server:s0           system         622   862   250 1255212 152788 0                   0 S  19   0      -   0  fg IpManager.wlan0
+u:r:system_server:s0           system         622   864   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiNetworkMoni
+u:r:system_server:s0           system         622   865   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiScanningSer
+u:r:system_server:s0           system         622   866   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiRttService
+u:r:system_server:s0           system         622   867   250 1255212 152788 0                   0 S  19   0      -   0  fg WifiP2pService
+u:r:system_server:s0           system         622   868   250 1255212 152788 0                   0 S  19   0      -   0  fg ConnectivitySer
+u:r:system_server:s0           system         622   869   250 1255212 152788 0                   0 S  19   0      -   0  fg roid.pacmanager
+u:r:system_server:s0           system         622   870   250 1255212 152788 0                   0 S  19   0      -   0  fg NsdService
+u:r:system_server:s0           system         622   871   250 1255212 152788 0                   0 S  19   0      -   0  fg mDnsConnector
+u:r:system_server:s0           system         622   872   250 1255212 152788 0                   0 S   9  10      -   0  fg notification-sq
+u:r:system_server:s0           system         622   873   250 1255212 152788 0                   0 S   9  10      -   0  fg ranker
+u:r:system_server:s0           system         622   874   250 1255212 152788 0                   0 S  19   0      -   0  fg onProviders.ECP
+u:r:system_server:s0           system         622   875   250 1255212 152788 0                   0 S   9  10      -   0  fg DeviceStorageMo
+u:r:system_server:s0           system         622   876   250 1255212 152788 0                   0 S  19   0      -   0  fg AudioService
+u:r:system_server:s0           system         622   878   250 1255212 152788 0                   0 S  19   0      -   0  fg UEventObserver
+u:r:system_server:s0           system         622   880   250 1255212 152788 0                   0 S  19   0      -   0  fg ConnectivityThr
+u:r:system_server:s0           system         622   881   250 1255212 152788 0                   0 S   9  10      -   0  fg GraphicsStats-d
+u:r:system_server:s0           system         622   882   250 1255212 152788 0                   0 S  19   0      -   0  fg FaceDispatch
+u:r:system_server:s0           system         622   883   250 1255212 152788 0                   0 S  19   0      -   0  fg FaceInformer
+u:r:system_server:s0           system         622   884   250 1255212 152788 0                   0 S  23  -4      -   0  fg CameraService_p
+u:r:system_server:s0           system         622   885   250 1255212 152788 0                   0 S  19   0      -   0  fg SyncHandler-0
+u:r:system_server:s0           system         622   886   250 1255212 152788 0                   0 S  19   0      -   0  fg EthernetService
+u:r:system_server:s0           system         622   887   250 1255212 152788 0                   0 S   9  10      -   0  fg TaskSnapshotPer
+u:r:system_server:s0           system         622   888   250 1255212 152788 0                   0 S  19   0      -   0  fg PhotonicModulat
+u:r:system_server:s0           system         622   889   250 1255212 152788 0                   0 S  21  -2      -   0  fg Thread-2
+u:r:system_server:s0           system         622   890   250 1255212 152788 0                   0 S   9  10      -   0  fg LazyTaskWriterT
+u:r:system_server:s0           system         622   917   250 1255212 152788 0                   0 S  19   0      -   0  fg Binder:622_3
+u:r:system_server:s0           system         622   923   250 1255212 152788 0                   0 S  19   0      -   0  fg UsbService host
+u:r:system_server:s0           system         622   924   250 1255212 152788 0                   0 S  19   0      -   0  fg Thread-3
+u:r:system_server:s0           system         622   952   250 1255212 152788 0                   0 S  19   0      -   0  fg NetworkStatsObs
+u:r:system_server:s0           system         622   955   250 1255212 152788 0                   0 S  19   0      -   0  fg Binder:622_4
+u:r:system_server:s0           system         622   957   250 1255212 152788 0                   0 S  19   0      -   0  fg watchdog
+u:r:system_server:s0           system         622   959   250 1255212 152788 0                   0 S  19   0      -   0  fg EmergencyAfford
+u:r:system_server:s0           system         622   966   250 1255232 152788 0                   0 S  19   0      -   0  fg HwBinder:622_3
+u:r:system_server:s0           system         622   992   250 1255232 152788 0                   0 S  19   0      -   0  fg Binder:622_5
+u:r:system_server:s0           system         622  1020   250 1255232 152788 0                   0 S  19   0      -   0  fg HwBinder:622_4
+u:r:system_server:s0           system         622  1037   250 1255232 152788 0                   0 S  19   0      -   0  fg NetworkTimeUpda
+u:r:system_server:s0           system         622  1038   250 1255232 152788 0                   0 S  19   0      -   0  fg PowerController
+u:r:system_server:s0           system         622  1039   250 1255232 152788 0                   0 S  19   0      -   0  fg WcnManagerServi
+u:r:system_server:s0           system         622  1040   250 1255232 152788 0                   0 S  19   0      -   0  fg ntroller.RecogA
+u:r:system_server:s0           system         622  1048   250 1255232 152788 0                   0 S   9  10      -   0  fg Instrumentation
+u:r:system_server:s0           system         622  1052   250 1255232 152788 0                   0 S  19   0      -   0  fg ConnectivitySer
+u:r:system_server:s0           system         622  1054   250 1255232 152788 0                   0 S  19   0      -   0  fg Thread-4
+u:r:system_server:s0           system         622  1087   250 1255232 152788 0                   0 S  19   0      -   0  fg BluetoothRouteM
+u:r:system_server:s0           system         622  1090   250 1255232 152788 0                   0 S  19   0      -   0  fg uteStateMachine
+u:r:system_server:s0           system         622  1091   250 1255232 152788 0                   0 S  19   0      -   0  fg CallAudioModeSt
+u:r:system_server:s0           system         622  1111   250 1255232 152788 0                   0 S  21  -2      -   0  fg queued-work-loo
+u:r:system_server:s0           system         622  1141   250 1255232 152788 0                   0 S  19   0      -   0  fg Binder:622_6
+u:r:system_server:s0           system         622  1191   250 1255232 152788 0                   0 S   9  10      -   0  fg backup
+u:r:system_server:s0           system         622  1235   250 1255232 152788 0                   0 S  19   0      -   0  fg Binder:622_7
+u:r:system_server:s0           system         622  1237   250 1255232 152788 0                   0 S  19   0      -   0  fg Binder:622_8
+u:r:system_server:s0           system         622  1240   250 1255232 152916 0                   0 S  19   0      -   0  fg Binder:622_9
+u:r:system_server:s0           system         622  1303   250 1255232 152916 0                   0 S  19   0      -   0  fg Binder:622_A
+u:r:system_server:s0           system         622  1337   250 1255252 152916 0                   0 S  29 -10      -   0  ta android.anim
+u:r:system_server:s0           system         622  1693   250 1255252 152916 0                   0 S  19   0      -   0  fg AsyncQueryWorke
+u:r:system_server:s0           system         622  1975   250 1255252 152916 0                   0 S  19   0      -   0  fg UsbDebuggingMan
+u:r:system_server:s0           system         622  2115   250 1255252 152916 0                   0 S  19   0      -   0  fg SyncHandler-1
+u:r:system_server:s0           system         622  2132   250 1255252 152916 0                   0 S  19   0      -   0  fg Okio Watchdog
+u:r:system_server:s0           system         622  2276   250 1255252 152916 0                   0 S  19   0      -   0  fg Binder:622_B
+u:r:system_server:s0           system         622  2490   250 1255252 152916 0                   0 S  19   0      -   0  fg Binder:622_C
+u:r:system_server:s0           system         622  2750   250 1255252 152916 0                   0 S  19   0      -   0  fg pool-2-thread-2
+u:r:system_server:s0           system         622  2826   250 1255252 152916 0                   0 S  19   0      -   0  fg Binder:622_D
+u:r:system_server:s0           system         622  2930   250 1255252 152916 0                   0 S  19   0      -   0  fg Binder:622_E
+u:r:system_server:s0           system         622  3064   250 1255252 152916 0                   0 S  19   0      -   0  fg Binder:622_F
+u:r:system_server:s0           system         622  3139   250 1255252 152916 0                   0 R  19   0      -   0  fg NetworkMonitorN
+u:r:radio:s0                   radio          891   891   250 1167888  96264 0                   0 S  19   0      -   0  fg m.android.phone
+u:r:radio:s0                   radio          891   896   250 1167888  96264 0                   0 S  10   9      -   0  fg Jit thread pool
+u:r:radio:s0                   radio          891   897   250 1167888  96264 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:radio:s0                   radio          891   898   250 1167888  96264 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:radio:s0                   radio          891   899   250 1167888  96264 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:radio:s0                   radio          891   900   250 1167888  96264 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:radio:s0                   radio          891   901   250 1167888  96264 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:radio:s0                   radio          891   902   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_1
+u:r:radio:s0                   radio          891   905   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_2
+u:r:radio:s0                   radio          891   918   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_3
+u:r:radio:s0                   radio          891   921   250 1167888  96264 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:radio:s0                   radio          891  1155   250 1167888  96264 0                   0 S  21  -2      -   0  fg queued-work-loo
+u:r:radio:s0                   radio          891  1176   250 1167888  96264 0                   0 S  19   0      -   0  fg SearchHandlerTh
+u:r:radio:s0                   radio          891  1177   250 1167888  96264 0                   0 S  19   0      -   0  fg IccReadDelayThr
+u:r:radio:s0                   radio          891  1256   250 1167888  96264 0                   0 S  19   0      -   0  fg HwBinder:891_1
+u:r:radio:s0                   radio          891  1279   250 1167888  96264 0                   0 S  19   0      -   0  fg RunningState:Ba
+u:r:radio:s0                   radio          891  1282   250 1167888  96264 0                   0 S  19   0      -   0  fg RunningState:Ba
+u:r:radio:s0                   radio          891  1301   250 1167888  96264 0                   0 S  19   0      -   0  fg GsmCellBroadcas
+u:r:radio:s0                   radio          891  1302   250 1167888  96264 0                   0 S  19   0      -   0  fg GsmInboundSmsHa
+u:r:radio:s0                   radio          891  1306   250 1167888  96264 0                   0 S  19   0      -   0  fg CellBroadcastHa
+u:r:radio:s0                   radio          891  1307   250 1167888  96264 0                   0 S  19   0      -   0  fg CdmaInboundSmsH
+u:r:radio:s0                   radio          891  1308   250 1167888  96264 0                   0 S  19   0      -   0  fg CdmaServiceCate
+u:r:radio:s0                   radio          891  1340   250 1167888  96264 0                   0 S  19   0      -   0  fg DcHandlerThread
+u:r:radio:s0                   radio          891  1346   250 1167888  96264 0                   0 S   9  10      -   0  fg android.bg
+u:r:radio:s0                   radio          891  1372   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_4
+u:r:radio:s0                   radio          891  1400   250 1167888  96264 0                   0 S  19   0      -   0  fg RadioInteractor
+u:r:radio:s0                   radio          891  1443   250 1167888  96264 0                   0 S  19   0      -   0  fg ImsServiceContr
+u:r:radio:s0                   radio          891  1445   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_5
+u:r:radio:s0                   radio          891  1477   250 1167888  96264 0                   0 S  19   0      -   0  fg [Adapter]VoWifi
+u:r:radio:s0                   radio          891  1481   250 1167888  96264 0                   0 S  19   0      -   0  fg SRVCC
+u:r:radio:s0                   radio          891  1483   250 1167888  96264 0                   0 S  19   0      -   0  fg [Adapter]VoWifi
+u:r:radio:s0                   radio          891  1489   250 1167888  96264 0                   0 S  19   0      -   0  fg SyncManager
+u:r:radio:s0                   radio          891  1500   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_6
+u:r:radio:s0                   radio          891  1504   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_7
+u:r:radio:s0                   radio          891  1537   250 1167888  96264 0                   0 S  19   0      -   0  fg ConnectivityThr
+u:r:radio:s0                   radio          891  1605   250 1167888  96264 0                   0 S  19   0      -   0  fg SubThreadHandle
+u:r:radio:s0                   radio          891  1699   250 1167888  96264 0                   0 S  19   0      -   0  fg Binder:891_8
+u:r:platform_app:s0:c512,c768  u0_a22         925   925   250 1211004 132624 0                   0 S  19   0      -   0  fg ndroid.systemui
+u:r:platform_app:s0:c512,c768  u0_a22         925   930   250 1211004 132624 0                   0 S  10   9      -   0  fg Jit thread pool
+u:r:platform_app:s0:c512,c768  u0_a22         925   931   250 1211004 132624 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:platform_app:s0:c512,c768  u0_a22         925   932   250 1211004 132624 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:platform_app:s0:c512,c768  u0_a22         925   933   250 1211004 132624 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:platform_app:s0:c512,c768  u0_a22         925   936   250 1211004 132624 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:platform_app:s0:c512,c768  u0_a22         925   937   250 1211004 132624 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:platform_app:s0:c512,c768  u0_a22         925   938   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_1
+u:r:platform_app:s0:c512,c768  u0_a22         925   940   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_2
+u:r:platform_app:s0:c512,c768  u0_a22         925   946   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_3
+u:r:platform_app:s0:c512,c768  u0_a22         925   981   250 1211004 132624 0                   0 S  19   0      -   0  fg CameraThread
+u:r:platform_app:s0:c512,c768  u0_a22         925   988   250 1211004 132624 0                   0 S  19   0      -   0  fg pool-1-thread-1
+u:r:platform_app:s0:c512,c768  u0_a22         925   990   250 1211004 132624 0                   0 S  19   0      -   0  fg SoundPool
+u:r:platform_app:s0:c512,c768  u0_a22         925   991   250 1211004 132624 0                   0 S  19   0      -   0  fg SoundPoolThread
+u:r:platform_app:s0:c512,c768  u0_a22         925   995   250 1211004 132624 0                   0 S   8  11      -   0  fg Recents-HighRes
+u:r:platform_app:s0:c512,c768  u0_a22         925   996   250 1211004 132624 0                   0 S   9  10      -   0  fg Recents-TaskRes
+u:r:platform_app:s0:c512,c768  u0_a22         925  1003   250 1211004 132624 0                   0 S  19   0      -   0  fg recents.fg
+u:r:platform_app:s0:c512,c768  u0_a22         925  1004   250 1211004 132624 0                   0 S  21  -2      -   0  fg HwBinder:925_1
+u:r:platform_app:s0:c512,c768  u0_a22         925  1007   250 1211004 132624 0                   0 S  19   0      -   0  fg VolumeDialogCon
+u:r:platform_app:s0:c512,c768  u0_a22         925  1008   250 1211004 132624 0                   0 S   9  10      -   0  fg SysUiBg
+u:r:platform_app:s0:c512,c768  u0_a22         925  1013   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_4
+u:r:platform_app:s0:c512,c768  u0_a22         925  1051   250 1211004 132624 0                   0 S  21  -2      -   0  fg queued-work-loo
+u:r:platform_app:s0:c512,c768  u0_a22         925  1060   250 1211004 132624 0                   0 S  19   0      -   0  fg RenderThread
+u:r:platform_app:s0:c512,c768  u0_a22         925  1072   250 1211004 132624 0                   0 S  19   0      -   0  fg ConnectivityThr
+u:r:platform_app:s0:c512,c768  u0_a22         925  1086   250 1211004 132624 0                   0 S  19   0      -   0  fg TimeTick
+u:r:platform_app:s0:c512,c768  u0_a22         925  1089   250 1211004 132624 0                   0 S  19   0      -   0  fg async_sensor
+u:r:platform_app:s0:c512,c768  u0_a22         925  1110   250 1211004 132624 0                   0 S   9  10      -   0  fg FlashlightContr
+u:r:platform_app:s0:c512,c768  u0_a22         925  1124   250 1211004 132624 0                   0 S   9  10      -   0  fg Keyboard
+u:r:platform_app:s0:c512,c768  u0_a22         925  1125   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_5
+u:r:platform_app:s0:c512,c768  u0_a22         925  1126   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_6
+u:r:platform_app:s0:c512,c768  u0_a22         925  1127   250 1211004 132624 0                   0 S  19   0      -   0  fg pool-2-thread-1
+u:r:platform_app:s0:c512,c768  u0_a22         925  1130   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-mem-purge
+u:r:platform_app:s0:c512,c768  u0_a22         925  1131   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22         925  1132   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22         925  1133   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22         925  1134   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22         925  1135   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-cmar-backe
+u:r:platform_app:s0:c512,c768  u0_a22         925  1136   250 1211004 132624 0                   0 S  23  -4      -   0  fg mali-hist-dump
+u:r:platform_app:s0:c512,c768  u0_a22         925  1147   250 1211004 132624 0                   0 S  23  -4      -   0  fg RenderThread
+u:r:platform_app:s0:c512,c768  u0_a22         925  1149   250 1211004 132624 0                   0 S  19   0      -   0  fg Thread-2
+u:r:platform_app:s0:c512,c768  u0_a22         925  1178   250 1211004 132624 0                   0 S  19   0      -   0  fg Binder:925_7
+u:r:platform_app:s0:c512,c768  u0_a22         925  1877   250 1211004 132624 0                   0 S  21  -2      -   0  fg hwuiTask1
+u:r:platform_app:s0:c512,c768  u0_a22         925  1878   250 1211004 132624 0                   0 S  21  -2      -   0  fg hwuiTask2
+u:r:platform_app:s0:c512,c768  u0_a22         925  2423   250 1211004 132624 0                   0 S   9  10      -   0  fg AsyncTask #6
+u:r:platform_app:s0:c512,c768  u0_a22         925  2476   250 1211004 132624 0                   0 S   9  10      -   0  fg AsyncTask #7
+u:r:platform_app:s0:c512,c768  u0_a22         925  2478   250 1211004 132624 0                   0 R   9  10      -   0  fg InflaterThread 
+u:r:platform_app:s0:c512,c768  u0_a22         925  2483   250 1210996 132656 0                   0 S   9  10      -   0  fg AsyncTask #8
+u:r:kernel:s0                  root          1106  1106     2       0      0 0                   0 S  39 -20      -   0  fg kworker/u9:2
+u:r:kernel:s0                  root          1129  1129     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:kernel:s0                  root          1142  1142     2       0      0 0                   0 S  19   0      -   0  fg kworker/0:2
+u:r:system_app:s0              system        1197  1197   250 1114160  72444 0                   0 S  19   0      -   0  fg om.sprd.applock
+u:r:system_app:s0              system        1197  1202   250 1114160  72444 0                   0 S  10   9      -   0  fg Jit thread pool
+u:r:system_app:s0              system        1197  1203   250 1114160  72444 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:system_app:s0              system        1197  1204   250 1114160  72444 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:system_app:s0              system        1197  1205   250 1114160  72444 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:system_app:s0              system        1197  1206   250 1114160  72444 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:system_app:s0              system        1197  1207   250 1114160  72444 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:system_app:s0              system        1197  1208   250 1114160  72444 0                   0 S  19   0      -   0  fg Binder:1197_1
+u:r:system_app:s0              system        1197  1209   250 1114160  72444 0                   0 S  19   0      -   0  fg Binder:1197_2
+u:r:system_app:s0              system        1197  1229   250 1114160  72444 0                   0 S  19   0      -   0  fg Binder:1197_3
+u:r:system_app:s0              system        1197  1242   250 1114160  72444 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:system_app:s0              system        1197  1271   250 1114160  72444 0                   0 S  21  -2      -   0  fg queued-work-loo
+u:r:system_app:s0              system        1210  1210   250 1129756  70004 0                   0 S  19   0      -   0  fg .spreadtrum.vce
+u:r:system_app:s0              system        1210  1215   250 1129756  70004 0                   0 S  10   9      -   0  fg Jit thread pool
+u:r:system_app:s0              system        1210  1216   250 1129756  70004 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:system_app:s0              system        1210  1217   250 1129756  70004 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:system_app:s0              system        1210  1218   250 1129756  70004 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:system_app:s0              system        1210  1219   250 1129756  70004 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:system_app:s0              system        1210  1220   250 1129756  70004 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:system_app:s0              system        1210  1222   250 1129756  70004 0                   0 S  19   0      -   0  fg Binder:1210_1
+u:r:system_app:s0              system        1210  1226   250 1129756  70004 0                   0 S  19   0      -   0  fg Binder:1210_2
+u:r:system_app:s0              system        1210  1241   250 1129756  70004 0                   0 S  19   0      -   0  fg Binder:1210_3
+u:r:system_app:s0              system        1210  1248   250 1129756  70004 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:system_app:s0              system        1210  1315   250 1129756  70004 0                   0 S  19   0      -   0  fg tVtspCmdRx
+u:r:system_app:s0              system        1210  1316   250 1129756  70004 0                   0 S  19   0      -   0  fg tVtspCmdTx
+u:r:system_app:s0              system        1210  1317   250 1129756  70004 0                   0 S  19   0      -   0  fg tVtspCmdHd
+u:r:system_app:s0              system        1210  1318   250 1129756  70004 0                   0 S  19   0      -   0  fg C2N-mgr-looper
+u:r:system_app:s0              system        1210  1328   250 1129756  70004 0                   0 S  19   0      -   0  fg .spreadtrum.vce
+u:r:system_app:s0              system        1210  1330   250 1129756  70004 0                   0 S  19   0      -   0  fg .spreadtrum.vce
+u:r:system_app:s0              system        1210  1335   250 1129756  70004 0                   0 S  19   0      -   0  fg .spreadtrum.vce
+u:r:system_app:s0              system        1210  1338   250 1129756  70004 0                   0 S  21  -2      -   0  fg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1221   250 1111912  64440 0                   0 S  19   0      -   0  fg d.modemnotifier
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1230   250 1111912  64440 0                   0 S  10   9      -   0  fg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1231   250 1111912  64440 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1232   250 1111912  64440 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1233   250 1111912  64440 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1234   250 1111912  64440 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1236   250 1111912  64440 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1238   250 1111912  64440 0                   0 S  19   0      -   0  fg Binder:1221_1
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1239   250 1111912  64440 0                   0 S  19   0      -   0  fg Binder:1221_2
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1244   250 1111912  64440 0                   0 S  19   0      -   0  fg Binder:1221_3
+u:r:untrusted_app:s0:c512,c768 u0_a66        1221  1247   250 1111912  64440 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:system_app:s0              system        1264  1264   250 1126296  72176 0                   0 S  19   0      -   0  bg e.fota_demo_iot
+u:r:system_app:s0              system        1264  1278   250 1126296  72176 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:system_app:s0              system        1264  1280   250 1126296  72176 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:system_app:s0              system        1264  1281   250 1126296  72176 0                   0 S  19   0      -   0  bg JDWP
+u:r:system_app:s0              system        1264  1295   250 1126296  72176 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:system_app:s0              system        1264  1296   250 1126296  72176 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:system_app:s0              system        1264  1297   250 1126296  72176 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:system_app:s0              system        1264  1298   250 1126296  72176 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:system_app:s0              system        1264  1304   250 1126296  72176 0                   0 S  19   0      -   0  bg Binder:1264_1
+u:r:system_app:s0              system        1264  1305   250 1126296  72176 0                   0 S  19   0      -   0  bg Binder:1264_2
+u:r:system_app:s0              system        1264  1327   250 1126296  72176 0                   0 S  19   0      -   0  bg Binder:1264_3
+u:r:system_app:s0              system        1264  1339   250 1126296  72176 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:system_app:s0              system        1264  1375   250 1126296  72176 0                   0 S  19   0      -   0  bg RxSchedulerPurg
+u:r:system_app:s0              system        1264  1377   250 1126296  72176 0                   0 S  19   0      -   0  bg RxCachedWorkerP
+u:r:system_app:s0              system        1264  1380   250 1126296  72176 0                   0 S  19   0      -   0  bg RxComputationTh
+u:r:system_app:s0              system        1264  1633   250 1126296  72176 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:system_app:s0              system        1264  2147   250 1126296  72176 0                   0 S  19   0      -   0  bg ConnectivityThr
+u:r:system_app:s0              system        1264  2162   250 1126296  72176 0                   0 S  19   0      -   0  bg Okio Watchdog
+u:r:system_app:s0              system        1264  2284   250 1126296  72176 0                   0 S  27  -8      -   0  bg process reaper
+u:r:system_app:s0              system        1264  2287   250 1126296  72176 0                   0 S  19   0      -   0  bg FOTA_APP Dispat
+u:r:system_app:s0              system        1310  1310   250 1156128 113432 0                   0 S  19   0      -   0  bg com.jx.launcher
+u:r:system_app:s0              system        1310  1320   250 1156128 113432 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:system_app:s0              system        1310  1321   250 1156128 113432 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:system_app:s0              system        1310  1322   250 1156128 113432 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:system_app:s0              system        1310  1323   250 1156128 113432 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:system_app:s0              system        1310  1324   250 1156128 113432 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:system_app:s0              system        1310  1325   250 1156128 113432 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:system_app:s0              system        1310  1326   250 1156128 113432 0                   0 S  19   0      -   0  bg Binder:1310_1
+u:r:system_app:s0              system        1310  1329   250 1156128 113432 0                   0 S  19   0      -   0  bg Binder:1310_2
+u:r:system_app:s0              system        1310  1332   250 1156128 113432 0                   0 S  19   0      -   0  bg Binder:1310_3
+u:r:system_app:s0              system        1310  1336   250 1156128 113432 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:system_app:s0              system        1310  1343   250 1156128 113432 0                   0 S  19   0      -   0  bg launcher-loader
+u:r:system_app:s0              system        1310  1374   250 1156128 113432 0                   0 S  19   0      -   0  bg ConnectivityThr
+u:r:system_app:s0              system        1310  1378   250 1156128 113432 0                   0 S  19   0      -   0  bg Thread-3
+u:r:system_app:s0              system        1310  1403   250 1156128 113432 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:system_app:s0              system        1310  1417   250 1156128 113432 0                   0 S  29 -10      -   0  bg com.jx.launcher
+u:r:system_app:s0              system        1310  1635   250 1156128 113432 0                   0 S  19   0      -   0  bg Binder:1310_4
+u:r:system_app:s0              system        1310  1714   250 1156128 113432 0                   0 S  19   0      -   0  bg Binder:1310_5
+u:r:system_app:s0              system        1310  1726   250 1156128 113432 0                   0 S  19   0      -   0  bg Thread-6
+u:r:system_app:s0              system        1310  1728   250 1156128 113432 0                   0 S   9  10      -   0  bg fifo-pool-threa
+u:r:system_app:s0              system        1310  1729   250 1156128 113432 0                   0 S   9  10      -   0  bg fifo-pool-threa
+u:r:system_app:s0              system        1310  1733   250 1156128 113432 0                   0 S   9  10      -   0  bg fifo-pool-threa
+u:r:system_app:s0              system        1310  1734   250 1156128 113432 0                   0 S   9  10      -   0  bg fifo-pool-threa
+u:r:system_app:s0              system        1310  1735   250 1156128 113432 0                   0 S   9  10      -   0  bg fifo-pool-threa
+u:r:system_app:s0              system        1310  2697   250 1156128 113432 0                   0 S   9  10      -   0  bg AsyncTask #5
+u:r:system_app:s0              system        1310  2713   250 1156128 113432 0                   0 S   9  10      -   0  bg AsyncTask #6
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1404   250 1126776  84976 0                   0 S  19   0      -   0  bg d.process.media
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1409   250 1126776  84976 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1410   250 1126776  84976 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1411   250 1126776  84976 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1412   250 1126776  84976 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1413   250 1126776  84976 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1414   250 1126776  84976 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1415   250 1126776  84976 0                   0 S  19   0      -   0  bg Binder:1404_1
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1416   250 1126776  84976 0                   0 S  19   0      -   0  bg Binder:1404_2
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1433   250 1126776  84976 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1501   250 1126776  84976 0                   0 S   9  10      -   0  bg thumbs thread
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1502   250 1126776  84976 0                   0 S   9  10      -   0  bg sAsyncHandlerTh
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1507   250 1126776  84976 0                   0 S  19   0      -   0  bg Binder:1404_3
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1508   250 1126776  84976 0                   0 S   8  11      -   0  bg MediaScannerSer
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1529   250 1126776  84976 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1538   250 1126776  84976 0                   0 S  19   0      -   0  bg Binder:1404_4
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1787   250 1126776  84976 0                   0 S   8  11      -   0  bg MediaScannerSer
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1871   250 1126776  84976 0                   0 S  19   0      -   0  bg Binder:1404_5
+u:r:mediaprovider:s0:c512,c768 u0_a9         1404  1982   250 1126776  84976 0                   0 S  19   0      -   0  bg MtpServer
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1449   250 1143340  97372 0                   0 S  19   0      -   0  bg utmethod.pinyin
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1454   250 1143340  97372 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1455   250 1143340  97372 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1456   250 1143340  97372 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1457   250 1143340  97372 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1458   250 1143340  97372 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1459   250 1143340  97372 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1460   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_1
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1461   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_2
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1463   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_3
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1464   250 1143340  97372 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1891   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_4
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  1974   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_5
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2030   250 1143340  97372 0                   0 S  23  -4      -   0  bg RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2032   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-mem-purge
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2033   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2034   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2035   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2036   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2037   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-cmar-backe
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2038   250 1143340  97372 0                   0 S  23  -4      -   0  bg mali-hist-dump
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2039   250 1143340  97372 0                   0 S  23  -4      -   0  bg RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2480   250 1143340  97372 0                   0 S  21  -2      -   0  bg hwuiTask1
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2481   250 1143340  97372 0                   0 S  21  -2      -   0  bg hwuiTask2
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2648   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_6
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2939   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_7
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  2946   250 1143340  97372 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a72        1449  3049   250 1143340  97372 0                   0 S  19   0      -   0  bg Binder:1449_8
+u:r:system_app:s0              system        1484  1484   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1490   250 1134192  73108 0                   0 S  10   9      -   0  fg Jit thread pool
+u:r:system_app:s0              system        1484  1491   250 1134192  73108 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:system_app:s0              system        1484  1492   250 1134192  73108 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:system_app:s0              system        1484  1493   250 1134192  73108 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:system_app:s0              system        1484  1494   250 1134192  73108 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:system_app:s0              system        1484  1495   250 1134192  73108 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:system_app:s0              system        1484  1496   250 1134192  73108 0                   0 S  19   0      -   0  fg Binder:1484_1
+u:r:system_app:s0              system        1484  1497   250 1134192  73108 0                   0 S  19   0      -   0  fg Binder:1484_2
+u:r:system_app:s0              system        1484  1498   250 1134192  73108 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:system_app:s0              system        1484  1528   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1530   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1531   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1533   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1534   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1535   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1543   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1544   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1484  1545   250 1134192  73108 0                   0 S  19   0      -   0  fg readtrum.vowifi
+u:r:system_app:s0              system        1737  1737   250 1119884  70884 0                   0 S  19   0      -   0  bg droid.deskclock
+u:r:system_app:s0              system        1737  1742   250 1119884  70884 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:system_app:s0              system        1737  1743   250 1119884  70884 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:system_app:s0              system        1737  1744   250 1119884  70884 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:system_app:s0              system        1737  1745   250 1119884  70884 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:system_app:s0              system        1737  1746   250 1119884  70884 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:system_app:s0              system        1737  1747   250 1119884  70884 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:system_app:s0              system        1737  1748   250 1119884  70884 0                   0 S  19   0      -   0  bg Binder:1737_1
+u:r:system_app:s0              system        1737  1749   250 1119884  70884 0                   0 S  19   0      -   0  bg Binder:1737_2
+u:r:system_app:s0              system        1737  1750   250 1119884  70884 0                   0 S  19   0      -   0  bg Binder:1737_3
+u:r:system_app:s0              system        1737  1751   250 1119884  70884 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:system_app:s0              system        1737  1753   250 1119884  70884 0                   0 S  19   0      -   0  bg AsyncHandler
+u:r:system_app:s0              system        1737  2049   250 1119884  70884 0                   0 S  19   0      -   0  bg Binder:1737_4
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1771   250 1142568  94852 0                   0 S  19   0      -   0  bg ackageinstaller
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1776   250 1142568  94852 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1777   250 1142568  94852 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1778   250 1142568  94852 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1779   250 1142568  94852 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1780   250 1142568  94852 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1781   250 1142568  94852 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1782   250 1142568  94852 0                   0 S  19   0      -   0  bg Binder:1771_1
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1783   250 1142568  94852 0                   0 S  19   0      -   0  bg Binder:1771_2
+u:r:platform_app:s0:c512,c768  u0_a21        1771  1784   250 1142568  94852 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2292   250 1142568  94852 0                   0 S  19   0      -   0  bg RenderThread
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2300   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-mem-purge
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2301   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2302   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2303   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2304   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2305   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-cmar-backe
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2306   250 1142568  94852 0                   0 S  29 -10      -   0  bg mali-hist-dump
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2308   250 1142568  94852 0                   0 S  29 -10      -   0  bg RenderThread
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2309   250 1142568  94852 0                   0 S  21  -2      -   0  bg hwuiTask1
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2310   250 1142568  94852 0                   0 S  21  -2      -   0  bg hwuiTask2
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2346   250 1142568  94852 0                   0 S  19   0      -   0  bg Binder:1771_3
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2349   250 1142568  94852 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:platform_app:s0:c512,c768  u0_a21        1771  2357   250 1142568  94852 0                   0 S  19   0      -   0  bg Binder:1771_4
+u:r:system_app:s0              system        1840  1840   250 1111208  64872 0                   0 S  19   0      -   0  bg rd.systemupdate
+u:r:system_app:s0              system        1840  1846   250 1111208  64872 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:system_app:s0              system        1840  1847   250 1111208  64872 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:system_app:s0              system        1840  1848   250 1111208  64872 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:system_app:s0              system        1840  1849   250 1111208  64872 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:system_app:s0              system        1840  1850   250 1111208  64872 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:system_app:s0              system        1840  1851   250 1111208  64872 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:system_app:s0              system        1840  1852   250 1111208  64872 0                   0 S  19   0      -   0  bg Binder:1840_1
+u:r:system_app:s0              system        1840  1853   250 1111208  64872 0                   0 S  19   0      -   0  bg Binder:1840_2
+u:r:system_app:s0              system        1840  1856   250 1111208  64872 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:adbd:s0                    shell         1971  1971     1   18740   1144 0                   0 S  19   0      -   0  fg adbd
+u:r:adbd:s0                    shell         1971  1973     1   18740   1140 0                   0 S  19   0      -   0  fg usb ffs open
+u:r:adbd:s0                    shell         1971  1980     1   18740   1140 0                   0 S  19   0      -   0  fg check_thread
+u:r:adbd:s0                    shell         1971  1981     1   18740   1140 0                   0 S  19   0      -   0  fg check_data
+u:r:adbd:s0                    shell         1971  1983     1   18740   1140 0                   0 S  19   0      -   0  fg ->transport
+u:r:adbd:s0                    shell         1971  1984     1   18740   1140 0                   0 S  19   0      -   0  fg <-transport
+u:r:adbd:s0                    shell         1971  1989     1   18740   1140 0                   0 S  19   0      -   0  fg shell svc 1988
+u:r:adbd:s0                    shell         1971  2190     1   18740   1140 0                   0 S  19   0      -   0  fg shell svc 2189
+u:r:adbd:s0                    shell         1971  2353     1   18740   1140 0                   0 S  19   0      -   0  fg shell svc 2352
+u:r:adbd:s0                    shell         1971  2485     1   18740   1140 0                   0 S  19   0      -   0  fg shell svc 2484
+u:r:shell:s0                   shell         1988  1988  1971    4408   1892 sigsuspend   b226d8a0 S  19   0      -   0  fg sh
+u:r:shell:s0                   shell         1990  1990  1988  888932  63848 futex_wait_queue_me aaf7e590 S 19 0  -   0  fg main
+u:r:shell:s0                   shell         1990  1993  1988  888932  63848 futex_wait_queue_me aaf7e590 S 10 9  -   0  fg Jit thread pool
+u:r:shell:s0                   shell         1990  1999  1988  888932  63848 do_sigtimedwait aafad8c0 S 19 0      -   0  fg Signal Catcher
+u:r:shell:s0                   shell         1990  2000  1988  888932  63848 futex_wait_queue_me aaf7e590 S 19 0  -   0  fg ReferenceQueueD
+u:r:shell:s0                   shell         1990  2001  1988  888932  63848 futex_wait_queue_me aaf7e590 S 19 0  -   0  fg FinalizerDaemon
+u:r:shell:s0                   shell         1990  2002  1988  888932  63848 futex_wait_queue_me aaf7e590 S 19 0  -   0  fg FinalizerWatchd
+u:r:shell:s0                   shell         1990  2003  1988  888932  63848 futex_wait_queue_me aaf7e590 S 19 0  -   0  fg HeapTaskDaemon
+u:r:shell:s0                   shell         1990  2004  1988  888932  63848 binder_thread_read aafad6d0 S 19 0   -   0  fg Binder:1990_1
+u:r:shell:s0                   shell         1990  2005  1988  888932  63848 binder_thread_read aafad6d0 S 19 0   -   0  fg Binder:1990_2
+u:r:shell:s0                   shell         1990  2008  1988  888932  63848 do_wait      aafaee08 S  27  -8      -   0  fg process reaper
+u:r:shell:s0                   shell         1990  2009  1988  888932  63848 unix_stream_read_generic aafae648 S 19 0 - 0 fg Thread-2
+u:r:shell:s0                   shell         1990  2010  1988  888932  63848 futex_wait_queue_me aaf7e590 S 19 0  -   0  fg Thread-3
+u:r:shell:s0                   shell         1990  2011  1988  888932  63848 futex_wait_queue_me aaf7e590 S 29 -10 -  0  fg MediaCodec_loop
+u:r:shell:s0                   shell         1990  2012  1988  888932  63848 futex_wait_queue_me aaf7e590 S 35 -16 -  0  fg CodecLooper
+u:r:shell:s0                   shell         1990  2013  1988  888932  63848 binder_thread_read aafad6d0 S 35 -16 -   0  fg HwBinder:1990_1
+u:r:shell:s0                   shell         1990  2016  1988  888932  63848 binder_thread_read aafad6d0 S 39 -20 -   0  fg Binder:1990_3
+u:r:shell:s0                   shell         1990  2019  1988  888932  63848 futex_wait_queue_me aaf7e590 S 39 -20 -  0  fg Binder:1990_3
+u:r:shell:s0                   shell         1990  2130  1988  888932  63848 binder_thread_read aafad6d0 S 19 0   -   0  fg Binder:1990_4
+u:r:shell:s0                   shell         2007  2007  1990  873344  53360 pipe_wait    a992f570 S  19   0      -   0  fg main
+u:r:shell:s0                   shell         2007  2020  1990  873344  53360 futex_wait_queue_me a98ff590 S 10 9  -   0  fg Jit thread pool
+u:r:shell:s0                   shell         2007  2021  1990  873344  53360 do_sigtimedwait a992e8c0 S 19 0      -   0  fg Signal Catcher
+u:r:shell:s0                   shell         2007  2022  1990  873344  53360 futex_wait_queue_me a98ff590 S 19 0  -   0  fg ReferenceQueueD
+u:r:shell:s0                   shell         2007  2023  1990  873344  53360 futex_wait_queue_me a98ff590 S 19 0  -   0  fg FinalizerDaemon
+u:r:shell:s0                   shell         2007  2024  1990  873344  53360 futex_wait_queue_me a98ff590 S 19 0  -   0  fg FinalizerWatchd
+u:r:shell:s0                   shell         2007  2025  1990  873344  53360 futex_wait_queue_me a98ff590 S 19 0  -   0  fg HeapTaskDaemon
+u:r:shell:s0                   shell         2007  2026  1990  873344  53360 binder_thread_read a992e6d0 S 19 0   -   0  fg Binder:2007_1
+u:r:shell:s0                   shell         2007  2027  1990  873344  53360 binder_thread_read a992e6d0 S 19 0   -   0  fg Binder:2007_2
+u:r:kernel:s0                  root          2031  2031     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:kernel:s0                  root          2060  2060     2       0      0 0                   0 S  39 -20      -   0  fg SPRDWL_TX_QUEUE
+u:r:hal_wifi_supplicant_default:s0 wifi      2065  2065     1   11012   6444 0                   0 S  19   0      -   0  fg wpa_supplicant
+u:r:kernel:s0                  root          2104  2104     2       0      0 0                   0 S  19   0      -   0  fg kworker/2:0
+u:r:kernel:s0                  root          2164  2164     2       0      0 0                   0 S  39 -20      -   0  fg kworker/u9:3
+u:r:kernel:s0                  root          2183  2183     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:1
+u:r:kernel:s0                  root          2185  2185     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:2
+u:r:shell:s0                   shell         2189  2189  1971  898188  65272 binder_thread_read a5d496d0 S 19 0   -   0  fg commands.monkey
+u:r:shell:s0                   shell         2189  2216  1971  898188  65272 futex_wait_queue_me a5d1a590 S 10 9  -   0  fg Jit thread pool
+u:r:shell:s0                   shell         2189  2217  1971  898188  65272 do_sigtimedwait a5d498c0 S 19 0      -   0  fg Signal Catcher
+u:r:shell:s0                   shell         2189  2218  1971  898188  65272 futex_wait_queue_me a5d1a590 S 19 0  -   0  fg ReferenceQueueD
+u:r:shell:s0                   shell         2189  2219  1971  898188  65272 futex_wait_queue_me a5d1a590 S 19 0  -   0  fg FinalizerDaemon
+u:r:shell:s0                   shell         2189  2220  1971  898188  65272 futex_wait_queue_me a5d1a590 S 19 0  -   0  fg FinalizerWatchd
+u:r:shell:s0                   shell         2189  2221  1971  898188  65272 futex_wait_queue_me a5d1a590 S 19 0  -   0  fg HeapTaskDaemon
+u:r:shell:s0                   shell         2189  2222  1971  898188  65272 binder_thread_read a5d496d0 S 19 0   -   0  fg Binder:2189_1
+u:r:shell:s0                   shell         2189  2223  1971  898188  65272 binder_thread_read a5d496d0 S 19 0   -   0  fg Binder:2189_2
+u:r:kernel:s0                  root          2195  2195     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:3
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2198   250 1113500  67156 0                   0 S  19   0      -   0  bg id.defcontainer
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2203   250 1113500  67156 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2204   250 1113500  67156 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2205   250 1113500  67156 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2206   250 1113500  67156 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2207   250 1113500  67156 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2208   250 1113500  67156 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2209   250 1113500  67156 0                   0 S  19   0      -   0  bg Binder:2198_1
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2210   250 1113500  67156 0                   0 S  19   0      -   0  bg Binder:2198_2
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2211   250 1113500  67156 0                   0 S  19   0      -   0  bg Binder:2198_3
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2212   250 1113500  67156 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:platform_app:s0:c512,c768  u0_a5         2198  2489   250 1113500  67156 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2227   250 1146892  98704 0                   0 S  19   0      -   0  bg om.jx.childlike
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2232   250 1146892  98704 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2233   250 1146892  98704 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2234   250 1146892  98704 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2235   250 1146892  98704 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2236   250 1146892  98704 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2237   250 1146892  98704 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2238   250 1146892  98704 0                   0 S  19   0      -   0  bg Binder:2227_1
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2239   250 1146892  98704 0                   0 S  19   0      -   0  bg Binder:2227_2
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2240   250 1146892  98704 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2245   250 1146892  98704 0                   0 S  19   0      -   0  bg work_thread
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2246   250 1146892  98704 0                   0 S  19   0      -   0  bg NetWorkSender
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2247   250 1146892  98704 0                   0 S  19   0      -   0  bg FileObserver
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2249   250 1146892  98704 0                   0 S  19   0      -   0  bg Thread-3
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2254   250 1146892  98704 0                   0 S  19   0      -   0  bg ConnectivityThr
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2257   250 1146892  98704 0                   0 S  27  -8      -   0  bg process reaper
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2259   250 1146892  98704 0                   0 S  19   0      -   0  bg RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2261   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-mem-purge
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2262   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2263   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2264   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2265   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2266   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-cmar-backe
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2267   250 1146892  98704 0                   0 S  29 -10      -   0  bg mali-hist-dump
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2269   250 1146892  98704 0                   0 S  19   0      -   0  bg RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2270   250 1146892  98704 0                   0 S  21  -2      -   0  bg hwuiTask1
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2295   250 1146892  98704 0                   0 S  19   0      -   0  bg SL-NetWorkSende
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2315   250 1146892  98704 0                   0 S  19   0      -   0  bg pool-1-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2317   250 1146892  98704 0                   0 S  19   0      -   0  bg Binder:2227_3
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2348   250 1146892  98704 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a74        2227  2355   250 1146892  98704 0                   0 S  19   0      -   0  bg OkHttp Dispatch
+u:r:kernel:s0                  root          2260  2260     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:kernel:s0                  root          2282  2282     2       0      0 0                   0 S  19   0      -   0  fg kworker/2:2
+u:r:kernel:s0                  root          2291  2291     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:4
+u:r:kernel:s0                  root          2298  2298     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:shell:s0                   shell         2352  2352  1971  898188  65076 binder_thread_read a4c966d0 S 19 0   -   0  fg commands.monkey
+u:r:shell:s0                   shell         2352  2396  1971  898188  65076 futex_wait_queue_me a4c67590 S 10 9  -   0  fg Jit thread pool
+u:r:shell:s0                   shell         2352  2397  1971  898188  65076 do_sigtimedwait a4c968c0 S 19 0      -   0  fg Signal Catcher
+u:r:shell:s0                   shell         2352  2398  1971  898188  65068 futex_wait_queue_me a4c67590 S 19 0  -   0  fg ReferenceQueueD
+u:r:shell:s0                   shell         2352  2399  1971  898188  65056 futex_wait_queue_me a4c67590 S 19 0  -   0  fg FinalizerDaemon
+u:r:shell:s0                   shell         2352  2400  1971  898188  65048 futex_wait_queue_me a4c67590 S 19 0  -   0  fg FinalizerWatchd
+u:r:shell:s0                   shell         2352  2401  1971  898188  65048 futex_wait_queue_me a4c67590 S 19 0  -   0  fg HeapTaskDaemon
+u:r:shell:s0                   shell         2352  2404  1971  898188  65048 binder_thread_read a4c966d0 S 19 0   -   0  fg Binder:2352_1
+u:r:shell:s0                   shell         2352  2405  1971  898188  65024 binder_thread_read a4c966d0 S 19 0   -   0  fg Binder:2352_2
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2363   250 1165788  94408 0                   0 S  19   0      -   0  bg emui:screenshot
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2368   250 1165788  94436 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2369   250 1165788  94436 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2370   250 1165788  94436 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2371   250 1165788  94436 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2372   250 1165788  94436 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2373   250 1165788  94448 0                   0 R  15   4      -   0  bg HeapTaskDaemon
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2374   250 1165788  94448 0                   0 S  19   0      -   0  bg Binder:2363_1
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2375   250 1165788  94448 0                   0 S  19   0      -   0  bg Binder:2363_2
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2376   250 1165788  94448 0                   0 S  19   0      -   0  bg Binder:2363_3
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2377   250 1165788  94448 0                   0 S  19   0      -   0  bg SoundPool
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2378   250 1165788  94448 0                   0 S  19   0      -   0  bg SoundPoolThread
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2379   250 1165788  94448 0                   0 S  19   0      -   0  bg emui:screenshot
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2381   250 1165788  94448 0                   0 S  19   0      -   0  bg HwBinder:2363_1
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2384   250 1165788  94448 0                   0 S  23  -4      -   0  bg RenderThread
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2386   250 1165788  94408 0                   0 S  23  -4      -   0  bg mali-mem-purge
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2387   250 1165788  94340 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2388   250 1165788  94276 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2389   250 1165788  94216 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2390   250 1165788  94148 0                   0 S  23  -4      -   0  bg mali-utility-wo
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2391   250 1165788  94140 0                   0 S  23  -4      -   0  bg mali-cmar-backe
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2392   250 1165788  94124 0                   0 S  23  -4      -   0  bg mali-hist-dump
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2403   250 1165788  94112 0                   0 S  35 -16      -   0  bg AudioTrack
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2424   250 1165788  94112 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2758   250 1165788  94112 0                   0 S  19   0      -   0  bg Binder:2363_4
+u:r:platform_app:s0:c512,c768  u0_a22        2363  2973   250 1165788  94112 0                   0 S  21  -2      -   0  bg AsyncTask #2
+u:r:kernel:s0                  root          2385  2385     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:system_app:s0              system        2440  2440   250 1135176  94508 0                   0 S  19   0      -   0  bg com.zmapp.sms
+u:r:system_app:s0              system        2440  2445   250 1135176  94508 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:system_app:s0              system        2440  2446   250 1135176  94508 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:system_app:s0              system        2440  2447   250 1135176  94508 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:system_app:s0              system        2440  2448   250 1135176  94508 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:system_app:s0              system        2440  2449   250 1135176  94508 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:system_app:s0              system        2440  2450   250 1135176  94508 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:system_app:s0              system        2440  2451   250 1135176  94508 0                   0 S  19   0      -   0  bg Binder:2440_1
+u:r:system_app:s0              system        2440  2452   250 1135176  94508 0                   0 S  19   0      -   0  bg Binder:2440_2
+u:r:system_app:s0              system        2440  2453   250 1135176  94508 0                   0 S  19   0      -   0  bg Binder:2440_3
+u:r:system_app:s0              system        2440  2455   250 1135176  94508 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:system_app:s0              system        2440  2457   250 1135176  94508 0                   0 S  19   0      -   0  bg RenderThread
+u:r:system_app:s0              system        2440  2459   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-mem-purge
+u:r:system_app:s0              system        2440  2460   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:system_app:s0              system        2440  2461   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:system_app:s0              system        2440  2462   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:system_app:s0              system        2440  2463   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:system_app:s0              system        2440  2464   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-cmar-backe
+u:r:system_app:s0              system        2440  2465   250 1135176  94508 0                   0 S  29 -10      -   0  bg mali-hist-dump
+u:r:system_app:s0              system        2440  2466   250 1135176  94508 0                   0 S  29 -10      -   0  bg RenderThread
+u:r:system_app:s0              system        2440  2467   250 1135176  94508 0                   0 S  21  -2      -   0  bg hwuiTask1
+u:r:system_app:s0              system        2440  2468   250 1135176  94508 0                   0 S  21  -2      -   0  bg hwuiTask2
+u:r:system_app:s0              system        2440  2488   250 1135176  94508 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:kernel:s0                  root          2454  2454     2       0      0 0                   0 S  39 -20      -   0  fg kworker/u9:0
+u:r:kernel:s0                  root          2458  2458     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:shell:s0                   shell         2484  2484  1971    4236   1972 unix_stream_read_generic b10df570 R 19 0 - 0 fg bugreport
+u:r:dumpstate:s0               shell         2486  2486     1   12644   5364 0                   0 S  39 -20      -   0  fg dumpstate
+u:r:kernel:s0                  root          2491  2491     2       0      0 0                   0 S  19   0      -   0  fg kworker/1:0
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2492   250 1214752 113588 0                   0 S  19   0      -   0  bg gyonghui.market
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2497   250 1214752 113588 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2498   250 1214752 113588 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2499   250 1214752 113588 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2500   250 1214752 113588 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2501   250 1214752 113588 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2502   250 1214752 113588 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2503   250 1214752 113588 0                   0 S  19   0      -   0  bg Binder:2492_1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2504   250 1214752 113588 0                   0 S  19   0      -   0  bg Binder:2492_2
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2505   250 1214752 113588 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2509   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-2-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2511   250 1214752 113588 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2513   250 1214752 113588 0                   0 S   9  10      -   0  bg AsyncTask #1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2515   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-3-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2518   250 1214752 113588 0                   0 S   9  10      -   0  bg AsyncTask #2
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2519   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-5-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2520   250 1214752 113588 0                   0 S   9  10      -   0  bg AsyncTask #3
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2527   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-2-thread-2
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2528   250 1214752 113588 0                   0 S  29 -10      -   0  bg gyonghui.market
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2529   250 1214752 113588 0                   0 S  29 -10      -   0  bg gyonghui.market
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2530   250 1214752 113588 0                   0 S  29 -10      -   0  bg gyonghui.market
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2531   250 1214752 113588 0                   0 S  29 -10      -   0  bg gyonghui.market
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2537   250 1214752 113588 0                   0 S  19   0      -   0  bg Thread-3
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2545   250 1214752 113588 0                   0 S  19   0      -   0  bg ConnectivityThr
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2546   250 1214752 113588 0                   0 S  27  -8      -   0  bg process reaper
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2550   250 1214752 113588 0                   0 S  19   0      -   0  bg Binder:2492_3
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2551   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-4-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2555   250 1214752 113588 0                   0 S  19   0      -   0  bg SL-NetWorkSende
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2556   250 1214752 113588 0                   0 S   9  10      -   0  bg DispatchThread
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2557   250 1214752 113588 0                   0 S  19   0      -   0  bg LoadThread1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2559   250 1214752 113588 0                   0 S  19   0      -   0  bg work_thread
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2560   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-mem-purge
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2561   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2562   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2563   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2564   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2565   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-cmar-backe
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2566   250 1214752 113588 0                   0 S  19   0      -   0  bg mali-hist-dump
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2567   250 1214752 113588 0                   0 S  19   0      -   0  bg NetWorkSender
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2568   250 1214752 113588 0                   0 S  19   0      -   0  bg FileObserver
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2569   250 1214752 113588 0                   0 S   9  10      -   0  bg DataWriterThrea
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2570   250 1214752 113588 0                   0 S   9  10      -   0  bg Thread-7
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2571   250 1214752 113588 0                   0 S   9  10      -   0  bg Thread-8
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2572   250 1214752 113588 0                   0 S   9  10      -   0  bg Thread-9
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2573   250 1214752 113588 0                   0 S   9  10      -   0  bg Thread-10
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2574   250 1214752 113588 0                   0 S   9  10      -   0  bg Thread-11
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2579   250 1214752 113588 0                   0 S  19   0      -   0  bg RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2582   250 1214752 113588 0                   0 S  21  -2      -   0  bg hwuiTask1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2583   250 1214752 113588 0                   0 S  29 -10      -   0  bg RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2586   250 1214752 113588 0                   0 S  19   0      -   0  bg JZVD
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2587   250 1214752 113588 0                   0 S  19   0      -   0  bg AppWorkThread
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2588   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2589   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2595   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-2-thread-3
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2599   250 1214752 113588 0                   0 S  19   0      -   0  bg arch_disk_io_0
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2605   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2606   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2607   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2608   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2609   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2610   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2611   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2612   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2613   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2614   250 1214752 113588 0                   0 S  19   0      -   0  bg arch_disk_io_1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2616   250 1214752 113588 0                   0 S  19   0      -   0  bg LoadThread2
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2618   250 1214752 113588 0                   0 S  19   0      -   0  bg pool-8-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2643   250 1214752 113588 0                   0 S  19   0      -   0  bg IntentService[G
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2649   250 1214752 113588 0                   0 S  19   0      -   0  bg Binder:2492_4
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2665   250 1214752 113588 0                   0 S  19   0      -   0  bg Binder:2492_5
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2708   250 1214752 113588 0                   0 S  19   0      -   0  bg DefaultDispatch
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2709   250 1214752 113588 0                   0 S  19   0      -   0  bg arch_disk_io_2
+u:r:untrusted_app:s0:c512,c768 u0_a76        2492  2711   250 1214752 113588 0                   0 S  21  -2      -   0  bg hwuiTask2
+u:r:kernel:s0                  root          2558  2558     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2619   250 1128020  77300 0                   0 S  19   0      -   0  bg ket:pushservice
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2624   250 1128020  77300 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2625   250 1128020  77300 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2626   250 1128020  77300 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2627   250 1128020  77300 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2628   250 1128020  77300 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2629   250 1128020  77300 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2630   250 1128020  77300 0                   0 S  19   0      -   0  bg Binder:2619_1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2631   250 1128020  77300 0                   0 S  19   0      -   0  bg Binder:2619_2
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2632   250 1128020  77300 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2634   250 1128020  77300 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2637   250 1128020  77300 0                   0 S  19   0      -   0  bg CoreThread
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2639   250 1128020  77300 0                   0 S  21  -2      -   0  bg TS-processor
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2640   250 1128020  77300 0                   0 S  19   0      -   0  bg TS-pool-1
+u:r:untrusted_app:s0:c512,c768 u0_a76        2619  2641   250 1128020  77300 0                   0 S  19   0      -   0  bg pool-1-thread-1
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2653   250 1137936  82768 0                   0 S  19   0      -   0  bg m.example.demo1
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2659   250 1137936  82768 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2660   250 1137936  82768 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2661   250 1137936  82768 0                   0 S  19   0      -   0  bg JDWP
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2662   250 1137936  82768 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2663   250 1137936  82768 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2664   250 1137936  82768 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2666   250 1137936  82768 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2667   250 1137936  82768 0                   0 S  19   0      -   0  bg Binder:2653_1
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2668   250 1137936  82768 0                   0 S  19   0      -   0  bg Binder:2653_2
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2669   250 1137936  82768 0                   0 S  19   0      -   0  bg Binder:2653_3
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2670   250 1137936  82768 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2674   250 1137936  82768 0                   0 S  19   0      -   0  bg RenderThread
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2676   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-mem-purge
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2677   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2678   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2679   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2680   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-utility-wo
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2681   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-cmar-backe
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2682   250 1137936  82768 0                   0 S  29 -10      -   0  bg mali-hist-dump
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2683   250 1137936  82768 0                   0 S  29 -10      -   0  bg RenderThread
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2684   250 1137936  82768 0                   0 S  21  -2      -   0  bg hwuiTask1
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2685   250 1137936  82768 0                   0 S  21  -2      -   0  bg hwuiTask2
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2691   250 1137936  82768 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:untrusted_app_25:s0:c512,c768 u0_a81     2653  2703   250 1137936  82768 0                   0 S  19   0      -   0  bg Binder:2653_4
+u:r:kernel:s0                  root          2675  2675     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:kernel:s0                  root          2763  2763     2       0      0 0                   0 S  19   0      -   0  fg kworker/3:0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2766   250 1513272 264888 0                   0 S  29 -10      -   0  ta com.tencent.mm
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2771   250 1513272 264888 0                   0 R  10   9      -   0  ta Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2772   250 1513272 264888 0                   0 S  19   0      -   0  ta Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2773   250 1513272 264888 0                   0 S  15   4      -   0  ta ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2774   250 1513272 264888 0                   0 S  15   4      -   0  ta FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2775   250 1513272 264888 0                   0 S  15   4      -   0  ta FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2776   250 1513272 264888 0                   0 S  15   4      -   0  ta HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2777   250 1513272 264888 0                   0 S  19   0      -   0  ta Binder:2766_1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2778   250 1513272 264888 0                   0 S  19   0      -   0  ta Binder:2766_2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2779   250 1513272 264888 0                   0 S  10   9      -   0  ta Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2782   250 1513272 264888 0                   0 S  19   0      -   0  ta matrix_time_upd
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2783   250 1513272 264888 0                   0 S  19   0      -   0  ta historyMsgHandl
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2788   250 1513272 264888 0                   0 S  19   0      -   0  ta pool-1-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2791   250 1513272 264888 0                   0 S  19   0      -   0  ta Vending-LogicTh
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2792   250 1513272 264888 0                   0 S   9  10      -   0  ta Vending-HeavyWo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2795   250 1513272 264888 0                   0 S  15   4      -   0  ta VFS.Maintenance
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2798   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]TP#Internal
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2800   250 1513272 264888 0                   0 S  19   0      -   0  ta AppForegroundDe
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2801   250 1513272 264888 0                   0 S  19   0      -   0  ta [D]#worker
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2814   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2816   250 1513272 264888 0                   0 S  21  -2      -   0  ta queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2818   250 1513272 264888 0                   0 S   9  10      -   0  ta Measurement Wor
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2820   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2821   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2822   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2823   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2824   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2825   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-5
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2833   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2839   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2840   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2843   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2844   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2845   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2846   250 1513272 264888 0                   0 S  27  -8      -   0  ta mars::cdn
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2847   250 1513272 264888 0                   0 S  27  -8      -   0  ta mars::webnet
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2848   250 1513272 264888 0                   0 S  27  -8      -   0  ta mars::2848
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2849   250 1513272 264888 0                   0 S  27  -8      -   0  ta parallels-4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2852   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2854   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2855   250 1513272 264888 0                   0 S  29 -10      -   0  ta com.tencent.mm
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2856   250 1513272 264888 0                   0 S  29 -10      -   0  ta com.tencent.mm
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2857   250 1513272 264888 0                   0 S  29 -10      -   0  ta com.tencent.mm
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2858   250 1513272 264888 0                   0 S  29 -10      -   0  ta com.tencent.mm
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2862   250 1513272 264888 0                   0 S  19   0      -   0  ta IPCThreadPool#W
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2866   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#5
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2868   250 1513272 264888 0                   0 S  27  -8      -   0  ta mars::2868
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2869   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#6
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2870   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2871   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2872   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#7
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2873   250 1513272 264888 0                   0 S  29 -10      -   0  ta RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2874   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#8
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2875   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#9
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2877   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-mem-purge
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2878   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2879   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2880   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2881   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-utility-wo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2882   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-cmar-backe
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2883   250 1513272 264888 0                   0 S  29 -10      -   0  ta mali-hist-dump
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2885   250 1513272 264888 0                   0 S  19   0      -   0  ta Binder:2766_3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2886   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#10
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2887   250 1513272 264888 0                   0 S  29 -10      -   0  ta RenderThread
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2889   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#11
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2890   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#12
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2891   250 1513272 264888 0                   0 S  19   0      -   0  ta default_matrix_
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2892   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#13
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2894   250 1513272 264888 0                   0 S  19   0      -   0  ta matrix_res
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2895   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#14
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2896   250 1513272 264888 0                   0 S  19   0      -   0  ta [GT]ColdPool#15
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2897   250 1513272 264888 0                   0 S  19   0      -   0  ta FileObserver
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2911   250 1513272 264888 0                   0 S  38 -19      -   0  ta audio_mix_contr
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2916   250 1513272 264888 0                   0 S  19   0      -   0  ta Binder:2766_4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2931   250 1513272 264888 0                   0 S  19   0      -   0  ta LeakMonitor
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2932   250 1513272 264888 0                   0 S  19   0      -   0  ta GpuResLeakMonit
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2934   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2956   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  2968   250 1513272 264888 0                   0 S  27  -8      -   0  ta Check-ANR-State
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  3046   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#4
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  3067   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#5
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  3068   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#6
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  3069   250 1513272 264888 0                   0 S  23  -4      -   0  ta [GT]HotPool#7
+u:r:untrusted_app:s0:c512,c768 u0_a80        2766  3088   250 1513272 264888 0                   0 S  21  -2      -   0  ta hwuiTask1
+u:r:kernel:s0                  root          2876  2876     2       0      0 0                   0 S  39 -20      -   0  fg kbase_event
+u:r:system_app:s0              system        2898  2898   250 1165312  85528 0                   0 S  19   0      -   0  bg ndroid.settings
+u:r:system_app:s0              system        2898  2903   250 1165312  85528 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:system_app:s0              system        2898  2904   250 1165312  85528 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:system_app:s0              system        2898  2905   250 1165312  85528 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:system_app:s0              system        2898  2906   250 1165312  85528 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:system_app:s0              system        2898  2907   250 1165312  85528 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:system_app:s0              system        2898  2908   250 1165312  85528 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:system_app:s0              system        2898  2909   250 1165312  85528 0                   0 S  19   0      -   0  bg Binder:2898_1
+u:r:system_app:s0              system        2898  2910   250 1165312  85528 0                   0 S  19   0      -   0  bg Binder:2898_2
+u:r:system_app:s0              system        2898  2912   250 1165312  85528 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:system_app:s0              system        2898  2921   250 1165312  85528 0                   0 S  21  -2      -   0  bg HwBinder:2898_1
+u:r:system_app:s0              system        2898  2925   250 1165312  85528 0                   0 S  19   0      -   0  bg AsyncTask #1
+u:r:system_app:s0              system        2898  2927   250 1165312  85528 0                   0 S  19   0      -   0  bg AsyncTask #2
+u:r:system_app:s0              system        2898  2963   250 1165312  85528 0                   0 S  19   0      -   0  bg Binder:2898_3
+u:r:kernel:s0                  root          2935  2935     2       0      0 0                   0 S  19   0      -   0  fg kworker/0:0
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2940   250 1206824 132696 0                   0 D  19   0      -   0  fg putmethod.sogou
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2945   250 1206824 132696 0                   0 R  10   9      -   0  fg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2947   250 1206824 132696 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2948   250 1206824 132696 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2949   250 1206824 132696 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2950   250 1206824 132696 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2951   250 1206824 132696 0                   0 D  15   4      -   0  fg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2952   250 1206824 132696 0                   0 S  19   0      -   0  fg Binder:2940_1
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2953   250 1206824 132696 0                   0 S  19   0      -   0  fg Binder:2940_2
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2955   250 1206824 132696 0                   0 S  19   0      -   0  fg Binder:2940_3
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2957   250 1206824 132696 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2959   250 1206824 132696 0                   0 S   9  10      -   0  fg matrix_time_upd
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2966   250 1206824 132696 0                   0 S  21  -2      -   0  fg queued-work-loo
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2970   250 1206824 132696 0                   0 S   9  10      -   0  fg Sogou-Aysnc-Thr
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2971   250 1206824 132696 0                   0 S   9  10      -   0  fg Sogou-Aysnc-Thr
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2982   250 1206824 132696 0                   0 S  19   0      -   0  fg Idle-10.19.1
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2994   250 1206824 132696 0                   0 S  19   0      -   0  fg dbCache
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2996   250 1206824 132696 0                   0 S   9  10      -   0  fg Sogou-Aysnc-Thr
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2998   250 1206824 132696 0                   0 S  19   0      -   0  fg logan-thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  2999   250 1206824 132696 0                   0 S  19   0      -   0  fg logger_sdk_hand
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3000   250 1206824 132696 0                   0 S   9  10      -   0  fg Thread-3
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3002   250 1206824 132696 0                   0 S  19   0      -   0  fg .1, thread No.1
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3003   250 1206824 132696 0                   0 S  19   0      -   0  fg performance_sdk
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3005   250 1206824 132696 0                   0 S  19   0      -   0  fg MonitorThread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3010   250 1206824 132696 0                   0 S  19   0      -   0  fg koom
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3012   250 1206824 132696 0                   0 D  19   0      -   0  fg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3013   250 1206824 132696 0                   0 S  19   0      -   0  fg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3014   250 1206824 132696 0                   0 S  19   0      -   0  fg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3015   250 1206824 132696 0                   0 D  19   0      -   0  fg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3018   250 1206824 132696 0                   0 D  19   0      -   0  fg sogou-foreign-t
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3022   250 1206824 132696 0                   0 S  19   0      -   0  fg sogou-foreign-t
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3025   250 1206824 132696 0                   0 S  19   0      -   0  fg pool-1-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3026   250 1206824 132696 0                   0 S  19   0      -   0  fg HandlerThread
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3034   250 1206824 132696 0                   0 S  27  -8      -   0  fg process reaper
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3036   250 1206824 132696 0                   0 S  19   0      -   0  fg pingback
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3037   250 1206824 132696 0                   0 S  27  -8      -   0  fg process reaper
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3040   250 1206824 132696 0                   0 S  27  -8      -   0  fg process reaper
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3042   250 1206824 132696 0                   0 S  19   0      -   0  fg Binder:2940_4
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3044   250 1206824 132696 0                   0 S  27  -8      -   0  fg process reaper
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3065   250 1206824 132696 0                   0 S   9  10      -   0  fg Sogou-Aysnc-Thr
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3086   250 1206824 132696 0                   0 S   9  10      -   0  fg Sogou-Aysnc-Thr
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3090   250 1206824 132696 0                   0 S  19   0      -   0  fg Binder:2940_5
+u:r:untrusted_app:s0:c512,c768 u0_a78        2940  3105   250 1206824 132696 0                   0 S  19   0      -   0  fg InputCollector#
+u:r:kernel:s0                  root          2954  2954     2       0      0 0                   0 S  19   0      -   0  fg kworker/u8:5
+u:r:mediaextractor:s0          mediaex       2964  2964     1   44428  12180 0                   0 S  19   0      -   0  fg mediaextractor
+u:r:mediaextractor:s0          mediaex       2964  3007     1   44428  12180 0                   0 S  19   0      -   0  fg Binder:2964_1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2974   250 1336188 170168 0                   0 D  19   0      -   0  fg tencent.mm:push
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2981   250 1336188 170168 0                   0 R  10   9      -   0  fg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2983   250 1336188 170168 0                   0 S  19   0      -   0  fg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2984   250 1336188 170168 0                   0 S  15   4      -   0  fg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2985   250 1336188 170168 0                   0 S  15   4      -   0  fg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2986   250 1336188 170168 0                   0 S  15   4      -   0  fg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2987   250 1336188 170168 0                   0 S  15   4      -   0  fg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2988   250 1336188 170168 0                   0 S  19   0      -   0  fg Binder:2974_1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2991   250 1336188 170168 0                   0 S  19   0      -   0  fg Binder:2974_2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2992   250 1336188 170168 0                   0 S  19   0      -   0  fg Binder:2974_3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2993   250 1336188 170168 0                   0 S  10   9      -   0  fg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2995   250 1336188 170168 0                   0 D  19   0      -   0  fg matrix_time_upd
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  2997   250 1336188 170168 0                   0 S  19   0      -   0  fg historyMsgHandl
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3008   250 1336188 170168 0                   0 S  19   0      -   0  fg Vending-LogicTh
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3009   250 1336188 170168 0                   0 S   9  10      -   0  fg Vending-HeavyWo
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3021   250 1336188 170168 0                   0 S  15   4      -   0  fg VFS.Maintenance
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3023   250 1336188 170168 0                   0 S  19   0      -   0  fg [GT]TP#Internal
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3027   250 1336188 170168 0                   0 S  19   0      -   0  fg tencent.mm:push
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3028   250 1336188 170168 0                   0 S  19   0      -   0  fg tencent.mm:push
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3029   250 1336188 170168 0                   0 S  19   0      -   0  fg tencent.mm:push
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3031   250 1336188 170168 0                   0 S  19   0      -   0  fg tencent.mm:push
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3032   250 1336188 170168 0                   0 S  19   0      -   0  fg AppForegroundDe
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3050   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3051   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3052   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3053   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-3
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3054   250 1336188 170168 0                   0 S  19   0      -   0  fg FileObserver
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3117   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3118   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3119   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3120   250 1336188 170168 0                   0 S  27  -8      -   0  fg parallels-0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3121   250 1336188 170168 0                   0 S  19   0      -   0  fg [GT]ColdPool#0
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3123   250 1336188 170168 0                   0 S  19   0      -   0  fg IPCThreadPool#W
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3126   250 1336188 170168 0                   0 S  19   0      -   0  fg IPCThreadPool#I
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3127   250 1336188 170168 0                   0 S  19   0      -   0  fg IPCThreadPool#T
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3129   250 1336188 170168 0                   0 S  19   0      -   0  fg [GT]ColdPool#1
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3133   250 1336188 170168 0                   0 S  19   0      -   0  fg [GT]ColdPool#2
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3136   250 1336188 170168 0                   0 S  19   0      -   0  fg default_matrix_
+u:r:untrusted_app:s0:c512,c768 u0_a80        2974  3137   250 1336188 170168 0                   0 S  19   0      -   0  fg [GT]ColdPool#3
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3071   250 1175004  93256 0                   0 S  19   0      -   0  bg od.sogou:daemon
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3077   250 1175004  93256 0                   0 S  10   9      -   0  bg Jit thread pool
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3078   250 1175004  93256 0                   0 S  19   0      -   0  bg Signal Catcher
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3079   250 1175004  93256 0                   0 S  15   4      -   0  bg ReferenceQueueD
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3080   250 1175004  93256 0                   0 S  15   4      -   0  bg FinalizerDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3081   250 1175004  93256 0                   0 S  15   4      -   0  bg FinalizerWatchd
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3082   250 1175004  93256 0                   0 S  15   4      -   0  bg HeapTaskDaemon
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3083   250 1175004  93256 0                   0 S  19   0      -   0  bg Binder:3071_1
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3085   250 1175004  93256 0                   0 S  19   0      -   0  bg Binder:3071_2
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3087   250 1175004  93256 0                   0 S  19   0      -   0  bg Binder:3071_3
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3089   250 1175004  93256 0                   0 S  10   9      -   0  bg Profile Saver
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3091   250 1175004  93256 0                   0 S   9  10      -   0  bg matrix_time_upd
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3092   250 1175004  93256 0                   0 S  19   0      -   0  bg Idle-10.19.1
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3097   250 1175004  93256 0                   0 S   9  10      -   0  bg Sogou-Aysnc-Thr
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3098   250 1175004  93256 0                   0 S  19   0      -   0  bg .1, thread No.1
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3100   250 1175004  93256 0                   0 S  19   0      -   0  bg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3102   250 1175004  93256 0                   0 S  19   0      -   0  bg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3103   250 1175004  93256 0                   0 S  19   0      -   0  bg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3106   250 1175004  93256 0                   0 S   9  10      -   0  bg Thread-2
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3111   250 1175004  93112 0                   0 S  19   0      -   0  bg pool-1-thread-1
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3112   250 1175004  93040 0                   0 S  19   0      -   0  bg SFission Thread
+u:r:untrusted_app:s0:c512,c768 u0_a78        3071  3113   250 1175004  92964 0                   0 S  21  -2      -   0  bg queued-work-loo
+u:r:dumpstate:s0               shell         3134  3134  2486    6032   3668 0            afd53570 R  39 -20      -   0  fg ps

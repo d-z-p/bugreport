@@ -1,0 +1,26 @@
+Debug mode: false
+Verbose mode: false
+Disabled users: {0=false}
+Max partitions per session: 10
+Cached services: 1
+
+Service at index 0
+  User: 0
+  Component: null
+  Component from settings: 
+  Default component: 
+  Disabled: false
+  Setup complete: true
+  Last prune: 0
+  No sessions
+  Clients
+    callbacks: 3
+    killed: false
+    broadcasts count: -1
+  No event on last fill response
+Autofill UI
+  showsFillUi: false
+  showsSaveUi: false
+Requests history:
+UI latency history:
+--------- 0.008s was the duration of dumpsys autofill, ending at: 2023-05-22 17:52:06

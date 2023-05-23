@@ -1,0 +1,7 @@
+local ::1 dev lo  proto none  metric 0  pref medium
+local 2408:8456:3800:980:1:2:9bb5:b1 dev lo  proto none  metric 0  pref medium
+local fe80::1:2:9bb5:b1 dev lo  proto none  metric 0  pref medium
+local fe80::41c7:bec1:da0a:ea55 dev lo  proto none  metric 0  pref medium
+local fe80::c043:e2ff:fe09:9158 dev lo  proto none  metric 0  pref medium
+ff00::/8 dev dummy0  metric 256  pref medium
+ff00::/8 dev seth_lte0  metric 256  pref medium

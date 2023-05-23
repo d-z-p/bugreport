@@ -1,0 +1,157 @@
+objs:
+--------------
+malitl_263_0xaca66e20 Mali: 0
+
+malitl_263_0xaca66fc0 Mali: 0
+
+malitl_283_0xb1dede20 Mali: 8128
+
+malitl_283_0xb17f2eb8 Mali: 8375
+  pt signaled@926.983478952: 8371(0)
+  pt signaled@927.123181413: 8373(0)
+  pt signaled@927.162987336: 8374(0)
+  pt signaled@927.176552375: 8375(0)
+
+malitl_263_0xa9926548 Mali: 0
+
+malitl_263_0xa9926958 Mali: 0
+
+sprd-adf-dev sw_sync: 8373
+  pt signaled@11.543811914: 2
+  pt signaled@921.458236994: 8279
+  pt signaled@926.699295683: 8367
+  pt signaled@927.038459452: 8371
+  pt signaled@927.100805336: 8372
+  pt active: 8374
+  pt active: 8375
+  pt active: 8376
+
+malitl_925_0x90965e20 Mali: 0
+
+malitl_925_0x90106eb8 Mali: 0
+
+malitl_925_0x9016ae90 Mali: 228
+  pt signaled@919.620649995: 228(0)
+
+malitl_283_0xae2a3f40 Mali: 6088
+  pt signaled@927.165105221: 6088(0)
+
+malitl_1449_0x948e8e20 Mali: 0
+
+malitl_1449_0x944fbeb8 Mali: 0
+
+malitl_2227_0x93f72e20 Mali: 0
+
+malitl_2227_0x938c5eb8 Mali: 0
+
+malitl_1771_0x94578e20 Mali: 0
+
+malitl_1771_0x943f8eb8 Mali: 0
+
+malitl_2363_0xa487ce20 Mali: 0
+
+malitl_2363_0x92026eb8 Mali: 0
+
+malitl_2440_0xa4878e20 Mali: 0
+
+malitl_2440_0x94976eb8 Mali: 0
+
+malitl_2492_0x91bd2d68 Mali: 0
+
+malitl_2492_0x91b9f1d8 Mali: 0
+
+malitl_2653_0x94689e20 Mali: 0
+
+malitl_2653_0x946dbeb8 Mali: 0
+
+malitl_925_0x900a9da8 Mali: 1
+  pt signaled@908.721447811: 1(0)
+
+malitl_2766_0x845efe20 Mali: 0
+
+malitl_2766_0x86969eb8 Mali: 0
+
+malitl_925_0x8fe6d530 Mali: 2
+  pt signaled@921.341502686: 2(0)
+
+malitl_2766_0x865ede90 Mali: 2
+  pt signaled@923.619439916: 2(0)
+
+malitl_2766_0x88b0ff18 Mali: 22
+  pt signaled@926.967214567: 22(0)
+
+malitl_2766_0x865ede90 Mali: 1
+  pt signaled@927.037932028: 1(0)
+
+fences:
+--------------
+[00000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@11.543811914: 2 / 8373
+
+[00000000] com.android.systemui.ImageWa:0: signaled
+
+[00000000] mali_fence: signaled
+  malitl_925_0x900a9da8_pt signaled@908.721447811: 1(0) / 1
+
+[00000000] StatusBar#0:2: signaled
+
+[00000000] mali_fence: signaled
+  malitl_925_0x9016ae90_pt signaled@919.620649995: 228(0) / 228
+
+[00000000] StatusBar#0:1: signaled
+
+[00000000] mali_fence: signaled
+  malitl_925_0x8fe6d530_pt signaled@921.341502686: 2(0) / 2
+
+[00000000] LayerRelease: signaled
+  sprd-adf-dev_pt signaled@921.458236994: 8279 / 8373
+
+[00000000] mali_fence: signaled
+  malitl_2766_0x865ede90_pt signaled@923.619439916: 2(0) / 2
+
+[00000000] com.tencent.mm/com.tencent.m:2: signaled
+
+[00000000] LayerRelease: signaled
+  sprd-adf-dev_pt signaled@926.699295683: 8367 / 8373
+
+[00000000] mali_fence: signaled
+  malitl_2766_0x88b0ff18_pt signaled@926.967214567: 22(0) / 22
+
+[00000000] com.tencent.mm/com.tencent.m:0: signaled
+  malitl_283_0xb17f2eb8_pt signaled@926.983478952: 8371(0) / 8375
+  sprd-adf-dev_pt signaled@927.038459452: 8371 / 8373
+
+[00000000] mali_fence: signaled
+  malitl_2766_0x865ede90_pt signaled@927.037932028: 1(0) / 1
+
+[00000000] LayerRelease: signaled
+  sprd-adf-dev_pt signaled@927.100805336: 8372 / 8373
+
+[00000000] mali_fence: signaled
+  malitl_283_0xb17f2eb8_pt signaled@927.123181413: 8373(0) / 8375
+
+[00000000] sprd-adf-dev: active
+  sprd-adf-dev_pt active: 8374 / 8373
+
+[00000000] mali_fence: signaled
+  malitl_283_0xb17f2eb8_pt signaled@927.162987336: 8374(0) / 8375
+
+[00000000] mali_fence: signaled
+  malitl_283_0xae2a3f40_pt signaled@927.165105221: 6088(0) / 6088
+
+[00000000] sprd-adf-dev: active
+  sprd-adf-dev_pt active: 8375 / 8373
+
+[00000000] mali_fence: signaled
+  malitl_283_0xb17f2eb8_pt signaled@927.176552375: 8375(0) / 8375
+
+[00000000] sprd-adf-dev: active
+  sprd-adf-dev_pt active: 8376 / 8373
+
+[00000000] com.tencent.mm/com.tencent.m:2: active
+  sprd-adf-dev_pt active: 8375 / 8373
+
+[00000000] navbackleft#0:0: active
+  sprd-adf-dev_pt active: 8375 / 8373
+
+

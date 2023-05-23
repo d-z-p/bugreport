@@ -1,0 +1,436 @@
+user=0 
+  In-memory daily stats
+  timeRange="2023/5/22 17:37???17:51" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.messaging totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.provision totalTime="00:00" lastTime="2023/5/22 17:37" 
+      package=com.sprd.applock totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.keychain totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.spreadtrum.vce totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=android.ext.services totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.jx.launcher totalTime="01:20" lastTime="2023/5/22 17:41" 
+      package=com.divo.phone totalTime="01:35" lastTime="2023/5/22 17:40" 
+      package=com.spreadtrum.vowifi totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.settings totalTime="01:10" lastTime="2023/5/22 17:41" 
+      package=com.android.phone totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.systemui totalTime="00:00" lastTime="2023/5/22 17:39" 
+      package=com.android.modemnotifier totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.bluetooth totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1974/5/22 17:30" 
+    
+    ChooserCounts
+      package=com.android.providers.telephony 
+      package=com.android.providers.calendar 
+      package=com.android.providers.media 
+      package=com.android.providers.downloads 
+      package=com.android.messaging 
+      package=com.android.defcontainer 
+      package=com.android.carrierconfig 
+      package=com.android.provision 
+      package=com.sprd.applock 
+      package=com.android.keychain 
+      package=com.spreadtrum.vce 
+      package=android.ext.services 
+      package=com.jx.launcher 
+      package=com.divo.phone 
+      package=com.spreadtrum.vowifi 
+      package=com.android.settings 
+      package=com.android.phone 
+      package=com.android.providers.blockednumber 
+      package=com.android.providers.userdictionary 
+      package=com.android.systemui 
+      package=com.android.modemnotifier 
+      package=com.android.bluetooth 
+      package=com.android.providers.contacts 
+    configurations
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-finger-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h320dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+    events
+      time="2023/5/22 17:37" type=CONFIGURATION_CHANGE package=android config=zh-rCN-ldltr-sw320dp-w320dp-h320dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 flags=0x0 
+      time="2023/5/22 17:37" type=CONFIGURATION_CHANGE package=android config=h318dp-v27 flags=0x0 
+      time="2023/5/22 17:37" type=CONFIGURATION_CHANGE package=android config=notnight-v27 flags=0x0 
+      time="2023/5/22 17:37" type=CONFIGURATION_CHANGE package=android config=finger-v27 flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.CryptKeeper flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.CryptKeeper flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.FallbackHome flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.FallbackHome flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_FOREGROUND package=com.android.provision class=com.android.provision.DefaultActivity flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_BACKGROUND package=com.android.provision class=com.android.provision.DefaultActivity flags=0x0 
+      time="2023/5/22 17:37" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.zmapp.activity.PlaysimActivity flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.zmapp.activity.PlaysimActivity flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings2 flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings2 flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings$DisplaySettingsActivity flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings$DisplaySettingsActivity flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+      time="2023/5/22 17:38" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings$DisplaySettingsActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings$DisplaySettingsActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings2 flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings2 flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.divo.phone class=com.divo.phone.MainActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.divo.phone class=com.divo.phone.MainActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.DwDevelopSetActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.DwDevelopSetActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.divo.phone class=com.divo.phone.MainActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.divo.phone class=com.divo.phone.MainActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.android.systemui class=com.android.systemui.usb.UsbDebuggingActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_BACKGROUND package=com.android.systemui class=com.android.systemui.usb.UsbDebuggingActivity flags=0x0 
+      time="2023/5/22 17:39" type=MOVE_TO_FOREGROUND package=com.divo.phone class=com.divo.phone.MainActivity flags=0x0 
+      time="2023/5/22 17:40" type=MOVE_TO_BACKGROUND package=com.divo.phone class=com.divo.phone.MainActivity flags=0x0 
+      time="2023/5/22 17:40" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.jx.launcher.Launcher flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings2 flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings2 flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.Settings$NetworkDashboardActivity flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.Settings$NetworkDashboardActivity flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.zmapp.activity.WifiInputActivity flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.zmapp.activity.WifiInputActivity flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.jx.launcher class=com.zmapp.activity.WifiInputActivity flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_BACKGROUND package=com.jx.launcher class=com.zmapp.activity.WifiInputActivity flags=0x0 
+      time="2023/5/22 17:41" type=MOVE_TO_FOREGROUND package=com.android.settings class=com.android.settings.SubSettings flags=0x0 
+  In-memory weekly stats
+  timeRange="2023/5/22 17:37???17:51" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.messaging totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.provision totalTime="00:00" lastTime="2023/5/22 17:37" 
+      package=com.sprd.applock totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.keychain totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.spreadtrum.vce totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=android.ext.services totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.jx.launcher totalTime="01:20" lastTime="2023/5/22 17:41" 
+      package=com.divo.phone totalTime="01:35" lastTime="2023/5/22 17:40" 
+      package=com.spreadtrum.vowifi totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.settings totalTime="01:10" lastTime="2023/5/22 17:41" 
+      package=com.android.phone totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.systemui totalTime="00:00" lastTime="2023/5/22 17:39" 
+      package=com.android.modemnotifier totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.bluetooth totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1974/5/22 17:30" 
+    
+    ChooserCounts
+      package=com.android.providers.telephony 
+      package=com.android.providers.calendar 
+      package=com.android.providers.media 
+      package=com.android.providers.downloads 
+      package=com.android.messaging 
+      package=com.android.defcontainer 
+      package=com.android.carrierconfig 
+      package=com.android.provision 
+      package=com.sprd.applock 
+      package=com.android.keychain 
+      package=com.spreadtrum.vce 
+      package=android.ext.services 
+      package=com.jx.launcher 
+      package=com.divo.phone 
+      package=com.spreadtrum.vowifi 
+      package=com.android.settings 
+      package=com.android.phone 
+      package=com.android.providers.blockednumber 
+      package=com.android.providers.userdictionary 
+      package=com.android.systemui 
+      package=com.android.modemnotifier 
+      package=com.android.bluetooth 
+      package=com.android.providers.contacts 
+    configurations
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-finger-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h320dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+    events
+  In-memory monthly stats
+  timeRange="2023/5/22 17:37???17:51" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.messaging totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.provision totalTime="00:00" lastTime="2023/5/22 17:37" 
+      package=com.sprd.applock totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.keychain totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.spreadtrum.vce totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=android.ext.services totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.jx.launcher totalTime="01:20" lastTime="2023/5/22 17:41" 
+      package=com.divo.phone totalTime="01:35" lastTime="2023/5/22 17:40" 
+      package=com.spreadtrum.vowifi totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.settings totalTime="01:10" lastTime="2023/5/22 17:41" 
+      package=com.android.phone totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.systemui totalTime="00:00" lastTime="2023/5/22 17:39" 
+      package=com.android.modemnotifier totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.bluetooth totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1974/5/22 17:30" 
+    
+    ChooserCounts
+      package=com.android.providers.telephony 
+      package=com.android.providers.calendar 
+      package=com.android.providers.media 
+      package=com.android.providers.downloads 
+      package=com.android.messaging 
+      package=com.android.defcontainer 
+      package=com.android.carrierconfig 
+      package=com.android.provision 
+      package=com.sprd.applock 
+      package=com.android.keychain 
+      package=com.spreadtrum.vce 
+      package=android.ext.services 
+      package=com.jx.launcher 
+      package=com.divo.phone 
+      package=com.spreadtrum.vowifi 
+      package=com.android.settings 
+      package=com.android.phone 
+      package=com.android.providers.blockednumber 
+      package=com.android.providers.userdictionary 
+      package=com.android.systemui 
+      package=com.android.modemnotifier 
+      package=com.android.bluetooth 
+      package=com.android.providers.contacts 
+    configurations
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-finger-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h320dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+    events
+  In-memory yearly stats
+  timeRange="2023/5/22 17:37???17:51" 
+    packages
+      package=com.android.providers.telephony totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.calendar totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.media totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.downloads totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.messaging totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.defcontainer totalTime="00:00" lastTime="1970/1/1 08:00" 
+      package=com.android.carrierconfig totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.provision totalTime="00:00" lastTime="2023/5/22 17:37" 
+      package=com.sprd.applock totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.keychain totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.spreadtrum.vce totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=android.ext.services totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.jx.launcher totalTime="01:20" lastTime="2023/5/22 17:41" 
+      package=com.divo.phone totalTime="01:35" lastTime="2023/5/22 17:40" 
+      package=com.spreadtrum.vowifi totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.settings totalTime="01:10" lastTime="2023/5/22 17:41" 
+      package=com.android.phone totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.blockednumber totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.userdictionary totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.systemui totalTime="00:00" lastTime="2023/5/22 17:39" 
+      package=com.android.modemnotifier totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.bluetooth totalTime="00:00" lastTime="1974/5/22 17:30" 
+      package=com.android.providers.contacts totalTime="00:00" lastTime="1974/5/22 17:30" 
+    
+    ChooserCounts
+      package=com.android.providers.telephony 
+      package=com.android.providers.calendar 
+      package=com.android.providers.media 
+      package=com.android.providers.downloads 
+      package=com.android.messaging 
+      package=com.android.defcontainer 
+      package=com.android.carrierconfig 
+      package=com.android.provision 
+      package=com.sprd.applock 
+      package=com.android.keychain 
+      package=com.spreadtrum.vce 
+      package=android.ext.services 
+      package=com.jx.launcher 
+      package=com.divo.phone 
+      package=com.spreadtrum.vowifi 
+      package=com.android.settings 
+      package=com.android.phone 
+      package=com.android.providers.blockednumber 
+      package=com.android.providers.userdictionary 
+      package=com.android.systemui 
+      package=com.android.modemnotifier 
+      package=com.android.bluetooth 
+      package=com.android.providers.contacts 
+    configurations
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-finger-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h320dp-small-notlong-notround-lowdr-nowidecg-port-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+      config=zh-rCN-ldltr-sw320dp-w320dp-h318dp-small-notlong-notround-lowdr-nowidecg-port-notnight-ldpi-notouch-keysexposed-nokeys-navhidden-nonav-v27 totalTime="00:00" lastTime="2023/5/22 17:37" count=1 
+    events
+  
+  Package idle stats:
+    package=com.android.cts.priv.ctsshim lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.baidu.homework lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.abupdate.fota_demo_iot lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.telephony lastUsedElapsed=+14m30s897ms lastUsedScreenOn=+14m30s897ms idle=n
+    package=com.sprd.engineermode lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.calendar lastUsedElapsed=+10m15s124ms lastUsedScreenOn=+10m15s124ms idle=n
+    package=com.android.providers.media lastUsedElapsed=+14m21s53ms lastUsedScreenOn=+14m21s53ms idle=n
+    package=com.zmapp.sms lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sohu.inputmethod.sogou lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=plugin.sprd.supportcpversion lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.wakeupScreen lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.documentsui lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=android.auto_generated_rro__ lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.externalstorage lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.htmlviewer lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.companiondevicemanager lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.mms.service lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.omacp lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.downloads lastUsedElapsed=+14m21s53ms lastUsedScreenOn=+14m21s53ms idle=n
+    package=com.android.messaging lastUsedElapsed=+14m6s468ms lastUsedScreenOn=+14m6s468ms idle=n
+    package=com.sprd.telecom.ringbackTonePlugin lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.zmapp.album lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.sprd.telephony.server lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.browser lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.jx.inputmethod.pinyin lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.sprd.aganisttest lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.soundrecorder lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.contactsdefaultcontact lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.defcontainer lastUsedElapsed=+52s809ms lastUsedScreenOn=+52s809ms idle=n
+    package=plugin.sprd.simlock lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.downloads.ui lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.pacprocessor lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.validationtools lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.tencent.mm lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.android.certinstaller lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.carrierconfig lastUsedElapsed=+12m48s104ms lastUsedScreenOn=+12m48s104ms idle=n
+    package=plugin.sprd.supportForFastScrollBar lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=android lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.mtp lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.backupconfirm lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.contactsEFDisplay lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.quickcamera lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=addon.sprd.downloadprovider lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.provision lastUsedElapsed=+14m23s885ms lastUsedScreenOn=+14m23s885ms idle=n
+    package=com.android.statementservice lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.messaging.smilplayer lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.calendar lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.systemui.theme.dark lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.pickUpToAnswerIncomingCall lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.settings lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.sharedstoragebackup lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.shakePhoneToStartRecording lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.tencent.qqlite lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.android.webview lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.inputdevices lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.flipToMute lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.otaupdate lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.speakerToHeadset lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=addon.sprd.documentsui.plugindrm lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.applock lastUsedElapsed=+14m25s798ms lastUsedScreenOn=+14m25s798ms idle=n
+    package=com.jxapp.temperature lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.musicfx lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.mmsfolderview lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.cellbroadcastreceiver lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=android.ext.shared lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.uplmnsettings lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.onetimeinitializer lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.ztapp.callbyvideo lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.server.telecom lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.supportapnsettings lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.keychain lastUsedElapsed=+13m58s588ms lastUsedScreenOn=+13m58s588ms idle=n
+    package=com.sprd.uasetting lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.dialer lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.gallery3d lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.ss.android.ugc.aweme lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.spreadtrum.ims lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.spreadtrum.vce lastUsedElapsed=+14m25s607ms lastUsedScreenOn=+14m25s607ms idle=n
+    package=com.jx.childlike lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=android.ext.services lastUsedElapsed=+14m25s977ms lastUsedScreenOn=+14m25s977ms idle=n
+    package=com.android.calllogbackup lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.powersavemodelauncher lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.packageinstaller lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.jx.launcher lastUsedElapsed=+10m20s326ms lastUsedScreenOn=+10m20s326ms idle=n
+    package=com.android.carrierdefaultapp lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.jx.watchos.contact lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.proxyhandler lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=addon.sprd.browser.storage lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.maxRingingVolumeAndVibrate lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprdst.contactsblacklist lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.managedprovisioning lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.cellbroadcastreceiver lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.divo.phone lastUsedElapsed=+11m17s843ms lastUsedScreenOn=+11m17s843ms idle=n
+    package=com.spreadtrum.vowifi lastUsedElapsed=+14m23s786ms lastUsedScreenOn=+14m23s786ms idle=n
+    package=com.android.appsfolder lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.bootres lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.jx.market lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.baidu.voicesearch lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.pressbrightness lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.smart.cc.stepcounter lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.storagemanager lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.settings lastUsedElapsed=+10m20s206ms lastUsedScreenOn=+10m20s206ms idle=n
+    package=com.watch.iotcurrentdetect lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.spreadtrum.sgps lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.antitheft lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=addon.sprd.browser.plugindrm lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.systemupdate lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.cts.ctsshim lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.zmapp.plugin.addfriend lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=plugin.sprd.fadeDownRingtoneToVibrate lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.jx.timer lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.ztapp.themestore lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.android.vpndialogs lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.jx.watchos.setting lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.zmapp.camera lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=addon.sprd.browser.custom lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.music lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.phone lastUsedElapsed=+14m30s888ms lastUsedScreenOn=+14m30s888ms idle=n
+    package=com.android.shell lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.sprd.ImsConnectionManager lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.blockednumber lastUsedElapsed=+14m5s678ms lastUsedScreenOn=+14m5s678ms idle=n
+    package=com.android.providers.userdictionary lastUsedElapsed=+14m5s678ms lastUsedScreenOn=+14m5s678ms idle=n
+    package=com.android.emergency lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.yingyonghui.market lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    package=com.android.location.fused lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.deskclock lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.systemui lastUsedElapsed=+12m46s99ms lastUsedScreenOn=+12m46s99ms idle=n
+    package=com.android.bluetoothmidiservice lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.vodafonefeatures lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=cn.heils.faceunlock lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.modemnotifier lastUsedElapsed=+14m25s607ms lastUsedScreenOn=+14m25s607ms idle=n
+    package=com.sprd.recents lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.bluetooth lastUsedElapsed=+14m30s874ms lastUsedScreenOn=+14m30s874ms idle=n
+    package=com.spread.cachefdn lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.android.providers.contacts lastUsedElapsed=+14m5s678ms lastUsedScreenOn=+14m5s678ms idle=n
+    package=com.android.captiveportallogin lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=plugin.sprd.limitinfolength lastUsedElapsed=+14m57s505ms lastUsedScreenOn=+14m31s727ms idle=n
+    package=com.eg.android.AlipayGphone lastUsedElapsed=+14m29s442ms lastUsedScreenOn=+14m29s442ms idle=n
+    
+    totalElapsedTime=+14m58s129ms
+    totalScreenOnTime=+14m31s727ms
+
+Carrier privileged apps (have=false): null
+
+Settings:
+  mAppIdleDurationMillis=+12h0m0s0ms
+  mAppIdleWallclockThresholdMillis=+2d0h0m0s0ms
+  mCheckIdleIntervalMillis=+3h0m0s0ms
+  mAppIdleParoleIntervalMillis=+1d0h0m0s0ms
+  mAppIdleParoleDurationMillis=+10m0s0ms
+
+mAppIdleEnabled=true mAppIdleTempParoled=false mCharging=true mLastAppIdleParoledTime=0
+--------- 0.182s was the duration of dumpsys usagestats, ending at: 2023-05-22 17:52:12

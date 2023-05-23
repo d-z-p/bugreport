@@ -1,0 +1,13 @@
+Current Device Policy Manager state:
+
+  Enabled Device Admins (User 0, provisioningState: 0):
+ 
+    mPasswordOwner=-1
+
+  Constants:
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_SEC: 3600
+    DAS_DIED_SERVICE_RECONNECT_BACKOFF_INCREASE: 2.0
+    DAS_DIED_SERVICE_RECONNECT_MAX_BACKOFF_SEC: 86400
+
+  Encryption Status: inactive
+--------- 0.003s was the duration of dumpsys device_policy, ending at: 2023-05-18 12:38:57

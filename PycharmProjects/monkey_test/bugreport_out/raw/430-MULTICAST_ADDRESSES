@@ -1,0 +1,51 @@
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	dummy0
+	link  33:33:00:00:00:01
+	link  01:00:5e:00:00:01
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+3:	sit0
+	inet6 ff02::1
+	inet6 ff01::1
+4:	ip6tnl0
+	inet6 ff02::1
+	inet6 ff01::1
+5:	seth_lte0
+	inet6 ff02::1
+	inet6 ff01::1
+6:	seth_lte1
+	inet6 ff02::1
+	inet6 ff01::1
+7:	seth_lte2
+	inet6 ff02::1
+	inet6 ff01::1
+8:	seth_lte3
+	inet6 ff02::1
+	inet6 ff01::1
+9:	seth_lte4
+	inet6 ff02::1
+	inet6 ff01::1
+10:	seth_lte5
+	inet6 ff02::1
+	inet6 ff01::1
+11:	seth_lte6
+	inet6 ff02::1
+	inet6 ff01::1
+12:	seth_lte7
+	inet6 ff02::1
+	inet6 ff01::1
+13:	vowifi_tun0
+	inet6 ff02::1
+	inet6 ff01::1
+14:	wlan0
+	link  01:00:5e:00:00:01
+	link  33:33:00:00:00:01
+	link  33:33:ff:5b:9a:bb
+	inet  224.0.0.1
+	inet6 ff02::1:ff5b:9abb
+	inet6 ff02::1
+	inet6 ff01::1

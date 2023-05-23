@@ -1,0 +1,14 @@
+Current wiphy index: 0
+Cached interfaces list from kernel message: 
+Interface index: 14, name: wlan0, mac address: 40:45:da:9b:7e:6f
+------- Dump of client interface with index: 14 and name: wlan0-------
+Max number of ssids for single shot scan: 12
+Max number of ssids for scheduled scan: 16
+Max number of match sets for scheduled scan: 16
+Maximum number of scan plans: 1
+Max scan plan interval in seconds: 1000
+Max scan plan iterations: 0
+Device supports random MAC for single shot scan: 1
+Device supports random MAC for scheduled scan: 0
+------- Dump End -------
+--------- 0.004s was the duration of dumpsys wificond, ending at: 2023-05-22 17:52:12

@@ -1,0 +1,24 @@
+Recent extractors, most recent first:
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 111600, 16508)))), pid 11530: deleted
+    track {srte: (int32_t) 22050, mime: (char*) audio/mpeg, encp: (int32_t) 899, encd: (int32_t) 576, dura: (int64_t) 2037551, brte: (int32_t) 64000, #chn: (int32_t) 2} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 102124, 9403)))), pid 11530: deleted
+    track {srte: (int32_t) 22050, mime: (char*) audio/mpeg, encp: (int32_t) 842, encd: (int32_t) 576, dura: (int64_t) 1149387, brte: (int32_t) 64000, #chn: (int32_t) 2} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 286084, 7825)))), pid 11530: deleted
+    track {srte: (int32_t) 44100, mime: (char*) audio/mpeg, dura: (int64_t) 652083, brte: (int32_t) 96000, #chn: (int32_t) 2} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 212280, 50247)))), pid 3049: deleted
+    track {srte: (int32_t) 44100, mime: (char*) audio/mpeg, dura: (int64_t) 4466400, brte: (int32_t) 90000, #chn: (int32_t) 1} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 173692, 38507)))), pid 3049: deleted
+    track {srte: (int32_t) 44100, mime: (char*) audio/mpeg, dura: (int64_t) 3422844, brte: (int32_t) 90000, #chn: (int32_t) 1} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 147476, 26141)))), pid 3049: deleted
+    track {srte: (int32_t) 44100, mime: (char*) audio/mpeg, dura: (int64_t) 2323644, brte: (int32_t) 90000, #chn: (int32_t) 1} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/preloadapp/ZhiFuBao/ZhiFuBao.apk), 128176, 19225)))), pid 11530: deleted
+    track {srte: (int32_t) 22050, mime: (char*) audio/mpeg, encp: (int32_t) 733, encd: (int32_t) 576, dura: (int64_t) 2377142, brte: (int32_t) 64000, #chn: (int32_t) 2} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk), 8351320, 11552)))), pid 8668: active
+    track {srte: (int32_t) 48000, mime: (char*) audio/mpeg, dura: (int64_t) 360000, brte: (int32_t) 256000, #chn: (int32_t) 2} : active
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/media/audio/ui/camera_click.ogg), 0, 5951)))), pid 8724: deleted
+    track {vinf: (unknown type 0, size 30), vboo: (unknown type 0, size 3365), srte: (int32_t) 48000, mime: (char*) audio/vorbis, dura: (int64_t) 418187, #chn: (int32_t) 1} : deleted
+  MP3Extractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(fd(/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk), 8351320, 11552)))), pid 8668: deleted
+    track {srte: (int32_t) 48000, mime: (char*) audio/mpeg, dura: (int64_t) 360000, brte: (int32_t) 256000, #chn: (int32_t) 2} : deleted
+  OggExtractor for mime NULL, source TinyCacheSource(CallbackDataSource(RemoteDataSource(FileSource(/system/media/audio/ui/VideoStop.ogg)))), pid 3049: deleted
+    track {vinf: (unknown type 0, size 30), vboo: (unknown type 0, size 3365), srte: (int32_t) 48000, mime: (char*) audio/vorbis, dura: (int64_t) 514687, #chn: (int32_t) 1} : deleted
+--------- 0.001s was the duration of dumpsys media.extractor, ending at: 2023-05-18 12:38:57

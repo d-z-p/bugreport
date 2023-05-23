@@ -1,0 +1,197 @@
+objs:
+--------------
+gsp-core[0] gsp_sync: 148
+
+malitl_2991_0x6fbf55f008 Mali: 0
+
+malitl_2991_0x6fbf55fd18 Mali: 0
+
+malitl_3011_0x7f94820f60 Mali: 5555
+
+malitl_3011_0x7f909c3008 Mali: 289
+  pt signaled@359.146056973: 289(0)
+
+malitl_2991_0x6fbbff6e38 Mali: 0
+
+malitl_2991_0x6fbf422f60 Mali: 0
+
+sprd-adf-dev sw_sync: 6175
+  pt signaled@8.509671032: 2
+  pt signaled@241.963521556: 4099
+  pt signaled@241.983454556: 4100
+  pt signaled@242.003613979: 4101
+  pt signaled@359.141780434: 6016
+  pt signaled@359.161734780: 6017
+  pt signaled@366.862615313: 6115
+  pt signaled@366.922264775: 6118
+  pt signaled@368.238961735: 6174
+  pt signaled@368.258882312: 6175
+  pt active: 6176
+  pt active: 6177
+
+malitl_4340_0x7001340f60 Mali: 0
+
+malitl_4340_0x6fee8b96c0 Mali: 0
+
+malitl_4188_0x70013e7f60 Mali: 0
+
+malitl_4188_0x6fedb576c0 Mali: 0
+
+malitl_4188_0x6fed6bf008 Mali: 117
+  pt signaled@362.459314047: 117(0)
+
+malitl_4188_0x6fec6fb630 Mali: 1
+  pt signaled@140.438868591: 1(0)
+
+malitl_3369_0x6fecbf3f60 Mali: 0
+
+malitl_3369_0x6feca136c0 Mali: 0
+
+malitl_4923_0xc43fbe20 Mali: 0
+
+malitl_4923_0xc446beb8 Mali: 0
+
+malitl_7184_0x700134ff60 Mali: 0
+
+malitl_7184_0x6ff08c86c0 Mali: 0
+
+malitl_7600_0x6ff2bb5f60 Mali: 0
+
+malitl_7600_0x6ff27c76c0 Mali: 0
+
+malitl_8052_0x6ff25e1f60 Mali: 0
+
+malitl_8052_0x6ff23f26c0 Mali: 0
+
+malitl_8117_0x6ff2b03f60 Mali: 0
+
+malitl_8117_0x6ff16736c0 Mali: 0
+
+malitl_8668_0x70013b9f60 Mali: 0
+
+malitl_8668_0x6fefd2d6c0 Mali: 0
+
+malitl_8724_0x7001349f60 Mali: 0
+
+malitl_8724_0x6fefcbf6c0 Mali: 0
+
+malitl_8762_0x6ff259df60 Mali: 0
+
+malitl_8762_0x6ff21b36c0 Mali: 0
+
+malitl_8961_0xcd47de20 Mali: 0
+
+malitl_8961_0xcc541eb8 Mali: 0
+
+malitl_9033_0x7001359f60 Mali: 0
+
+malitl_9033_0x6ff0ed26c0 Mali: 0
+
+malitl_9144_0x6ff22b4f60 Mali: 0
+
+malitl_9144_0x6ff12296c0 Mali: 0
+
+malitl_8117_0x6ff0cf0b88 Mali: 1
+  pt signaled@313.021647698: 1(0)
+
+malitl_3369_0x6fec6a1e70 Mali: 151
+  pt signaled@366.894709852: 151(0)
+
+malitl_9764_0x700135bf60 Mali: 0
+
+malitl_9764_0x6ff12d56c0 Mali: 0
+
+malitl_9929_0x6ff2beef60 Mali: 0
+
+malitl_9929_0x6ff140e6c0 Mali: 0
+
+malitl_10264_0x6ff27ddf60 Mali: 0
+
+malitl_10264_0x6ff23f36c0 Mali: 0
+
+malitl_10465_0x6ff20e9f60 Mali: 0
+
+malitl_10465_0x6ff105e6c0 Mali: 0
+
+malitl_10764_0x6ff24dbf60 Mali: 0
+
+malitl_10764_0x6ff12546c0 Mali: 0
+
+malitl_11082_0x7001325f60 Mali: 0
+
+malitl_11082_0x70013f16c0 Mali: 0
+
+malitl_8668_0x6fefbcabc0 Mali: 41
+  pt signaled@368.224670697: 40(0)
+  pt signaled@368.251843928: 41(0)
+
+malitl_4188_0x6fed73de90 Mali: 9
+  pt signaled@368.219304851: 9(0)
+
+fences:
+--------------
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@8.509671032: 2 / 6175
+
+[0000000000000000] mali_fence: signaled
+  malitl_4188_0x6fec6fb630_pt signaled@140.438868591: 1(0) / 1
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@241.963521556: 4099 / 6175
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@241.983454556: 4100 / 6175
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@242.003613979: 4101 / 6175
+
+[0000000000000000] mali_fence: signaled
+  malitl_8117_0x6ff0cf0b88_pt signaled@313.021647698: 1(0) / 1
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@359.141780434: 6016 / 6175
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@359.161734780: 6017 / 6175
+
+[0000000000000000] mali_fence: signaled
+  malitl_3011_0x7f909c3008_pt signaled@359.146056973: 289(0) / 289
+
+[0000000000000000] StatusBar#0:2: signaled
+
+[0000000000000000] mali_fence: signaled
+  malitl_4188_0x6fed6bf008_pt signaled@362.459314047: 117(0) / 117
+
+[0000000000000000] StatusBar#0:1: signaled
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@366.862615313: 6115 / 6175
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@366.922264775: 6118 / 6175
+
+[0000000000000000] mali_fence: signaled
+  malitl_3369_0x6fec6a1e70_pt signaled@366.894709852: 151(0) / 151
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@368.238961735: 6174 / 6175
+
+[0000000000000000] mali_fence: signaled
+  malitl_4188_0x6fed73de90_pt signaled@368.219304851: 9(0) / 9
+
+[0000000000000000] mali_fence: signaled
+  malitl_8668_0x6fefbcabc0_pt signaled@368.224670697: 40(0) / 41
+
+[0000000000000000] sprd-adf-dev: signaled
+  sprd-adf-dev_pt signaled@368.258882312: 6175 / 6175
+
+[0000000000000000] sprd-adf-dev: active
+  sprd-adf-dev_pt active: 6176 / 6175
+
+[0000000000000000] mali_fence: signaled
+  malitl_8668_0x6fefbcabc0_pt signaled@368.251843928: 41(0) / 41
+
+[0000000000000000] sprd-adf-dev: active
+  sprd-adf-dev_pt active: 6177 / 6175
+
+

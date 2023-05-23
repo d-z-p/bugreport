@@ -1,0 +1,8 @@
+  mDisabled1=0x0
+  mDisabled2=0x0
+  mDisableRecords.size=0
+  mCurrentUserId=0
+  mIcons=
+    
+ime -> StatusBarIcon(icon=Icon(typ=RESOURCE pkg=com.sohu.inputmethod.sogou id=0x7f08070e) user=0 ) "??????ии????????"
+--------- 0.002s was the duration of dumpsys statusbar, ending at: 2023-05-18 12:38:59

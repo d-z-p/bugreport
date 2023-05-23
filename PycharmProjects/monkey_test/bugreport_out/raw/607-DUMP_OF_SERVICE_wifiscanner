@@ -1,0 +1,370 @@
+WifiScanningService - Log Begin ----
+2019-01-01T08:10:53.273 - client connected: ClientInfo[uid=1000,android.os.Messenger@ffa61c]
+2019-01-01T08:10:53.275 - registerScanListener: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1
+2019-01-01T08:10:53.330 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=2,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2019-01-01T08:10:53.892 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=2,results=12
+2019-01-01T08:10:53.892 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2019-01-01T08:11:01.046 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=3,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2019-01-01T08:11:01.588 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=3,results=15
+2019-01-01T08:11:01.589 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=15
+2019-01-01T08:11:09.733 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=4,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2019-01-01T08:11:10.282 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=4,results=12
+2019-01-01T08:11:10.282 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2019-01-01T08:11:13.331 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=5,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2019-01-01T08:11:13.875 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=5,results=9
+2019-01-01T08:11:13.876 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=9
+2019-01-01T08:11:35.178 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=6,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2019-01-01T08:11:35.720 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=6,results=8
+2019-01-01T08:11:35.720 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=8
+2023-05-22T17:42:02.137 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=7,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:42:02.755 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=7,results=11
+2023-05-22T17:42:02.756 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=11
+2023-05-22T17:42:12.144 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=8,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:42:12.764 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=8,results=6
+2023-05-22T17:42:12.765 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=6
+2023-05-22T17:42:22.153 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=9,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:42:22.766 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=9,results=8
+2023-05-22T17:42:22.767 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=8
+2023-05-22T17:42:32.160 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=10,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:42:32.776 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=10,results=7
+2023-05-22T17:42:32.777 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=7
+2023-05-22T17:42:42.168 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=11,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:42:42.789 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=11,results=12
+2023-05-22T17:42:42.790 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2023-05-22T17:42:52.177 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=12,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:42:52.791 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=12,results=10
+2023-05-22T17:42:52.792 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=10
+2023-05-22T17:43:02.186 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=13,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:43:02.805 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=13,results=14
+2023-05-22T17:43:02.805 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=14
+2023-05-22T17:43:12.195 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=14,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:43:12.812 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=14,results=12
+2023-05-22T17:43:12.814 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2023-05-22T17:43:22.198 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=15,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:43:22.826 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=15,results=15
+2023-05-22T17:43:22.827 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=15
+2023-05-22T17:43:32.206 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=16,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:43:32.821 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=16,results=12
+2023-05-22T17:43:32.822 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2023-05-22T17:43:42.214 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=17,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:43:42.843 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=17,results=22
+2023-05-22T17:43:42.843 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=22
+2023-05-22T17:43:52.223 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=18,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:43:52.842 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=18,results=12
+2023-05-22T17:43:52.843 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2023-05-22T17:44:02.232 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=19,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:44:02.857 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=19,results=24
+2023-05-22T17:44:02.858 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=24
+2023-05-22T17:44:12.238 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=20,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:44:12.855 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=20,results=12
+2023-05-22T17:44:12.856 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2023-05-22T17:44:22.247 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=21,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:44:22.874 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=21,results=19
+2023-05-22T17:44:22.875 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=19
+2023-05-22T17:44:32.256 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=22,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:44:32.873 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=22,results=14
+2023-05-22T17:44:32.874 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=14
+2023-05-22T17:44:42.265 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=23,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:44:42.885 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=23,results=18
+2023-05-22T17:44:42.886 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=18
+2023-05-22T17:44:52.274 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=24,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:44:52.900 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=24,results=11
+2023-05-22T17:44:52.901 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=11
+2023-05-22T17:45:02.284 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=25,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:45:02.907 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=25,results=17
+2023-05-22T17:45:02.907 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=17
+2023-05-22T17:45:12.291 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=26,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:45:12.907 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=26,results=15
+2023-05-22T17:45:12.907 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=15
+2023-05-22T17:45:22.300 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=27,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:45:22.921 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=27,results=16
+2023-05-22T17:45:22.922 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=16
+2023-05-22T17:45:32.308 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=28,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:45:32.925 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=28,results=11
+2023-05-22T17:45:32.926 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=11
+2023-05-22T17:45:42.316 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=29,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:45:42.942 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=29,results=18
+2023-05-22T17:45:42.943 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=18
+2023-05-22T17:45:52.324 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=30,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:45:52.952 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=30,results=22
+2023-05-22T17:45:52.953 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=22
+2023-05-22T17:46:02.332 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=31,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:46:02.954 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=31,results=22
+2023-05-22T17:46:02.955 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=22
+2023-05-22T17:46:12.341 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=32,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:46:12.961 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=32,results=18
+2023-05-22T17:46:12.962 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=18
+2023-05-22T17:46:22.349 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=33,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:46:22.966 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=33,results=7
+2023-05-22T17:46:22.967 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=7
+2023-05-22T17:46:32.357 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=34,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:46:32.993 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=34,results=11
+2023-05-22T17:46:32.994 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=11
+2023-05-22T17:46:42.366 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=35,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:46:42.990 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=35,results=15
+2023-05-22T17:46:42.991 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=15
+2023-05-22T17:46:52.374 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=36,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:46:52.994 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=36,results=12
+2023-05-22T17:46:52.995 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=12
+2023-05-22T17:47:02.382 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=37,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:47:03.001 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=37,results=13
+2023-05-22T17:47:03.002 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=13
+2023-05-22T17:47:12.388 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=38,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:47:13.013 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=38,results=13
+2023-05-22T17:47:13.014 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=13
+2023-05-22T17:47:22.397 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=39,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:47:23.016 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=39,results=9
+2023-05-22T17:47:23.017 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=9
+2023-05-22T17:47:32.405 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=40,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:47:33.018 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=40,results=6
+2023-05-22T17:47:33.019 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=6
+2023-05-22T17:47:42.413 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=41,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:47:43.032 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=41,results=8
+2023-05-22T17:47:43.033 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=8
+2023-05-22T17:47:52.414 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=42,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:47:53.030 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=42,results=8
+2023-05-22T17:47:53.030 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=8
+2023-05-22T17:48:02.422 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=43,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:48:03.047 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=43,results=13
+2023-05-22T17:48:03.047 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=13
+2023-05-22T17:48:12.430 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=44,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:48:13.058 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=44,results=24
+2023-05-22T17:48:13.059 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=24
+2023-05-22T17:48:22.434 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=45,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:48:23.057 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=45,results=23
+2023-05-22T17:48:23.058 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=23
+2023-05-22T17:48:32.442 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=46,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:48:33.060 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=46,results=15
+2023-05-22T17:48:33.061 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=15
+2023-05-22T17:48:42.450 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=47,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:48:43.068 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=47,results=17
+2023-05-22T17:48:43.069 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=17
+2023-05-22T17:48:52.454 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=48,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:48:53.074 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=48,results=22
+2023-05-22T17:48:53.074 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=22
+2023-05-22T17:49:02.463 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=49,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:49:03.090 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=49,results=24
+2023-05-22T17:49:03.092 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=24
+2023-05-22T17:49:12.472 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=50,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:49:13.103 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=50,results=27
+2023-05-22T17:49:13.104 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=27
+2023-05-22T17:49:22.480 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=51,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:49:23.105 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=51,results=26
+2023-05-22T17:49:23.106 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=26
+2023-05-22T17:49:32.488 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=52,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:49:33.109 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=52,results=11
+2023-05-22T17:49:33.109 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=11
+2023-05-22T17:49:42.497 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=53,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:49:43.122 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=53,results=18
+2023-05-22T17:49:43.123 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=18
+2023-05-22T17:49:52.506 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=54,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:49:53.130 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=54,results=22
+2023-05-22T17:49:53.130 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=22
+2023-05-22T17:50:02.514 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=55,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:50:03.139 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=55,results=21
+2023-05-22T17:50:03.140 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=21
+2023-05-22T17:50:12.522 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=56,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:50:13.143 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=56,results=20
+2023-05-22T17:50:13.144 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=20
+2023-05-22T17:50:22.532 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=57,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:50:23.153 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=57,results=17
+2023-05-22T17:50:23.154 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=17
+2023-05-22T17:50:32.541 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=58,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:50:33.169 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=58,results=14
+2023-05-22T17:50:33.169 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=14
+2023-05-22T17:50:42.548 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=59,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:50:43.169 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=59,results=18
+2023-05-22T17:50:43.170 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=18
+2023-05-22T17:50:52.557 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=60,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:50:53.177 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=60,results=24
+2023-05-22T17:50:53.177 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=24
+2023-05-22T17:51:02.565 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=61,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:03.187 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=61,results=22
+2023-05-22T17:51:03.188 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=22
+2023-05-22T17:51:12.574 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=62,WorkSource{1000}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:13.198 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=62,results=19
+2023-05-22T17:51:13.199 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=19
+2023-05-22T17:51:21.330 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=63,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:21.375 - singleScanFailed: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=63,reason=-1, Scan failed
+2023-05-22T17:51:23.476 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=64,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:23.482 - singleScanFailed: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=64,reason=-1, Scan failed
+2023-05-22T17:51:28.486 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=65,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:28.492 - singleScanFailed: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=65,reason=-1, Scan failed
+2023-05-22T17:51:33.498 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=66,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:34.111 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=66,results=13
+2023-05-22T17:51:34.111 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=13
+2023-05-22T17:51:57.866 - addSingleScanRequest: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=67,WorkSource{1010}, ScanSettings {  band:7 period:0 reportEvents:3 numBssidsPerScan:0 maxScansToCache:0 channels:[  ]  } 
+2023-05-22T17:51:58.417 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=67,results=9
+2023-05-22T17:51:58.417 - singleScanResults: ClientInfo[uid=1000,android.os.Messenger@ffa61c],Id=1,results=9
+WifiScanningService - Log End ----
+
+clients:
+  ClientInfo[uid=1000,android.os.Messenger@ffa61c]
+listeners:
+schedule:
+  base period: 30000
+  max ap per scan: 32
+  batched scans: 10
+  buckets:
+WifiPnoScanStateMachine:
+ total records=2
+ rec[0]: time=01-01 08:07:26.115 processed=DefaultState org=DefaultState dest=DefaultState what=160007(0x27107)
+ rec[1]: time=01-01 08:10:53.329 processed=DefaultState org=DefaultState dest=StartedState what=160006(0x27106)
+curState=StartedState
+
+WifiSingleScanStateMachine:
+ total records=1161
+ rec[0]: time=05-22 17:50:43.168 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[1]: time=05-22 17:50:43.168 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[2]: time=05-22 17:50:43.168 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[3]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[4]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[5]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[6]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[7]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[8]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[9]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[10]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[11]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[12]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[13]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[14]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[15]: time=05-22 17:50:43.169 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[16]: time=05-22 17:50:43.171 processed=ScanningState org=ScanningState dest=IdleState what=160000(0x27100)
+ rec[17]: time=05-22 17:50:43.180 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[18]: time=05-22 17:50:53.164 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[19]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[20]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[21]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[22]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[23]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[24]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[25]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[26]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[27]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[28]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[29]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[30]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[31]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[32]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[33]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[34]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[35]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[36]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[37]: time=05-22 17:50:53.176 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[38]: time=05-22 17:50:53.177 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[39]: time=05-22 17:50:53.177 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[40]: time=05-22 17:50:53.177 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[41]: time=05-22 17:50:53.177 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[42]: time=05-22 17:50:53.177 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[43]: time=05-22 17:50:53.178 processed=ScanningState org=ScanningState dest=IdleState what=160000(0x27100)
+ rec[44]: time=05-22 17:50:53.185 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[45]: time=05-22 17:51:03.171 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[46]: time=05-22 17:51:03.185 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[47]: time=05-22 17:51:03.185 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[48]: time=05-22 17:51:03.185 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[49]: time=05-22 17:51:03.185 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[50]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[51]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[52]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[53]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[54]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[55]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[56]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[57]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[58]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[59]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[60]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[61]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[62]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[63]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[64]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[65]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[66]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[67]: time=05-22 17:51:03.186 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[68]: time=05-22 17:51:03.195 processed=ScanningState org=ScanningState dest=IdleState what=160000(0x27100)
+ rec[69]: time=05-22 17:51:03.202 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[70]: time=05-22 17:51:13.182 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[71]: time=05-22 17:51:13.197 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[72]: time=05-22 17:51:13.197 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[73]: time=05-22 17:51:13.197 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[74]: time=05-22 17:51:13.197 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[75]: time=05-22 17:51:13.197 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[76]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[77]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[78]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[79]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[80]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[81]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[82]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[83]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[84]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[85]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[86]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[87]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[88]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[89]: time=05-22 17:51:13.198 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[90]: time=05-22 17:51:13.201 processed=ScanningState org=ScanningState dest=IdleState what=160000(0x27100)
+ rec[91]: time=05-22 17:51:13.207 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[92]: time=05-22 17:51:20.671 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[93]: time=05-22 17:51:21.337 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[94]: time=05-22 17:51:21.376 processed=ScanningState org=ScanningState dest=IdleState what=160010(0x2710a)
+ rec[95]: time=05-22 17:51:21.703 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[96]: time=05-22 17:51:21.813 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[97]: time=05-22 17:51:21.924 processed=DefaultState org=IdleState dest=<null> what=159773(0x2701d)
+ rec[98]: time=05-22 17:51:23.480 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[99]: time=05-22 17:51:23.483 processed=ScanningState org=ScanningState dest=IdleState what=160010(0x2710a)
+ rec[100]: time=05-22 17:51:28.490 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[101]: time=05-22 17:51:28.492 processed=ScanningState org=ScanningState dest=IdleState what=160010(0x2710a)
+ rec[102]: time=05-22 17:51:34.102 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[103]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[104]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[105]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[106]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[107]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[108]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[109]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[110]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[111]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[112]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[113]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[114]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[115]: time=05-22 17:51:34.110 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[116]: time=05-22 17:51:34.119 processed=ScanningState org=ScanningState dest=IdleState what=160000(0x27100)
+ rec[117]: time=05-22 17:51:58.410 processed=DriverStartedState org=IdleState dest=ScanningState what=159765(0x27015)
+ rec[118]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[119]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[120]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[121]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[122]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[123]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[124]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[125]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[126]: time=05-22 17:51:58.416 processed=ScanningState org=ScanningState dest=<null> what=160001(0x27101)
+ rec[127]: time=05-22 17:51:58.434 processed=ScanningState org=ScanningState dest=IdleState what=160000(0x27100)
+curState=IdleState
+
+Latest scan results:
+    BSSID              Frequency  RSSI  Age(sec)   SSID                                 Flags
+  f4:84:8d:33:6c:f6       2437    -52    14.470    moushi005                         [WPA-PSK-CCMP][WPA2-PSK-CCMP][ESS]
+  3c:06:a7:b6:45:86       2412    -56    14.649    ??¡è¨¦???¡ì????                              [WPA2-PSK-CCMP][WPA-PSK-CCMP][ESS][WPS]
+  52:06:a7:b6:45:86       2412    -59    14.645                                      [WPA2-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  b0:ac:d2:0a:08:ba       2437    -60    14.438    sheyueguoji                       [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][ESS][WPS]
+  24:cf:24:bb:ef:59       2412    -63    14.683    moushi002                         [WPA2-PSK-CCMP][ESS]
+  48:1f:2d:0b:24:5a       2457    -50    14.277    EHOME_500BDX                      [ESS]
+  f4:84:8d:52:e8:b8       2412    -68    14.667    Nvwaus                            [WPA2-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  48:a7:3c:4a:aa:e1       2452    -69    14.355    ChinaNet-yHHW                     [WPA2-PSK-CCMP+TKIP][WPA-PSK-CCMP+TKIP][ESS]
+  c2:18:03:e1:c0:b9       2412    -72    14.705    DIRECT-B9-HP Smart Tank 510       [WPA2-PSK-CCMP][ESS][WPS]
+
+Latest native scan results:
+    BSSID              Frequency  RSSI  Age(sec)   SSID                                 Flags
+  48:1f:2d:0b:24:5a       2457    -50    14.281    EHOME_500BDX                      [ESS]
+  3c:06:a7:b6:45:86       2412    -56    14.653    ??¡è¨¦???¡ì????                              [WPA2-PSK-CCMP][WPA-PSK-CCMP][ESS][WPS]
+  24:cf:24:bb:ef:59       2412    -63    14.687    moushi002                         [WPA2-PSK-CCMP][ESS]
+  52:06:a7:b6:45:86       2412    -59    14.649                                      [WPA2-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  f4:84:8d:33:6c:f6       2437    -52    14.474    moushi005                         [WPA-PSK-CCMP][WPA2-PSK-CCMP][ESS]
+  48:a7:3c:4a:aa:e1       2452    -69    14.359    ChinaNet-yHHW                     [WPA2-PSK-CCMP+TKIP][WPA-PSK-CCMP+TKIP][ESS]
+  c2:18:03:e1:c0:b9       2412    -72    14.709    DIRECT-B9-HP Smart Tank 510       [WPA2-PSK-CCMP][ESS][WPS]
+  f4:84:8d:52:e8:b8       2412    -68    14.671    Nvwaus                            [WPA2-PSK-CCMP][WPA-PSK-CCMP][ESS]
+  b0:ac:d2:0a:08:ba       2437    -60    14.442    sheyueguoji                       [WPA-PSK-TKIP+CCMP][WPA2-PSK-TKIP+CCMP][ESS][WPS]
+--------- 0.076s was the duration of dumpsys wifiscanner, ending at: 2023-05-22 17:52:12

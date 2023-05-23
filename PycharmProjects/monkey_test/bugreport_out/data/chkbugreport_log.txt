@@ -1,0 +1,1032 @@
+!<1> Failed to load plugin: com.sonyericsson.chkbugreport.AdbExtension
+ <1> Loading input...
+ <1> Loaded in 0.17 seconds.
+!<4> Could not find header in ps output
+!<3> Cannot find section: PROCESSES (ignoring it)
+ <1> Resetting plugins...
+ <1> Installing hooks...
+ <1> Plugins are loading data...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.SysPropsPlugin...
+!<4> [SysPropsPlugin]Cannot parse uptime:  17:51:56 up 15 min,  0 users,  load average: 4.77, 2.44, 1.53
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.PackageInfoPlugin...
+!<3> [PackageInfoPlugin]Cannot find section: PACKAGE SETTINGS
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.ScreenShotPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.stacktrace.StackTracePlugin...
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00001007  /vendor/bin/hw/android.hardware.audio@2.0-service (main+198)
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 00000e60  /vendor/bin/hw/android.hardware.audio@2.0-service (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000487b4  /system/lib/libc.so (__pselect6+16)
+!<4> Cannot parse line:   #01 pc 0001ea95  /system/lib/libc.so (select+88)
+!<4> Cannot parse line:   #02 pc 0000faf9  /vendor/lib/hw/audio.primary.sp9832e.so (vbc_ctrl_thread_routine+2140)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000487b4  /system/lib/libc.so (__pselect6+16)
+!<4> Cannot parse line:   #01 pc 0001ea95  /system/lib/libc.so (select+88)
+!<4> Cannot parse line:   #02 pc 000105f7  /vendor/lib/hw/audio.primary.sp9832e.so (vbc_ctrl_voip_thread_routine+1326)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000487b4  /system/lib/libc.so (__pselect6+16)
+!<4> Cannot parse line:   #01 pc 0001ea95  /system/lib/libc.so (select+88)
+!<4> Cannot parse line:   #02 pc 000116e9  /vendor/lib/hw/audio.primary.sp9832e.so (vbc_ctl_modem_monitor_routine+124)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000487b4  /system/lib/libc.so (__pselect6+16)
+!<4> Cannot parse line:   #01 pc 0001ea95  /system/lib/libc.so (select+88)
+!<4> Cannot parse line:   #02 pc 00014f17  /vendor/lib/hw/audio.primary.sp9832e.so (control_audio_loop_process+1814)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0004873c  /system/lib/libc.so (__openat+8)
+!<4> Cannot parse line:   #01 pc 0002bfb3  /vendor/lib/hw/audio.primary.sp9832e.so (audiopara_tuning_thread_entry+246)
+!<4> Cannot parse line:   #02 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #03 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0002c8c9  /vendor/lib/hw/audio.primary.sp9832e.so (stream_routing_thread_entry+160)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 0002d275  /vendor/lib/hw/audio.primary.sp9832e.so (audio_bt_sco_dup_thread_func+220)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0002d4ed  /vendor/lib/hw/audio.primary.sp9832e.so (voice_command_thread_entry+116)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 00001409  /vendor/lib/libaudiomiscctl.so (android::thread_func(void*)+136)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00001809  /vendor/lib/libfmq.so (android::hardware::EventFlag::waitHelper(unsigned int, unsigned int*, long long)+188)
+!<4> Cannot parse line:   #02 pc 000217ab  /vendor/lib/hw/android.hardware.audio@2.0-impl.so (android::hardware::audio::V2_0::implementation::(anonymous namespace)::WriteThread::threadLoop()+86)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00000c1f  /vendor/bin/hw/android.hardware.bluetooth@1.0-service
+!<4> Cannot parse line:   #06 pc 00000baf  /vendor/bin/hw/android.hardware.bluetooth@1.0-service
+!<4> Cannot parse line:   #07 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #08 pc 00000a90  /vendor/bin/hw/android.hardware.bluetooth@1.0-service (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00000d6b  /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+!<4> Cannot parse line:   #06 pc 00000cc3  /vendor/bin/hw/android.hardware.camera.provider@2.4-service (main+98)
+!<4> Cannot parse line:   #07 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #08 pc 00000b80  /vendor/bin/hw/android.hardware.camera.provider@2.4-service (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00000edb  /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+!<4> Cannot parse line:   #06 pc 00000e6b  /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+!<4> Cannot parse line:   #07 pc 00000de3  /vendor/bin/hw/android.hardware.graphics.composer@2.1-service (main+142)
+!<4> Cannot parse line:   #08 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #09 pc 00000c74  /vendor/bin/hw/android.hardware.graphics.composer@2.1-service (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /vendor/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /vendor/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /vendor/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /vendor/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /vendor/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /vendor/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /vendor/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /vendor/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 00048764  /system/lib/libc.so (__ppoll+16)
+!<4> Cannot parse line:   #01 pc 0001e9b5  /system/lib/libc.so (poll+48)
+!<4> Cannot parse line:   #02 pc 000252c3  /vendor/lib/hw/hwcomposer.sp9832e.so (adf_event_thread(void*)+362)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0001cd71  /vendor/lib/hw/hwcomposer.sp9832e.so (android::SprdWIDIBlit::threadLoop()+20)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0032e3dc  /vendor/lib/egl/libGLES_mali.so (cmemp_hoardp_purge_thread+360)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 00048764  /system/lib/libc.so (__ppoll+16)
+!<4> Cannot parse line:   #01 pc 0001e9b5  /system/lib/libc.so (poll+48)
+!<4> Cannot parse line:   #02 pc 0031ebb8  /vendor/lib/egl/libGLES_mali.so (cmarp_backend_thread+744)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0063d3dc  /vendor/lib/egl/libGLES_mali.so (cctxp_hist_dump_thread_f+144)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 0004bf31  /system/lib/vndk-sp/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+8)
+!<4> Cannot parse line:   #03 pc 0000816f  /vendor/lib/libhidlbase.so (android::hardware::details::SynchronizedQueue<std::__1::function<void ()>>::wait_pop()+42)
+!<4> Cannot parse line:   #04 pc 000080c5  /vendor/lib/libhidlbase.so (_ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN7android8hardware7details10TaskRunner5startEjE3$_0EEEEEPvSD_+60)
+!<4> Cannot parse line:   #05 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #06 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 00021641  /vendor/lib/hw/hwcomposer.sp9832e.so (android::OverlayComposer::threadLoop()+8)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00000bf3  /vendor/bin/hw/android.hardware.sensors@1.0-service
+!<4> Cannot parse line:   #06 pc 00000b83  /vendor/bin/hw/android.hardware.sensors@1.0-service
+!<4> Cannot parse line:   #07 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #08 pc 00000a64  /vendor/bin/hw/android.hardware.sensors@1.0-service (_start_main+88)
+!<4> Cannot parse line:   #00 pc 00048764  /system/lib/libc.so (__ppoll+16)
+!<4> Cannot parse line:   #01 pc 0001e9b5  /system/lib/libc.so (poll+48)
+!<4> Cannot parse line:   #02 pc 0000415b  /vendor/lib/hw/sensors.sp9832e.so (sensors_poll_context_t::pollEvents(sensors_event_t*, int)+142)
+!<4> Cannot parse line:   #03 pc 00007083  /vendor/lib/hw/android.hardware.sensors@1.0-impl.so (android::hardware::sensors::V1_0::implementation::Sensors::poll(int, std::__1::function<void (android::hardware::sensors::V1_0::Result, android::hardware::hidl_vec<android::hardware::sensors::V1_0::Event> const&, android::hardware::hidl_vec<android::hardware::sensors::V1_0::SensorInfo> const&)>)+110)
+!<4> Cannot parse line:   #04 pc 000181c9  /vendor/lib/android.hardware.sensors@1.0.so (android::hardware::sensors::V1_0::BnHwSensors::_hidl_poll(android::hidl::base::V1_0::BnHwBase*, android::hardware::Parcel const&, android::hardware::Parcel*, std::__1::function<void (android::hardware::Parcel&)>)+148)
+!<4> Cannot parse line:   #05 pc 00018cdf  /vendor/lib/android.hardware.sensors@1.0.so (android::hardware::sensors::V1_0::BnHwSensors::onTransact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int, std::__1::function<void (android::hardware::Parcel&)>)+458)
+!<4> Cannot parse line:   #06 pc 0000e063  /vendor/lib/libhwbinder.so (android::hardware::BHwBinder::transact(unsigned int, android::hardware::Parcel const&, android::hardware::Parcel*, unsigned int, std::__1::function<void (android::hardware::Parcel&)>)+66)
+!<4> Cannot parse line:   #07 pc 0001075d  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::executeCommand(int)+712)
+!<4> Cannot parse line:   #08 pc 0001038d  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+116)
+!<4> Cannot parse line:   #09 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #10 pc 0001732d  /vendor/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #11 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #12 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #13 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00043039  /system/lib/libbinder.so (android::IPCThreadState::waitForResponse(android::Parcel*, int*)+236)
+!<4> Cannot parse line:   #04 pc 0003d535  /system/lib/libbinder.so (android::BpBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+36)
+!<4> Cannot parse line:   #05 pc 0004a59f  /system/lib/libgui.so (android::BpGraphicBufferProducer::queueBuffer(int, android::IGraphicBufferProducer::QueueBufferInput const&, android::IGraphicBufferProducer::QueueBufferOutput*)+98)
+!<4> Cannot parse line:   #06 pc 000540f3  /system/lib/libgui.so (android::Surface::queueBuffer(ANativeWindowBuffer*, int)+530)
+!<4> Cannot parse line:   #07 pc 00637aa0  /vendor/lib/egl/libGLES_mali.so (display_window_buffer(egl_winsys_display*, egl_winsys_surface*, egl_color_buffer*, int, int*)+228)
+!<4> Cannot parse line:   #08 pc 003124d8  /vendor/lib/egl/libGLES_mali.so (eglp_display_frame+200)
+!<4> Cannot parse line:   #09 pc 003131ac  /vendor/lib/egl/libGLES_mali.so (eglp_gles_flush_operation+1340)
+!<4> Cannot parse line:   #10 pc 00312b7c  /vendor/lib/egl/libGLES_mali.so (eglp_swap_buffers+740)
+!<4> Cannot parse line:   #11 pc 0000caad  /system/lib/libEGL.so (eglSwapBuffersWithDamageKHR+236)
+!<4> Cannot parse line:   #12 pc 00051189  /system/lib/libsurfaceflinger.so (android::DisplayDevice::swapBuffers(android::HWComposer&) const+24)
+!<4> Cannot parse line:   #13 pc 000790b1  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::doDisplayComposition(android::sp<android::DisplayDevice const> const&, android::Region const&)+192)
+!<4> Cannot parse line:   #14 pc 00077e37  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::doComposition()+154)
+!<4> Cannot parse line:   #15 pc 00076f71  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::handleMessageRefresh()+108)
+!<4> Cannot parse line:   #16 pc 00076d59  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::onMessageReceived(int)+60)
+!<4> Cannot parse line:   #17 pc 0001026f  /system/lib/libutils.so (android::Looper::pollInner(int)+294)
+!<4> Cannot parse line:   #18 pc 000100b1  /system/lib/libutils.so (android::Looper::pollOnce(int, int*, int*, void**)+32)
+!<4> Cannot parse line:   #19 pc 00060d67  /system/lib/libsurfaceflinger.so (android::MessageQueue::waitMessage()+38)
+!<4> Cannot parse line:   #20 pc 00075db9  /system/lib/libsurfaceflinger.so (android::SurfaceFlinger::run()+8)
+!<4> Cannot parse line:   #21 pc 00002141  /system/bin/surfaceflinger (main+620)
+!<4> Cannot parse line:   #22 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #23 pc 00001df4  /system/bin/surfaceflinger (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /system/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 000543b9  /system/lib/libsurfaceflinger.so (android::DispSyncThread::threadLoop()+612)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 00049404  /system/lib/libc.so (nanosleep+8)
+!<4> Cannot parse line:   #01 pc 000305af  /system/lib/libc.so (usleep+54)
+!<4> Cannot parse line:   #02 pc 0032e2e8  /vendor/lib/egl/libGLES_mali.so (cmemp_hoardp_purge_thread+116)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0031e760  /vendor/lib/egl/libGLES_mali.so (cmarp_utility_thread+112)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 00048764  /system/lib/libc.so (__ppoll+16)
+!<4> Cannot parse line:   #01 pc 0001e9b5  /system/lib/libc.so (poll+48)
+!<4> Cannot parse line:   #02 pc 0031ebb8  /vendor/lib/egl/libGLES_mali.so (cmarp_backend_thread+744)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 0001f5ad  /system/lib/libc.so (sem_wait+56)
+!<4> Cannot parse line:   #02 pc 0063d3dc  /vendor/lib/egl/libGLES_mali.so (cctxp_hist_dump_thread_f+144)
+!<4> Cannot parse line:   #03 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #04 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000488c0  /system/lib/libc.so (__rt_sigtimedwait+12)
+!<4> Cannot parse line:   #01 pc 0001edf3  /system/lib/libc.so (__timer_thread_start(void*)+70)
+!<4> Cannot parse line:   #02 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #03 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 000557d7  /system/lib/libsurfaceflinger.so (android::EventThread::waitForEvent(android::DisplayEventReceiver::Event*)+650)
+!<4> Cannot parse line:   #03 pc 00055421  /system/lib/libsurfaceflinger.so (android::EventThread::threadLoop()+48)
+!<4> Cannot parse line:   #04 pc 0000d3a3  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+270)
+!<4> Cannot parse line:   #05 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #06 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000488c0  /system/lib/libc.so (__rt_sigtimedwait+12)
+!<4> Cannot parse line:   #01 pc 0001edf3  /system/lib/libc.so (__timer_thread_start(void*)+70)
+!<4> Cannot parse line:   #02 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #03 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 00055815  /system/lib/libsurfaceflinger.so (android::EventThread::waitForEvent(android::DisplayEventReceiver::Event*)+712)
+!<4> Cannot parse line:   #03 pc 00055421  /system/lib/libsurfaceflinger.so (android::EventThread::threadLoop()+48)
+!<4> Cannot parse line:   #04 pc 0000d3a3  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+270)
+!<4> Cannot parse line:   #05 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #06 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 0004bf31  /system/lib/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+8)
+!<4> Cannot parse line:   #03 pc 0000816f  /system/lib/libhidlbase.so (android::hardware::details::SynchronizedQueue<std::__1::function<void ()>>::wait_pop()+42)
+!<4> Cannot parse line:   #04 pc 000080c5  /system/lib/libhidlbase.so (_ZNSt3__114__thread_proxyINS_5tupleIJNS_10unique_ptrINS_15__thread_structENS_14default_deleteIS3_EEEEZN7android8hardware7details10TaskRunner5startEjE3$_0EEEEEPvSD_+60)
+!<4> Cannot parse line:   #05 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #06 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 00054bc5  /system/lib/libsurfaceflinger.so (android::EventControlThread::threadLoop()+44)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0000152f  /system/bin/audioserver (main+558)
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 00001220  /system/bin/audioserver (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /system/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 000069d3  /system/lib/libaudiopolicyservice.so (android::AudioPolicyService::AudioCommandThread::threadLoop()+1110)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 000069d3  /system/lib/libaudiopolicyservice.so (android::AudioPolicyService::AudioCommandThread::threadLoop()+1110)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 000069d3  /system/lib/libaudiopolicyservice.so (android::AudioPolicyService::AudioCommandThread::threadLoop()+1110)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 0001de2d  /system/lib/libaudioflinger.so (android::AudioFlinger::PlaybackThread::threadLoop()+2600)
+!<4> Cannot parse line:   #03 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00000c75  /system/bin/cameraserver (main+96)
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 00000b34  /system/bin/cameraserver (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /system/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /system/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /system/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00004e13  /system/bin/drmserver (main+74)
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 00004ce8  /system/bin/drmserver (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 000023b3  /system/bin/mediadrmserver (main+86)
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 00002078  /system/bin/mediadrmserver (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 00000db1  /system/bin/mediaserver (main+124)
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 00000c54  /system/bin/mediaserver (_start_main+88)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /system/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /system/lib/libhwbinder.so (android::hardware::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /system/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /system/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /system/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /system/lib/libbinder.so (android::PoolThread::threadLoop()+12)
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /vendor/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /vendor/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /vendor/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0000187f  /vendor/bin/hw/android.hardware.media.omx@1.0-service
+!<4> Cannot parse line:   #06 pc 000768e1  /system/lib/libc.so (__libc_init+48)
+!<4> Cannot parse line:   #07 pc 000014a4  /vendor/bin/hw/android.hardware.media.omx@1.0-service
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 0004267f  /vendor/lib/libbinder.so (android::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00042779  /vendor/lib/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00042ccb  /vendor/lib/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0005816d  /vendor/lib/libbinder.so
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 000486cc  /system/lib/libc.so (__ioctl+8)
+!<4> Cannot parse line:   #01 pc 0001d09f  /system/lib/libc.so (ioctl+38)
+!<4> Cannot parse line:   #02 pc 00010227  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::talkWithDriver(bool)+170)
+!<4> Cannot parse line:   #03 pc 00010321  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::getAndExecuteCommand()+8)
+!<4> Cannot parse line:   #04 pc 00010963  /vendor/lib/libhwbinder.so (android::hardware::IPCThreadState::joinThreadPool(bool)+38)
+!<4> Cannot parse line:   #05 pc 0001732d  /vendor/lib/libhwbinder.so
+!<4> Cannot parse line:   #06 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #07 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #08 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 000107b1  /vendor/lib/libstagefright_foundation.so (android::ALooper::loop()+388)
+!<4> Cannot parse line:   #03 pc 0000d3a3  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+270)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 00032615  /system/lib/libstagefright_omx.so (android::OMXNodeInstance::CallbackDispatcher::loop()+68)
+!<4> Cannot parse line:   #03 pc 000326c1  /system/lib/libstagefright_omx.so (android::OMXNodeInstance::CallbackDispatcherThread::threadLoop()+4)
+!<4> Cannot parse line:   #04 pc 0000d325  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+144)
+!<4> Cannot parse line:   #05 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #06 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 0001958c  /system/lib/libc.so (syscall+28)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 0004bf31  /system/lib/vndk-sp/libc++.so (std::__1::condition_variable::wait(std::__1::unique_lock<std::__1::mutex>&)+8)
+!<4> Cannot parse line:   #03 pc 0000816f  /vendor/lib/libhidlbase.so (android::hardware::details::SynchronizedQueue<std::__1::function<void ()>>::wait_pop()+42)
+!<4> Cannot parse line:   #04 pc 000080c5  /vendor/lib/libhidlbase.so
+!<4> Cannot parse line:   #05 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #06 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<4> Cannot parse line:   #00 pc 00019590  /system/lib/libc.so (syscall+32)
+!<4> Cannot parse line:   #01 pc 00046911  /system/lib/libc.so (__pthread_cond_timedwait(pthread_cond_internal_t*, pthread_mutex_t*, bool, timespec const*)+102)
+!<4> Cannot parse line:   #02 pc 00010797  /vendor/lib/libstagefright_foundation.so (android::ALooper::loop()+362)
+!<4> Cannot parse line:   #03 pc 0000d3a3  /system/lib/vndk-sp/libutils.so (android::Thread::_threadLoop(void*)+270)
+!<4> Cannot parse line:   #04 pc 00046f7b  /system/lib/libc.so (__pthread_start(void*)+22)
+!<4> Cannot parse line:   #05 pc 0001a2a7  /system/lib/libc.so (__start_thread+32)
+!<3> [StackTracePlugin]Cannot find section: VM TRACES AT LAST ANR (aborting plugin)
+!<3> [StackTracePlugin]Cannot find section: VM TRACES (aborting plugin)
+!<3> [StackTracePlugin]Cannot find section BINDER STATE, ignoring it
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.MemPlugin...
+!<3> [MemPlugin]Section not found: DUMP OF SERVICE meminfo (ignoring section)
+!<3> [MemPlugin]librank section is missing... ignoring it
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.logs.MainLogPlugin...
+!<3> [LogPlugin]Cannot find section MAIN LOG (aborting plugin)
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.logs.kernel.KernelLogPlugin...
+!<3> [KernelLogPlugin]Cannot find section LAST KMSG (ignoring)
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.logs.event.EventLogPlugin...
+!<4> [LogPlugin]addSampleData(eventType=868 I netstats_mobile_sample):java.lang.NumberFormatException: For input string: "1684748517330"
+!<4> [LogPlugin]addSampleData(eventType=868 I netstats_wifi_sample):java.lang.NumberFormatException: For input string: "1684748517330"
+!<4> [LogPlugin]addSampleData(eventType=868 I netstats_mobile_sample):java.lang.NumberFormatException: For input string: "1684749081291"
+!<4> [LogPlugin]addSampleData(eventType=868 I netstats_wifi_sample):java.lang.NumberFormatException: For input string: "1684749081291"
+!<4> [LogPlugin]addSampleData(eventType=868 I netstats_mobile_sample):java.lang.NumberFormatException: For input string: "1684749117840"
+!<4> [LogPlugin]addSampleData(eventType=868 I netstats_wifi_sample):java.lang.NumberFormatException: For input string: "1684749117840"
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.ftrace.FTracePlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.SurfaceFlingerPlugin...
+!<3> [SurfaceFlingerPlugin]Error parsing: cannot recognize section!
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.WindowManagerPlugin...
+!<3> Cannot find node 'Event Hub State:'
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.CpuFreqPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.apps.AppActivitiesPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.battery.BatteryInfoPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.battery.WakelocksPlugin...
+!<3> [WakelocksPlugin]Section not found: KERNEL WAKELOCKS (aborting plugin)
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.battery.KernelWakeSourcesPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.battery.WakelocksFromLogPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.AlarmManagerPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.UsageHistoryPlugin...
+!<3> [UsageHistoryPlugin]Cannot find section: USAGE HISTORY
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.PSTreePlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.MiscPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.SummaryPlugin...
+ <2> Running (load) plugin: com.sonyericsson.chkbugreport.plugins.charteditor.ChartEditorPlugin...
+ <1> Plugins are generating output...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.SysPropsPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.PackageInfoPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.ScreenShotPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.stacktrace.StackTracePlugin...
+!<2> Cannot make DB connection: java.lang.ClassNotFoundException: org.sqlite.JDBC
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.MemPlugin...
+!<3> [MemPlugin]Section not found: PROCRANK (ignoring section)
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.logs.SystemLogPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.logs.MainLogPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.logs.kernel.KernelLogPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.logs.event.EventLogPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.ftrace.FTracePlugin...
+!<3> [FTracePlugin]Cannot find section: FTRACE
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.SurfaceFlingerPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.WindowManagerPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.CpuFreqPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.apps.AppActivitiesPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.battery.BatteryInfoPlugin...
+!<3> [BatteryInfoPlugin]Battery history not found in section DUMP OF SERVICE batteryinfo
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.battery.WakelocksPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.battery.KernelWakeSourcesPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.battery.WakelocksFromLogPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.AlarmManagerPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.UsageHistoryPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.PSTreePlugin...
+!<3> [PSTreePlugin]Process list information not found! (aborting plugin)
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.MiscPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.SummaryPlugin...
+ <2> Running (generate) plugin: com.sonyericsson.chkbugreport.plugins.charteditor.ChartEditorPlugin...
+ <1> Collecting errors...
+ <1> Copying extra resources...
+ <1> Saving raw sections
+ <1> Collecting process records...
+ <1> Generating TOC ...
+ <2> Writing chapter: Table of contents...
+ <2> Writing chapter: null...
+ <2> Writing chapter: Header...
+ <2> Writing chapter: Errors (3)...
+ <2> Writing chapter: Wrong window order...
+ <2> Writing chapter: Multiple window instances found...
+ <2> Writing chapter: Huge time gap in EVENT LOG...
+ <2> Writing chapter: VM traces just now...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.audio@2.0-service (254)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.bluetooth@1.0-service (255)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.camera.provider@2.4-service (256)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.graphics.composer@2.1-service (263)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.sensors@1.0-service (267)...
+ <2> Writing chapter: /system/bin/surfaceflinger (283)...
+ <2> Writing chapter: /system/bin/audioserver (327)...
+ <2> Writing chapter: /system/bin/cameraserver (328)...
+ <2> Writing chapter: /system/bin/drmserver (329)...
+ <2> Writing chapter: /system/bin/mediadrmserver (337)...
+ <2> Writing chapter: /system/bin/mediaserver (348)...
+ <2> Writing chapter: media.codec (354)...
+ <2> Writing chapter: system_server (622)...
+ <2> Writing chapter: com.android.phone (891)...
+ <2> Writing chapter: com.android.systemui (925)...
+ <2> Writing chapter: com.android.settings (1061)...
+ <2> Writing chapter: com.sprd.applock (1197)...
+ <2> Writing chapter: com.spreadtrum.vce (1210)...
+ <2> Writing chapter: com.android.modemnotifier (1221)...
+ <2> Writing chapter: com.abupdate.fota_demo_iot (1264)...
+ <2> Writing chapter: com.jx.launcher (1310)...
+ <2> Writing chapter: android.process.acore (1383)...
+ <2> Writing chapter: android.process.media (1404)...
+ <2> Writing chapter: com.jx.inputmethod.pinyin (1449)...
+ <2> Writing chapter: com.android.carrierconfig (1465)...
+ <2> Writing chapter: com.spreadtrum.vowifi (1484)...
+ <2> Writing chapter: com.android.dialer (1580)...
+ <2> Writing chapter: com.android.providers.calendar (1606)...
+ <2> Writing chapter: com.android.calendar (1694)...
+ <2> Writing chapter: com.android.deskclock (1737)...
+ <2> Writing chapter: com.android.packageinstaller (1771)...
+ <2> Writing chapter: com.android.soundrecorder (1796)...
+ <2> Writing chapter: com.sprd.engineermode (1813)...
+ <2> Writing chapter: com.sprd.systemupdate (1840)...
+ <2> Writing chapter: com.divo.phone (1892)...
+ <2> Writing chapter: com.android.cellbroadcastreceiver (1931)...
+ <2> Writing chapter: com.sprd.bootres (1952)...
+ <2> Writing chapter: app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000 (1990)...
+ <2> Writing chapter: app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA (2007)...
+ <2> Writing chapter: com.android.commands.monkey (2189)...
+ <2> Writing chapter: com.android.defcontainer (2198)...
+ <2> Writing chapter: com.jx.childlike (2227)...
+ <2> Writing chapter: com.android.commands.monkey (2352)...
+ <2> Writing chapter: com.android.systemui:screenshot (2363)...
+ <2> Writing chapter: com.zmapp.sms (2440)...
+ <2> Writing chapter: com.yingyonghui.market (2492)...
+ <2> Writing chapter: com.yingyonghui.market:pushservice (2619)...
+ <2> Writing chapter: com.example.demo1 (2653)...
+ <2> Writing chapter: com.tencent.mm (2766)...
+ <2> Writing chapter: com.android.settings (2898)...
+ <2> Writing chapter: Memory info...
+ <2> Writing chapter: From /proc/meminfo...
+ <2> Writing chapter: System log...
+ <2> Writing chapter: Log...
+ <2> Writing chapter: Spam top list...
+ <2> Writing chapter: Log level distribution...
+ <2> Writing chapter: Kernel log...
+ <2> Writing chapter: Log...
+ <2> Writing chapter: Event log...
+ <2> Writing chapter: Log...
+ <2> Writing chapter: Spam top list...
+ <2> Writing chapter: SurfaceFlinger...
+ <2> Writing chapter: Related logs from SystemLogPlugin...
+ <2> Writing chapter: WindowManager...
+ <2> Writing chapter: CPU...
+ <2> Writing chapter: Frequencies...
+ <2> Writing chapter: Battery info...
+ <2> Writing chapter: Per-PID Stats...
+ <2> Writing chapter: Statistics since last charge...
+ <2> Writing chapter: Kernel wakelocks...
+ <2> Writing chapter: AlarmManager...
+ <2> Writing chapter: Alarms...
+ <2> Writing chapter: Alarm stats...
+ <2> Writing chapter: Alarm combined stats...
+ <2> Writing chapter: ActivityManager...
+ <2> Writing chapter: App activities...
+ <2> Writing chapter: App services...
+ <2> Writing chapter: Dump of package service...
+ <2> Writing chapter: Raw data...
+ <2> Writing chapter: Processes...
+ <2> Writing chapter:  (1002)...
+ <2> Writing chapter:  (10077)...
+ <2> Writing chapter:  (1047)...
+ <2> Writing chapter: /system/bin/audioserver (327)...
+ <2> Writing chapter: /system/bin/cameraserver (328)...
+ <2> Writing chapter: /system/bin/drmserver (329)...
+ <2> Writing chapter: /system/bin/mediadrmserver (337)...
+ <2> Writing chapter: /system/bin/mediaserver (348)...
+ <2> Writing chapter: /system/bin/surfaceflinger (283)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.audio@2.0-service (254)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.bluetooth@1.0-service (255)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.camera.provider@2.4-service (256)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.graphics.composer@2.1-service (263)...
+ <2> Writing chapter: /vendor/bin/hw/android.hardware.sensors@1.0-service (267)...
+ <2> Writing chapter: PowerController.RecogA (1040)...
+ <2> Writing chapter: [028 I APM_AudioPolicyManager] (1041)...
+ <2> Writing chapter: [032 I chatty] (1046)...
+ <2> Writing chapter: [227 W ViewRootImpl[MainActivity]] (10074)...
+ <2> Writing chapter: [231 I zygote] (10066)...
+ <2> Writing chapter: [361 I /system/bin/tombstoned] (1058)...
+ <2> Writing chapter: [406 W ViewRootImpl[MainActivity]] (10065)...
+ <2> Writing chapter: [455 I zygote] (10072)...
+ <2> Writing chapter: [492 W ViewRootImpl[MainActivity]] (10076)...
+ <2> Writing chapter: [612 I zygote] (10019)...
+ <2> Writing chapter: [653 W ViewRootImpl[MainActivity]] (10081)...
+ <2> Writing chapter: [733 V AlarmManager] (1000)...
+ <2> Writing chapter: [766 I MMKV] (10080)...
+ <2> Writing chapter: [771 W ViewRootImpl[GrantPermissionsActivity]] (10021)...
+ <2> Writing chapter: [803 I zygote] (10043)...
+ <2> Writing chapter: [925 W ViewRootImpl[NoNetAlertActivity]] (10022)...
+ <2> Writing chapter: [940 I Sogou_MultiDex] (10078)...
+ <2> Writing chapter: android.process.acore (1383)...
+ <2> Writing chapter: android.process.media (1404)...
+ <2> Writing chapter: app_process / com.genymobile.scrcpy.CleanUp AAAAAP////8CAAAA (2007)...
+ <2> Writing chapter: app_process / com.genymobile.scrcpy.Server 1.24 log_level=info bit_rate=8000000 (1990)...
+ <2> Writing chapter: com.abupdate.fota_demo_iot (1264)...
+ <2> Writing chapter: com.android.calendar (1694)...
+ <2> Writing chapter: com.android.carrierconfig (1465)...
+ <2> Writing chapter: com.android.cellbroadcastreceiver (1931)...
+ <2> Writing chapter: com.android.commands.monkey (2189)...
+ <2> Writing chapter: com.android.commands.monkey (2352)...
+ <2> Writing chapter: com.android.defcontainer (2198)...
+ <2> Writing chapter: com.android.deskclock (1737)...
+ <2> Writing chapter: com.android.dialer (1580)...
+ <2> Writing chapter: com.android.modemnotifier (1221)...
+ <2> Writing chapter: com.android.packageinstaller (1771)...
+ <2> Writing chapter: com.android.phone (891)...
+ <2> Writing chapter: com.android.providers.calendar (1606)...
+ <2> Writing chapter: com.android.settings (1061)...
+ <2> Writing chapter: com.android.settings (2898)...
+ <2> Writing chapter: com.android.soundrecorder (1796)...
+ <2> Writing chapter: com.android.systemui (925)...
+ <2> Writing chapter: com.android.systemui:screenshot (2363)...
+ <2> Writing chapter: com.divo.phone (1892)...
+ <2> Writing chapter: com.example.demo1 (2653)...
+ <2> Writing chapter: com.jx.childlike (2227)...
+ <2> Writing chapter: com.jx.inputmethod.pinyin (1449)...
+ <2> Writing chapter: com.jx.launcher (1310)...
+ <2> Writing chapter: com.sprd.applock (1197)...
+ <2> Writing chapter: com.sprd.bootres (1952)...
+ <2> Writing chapter: com.sprd.engineermode (1813)...
+ <2> Writing chapter: com.sprd.systemupdate (1840)...
+ <2> Writing chapter: com.spreadtrum.vce (1210)...
+ <2> Writing chapter: com.spreadtrum.vowifi (1484)...
+ <2> Writing chapter: com.tencent.mm (2766)...
+ <2> Writing chapter: com.yingyonghui.market (2492)...
+ <2> Writing chapter: com.yingyonghui.market:pushservice (2619)...
+ <2> Writing chapter: com.zmapp.sms (2440)...
+ <2> Writing chapter: media.codec (354)...
+ <2> Writing chapter: system_server (622)...
+ <2> Writing chapter: systemlog_01000.html...
+ <2> Writing chapter: systemlog_10074.html...
+ <2> Writing chapter: systemlog_10021.html...
+ <2> Writing chapter: systemlog_10022.html...
+ <2> Writing chapter: systemlog_10065.html...
+ <2> Writing chapter: systemlog_10076.html...
+ <2> Writing chapter: systemlog_10081.html...
+ <2> Writing chapter: systemlog_01041.html...
+ <2> Writing chapter: systemlog_01058.html...
+ <2> Writing chapter: systemlog_01046.html...
+ <2> Writing chapter: systemlog_10080.html...
+ <2> Writing chapter: systemlog_10066.html...
+ <2> Writing chapter: systemlog_10072.html...
+ <2> Writing chapter: systemlog_10019.html...
+ <2> Writing chapter: systemlog_10043.html...
+ <2> Writing chapter: systemlog_01040.html...
+ <2> Writing chapter: systemlog_10078.html...
+ <2> Writing chapter: eventlog_01000.html...
+ <2> Writing chapter: eventlog_10022.html...
+ <2> Writing chapter: eventlog_10066.html...
+ <2> Writing chapter: eventlog_10074.html...
+ <2> Writing chapter: eventlog_10021.html...
+ <2> Writing chapter: eventlog_01040.html...
+ <2> Writing chapter: eventlog_10065.html...
+ <2> Writing chapter: eventlog_10076.html...
+ <2> Writing chapter: eventlog_10081.html...
+ <2> Writing chapter: eventlog_01041.html...
+ <2> Writing chapter: eventlog_01002.html...
+ <2> Writing chapter: eventlog_01047.html...
+ <2> Writing chapter: eventlog_01046.html...
+ <2> Writing chapter: eventlog_10080.html...
+ <2> Writing chapter: eventlog_10078.html...
+ <2> Writing chapter: eventlog_10077.html...
+ <1> Writing frameset...
+ <1> DONE!

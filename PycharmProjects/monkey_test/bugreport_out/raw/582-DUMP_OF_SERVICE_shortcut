@@ -1,0 +1,128 @@
+Now: [1684749132049] 2023-05-22 17:52:12  Raw last reset: [1546301243673] 2019-01-01 08:07:23  Last reset: [1684714043673] 2023-05-22 08:07:23  Next reset: [1684800443673] 2023-05-23 08:07:23  Config:    Max icon dim: 36
+    Icon format: PNG
+    Icon quality: 100
+    saveDelayMillis: 3000
+    resetInterval: 86400000
+    maxUpdatesPerInterval: 10
+    maxShortcutsPerActivity: 5
+
+  Stats:
+    getHomeActivities(): count=6, total=7ms, avg=1.2ms
+    Launcher permission check: count=147, total=56ms, avg=0.4ms
+    getPackageInfo(): count=0, total=0ms, avg=0.0ms
+    getPackageInfo(SIG): count=9, total=2ms, avg=0.2ms
+    getApplicationInfo: count=6, total=6ms, avg=1.0ms
+    cleanupDanglingBitmaps: count=0, total=0ms, avg=0.0ms
+    getActivity+metadata: count=43, total=9ms, avg=0.2ms
+    getInstalledPackages: count=1, total=22ms, avg=22.0ms
+    checkPackageChanges: count=1, total=384ms, avg=384.0ms
+    getApplicationResources: count=18, total=19ms, avg=1.1ms
+    resourceNameLookup: count=18, total=12ms, avg=0.7ms
+    getLauncherActivity: count=0, total=0ms, avg=0.0ms
+    checkLauncherActivity: count=147, total=177ms, avg=1.2ms
+    isActivityEnabled: count=5, total=0ms, avg=0.0ms
+    packageUpdateCheck: count=147, total=58ms, avg=0.4ms
+    asyncPreloadUserDelay: count=1, total=4ms, avg=4.0ms
+    getDefaultLauncher(): count=6, total=7ms, avg=1.2ms
+
+  #Failures: 0
+
+  Pending saves: Num=0 Executor=java.util.concurrent.ThreadPoolExecutor@d71d708[Running, pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 4]
+
+  User: 0  Known locales: zh-CN  Last app scan: [1546301249204] 2019-01-01 08:07:29  Last app scan FP: SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/29213:user/release-keys
+      Cached launcher: null
+      Last known launcher: ComponentInfo{com.jx.launcher/com.jx.launcher.Launcher}
+
+      Launcher: com.jx.launcher  Package user: 0  Owner user: 0
+
+        PackageInfo:
+          IsShadow: false
+          Version: -1
+          Last package update time: 0
+
+
+      Package: com.android.documentsui  UID: 10008
+        Calls: 0
+        Last known FG: 0
+        Last reset: [1684714043673] 2023-05-22 08:07:23
+
+        PackageInfo:
+          IsShadow: false
+          Version: 27
+          Last package update time: 1658210368000
+
+        Shortcuts:
+          ShortcutInfo {id=content://com.android.providers.media.documents/root/images_root, flags=0x1a4 [ImMIrSr], packageName=com.android.documentsui, activity=ComponentInfo{com.android.documentsui/com.android.documentsui.LauncherActivity}, shortLabel=??????, resId=2131689578[images_shortcut_label], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=0, timestamp=1546301249562, intents=[Intent { act=android.intent.action.VIEW dat=content://com.android.providers.media.documents/root/images_root flg=0x1000c000 }/null], extras=null, iconRes=2131165324[drawable/ic_images_shortcut], bitmapPath=null}
+        Total bitmap size: 0 (0 B)
+
+      Package: com.android.settings  UID: 1000
+        Calls: 0
+        Last known FG: 940648
+        Last reset: [1684714043673] 2023-05-22 08:07:23
+
+        PackageInfo:
+          IsShadow: false
+          Version: 27
+          Last package update time: 1658210503000
+
+        Shortcuts:
+          ShortcutInfo {id=manifest-shortcut-wifi, flags=0x1a4 [ImMIrSr], packageName=com.android.settings, activity=ComponentInfo{com.android.settings/com.android.settings.Settings}, shortLabel=WLAN, resId=2131890425[wifi_settings], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=0, timestamp=1546301295298, intents=[Intent { act=android.settings.WIFI_SETTINGS flg=0x1000c000 }/null], extras=null, iconRes=2131231094[drawable/ic_shortcut_wireless], bitmapPath=null}
+          ShortcutInfo {id=manifest-shortcut-battery, flags=0x1a4 [ImMIrSr], packageName=com.android.settings, activity=ComponentInfo{com.android.settings/com.android.settings.Settings}, shortLabel=????б└?, resId=2131888742[power_usage_summary_title], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=2, timestamp=1546301295298, intents=[Intent { act=android.intent.action.POWER_USAGE_SUMMARY flg=0x1000c000 }/null], extras=null, iconRes=2131231092[drawable/ic_shortcut_battery], bitmapPath=null}
+          ShortcutInfo {id=manifest-shortcut-data-usage, flags=0x1a4 [ImMIrSr], packageName=com.android.settings, activity=ComponentInfo{com.android.settings/com.android.settings.Settings}, shortLabel=???иж???????бз??????, resId=2131887215[data_usage_summary_title], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=1, timestamp=1546301295298, intents=[Intent { act=android.intent.action.MAIN flg=0x1000c000 cmp=com.android.settings/.Settings$DataUsageSummaryActivity }/null], extras=null, iconRes=2131231093[drawable/ic_shortcut_data_usage], bitmapPath=null}
+        Total bitmap size: 0 (0 B)
+
+      Package: com.yingyonghui.market  UID: 10076
+        Calls: 0
+        Last known FG: 940649
+        Last reset: [1684714043673] 2023-05-22 08:07:23
+
+        PackageInfo:
+          IsShadow: false
+          Version: 30064263
+          Last package update time: 1658209831000
+
+        Shortcuts:
+          ShortcutInfo {id=update_manage, flags=0x1a4 [ImMIrSr], packageName=com.yingyonghui.market, activity=ComponentInfo{com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}, shortLabel=?????бу??????, resId=2131756010[shortcut_label_update], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=2, timestamp=1684749100425, intents=[Intent { act=android.intent.action.VIEW dat=appchina://updatelist?from=shortcut flg=0x1000c000 }/null], extras=null, iconRes=2131231035[drawable/ic_shortcut_update], bitmapPath=null}
+          ShortcutInfo {id=search, flags=0x1a4 [ImMIrSr], packageName=com.yingyonghui.market, activity=ComponentInfo{com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}, shortLabel=?????? App, resId=2131756008[shortcut_label_search], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=0, timestamp=1684749100425, intents=[Intent { act=android.intent.action.VIEW dat=appchina://search?from=shortcut flg=0x1000c000 }/null], extras=null, iconRes=2131231033[drawable/ic_shortcut_search], bitmapPath=null}
+          ShortcutInfo {id=uninstall_manage, flags=0x1a4 [ImMIrSr], packageName=com.yingyonghui.market, activity=ComponentInfo{com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}, shortLabel=???ии????????, resId=2131756009[shortcut_label_uninstall], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=3, timestamp=1684749100426, intents=[Intent { act=android.intent.action.VIEW dat=appchina://LocalInstalledList?from=shortcut flg=0x1000c000 }/null], extras=null, iconRes=2131231034[drawable/ic_shortcut_uninstall], bitmapPath=null}
+          ShortcutInfo {id=download_manage, flags=0x1a4 [ImMIrSr], packageName=com.yingyonghui.market, activity=ComponentInfo{com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}, shortLabel=???ии????????, resId=2131756007[shortcut_label_download], longLabel=null, resId=0[null], disabledMessage=null, resId=0[null], categories=null, icon=null, rank=1, timestamp=1684749100425, intents=[Intent { act=android.intent.action.VIEW dat=appchina://downloadhistory?from=shortcut flg=0x1000c000 }/null], extras=null, iconRes=2131231032[drawable/ic_shortcut_download], bitmapPath=null}
+        Total bitmap size: 0 (0 B)
+
+      Bitmap directories: 
+        Path: bitmaps/ has 0 files, size=0 (0 B)
+
+** SHORTCUT MANAGER UID STATES (dumpsys shortcut -n -u)
+    UID=1001 state=0  [FG]  last FG=70045
+    UID=1002 state=18  last FG=0
+    UID=1037 state=17  last FG=0
+    UID=10002 state=18  last FG=115218
+    UID=10004 state=18  last FG=0
+    UID=10005 state=17  last FG=0
+    UID=10006 state=18  last FG=0
+    UID=10007 state=18  last FG=0
+    UID=10009 state=11  last FG=894870
+    UID=10014 state=18  last FG=0
+    UID=10015 state=18  last FG=0
+    UID=10016 state=18  last FG=77036
+    UID=10019 state=18  last FG=325802
+    UID=10020 state=18  last FG=0
+    UID=10021 state=17  last FG=892308
+    UID=10022 state=0  [FG]  last FG=938887
+    UID=10034 state=18  last FG=0
+    UID=10043 state=18  last FG=0
+    UID=10050 state=18  last FG=94628
+    UID=10061 state=18  last FG=0
+    UID=10065 state=17  last FG=894730
+    UID=10066 state=0  [FG]  last FG=75320
+    UID=10068 state=11  last FG=936493
+    UID=10072 state=18  last FG=898023
+    UID=10074 state=2  [FG]  last FG=938887
+    UID=10076 state=11  last FG=908597
+    UID=10077 state=11  last FG=936493
+    UID=10078 state=7  last FG=927663
+    UID=10080 state=14  last FG=931230
+    UID=10081 state=11  last FG=904451
+
+** SHORTCUT MANAGER FILES (dumpsys shortcut -n -f)
+  No dump files found.
+--------- 0.043s was the duration of dumpsys shortcut, ending at: 2023-05-22 17:52:12

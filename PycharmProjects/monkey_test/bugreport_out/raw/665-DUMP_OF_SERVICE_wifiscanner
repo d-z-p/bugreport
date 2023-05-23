@@ -1,0 +1,24 @@
+WifiScanningService - Log Begin ----
+2023-05-18T12:36:15.140 - client connected: ClientInfo[uid=1000,android.os.Messenger@4fca604]
+WifiScanningService - Log End ----
+
+clients:
+  ClientInfo[uid=1000,android.os.Messenger@4fca604]
+listeners:
+WifiPnoScanStateMachine:
+ total records=1
+ rec[0]: time=05-18 12:35:01.813 processed=DefaultState org=DefaultState dest=DefaultState what=160007(0x27107)
+curState=DefaultState
+
+WifiSingleScanStateMachine:
+ total records=5
+ rec[0]: time=05-18 12:35:01.813 processed=DefaultState org=DefaultState dest=DefaultState what=160007(0x27107)
+ rec[1]: time=05-18 12:36:15.144 processed=DefaultState org=DefaultState dest=<null> what=159773(0x2701d)
+ rec[2]: time=05-18 12:36:21.753 processed=DefaultState org=DefaultState dest=<null> what=159773(0x2701d)
+ rec[3]: time=05-18 12:36:53.165 processed=DefaultState org=DefaultState dest=<null> what=159773(0x2701d)
+ rec[4]: time=05-18 12:36:53.500 processed=DefaultState org=DefaultState dest=<null> what=159773(0x2701d)
+curState=DefaultState
+
+Latest scan results:
+
+--------- 0.007s was the duration of dumpsys wifiscanner, ending at: 2023-05-18 12:38:59

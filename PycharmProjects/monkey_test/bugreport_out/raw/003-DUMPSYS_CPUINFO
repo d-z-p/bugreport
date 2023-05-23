@@ -1,0 +1,117 @@
+Load: 2.72 / 1.96 / 1.36
+CPU usage from 235806ms to 2173ms ago (2023-05-22 17:47:45.479 to 2023-05-22 17:51:39.112):
+  12% 283/surfaceflinger: 7.5% user + 4.6% kernel / faults: 18493 minor 3 major
+  7.3% 622/system_server: 5.5% user + 1.8% kernel / faults: 35239 minor 65 major
+  4.8% 1061/com.android.settings: 3.5% user + 1.2% kernel / faults: 13936 minor 1763 major
+  4.6% 925/com.android.systemui: 2.9% user + 1.7% kernel / faults: 18838 minor 69 major
+  3.2% 354/media.codec: 1.6% user + 1.5% kernel / faults: 745 minor 1 major
+  2.6% 1990/app_process: 1.7% user + 0.9% kernel / faults: 3266 minor
+  2% 1310/com.jx.launcher: 1.6% user + 0.3% kernel / faults: 11405 minor 73 major
+  1.3% 263/android.hardware.graphics.composer@2.1-service: 0.7% user + 0.6% kernel / faults: 1016 minor 1 major
+  1.1% 100/sprd-adf-dev: 0% user + 1.1% kernel
+  1.1% 1971/adbd: 0.3% user + 0.8% kernel / faults: 8404 minor
+  1.1% 224/logd: 0.7% user + 0.3% kernel / faults: 742 minor
+  0.5% 891/com.android.phone: 0.3% user + 0.2% kernel / faults: 6218 minor 93 major
+  0.5% 65/kswapd0: 0% user + 0.5% kernel
+  0.5% 225/servicemanager: 0.1% user + 0.3% kernel / faults: 3558 minor
+  0.2% 1449/com.jx.inputmethod.pinyin: 0.1% user + 0% kernel / faults: 9625 minor 7 major
+  0.1% 1771/com.android.packageinstaller: 0.1% user + 0% kernel / faults: 11255 minor 893 major
+  0.2% 1106/kworker/u9:2: 0% user + 0.2% kernel
+  0.2% 1264/com.abupdate.fota_demo_iot: 0.2% user + 0% kernel / faults: 3883 minor 956 major
+  0.1% 2164/kworker/u9:3: 0% user + 0.1% kernel
+  0.1% 7/rcu_preempt: 0% user + 0.1% kernel
+  0.1% 347/kworker/u8:7: 0% user + 0.1% kernel
+  0.1% 6/kworker/u8:0: 0% user + 0.1% kernel
+  0% 1404/android.process.media: 0% user + 0% kernel / faults: 5337 minor 921 major
+  0.1% 139/mmcqd/0: 0% user + 0.1% kernel
+  0.1% 240/kworker/u9:1: 0% user + 0.1% kernel
+  0% 262/android.hardware.graphics.allocator@2.0-service: 0% user + 0% kernel / faults: 671 minor 1 major
+  0% 276/vendor.sprd.hardware.power@2.0-service: 0% user + 0% kernel / faults: 180 minor 3 major
+  0% 136/swcnblk-3-8: 0% user + 0% kernel
+  0% 353/wificond: 0% user + 0% kernel / faults: 936 minor
+  0% 2065/wpa_supplicant: 0% user + 0% kernel / faults: 708 minor
+  0% 1383/android.process.acore: 0% user + 0% kernel / faults: 5009 minor 577 major
+  0% 37/spi1: 0% user + 0% kernel
+  0% 1197/com.sprd.applock: 0% user + 0% kernel / faults: 4138 minor 18 major
+  0% 358/thermald: 0% user + 0% kernel / faults: 307 minor
+  0% 175/kworker/1:4: 0% user + 0% kernel
+  0% 1484/com.spreadtrum.vowifi: 0% user + 0% kernel / faults: 3196 minor 129 major
+  0% 46/cfinteractive: 0% user + 0% kernel
+  0% 250/zygote: 0% user + 0% kernel / faults: 1703 minor
+  0% 271/android.hardware.wifi@1.0-service: 0% user + 0% kernel / faults: 871 minor
+  0% 1580/com.android.dialer: 0% user + 0% kernel / faults: 2370 minor 160 major
+  0% 1694/com.android.calendar: 0% user + 0% kernel / faults: 2789 minor 232 major
+  0% 1892/com.divo.phone: 0% user + 0% kernel / faults: 2376 minor 512 major
+  0% 254/android.hardware.audio@2.0-service: 0% user + 0% kernel / faults: 195 minor 40 major
+  0% 1210/com.spreadtrum.vce: 0% user + 0% kernel / faults: 3121 minor 133 major
+  0% 1221/com.android.modemnotifier: 0% user + 0% kernel / faults: 3137 minor 112 major
+  0% 1465/com.android.carrierconfig: 0% user + 0% kernel / faults: 2764 minor 152 major
+  0% 1606/com.android.providers.calendar: 0% user + 0% kernel / faults: 2374 minor 170 major
+  0% 1737/com.android.deskclock: 0% user + 0% kernel / faults: 2680 minor 146 major
+  0% 1755/com.android.onetimeinitializer: 0% user + 0% kernel / faults: 2880 minor 142 major
+  0% 1796/com.android.soundrecorder: 0% user + 0% kernel / faults: 2951 minor 193 major
+  0% 1813/com.sprd.engineermode: 0% user + 0% kernel / faults: 2866 minor 124 major
+  0% 1840/com.sprd.systemupdate: 0% user + 0% kernel / faults: 2722 minor 235 major
+  0% 1931/com.android.cellbroadcastreceiver: 0% user + 0% kernel / faults: 2691 minor 132 major
+  0% 327/audioserver: 0% user + 0% kernel / faults: 390 minor 19 major
+  0% 600/sprdrild: 0% user + 0% kernel / faults: 238 minor
+  0% 1952/com.sprd.bootres: 0% user + 0% kernel / faults: 2377 minor 117 major
+  0% 315/kworker/3:2: 0% user + 0% kernel
+  0% 1142/kworker/0:2: 0% user + 0% kernel
+  0% 214/f2fs_gc-259:17: 0% user + 0% kernel
+  0% 267/android.hardware.sensors@1.0-service: 0% user + 0% kernel / faults: 657 minor 58 major
+  0% 376/sh: 0% user + 0% kernel / faults: 1039 minor
+  0% 213/f2fs_discard-25: 0% user + 0% kernel
+  0% 226/hwservicemanager: 0% user + 0% kernel / faults: 411 minor
+  0% 364/connmgr: 0% user + 0% kernel / faults: 69 minor
+  0% 2104/kworker/2:0: 0% user + 0% kernel
+  0% 3/ksoftirqd/0: 0% user + 0% kernel
+  0% 39/system: 0% user + 0% kernel
+  0% 135/swcnblk-3-7: 0% user + 0% kernel
+  0% 249/netd: 0% user + 0% kernel / faults: 294 minor
+  0% 266/android.hardware.memtrack@1.0-service: 0% user + 0% kernel / faults: 155 minor
+  0% 1//init: 0% user + 0% kernel / faults: 146 minor 1 major
+  0% 2/kthreadd: 0% user + 0% kernel
+  0% 12/ksoftirqd/1: 0% user + 0% kernel
+  0% 16/ksoftirqd/2: 0% user + 0% kernel
+  0% 20/ksoftirqd/3: 0% user + 0% kernel
+  0% 35/sprd_deep_print: 0% user + 0% kernel
+  0% 44/irq/57-spi5.0: 0% user + 0% kernel
+  0% 122/watchdog_feeder: 0% user + 0% kernel
+  0% 131/sbuf-5-6: 0% user + 0% kernel
+  0% 258/android.hardware.configstore@1.0-service: 0% user + 0% kernel / faults: 318 minor 48 major
+  0% 278/healthd: 0% user + 0% kernel / faults: 45 minor
+  0% 281/lmkd: 0% user + 0% kernel / faults: 48 minor
+  0% 294/kworker/1:1H: 0% user + 0% kernel
+  0% 333/installd: 0% user + 0% kernel / faults: 276 minor 1 major
+  0% 345/media.extractor: 0% user + 0% kernel / faults: 197 minor
+  0% 351/storaged: 0% user + 0% kernel / faults: 18 minor
+  0% 359/vendor.sprd.hardware.gnss@1.0-service: 0% user + 0% kernel / faults: 104 minor
+  0% 2183/kworker/u8:1: 0% user + 0% kernel
+ +0% 2185/kworker/u8:2: 0% user + 0% kernel
+ +0% 2189/com.android.commands.monkey: 0% user + 0% kernel
+ +0% 2195/kworker/u8:3: 0% user + 0% kernel
+ +0% 2198/com.android.defcontainer: 0% user + 0% kernel
+ +0% 2227/com.jx.childlike: 0% user + 0% kernel
+ +0% 2260/kbase_event: 0% user + 0% kernel
+ +0% 2282/kworker/2:2: 0% user + 0% kernel
+ +0% 2291/kworker/u8:4: 0% user + 0% kernel
+ +0% 2298/kbase_event: 0% user + 0% kernel
+ +0% 2352/com.android.commands.monkey: 0% user + 0% kernel
+ +0% 2363/com.android.systemui:screenshot: 0% user + 0% kernel
+ +0% 2385/kbase_event: 0% user + 0% kernel
+ +0% 2406/com.ztapp.callbyvideo: 0% user + 0% kernel
+ +0% 2427/kbase_event: 0% user + 0% kernel
+ +0% 2440/com.zmapp.sms: 0% user + 0% kernel
+ +0% 2454/kworker/u9:0: 0% user + 0% kernel
+ +0% 2458/kbase_event: 0% user + 0% kernel
+ +0% 2484/bugreport: 0% user + 0% kernel
+ +0% 2486/dumpstate: 0% user + 0% kernel
+ +0% 2491/kworker/1:0: 0% user + 0% kernel
+ +0% 2492/com.yingyonghui.market: 0% user + 0% kernel
+ +0% 2508/dumpsys: 0% user + 0% kernel
+ +0% 2558/kbase_event: 0% user + 0% kernel
+ +0% 2619/com.yingyonghui.market:pushservice: 0% user + 0% kernel
+ +0% 2653/com.example.demo1: 0% user + 0% kernel
+ +0% 2675/kbase_event: 0% user + 0% kernel
+13% TOTAL: 8.5% user + 5% kernel + 0% iowait + 0% softirq

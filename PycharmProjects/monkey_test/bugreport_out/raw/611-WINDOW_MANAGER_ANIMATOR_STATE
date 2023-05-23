@@ -1,0 +1,28 @@
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{4977d79 com.android.systemui.ImageWallpaper}
+      Window #1: WindowStateAnimator{1517abe com.jx.launcher/com.jx.launcher.Launcher}
+      Window #2: WindowStateAnimator{b571f com.zmapp.sms/com.zmapp.sms.MainActivity}
+      Window #3: WindowStateAnimator{a59ba6c com.zmapp.sms/com.zmapp.sms.NewSmsActivity}
+      Window #4: WindowStateAnimator{a897835 com.example.demo1/com.example.plokmju.testmutilecompile.MainActivity}
+      Window #5: WindowStateAnimator{d2684ca com.example.demo1/com.example.plokmju.activity.LoginActivity}
+      Window #6: WindowStateAnimator{418463b com.jx.launcher/com.jx.launcher.Launcher}
+      Window #7: WindowStateAnimator{5e1158 com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}
+      Window #8: WindowStateAnimator{36662b1 com.yingyonghui.market/com.yingyonghui.market.ui.MainActivity}
+      Window #9: WindowStateAnimator{a902396 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+      Window #10: WindowStateAnimator{63b0b17 com.tencent.mm/com.tencent.mm.plugin.account.ui.WelcomeActivity}
+      Window #11: WindowStateAnimator{f4eeb04 com.tencent.mm/com.tencent.mm.plugin.account.ui.RegByMobileRegAIOUI}
+      Window #12: WindowStateAnimator{94d78ed com.zmapp.chat/com.zmapp.chat.activity.MainActivity}
+      Window #13: WindowStateAnimator{522e322 PopupWindow:c05a0b9}
+      Window #14: WindowStateAnimator{f5b41b3 com.zmapp.plugin.addfriend/com.zmapp.plugin.addfriend.activity.MainActivity}
+      Window #15: WindowStateAnimator{b51b370 com.jx.childlike/com.jx.childlike.MainActivity}
+      Window #16: WindowStateAnimator{f15b6e9 DockedStackDivider}
+      Window #17: WindowStateAnimator{b300f6e AssistPreviewPanel}
+      Window #18: WindowStateAnimator{53e460f StatusBar}
+      Window #19: WindowStateAnimator{376969c navbackleft}
+      Window #20: WindowStateAnimator{409d8a5 InputMethod}
+      no ScreenRotationAnimation 
+
+
+    mAnimTransactionSequence=837    mCurrentTime=940306 (871 ms ago)
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+

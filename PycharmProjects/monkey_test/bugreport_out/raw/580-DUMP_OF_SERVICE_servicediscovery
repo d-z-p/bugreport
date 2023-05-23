@@ -1,0 +1,4 @@
+NsdService:
+ total records=0
+curState=EnabledState
+--------- 0.001s was the duration of dumpsys servicediscovery, ending at: 2023-05-22 17:52:12

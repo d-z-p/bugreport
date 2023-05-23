@@ -1,0 +1,27 @@
+========================================================
+== dumpstate: 2023-05-18 12:38:26
+========================================================
+
+Build: K7_V13A_XTQ_S30_CN_ZX_F3.0_4.4V800_20230510
+Build fingerprint: 'SPRD/sl8541e/sl8541e:8.1.0/OPM2.171019.012/19307:user/release-keys'
+Bootloader: unknown
+Radio: FM_BASE_17B_Release_W19.49.5|sc9832e_modem|12-06-2019 19:19:35
+Network: China Unicom
+Kernel: Linux version 4.4.83 (hsc003@hsc003-PowerEdge-R720) (gcc version 4.9.x 20150123 (prerelease) (GCC) ) #1 SMP PREEMPT Wed May 10 07:45:52 CST 2023
+Command line: earlycon=sprd_serial,0x70100000,115200n8 console=ttyS1,115200n8 loglevel=1 init=/init root=/dev/ram0 rw androidboot.hardware=sl8541e_1h10 lcd_id=ID77916 lcd_base=beef0000 lcd_size=386x320   sysdump_magic=85500000 modem=shutdown ltemode=lcsfb rfboard.id=0 rfhw.id=0 crystal=2 32k.less=1  androidboot.verifiedbootstate=green androidboot.flash.locked=1 androidboot.vbmeta.device=PARTUUID=1.0 androidboot.vbmeta.avb_version=1.0 androidboot.vbmeta.device_state=locked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=13056 androidboot.vbmeta.digest=b5cb09e5aeff94b6899d792c98b6b975786ab0dbc31e0a3fe833688517021916  androidboot.serialno=51364993376097
+Bugreport format version: 1.0
+Dumpstate info: id=3 pid=10516 dry_run=0 args=/system/bin/dumpstate -s extra_options=
+
+HW:         sl8541e_1h10
+SW:         OPM2.171019.012
+Variant:    null/null
+Build type: user
+IMEI:       null
+
+================================
+Java Crash
+================================
+
+systemlog_log:
+05-18 12:37:40.593  1000  8529  8529 E AndroidRuntime: FATAL EXCEPTION: main
+

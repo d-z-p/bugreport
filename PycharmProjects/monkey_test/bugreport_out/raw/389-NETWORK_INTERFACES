@@ -1,0 +1,28 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: dummy0: <BROADCAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/ether 6e:ad:a0:19:74:4d brd ff:ff:ff:ff:ff:ff
+3: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN mode DEFAULT group default qlen 1
+    link/sit 0.0.0.0 brd 0.0.0.0
+4: ip6tnl0@NONE: <NOARP> mtu 1452 qdisc noop state DOWN mode DEFAULT group default qlen 1
+    link/tunnel6 :: brd ::
+5: seth_lte0: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] 06:e1:da:22:1e:f3 brd ff:ff:ff:ff:ff:ff
+6: seth_lte1: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] 56:ad:60:b6:74:d3 brd ff:ff:ff:ff:ff:ff
+7: seth_lte2: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] 42:24:dd:07:3e:ff brd ff:ff:ff:ff:ff:ff
+8: seth_lte3: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] e6:97:ba:44:da:5d brd ff:ff:ff:ff:ff:ff
+9: seth_lte4: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] 8e:f5:e2:f1:db:01 brd ff:ff:ff:ff:ff:ff
+10: seth_lte5: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] 86:36:55:eb:3a:26 brd ff:ff:ff:ff:ff:ff
+11: seth_lte6: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] 6e:74:bc:0e:b7:d9 brd ff:ff:ff:ff:ff:ff
+12: seth_lte7: <> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/[530] e6:3b:01:02:b8:22 brd ff:ff:ff:ff:ff:ff
+13: vowifi_tun0: <POINTOPOINT,MULTICAST,NOARP> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 500
+    link/none 
+14: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP mode DORMANT group default qlen 1000
+    link/ether 40:45:da:9b:7e:6f brd ff:ff:ff:ff:ff:ff

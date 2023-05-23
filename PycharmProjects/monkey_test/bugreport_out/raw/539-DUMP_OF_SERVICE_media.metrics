@@ -1,0 +1,13 @@
+Dump of the media.metrics process:
+Protocol Version: 0
+Metrics gathering: enabled
+Since Boot: Submissions:       63 Finalizations:       63
+Records Discarded:       62 (by Count: 0 by Expiration: 62)
+Summary Sets Discarded: 0
+
+Finalized Metrics (oldest first):
+    0: (codec:69:1000:28981:1684749111000000000:6:android.media.mediacodec.mime=audio/vorbis:android.media.mediacodec.mode=audio:android.media.mediacodec.encoder=0:android.media.mediacodec.codec=OMX.google.vorbis.decoder:android.media.mediacodec.secure=0:android.media.mediacodec.bytesin=8174:)
+
+In-Progress Metrics (newest first):
+empty
+--------- 0.006s was the duration of dumpsys media.metrics, ending at: 2023-05-22 17:52:10

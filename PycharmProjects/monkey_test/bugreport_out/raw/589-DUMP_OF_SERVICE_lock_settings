@@ -1,0 +1,6 @@
+Current lock settings service state:
+SP Enabled = false
+    User 0
+        SP Handle = 0
+        SID = 0
+--------- 0.003s was the duration of dumpsys lock_settings, ending at: 2023-05-18 12:38:57

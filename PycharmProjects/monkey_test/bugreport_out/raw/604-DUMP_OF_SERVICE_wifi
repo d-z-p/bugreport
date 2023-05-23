@@ -1,0 +1,923 @@
+Wi-Fi is enabled
+Stay-awake conditions: 0
+mInIdleMode false
+mScanPending false
+WifiController:
+ total records=14
+ rec[0]: time=01-01 08:07:26.788 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[1]: time=01-01 08:07:26.796 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[2]: time=01-01 08:07:26.874 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[3]: time=01-01 08:07:27.232 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[4]: time=01-01 08:07:29.788 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[5]: time=01-01 08:07:34.318 processed=DefaultState org=ApStaDisabledState dest=<null> what=155660(0x2600c)
+ rec[6]: time=01-01 08:08:23.064 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[7]: time=01-01 08:09:23.066 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[8]: time=01-01 08:10:23.064 processed=DefaultState org=ApStaDisabledState dest=<null> what=155652(0x26004)
+ rec[9]: time=01-01 08:10:52.285 processed=ApStaDisabledState org=ApStaDisabledState dest=DeviceActiveState what=155656(0x26008)
+ rec[10]: time=01-01 08:11:23.062 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[11]: time=05-22 17:42:36.448 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[12]: time=05-22 17:51:40.038 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+ rec[13]: time=05-22 17:51:53.093 processed=DefaultState org=DeviceActiveState dest=<null> what=155652(0x26004)
+curState=DeviceActiveState
+mScreenOff false
+mDeviceIdle false
+mPluggedType 2
+mIdleMillis 900000
+mSleepPolicy 2
+mPersistWifiState 1
+mAirplaneModeOn false
+mEnableTrafficStatsPoll false
+mTrafficStatsPollToken 30
+mTxPkts 78
+mRxPkts 564
+mDataActivity 0
+
+Locks held:
+Locks acquired: 0 full, 0 full high perf, 0 scan
+Locks released: 0 full, 0 full high perf, 0 scan
+
+Locks held:
+
+mMulticastEnabled 0
+mMulticastDisabled 0
+Multicast Locks held:
+
+WifiStateMachine:
+ total records=483
+ rec[0]: time=05-22 17:50:03.145 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=811712/811712 0 0 found=21 known=0 got=21 bcn=3837 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[1]: time=05-22 17:50:03.152 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=811719/811719 1000 0 num=1
+ rec[2]: time=05-22 17:50:03.173 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=811740/811740 1000 0 num=1
+ rec[3]: time=05-22 17:50:03.517 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=812085/812085 1000 0 num=1
+ rec[4]: time=05-22 17:50:12.523 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=821089/821089 1000 52 ic=0 proc(ms):1 onGoing full rssi=-23 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10008] from screen [on:100 period:1121832491]
+ rec[5]: time=05-22 17:50:13.150 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=821717/821717 0 0 found=20 known=0 got=20 bcn=3895 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[6]: time=05-22 17:50:13.155 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=821723/821723 1000 0 num=1
+ rec[7]: time=05-22 17:50:13.167 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=821734/821734 1000 0 num=1
+ rec[8]: time=05-22 17:50:13.501 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=822068/822068 1000 0 num=1
+ rec[9]: time=05-22 17:50:22.531 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=831098/831098 1000 53 ic=0 proc(ms):0 onGoing full rssi=-21 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10008] from screen [on:100 period:1121842499]
+ rec[10]: time=05-22 17:50:23.158 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=831725/831725 0 0 found=17 known=0 got=17 bcn=3969 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[11]: time=05-22 17:50:23.164 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=831732/831732 1000 0 num=1
+ rec[12]: time=05-22 17:50:23.171 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=831739/831739 1000 0 num=1
+ rec[13]: time=05-22 17:50:23.510 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=832077/832077 1000 0 num=1
+ rec[14]: time=05-22 17:50:32.541 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=841107/841107 1000 54 ic=0 proc(ms):0 onGoing full rssi=-21 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10009] from screen [on:100 period:1121852508]
+ rec[15]: time=05-22 17:50:33.161 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=841728/841728 0 0 found=14 known=0 got=14 bcn=4064 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[16]: time=05-22 17:50:33.174 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=841742/841742 1000 0 num=1
+ rec[17]: time=05-22 17:50:33.183 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=841751/841751 1000 0 num=1
+ rec[18]: time=05-22 17:50:33.513 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=842081/842081 1000 0 num=1
+ rec[19]: time=05-22 17:50:42.549 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=851115/851115 1000 55 ic=0 proc(ms):1 onGoing full rssi=-22 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10009] from screen [on:100 period:1121862517]
+ rec[20]: time=05-22 17:50:43.174 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=851741/851741 0 0 found=18 known=0 got=18 bcn=4137 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[21]: time=05-22 17:50:43.178 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=851745/851745 1000 0 num=1
+ rec[22]: time=05-22 17:50:43.185 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=851753/851753 1000 0 num=1
+ rec[23]: time=05-22 17:50:43.517 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=852085/852085 1000 0 num=1
+ rec[24]: time=05-22 17:50:52.558 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=861124/861124 1000 56 ic=0 proc(ms):1 onGoing full rssi=-21 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10008] from screen [on:100 period:1121872525]
+ rec[25]: time=05-22 17:50:53.177 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=861744/861744 0 0 found=24 known=0 got=24 bcn=4212 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[26]: time=05-22 17:50:53.184 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=861751/861751 1000 0 num=1
+ rec[27]: time=05-22 17:50:53.195 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=861763/861763 1000 0 num=1
+ rec[28]: time=05-22 17:50:53.535 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=862101/862101 1000 0 num=1
+ rec[29]: time=05-22 17:51:02.566 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=871132/871132 1000 57 ic=0 proc(ms):0 onGoing full rssi=-23 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10009] from screen [on:100 period:1121882534]
+ rec[30]: time=05-22 17:51:03.186 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=871753/871753 0 0 found=22 known=0 got=22 bcn=4308 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[31]: time=05-22 17:51:03.199 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=871767/871767 1000 0 num=1
+ rec[32]: time=05-22 17:51:03.211 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=871778/871778 1000 0 num=1
+ rec[33]: time=05-22 17:51:03.563 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=872131/872131 1000 0 num=1
+ rec[34]: time=05-22 17:51:12.575 processed=SupplicantStartedState org=ConnectedState dest=<null> what=131143(0x20047) !(1)CMD_START_SCAN rt=881141/881141 1000 58 ic=0 proc(ms):0 onGoing full rssi=-22 f=2412 sc=60 link=52 tx=0.0, 0.0, 0.0  rx=0.0 [on:0 tx:0 rx:0 period:10009] from screen [on:100 period:1121892543]
+ rec[35]: time=05-22 17:51:13.195 processed=SupplicantStartedState org=ConnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=881762/881762 0 0 found=19 known=0 got=19 bcn=4386 con=3 untrustedcn=0 last="heshuncheng-5G"WPA_PSK
+ rec[36]: time=05-22 17:51:13.205 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=881772/881772 1000 0 num=1
+ rec[37]: time=05-22 17:51:13.214 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=881782/881782 1000 0 num=1
+ rec[38]: time=05-22 17:51:13.557 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=882125/882125 1000 0 num=1
+ rec[39]: time=05-22 17:51:20.661 processed=ConnectModeState org=ConnectedState dest=<null> what=151553(0x25001) !CONNECT_NETWORK uid=1000 rt=889228/889228 -1 3 any roam=false"heshuncheng-5G"WPA_PSK
+ rec[40]: time=05-22 17:51:20.662 processed=DefaultState org=ConnectedState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=889229/889229 1000 0 num=2
+ rec[41]: time=05-22 17:51:20.706 processed=ConnectModeState org=ConnectedState dest=DisconnectingState what=131215(0x2008f) !CMD_START_CONNECT rt=889273/889273 1 1000 "EHOME_500BDX"NONE any roam=false"heshuncheng-5G"WPA_PSK
+ rec[42]: time=05-22 17:51:21.321 processed=DefaultState org=DisconnectingState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=889889/889889 1000 0 num=2
+ rec[43]: time=05-22 17:51:21.328 processed=ConnectModeState org=DisconnectingState dest=DisconnectedState what=147460(0x24004) !NETWORK_DISCONNECTION_EVENT rt=889895/889895 58:41:20:b9:10:08 nid=1 reason=3
+ rec[44]: time=05-22 17:51:21.347 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=889914/889914 0 0 SSID: heshuncheng-5G BSSID: 00:00:00:00:00:00 nid: 1 state: DISCONNECTED
+ rec[45]: time=05-22 17:51:21.399 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=889966/889966 0 0 SSID: EHOME_500BDX BSSID: 00:00:00:00:00:00 nid: 1 state: SCANNING
+ rec[46]: time=05-22 17:51:21.405 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=889972/889972 0 0 found=10 known=0 got=10 bcn=4453 con=3 untrustedcn=0 last="EHOME_500BDX"NONE
+ rec[47]: time=05-22 17:51:21.422 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=889989/889989 0 0 SSID: EHOME_500BDX BSSID: 48:1f:2d:0b:24:5a nid: 1 state: ASSOCIATING
+ rec[48]: time=05-22 17:51:21.431 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147473(0x24011) !SCAN_FAILED_EVENT rt=889999/889999
+ rec[49]: time=05-22 17:51:21.465 processed=DefaultState org=DisconnectedState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=890033/890033 0 0
+ rec[50]: time=05-22 17:51:21.486 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=890053/890053 0 0
+ rec[51]: time=05-22 17:51:21.603 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=890170/890170 0 0 SSID: EHOME_500BDX BSSID: 48:1f:2d:0b:24:5a nid: 1 state: ASSOCIATED
+ rec[52]: time=05-22 17:51:21.603 processed=DefaultState org=DisconnectedState dest=<null> what=131219(0x20093) !(-5)CMD_ASSOCIATED_BSSID rt=890170/890170 0 0 BSSID=48:1f:2d:0b:24:5a Target=any roam=false
+ rec[53]: time=05-22 17:51:21.621 processed=ConnectModeState org=DisconnectedState dest=ObtainingIpState what=147459(0x24003) !NETWORK_CONNECTION_EVENT rt=890189/890189 1 0 48:1f:2d:0b:24:5a nid=1 "EHOME_500BDX"NONE last="EHOME_500BDX"NONE
+ rec[54]: time=05-22 17:51:21.679 processed=ConnectModeState org=ObtainingIpState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=890247/890247 0 0 SSID: EHOME_500BDX BSSID: 48:1f:2d:0b:24:5a nid: 1 state: COMPLETED
+ rec[55]: time=05-22 17:51:21.694 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890261/890261 1000 0 num=2
+ rec[56]: time=05-22 17:51:21.697 processed=SupplicantStartedState org=ObtainingIpState dest=<null> what=131276(0x200cc) !CMD_CONFIG_ND_OFFLOAD rt=890265/890265 1 0
+ rec[57]: time=05-22 17:51:21.731 processed=DefaultState org=ObtainingIpState dest=<null> what=131275(0x200cb) !CMD_SET_FALLBACK_PACKET_FILTERING rt=890298/890298 enabled=true
+ rec[58]: time=05-22 17:51:21.731 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES rt=890298/890298 0 0 
+ rec[59]: time=05-22 17:51:21.733 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890301/890301 1000 0 num=2
+ rec[60]: time=05-22 17:51:21.768 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890335/890335 1000 0 num=2
+ rec[61]: time=05-22 17:51:21.791 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196611(0x30003) !CMD_PRE_DHCP_ACTION rt=890358/890358 0 0 txpkts=2,0,3
+ rec[62]: time=05-22 17:51:21.793 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196614(0x30006) !CMD_PRE_DHCP_ACTION_COMPLETE rt=890361/890361 0 0
+ rec[63]: time=05-22 17:51:21.800 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890367/890367 1000 0 num=2
+ rec[64]: time=05-22 17:51:21.803 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890370/890370 1000 0 num=2
+ rec[65]: time=05-22 17:51:21.845 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890413/890413 1000 0 num=2
+ rec[66]: time=05-22 17:51:21.917 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890484/890484 1000 0 num=2
+ rec[67]: time=05-22 17:51:21.922 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890489/890489 1000 0 num=2
+ rec[68]: time=05-22 17:51:21.966 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890534/890534 1000 0 num=2
+ rec[69]: time=05-22 17:51:21.992 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890559/890559 1000 0 num=2
+ rec[70]: time=05-22 17:51:22.005 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890572/890572 1000 0 num=2
+ rec[71]: time=05-22 17:51:22.029 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890596/890596 1000 0 num=2
+ rec[72]: time=05-22 17:51:22.034 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890602/890602 1000 0 num=2
+ rec[73]: time=05-22 17:51:22.038 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890605/890605 1000 0 num=2
+ rec[74]: time=05-22 17:51:22.044 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890611/890611 1000 0 num=2
+ rec[75]: time=05-22 17:51:22.084 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890652/890652 1000 0 num=2
+ rec[76]: time=05-22 17:51:22.114 processed=DefaultState org=ObtainingIpState dest=<null> what=131131(0x2003b) !CMD_GET_CONFIGURED_NETWORKS uid=1000 rt=890682/890682 1000 0 num=2
+ rec[77]: time=05-22 17:51:23.482 processed=SupplicantStartedState org=ObtainingIpState dest=<null> what=147473(0x24011) !SCAN_FAILED_EVENT rt=892050/892050
+ rec[78]: time=05-22 17:51:26.322 processed=DefaultState org=ObtainingIpState dest=<null> what=131168(0x20060) !(-5)CMD_DISCONNECTING_WATCHDOG_TIMER rt=894889/894889 1 0 cur=1
+ rec[79]: time=05-22 17:51:28.492 processed=SupplicantStartedState org=ObtainingIpState dest=<null> what=147473(0x24011) !SCAN_FAILED_EVENT rt=897059/897059
+ rec[80]: time=05-22 17:51:34.115 processed=SupplicantStartedState org=ObtainingIpState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=902682/902682 0 0 found=13 known=0 got=13 bcn=97 con=3 untrustedcn=0 last="EHOME_500BDX"NONE
+ rec[81]: time=05-22 17:51:57.749 processed=L2ConnectedState org=ObtainingIpState dest=DisconnectingState what=131211(0x2008b) !CMD_IP_CONFIGURATION_LOST rt=926315/926315 0 0 failures: 1/9 48:1f:2d:0b:24:5a bcn=275
+ rec[82]: time=05-22 17:51:57.818 processed=DefaultState org=DisconnectingState dest=<null> what=196612(0x30004) !(-5)CMD_POST_DHCP_ACTION rt=926386/926386 0 0 
+ rec[83]: time=05-22 17:51:57.857 processed=ConnectModeState org=DisconnectingState dest=DisconnectedState what=147460(0x24004) !NETWORK_DISCONNECTION_EVENT rt=926424/926424 48:1f:2d:0b:24:5a nid=1 reason=3
+ rec[84]: time=05-22 17:51:57.866 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=926433/926433 0 0 SSID: EHOME_500BDX BSSID: 00:00:00:00:00:00 nid: 1 state: DISCONNECTED
+ rec[85]: time=05-22 17:51:58.415 processed=SupplicantStartedState org=DisconnectedState dest=<null> what=147461(0x24005) !SCAN_RESULTS_EVENT rt=926982/926982 0 0 found=9 known=0 got=9 bcn=275 con=3 untrustedcn=0 last="EHOME_500BDX"NONE
+ rec[86]: time=05-22 17:51:58.625 processed=ConnectModeState org=DisconnectedState dest=<null> what=131215(0x2008f) !CMD_START_CONNECT rt=927192/927192 1 1010 "EHOME_500BDX"NONE 48:1f:2d:0b:24:5a roam=false
+ rec[87]: time=05-22 17:51:58.751 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=927319/927319 0 0 SSID: EHOME_500BDX BSSID: 48:1f:2d:0b:24:5a nid: 1 state: ASSOCIATING
+ rec[88]: time=05-22 17:51:59.013 processed=ConnectModeState org=DisconnectedState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=927580/927580 0 0 SSID: EHOME_500BDX BSSID: 48:1f:2d:0b:24:5a nid: 1 state: ASSOCIATED
+ rec[89]: time=05-22 17:51:59.013 processed=DefaultState org=DisconnectedState dest=<null> what=131219(0x20093) !(-5)CMD_ASSOCIATED_BSSID rt=927581/927581 0 0 BSSID=48:1f:2d:0b:24:5a Target=48:1f:2d:0b:24:5a roam=false
+ rec[90]: time=05-22 17:51:59.026 processed=ConnectModeState org=DisconnectedState dest=ObtainingIpState what=147459(0x24003) !NETWORK_CONNECTION_EVENT rt=927591/927591 1 0 48:1f:2d:0b:24:5a nid=1 "EHOME_500BDX"NONE last="EHOME_500BDX"NONE
+ rec[91]: time=05-22 17:51:59.123 processed=ConnectModeState org=ObtainingIpState dest=<null> what=147462(0x24006) !SUPPLICANT_STATE_CHANGE_EVENT rt=927690/927690 0 0 SSID: EHOME_500BDX BSSID: 48:1f:2d:0b:24:5a nid: 1 state: COMPLETED
+ rec[92]: time=05-22 17:51:59.136 processed=SupplicantStartedState org=ObtainingIpState dest=<null> what=131276(0x200cc) !CMD_CONFIG_ND_OFFLOAD rt=927703/927703 1 0
+ rec[93]: time=05-22 17:51:59.140 processed=DefaultState org=ObtainingIpState dest=<null> what=131275(0x200cb) !CMD_SET_FALLBACK_PACKET_FILTERING rt=927707/927707 enabled=true
+ rec[94]: time=05-22 17:51:59.325 processed=DefaultState org=ObtainingIpState dest=<null> what=131212(0x2008c) !CMD_UPDATE_LINKPROPERTIES rt=927893/927893 0 0 
+ rec[95]: time=05-22 17:51:59.402 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196611(0x30003) !CMD_PRE_DHCP_ACTION rt=927969/927969 0 0 txpkts=2,0,8
+ rec[96]: time=05-22 17:51:59.402 processed=L2ConnectedState org=ObtainingIpState dest=<null> what=196614(0x30006) !CMD_PRE_DHCP_ACTION_COMPLETE rt=927970/927970 0 0
+ rec[97]: time=05-22 17:52:02.819 processed=DefaultState org=ObtainingIpState dest=<null> what=131168(0x20060) !(-5)CMD_DISCONNECTING_WATCHDOG_TIMER rt=931387/931387 2 0 cur=2
+ rec[98]: time=05-22 17:52:06.689 processed=DefaultState org=ObtainingIpState dest=<null> what=131133(0x2003d) !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=935256/935256 0 0
+ rec[99]: time=05-22 17:52:06.691 processed=SupplicantStartedState org=ObtainingIpState dest=<null> what=131135(0x2003f) !CMD_GET_LINK_LAYER_STATS uid=1000 rt=935258/935258 0 0
+curState=ObtainingIpState
+SupplicantStateTracker:
+ total records=13
+ rec[0]: time=01-01 08:10:53.331 processed=DefaultState org=UninitializedState dest=UninitializedState what=131183(0x2006f)
+ rec[1]: time=01-01 08:11:36.451 processed=DefaultState org=UninitializedState dest=HandshakeState what=147462(0x24006)
+ rec[2]: time=01-01 08:11:37.611 processed=DefaultState org=HandshakeState dest=DisconnectedState what=147462(0x24006)
+ rec[3]: time=01-01 08:11:37.706 processed=DefaultState org=DisconnectedState dest=ScanState what=147462(0x24006)
+ rec[4]: time=01-01 08:11:38.250 processed=DefaultState org=ScanState dest=HandshakeState what=147462(0x24006)
+ rec[5]: time=01-01 08:11:39.038 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+ rec[6]: time=05-22 17:51:21.473 processed=CompletedState org=CompletedState dest=DisconnectedState what=147462(0x24006)
+ rec[7]: time=05-22 17:51:21.480 processed=DefaultState org=DisconnectedState dest=ScanState what=147462(0x24006)
+ rec[8]: time=05-22 17:51:21.481 processed=DefaultState org=ScanState dest=HandshakeState what=147462(0x24006)
+ rec[9]: time=05-22 17:51:21.723 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+ rec[10]: time=05-22 17:51:57.866 processed=CompletedState org=CompletedState dest=DisconnectedState what=147462(0x24006)
+ rec[11]: time=05-22 17:51:58.756 processed=DefaultState org=DisconnectedState dest=HandshakeState what=147462(0x24006)
+ rec[12]: time=05-22 17:51:59.141 processed=DefaultState org=HandshakeState dest=CompletedState what=147462(0x24006)
+curState=CompletedState
+mAuthFailureInSupplicantBroadcast false
+mAuthFailureReason 0
+mNetworksDisabledDuringConnect false
+
+mLinkProperties {InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}
+mWifiInfo SSID: EHOME_500BDX, BSSID: 48:1f:2d:0b:24:5a, MAC: 40:45:da:9b:7e:6f, Supplicant state: COMPLETED, RSSI: -50, Link speed: 39Mbps, Frequency: 2457MHz, Net ID: 1, Metered hint: false, score: 60
+mDhcpResults IP address Gateway  DNS servers: [ ] Domains  DHCP server /192.168.0.1 Vendor info null lease 0 seconds
+mNetworkInfo [type: WIFI[], state: CONNECTING/OBTAINING_IPADDR, reason: (unspecified), extra: "EHOME_500BDX", failover: false, available: true, roaming: false]
+mLastSignalLevel 4
+mLastBssid 48:1f:2d:0b:24:5a
+mLastNetworkId 1
+mOperationalMode 1
+mUserWantsSuspendOpt true
+mSuspendOptNeedsDisabled 5
+CountryCode sent to driver CN
+mConnectionReqCount 4
+mUntrustedReqCount 0
+Wlan Wake Reasons: totalCmdEventWake 0 totalDriverFwLocalWake 0 totalRxDataWake 0 rxUnicast 7 rxMulticast 0 rxBroadcast 0 icmp 0 icmp6 0 icmp6Ra 0 icmp6Na 0 icmp6Ns 19 ipv4RxMulticast 0 ipv6Multicast 0 otherRxMulticast 0
+
+Dump of WifiConfigManager
+WifiConfigManager - Log Begin ----
+2019-01-01T08:11:36.337 - addOrUpdateNetworkInternal: added/updated config. netId=0 configKey="heshuncheng-5G"WPA_PSK uid=1000 name=android.uid.system:1000
+2019-01-01T08:11:36.351 - setNetworkSelectionStatus: configKey="heshuncheng-5G"WPA_PSK networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=01-01 08:11:36.351
+2019-01-01T08:11:36.357 - addOrUpdateNetworkInternal: added/updated config. netId=0 configKey="heshuncheng-5G"WPA_PSK uid=1000 name=android.uid.system:1000
+2019-01-01T08:11:36.364 - setNetworkSelectionStatus: configKey="heshuncheng-5G"WPA_PSK networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=01-01 08:11:36.364
+2023-05-22T17:51:20.602 - addOrUpdateNetworkInternal: added/updated config. netId=1 configKey="EHOME_500BDX"NONE uid=1000 name=android.uid.system:1000
+2023-05-22T17:51:20.650 - setNetworkSelectionStatus: configKey="EHOME_500BDX"NONE networkStatus=NETWORK_SELECTION_ENABLED disableReason=NETWORK_SELECTION_ENABLE at=time=05-22 17:51:20.649
+WifiConfigManager - Log End ----
+WifiConfigManager - Configured networks Begin ----
+ID: 0 SSID: "heshuncheng-5G" PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: true
+ numAssociation 2
+ update time=01-01 08:11:36.357
+ creation time=01-01 08:11:36.334
+ validatedInternetAccess
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms: OPEN
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+Enterprise config:
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ cuid=1000 cname=android.uid.system:1000 luid=1000 lname=android.uid.system:1000 lcuid=1000 userApproved=USER_UNSPECIFIED noInternetAccessExpected=false 
+lastConnected: 138447632sec roamingFailureBlackListTimeMilli: 1000
+recentFailure: Association Rejection code: 0
+
+
+
+
+
+ID: 1 SSID: "EHOME_500BDX" PROVIDER-NAME: null BSSID: null FQDN: null PRIO: 0 HIDDEN: false
+ NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+ hasEverConnected: false
+ update time=05-22 17:51:20.601
+ creation time=05-22 17:51:20.601
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+Enterprise config:
+IP config:
+IP assignment: DHCP
+Proxy settings: NONE
+ cuid=1000 cname=android.uid.system:1000 luid=1000 lname=android.uid.system:1000 lcuid=1000 userApproved=USER_UNSPECIFIED noInternetAccessExpected=false roamingFailureBlackListTimeMilli: 1000
+recentFailure: Association Rejection code: 0
+
+
+
+
+
+WifiConfigManager - Configured networks End ----
+WifiConfigManager - Next network ID to be allocated 2
+WifiConfigManager - Last selected network ID 1
+
+Dump of PasspointManager
+PasspointManager - Providers Begin ---
+PasspointManager - Providers End ---
+PasspointManager - Next provider ID to be assigned 0
+Last sweep 0:14:32.715 ago.
+
+Chipset information :-----------------------------------------------
+FW Version is: 1.0
+Driver Version is: 1.0
+Supported Feature set: -1
+*** firmware logging disabled, no debug data ****
+set config_wifi_enable_wifi_firmware_debugging to enable
+IpManager.wlan0 APF dump:
+  No active ApfFilter; Hardware does not support APF.
+
+IpManager.wlan0 current ProvisioningConfiguration:
+  ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingIpReachabilityMonitor: true, mRequestedPreDhcpActionMs: 36000, mInitialConfig: null, mStaticIpConfig: null, mApfCapabilities: ApfCapabilities{version: 0, maxSize: 0, format: 1}, mProvisioningTimeoutMs: 36000, mIPv6AddrGenMode: 2}
+
+IpManager.wlan0 StateMachine dump:
+  2019-01-01T00:07:22.915 - ERROR Failed to disable IPv6: java.lang.IllegalStateException: command '1 interface ipv6 wlan0 disable' failed with '400 1 Failed to change IPv6 state (No such file or directory)'
+  2019-01-01T00:07:22.922 - CMD_SET_MULTICAST_FILTER wlan0/-1 0 0 true [rcvd_in=StoppedState, proc_in=StoppedState]
+  2019-01-01T08:10:52.857 - OBSERVED interfaceAdded(wlan0)
+  2019-01-01T08:11:39.020 - CMD_STOP wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2019-01-01T08:11:39.021 - CMD_UPDATE_HTTP_PROXY wlan0/-1 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2019-01-01T08:11:39.025 - INVOKE setNeighborDiscoveryOffload(true)
+  2019-01-01T08:11:39.027 - CMD_UPDATE_TCP_BUFFER_SIZES wlan0/14 0 0 524288,1048576,2097152,262144,524288,1048576 [rcvd_in=StoppedState, proc_in=StoppedState]
+  2019-01-01T08:11:39.032 - CMD_START wlan0/14 0 0 ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingIpReachabilityMonitor: true, mRequestedPreDhcpActionMs: 36000, mInitialConfig: null, mStaticIpConfig: null, mApfCapabilities: ApfCapabilities{version: 0, maxSize: 0, format: 1}, mProvisioningTimeoutMs: 36000, mIPv6AddrGenMode: 2} [rcvd_in=StoppedState, proc_in=StoppedState]
+  2019-01-01T08:11:39.034 - INVOKE setFallbackMulticastFilter(true)
+  2019-01-01T08:11:39.064 - CMD_CONFIRM wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2019-01-01T08:11:39.068 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2019-01-01T08:11:39.118 - INVOKE onPreDhcpAction()
+  2019-01-01T08:11:39.119 - CMD_PRE_DHCP_ACTION wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2019-01-01T08:11:39.124 - EVENT_PRE_DHCP_ACTION_COMPLETE wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2019-01-01T08:11:39.668 - INVOKE onPostDhcpAction()
+  2019-01-01T08:11:39.670 - INVOKE onNewDhcpResults({IP address 192.168.0.118/24 Gateway 192.168.0.1  DNS servers: [ 192.168.0.1 ] Domains  DHCP server /192.168.0.1 Vendor info null lease 7200 seconds})
+  2019-01-01T08:11:39.671 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,]  Routes: [fe80::/64 -> :: wlan0,192.168.0.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.0.1 wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2019-01-01T08:11:39.672 - CMD_POST_DHCP_ACTION wlan0/14 1 0 IP address 192.168.0.118/24 Gateway 192.168.0.1  DNS servers: [ 192.168.0.1 ] Domains  DHCP server /192.168.0.1 Vendor info null lease 7200 seconds [rcvd_in=RunningState, proc_in=RunningState]
+  2019-01-01T08:11:39.677 - CMD_CONFIGURE_LINKADDRESS wlan0/14 0 0 192.168.0.118/24 [rcvd_in=RunningState, proc_in=RunningState]
+  2019-01-01T08:11:39.681 - INVOKE onProvisioningSuccess({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,192.168.0.118/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.0.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.0.1 wlan0,] DnsAddresses: [192.168.0.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2023-05-22T17:41:57.275 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,192.168.0.118/24,]  Routes: [fe80::/64 -> :: wlan0,192.168.0.0/24 -> 0.0.0.0 wlan0,0.0.0.0/0 -> 192.168.0.1 wlan0,] DnsAddresses: [fe80::5%wlan0,192.168.0.1,] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2023-05-22T17:51:20.707 - CMD_STOP wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2023-05-22T17:51:21.253 - CMD_CLEAR_LINKADDRESS wlan0/14 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  2023-05-22T17:51:21.254 - CMD_ON_QUIT wlan0/14 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  2023-05-22T17:51:21.264 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:21.327 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:21.675 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:21.676 - CMD_UPDATE_HTTP_PROXY wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:21.676 - CMD_UPDATE_TCP_BUFFER_SIZES wlan0/14 0 0 524288,1048576,2097152,262144,524288,1048576 [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:21.677 - INVOKE setNeighborDiscoveryOffload(true)
+  2023-05-22T17:51:21.679 - CMD_START wlan0/14 0 0 ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingIpReachabilityMonitor: true, mRequestedPreDhcpActionMs: 36000, mInitialConfig: null, mStaticIpConfig: null, mApfCapabilities: ApfCapabilities{version: 0, maxSize: 0, format: 1}, mProvisioningTimeoutMs: 36000, mIPv6AddrGenMode: 2} [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:21.680 - INVOKE setFallbackMulticastFilter(true)
+  2023-05-22T17:51:21.713 - CMD_CONFIRM wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2023-05-22T17:51:21.715 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2023-05-22T17:51:21.783 - INVOKE onPreDhcpAction()
+  2023-05-22T17:51:21.787 - CMD_PRE_DHCP_ACTION wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2023-05-22T17:51:21.794 - EVENT_PRE_DHCP_ACTION_COMPLETE wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2023-05-22T17:51:57.738 - INVOKE onProvisioningFailure({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2023-05-22T17:51:57.745 - EVENT_PROVISIONING_TIMEOUT wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=StartedState]
+  2023-05-22T17:51:57.746 - INVOKE onPostDhcpAction()
+  2023-05-22T17:51:57.762 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  2023-05-22T17:51:57.774 - CMD_ON_QUIT wlan0/14 0 0 null [rcvd_in=StoppingState, proc_in=StoppingState]
+  2023-05-22T17:51:57.799 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:57.858 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:59.099 - CMD_STOP wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:59.112 - CMD_UPDATE_HTTP_PROXY wlan0/14 0 0 null [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:59.113 - CMD_UPDATE_TCP_BUFFER_SIZES wlan0/14 0 0 524288,1048576,2097152,262144,524288,1048576 [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:59.117 - INVOKE setNeighborDiscoveryOffload(true)
+  2023-05-22T17:51:59.119 - CMD_START wlan0/14 0 0 ProvisioningConfiguration{mEnableIPv4: true, mEnableIPv6: true, mUsingIpReachabilityMonitor: true, mRequestedPreDhcpActionMs: 36000, mInitialConfig: null, mStaticIpConfig: null, mApfCapabilities: ApfCapabilities{version: 0, maxSize: 0, format: 1}, mProvisioningTimeoutMs: 36000, mIPv6AddrGenMode: 2} [rcvd_in=StoppedState, proc_in=StoppedState]
+  2023-05-22T17:51:59.121 - INVOKE setFallbackMulticastFilter(true)
+  2023-05-22T17:51:59.325 - CMD_CONFIRM wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2023-05-22T17:51:59.326 - INVOKE onLinkPropertiesChange({{InterfaceName: wlan0 LinkAddresses: [fe80::6c42:ab9b:c45b:9abb/64,]  Routes: [fe80::/64 -> :: wlan0,] DnsAddresses: [] Domains: null MTU: 0 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}})
+  2023-05-22T17:51:59.396 - INVOKE onPreDhcpAction()
+  2023-05-22T17:51:59.399 - CMD_PRE_DHCP_ACTION wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+  2023-05-22T17:51:59.403 - EVENT_PRE_DHCP_ACTION_COMPLETE wlan0/14 0 0 null [rcvd_in=RunningState, proc_in=RunningState]
+
+IpManager.wlan0 connectivity packet log:
+
+Debug with python and scapy via:
+shell$ python
+>>> from scapy import all as scapy
+>>> scapy.Ether("<paste_hex_string>".decode("hex")).show2()
+
+  2023-05-22T17:50:24.230 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:24.642 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.26
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8001A00000000000000000000000000006E31B397]
+  2023-05-22T17:50:25.254 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:25.255 - RX d8:5e:d3:e9:df:01 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3E9DF0108060001080006040001D85ED3E9DF01C0A80030000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:50:26.173 - RX d8:5e:d3:e9:df:01 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3E9DF0108060001080006040001D85ED3E9DF01C0A80030000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:50:26.174 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:27.199 - RX d8:5e:d3:e9:df:01 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3E9DF0108060001080006040001D85ED3E9DF01C0A80030000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:50:28.220 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:29.859 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.146
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A800920000000000000000000000000000520DBD16]
+  2023-05-22T17:50:30.370 - RX 18:c0:4d:cf:79:b3 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFF18C04DCF79B30806000108000604000118C04DCF79B3C0A8002B000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:50:31.088 - RX 18:c0:4d:cf:79:b3 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFF18C04DCF79B30806000108000604000118C04DCF79B3C0A8002B000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:50:32.211 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:33.342 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:35.287 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:36.304 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:38.351 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:39.373 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:39.993 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.49
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8003100000000000000000000000000000EA982C1]
+  2023-05-22T17:50:40.305 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:41.024 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.49
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8003100000000000000000000000000000EA982C1]
+  2023-05-22T17:50:41.317 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:42.362 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:44.388 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:45.411 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:45.924 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:50:46.436 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:46.952 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:50:47.356 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:47.874 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:50:48.379 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:48.895 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:50:49.405 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:49.914 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:50:50.429 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:50.938 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:50:52.472 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:53.496 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:54.521 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:55.460 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:55.561 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.19
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8001300000000000000000000000000000126C1E1]
+  2023-05-22T17:50:56.463 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:57.488 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:58.100 - RX f8:a2:6d:fa:d2:ac > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.204
+  [FFFFFFFFFFFFF8A26DFAD2AC08060001080006040001F8A26DFAD2ACC0A800FA000000000000C0A800CC000000000000000000000000000000000000]
+  2023-05-22T17:50:58.510 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:50:59.537 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:00.556 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:01.581 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:01.581 - RX f2:8f:35:87:b4:cf > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.1
+  [FFFFFFFFFFFFF28F3587B4CF08060001080006040001F28F3587B4CFC0A8004D000000000000C0A80001]
+  2023-05-22T17:51:02.503 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:03.534 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:04.549 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:05.571 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:06.595 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:06.696 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.190
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A800BE0000000000000000000000000000289A8DDB]
+  2023-05-22T17:51:07.617 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:08.027 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.205
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A800CD0000000000000000000000000000FD2AACCC]
+  2023-05-22T17:51:08.642 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:09.259 - RX d8:5e:d3:d5:54:3b > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3D5543B08060001080006040001D85ED3D5543BC0A80037000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:51:09.666 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:10.073 - RX d8:5e:d3:d5:54:3b > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3D5543B08060001080006040001D85ED3D5543BC0A80037000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:51:10.587 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:11.099 - RX d8:5e:d3:d5:54:3b > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3D5543B08060001080006040001D85ED3D5543BC0A80037000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:51:11.611 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:13.657 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:14.682 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:15.705 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:15.906 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:51:16.728 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:16.934 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:51:17.240 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.117
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A80075000000000000000000000000000010B70581]
+  2023-05-22T17:51:17.441 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.80
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005000000000000000000000000000000537473A]
+  2023-05-22T17:51:17.653 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:18.468 - RX d8:5e:d3:e9:df:01 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3E9DF0108060001080006040001D85ED3E9DF01C0A80030000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:51:18.673 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:18.878 - RX b8:ca:3a:68:d2:dc > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.228
+  [FFFFFFFFFFFFB8CA3A68D2DC08060001080006040001B8CA3A68D2DCC0A8005B000000000000C0A800E4000000000000000000000000000000000000]
+  2023-05-22T17:51:19.181 - RX d8:5e:d3:e9:df:01 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3E9DF0108060001080006040001D85ED3E9DF01C0A80030000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:51:19.694 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.89
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A8005900000000000000000000000000006A20354C]
+  2023-05-22T17:51:20.102 - RX 34:f7:16:b6:7a:34 > ff:ff:ff:ff:ff:ff arp who-has 192.168.0.175
+  [FFFFFFFFFFFF34F716B67A340806000108000604000134F716B67A34C0A80001000000000000C0A800AF00000000000000000000000000008FDE1426]
+  2023-05-22T17:51:20.204 - RX d8:5e:d3:e9:df:01 > ff:ff:ff:ff:ff:ff arp who-has 169.254.169.254
+  [FFFFFFFFFFFFD85ED3E9DF0108060001080006040001D85ED3E9DF01C0A80030000000000000A9FEA9FE000000000000000000000000000000000000]
+  2023-05-22T17:51:20.708 - --- STOP ---
+  2023-05-22T17:51:21.685 - --- START ---
+  2023-05-22T17:51:21.714 - TX 40:45:da:9b:7e:6f > 33:33:ff:5b:9a:bb ipv6 :: > ff02::1:ff5b:9abb icmp6 ns fe80::6c42:ab9b:c45b:9abb
+  [3333FF5B9ABB4045DA9B7E6F86DD6000000000183AFF00000000000000000000000000000000FF0200000000000000000001FF5B9ABB87006A1B00000000FE800000000000006C42AB9BC45B9ABB]
+  2023-05-22T17:51:21.798 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF0044004301449D5501010600E7D239EA00000000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:51:22.694 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+  2023-05-22T17:51:23.948 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF0044004301449D5301010600E7D239EA00020000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:51:26.703 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+  2023-05-22T17:51:28.492 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF0044004301449D4F01010600E7D239EA00060000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:51:34.458 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+  2023-05-22T17:51:36.233 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF0044004301449D4701010600E7D239EA000E0000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:51:49.274 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+  2023-05-22T17:51:53.267 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF0044004301449D3601010600E7D239EA001F0000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:51:57.747 - --- STOP ---
+  2023-05-22T17:51:59.148 - --- START ---
+  2023-05-22T17:51:59.326 - TX 40:45:da:9b:7e:6f > 33:33:ff:5b:9a:bb ipv6 :: > ff02::1:ff5b:9abb icmp6 ns fe80::6c42:ab9b:c45b:9abb
+  [3333FF5B9ABB4045DA9B7E6F86DD6000000000183AFF00000000000000000000000000000000FF0200000000000000000001FF5B9ABB87006A1B00000000FE800000000000006C42AB9BC45B9ABB]
+  2023-05-22T17:51:59.404 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF004400430144CD4001010600345DBD7400000000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:52:00.233 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+  2023-05-22T17:52:03.722 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF004400430144CD3C01010600345DBD7400040000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:52:03.973 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+  2023-05-22T17:52:08.719 - TX 40:45:da:9b:7e:6f > ff:ff:ff:ff:ff:ff ipv4 0.0.0.0 > 255.255.255.255 udp 68 > 67 dhcp4 40:45:da:9b:7e:6f DISCOVER unicast 
+  [FFFFFFFFFFFF4045DA9B7E6F080045100158000040004011398600000000FFFFFFFF004400430144CD3701010600345DBD7400090000000000000000000000000000000000004045DA9B7E6F00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000638253633501013D07014045DA9B7E6F390205DC3C12616E64726F69642D646863702D382E312E300C18616E64726F69642D34396537386338326432376266323330370A0103060F1A1C333A3B2BFF00]
+  2023-05-22T17:52:11.554 - TX 40:45:da:9b:7e:6f > 33:33:00:00:00:02 ipv6 fe80::6c42:ab9b:c45b:9abb > ff02::2 icmp6 rs slla 40:45:da:9b:7e:6f
+  [3333000000024045DA9B7E6F86DD6000000000103AFFFE800000000000006C42AB9BC45B9ABBFF02000000000000000000000000000285006BE80000000001014045DA9B7E6F]
+Dump of WifiConnectivityManager
+WifiConnectivityManager - Log Begin ----
+2019-01-01T00:07:22.806 - ScoredNetworkEvaluator constructed. mNetworkRecommendationsEnabled: false
+2019-01-01T08:10:53.274 - PNO settings: min5GHzRssi -82 min24GHzRssi -85 currentConnectionBonus 16 sameNetworkBonus 24 secureNetworkBonus 80 initialScoreMax 100
+2019-01-01T08:10:53.274 - Passpoint is: disabled
+2019-01-01T08:10:53.275 - ConnectivityScanManager initialized and enabled
+2019-01-01T08:10:53.275 - setUntrustedConnectionAllowed: allowed=false
+2019-01-01T08:10:53.275 - handleScreenStateChanged: screenOn=true
+2019-01-01T08:10:53.276 - startConnectivityScan: screenOn=true wifiState=unknown scanImmediately=false wifiEnabled=false wifiConnectivityManagerEnabled=true
+2019-01-01T08:10:53.304 - Set WiFi enabled
+2019-01-01T08:10:53.305 - Starting up WifiConnectivityManager
+2019-01-01T08:10:53.327 - startConnectivityScan: screenOn=true wifiState=unknown scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2019-01-01T08:10:53.328 - handleConnectionStateChanged: state=disconnected
+2019-01-01T08:10:53.328 - scheduleWatchdogTimer
+2019-01-01T08:10:53.329 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2019-01-01T08:10:53.899 - AllSingleScanListener onResults: start network selection
+2019-01-01T08:10:53.900 - No saved networks.
+2019-01-01T08:10:53.901 - Networks filtered out due to invalid SSID: 82:60:5b:26:e6:ce / f6:84:8d:31:6c:f6 / 
+2019-01-01T08:10:53.901 - About to run SavedNetworkEvaluator :
+2019-01-01T08:10:53.902 - did not see any good candidates.
+2019-01-01T08:10:53.902 - About to run ScoredNetworkEvaluator :
+2019-01-01T08:10:53.902 - Skipping evaluateNetworks; Network recommendations disabled.
+2019-01-01T08:11:01.594 - AllSingleScanListener onResults: start network selection
+2019-01-01T08:11:01.594 - No saved networks.
+2019-01-01T08:11:01.595 - Networks filtered out due to invalid SSID: f6:84:8d:31:6c:f6 / 52:06:a7:b6:45:86 / 3a:54:9b:3a:af:36 / 
+2019-01-01T08:11:01.595 - About to run SavedNetworkEvaluator :
+2019-01-01T08:11:01.596 - did not see any good candidates.
+2019-01-01T08:11:01.596 - About to run ScoredNetworkEvaluator :
+2019-01-01T08:11:01.596 - Skipping evaluateNetworks; Network recommendations disabled.
+2019-01-01T08:11:10.283 - AllSingleScanListener onResults: start network selection
+2019-01-01T08:11:10.285 - No saved networks.
+2019-01-01T08:11:10.288 - Networks filtered out due to invalid SSID: f6:84:8d:31:6c:f6 / 
+2019-01-01T08:11:10.288 - Networks filtered out due to low signal strength: MWIFI-PGWR:00:0c:43:45:f7:5b(2.4GHz)-86 / 
+2019-01-01T08:11:10.289 - About to run SavedNetworkEvaluator :
+2019-01-01T08:11:10.290 - did not see any good candidates.
+2019-01-01T08:11:10.290 - About to run ScoredNetworkEvaluator :
+2019-01-01T08:11:10.290 - Skipping evaluateNetworks; Network recommendations disabled.
+2019-01-01T08:11:13.330 - periodicScanTimerHandler
+2019-01-01T08:11:13.876 - AllSingleScanListener onResults: start network selection
+2019-01-01T08:11:13.878 - No saved networks.
+2019-01-01T08:11:13.879 - Networks filtered out due to invalid SSID: 3a:54:9b:3a:af:36 / 
+2019-01-01T08:11:13.879 - About to run SavedNetworkEvaluator :
+2019-01-01T08:11:13.881 - did not see any good candidates.
+2019-01-01T08:11:13.882 - About to run ScoredNetworkEvaluator :
+2019-01-01T08:11:13.882 - Skipping evaluateNetworks; Network recommendations disabled.
+2019-01-01T08:11:35.721 - AllSingleScanListener onResults: start network selection
+2019-01-01T08:11:35.722 - No saved networks.
+2019-01-01T08:11:35.723 - Networks filtered out due to invalid SSID: 52:06:a7:75:ca:82 / 
+2019-01-01T08:11:35.724 - About to run SavedNetworkEvaluator :
+2019-01-01T08:11:35.724 - did not see any good candidates.
+2019-01-01T08:11:35.725 - About to run ScoredNetworkEvaluator :
+2019-01-01T08:11:35.725 - Skipping evaluateNetworks; Network recommendations disabled.
+2019-01-01T08:11:36.375 - setUserConnectChoice: netId=0
+2019-01-01T08:11:36.375 - userSelectNetwork: network ID=0
+2019-01-01T08:11:36.376 - prepareForForcedConnection: netId=0
+2019-01-01T08:11:37.590 - trackBssid: disable 58:41:20:b9:10:08 reason code 1
+2019-01-01T08:11:38.988 - trackBssid: enable 58:41:20:b9:10:08 reason code 0
+2019-01-01T08:11:38.990 - handleConnectionStateChanged: state=transitioning
+2019-01-01T08:11:38.990 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2019-01-01T08:11:39.740 - handleConnectionStateChanged: state=connected
+2019-01-01T08:11:39.741 - startConnectivityScan: screenOn=true wifiState=connected scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2023-05-22T17:42:02.757 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:42:02.758 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:42:12.766 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:42:12.766 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:42:22.771 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:42:22.775 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:42:32.778 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:42:32.779 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:42:42.791 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:42:42.792 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:42:52.794 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:42:52.795 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:43:02.809 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:43:02.810 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:43:12.815 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:43:12.816 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:43:22.830 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:43:22.831 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:43:32.824 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:43:32.826 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:43:42.848 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:43:42.849 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:43:52.846 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:43:52.846 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:44:02.861 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:44:02.862 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:44:12.858 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:44:12.859 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:44:22.884 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:44:22.885 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:44:32.874 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:44:32.876 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:44:42.888 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:44:42.889 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:44:52.904 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:44:52.905 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:45:02.910 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:45:02.911 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:45:12.909 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:45:12.910 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:45:22.924 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:45:22.925 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:45:32.927 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:45:32.928 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:45:42.945 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:45:42.947 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:45:52.958 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:45:52.959 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:46:02.957 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:46:02.958 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:46:12.968 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:46:12.969 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:46:22.968 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:46:22.969 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:46:32.996 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:46:32.997 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:46:42.993 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:46:42.993 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:46:53 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:46:53 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:47:03.003 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:47:03.004 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:47:13.015 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:47:13.015 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:47:23.019 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:47:23.020 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:47:33.020 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:47:33.023 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:47:43.035 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:47:43.036 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:47:53.031 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:47:53.032 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:48:03.049 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:48:03.050 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:48:13.061 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:48:13.063 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:48:23.060 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:48:23.061 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:48:33.063 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:48:33.063 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:48:43.070 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:48:43.071 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:48:53.082 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:48:53.083 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:49:03.095 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:49:03.096 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:49:13.109 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:49:13.110 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:49:23.118 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:49:23.119 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:49:33.111 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:49:33.111 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:49:43.125 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:49:43.126 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:49:53.134 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:49:53.135 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:50:03.150 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:50:03.151 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:50:13.154 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:50:13.154 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:50:23.162 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:50:23.163 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:50:33.172 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:50:33.173 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:50:43.177 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:50:43.177 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:50:53.182 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:50:53.183 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:51:03.193 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:51:03.194 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:51:13.203 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:51:13.204 - Switching networks in connected state is not allowed. Skip network selection.
+2023-05-22T17:51:20.659 - setUserConnectChoice: netId=1
+2023-05-22T17:51:20.660 - userSelectNetwork: network ID=1
+2023-05-22T17:51:20.660 - prepareForForcedConnection: netId=1
+2023-05-22T17:51:20.706 - handleConnectionStateChanged: state=transitioning
+2023-05-22T17:51:20.707 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2023-05-22T17:51:21.328 - handleConnectionStateChanged: state=disconnected
+2023-05-22T17:51:21.328 - scheduleWatchdogTimer
+2023-05-22T17:51:21.330 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2023-05-22T17:51:21.473 - SingleScanListener onFailure: reason: -1 description: Scan failed
+2023-05-22T17:51:21.475 - scheduleDelayedSingleScan
+2023-05-22T17:51:21.610 - trackBssid: enable 48:1f:2d:0b:24:5a reason code 0
+2023-05-22T17:51:21.622 - handleConnectionStateChanged: state=transitioning
+2023-05-22T17:51:21.622 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+2023-05-22T17:51:23.483 - SingleScanListener onFailure: reason: -1 description: Scan failed
+2023-05-22T17:51:23.484 - scheduleDelayedSingleScan
+2023-05-22T17:51:28.492 - SingleScanListener onFailure: reason: -1 description: Scan failed
+2023-05-22T17:51:28.493 - scheduleDelayedSingleScan
+2023-05-22T17:51:34.117 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:51:34.117 - WifiStateMachine is in neither CONNECTED nor DISCONNECTED state. Skip network selection.
+2023-05-22T17:51:57.857 - handleConnectionStateChanged: state=disconnected
+2023-05-22T17:51:57.857 - scheduleWatchdogTimer
+2023-05-22T17:51:57.863 - startConnectivityScan: screenOn=true wifiState=disconnected scanImmediately=true wifiEnabled=true wifiConnectivityManagerEnabled=true
+2023-05-22T17:51:58.419 - AllSingleScanListener onResults: start network selection
+2023-05-22T17:51:58.430 - Networks filtered out due to invalid SSID: 52:06:a7:b6:45:86 / 
+2023-05-22T17:51:58.430 - About to run SavedNetworkEvaluator :
+2023-05-22T17:51:58.471 - 
+[ EHOME_500BDX 48:1f:2d:0b:24:5a RSSI:-64 ]  RSSI score: 84, User selection 0 minutes ago, bonus: 480, ## Total score: 564
+
+2023-05-22T17:51:58.471 - SavedNetworkEvaluator selects "EHOME_500BDX":1 : 48:1f:2d:0b:24:5a
+2023-05-22T17:51:58.493 - AllSingleScanListener:  WNS candidate-"EHOME_500BDX"
+2023-05-22T17:51:58.495 - connectToNetwork: Connect to "EHOME_500BDX" : 48:1f:2d:0b:24:5a from Disconnected
+2023-05-22T17:51:59.019 - trackBssid: enable 48:1f:2d:0b:24:5a reason code 0
+2023-05-22T17:51:59.026 - handleConnectionStateChanged: state=transitioning
+2023-05-22T17:51:59.026 - startConnectivityScan: screenOn=true wifiState=transitioning scanImmediately=false wifiEnabled=true wifiConnectivityManagerEnabled=true
+WifiConnectivityManager - Log End ----
+OpenNetworkNotifier: 
+mSettingEnabled true
+currentTime: 1684749132486
+mNotificationRepeatTime: 0
+mState: 0
+mBlacklistedSsids: {EHOME_500BDX}
+
+WifiMetrics:
+mConnectionEvents:
+startTime=01-01 08:11:36.387, SSID="heshuncheng-5G", BSSID=any, durationMillis=38, roamType=ROAM_UNRELATED, connectionResult=0, level2FailureCode=REDUNDANT_CONNECTION_ATTEMPT, connectivityLevelFailureCode=NONE, signalStrength=0, wifiState=WIFI_DISCONNECTED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=0, mDtim=0, mAuthentication=2, mHidden=false, mRouterTechnology=0, mSupportsIpv6=false
+startTime=01-01 08:11:36.425, SSID="heshuncheng-5G", BSSID=any, durationMillis=1167, roamType=ROAM_UNRELATED, connectionResult=0, level2FailureCode=ASSOCIATION_REJECTION, connectivityLevelFailureCode=NONE, signalStrength=0, wifiState=WIFI_DISCONNECTED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=0, mDtim=0, mAuthentication=2, mHidden=false, mRouterTechnology=0, mSupportsIpv6=false
+startTime=05-22 17:51:20.662, SSID="EHOME_500BDX", BSSID=any, durationMillis=37085, roamType=ROAM_UNRELATED, connectionResult=0, level2FailureCode=DHCPUNKNOWN, connectivityLevelFailureCode=NONE, signalStrength=0, wifiState=WIFI_ASSOCIATED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=0, mDtim=0, mAuthentication=1, mHidden=false, mRouterTechnology=0, mSupportsIpv6=false
+startTime=05-22 17:51:58.496, SSID="EHOME_500BDX", BSSID=48:1f:2d:0b:24:5a, durationMillis=0, roamType=ROAM_UNRELATED, connectionResult=0, level2FailureCode=UNKNOWN, connectivityLevelFailureCode=UNKNOWN, signalStrength=-64, wifiState=WIFI_DISCONNECTED, screenOn=true. mRouterFingerprint: mConnectionEvent.roamType=0, mChannelInfo=2457, mDtim=1, mAuthentication=1, mHidden=false, mRouterTechnology=4, mSupportsIpv6=falseCURRENTLY OPEN EVENT
+mWifiLogProto.numSavedNetworks=2
+mWifiLogProto.numOpenNetworks=1
+mWifiLogProto.numPersonalNetworks=1
+mWifiLogProto.numEnterpriseNetworks=0
+mWifiLogProto.numHiddenNetworks=0
+mWifiLogProto.numPasspointNetworks=0
+mWifiLogProto.isLocationEnabled=false
+mWifiLogProto.isScanningAlwaysEnabled=false
+mWifiLogProto.numNetworksAddedByUser=0
+mWifiLogProto.numNetworksAddedByApps=2
+mWifiLogProto.numNonEmptyScanResults=63
+mWifiLogProto.numEmptyScanResults=0
+mWifiLogProto.numOneshotScans=66
+mWifiLogProto.numBackgroundScans=0
+mScanReturnEntries:
+  SCAN_UNKNOWN: 3
+  SCAN_SUCCESS: 63
+  SCAN_FAILURE_INTERRUPTED: 0
+  SCAN_FAILURE_INVALID_CONFIGURATION: 0
+  FAILURE_WIFI_DISABLED: 0
+mSystemStateEntries: <state><screenOn> : <scansInitiated>
+  WIFI_UNKNOWN       ON: 0
+  WIFI_DISABLED      ON: 0
+  WIFI_DISCONNECTED  ON: 7
+  WIFI_ASSOCIATED    ON: 59
+  WIFI_UNKNOWN      OFF: 0
+  WIFI_DISABLED     OFF: 0
+  WIFI_DISCONNECTED OFF: 0
+  WIFI_ASSOCIATED   OFF: 0
+mWifiLogProto.numConnectivityWatchdogPnoGood=0
+mWifiLogProto.numConnectivityWatchdogPnoBad=0
+mWifiLogProto.numConnectivityWatchdogBackgroundGood=0
+mWifiLogProto.numConnectivityWatchdogBackgroundBad=0
+mWifiLogProto.numLastResortWatchdogTriggers=0
+mWifiLogProto.numLastResortWatchdogBadAssociationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadAuthenticationNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadDhcpNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogBadOtherNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogAvailableNetworksTotal=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAssociation=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadAuthentication=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadDhcp=0
+mWifiLogProto.numLastResortWatchdogTriggersWithBadOther=0
+mWifiLogProto.numLastResortWatchdogSuccesses=0
+mWifiLogProto.recordDurationSec=873
+mWifiLogProto.rssiPollRssiCount: Printing counts for [-127, 0]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 3 3 5 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 5 8 13 40 53 37 19 11 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.rssiPollDeltaCount: Printing counts for [-127, 127]
+  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+mWifiLogProto.alertReasonCounts=()
+mWifiLogProto.numTotalScanResults=955
+mWifiLogProto.numOpenNetworkScanResults=126
+mWifiLogProto.numPersonalNetworkScanResults=829
+mWifiLogProto.numEnterpriseNetworkScanResults=0
+mWifiLogProto.numHiddenNetworkScanResults=164
+mWifiLogProto.numHotspot2R1NetworkScanResults=0
+mWifiLogProto.numHotspot2R2NetworkScanResults=0
+mWifiLogProto.numScans=63
+mWifiLogProto.WifiScoreCount: [0, 60]
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 204 
+mWifiLogProto.SoftApManagerReturnCodeCounts:
+  SUCCESS: 0
+  FAILED_GENERAL_ERROR: 0
+  FAILED_NO_CHANNEL: 0
+
+mWifiLogProto.numHalCrashes=0
+mWifiLogProto.numWificondCrashes=0
+mWifiLogProto.numWifiOnFailureDueToHal=0
+mWifiLogProto.numWifiOnFailureDueToWificond=0
+StaEventList:
+01-01 08:11:36.379 CONNECT_NETWORK, ConfigInfo: allowed_key_management=2 allowed_protocols=0 allowed_auth_algorithms=0 allowed_pairwise_ciphers=0 allowed_group_ciphers=0 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+01-01 08:11:36.424 CMD_START_CONNECT, ConfigInfo: allowed_key_management=2 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=6 allowed_group_ciphers=15 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+01-01 08:11:36.446 CMD_START_CONNECT, ConfigInfo: allowed_key_management=2 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=6 allowed_group_ciphers=15 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+01-01 08:11:37.589 ASSOCIATION_REJECTION_EVENT timedOut=false status=1:UNSPECIFIED_FAILURE, supplicantStateChangeEvents: { ASSOCIATING}
+01-01 08:11:38.910 CMD_ASSOCIATED_BSSID, supplicantStateChangeEvents: { DISCONNECTED SCANNING ASSOCIATING ASSOCIATED}
+01-01 08:11:38.986 NETWORK_CONNECTION_EVENT, supplicantStateChangeEvents: { FOUR_WAY_HANDSHAKE GROUP_HANDSHAKE}
+01-01 08:11:39.680 CMD_IP_CONFIGURATION_SUCCESSFUL lastRssi=-28 lastFreq=2412 lastLinkSpeed=1, supplicantStateChangeEvents: { COMPLETED}
+05-22 17:41:57.017 NETWORK_AGENT_VALID_NETWORK lastRssi=-25 lastFreq=2412 lastLinkSpeed=26
+05-22 17:51:20.660 CONNECT_NETWORK lastRssi=-23 lastFreq=2412 lastLinkSpeed=52, ConfigInfo: allowed_key_management=1 allowed_protocols=0 allowed_auth_algorithms=0 allowed_pairwise_ciphers=0 allowed_group_ciphers=0 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+05-22 17:51:20.706 CMD_START_CONNECT, ConfigInfo: allowed_key_management=1 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=6 allowed_group_ciphers=15 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-127 scan_freq=-1
+05-22 17:51:21.322 NETWORK_DISCONNECTION_EVENT local_gen=true reason=3:DEAUTH_LEAVING
+05-22 17:51:21.603 CMD_ASSOCIATED_BSSID, supplicantStateChangeEvents: { DISCONNECTED SCANNING ASSOCIATING ASSOCIATED}
+05-22 17:51:21.609 NETWORK_CONNECTION_EVENT
+05-22 17:51:57.725 CMD_IP_CONFIGURATION_LOST lastRssi=-51 lastFreq=2457 lastLinkSpeed=39, supplicantStateChangeEvents: { COMPLETED}
+05-22 17:51:57.818 NETWORK_DISCONNECTION_EVENT local_gen=true reason=3:DEAUTH_LEAVING
+05-22 17:51:58.624 CMD_START_CONNECT, supplicantStateChangeEvents: { DISCONNECTED}, ConfigInfo: allowed_key_management=1 allowed_protocols=3 allowed_auth_algorithms=1 allowed_pairwise_ciphers=6 allowed_group_ciphers=15 hidden_ssid=false is_passpoint=false is_ephemeral=false has_ever_connected=false scan_rssi=-64 scan_freq=2457
+05-22 17:51:59.013 CMD_ASSOCIATED_BSSID, supplicantStateChangeEvents: { ASSOCIATING ASSOCIATED}
+05-22 17:51:59.018 NETWORK_CONNECTION_EVENT
+mWifiLogProto.numPasspointProviders=0
+mWifiLogProto.numPasspointProviderInstallation=0
+mWifiLogProto.numPasspointProviderInstallSuccess=0
+mWifiLogProto.numPasspointProviderUninstallation=0
+mWifiLogProto.numPasspointProviderUninstallSuccess=0
+mWifiLogProto.numPasspointProvidersSuccessfullyConnected=0
+mTotalSsidsInScanHistogram:{5=1, 6=1, 7=3, 8=3, 9=3, 10=1, 11=13, 12=6, 13=4, 14=1, 15=3, 16=8, 17=2, 18=3, 19=7, 20=1, 21=1, 22=2}
+mTotalBssidsInScanHistogram:{5=1, 6=1, 7=2, 8=4, 9=3, 10=1, 11=6, 12=7, 13=5, 14=2, 15=5, 16=1, 17=4, 18=5, 19=1, 20=2, 21=1, 22=7, 23=1, 24=2, 25=1, 26=1}
+mAvailableOpenSsidsInScanHistogram:{0=4, 1=23, 2=18, 3=12, 4=5, 5=1}
+mAvailableOpenBssidsInScanHistogram:{0=4, 1=23, 2=18, 3=10, 4=6, 5=2}
+mAvailableSavedSsidsInScanHistogram:{0=5, 1=57, 2=1}
+mAvailableSavedBssidsInScanHistogram:{0=5, 1=57, 2=1}
+mAvailableOpenOrSavedSsidsInScanHistogram:{0=2, 1=6, 2=19, 3=18, 4=12, 5=5, 6=1}
+mAvailableOpenOrSavedBssidsInScanHistogram:{0=2, 1=6, 2=19, 3=18, 4=10, 5=6, 6=2}
+mAvailableSavedPasspointProviderProfilesInScanHistogram:{0=63}
+mAvailableSavedPasspointProviderBssidsInScanHistogram:{0=63}
+mWifiLogProto.partialAllSingleScanListenerResults=0
+mWifiLogProto.fullBandAllSingleScanListenerResults=63
+mWifiAwareMetrics:
+mLastEnableUsageMs:0
+mLastEnableUsageInThisSampleWindowMs:0
+mAvailableTimeMs:0
+mHistogramAwareAvailableDurationMs:
+mLastEnableAwareMs:0
+mLastEnableAwareInThisSampleWindowMs:0
+mEnabledTimeMs:0
+mHistogramAwareEnabledDurationMs:
+mAttachDataByUid:
+mAttachStatusData:
+mHistogramAttachDuration:
+mMaxPublishInApp:0
+mMaxSubscribeInApp:0
+mMaxDiscoveryInApp:0
+mMaxPublishInSystem:0
+mMaxSubscribeInSystem:0
+mMaxDiscoveryInSystem:0
+mPublishStatusData:
+mSubscribeStatusData:
+mHistogramPublishDuration:
+mHistogramSubscribeDuration:
+mAppsWithDiscoverySessionResourceFailure:
+mMaxNdiInApp:0
+mMaxNdpInApp:0
+mMaxSecureNdpInApp:0
+mMaxNdiInSystem:0
+mMaxNdpInSystem:0
+mMaxSecureNdpInSystem:0
+mMaxNdpPerNdi:0
+mInBandNdpStatusData:
+mOutOfBandNdpStatusData:
+mNdpCreationTimeDuration:
+mNdpCreationTimeMin:-1
+mNdpCreationTimeMax:0
+mNdpCreationTimeSum:0
+mNdpCreationTimeSumSq:0
+mNdpCreationTimeNumSamples:0
+mHistogramNdpDuration:
+mPnoScanMetrics.numPnoScanAttempts=0
+mPnoScanMetrics.numPnoScanFailed=0
+mPnoScanMetrics.numPnoScanStartedOverOffload=0
+mPnoScanMetrics.numPnoScanFailedOverOffload=0
+mPnoScanMetrics.numPnoFoundNetworkEvents=0
+mWifiLogProto.connectToNetworkNotificationCount={1=1}
+mWifiLogProto.connectToNetworkNotificationActionCount={1001=1}
+mWifiLogProto.openNetworkRecommenderBlacklistSize=1
+mWifiLogProto.isWifiNetworksAvailableNotificationOn=true
+mWifiLogProto.numOpenNetworkRecommendationUpdates=0
+mWifiLogProto.numOpenNetworkConnectMessageFailedToSend=0
+
+Dump of WifiBackupRestore
+
+WifiScoreReport:
+time,session,rssi,freq,linkspeed,tx_good,tx_retry,tx_bad,rx,s0,s1
+05-22 17:51:14.415,1,-23.0,2412,52,0.00,0.00,0.00,0.00,60,100
+05-22 17:51:17.425,1,-22.0,2412,52,0.00,0.00,0.00,0.00,60,101
+05-22 17:51:20.436,1,-23.0,2412,52,0.00,0.00,0.00,0.00,60,100
+05-22 17:51:21.683,2,-22.0,2457,52,0.00,0.00,0.00,0.00,60,101
+05-22 17:51:24.694,2,-51.0,2457,39,7.43,11.16,0.00,0.00,60,72
+05-22 17:51:27.700,2,-49.0,2457,39,3.36,4.73,0.00,0.00,60,74
+05-22 17:51:30.706,2,-48.0,2457,39,1.87,1.74,0.00,0.00,60,75
+05-22 17:51:34.104,2,-49.0,2457,39,0.60,0.56,0.00,0.00,60,74
+05-22 17:51:37.110,2,-49.0,2457,39,2.12,2.10,0.00,0.00,60,74
+05-22 17:51:40.121,2,-50.0,2457,39,0.78,0.77,0.00,0.00,60,73
+05-22 17:51:43.126,2,-48.0,2457,39,0.29,0.28,0.00,0.00,60,75
+05-22 17:51:46.131,2,-49.0,2457,39,0.10,0.10,0.00,0.00,60,74
+05-22 17:51:49.150,2,-50.0,2457,39,0.04,0.04,0.00,0.00,60,73
+05-22 17:51:52.157,2,-49.0,2457,39,0.65,0.01,0.00,0.00,60,74
+05-22 17:51:55.165,2,-51.0,2457,39,0.87,0.64,0.00,0.00,60,72
+05-22 17:51:59.129,3,-54.0,2457,39,0.00,0.00,0.00,0.00,60,69
+05-22 17:52:02.171,3,-57.0,2457,39,6.63,13.46,0.00,0.00,60,66
+05-22 17:52:05.181,3,-53.0,2457,39,4.32,9.98,0.00,0.00,60,70
+05-22 17:52:08.186,3,-51.0,2457,39,1.59,3.66,0.00,0.00,60,72
+05-22 17:52:11.192,3,-50.0,2457,39,1.21,5.14,0.00,0.00,60,73
+
+--------- 0.098s was the duration of dumpsys wifi, ending at: 2023-05-22 17:52:12

@@ -1,0 +1,7 @@
+Known volumes:
+  Default:
+    level=NORMAL lastUsableBytes=122226368512 
+
+mSeq=1 mForceState=UNKNOWN 
+
+--------- 0.002s was the duration of dumpsys devicestoragemonitor, ending at: 2023-05-18 12:38:57

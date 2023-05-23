@@ -1,0 +1,124 @@
+SubscriptionController:
+ defaultSubId=1
+ defaultDataSubId=1
+ defaultVoiceSubId=1
+ defaultSmsSubId=1
+ defaultDataPhoneId=0
+ defaultVoicePhoneId=0
+ defaultSmsPhoneId=0
+ sSlotIndexToSubId[0]: subId=1
+++++++++++++++++++++++++++++++++
+ ActiveSubInfoList:
+  {id=1, iccId=898601228[****] simSlotIndex=0 displayName=??????ии??иж?? carrierName=??????ии??иж?? nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@9b1dcd1 mcc 460 mnc 1 isEmbedded false accessRules null}
+++++++++++++++++++++++++++++++++
+ AllSubInfoList:
+  {id=1, iccId=898601228[****] simSlotIndex=0 displayName=??????ии??иж?? carrierName=??????ии??иж?? nameSource=0 iconTint=-16746133 dataRoaming=0 iconBitmap=android.graphics.Bitmap@87b0494 mcc 460 mnc 1 isEmbedded false accessRules null}
+++++++++++++++++++++++++++++++++
+0: 05-18 04:35:04 pid=4156 tid=4156 [SubscriptionController] init by Context
+1: 05-18 04:35:05 pid=4156 tid=4167 [getPhoneId] asked for default subId=-1
+2: 05-18 04:35:05 pid=4156 tid=4156 [getPhoneId] asked for default subId=-1
+3: 05-18 04:35:05 pid=4156 tid=4156 [getPhoneId] asked for default subId=-1
+4: 05-18 04:35:05 pid=4156 tid=4156 [getPhoneId] asked for default subId=-1
+5: 05-18 04:35:05 pid=4156 tid=4749 [getPhoneId] asked for default subId=-1
+6: 05-18 04:35:05 pid=4156 tid=4156 [getPhoneId] asked for default subId=-1
+7: 05-18 04:35:06 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+8: 05-18 04:35:06 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+9: 05-18 04:35:06 pid=4156 tid=4749 [getActiveSubInfoList] Sub Controller not ready
+10: 05-18 04:35:06 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+11: 05-18 04:35:06 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+12: 05-18 04:35:06 pid=4156 tid=4749 [getPhoneId] asked for default subId=-1
+13: 05-18 04:35:06 pid=4156 tid=4156 [getPhoneId] asked for default subId=-1
+14: 05-18 04:35:06 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+15: 05-18 04:35:06 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+16: 05-18 04:35:06 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+17: 05-18 04:35:06 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+18: 05-18 04:35:06 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+19: 05-18 04:35:06 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+20: 05-18 04:35:07 pid=4156 tid=4845 [getActiveSubInfoList] Sub Controller not ready
+21: 05-18 04:35:07 pid=4156 tid=4156 [setDefaultVoiceSubId] subId=-1
+22: 05-18 04:35:07 pid=4156 tid=4156 [broadcastDefaultVoiceSubIdChanged] subId=-1
+23: 05-18 04:35:07 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+24: 05-18 04:35:07 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+25: 05-18 04:35:07 pid=4156 tid=4843 [getActiveSubInfoList] Sub Controller not ready
+26: 05-18 04:35:07 pid=4156 tid=4975 [getActiveSubInfoList] Sub Controller not ready
+27: 05-18 04:35:07 pid=4156 tid=4749 [getActiveSubInfoList] Sub Controller not ready
+28: 05-18 04:35:07 pid=4156 tid=4975 [getActiveSubInfoList] Sub Controller not ready
+29: 05-18 04:35:07 pid=4156 tid=4843 [getActiveSubInfoList] Sub Controller not ready
+30: 05-18 04:35:07 pid=4156 tid=4981 [getActiveSubInfoList] Sub Controller not ready
+31: 05-18 04:35:07 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+32: 05-18 04:35:07 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+33: 05-18 04:35:07 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+34: 05-18 04:35:07 pid=4156 tid=4156 [getActiveSubInfoList] Sub Controller not ready
+35: 05-18 04:35:08 pid=4156 tid=4981 [getActiveSubInfoList] Sub Controller not ready
+36: 05-18 04:35:08 pid=4156 tid=4741 [clearSubInfo]- no simInfo size=0
+37: 05-18 04:35:08 pid=4156 tid=4741 [addSubInfoRecord]+ iccId:898601228[****] slotIndex:0
+38: 05-18 04:35:08 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+39: 05-18 04:35:08 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+40: 05-18 04:35:08 pid=4156 tid=4168 [getActiveSubInfoList] Sub Controller not ready
+41: 05-18 04:35:08 pid=4156 tid=4741 [getActiveSubInfoList] Sub Controller not ready
+42: 05-18 04:35:08 pid=4156 tid=4741 [addSubInfoRecord] New record created: content://telephony/siminfo/1
+43: 05-18 04:35:08 pid=4156 tid=4741 [addSubInfoRecord] sSlotIndexToSubId.size=1 slotIndex=0 subId=1 defaultSubId=-1 simCount=1
+44: 05-18 04:35:08 pid=4156 tid=4741 defaultVoiceSubId=-1isSingleSIM=falseisDefaultId=false
+45: 05-18 04:35:08 pid=4156 tid=4741 [setDefaultFallbackSubId] subId=1
+46: 05-18 04:35:08 pid=4156 tid=4741 [setDefaultFallbackSubId] set mDefaultFallbackSubId=1
+47: 05-18 04:35:08 pid=4156 tid=4741 [setDefaultFallbackSubId] broadcast default subId changed phoneId=0 subId=1
+48: 05-18 04:35:08 pid=4156 tid=4741 [addSubInfoRecord] one sim set defaults to subId=1
+49: 05-18 04:35:08 pid=4156 tid=4741 [setDefaultDataSubId] num phones=1, subId=1
+50: 05-18 04:35:08 pid=4156 tid=4741 [setDefaultDataSubId] phoneId=0 subId=1 RAF=118286
+51: 05-18 04:35:08 pid=4156 tid=4741 [updateAllDataConnectionTrackers] sPhones.length=1
+52: 05-18 04:35:08 pid=4156 tid=4741 [updateAllDataConnectionTrackers] phoneId=0
+53: 05-18 04:35:09 pid=4156 tid=4741 [broadcastDefaultDataSubIdChanged] subId=1
+54: 05-18 04:35:09 pid=4156 tid=4741 [setDefaultSmsSubId] subId=1
+55: 05-18 04:35:09 pid=4156 tid=4156 [setDefaultVoiceSubId] subId=1
+56: 05-18 04:35:09 pid=4156 tid=4156 [broadcastDefaultVoiceSubIdChanged] subId=1
+57: 05-18 04:35:09 pid=4156 tid=4741 [broadcastDefaultSmsSubIdChanged] subId=1
+58: 05-18 04:35:09 pid=4156 tid=4741 [setDefaultVoiceSubId] subId=1
+59: 05-18 04:35:09 pid=4156 tid=4741 [broadcastDefaultVoiceSubIdChanged] subId=1
+60: 05-18 04:35:09 pid=4156 tid=4741 [addSubInfoRecord] hashmap(0,1)
+61: 05-18 04:35:09 pid=4156 tid=4741 [addSubInfoRecord] sim name = SIM 1
+62: 05-18 04:35:09 pid=4156 tid=4741 [addSubInfoRecord] update serviceState for subId:1
+63: 05-18 04:35:09 pid=4156 tid=4741 [addSubInfoRecord]- info size=1
+64: 05-18 04:35:11 pid=4156 tid=4156 [setDefaultVoiceSubId] subId=1
+65: 05-18 04:35:11 pid=4156 tid=4156 [broadcastDefaultVoiceSubIdChanged] subId=1
+66: 05-18 04:35:11 pid=4156 tid=4156 [setDefaultVoiceSubId] subId=1
+67: 05-18 04:35:11 pid=4156 tid=4156 [broadcastDefaultVoiceSubIdChanged] subId=1
+68: 05-18 04:35:11 pid=4156 tid=4156 [setDefaultVoiceSubId] subId=1
+69: 05-18 04:35:11 pid=4156 tid=4156 [broadcastDefaultVoiceSubIdChanged] subId=1
+70: 05-18 04:35:11 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+71: 05-18 04:35:12 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+72: 05-18 04:35:17 pid=4156 tid=4981 [getPhoneId] asked for default subId=1
+73: 05-18 04:36:07 pid=4156 tid=4981 [getPhoneId] asked for default subId=1
+74: 05-18 04:36:10 pid=4156 tid=4981 [getPhoneId] asked for default subId=1
+75: 05-18 04:36:13 pid=4156 tid=5475 [getPhoneId] asked for default subId=1
+76: 05-18 04:36:17 pid=4156 tid=4981 [getPhoneId] asked for default subId=1
+77: 05-18 04:36:23 pid=4156 tid=5475 [getPhoneId] asked for default subId=1
+78: 05-18 04:36:32 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+79: 05-18 04:36:33 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+80: 05-18 04:36:34 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+81: 05-18 04:36:34 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+82: 05-18 04:36:43 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+83: 05-18 04:36:53 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+84: 05-18 04:36:53 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+85: 05-18 04:37:33 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+86: 05-18 04:37:33 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+87: 05-18 04:37:40 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+88: 05-18 04:37:40 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+89: 05-18 04:37:43 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+90: 05-18 04:37:45 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+91: 05-18 04:37:45 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+92: 05-18 04:37:45 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+93: 05-18 04:37:48 pid=4156 tid=5196 [getPhoneId] asked for default subId=1
+94: 05-18 04:37:52 pid=4156 tid=5196 [getPhoneId] asked for default subId=1
+95: 05-18 04:37:52 pid=4156 tid=5196 [getPhoneId] asked for default subId=1
+96: 05-18 04:38:01 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+97: 05-18 04:38:09 pid=4156 tid=5196 [getPhoneId] asked for default subId=1
+98: 05-18 04:38:14 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+99: 05-18 04:38:18 pid=4156 tid=5196 [getPhoneId] asked for default subId=1
+100: 05-18 04:38:19 pid=4156 tid=5475 [getPhoneId] asked for default subId=1
+101: 05-18 04:38:24 pid=4156 tid=5196 [getPhoneId] asked for default subId=1
+102: 05-18 04:38:27 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+103: 05-18 04:38:33 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+104: 05-18 04:38:35 pid=4156 tid=5263 [getPhoneId] asked for default subId=1
+105: 05-18 04:38:51 pid=4156 tid=5203 [getPhoneId] asked for default subId=1
+++++++++++++++++++++++++++++++++
+--------- 0.031s was the duration of dumpsys isub, ending at: 2023-05-18 12:38:57

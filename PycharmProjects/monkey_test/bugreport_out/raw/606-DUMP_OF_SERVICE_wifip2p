@@ -1,0 +1,26 @@
+WifiP2pService:
+ total records=2
+ rec[0]: time=01-01 08:10:53.413 processed=P2pDisabledState org=P2pDisabledState dest=P2pEnablingState what=131203(0x20083)
+ rec[1]: time=01-01 08:10:53.413 processed=P2pEnablingState org=P2pEnablingState dest=InactiveState what=147457(0x24001)
+curState=InactiveState
+mWifiP2pInfo groupFormed: false isGroupOwner: false groupOwnerAddress: null
+mGroup null
+mSavedPeerConfig 
+ address: 
+ wps:  setup: 0
+ BSSID: null
+ pin: null
+
+ groupOwnerIntent: -1
+ persist: -2
+mGroups
+
+mAutonomousGroup false
+mJoinExistingGroup false
+mDiscoveryStarted false
+mNetworkInfo [type: WIFI_P2P[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), failover: false, available: true, roaming: false]
+mTemporarilyDisconnectedWifi false
+mServiceDiscReqId null
+mDeathDataByBinder {android.os.Binder@3bd76f5=deathRecipient=com.android.server.wifi.p2p.-$Lambda$fn1kZ8DxUVXwaqX8IUvJlmRRm00$1@6db3a40, messenger=android.os.Messenger@8687c8a}
+
+--------- 0.007s was the duration of dumpsys wifip2p, ending at: 2023-05-22 17:52:12

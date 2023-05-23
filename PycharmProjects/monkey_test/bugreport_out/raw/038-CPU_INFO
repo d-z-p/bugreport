@@ -1,0 +1,1338 @@
+Tasks: 1333 total,  17 running,1314 sleeping,   0 stopped,   0 zombie
+Mem:    897920k total,   863060k used,    34860k free,      316k buffers
+Swap:   819196k total,   183440k used,   635756k free,   466304k cached
+400%cpu 144%user  30%nice 121%sys 104%idle   0%iow   0%irq   1%sirq   0%host
+  PID   TID USER         PR  NI[%CPU]S VIRT  RES PCY CMD             NAME                       
+ 2940  2940 u0_a78       20   0 63.9 S 1.1G 130M  bg putmethod.sogou com.sohu.inputmethod.sogou
+ 2766  2766 u0_a80       10 -10 52.9 R 1.4G 264M  ta com.tencent.mm  com.tencent.mm
+ 3084  3084 shell         0 -20 44.1 R 6.3M 3.8M  fg top             top
+ 2974  2974 u0_a80       20   0 41.9 R 1.2G 144M  fg tencent.mm:push com.tencent.mm:push
+ 2940  3015 u0_a78       20   0 22.7 R 1.1G 130M  bg SFission Thread com.sohu.inputmethod.sogou
+  622  2296 system       20   0 22.7 S 1.2G 148M  fg DhcpClient      system_server
+  622  2289 system       20   0 16.9 S 1.2G 148M  fg NetworkMonitorN system_server
+ 2940  3012 u0_a78       20   0 15.4 R 1.1G 130M  bg SFission Thread com.sohu.inputmethod.sogou
+ 2940  3018 u0_a78       20   0 14.7 R 1.1G 130M  bg sogou-foreign-t com.sohu.inputmethod.sogou
+ 3071  3071 u0_a78       20   0 13.9 S 1.1G  90M  bg od.sogou:daemon com.sohu.inputmethod.sogou:daemon
+  622  2297 system       20   0 13.9 S 1.2G 148M  fg Thread-40       system_server
+ 2974  3050 u0_a80       12  -8 12.5 S 1.2G 144M  fg parallels-0     com.tencent.mm:push
+  283   283 system       -2 -20 12.5 S  78M  11M     surfaceflinger  surfaceflinger
+   65    65 root         20   0 11.7 S    0    0  fg kswapd0         [kswapd0]
+ 2766  2771 u0_a80       29   9 10.2 R 1.4G 264M  ta Jit thread pool com.tencent.mm
+ 3071  3111 u0_a78       20   0  9.5 R 1.1G  90M  bg pool-1-thread-1 com.sohu.inputmethod.sogou:daemon
+  622   622 system       18  -2  9.5 S 1.2G 148M  fg system_server   system_server
+  347   347 root         20   0  8.8 S    0    0  fg kworker/u8:7    [kworker/u8:7]
+  139   139 root         -2   0  6.6 S    0    0  fg mmcqd/0         [mmcqd/0]
+ 2974  3052 u0_a80       12  -8  5.8 S 1.2G 144M  fg parallels-2     com.tencent.mm:push
+ 2974  2981 u0_a80       29   9  5.8 R 1.2G 144M  fg Jit thread pool com.tencent.mm:push
+ 2940  2951 u0_a78       24   4  5.8 S 1.1G 130M  bg HeapTaskDaemon  com.sohu.inputmethod.sogou
+ 2974  3053 u0_a80       12  -8  5.1 S 1.2G 144M  fg parallels-3     com.tencent.mm:push
+ 2974  3051 u0_a80       12  -8  3.6 S 1.2G 144M  fg parallels-1     com.tencent.mm:push
+ 2766  2776 u0_a80       24   4  3.6 S 1.4G 264M  ta HeapTaskDaemon  com.tencent.mm
+ 2291  2291 root         20   0  3.6 S    0    0  fg kworker/u8:4    [kworker/u8:4]
+    6     6 root         20   0  3.6 S    0    0  fg kworker/u8:0    [kworker/u8:0]
+ 3071  3082 u0_a78       24   4  2.9 S 1.1G  90M  bg HeapTaskDaemon  com.sohu.inputmethod.sogou:daemon
+  354   354 mediacodec   20   0  2.9 S  44M 8.1M  fg omx@1.0-service media.codec
+ 2974  2987 u0_a80       24   4  2.2 S 1.2G 144M  fg HeapTaskDaemon  com.tencent.mm:push
+ 2954  2954 root         20   0  2.2 S    0    0  fg kworker/u8:5    [kworker/u8:5]
+ 2766  2886 u0_a80       20   0  2.2 S 1.4G 265M  ta [GT]ColdPool#10 com.tencent.mm
+  622  2299 system       20   0  2.2 S 1.2G 148M  fg Thread-41       system_server
+  622  2276 system       20   0  2.2 S 1.2G 148M  fg Binder:622_B    system_server
+  925   925 u0_a22       20   0  2.2 R 1.1G 132M  fg ndroid.systemui com.android.systemui
+  622   633 system       20   0  2.2 S 1.2G 148M  fg Binder:622_2    system_server
+  283   410 system       12  -8  2.2 S  78M  11M     mali-cmar-backe surfaceflinger
+  263   263 system       -3  -8  2.2 S  64M 4.6M  fg composer@2.1-se android.hardware.graphics.composer@2.1-service
+  224   234 logd         30  10  2.2 R  13M 3.1M     logd.writer     logd
+  224   224 logd         30  10  2.2 S  13M 3.1M     logd            logd
+ 2974  2995 u0_a80       20   0  1.4 S 1.2G 144M  fg matrix_time_upd com.tencent.mm:push
+ 2766  2889 u0_a80       20   0  1.4 S 1.4G 265M  ta [GT]ColdPool#11 com.tencent.mm
+ 2766  2854 u0_a80       20   0  1.4 S 1.4G 265M  ta [GT]ColdPool#4  com.tencent.mm
+  263  2732 system       -3  -8  1.4 S  64M 4.6M  fg HwBinder:263_3  android.hardware.graphics.composer@2.1-service
+ 2195  2195 root         20   0  1.4 S    0    0  fg kworker/u8:3    [kworker/u8:3]
+  354  2014 mediacodec   18  -2  1.4 S  44M 8.1M  fg rd.h264.encoder media.codec
+  354   463 mediacodec    4 -16  1.4 S  44M 8.1M  fg HwBinder:354_3  media.codec
+  100   100 root         20   0  1.4 D    0    0  fg sprd-adf-dev    [sprd-adf-dev]
+ 3071  3097 u0_a78       30  10  0.7 R 1.1G  90M  bg Sogou-Aysnc-Thr com.sohu.inputmethod.sogou:daemon
+ 3071  3077 u0_a78       29   9  0.7 R 1.1G  90M  bg Jit thread pool com.sohu.inputmethod.sogou:daemon
+ 2940  2998 u0_a78       20   0  0.7 S 1.1G 130M  bg logan-thread    com.sohu.inputmethod.sogou
+ 2940  2999 u0_a78       20   0  0.7 S 1.1G 130M  bg logger_sdk_hand com.sohu.inputmethod.sogou
+ 2940  2970 u0_a78       30  10  0.7 S 1.1G 130M  bg Sogou-Aysnc-Thr com.sohu.inputmethod.sogou
+ 2940  2966 u0_a78       18  -2  0.7 S 1.1G 130M  bg queued-work-loo com.sohu.inputmethod.sogou
+ 2766  2896 u0_a80       20   0  0.7 S 1.4G 265M  ta [GT]ColdPool#15 com.tencent.mm
+ 2766  2895 u0_a80       20   0  0.7 S 1.4G 265M  ta [GT]ColdPool#14 com.tencent.mm
+ 2766  2877 u0_a80       10 -10  0.7 S 1.4G 265M  ta mali-mem-purge  com.tencent.mm
+ 2766  2875 u0_a80       20   0  0.7 S 1.4G 265M  ta [GT]ColdPool#9  com.tencent.mm
+ 2766  2874 u0_a80       20   0  0.7 S 1.4G 265M  ta [GT]ColdPool#8  com.tencent.mm
+ 2766  2873 u0_a80       10 -10  0.7 S 1.4G 265M  ta RenderThread    com.tencent.mm
+ 2766  2872 u0_a80       20   0  0.7 S 1.4G 265M  ta [GT]ColdPool#7  com.tencent.mm
+ 2766  2869 u0_a80       20   0  0.7 S 1.4G 265M  ta [GT]ColdPool#6  com.tencent.mm
+ 2766  2840 u0_a80       20   0  0.7 S 1.4G 264M  ta [GT]ColdPool#2  com.tencent.mm
+  254  2718 audioserver  20   0  0.7 S  28M 2.1M  fg HwBinder:254_3  android.hardware.audio@2.0-service
+  276  2439 system       20   0  0.7 S  17M 1.7M  fg HwBinder:276_4  vendor.sprd.hardware.power@2.0-service
+ 2282  2282 root         20   0  0.7 S    0    0  fg kworker/2:2     [kworker/2:2]
+ 2065  2065 wifi         20   0  0.7 S  11M 6.3M  fg wpa_supplicant  wpa_supplicant
+  354  2015 mediacodec   18  -2  0.7 S  44M 8.1M  fg OMXCallbackDisp media.codec
+ 1990  2013 shell         4 -16  0.7 S 868M  63M  fg HwBinder:1990_1 app_process
+ 1990  1990 shell        20   0  0.7 S 868M  63M  fg main            app_process
+ 1971  1971 shell        20   0  0.7 S  18M 1.1M  fg adbd            adbd
+  283  1732 system       20   0  0.7 S  78M  11M  fg Binder:283_5    surfaceflinger
+ 1310  1726 system       20   0  0.7 S 1.1G 111M  bg Thread-6        com.jx.launcher
+  891  1504 radio        20   0  0.7 S 1.1G  95M  fg Binder:891_7    com.android.phone
+ 1310  1310 system       20   0  0.7 S 1.1G 111M  bg com.jx.launcher com.jx.launcher
+  622  1237 system       20   0  0.7 S 1.2G 148M  fg Binder:622_8    system_server
+  925  1126 u0_a22       20   0  0.7 S 1.1G 132M  fg Binder:925_6    com.android.systemui
+  891   896 radio        29   9  0.7 S 1.1G  95M  fg Jit thread pool com.android.phone
+  891   891 radio        20   0  0.7 S 1.1G  95M  fg m.android.phone com.android.phone
+  622   868 system       20   0  0.7 S 1.2G 148M  fg ConnectivitySer system_server
+  622   862 system       20   0  0.7 S 1.2G 148M  fg IpManager.wlan0 system_server
+  622   860 system       20   0  0.7 S 1.2G 148M  fg WifiStateMachin system_server
+  622   855 system       20   0  0.7 S 1.2G 148M  fg NetdConnector   system_server
+  622   636 system       18  -2  0.7 S 1.2G 148M  fg ActivityManager system_server
+  327   545 audioserver   1 -19  0.7 S  34M 5.1M  fg AudioOut_D      audioserver
+  283   413 system       -3  -9  0.7 S  78M  11M     EventThread     surfaceflinger
+  283   415 system       -3  -9  0.7 S  78M  11M     EventThread     surfaceflinger
+  283   400 system       20   0  0.7 S  78M  11M  fg Binder:283_2    surfaceflinger
+  283   397 system       20   0  0.7 S  78M  11M  fg Binder:283_1    surfaceflinger
+  283   398 system       -3  -9  0.7 S  78M  11M  fg DispSync        surfaceflinger
+  276   276 system       20   0  0.7 S  17M 1.7M  fg power@2.0-servi vendor.sprd.hardware.power@2.0-service
+  254   254 audioserver  20   0  0.7 S  28M 2.1M  fg audio@2.0-servi android.hardware.audio@2.0-service
+  225   225 system       20   0  0.7 S 5.4M 1.5M     servicemanager  servicemanager
+  180   180 root          0 -20  0.7 S    0    0  fg kworker/3:1H    [kworker/3:1H]
+   16    16 root         20   0  0.7 S    0    0  fg ksoftirqd/2     [ksoftirqd/2]
+ 3071  3113 u0_a78       18  -2  0.0 S 1.1G  90M  bg queued-work-loo com.sohu.inputmethod.sogou:daemon
+ 3071  3112 u0_a78       20   0  0.0 S 1.1G  90M  bg SFission Thread com.sohu.inputmethod.sogou:daemon
+ 3071  3106 u0_a78       30  10  0.0 S 1.1G  90M  bg Thread-2        com.sohu.inputmethod.sogou:daemon
+ 2940  3105 u0_a78       20   0  0.0 S 1.1G 130M  bg InputCollector# com.sohu.inputmethod.sogou
+ 3071  3103 u0_a78       20   0  0.0 S 1.1G  90M  bg SFission Thread com.sohu.inputmethod.sogou:daemon
+ 3071  3102 u0_a78       20   0  0.0 S 1.1G  90M  bg SFission Thread com.sohu.inputmethod.sogou:daemon
+ 3071  3100 u0_a78       20   0  0.0 S 1.1G  90M  bg SFission Thread com.sohu.inputmethod.sogou:daemon
+ 3071  3098 u0_a78       20   0  0.0 S 1.1G  90M  bg .1, thread No.1 com.sohu.inputmethod.sogou:daemon
+ 3071  3092 u0_a78       20   0  0.0 S 1.1G  90M  bg Idle-10.19.1    com.sohu.inputmethod.sogou:daemon
+ 3071  3091 u0_a78       30  10  0.0 S 1.1G  90M  bg matrix_time_upd com.sohu.inputmethod.sogou:daemon
+ 2940  3090 u0_a78       20   0  0.0 S 1.1G 130M  bg Binder:2940_5   com.sohu.inputmethod.sogou
+ 3071  3089 u0_a78       29   9  0.0 S 1.1G  90M  bg Profile Saver   com.sohu.inputmethod.sogou:daemon
+ 2766  3088 u0_a80       18  -2  0.0 S 1.4G 265M  ta hwuiTask1       com.tencent.mm
+ 3071  3087 u0_a78       20   0  0.0 S 1.1G  90M  bg Binder:3071_3   com.sohu.inputmethod.sogou:daemon
+ 2940  3086 u0_a78       30  10  0.0 R 1.1G 130M  bg Sogou-Aysnc-Thr com.sohu.inputmethod.sogou
+ 3071  3085 u0_a78       20   0  0.0 S 1.1G  90M  bg Binder:3071_2   com.sohu.inputmethod.sogou:daemon
+ 3071  3079 u0_a78       24   4  0.0 S 1.1G  90M  bg ReferenceQueueD com.sohu.inputmethod.sogou:daemon
+ 3071  3083 u0_a78       20   0  0.0 S 1.1G  90M  bg Binder:3071_1   com.sohu.inputmethod.sogou:daemon
+ 3071  3080 u0_a78       24   4  0.0 S 1.1G  90M  bg FinalizerDaemon com.sohu.inputmethod.sogou:daemon
+ 3071  3081 u0_a78       24   4  0.0 S 1.1G  90M  bg FinalizerWatchd com.sohu.inputmethod.sogou:daemon
+ 3071  3078 u0_a78       20   0  0.0 S 1.1G  90M  bg Signal Catcher  com.sohu.inputmethod.sogou:daemon
+  250  3073 root         24   4  0.0 S 0.9G  46M  fg ReferenceQueueD zygote
+  250  3076 root         24   4  0.0 S 0.9G  46M  fg HeapTaskDaemon  zygote
+  250  3075 root         24   4  0.0 S 0.9G  46M  fg FinalizerWatchd zygote
+  250  3074 root         24   4  0.0 S 0.9G  46M  fg FinalizerDaemon zygote
+ 2766  3069 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#7   com.tencent.mm
+ 2766  3068 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#6   com.tencent.mm
+ 2766  3067 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#5   com.tencent.mm
+ 2940  3065 u0_a78       30  10  0.0 S 1.1G 130M  bg Sogou-Aysnc-Thr com.sohu.inputmethod.sogou
+ 2974  3054 u0_a80       20   0  0.0 S 1.2G 144M  fg FileObserver    com.tencent.mm:push
+ 1449  3049 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_8   com.jx.inputmethod.pinyin
+ 2766  3046 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#4   com.tencent.mm
+ 2940  3044 u0_a78       12  -8  0.0 S 1.1G 130M  bg process reaper  com.sohu.inputmethod.sogou
+ 2940  3042 u0_a78       20   0  0.0 S 1.1G 130M  bg Binder:2940_4   com.sohu.inputmethod.sogou
+ 2940  3040 u0_a78       12  -8  0.0 S 1.1G 130M  bg process reaper  com.sohu.inputmethod.sogou
+ 2940  3037 u0_a78       12  -8  0.0 S 1.1G 130M  bg process reaper  com.sohu.inputmethod.sogou
+ 2940  3036 u0_a78       20   0  0.0 S 1.1G 130M  bg pingback        com.sohu.inputmethod.sogou
+ 2940  3034 u0_a78       12  -8  0.0 S 1.1G 130M  bg process reaper  com.sohu.inputmethod.sogou
+ 2974  3032 u0_a80       20   0  0.0 S 1.2G 144M  fg AppForegroundDe com.tencent.mm:push
+ 2974  3031 u0_a80       20   0  0.0 S 1.2G 144M  fg tencent.mm:push com.tencent.mm:push
+ 2974  3027 u0_a80       20   0  0.0 S 1.2G 144M  fg tencent.mm:push com.tencent.mm:push
+ 2974  3028 u0_a80       20   0  0.0 S 1.2G 144M  fg tencent.mm:push com.tencent.mm:push
+ 2974  3029 u0_a80       20   0  0.0 S 1.2G 144M  fg tencent.mm:push com.tencent.mm:push
+ 2940  3026 u0_a78       20   0  0.0 S 1.1G 130M  bg HandlerThread   com.sohu.inputmethod.sogou
+ 2940  3025 u0_a78       20   0  0.0 S 1.1G 130M  bg pool-1-thread-1 com.sohu.inputmethod.sogou
+ 2974  3023 u0_a80       20   0  0.0 S 1.2G 144M  fg [GT]TP#Internal com.tencent.mm:push
+ 2940  3022 u0_a78       20   0  0.0 S 1.1G 130M  bg sogou-foreign-t com.sohu.inputmethod.sogou
+ 2974  3021 u0_a80       24   4  0.0 S 1.2G 144M  fg VFS.Maintenance com.tencent.mm:push
+ 2766  3017 u0_a80       10 -10  0.0 S 1.4G 265M  ta RenderThread    com.tencent.mm
+ 2974  3016 u0_a80       20   0  0.0 S 1.2G 144M  fg pool-1-thread-1 com.tencent.mm:push
+ 2940  3014 u0_a78       20   0  0.0 S 1.1G 130M  bg SFission Thread com.sohu.inputmethod.sogou
+ 2940  3013 u0_a78       20   0  0.0 S 1.1G 130M  bg SFission Thread com.sohu.inputmethod.sogou
+ 2940  3010 u0_a78       20   0  0.0 S 1.1G 130M  bg koom            com.sohu.inputmethod.sogou
+ 2974  3009 u0_a80       30  10  0.0 S 1.2G 144M  fg Vending-HeavyWo com.tencent.mm:push
+ 2974  3008 u0_a80       20   0  0.0 S 1.2G 144M  fg Vending-LogicTh com.tencent.mm:push
+ 2964  3007 mediaex      20   0  0.0 S  43M  12M  fg Binder:2964_1   media.extractor
+ 2940  3005 u0_a78       20   0  0.0 S 1.1G 130M  bg MonitorThread   com.sohu.inputmethod.sogou
+ 2940  3003 u0_a78       20   0  0.0 S 1.1G 130M  bg performance_sdk com.sohu.inputmethod.sogou
+ 2940  3002 u0_a78       20   0  0.0 S 1.1G 130M  bg .1, thread No.1 com.sohu.inputmethod.sogou
+ 2940  3000 u0_a78       30  10  0.0 S 1.1G 130M  bg Thread-3        com.sohu.inputmethod.sogou
+ 2974  2997 u0_a80       20   0  0.0 S 1.2G 144M  fg historyMsgHandl com.tencent.mm:push
+ 2940  2996 u0_a78       30  10  0.0 R 1.1G 130M  bg Sogou-Aysnc-Thr com.sohu.inputmethod.sogou
+ 2940  2994 u0_a78       20   0  0.0 S 1.1G 130M  bg dbCache         com.sohu.inputmethod.sogou
+ 2974  2993 u0_a80       29   9  0.0 S 1.2G 144M  fg Profile Saver   com.tencent.mm:push
+ 2974  2992 u0_a80       20   0  0.0 S 1.2G 144M  fg Binder:2974_3   com.tencent.mm:push
+ 2974  2991 u0_a80       20   0  0.0 S 1.2G 144M  fg Binder:2974_2   com.tencent.mm:push
+ 2974  2988 u0_a80       20   0  0.0 S 1.2G 144M  fg Binder:2974_1   com.tencent.mm:push
+ 2974  2985 u0_a80       24   4  0.0 S 1.2G 144M  fg FinalizerDaemon com.tencent.mm:push
+ 2974  2984 u0_a80       24   4  0.0 S 1.2G 144M  fg ReferenceQueueD com.tencent.mm:push
+ 2974  2986 u0_a80       24   4  0.0 S 1.2G 144M  fg FinalizerWatchd com.tencent.mm:push
+ 2974  2983 u0_a80       20   0  0.0 S 1.2G 144M  fg Signal Catcher  com.tencent.mm:push
+ 2940  2982 u0_a78       20   0  0.0 S 1.1G 130M  bg Idle-10.19.1    com.sohu.inputmethod.sogou
+ 2363  2973 u0_a22       18  -2  0.0 S 1.1G  94M  bg AsyncTask #2    com.android.systemui:screenshot
+ 2940  2971 u0_a78       30  10  0.0 S 1.1G 130M  bg Sogou-Aysnc-Thr com.sohu.inputmethod.sogou
+ 2766  2968 u0_a80       12  -8  0.0 S 1.4G 265M  ta Check-ANR-State com.tencent.mm
+ 2964  2964 mediaex      20   0  0.0 S  43M  12M  fg mediaextractor  media.extractor
+ 2898  2963 system       20   0  0.0 S 1.1G  84M  bg Binder:2898_3   com.android.settings
+ 2940  2959 u0_a78       30  10  0.0 S 1.1G 130M  bg matrix_time_upd com.sohu.inputmethod.sogou
+ 2940  2957 u0_a78       29   9  0.0 S 1.1G 130M  bg Profile Saver   com.sohu.inputmethod.sogou
+ 2766  2956 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#3   com.tencent.mm
+ 2940  2955 u0_a78       20   0  0.0 S 1.1G 130M  bg Binder:2940_3   com.sohu.inputmethod.sogou
+ 2940  2953 u0_a78       20   0  0.0 S 1.1G 130M  bg Binder:2940_2   com.sohu.inputmethod.sogou
+ 2940  2952 u0_a78       20   0  0.0 S 1.1G 130M  bg Binder:2940_1   com.sohu.inputmethod.sogou
+ 2940  2948 u0_a78       24   4  0.0 S 1.1G 130M  bg ReferenceQueueD com.sohu.inputmethod.sogou
+ 2940  2950 u0_a78       24   4  0.0 S 1.1G 130M  bg FinalizerWatchd com.sohu.inputmethod.sogou
+ 2940  2949 u0_a78       24   4  0.0 S 1.1G 130M  bg FinalizerDaemon com.sohu.inputmethod.sogou
+ 2940  2947 u0_a78       20   0  0.0 S 1.1G 130M  bg Signal Catcher  com.sohu.inputmethod.sogou
+ 1449  2946 u0_a72       18  -2  0.0 S 1.0G  95M  bg queued-work-loo com.jx.inputmethod.pinyin
+ 2940  2945 u0_a78       29   9  0.0 R 1.1G 130M  bg Jit thread pool com.sohu.inputmethod.sogou
+ 1449  2939 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_7   com.jx.inputmethod.pinyin
+ 2935  2935 root         20   0  0.0 S    0    0  fg kworker/0:0     [kworker/0:0]
+ 2766  2934 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#2   com.tencent.mm
+ 2766  2932 u0_a80       20   0  0.0 S 1.4G 265M  ta GpuResLeakMonit com.tencent.mm
+ 2766  2931 u0_a80       20   0  0.0 S 1.4G 265M  ta LeakMonitor     com.tencent.mm
+ 2898  2927 system       20   0  0.0 S 1.1G  84M  bg AsyncTask #2    com.android.settings
+ 2898  2925 system       20   0  0.0 S 1.1G  84M  bg AsyncTask #1    com.android.settings
+ 2898  2921 system       18  -2  0.0 S 1.1G  84M  bg HwBinder:2898_1 com.android.settings
+ 2766  2916 u0_a80       20   0  0.0 S 1.4G 265M  ta Binder:2766_4   com.tencent.mm
+ 2898  2912 system       29   9  0.0 S 1.1G  84M  bg Profile Saver   com.android.settings
+ 2766  2911 u0_a80        1 -19  0.0 S 1.4G 265M  ta audio_mix_contr com.tencent.mm
+ 2898  2910 system       20   0  0.0 S 1.1G  84M  bg Binder:2898_2   com.android.settings
+ 2898  2909 system       20   0  0.0 S 1.1G  84M  bg Binder:2898_1   com.android.settings
+ 2898  2907 system       24   4  0.0 S 1.1G  84M  bg FinalizerWatchd com.android.settings
+ 2898  2908 system       24   4  0.0 S 1.1G  84M  bg HeapTaskDaemon  com.android.settings
+ 2898  2904 system       20   0  0.0 S 1.1G  84M  bg Signal Catcher  com.android.settings
+ 2898  2905 system       24   4  0.0 S 1.1G  84M  bg ReferenceQueueD com.android.settings
+ 2898  2906 system       24   4  0.0 S 1.1G  84M  bg FinalizerDaemon com.android.settings
+ 2898  2903 system       29   9  0.0 S 1.1G  84M  bg Jit thread pool com.android.settings
+ 2898  2898 system       20   0  0.0 S 1.1G  84M  bg ndroid.settings com.android.settings
+ 2766  2897 u0_a80       20   0  0.0 S 1.4G 265M  ta FileObserver    com.tencent.mm
+ 2766  2894 u0_a80       20   0  0.0 S 1.4G 265M  ta matrix_res      com.tencent.mm
+ 2766  2892 u0_a80       20   0  0.0 S 1.4G 265M  ta [GT]ColdPool#13 com.tencent.mm
+ 2766  2891 u0_a80       20   0  0.0 S 1.4G 265M  ta default_matrix_ com.tencent.mm
+ 2766  2890 u0_a80       20   0  0.0 S 1.4G 265M  ta [GT]ColdPool#12 com.tencent.mm
+ 2766  2887 u0_a80       10 -10  0.0 S 1.4G 265M  ta RenderThread    com.tencent.mm
+ 2766  2885 u0_a80       20   0  0.0 S 1.4G 265M  ta Binder:2766_3   com.tencent.mm
+ 2766  2882 u0_a80       10 -10  0.0 S 1.4G 265M  ta mali-cmar-backe com.tencent.mm
+ 2766  2881 u0_a80       10 -10  0.0 S 1.4G 265M  ta mali-utility-wo com.tencent.mm
+ 2766  2883 u0_a80       10 -10  0.0 S 1.4G 265M  ta mali-hist-dump  com.tencent.mm
+ 2766  2879 u0_a80       10 -10  0.0 S 1.4G 265M  ta mali-utility-wo com.tencent.mm
+ 2766  2878 u0_a80       10 -10  0.0 S 1.4G 265M  ta mali-utility-wo com.tencent.mm
+ 2766  2880 u0_a80       10 -10  0.0 S 1.4G 265M  ta mali-utility-wo com.tencent.mm
+ 2876  2876 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2766  2871 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#1   com.tencent.mm
+ 2766  2870 u0_a80       16  -4  0.0 S 1.4G 265M  ta [GT]HotPool#0   com.tencent.mm
+ 2766  2868 u0_a80       12  -8  0.0 S 1.4G 265M  ta mars::2868      com.tencent.mm
+ 2766  2866 u0_a80       20   0  0.0 S 1.4G 265M  ta [GT]ColdPool#5  com.tencent.mm
+ 2766  2862 u0_a80       20   0  0.0 S 1.4G 265M  ta IPCThreadPool#W com.tencent.mm
+ 2766  2858 u0_a80       10 -10  0.0 S 1.4G 265M  ta com.tencent.mm  com.tencent.mm
+ 2766  2857 u0_a80       10 -10  0.0 S 1.4G 265M  ta com.tencent.mm  com.tencent.mm
+ 2766  2856 u0_a80       10 -10  0.0 S 1.4G 265M  ta com.tencent.mm  com.tencent.mm
+ 2766  2855 u0_a80       10 -10  0.0 S 1.4G 265M  ta com.tencent.mm  com.tencent.mm
+ 2766  2852 u0_a80       20   0  0.0 S 1.4G 265M  ta [GT]ColdPool#3  com.tencent.mm
+ 2766  2848 u0_a80       12  -8  0.0 S 1.4G 265M  ta mars::2848      com.tencent.mm
+ 2766  2849 u0_a80       12  -8  0.0 S 1.4G 265M  ta parallels-4     com.tencent.mm
+ 2766  2847 u0_a80       12  -8  0.0 S 1.4G 265M  ta mars::webnet    com.tencent.mm
+ 2766  2846 u0_a80       12  -8  0.0 S 1.4G 264M  ta mars::cdn       com.tencent.mm
+ 2766  2845 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-4     com.tencent.mm
+ 2766  2844 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-4     com.tencent.mm
+ 2766  2843 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-4     com.tencent.mm
+ 2766  2839 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-3     com.tencent.mm
+ 2766  2833 u0_a80       20   0  0.0 S 1.4G 264M  ta [GT]ColdPool#1  com.tencent.mm
+ 2766  2821 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-1     com.tencent.mm
+ 2766  2820 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-0     com.tencent.mm
+ 2766  2825 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-5     com.tencent.mm
+ 2766  2824 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-4     com.tencent.mm
+ 2766  2823 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-3     com.tencent.mm
+ 2766  2822 u0_a80       12  -8  0.0 S 1.4G 264M  ta parallels-2     com.tencent.mm
+ 2766  2818 u0_a80       30  10  0.0 S 1.4G 264M  ta Measurement Wor com.tencent.mm
+ 2766  2816 u0_a80       18  -2  0.0 S 1.4G 264M  ta queued-work-loo com.tencent.mm
+ 2766  2814 u0_a80       20   0  0.0 S 1.4G 264M  ta [GT]ColdPool#0  com.tencent.mm
+ 2766  2801 u0_a80       20   0  0.0 S 1.4G 264M  ta [D]#worker      com.tencent.mm
+ 2766  2800 u0_a80       20   0  0.0 S 1.4G 264M  ta AppForegroundDe com.tencent.mm
+ 2766  2798 u0_a80       20   0  0.0 S 1.4G 264M  ta [GT]TP#Internal com.tencent.mm
+ 2766  2795 u0_a80       24   4  0.0 S 1.4G 264M  ta VFS.Maintenance com.tencent.mm
+ 2766  2792 u0_a80       30  10  0.0 S 1.4G 264M  ta Vending-HeavyWo com.tencent.mm
+ 2766  2791 u0_a80       20   0  0.0 S 1.4G 264M  ta Vending-LogicTh com.tencent.mm
+ 2766  2788 u0_a80       20   0  0.0 S 1.4G 264M  ta pool-1-thread-1 com.tencent.mm
+ 2766  2783 u0_a80       20   0  0.0 S 1.4G 264M  ta historyMsgHandl com.tencent.mm
+ 2766  2782 u0_a80       20   0  0.0 S 1.4G 264M  ta matrix_time_upd com.tencent.mm
+ 2766  2779 u0_a80       29   9  0.0 S 1.4G 264M  ta Profile Saver   com.tencent.mm
+ 2766  2775 u0_a80       24   4  0.0 S 1.4G 264M  ta FinalizerWatchd com.tencent.mm
+ 2766  2772 u0_a80       20   0  0.0 S 1.4G 264M  ta Signal Catcher  com.tencent.mm
+ 2766  2773 u0_a80       24   4  0.0 S 1.4G 264M  ta ReferenceQueueD com.tencent.mm
+ 2766  2778 u0_a80       20   0  0.0 S 1.4G 264M  ta Binder:2766_2   com.tencent.mm
+ 2766  2774 u0_a80       24   4  0.0 S 1.4G 264M  ta FinalizerDaemon com.tencent.mm
+ 2766  2777 u0_a80       20   0  0.0 S 1.4G 264M  ta Binder:2766_1   com.tencent.mm
+ 2763  2763 root         20   0  0.0 S    0    0  fg kworker/3:0     [kworker/3:0]
+ 2363  2758 u0_a22       20   0  0.0 S 1.1G  94M  bg Binder:2363_4   com.android.systemui:screenshot
+  337  2757 media        20   0  0.0 S  15M 2.6M  fg Binder:337_3    mediadrmserver
+  337  2754 media        20   0  0.0 S  15M 2.6M  fg Binder:337_2    mediadrmserver
+  328  2744 cameraserver 20   0  0.0 S  24M 4.3M  fg Binder:328_2    cameraserver
+  255  2726 bluetooth    20   0  0.0 S 8.1M 1.3M  fg HwBinder:255_1  android.hardware.bluetooth@1.0-service
+ 1310  2713 system       30  10  0.0 S 1.1G 111M  bg AsyncTask #6    com.jx.launcher
+ 2492  2711 u0_a76       18  -2  0.0 S 1.1G 111M  bg hwuiTask2       com.yingyonghui.market
+ 2492  2709 u0_a76       20   0  0.0 S 1.1G 111M  bg arch_disk_io_2  com.yingyonghui.market
+ 2492  2708 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2653  2703 u0_a81       20   0  0.0 S 1.0G  81M  bg Binder:2653_4   com.example.demo1
+ 1310  2697 system       30  10  0.0 S 1.1G 111M  bg AsyncTask #5    com.jx.launcher
+ 2653  2691 u0_a81       18  -2  0.0 S 1.0G  81M  bg queued-work-loo com.example.demo1
+ 2653  2684 u0_a81       18  -2  0.0 S 1.0G  81M  bg hwuiTask1       com.example.demo1
+ 2653  2685 u0_a81       18  -2  0.0 S 1.0G  81M  bg hwuiTask2       com.example.demo1
+ 2653  2683 u0_a81       10 -10  0.0 S 1.0G  81M  bg RenderThread    com.example.demo1
+ 2675  2675 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2653  2678 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-utility-wo com.example.demo1
+ 2653  2677 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-utility-wo com.example.demo1
+ 2653  2676 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-mem-purge  com.example.demo1
+ 2653  2682 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-hist-dump  com.example.demo1
+ 2653  2681 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-cmar-backe com.example.demo1
+ 2653  2680 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-utility-wo com.example.demo1
+ 2653  2679 u0_a81       10 -10  0.0 S 1.0G  81M  bg mali-utility-wo com.example.demo1
+ 2653  2674 u0_a81       20   0  0.0 S 1.0G  81M  bg RenderThread    com.example.demo1
+ 2653  2670 u0_a81       29   9  0.0 S 1.0G  81M  bg Profile Saver   com.example.demo1
+ 2653  2669 u0_a81       20   0  0.0 S 1.0G  81M  bg Binder:2653_3   com.example.demo1
+ 2653  2668 u0_a81       20   0  0.0 S 1.0G  81M  bg Binder:2653_2   com.example.demo1
+ 2653  2667 u0_a81       20   0  0.0 S 1.0G  81M  bg Binder:2653_1   com.example.demo1
+ 2653  2666 u0_a81       24   4  0.0 S 1.0G  81M  bg HeapTaskDaemon  com.example.demo1
+ 2492  2665 u0_a76       20   0  0.0 S 1.1G 111M  bg Binder:2492_5   com.yingyonghui.market
+ 2653  2662 u0_a81       24   4  0.0 S 1.0G  81M  bg ReferenceQueueD com.example.demo1
+ 2653  2661 u0_a81       20   0  0.0 S 1.0G  81M  bg JDWP            com.example.demo1
+ 2653  2660 u0_a81       20   0  0.0 S 1.0G  81M  bg Signal Catcher  com.example.demo1
+ 2653  2659 u0_a81       29   9  0.0 S 1.0G  81M  bg Jit thread pool com.example.demo1
+ 2653  2663 u0_a81       24   4  0.0 S 1.0G  81M  bg FinalizerDaemon com.example.demo1
+ 2653  2664 u0_a81       24   4  0.0 S 1.0G  81M  bg FinalizerWatchd com.example.demo1
+ 2653  2653 u0_a81       20   0  0.0 S 1.0G  81M  bg m.example.demo1 com.example.demo1
+ 2492  2649 u0_a76       20   0  0.0 S 1.1G 111M  bg Binder:2492_4   com.yingyonghui.market
+ 1449  2648 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_6   com.jx.inputmethod.pinyin
+ 1606  2644 u0_a19       20   0  0.0 S 1.0G  70M  bg Binder:1606_5   com.android.providers.calendar
+ 2492  2643 u0_a76       20   0  0.0 S 1.1G 111M  bg IntentService[G com.yingyonghui.market
+ 2619  2641 u0_a76       20   0  0.0 S 1.0G  76M  bg pool-1-thread-1 com.yingyonghui.market:pushservice
+ 2619  2640 u0_a76       20   0  0.0 S 1.0G  76M  bg TS-pool-1       com.yingyonghui.market:pushservice
+ 2619  2639 u0_a76       18  -2  0.0 S 1.0G  76M  bg TS-processor    com.yingyonghui.market:pushservice
+ 2619  2637 u0_a76       20   0  0.0 S 1.0G  76M  bg CoreThread      com.yingyonghui.market:pushservice
+ 2619  2634 u0_a76       18  -2  0.0 S 1.0G  76M  bg queued-work-loo com.yingyonghui.market:pushservice
+ 2619  2632 u0_a76       29   9  0.0 S 1.0G  76M  bg Profile Saver   com.yingyonghui.market:pushservice
+ 2619  2631 u0_a76       20   0  0.0 S 1.0G  76M  bg Binder:2619_2   com.yingyonghui.market:pushservice
+ 2619  2630 u0_a76       20   0  0.0 S 1.0G  76M  bg Binder:2619_1   com.yingyonghui.market:pushservice
+ 2619  2627 u0_a76       24   4  0.0 S 1.0G  76M  bg FinalizerDaemon com.yingyonghui.market:pushservice
+ 2619  2629 u0_a76       24   4  0.0 S 1.0G  76M  bg HeapTaskDaemon  com.yingyonghui.market:pushservice
+ 2619  2626 u0_a76       24   4  0.0 S 1.0G  76M  bg ReferenceQueueD com.yingyonghui.market:pushservice
+ 2619  2628 u0_a76       24   4  0.0 S 1.0G  76M  bg FinalizerWatchd com.yingyonghui.market:pushservice
+ 2619  2625 u0_a76       20   0  0.0 S 1.0G  76M  bg Signal Catcher  com.yingyonghui.market:pushservice
+ 2619  2624 u0_a76       29   9  0.0 S 1.0G  76M  bg Jit thread pool com.yingyonghui.market:pushservice
+ 2619  2619 u0_a76       20   0  0.0 S 1.0G  76M  bg ket:pushservice com.yingyonghui.market:pushservice
+ 2492  2618 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-8-thread-1 com.yingyonghui.market
+ 2492  2616 u0_a76       20   0  0.0 S 1.1G 111M  bg LoadThread2     com.yingyonghui.market
+ 2492  2614 u0_a76       20   0  0.0 S 1.1G 111M  bg arch_disk_io_1  com.yingyonghui.market
+ 2492  2613 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2612 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2610 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2609 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2608 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2607 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2606 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2605 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2611 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2599 u0_a76       20   0  0.0 S 1.1G 111M  bg arch_disk_io_0  com.yingyonghui.market
+ 2492  2595 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-2-thread-3 com.yingyonghui.market
+ 2492  2589 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2588 u0_a76       20   0  0.0 S 1.1G 111M  bg DefaultDispatch com.yingyonghui.market
+ 2492  2587 u0_a76       20   0  0.0 S 1.1G 111M  bg AppWorkThread   com.yingyonghui.market
+ 2492  2586 u0_a76       20   0  0.0 S 1.1G 111M  bg JZVD            com.yingyonghui.market
+ 2492  2583 u0_a76       10 -10  0.0 S 1.1G 111M  bg RenderThread    com.yingyonghui.market
+ 2492  2582 u0_a76       18  -2  0.0 S 1.1G 111M  bg hwuiTask1       com.yingyonghui.market
+ 2492  2579 u0_a76       20   0  0.0 S 1.1G 111M  bg RenderThread    com.yingyonghui.market
+ 2492  2572 u0_a76       30  10  0.0 S 1.1G 111M  bg Thread-9        com.yingyonghui.market
+ 2492  2573 u0_a76       30  10  0.0 S 1.1G 111M  bg Thread-10       com.yingyonghui.market
+ 2492  2574 u0_a76       30  10  0.0 S 1.1G 111M  bg Thread-11       com.yingyonghui.market
+ 2492  2571 u0_a76       30  10  0.0 S 1.1G 111M  bg Thread-8        com.yingyonghui.market
+ 2492  2570 u0_a76       30  10  0.0 S 1.1G 111M  bg Thread-7        com.yingyonghui.market
+ 2492  2569 u0_a76       30  10  0.0 S 1.1G 111M  bg DataWriterThrea com.yingyonghui.market
+ 2492  2565 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-cmar-backe com.yingyonghui.market
+ 2492  2568 u0_a76       20   0  0.0 S 1.1G 111M  bg FileObserver    com.yingyonghui.market
+ 2492  2567 u0_a76       20   0  0.0 S 1.1G 111M  bg NetWorkSender   com.yingyonghui.market
+ 2492  2566 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-hist-dump  com.yingyonghui.market
+ 2492  2564 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-utility-wo com.yingyonghui.market
+ 2492  2563 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-utility-wo com.yingyonghui.market
+ 2492  2562 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-utility-wo com.yingyonghui.market
+ 2492  2561 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-utility-wo com.yingyonghui.market
+ 2492  2560 u0_a76       20   0  0.0 S 1.1G 111M  bg mali-mem-purge  com.yingyonghui.market
+ 2492  2559 u0_a76       20   0  0.0 S 1.1G 111M  bg work_thread     com.yingyonghui.market
+ 2558  2558 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2492  2556 u0_a76       30  10  0.0 S 1.1G 111M  bg DispatchThread  com.yingyonghui.market
+ 2492  2555 u0_a76       20   0  0.0 S 1.1G 111M  bg SL-NetWorkSende com.yingyonghui.market
+ 2492  2557 u0_a76       20   0  0.0 S 1.1G 111M  bg LoadThread1     com.yingyonghui.market
+ 2492  2551 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-4-thread-1 com.yingyonghui.market
+ 2492  2550 u0_a76       20   0  0.0 S 1.1G 111M  bg Binder:2492_3   com.yingyonghui.market
+ 2492  2546 u0_a76       12  -8  0.0 S 1.1G 111M  bg process reaper  com.yingyonghui.market
+ 2492  2545 u0_a76       20   0  0.0 S 1.1G 111M  bg ConnectivityThr com.yingyonghui.market
+ 2492  2537 u0_a76       20   0  0.0 S 1.1G 111M  bg Thread-3        com.yingyonghui.market
+ 2492  2531 u0_a76       10 -10  0.0 S 1.1G 111M  bg gyonghui.market com.yingyonghui.market
+ 2492  2530 u0_a76       10 -10  0.0 S 1.1G 111M  bg gyonghui.market com.yingyonghui.market
+ 2492  2529 u0_a76       10 -10  0.0 S 1.1G 111M  bg gyonghui.market com.yingyonghui.market
+ 2492  2528 u0_a76       10 -10  0.0 S 1.1G 111M  bg gyonghui.market com.yingyonghui.market
+ 2492  2527 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-2-thread-2 com.yingyonghui.market
+ 2492  2520 u0_a76       30  10  0.0 S 1.1G 111M  bg AsyncTask #3    com.yingyonghui.market
+ 2492  2519 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-5-thread-1 com.yingyonghui.market
+ 2492  2518 u0_a76       30  10  0.0 S 1.1G 111M  bg AsyncTask #2    com.yingyonghui.market
+ 2492  2515 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-3-thread-1 com.yingyonghui.market
+ 2492  2513 u0_a76       30  10  0.0 S 1.1G 111M  bg AsyncTask #1    com.yingyonghui.market
+ 2492  2511 u0_a76       18  -2  0.0 S 1.1G 111M  bg queued-work-loo com.yingyonghui.market
+ 2492  2509 u0_a76       20   0  0.0 S 1.1G 111M  bg pool-2-thread-1 com.yingyonghui.market
+ 2492  2505 u0_a76       29   9  0.0 S 1.1G 111M  bg Profile Saver   com.yingyonghui.market
+ 2492  2504 u0_a76       20   0  0.0 S 1.1G 111M  bg Binder:2492_2   com.yingyonghui.market
+ 2492  2500 u0_a76       24   4  0.0 S 1.1G 111M  bg FinalizerDaemon com.yingyonghui.market
+ 2492  2498 u0_a76       20   0  0.0 S 1.1G 111M  bg Signal Catcher  com.yingyonghui.market
+ 2492  2499 u0_a76       24   4  0.0 S 1.1G 111M  bg ReferenceQueueD com.yingyonghui.market
+ 2492  2503 u0_a76       20   0  0.0 S 1.1G 111M  bg Binder:2492_1   com.yingyonghui.market
+ 2492  2502 u0_a76       24   4  0.0 S 1.1G 111M  bg HeapTaskDaemon  com.yingyonghui.market
+ 2492  2497 u0_a76       29   9  0.0 S 1.1G 111M  bg Jit thread pool com.yingyonghui.market
+ 2492  2501 u0_a76       24   4  0.0 S 1.1G 111M  bg FinalizerWatchd com.yingyonghui.market
+ 2492  2492 u0_a76       20   0  0.0 S 1.1G 111M  bg gyonghui.market com.yingyonghui.market
+ 2491  2491 root         20   0  0.0 S    0    0  fg kworker/1:0     [kworker/1:0]
+ 2198  2489 u0_a5        18  -2  0.0 S 1.0G  66M  bg queued-work-loo com.android.defcontainer
+ 2440  2488 system       18  -2  0.0 S 1.0G  92M  bg queued-work-loo com.zmapp.sms
+ 2486  2486 shell         0 -20  0.0 S  12M 5.2M  fg dumpstate       dumpstate
+ 2484  2484 shell        20   0  0.0 S 4.1M 1.9M  fg bugreport       bugreport
+ 1971  2485 shell        20   0  0.0 S  18M 1.1M  fg shell svc 2484  adbd
+  925  2483 u0_a22       30  10  0.0 S 1.1G 132M  fg AsyncTask #8    com.android.systemui
+ 1449  2481 u0_a72       18  -2  0.0 S 1.0G  95M  bg hwuiTask2       com.jx.inputmethod.pinyin
+ 1449  2480 u0_a72       18  -2  0.0 S 1.0G  95M  bg hwuiTask1       com.jx.inputmethod.pinyin
+  925  2477 u0_a22       30  10  0.0 S 1.1G 132M  fg InflaterThread  com.android.systemui
+  925  2479 u0_a22       30  10  0.0 S 1.1G 132M  fg InflaterThread  com.android.systemui
+  925  2478 u0_a22       30  10  0.0 S 1.1G 132M  fg InflaterThread  com.android.systemui
+  925  2476 u0_a22       30  10  0.0 S 1.1G 132M  fg AsyncTask #7    com.android.systemui
+ 2440  2475 system       20   0  0.0 S 1.0G  92M  bg AsyncTask #3    com.zmapp.sms
+ 2440  2474 system       20   0  0.0 S 1.0G  92M  bg AsyncTask #2    com.zmapp.sms
+ 2440  2473 system       20   0  0.0 S 1.0G  92M  bg AsyncTask #1    com.zmapp.sms
+ 2440  2468 system       18  -2  0.0 S 1.0G  92M  bg hwuiTask2       com.zmapp.sms
+ 2440  2466 system       10 -10  0.0 S 1.0G  92M  bg RenderThread    com.zmapp.sms
+ 2440  2467 system       18  -2  0.0 S 1.0G  92M  bg hwuiTask1       com.zmapp.sms
+ 2440  2460 system       10 -10  0.0 S 1.0G  92M  bg mali-utility-wo com.zmapp.sms
+ 2440  2459 system       10 -10  0.0 S 1.0G  92M  bg mali-mem-purge  com.zmapp.sms
+ 2440  2461 system       10 -10  0.0 S 1.0G  92M  bg mali-utility-wo com.zmapp.sms
+ 2440  2465 system       10 -10  0.0 S 1.0G  92M  bg mali-hist-dump  com.zmapp.sms
+ 2440  2464 system       10 -10  0.0 S 1.0G  92M  bg mali-cmar-backe com.zmapp.sms
+ 2440  2462 system       10 -10  0.0 S 1.0G  92M  bg mali-utility-wo com.zmapp.sms
+ 2440  2463 system       10 -10  0.0 S 1.0G  92M  bg mali-utility-wo com.zmapp.sms
+ 2458  2458 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2440  2457 system       20   0  0.0 S 1.0G  92M  bg RenderThread    com.zmapp.sms
+ 2440  2455 system       29   9  0.0 S 1.0G  92M  bg Profile Saver   com.zmapp.sms
+ 2454  2454 root          0 -20  0.0 S    0    0  fg kworker/u9:0    [kworker/u9:0]
+ 2440  2453 system       20   0  0.0 S 1.0G  92M  bg Binder:2440_3   com.zmapp.sms
+ 2440  2452 system       20   0  0.0 S 1.0G  92M  bg Binder:2440_2   com.zmapp.sms
+ 2440  2451 system       20   0  0.0 S 1.0G  92M  bg Binder:2440_1   com.zmapp.sms
+ 2440  2448 system       24   4  0.0 S 1.0G  92M  bg FinalizerDaemon com.zmapp.sms
+ 2440  2445 system       29   9  0.0 S 1.0G  92M  bg Jit thread pool com.zmapp.sms
+ 2440  2447 system       24   4  0.0 S 1.0G  92M  bg ReferenceQueueD com.zmapp.sms
+ 2440  2446 system       20   0  0.0 S 1.0G  92M  bg Signal Catcher  com.zmapp.sms
+ 2440  2450 system       24   4  0.0 S 1.0G  92M  bg HeapTaskDaemon  com.zmapp.sms
+ 2440  2449 system       24   4  0.0 S 1.0G  92M  bg FinalizerWatchd com.zmapp.sms
+ 2440  2440 system       20   0  0.0 S 1.0G  92M  bg com.zmapp.sms   com.zmapp.sms
+ 2363  2424 u0_a22       18  -2  0.0 S 1.1G  94M  bg queued-work-loo com.android.systemui:screenshot
+  925  2423 u0_a22       30  10  0.0 S 1.1G 132M  fg AsyncTask #6    com.android.systemui
+ 2352  2405 shell        20   0  0.0 S 877M  66M  fg Binder:2352_2   com.android.commands.monkey
+ 2352  2404 shell        20   0  0.0 S 877M  66M  fg Binder:2352_1   com.android.commands.monkey
+ 2363  2403 u0_a22        4 -16  0.0 S 1.1G  94M  bg AudioTrack      com.android.systemui:screenshot
+ 2352  2401 shell        20   0  0.0 S 877M  66M  fg HeapTaskDaemon  com.android.commands.monkey
+ 2352  2400 shell        20   0  0.0 S 877M  66M  fg FinalizerWatchd com.android.commands.monkey
+ 2352  2397 shell        20   0  0.0 S 877M  66M  fg Signal Catcher  com.android.commands.monkey
+ 2352  2398 shell        20   0  0.0 S 877M  66M  fg ReferenceQueueD com.android.commands.monkey
+ 2352  2399 shell        20   0  0.0 S 877M  66M  fg FinalizerDaemon com.android.commands.monkey
+ 2352  2396 shell        29   9  0.0 S 877M  66M  fg Jit thread pool com.android.commands.monkey
+ 2363  2392 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-hist-dump  com.android.systemui:screenshot
+  258  2393 system       20   0  0.0 S 9.1M 1.2M  fg HwBinder:258_2  android.hardware.configstore@1.0-service
+ 2385  2385 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2363  2388 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-utility-wo com.android.systemui:screenshot
+ 2363  2391 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-cmar-backe com.android.systemui:screenshot
+ 2363  2390 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-utility-wo com.android.systemui:screenshot
+ 2363  2389 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-utility-wo com.android.systemui:screenshot
+ 2363  2386 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-mem-purge  com.android.systemui:screenshot
+ 2363  2387 u0_a22       16  -4  0.0 S 1.1G  94M  bg mali-utility-wo com.android.systemui:screenshot
+ 2363  2384 u0_a22       16  -4  0.0 S 1.1G  94M  bg RenderThread    com.android.systemui:screenshot
+ 2363  2381 u0_a22       20   0  0.0 S 1.1G  94M  bg HwBinder:2363_1 com.android.systemui:screenshot
+ 2363  2379 u0_a22       20   0  0.0 S 1.1G  94M  bg emui:screenshot com.android.systemui:screenshot
+ 2363  2378 u0_a22       20   0  0.0 S 1.1G  94M  bg SoundPoolThread com.android.systemui:screenshot
+ 2363  2377 u0_a22       20   0  0.0 S 1.1G  94M  bg SoundPool       com.android.systemui:screenshot
+ 2363  2376 u0_a22       20   0  0.0 S 1.1G  94M  bg Binder:2363_3   com.android.systemui:screenshot
+ 2363  2375 u0_a22       20   0  0.0 S 1.1G  94M  bg Binder:2363_2   com.android.systemui:screenshot
+ 2363  2370 u0_a22       24   4  0.0 S 1.1G  94M  bg ReferenceQueueD com.android.systemui:screenshot
+ 2363  2371 u0_a22       24   4  0.0 S 1.1G  94M  bg FinalizerDaemon com.android.systemui:screenshot
+ 2363  2372 u0_a22       24   4  0.0 S 1.1G  94M  bg FinalizerWatchd com.android.systemui:screenshot
+ 2363  2373 u0_a22       24   4  0.0 S 1.1G  94M  bg HeapTaskDaemon  com.android.systemui:screenshot
+ 2363  2374 u0_a22       20   0  0.0 S 1.1G  94M  bg Binder:2363_1   com.android.systemui:screenshot
+ 2363  2368 u0_a22       29   9  0.0 S 1.1G  94M  bg Jit thread pool com.android.systemui:screenshot
+ 2363  2369 u0_a22       20   0  0.0 S 1.1G  94M  bg Signal Catcher  com.android.systemui:screenshot
+ 2363  2363 u0_a22       20   0  0.0 S 1.1G  94M  bg emui:screenshot com.android.systemui:screenshot
+ 1771  2357 u0_a21       20   0  0.0 S 1.0G  93M  bg Binder:1771_4   com.android.packageinstaller
+ 2227  2355 u0_a74       20   0  0.0 S 1.0G  97M  bg OkHttp Dispatch com.jx.childlike
+ 2352  2352 shell        20   0  0.0 S 877M  66M  fg commands.monkey com.android.commands.monkey
+ 1971  2353 shell        20   0  0.0 S  18M 1.1M  fg shell svc 2352  adbd
+ 1771  2349 u0_a21       18  -2  0.0 S 1.0G  93M  bg queued-work-loo com.android.packageinstaller
+ 2227  2348 u0_a74       18  -2  0.0 S 1.0G  97M  bg queued-work-loo com.jx.childlike
+ 1771  2346 u0_a21       20   0  0.0 S 1.0G  93M  bg Binder:1771_3   com.android.packageinstaller
+ 2227  2317 u0_a74       20   0  0.0 S 1.0G  97M  bg Binder:2227_3   com.jx.childlike
+ 2227  2315 u0_a74       20   0  0.0 S 1.0G  97M  bg pool-1-thread-1 com.jx.childlike
+ 1771  2309 u0_a21       18  -2  0.0 S 1.0G  93M  bg hwuiTask1       com.android.packageinstaller
+ 1771  2308 u0_a21       10 -10  0.0 S 1.0G  93M  bg RenderThread    com.android.packageinstaller
+ 1771  2310 u0_a21       18  -2  0.0 S 1.0G  93M  bg hwuiTask2       com.android.packageinstaller
+ 1771  2306 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-hist-dump  com.android.packageinstaller
+ 1771  2301 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-utility-wo com.android.packageinstaller
+ 1771  2302 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-utility-wo com.android.packageinstaller
+ 1771  2303 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-utility-wo com.android.packageinstaller
+ 1771  2304 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-utility-wo com.android.packageinstaller
+ 1771  2305 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-cmar-backe com.android.packageinstaller
+ 1771  2300 u0_a21       10 -10  0.0 S 1.0G  93M  bg mali-mem-purge  com.android.packageinstaller
+ 2298  2298 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2227  2295 u0_a74       20   0  0.0 S 1.0G  97M  bg SL-NetWorkSende com.jx.childlike
+  622  2293 system       20   0  0.0 S 1.2G 148M  fg Thread-39       system_server
+ 1771  2292 u0_a21       20   0  0.0 S 1.0G  93M  bg RenderThread    com.android.packageinstaller
+ 1264  2287 system       20   0  0.0 S 1.0G  71M  bg FOTA_APP Dispat com.abupdate.fota_demo_iot
+ 1264  2284 system       12  -8  0.0 S 1.0G  71M  bg process reaper  com.abupdate.fota_demo_iot
+ 2227  2269 u0_a74       20   0  0.0 S 1.0G  97M  bg RenderThread    com.jx.childlike
+ 2227  2270 u0_a74       18  -2  0.0 S 1.0G  97M  bg hwuiTask1       com.jx.childlike
+ 2227  2261 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-mem-purge  com.jx.childlike
+ 2227  2262 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-utility-wo com.jx.childlike
+ 2227  2263 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-utility-wo com.jx.childlike
+ 2227  2264 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-utility-wo com.jx.childlike
+ 2227  2265 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-utility-wo com.jx.childlike
+ 2227  2266 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-cmar-backe com.jx.childlike
+ 2227  2267 u0_a74       10 -10  0.0 S 1.0G  97M  bg mali-hist-dump  com.jx.childlike
+ 2260  2260 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 2227  2259 u0_a74       20   0  0.0 S 1.0G  97M  bg RenderThread    com.jx.childlike
+ 2227  2257 u0_a74       12  -8  0.0 S 1.0G  97M  bg process reaper  com.jx.childlike
+ 2227  2254 u0_a74       20   0  0.0 S 1.0G  97M  bg ConnectivityThr com.jx.childlike
+ 2227  2249 u0_a74       20   0  0.0 S 1.0G  97M  bg Thread-3        com.jx.childlike
+ 2227  2247 u0_a74       20   0  0.0 S 1.0G  97M  bg FileObserver    com.jx.childlike
+ 2227  2245 u0_a74       20   0  0.0 S 1.0G  97M  bg work_thread     com.jx.childlike
+ 2227  2246 u0_a74       20   0  0.0 S 1.0G  97M  bg NetWorkSender   com.jx.childlike
+ 2227  2240 u0_a74       29   9  0.0 S 1.0G  97M  bg Profile Saver   com.jx.childlike
+ 2227  2238 u0_a74       20   0  0.0 S 1.0G  97M  bg Binder:2227_1   com.jx.childlike
+ 2227  2239 u0_a74       20   0  0.0 S 1.0G  97M  bg Binder:2227_2   com.jx.childlike
+ 2227  2234 u0_a74       24   4  0.0 S 1.0G  97M  bg ReferenceQueueD com.jx.childlike
+ 2227  2235 u0_a74       24   4  0.0 S 1.0G  97M  bg FinalizerDaemon com.jx.childlike
+ 2227  2237 u0_a74       24   4  0.0 S 1.0G  97M  bg HeapTaskDaemon  com.jx.childlike
+ 2227  2236 u0_a74       24   4  0.0 S 1.0G  97M  bg FinalizerWatchd com.jx.childlike
+ 2227  2233 u0_a74       20   0  0.0 S 1.0G  97M  bg Signal Catcher  com.jx.childlike
+ 2227  2232 u0_a74       29   9  0.0 S 1.0G  97M  bg Jit thread pool com.jx.childlike
+ 2227  2227 u0_a74       20   0  0.0 S 1.0G  96M  bg om.jx.childlike com.jx.childlike
+ 2189  2223 shell        20   0  0.0 S 877M  64M  fg Binder:2189_2   com.android.commands.monkey
+ 2189  2222 shell        20   0  0.0 S 877M  64M  fg Binder:2189_1   com.android.commands.monkey
+ 2189  2217 shell        20   0  0.0 S 877M  64M  fg Signal Catcher  com.android.commands.monkey
+ 2189  2220 shell        20   0  0.0 S 877M  64M  fg FinalizerWatchd com.android.commands.monkey
+ 2189  2219 shell        20   0  0.0 S 877M  64M  fg FinalizerDaemon com.android.commands.monkey
+ 2189  2218 shell        20   0  0.0 S 877M  64M  fg ReferenceQueueD com.android.commands.monkey
+ 2189  2221 shell        20   0  0.0 S 877M  64M  fg HeapTaskDaemon  com.android.commands.monkey
+ 2189  2216 shell        29   9  0.0 S 877M  64M  fg Jit thread pool com.android.commands.monkey
+ 2198  2212 u0_a5        29   9  0.0 S 1.0G  66M  bg Profile Saver   com.android.defcontainer
+ 2198  2211 u0_a5        20   0  0.0 S 1.0G  66M  bg Binder:2198_3   com.android.defcontainer
+ 2198  2210 u0_a5        20   0  0.0 S 1.0G  66M  bg Binder:2198_2   com.android.defcontainer
+ 2198  2209 u0_a5        20   0  0.0 S 1.0G  66M  bg Binder:2198_1   com.android.defcontainer
+ 2198  2208 u0_a5        24   4  0.0 S 1.0G  66M  bg HeapTaskDaemon  com.android.defcontainer
+ 2198  2207 u0_a5        24   4  0.0 S 1.0G  66M  bg FinalizerWatchd com.android.defcontainer
+ 2198  2206 u0_a5        24   4  0.0 S 1.0G  66M  bg FinalizerDaemon com.android.defcontainer
+ 2198  2205 u0_a5        24   4  0.0 S 1.0G  66M  bg ReferenceQueueD com.android.defcontainer
+ 2198  2204 u0_a5        20   0  0.0 S 1.0G  66M  bg Signal Catcher  com.android.defcontainer
+ 2198  2203 u0_a5        29   9  0.0 S 1.0G  66M  bg Jit thread pool com.android.defcontainer
+ 2198  2198 u0_a5        20   0  0.0 S 1.0G  66M  bg id.defcontainer com.android.defcontainer
+ 2189  2189 shell        20   0  0.0 S 877M  64M  fg commands.monkey com.android.commands.monkey
+ 1971  2190 shell        20   0  0.0 S  18M 1.1M  fg shell svc 2189  adbd
+ 2185  2185 root         20   0  0.0 S    0    0  fg kworker/u8:2    [kworker/u8:2]
+ 2183  2183 root         20   0  0.0 S    0    0  fg kworker/u8:1    [kworker/u8:1]
+ 2164  2164 root          0 -20  0.0 S    0    0  fg kworker/u9:3    [kworker/u9:3]
+ 1264  2162 system       20   0  0.0 S 1.0G  71M  bg Okio Watchdog   com.abupdate.fota_demo_iot
+ 1264  2147 system       20   0  0.0 S 1.0G  71M  bg ConnectivityThr com.abupdate.fota_demo_iot
+  622  2132 system       20   0  0.0 S 1.2G 148M  fg Okio Watchdog   system_server
+ 1990  2130 shell        20   0  0.0 S 868M  63M  fg Binder:1990_4   app_process
+  622  2115 system       20   0  0.0 S 1.2G 148M  fg SyncHandler-1   system_server
+ 2104  2104 root         20   0  0.0 S    0    0  fg kworker/2:0     [kworker/2:0]
+  276  2097 system       20   0  0.0 S  17M 1.7M  fg HwBinder:276_3  vendor.sprd.hardware.power@2.0-service
+  271  2062 root         20   0  0.0 S  10M 2.3M  fg android.hardwar android.hardware.wifi@1.0-service
+ 2060  2060 root          0 -20  0.0 S    0    0  fg SPRDWL_TX_QUEUE [SPRDWL_TX_QUEUE]
+ 1737  2049 system       20   0  0.0 S 1.0G  69M  bg Binder:1737_4   com.android.deskclock
+ 1606  2050 u0_a19       20   0  0.0 S 1.0G  70M  bg Binder:1606_4   com.android.providers.calendar
+ 1449  2039 u0_a72       16  -4  0.0 S 1.0G  95M  bg RenderThread    com.jx.inputmethod.pinyin
+ 1449  2037 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-cmar-backe com.jx.inputmethod.pinyin
+ 1449  2036 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-utility-wo com.jx.inputmethod.pinyin
+ 1449  2035 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-utility-wo com.jx.inputmethod.pinyin
+ 1449  2034 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-utility-wo com.jx.inputmethod.pinyin
+ 1449  2033 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-utility-wo com.jx.inputmethod.pinyin
+ 1449  2032 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-mem-purge  com.jx.inputmethod.pinyin
+ 1449  2038 u0_a72       16  -4  0.0 S 1.0G  95M  bg mali-hist-dump  com.jx.inputmethod.pinyin
+ 2031  2031 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+ 1449  2030 u0_a72       16  -4  0.0 S 1.0G  95M  bg RenderThread    com.jx.inputmethod.pinyin
+  327  2028 audioserver  20   0  0.0 S  34M 5.1M  fg Binder:327_4    audioserver
+ 2007  2027 shell        20   0  0.0 S 853M  53M  fg Binder:2007_2   app_process
+ 2007  2026 shell        20   0  0.0 S 853M  53M  fg Binder:2007_1   app_process
+ 2007  2023 shell        20   0  0.0 S 853M  53M  fg FinalizerDaemon app_process
+ 2007  2022 shell        20   0  0.0 S 853M  53M  fg ReferenceQueueD app_process
+ 2007  2025 shell        20   0  0.0 S 853M  53M  fg HeapTaskDaemon  app_process
+ 2007  2024 shell        20   0  0.0 S 853M  53M  fg FinalizerWatchd app_process
+ 2007  2021 shell        20   0  0.0 S 853M  53M  fg Signal Catcher  app_process
+ 2007  2020 shell        29   9  0.0 S 853M  53M  fg Jit thread pool app_process
+ 1990  2019 shell         0 -20  0.0 S 868M  63M  fg Binder:1990_3   app_process
+  354  2018 mediacodec   20   0  0.0 S  44M 8.1M  fg ALooper         media.codec
+  354  2017 mediacodec    0 -20  0.0 S  44M 8.1M  fg HwBinder:354_5  media.codec
+ 1990  2016 shell        20   0  0.0 S 868M  63M  fg Binder:1990_3   app_process
+ 1990  2012 shell         4 -16  0.0 S 868M  63M  fg CodecLooper     app_process
+ 1990  2011 shell        10 -10  0.0 S 868M  63M  fg MediaCodec_loop app_process
+ 2007  2007 shell        20   0  0.0 S 853M  53M  fg main            app_process
+ 1990  2009 shell        20   0  0.0 S 868M  63M  fg Thread-2        app_process
+ 1990  2010 shell        20   0  0.0 S 868M  63M  fg Thread-3        app_process
+ 1990  2008 shell        12  -8  0.0 S 868M  63M  fg process reaper  app_process
+ 1990  2004 shell        20   0  0.0 S 868M  63M  fg Binder:1990_1   app_process
+ 1990  2005 shell        20   0  0.0 S 868M  63M  fg Binder:1990_2   app_process
+ 1990  2000 shell        20   0  0.0 S 868M  63M  fg ReferenceQueueD app_process
+ 1990  1999 shell        20   0  0.0 S 868M  63M  fg Signal Catcher  app_process
+ 1990  2002 shell        20   0  0.0 S 868M  63M  fg FinalizerWatchd app_process
+ 1990  2003 shell        20   0  0.0 S 868M  63M  fg HeapTaskDaemon  app_process
+ 1990  2001 shell        20   0  0.0 S 868M  63M  fg FinalizerDaemon app_process
+ 1990  1993 shell        29   9  0.0 S 868M  63M  fg Jit thread pool app_process
+ 1988  1988 shell        20   0  0.0 S 4.3M 1.8M  fg sh              sh
+ 1971  1989 shell        20   0  0.0 S  18M 1.1M  fg shell svc 1988  adbd
+ 1971  1984 shell        20   0  0.0 S  18M 1.1M  fg <-transport     adbd
+ 1971  1983 shell        20   0  0.0 S  18M 1.1M  fg ->transport     adbd
+ 1404  1982 u0_a9        20   0  0.0 S 1.0G  84M  bg MtpServer       android.process.media
+ 1971  1981 shell        20   0  0.0 S  18M 1.1M  fg check_data      adbd
+ 1971  1980 shell        20   0  0.0 S  18M 1.1M  fg check_thread    adbd
+  622  1975 system       20   0  0.0 S 1.2G 148M  fg UsbDebuggingMan system_server
+ 1449  1974 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_5   com.jx.inputmethod.pinyin
+ 1971  1973 shell        20   0  0.0 S  18M 1.1M  fg usb ffs open    adbd
+ 1449  1891 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_4   com.jx.inputmethod.pinyin
+  925  1878 u0_a22       18  -2  0.0 S 1.1G 132M  fg hwuiTask2       com.android.systemui
+  925  1877 u0_a22       18  -2  0.0 S 1.1G 132M  fg hwuiTask1       com.android.systemui
+ 1404  1871 u0_a9        20   0  0.0 S 1.0G  84M  bg Binder:1404_5   android.process.media
+ 1840  1856 system       29   9  0.0 S 1.0G  63M  bg Profile Saver   com.sprd.systemupdate
+ 1840  1853 system       20   0  0.0 S 1.0G  63M  bg Binder:1840_2   com.sprd.systemupdate
+ 1840  1852 system       20   0  0.0 S 1.0G  63M  bg Binder:1840_1   com.sprd.systemupdate
+ 1840  1847 system       20   0  0.0 S 1.0G  63M  bg Signal Catcher  com.sprd.systemupdate
+ 1840  1851 system       24   4  0.0 S 1.0G  63M  bg HeapTaskDaemon  com.sprd.systemupdate
+ 1840  1850 system       24   4  0.0 S 1.0G  63M  bg FinalizerWatchd com.sprd.systemupdate
+ 1840  1849 system       24   4  0.0 S 1.0G  63M  bg FinalizerDaemon com.sprd.systemupdate
+ 1840  1848 system       24   4  0.0 S 1.0G  63M  bg ReferenceQueueD com.sprd.systemupdate
+ 1840  1846 system       29   9  0.0 S 1.0G  63M  bg Jit thread pool com.sprd.systemupdate
+ 1840  1840 system       20   0  0.0 S 1.0G  63M  bg rd.systemupdate com.sprd.systemupdate
+  348  1789 media        20   0  0.0 S  50M 7.2M  fg Binder:348_4    mediaserver
+  348  1788 media        20   0  0.0 S  50M 7.2M  fg Binder:348_3    mediaserver
+ 1404  1787 u0_a9        31  11  0.0 S 1.0G  84M  bg MediaScannerSer android.process.media
+ 1771  1784 u0_a21       29   9  0.0 S 1.0G  93M  bg Profile Saver   com.android.packageinstaller
+ 1771  1778 u0_a21       24   4  0.0 S 1.0G  93M  bg ReferenceQueueD com.android.packageinstaller
+ 1771  1776 u0_a21       29   9  0.0 S 1.0G  93M  bg Jit thread pool com.android.packageinstaller
+ 1771  1777 u0_a21       20   0  0.0 S 1.0G  93M  bg Signal Catcher  com.android.packageinstaller
+ 1771  1783 u0_a21       20   0  0.0 S 1.0G  93M  bg Binder:1771_2   com.android.packageinstaller
+ 1771  1782 u0_a21       20   0  0.0 S 1.0G  93M  bg Binder:1771_1   com.android.packageinstaller
+ 1771  1781 u0_a21       24   4  0.0 S 1.0G  93M  bg HeapTaskDaemon  com.android.packageinstaller
+ 1771  1780 u0_a21       24   4  0.0 S 1.0G  93M  bg FinalizerWatchd com.android.packageinstaller
+ 1771  1779 u0_a21       24   4  0.0 S 1.0G  93M  bg FinalizerDaemon com.android.packageinstaller
+ 1771  1771 u0_a21       20   0  0.0 S 1.0G  93M  bg ackageinstaller com.android.packageinstaller
+ 1737  1753 system       20   0  0.0 S 1.0G  69M  bg AsyncHandler    com.android.deskclock
+ 1737  1751 system       29   9  0.0 S 1.0G  69M  bg Profile Saver   com.android.deskclock
+ 1737  1750 system       20   0  0.0 S 1.0G  69M  bg Binder:1737_3   com.android.deskclock
+ 1737  1749 system       20   0  0.0 S 1.0G  69M  bg Binder:1737_2   com.android.deskclock
+ 1737  1745 system       24   4  0.0 S 1.0G  69M  bg FinalizerDaemon com.android.deskclock
+ 1737  1746 system       24   4  0.0 S 1.0G  69M  bg FinalizerWatchd com.android.deskclock
+ 1737  1748 system       20   0  0.0 S 1.0G  69M  bg Binder:1737_1   com.android.deskclock
+ 1737  1744 system       24   4  0.0 S 1.0G  69M  bg ReferenceQueueD com.android.deskclock
+ 1737  1747 system       24   4  0.0 S 1.0G  69M  bg HeapTaskDaemon  com.android.deskclock
+ 1737  1742 system       29   9  0.0 S 1.0G  69M  bg Jit thread pool com.android.deskclock
+ 1737  1743 system       20   0  0.0 S 1.0G  69M  bg Signal Catcher  com.android.deskclock
+ 1737  1737 system       20   0  0.0 S 1.0G  69M  bg droid.deskclock com.android.deskclock
+  276  1736 system       20   0  0.0 S  17M 1.7M  fg HwBinder:276_2  vendor.sprd.hardware.power@2.0-service
+ 1310  1735 system       30  10  0.0 S 1.1G 111M  bg fifo-pool-threa com.jx.launcher
+ 1310  1734 system       30  10  0.0 S 1.1G 111M  bg fifo-pool-threa com.jx.launcher
+ 1310  1733 system       30  10  0.0 S 1.1G 111M  bg fifo-pool-threa com.jx.launcher
+ 1310  1729 system       30  10  0.0 S 1.1G 111M  bg fifo-pool-threa com.jx.launcher
+ 1310  1728 system       30  10  0.0 S 1.1G 111M  bg fifo-pool-threa com.jx.launcher
+ 1310  1714 system       20   0  0.0 S 1.1G 111M  bg Binder:1310_5   com.jx.launcher
+  891  1699 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_8    com.android.phone
+  622  1693 system       20   0  0.0 S 1.2G 148M  fg AsyncQueryWorke system_server
+ 1310  1635 system       20   0  0.0 S 1.1G 111M  bg Binder:1310_4   com.jx.launcher
+ 1264  1633 system       18  -2  0.0 S 1.0G  71M  bg queued-work-loo com.abupdate.fota_demo_iot
+ 1606  1620 u0_a19       29   9  0.0 S 1.0G  70M  bg Profile Saver   com.android.providers.calendar
+ 1606  1618 u0_a19       20   0  0.0 S 1.0G  70M  bg Binder:1606_2   com.android.providers.calendar
+ 1606  1619 u0_a19       20   0  0.0 S 1.0G  70M  bg Binder:1606_3   com.android.providers.calendar
+ 1606  1617 u0_a19       20   0  0.0 S 1.0G  70M  bg Binder:1606_1   com.android.providers.calendar
+ 1606  1614 u0_a19       24   4  0.0 S 1.0G  70M  bg FinalizerDaemon com.android.providers.calendar
+ 1606  1615 u0_a19       24   4  0.0 S 1.0G  70M  bg FinalizerWatchd com.android.providers.calendar
+ 1606  1616 u0_a19       24   4  0.0 S 1.0G  70M  bg HeapTaskDaemon  com.android.providers.calendar
+ 1606  1613 u0_a19       24   4  0.0 S 1.0G  70M  bg ReferenceQueueD com.android.providers.calendar
+ 1606  1611 u0_a19       29   9  0.0 S 1.0G  70M  bg Jit thread pool com.android.providers.calendar
+ 1606  1612 u0_a19       20   0  0.0 S 1.0G  70M  bg Signal Catcher  com.android.providers.calendar
+ 1606  1606 u0_a19       20   0  0.0 S 1.0G  70M  bg viders.calendar com.android.providers.calendar
+  891  1605 radio        20   0  0.0 S 1.1G  95M  fg SubThreadHandle com.android.phone
+ 1484  1545 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1484  1543 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1484  1544 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1404  1538 u0_a9        20   0  0.0 S 1.0G  84M  bg Binder:1404_4   android.process.media
+  891  1537 radio        20   0  0.0 S 1.1G  95M  fg ConnectivityThr com.android.phone
+ 1484  1535 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1484  1533 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1484  1534 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1484  1531 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1484  1530 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1404  1529 u0_a9        18  -2  0.0 S 1.0G  84M  bg queued-work-loo android.process.media
+ 1484  1528 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+ 1404  1508 u0_a9        31  11  0.0 S 1.0G  84M  bg MediaScannerSer android.process.media
+ 1404  1507 u0_a9        20   0  0.0 S 1.0G  84M  bg Binder:1404_3   android.process.media
+ 1404  1502 u0_a9        30  10  0.0 S 1.0G  84M  bg sAsyncHandlerTh android.process.media
+ 1404  1501 u0_a9        30  10  0.0 S 1.0G  84M  bg thumbs thread   android.process.media
+  891  1500 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_6    com.android.phone
+ 1484  1498 system       29   9  0.0 S 1.0G  73M  fg Profile Saver   com.spreadtrum.vowifi
+ 1484  1497 system       20   0  0.0 S 1.0G  73M  fg Binder:1484_2   com.spreadtrum.vowifi
+ 1484  1496 system       20   0  0.0 S 1.0G  73M  fg Binder:1484_1   com.spreadtrum.vowifi
+ 1484  1494 system       24   4  0.0 S 1.0G  73M  fg FinalizerWatchd com.spreadtrum.vowifi
+ 1484  1490 system       29   9  0.0 S 1.0G  73M  fg Jit thread pool com.spreadtrum.vowifi
+ 1484  1491 system       20   0  0.0 S 1.0G  73M  fg Signal Catcher  com.spreadtrum.vowifi
+ 1484  1492 system       24   4  0.0 S 1.0G  73M  fg ReferenceQueueD com.spreadtrum.vowifi
+ 1484  1493 system       24   4  0.0 S 1.0G  73M  fg FinalizerDaemon com.spreadtrum.vowifi
+ 1484  1495 system       24   4  0.0 S 1.0G  73M  fg HeapTaskDaemon  com.spreadtrum.vowifi
+  891  1489 radio        20   0  0.0 S 1.1G  95M  fg SyncManager     com.android.phone
+ 1484  1484 system       20   0  0.0 S 1.0G  73M  fg readtrum.vowifi com.spreadtrum.vowifi
+  891  1483 radio        20   0  0.0 S 1.1G  95M  fg [Adapter]VoWifi com.android.phone
+  891  1481 radio        20   0  0.0 S 1.1G  95M  fg SRVCC           com.android.phone
+  891  1477 radio        20   0  0.0 S 1.1G  95M  fg [Adapter]VoWifi com.android.phone
+ 1449  1464 u0_a72       29   9  0.0 S 1.0G  95M  bg Profile Saver   com.jx.inputmethod.pinyin
+ 1449  1463 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_3   com.jx.inputmethod.pinyin
+ 1449  1461 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_2   com.jx.inputmethod.pinyin
+ 1449  1455 u0_a72       20   0  0.0 S 1.0G  95M  bg Signal Catcher  com.jx.inputmethod.pinyin
+ 1449  1458 u0_a72       24   4  0.0 S 1.0G  95M  bg FinalizerWatchd com.jx.inputmethod.pinyin
+ 1449  1457 u0_a72       24   4  0.0 S 1.0G  95M  bg FinalizerDaemon com.jx.inputmethod.pinyin
+ 1449  1454 u0_a72       29   9  0.0 S 1.0G  95M  bg Jit thread pool com.jx.inputmethod.pinyin
+ 1449  1456 u0_a72       24   4  0.0 S 1.0G  95M  bg ReferenceQueueD com.jx.inputmethod.pinyin
+ 1449  1460 u0_a72       20   0  0.0 S 1.0G  95M  bg Binder:1449_1   com.jx.inputmethod.pinyin
+ 1449  1459 u0_a72       24   4  0.0 S 1.0G  95M  bg HeapTaskDaemon  com.jx.inputmethod.pinyin
+ 1449  1449 u0_a72       20   0  0.0 S 1.0G  95M  bg utmethod.pinyin com.jx.inputmethod.pinyin
+  891  1445 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_5    com.android.phone
+  891  1443 radio        20   0  0.0 S 1.1G  95M  fg ImsServiceContr com.android.phone
+ 1404  1433 u0_a9        29   9  0.0 S 1.0G  84M  bg Profile Saver   android.process.media
+ 1404  1416 u0_a9        20   0  0.0 S 1.0G  84M  bg Binder:1404_2   android.process.media
+ 1404  1415 u0_a9        20   0  0.0 S 1.0G  84M  bg Binder:1404_1   android.process.media
+ 1310  1417 system       10 -10  0.0 S 1.1G 111M  bg com.jx.launcher com.jx.launcher
+ 1404  1413 u0_a9        24   4  0.0 S 1.0G  84M  bg FinalizerWatchd android.process.media
+ 1404  1414 u0_a9        24   4  0.0 S 1.0G  84M  bg HeapTaskDaemon  android.process.media
+ 1404  1412 u0_a9        24   4  0.0 S 1.0G  84M  bg FinalizerDaemon android.process.media
+ 1404  1411 u0_a9        24   4  0.0 S 1.0G  84M  bg ReferenceQueueD android.process.media
+ 1404  1410 u0_a9        20   0  0.0 S 1.0G  84M  bg Signal Catcher  android.process.media
+ 1404  1409 u0_a9        29   9  0.0 S 1.0G  84M  bg Jit thread pool android.process.media
+ 1404  1404 u0_a9        20   0  0.0 S 1.0G  84M  bg d.process.media android.process.media
+ 1310  1403 system       18  -2  0.0 S 1.1G 111M  bg queued-work-loo com.jx.launcher
+  891  1400 radio        20   0  0.0 S 1.1G  95M  fg RadioInteractor com.android.phone
+ 1264  1380 system       20   0  0.0 S 1.0G  71M  bg RxComputationTh com.abupdate.fota_demo_iot
+ 1310  1378 system       20   0  0.0 S 1.1G 111M  bg Thread-3        com.jx.launcher
+ 1264  1377 system       20   0  0.0 S 1.0G  71M  bg RxCachedWorkerP com.abupdate.fota_demo_iot
+ 1310  1374 system       20   0  0.0 S 1.1G 111M  bg ConnectivityThr com.jx.launcher
+ 1264  1375 system       20   0  0.0 S 1.0G  71M  bg RxSchedulerPurg com.abupdate.fota_demo_iot
+  891  1372 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_4    com.android.phone
+  891  1346 radio        30  10  0.0 S 1.1G  95M  fg android.bg      com.android.phone
+ 1310  1343 system       20   0  0.0 S 1.1G 111M  bg launcher-loader com.jx.launcher
+  891  1340 radio        20   0  0.0 S 1.1G  95M  fg DcHandlerThread com.android.phone
+ 1264  1339 system       29   9  0.0 S 1.0G  71M  bg Profile Saver   com.abupdate.fota_demo_iot
+ 1210  1338 system       18  -2  0.0 S 1.0G  68M  fg queued-work-loo com.spreadtrum.vce
+  622  1337 system       10 -10  0.0 S 1.2G 148M  ta android.anim    system_server
+ 1310  1336 system       29   9  0.0 S 1.1G 111M  bg Profile Saver   com.jx.launcher
+ 1210  1335 system       20   0  0.0 S 1.0G  68M  fg .spreadtrum.vce com.spreadtrum.vce
+ 1310  1332 system       20   0  0.0 S 1.1G 111M  bg Binder:1310_3   com.jx.launcher
+ 1210  1330 system       20   0  0.0 S 1.0G  68M  fg .spreadtrum.vce com.spreadtrum.vce
+ 1310  1329 system       20   0  0.0 S 1.1G 111M  bg Binder:1310_2   com.jx.launcher
+ 1210  1328 system       20   0  0.0 S 1.0G  68M  fg .spreadtrum.vce com.spreadtrum.vce
+ 1264  1327 system       20   0  0.0 S 1.0G  71M  bg Binder:1264_3   com.abupdate.fota_demo_iot
+ 1310  1324 system       24   4  0.0 S 1.1G 111M  bg FinalizerWatchd com.jx.launcher
+ 1310  1325 system       24   4  0.0 S 1.1G 111M  bg HeapTaskDaemon  com.jx.launcher
+ 1310  1326 system       20   0  0.0 S 1.1G 111M  bg Binder:1310_1   com.jx.launcher
+ 1310  1320 system       29   9  0.0 S 1.1G 111M  bg Jit thread pool com.jx.launcher
+ 1310  1321 system       20   0  0.0 S 1.1G 111M  bg Signal Catcher  com.jx.launcher
+ 1310  1322 system       24   4  0.0 S 1.1G 111M  bg ReferenceQueueD com.jx.launcher
+ 1310  1323 system       24   4  0.0 S 1.1G 111M  bg FinalizerDaemon com.jx.launcher
+ 1210  1315 system       20   0  0.0 S 1.0G  68M  fg tVtspCmdRx      com.spreadtrum.vce
+ 1210  1317 system       20   0  0.0 S 1.0G  68M  fg tVtspCmdHd      com.spreadtrum.vce
+ 1210  1318 system       20   0  0.0 S 1.0G  68M  fg C2N-mgr-looper  com.spreadtrum.vce
+ 1210  1316 system       20   0  0.0 S 1.0G  68M  fg tVtspCmdTx      com.spreadtrum.vce
+  891  1308 radio        20   0  0.0 S 1.1G  95M  fg CdmaServiceCate com.android.phone
+ 1264  1305 system       20   0  0.0 S 1.0G  71M  bg Binder:1264_2   com.abupdate.fota_demo_iot
+  891  1306 radio        20   0  0.0 S 1.1G  95M  fg CellBroadcastHa com.android.phone
+  891  1307 radio        20   0  0.0 S 1.1G  95M  fg CdmaInboundSmsH com.android.phone
+ 1264  1304 system       20   0  0.0 S 1.0G  71M  bg Binder:1264_1   com.abupdate.fota_demo_iot
+  622  1303 system       20   0  0.0 S 1.2G 148M  fg Binder:622_A    system_server
+  891  1302 radio        20   0  0.0 S 1.1G  95M  fg GsmInboundSmsHa com.android.phone
+  891  1301 radio        20   0  0.0 S 1.1G  95M  fg GsmCellBroadcas com.android.phone
+ 1264  1298 system       24   4  0.0 S 1.0G  71M  bg HeapTaskDaemon  com.abupdate.fota_demo_iot
+ 1264  1297 system       24   4  0.0 S 1.0G  71M  bg FinalizerWatchd com.abupdate.fota_demo_iot
+ 1264  1295 system       24   4  0.0 S 1.0G  71M  bg ReferenceQueueD com.abupdate.fota_demo_iot
+ 1264  1296 system       24   4  0.0 S 1.0G  71M  bg FinalizerDaemon com.abupdate.fota_demo_iot
+  891  1282 radio        20   0  0.0 S 1.1G  95M  fg RunningState:Ba com.android.phone
+ 1264  1281 system       20   0  0.0 S 1.0G  71M  bg JDWP            com.abupdate.fota_demo_iot
+ 1264  1280 system       20   0  0.0 S 1.0G  71M  bg Signal Catcher  com.abupdate.fota_demo_iot
+ 1264  1278 system       29   9  0.0 S 1.0G  71M  bg Jit thread pool com.abupdate.fota_demo_iot
+  891  1279 radio        20   0  0.0 S 1.1G  95M  fg RunningState:Ba com.android.phone
+ 1197  1271 system       18  -2  0.0 S 1.0G  71M  fg queued-work-loo com.sprd.applock
+ 1264  1264 system       20   0  0.0 S 1.0G  71M  bg e.fota_demo_iot com.abupdate.fota_demo_iot
+  891  1256 radio        20   0  0.0 S 1.1G  95M  fg HwBinder:891_1  com.android.phone
+ 1210  1248 system       29   9  0.0 S 1.0G  68M  fg Profile Saver   com.spreadtrum.vce
+ 1221  1247 u0_a66       29   9  0.0 S 1.0G  63M  fg Profile Saver   com.android.modemnotifier
+ 1221  1244 u0_a66       20   0  0.0 S 1.0G  63M  fg Binder:1221_3   com.android.modemnotifier
+ 1210  1241 system       20   0  0.0 S 1.0G  68M  fg Binder:1210_3   com.spreadtrum.vce
+ 1197  1242 system       29   9  0.0 S 1.0G  71M  fg Profile Saver   com.sprd.applock
+  622  1240 system       20   0  0.0 S 1.2G 148M  fg Binder:622_9    system_server
+ 1221  1239 u0_a66       20   0  0.0 S 1.0G  63M  fg Binder:1221_2   com.android.modemnotifier
+ 1221  1238 u0_a66       20   0  0.0 S 1.0G  63M  fg Binder:1221_1   com.android.modemnotifier
+ 1221  1236 u0_a66       24   4  0.0 S 1.0G  63M  fg HeapTaskDaemon  com.android.modemnotifier
+  622  1235 system       20   0  0.0 S 1.2G 148M  fg Binder:622_7    system_server
+ 1221  1232 u0_a66       24   4  0.0 S 1.0G  63M  fg ReferenceQueueD com.android.modemnotifier
+ 1221  1234 u0_a66       24   4  0.0 S 1.0G  63M  fg FinalizerWatchd com.android.modemnotifier
+ 1221  1233 u0_a66       24   4  0.0 S 1.0G  63M  fg FinalizerDaemon com.android.modemnotifier
+ 1221  1231 u0_a66       20   0  0.0 S 1.0G  63M  fg Signal Catcher  com.android.modemnotifier
+ 1221  1230 u0_a66       29   9  0.0 S 1.0G  63M  fg Jit thread pool com.android.modemnotifier
+ 1197  1229 system       20   0  0.0 S 1.0G  71M  fg Binder:1197_3   com.sprd.applock
+ 1210  1222 system       20   0  0.0 S 1.0G  68M  fg Binder:1210_1   com.spreadtrum.vce
+ 1210  1226 system       20   0  0.0 S 1.0G  68M  fg Binder:1210_2   com.spreadtrum.vce
+ 1221  1221 u0_a66       20   0  0.0 S 1.0G  63M  fg d.modemnotifier com.android.modemnotifier
+ 1210  1217 system       24   4  0.0 S 1.0G  68M  fg ReferenceQueueD com.spreadtrum.vce
+ 1210  1219 system       24   4  0.0 S 1.0G  68M  fg FinalizerWatchd com.spreadtrum.vce
+ 1210  1220 system       24   4  0.0 S 1.0G  68M  fg HeapTaskDaemon  com.spreadtrum.vce
+ 1210  1218 system       24   4  0.0 S 1.0G  68M  fg FinalizerDaemon com.spreadtrum.vce
+ 1210  1216 system       20   0  0.0 S 1.0G  68M  fg Signal Catcher  com.spreadtrum.vce
+ 1210  1215 system       29   9  0.0 S 1.0G  68M  fg Jit thread pool com.spreadtrum.vce
+ 1210  1210 system       20   0  0.0 S 1.0G  68M  fg .spreadtrum.vce com.spreadtrum.vce
+ 1197  1207 system       24   4  0.0 S 1.0G  71M  fg HeapTaskDaemon  com.sprd.applock
+ 1197  1209 system       20   0  0.0 S 1.0G  71M  fg Binder:1197_2   com.sprd.applock
+ 1197  1208 system       20   0  0.0 S 1.0G  71M  fg Binder:1197_1   com.sprd.applock
+ 1197  1206 system       24   4  0.0 S 1.0G  71M  fg FinalizerWatchd com.sprd.applock
+ 1197  1205 system       24   4  0.0 S 1.0G  71M  fg FinalizerDaemon com.sprd.applock
+ 1197  1202 system       29   9  0.0 S 1.0G  71M  fg Jit thread pool com.sprd.applock
+ 1197  1203 system       20   0  0.0 S 1.0G  71M  fg Signal Catcher  com.sprd.applock
+ 1197  1204 system       24   4  0.0 S 1.0G  71M  fg ReferenceQueueD com.sprd.applock
+ 1197  1197 system       20   0  0.0 S 1.0G  71M  fg om.sprd.applock com.sprd.applock
+  622  1191 system       30  10  0.0 S 1.2G 148M  fg backup          system_server
+  925  1178 u0_a22       20   0  0.0 S 1.1G 132M  fg Binder:925_7    com.android.systemui
+  891  1176 radio        20   0  0.0 S 1.1G  95M  fg SearchHandlerTh com.android.phone
+  891  1177 radio        20   0  0.0 S 1.1G  95M  fg IccReadDelayThr com.android.phone
+  333  1174 root         20   0  0.0 S  16M 2.6M  fg Binder:333_6    installd
+  891  1155 radio        18  -2  0.0 S 1.1G  95M  fg queued-work-loo com.android.phone
+  327  1153 audioserver  20   0  0.0 S  34M 5.1M  fg Binder:327_3    audioserver
+  925  1149 u0_a22       20   0  0.0 S 1.1G 132M  fg Thread-2        com.android.systemui
+  925  1147 u0_a22       16  -4  0.0 S 1.1G 132M  fg RenderThread    com.android.systemui
+ 1142  1142 root         20   0  0.0 S    0    0  fg kworker/0:2     [kworker/0:2]
+  622  1141 system       20   0  0.0 S 1.2G 148M  fg Binder:622_6    system_server
+  925  1130 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-mem-purge  com.android.systemui
+  925  1136 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-hist-dump  com.android.systemui
+  925  1135 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-cmar-backe com.android.systemui
+  925  1134 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-utility-wo com.android.systemui
+  925  1133 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-utility-wo com.android.systemui
+  925  1132 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-utility-wo com.android.systemui
+  925  1131 u0_a22       16  -4  0.0 S 1.1G 132M  fg mali-utility-wo com.android.systemui
+ 1129  1129 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+  283  1128 system       20   0  0.0 S  78M  11M  fg Binder:283_4    surfaceflinger
+  925  1127 u0_a22       20   0  0.0 S 1.1G 132M  fg pool-2-thread-1 com.android.systemui
+  925  1125 u0_a22       20   0  0.0 S 1.1G 132M  fg Binder:925_5    com.android.systemui
+  925  1124 u0_a22       30  10  0.0 S 1.1G 132M  fg Keyboard        com.android.systemui
+  622  1111 system       18  -2  0.0 S 1.2G 148M  fg queued-work-loo system_server
+  925  1110 u0_a22       30  10  0.0 S 1.1G 132M  fg FlashlightContr com.android.systemui
+ 1106  1106 root          0 -20  0.0 S    0    0  fg kworker/u9:2    [kworker/u9:2]
+  622  1091 system       20   0  0.0 S 1.2G 148M  fg CallAudioModeSt system_server
+  925  1089 u0_a22       20   0  0.0 S 1.1G 132M  fg async_sensor    com.android.systemui
+  622  1090 system       20   0  0.0 S 1.2G 148M  fg uteStateMachine system_server
+  622  1087 system       20   0  0.0 S 1.2G 148M  fg BluetoothRouteM system_server
+  925  1086 u0_a22       20   0  0.0 S 1.1G 132M  fg TimeTick        com.android.systemui
+  925  1072 u0_a22       20   0  0.0 S 1.1G 132M  fg ConnectivityThr com.android.systemui
+  925  1060 u0_a22       20   0  0.0 S 1.1G 132M  fg RenderThread    com.android.systemui
+  622  1054 system       20   0  0.0 S 1.2G 148M  fg Thread-4        system_server
+  622  1052 system       20   0  0.0 S 1.2G 148M  fg ConnectivitySer system_server
+  925  1051 u0_a22       18  -2  0.0 S 1.1G 132M  fg queued-work-loo com.android.systemui
+  622  1048 system       30  10  0.0 S 1.2G 148M  fg Instrumentation system_server
+  622  1040 system       20   0  0.0 S 1.2G 148M  fg ntroller.RecogA system_server
+  622  1039 system       20   0  0.0 S 1.2G 148M  fg WcnManagerServi system_server
+  622  1038 system       20   0  0.0 S 1.2G 148M  fg PowerController system_server
+  622  1037 system       20   0  0.0 S 1.2G 148M  fg NetworkTimeUpda system_server
+  359  1035 system       18  -2  0.0 S  60M 6.8M  fg CTRL_PLANE_TASK vendor.sprd.hardware.gnss@1.0-service
+  359  1036 system       18  -2  0.0 S  60M 6.8M  fg POSIX timer 2   vendor.sprd.hardware.gnss@1.0-service
+  359  1033 system       18  -2  0.0 S  60M 6.8M  fg SUPL_TASK       vendor.sprd.hardware.gnss@1.0-service
+  359  1034 system       18  -2  0.0 S  60M 6.8M  fg POSIX timer 1   vendor.sprd.hardware.gnss@1.0-service
+  359  1030 system       18  -2  0.0 S  60M 6.8M  fg libgps_pm       vendor.sprd.hardware.gnss@1.0-service
+  359  1031 system       18  -2  0.0 S  60M 6.8M  fg libagps         vendor.sprd.hardware.gnss@1.0-service
+  359  1026 system       18  -2  0.0 S  60M 6.8M  fg libgps_data     vendor.sprd.hardware.gnss@1.0-service
+  359  1027 system       18  -2  0.0 S  60M 6.8M  fg watchdog        vendor.sprd.hardware.gnss@1.0-service
+  359  1028 system       18  -2  0.0 S  60M 6.8M  fg lcs_client      vendor.sprd.hardware.gnss@1.0-service
+  359  1029 system       18  -2  0.0 S  60M 6.8M  fg gnss@1.0-servic vendor.sprd.hardware.gnss@1.0-service
+  354  1032 mediacodec    0 -20  0.0 S  44M 8.1M  fg HwBinder:354_5  media.codec
+  359  1022 system       18  -2  0.0 S  60M 6.8M  fg lib_gnss_log    vendor.sprd.hardware.gnss@1.0-service
+  359  1021 system       18  -2  0.0 S  60M 6.8M  fg libgps_daemon   vendor.sprd.hardware.gnss@1.0-service
+  622  1020 system       20   0  0.0 S 1.2G 148M  fg HwBinder:622_4  system_server
+  359  1019 system       18  -2  0.0 S  60M 6.8M  fg libgps          vendor.sprd.hardware.gnss@1.0-service
+  359  1017 system       36  16  0.0 S  60M 6.8M  fg lte             vendor.sprd.hardware.gnss@1.0-service
+  925  1013 u0_a22       20   0  0.0 S 1.1G 132M  fg Binder:925_4    com.android.systemui
+  925  1008 u0_a22       30  10  0.0 S 1.1G 132M  fg SysUiBg         com.android.systemui
+  925  1007 u0_a22       20   0  0.0 S 1.1G 132M  fg VolumeDialogCon com.android.systemui
+  925  1004 u0_a22       18  -2  0.0 S 1.1G 132M  fg HwBinder:925_1  com.android.systemui
+  925  1003 u0_a22       20   0  0.0 S 1.1G 132M  fg recents.fg      com.android.systemui
+  925   996 u0_a22       30  10  0.0 S 1.1G 132M  fg Recents-TaskRes com.android.systemui
+  925   995 u0_a22       31  11  0.0 S 1.1G 132M  fg Recents-HighRes com.android.systemui
+  622   992 system       20   0  0.0 S 1.2G 148M  fg Binder:622_5    system_server
+  329   994 drm          20   0  0.0 S  40M 5.7M  fg Binder:329_3    drmserver
+  329   993 drm          20   0  0.0 S  40M 5.7M  fg Binder:329_2    drmserver
+  925   990 u0_a22       20   0  0.0 S 1.1G 132M  fg SoundPool       com.android.systemui
+  925   991 u0_a22       20   0  0.0 S 1.1G 132M  fg SoundPoolThread com.android.systemui
+  925   988 u0_a22       20   0  0.0 S 1.1G 132M  fg pool-1-thread-1 com.android.systemui
+  925   981 u0_a22       20   0  0.0 S 1.1G 132M  fg CameraThread    com.android.systemui
+  359   983 system       18  -2  0.0 S  60M 6.8M  fg POSIX timer 0   vendor.sprd.hardware.gnss@1.0-service
+  359   980 system       18  -2  0.0 S  60M 6.8M  fg LCSAGT_READER   vendor.sprd.hardware.gnss@1.0-service
+  359   982 system       18  -2  0.0 S  60M 6.8M  fg LCSMGT_TASK     vendor.sprd.hardware.gnss@1.0-service
+  622   966 system       20   0  0.0 S 1.2G 148M  fg HwBinder:622_3  system_server
+  622   959 system       20   0  0.0 S 1.2G 148M  fg EmergencyAfford system_server
+  348   960 media        20   0  0.0 S  50M 7.2M  fg Binder:348_2    mediaserver
+  622   957 system       20   0  0.0 S 1.2G 148M  fg watchdog        system_server
+  622   955 system       20   0  0.0 S 1.2G 148M  fg Binder:622_4    system_server
+  622   952 system       20   0  0.0 S 1.2G 148M  fg NetworkStatsObs system_server
+  925   946 u0_a22       20   0  0.0 S 1.1G 132M  fg Binder:925_3    com.android.systemui
+  925   940 u0_a22       20   0  0.0 S 1.1G 132M  fg Binder:925_2    com.android.systemui
+  925   932 u0_a22       24   4  0.0 S 1.1G 132M  fg ReferenceQueueD com.android.systemui
+  925   938 u0_a22       20   0  0.0 S 1.1G 132M  fg Binder:925_1    com.android.systemui
+  925   937 u0_a22       24   4  0.0 S 1.1G 132M  fg HeapTaskDaemon  com.android.systemui
+  925   936 u0_a22       24   4  0.0 S 1.1G 132M  fg FinalizerWatchd com.android.systemui
+  925   933 u0_a22       24   4  0.0 S 1.1G 132M  fg FinalizerDaemon com.android.systemui
+  925   931 u0_a22       20   0  0.0 S 1.1G 132M  fg Signal Catcher  com.android.systemui
+  925   930 u0_a22       29   9  0.0 S 1.1G 132M  fg Jit thread pool com.android.systemui
+  622   923 system       20   0  0.0 S 1.2G 148M  fg UsbService host system_server
+  622   924 system       20   0  0.0 S 1.2G 148M  fg Thread-3        system_server
+  891   921 radio        29   9  0.0 S 1.1G  95M  fg Profile Saver   com.android.phone
+  891   918 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_3    com.android.phone
+  622   917 system       20   0  0.0 S 1.2G 148M  fg Binder:622_3    system_server
+  891   902 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_1    com.android.phone
+  891   905 radio        20   0  0.0 S 1.1G  95M  fg Binder:891_2    com.android.phone
+  891   898 radio        24   4  0.0 S 1.1G  95M  fg ReferenceQueueD com.android.phone
+  891   897 radio        20   0  0.0 S 1.1G  95M  fg Signal Catcher  com.android.phone
+  891   901 radio        24   4  0.0 S 1.1G  95M  fg HeapTaskDaemon  com.android.phone
+  891   900 radio        24   4  0.0 S 1.1G  95M  fg FinalizerWatchd com.android.phone
+  891   899 radio        24   4  0.0 S 1.1G  95M  fg FinalizerDaemon com.android.phone
+  622   890 system       30  10  0.0 S 1.2G 148M  fg LazyTaskWriterT system_server
+  622   889 system       18  -2  0.0 S 1.2G 148M  fg Thread-2        system_server
+  622   888 system       20   0  0.0 S 1.2G 148M  fg PhotonicModulat system_server
+  622   887 system       30  10  0.0 S 1.2G 148M  fg TaskSnapshotPer system_server
+  622   886 system       20   0  0.0 S 1.2G 148M  fg EthernetService system_server
+  622   885 system       20   0  0.0 S 1.2G 148M  fg SyncHandler-0   system_server
+  622   884 system       16  -4  0.0 S 1.2G 148M  fg CameraService_p system_server
+  622   883 system       20   0  0.0 S 1.2G 148M  fg FaceInformer    system_server
+  622   882 system       20   0  0.0 S 1.2G 148M  fg FaceDispatch    system_server
+  622   881 system       30  10  0.0 S 1.2G 148M  fg GraphicsStats-d system_server
+  622   880 system       20   0  0.0 S 1.2G 148M  fg ConnectivityThr system_server
+  268   879 system       20   0  0.0 S 8.2M 1.3M  fg usb@1.1-service android.hardware.usb@1.1-service
+  622   878 system       20   0  0.0 S 1.2G 148M  fg UEventObserver  system_server
+  622   876 system       20   0  0.0 S 1.2G 148M  fg AudioService    system_server
+  622   875 system       30  10  0.0 S 1.2G 148M  fg DeviceStorageMo system_server
+  622   874 system       20   0  0.0 S 1.2G 148M  fg onProviders.ECP system_server
+  622   873 system       30  10  0.0 S 1.2G 148M  fg ranker          system_server
+  622   872 system       30  10  0.0 S 1.2G 148M  fg notification-sq system_server
+  622   871 system       20   0  0.0 S 1.2G 148M  fg mDnsConnector   system_server
+  622   870 system       20   0  0.0 S 1.2G 148M  fg NsdService      system_server
+  622   869 system       20   0  0.0 S 1.2G 148M  fg roid.pacmanager system_server
+  622   867 system       20   0  0.0 S 1.2G 148M  fg WifiP2pService  system_server
+  622   866 system       20   0  0.0 S 1.2G 148M  fg WifiRttService  system_server
+  622   865 system       20   0  0.0 S 1.2G 148M  fg WifiScanningSer system_server
+  622   864 system       20   0  0.0 S 1.2G 148M  fg WifiNetworkMoni system_server
+  622   861 system       20   0  0.0 S 1.2G 148M  fg WifiApClientSta system_server
+  622   859 system       20   0  0.0 S 1.2G 148M  fg WifiService     system_server
+  622   858 system       18  -2  0.0 S 1.2G 148M  fg tworkPolicy.uid system_server
+  622   857 system       20   0  0.0 S 1.2G 148M  fg NetworkPolicy   system_server
+  622   856 system       20   0  0.0 S 1.2G 148M  fg NetworkStats    system_server
+  333   781 root         20   0  0.0 S  16M 2.6M  fg Binder:333_5    installd
+  622   743 system       20   0  0.0 S 1.2G 148M  fg VoldConnector   system_server
+  622   744 system       20   0  0.0 S 1.2G 148M  fg CryptdConnector system_server
+  622   742 system       20   0  0.0 S 1.2G 148M  fg StorageManagerS system_server
+  622   741 system       20   0  0.0 S 1.2G 148M  fg SchedPolicyExec system_server
+  622   740 system       20   0  0.0 S 1.2G 148M  fg RamPolicyExecut system_server
+  622   739 system       30  10  0.0 S 1.2G 148M  fg splash-update   system_server
+  622   738 system       20   0  0.0 S 1.2G 148M  fg performance     system_server
+  622   736 system       12  -8  0.0 S 1.2G 148M  fg InputDispatcher system_server
+  622   737 system       12  -8  0.0 S 1.2G 148M  fg InputReader     system_server
+  622   735 system       20   0  0.0 S 1.2G 148M  fg HwBinder:622_2  system_server
+  622   734 system       20   0  0.0 S 1.2G 148M  fg HwBinder:622_1  system_server
+  622   733 system       20   0  0.0 S 1.2G 148M  fg AlarmManager    system_server
+  622   732 system       30  10  0.0 S 1.2G 148M  fg SettingsProvide system_server
+  622   731 system       18  -2  0.0 S 1.2G 148M  fg AccountManagerS system_server
+  622   730 system       30  10  0.0 S 1.2G 148M  fg SettingsProvide system_server
+  622   727 system       12  -8  0.0 S 1.2G 148M  fg SensorEventAckR system_server
+  622   728 system       RT  -8  0.0 S 1.2G 148M  fg SensorService   system_server
+  267   726 system       RT   0  0.0 S 8.2M 1.5M  fg HwBinder:267_1  android.hardware.sensors@1.0-service
+  622   723 system       10 -10  0.0 S 1.2G 148M  ta android.anim    system_server
+  333   722 root         20   0  0.0 S  16M 2.6M  fg Binder:333_4    installd
+  622   721 system       20   0  0.0 S 1.2G 148M  fg PackageInstalle system_server
+  333   720 root         20   0  0.0 S  16M 2.6M  fg Binder:333_3    installd
+  622   649 system       30  10  0.0 S 1.2G 148M  fg PackageManager  system_server
+  622   648 system       18  -2  0.0 S 1.2G 148M  fg BatteryStats_wa system_server
+  622   647 system       18  -2  0.0 S 1.2G 148M  fg system_server   system_server
+  622   645 system       20   0  0.0 S 1.2G 148M  fg CpuTracker      system_server
+  622   646 system       16  -4  0.0 S 1.2G 148M  fg PowerManagerSer system_server
+  622   644 system       17  -3  0.0 S 1.2G 148M  ta android.display system_server
+  622   643 system       20   0  0.0 S 1.2G 148M  fg android.io      system_server
+  622   642 system       20   0  0.0 S 1.2G 148M  fg android.fg      system_server
+  622   641 system       20   0  0.0 S 1.2G 148M  fg FileObserver    system_server
+  276   640 system       20   0  0.0 S  17M 1.7M  fg HwBinder:276_1  vendor.sprd.hardware.power@2.0-service
+  622   639 system       20   0  0.0 S 1.2G 148M  fg batterystats-wo system_server
+  622   637 system       18  -2  0.0 S 1.2G 148M  fg android.ui      system_server
+  622   638 system       30  10  0.0 S 1.2G 148M  fg ActivityManager system_server
+  622   635 system       30  10  0.0 S 1.2G 148M  fg android.bg      system_server
+  622   632 system       20   0  0.0 S 1.2G 148M  fg Binder:622_1    system_server
+  622   630 system       24   4  0.0 S 1.2G 148M  fg FinalizerWatchd system_server
+  622   631 system       24   4  0.0 S 1.2G 148M  fg HeapTaskDaemon  system_server
+  622   627 system       20   0  0.0 S 1.2G 148M  fg Signal Catcher  system_server
+  622   628 system       24   4  0.0 S 1.2G 148M  fg ReferenceQueueD system_server
+  622   629 system       24   4  0.0 S 1.2G 148M  fg FinalizerDaemon system_server
+  356   621 system       20   0  0.0 S 8.4M 916K  fg refnotify       refnotify
+  600   619 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   620 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   618 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   617 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   616 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   615 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   613 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   612 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   611 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   610 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   609 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   608 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   607 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   606 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   605 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  600   604 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  601   603 root         20   0  0.0 S  12M 1.3M  fg cp_diskserver   cp_diskserver
+  254   602 audioserver   1 -19  0.0 S  28M 2.1M  fg writer          android.hardware.audio@2.0-service
+  601   601 root         20   0  0.0 S  12M 1.3M  fg cp_diskserver   cp_diskserver
+  600   600 radio        20   0  0.0 S  27M 3.0M  fg sprdrild        sprdrild
+  283   599 system       20   0  0.0 S  78M  11M  fg Binder:283_3    surfaceflinger
+  356   593 system       20   0  0.0 S 8.4M 916K  fg refnotify       refnotify
+  346   592 media        20   0  0.0 S  17M 3.7M  fg Binder:346_2    media.metrics
+  348   574 media        20   0  0.0 S  50M 7.2M  fg Binder:348_1    mediaserver
+  329   567 drm          20   0  0.0 S  40M 5.7M  fg Binder:329_1    drmserver
+  354   562 mediacodec   20   0  0.0 S  44M 8.1M  fg HwBinder:354_4  media.codec
+  280   560 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  280   561 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  364   539 system       20   0  0.0 S  19M 2.0M  fg connmgr         connmgr
+  364   540 system       20   0  0.0 S  19M 2.0M  fg connmgr         connmgr
+  364   541 system       20   0  0.0 S  19M 2.0M  fg connmgr         connmgr
+  364   542 system       20   0  0.0 S  19M 2.0M  fg connmgr         connmgr
+  254   532 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_2  android.hardware.audio@2.0-service
+  254   530 audioserver  20   0  0.0 S  28M 2.1M  fg Audio Misc Ctrl android.hardware.audio@2.0-service
+  254   529 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   528 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   527 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   526 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   525 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   524 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   523 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  254   522 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  351   508 root         30  10  0.0 S  12M 2.3M     Binder:351_1    storaged
+  351   496 root         30  10  0.0 S  12M 2.3M     storaged        storaged
+  280   483 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  280   486 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  280   484 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  280   482 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  327   472 audioserver  20   0  0.0 S  34M 5.1M  fg Binder:327_2    audioserver
+  327   468 audioserver  20   0  0.0 S  34M 5.1M  fg Binder:327_1    audioserver
+  328   460 cameraserver 20   0  0.0 S  24M 4.3M  fg HwBinder:328_3  cameraserver
+  328   459 cameraserver 20   0  0.0 S  24M 4.3M  fg Binder:328_1    cameraserver
+  327   457 audioserver   4 -16  0.0 S  34M 5.1M  fg ApmOutput       audioserver
+  327   453 audioserver  20   0  0.0 S  34M 5.1M  fg HwBinder:327_1  audioserver
+  327   455 audioserver   4 -16  0.0 S  34M 5.1M  fg ApmTone         audioserver
+  327   456 audioserver   4 -16  0.0 S  34M 5.1M  fg ApmAudio        audioserver
+  256   458 cameraserver 20   0  0.0 S  37M 1.7M  fg HwBinder:256_3  android.hardware.camera.provider@2.4-service
+  256   451 cameraserver 20   0  0.0 S  37M 1.7M  fg HwBinder:256_2  android.hardware.camera.provider@2.4-service
+  254   452 audioserver  20   0  0.0 S  28M 2.1M  fg HwBinder:254_1  android.hardware.audio@2.0-service
+  348   450 media        20   0  0.0 S  50M 7.2M  fg HwBinder:348_1  mediaserver
+  328   449 cameraserver 20   0  0.0 S  24M 4.3M  fg HwBinder:328_2  cameraserver
+  256   448 cameraserver 20   0  0.0 S  37M 1.7M  fg HwBinder:256_1  android.hardware.camera.provider@2.4-service
+  328   447 cameraserver 20   0  0.0 S  24M 4.3M  fg HwBinder:328_1  cameraserver
+  346   439 media        20   0  0.0 S  17M 3.7M  fg Binder:346_1    media.metrics
+  354   438 mediacodec   20   0  0.0 S  44M 8.1M  fg Binder:354_1    media.codec
+  354   437 mediacodec   20   0  0.0 S  44M 8.1M  fg HwBinder:354_2  media.codec
+  354   436 mediacodec   20   0  0.0 S  44M 8.1M  fg HwBinder:354_1  media.codec
+  358   431 system       20   0  0.0 S  18M 1.6M  fg thermald        thermald
+  358   435 system       20   0  0.0 S  18M 1.6M  fg thermald        thermald
+  358   434 system       20   0  0.0 S  18M 1.6M  fg thermald        thermald
+  358   433 system       20   0  0.0 S  18M 1.6M  fg thermald        thermald
+  358   432 system       20   0  0.0 S  18M 1.6M  fg thermald        thermald
+  283   429 system       12  -8  0.0 S  78M  11M     EventControl    surfaceflinger
+  337   427 media        20   0  0.0 S  15M 2.6M  fg Binder:337_1    mediadrmserver
+  283   422 system       12  -8  0.0 S  78M  11M     surfaceflinger  surfaceflinger
+  262   424 system       20   0  0.0 S  10M 1.6M  fg HwBinder:262_2  android.hardware.graphics.allocator@2.0-service
+  262   423 system       20   0  0.0 S  10M 1.6M  fg HwBinder:262_1  android.hardware.graphics.allocator@2.0-service
+  263   418 system       20   0  0.0 S  64M 4.6M  fg composer@2.1-se android.hardware.graphics.composer@2.1-service
+  263   420 system       -3  -8  0.0 S  64M 4.6M  fg HwBinder:263_2  android.hardware.graphics.composer@2.1-service
+  263   419 system       11  -9  0.0 S  64M 4.6M  fg OverlayComposer android.hardware.graphics.composer@2.1-service
+  263   417 system       -3   0  0.0 S  64M 4.6M  fg HwBinder:263_1  android.hardware.graphics.composer@2.1-service
+  362   416 system       20   0  0.0 S  13M 1.5M  fg android.hardwar android.hardware.biometrics.fingerprint@2.1-service
+  283   412 system       12  -8  0.0 S  78M  11M     POSIX timer 0   surfaceflinger
+  283   414 system       12  -8  0.0 S  78M  11M     POSIX timer 1   surfaceflinger
+  283   407 system       12  -8  0.0 S  78M  11M     mali-utility-wo surfaceflinger
+  283   411 system       12  -8  0.0 S  78M  11M     mali-hist-dump  surfaceflinger
+  283   409 system       12  -8  0.0 S  78M  11M     mali-utility-wo surfaceflinger
+  283   405 system       12  -8  0.0 S  78M  11M     mali-mem-purge  surfaceflinger
+  283   406 system       12  -8  0.0 S  78M  11M     mali-utility-wo surfaceflinger
+  283   408 system       12  -8  0.0 S  78M  11M     mali-utility-wo surfaceflinger
+  404   404 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+  335   402 keystore     20   0  0.0 S  14M 2.6M  fg HwBinder:335_1  keystore
+  283   396 system       20   0  0.0 S  78M  11M  fg HwBinder:283_1  surfaceflinger
+  258   395 system       20   0  0.0 S 9.1M 1.2M  fg HwBinder:258_1  android.hardware.configstore@1.0-service
+  333   383 root         20   0  0.0 S  16M 2.6M  fg Binder:333_1    installd
+  282   382 root         20   0  0.0 S  12M 2.0M  fg Binder:282_2    performancemanager
+  282   379 root         20   0  0.0 S  12M 2.0M  fg Binder:282_1    performancemanager
+  276   381 system       24   4  0.0 S  17M 1.7M  fg power_hint      vendor.sprd.hardware.power@2.0-service
+  376   376 root         20   0  0.0 S 4.3M 872K  fg ip_monitor.sh   sh
+  374   374 root         20   0  0.0 S 4.4M 1.3M  fg ip              ip
+  357   372 shell        20   0  0.0 S 8.6M 1.1M  fg slogmodem       slogmodem
+  357   369 shell        20   0  0.0 S 8.6M 1.1M  fg slogmodem       slogmodem
+  357   370 shell        20   0  0.0 S 8.6M 1.1M  fg slogmodem       slogmodem
+  357   371 shell        20   0  0.0 S 8.6M 1.1M  fg slogmodem       slogmodem
+  368   368 root          0 -20  0.0 S    0    0  fg kworker/2:1H    [kworker/2:1H]
+  365   365 root         20   0  0.0 S 5.1M    0  fg srtd            srtd
+  364   364 system       20   0  0.0 S  19M 2.0M  fg connmgr         connmgr
+  363   363 system       20   0  0.0 S 4.3M 824K  fg sprdstorageprox sprdstorageproxyd
+  362   362 system       20   0  0.0 S  13M 1.5M  fg fingerprint@2.1 android.hardware.biometrics.fingerprint@2.1-service
+  361   361 tombstoned   20   0  0.0 S 4.4M 1.4M     tombstoned      tombstoned
+  360   360 system       20   0  0.0 S  13M 2.6M     gatekeeperd     gatekeeperd
+  359   359 system       20   0  0.0 S  60M 6.8M  fg gnss@1.0-servic vendor.sprd.hardware.gnss@1.0-service
+  358   358 system       20   0  0.0 S  18M 1.6M  fg thermald        thermald
+  357   357 shell        20   0  0.0 S 8.6M 1.1M  fg slogmodem       slogmodem
+  356   356 system       20   0  0.0 S 8.4M 916K  fg refnotify       refnotify
+  355   355 root         20   0  0.0 S 4.3M 812K  fg ext_data        ext_data
+  353   353 wifi         20   0  0.0 S  13M 3.1M  fg wificond        wificond
+  351   351 root         30  10  0.0 S  12M 2.3M     storaged        storaged
+  350   350 root         20   0  0.0 S 4.4M 1.3M  fg ju_ipsec_server ju_ipsec_server
+  349   349 system       20   0  0.0 S 8.6M 1.1M  fg phasecheckserve phasecheckserver
+  348   348 media        20   0  0.0 S  50M 7.2M  fg mediaserver     mediaserver
+  346   346 media        20   0  0.0 S  17M 3.7M  fg mediametrics    media.metrics
+  263   338 system       11  -9  0.0 S  64M 4.6M  fg mali-mem-purge  android.hardware.graphics.composer@2.1-service
+  263   339 system       11  -9  0.0 S  64M 4.6M  fg mali-utility-wo android.hardware.graphics.composer@2.1-service
+  263   340 system       11  -9  0.0 S  64M 4.6M  fg mali-utility-wo android.hardware.graphics.composer@2.1-service
+  263   341 system       11  -9  0.0 S  64M 4.6M  fg mali-utility-wo android.hardware.graphics.composer@2.1-service
+  263   342 system       11  -9  0.0 S  64M 4.6M  fg mali-utility-wo android.hardware.graphics.composer@2.1-service
+  263   343 system       11  -9  0.0 S  64M 4.6M  fg mali-cmar-backe android.hardware.graphics.composer@2.1-service
+  263   344 system       11  -9  0.0 S  64M 4.6M  fg mali-hist-dump  android.hardware.graphics.composer@2.1-service
+  337   337 media        20   0  0.0 S  15M 2.6M  fg mediadrmserver  mediadrmserver
+  336   336 root         20   0  0.0 S 6.7M 1.7M  fg log_service     log_service
+  335   335 keystore     20   0  0.0 S  14M 2.6M  fg keystore        keystore
+  334   334 root         20   0  0.0 S 4.3M 1.0M  fg ip_monitor.sh   sh
+  333   333 root         20   0  0.0 S  16M 2.6M  fg Binder:333_2    installd
+  332   332 root          0 -20  0.0 S    0    0  fg kbase_event     [kbase_event]
+  284   330 root         20   0  0.0 S  13M 2.2M  fg HwBinder:284_2  thermalserviced
+  331   331 root         20   0  0.0 S 4.5M 1.4M  fg ims_bridged     ims_bridged
+  329   329 drm          20   0  0.0 S  40M 5.7M  fg drmserver       drmserver
+  328   328 cameraserver 20   0  0.0 S  24M 4.3M  fg cameraserver    cameraserver
+  327   327 audioserver  20   0  0.0 S  34M 5.1M  fg audioserver     audioserver
+  326   326 root         20   0  0.0 S 4.8M 1.3M  fg srtd            srtd
+  286   322 system       20   0  0.0 S  10M 852K  fg modem_control   modem_control
+  286   323 system       20   0  0.0 S  10M 852K  fg modem_control   modem_control
+  286   324 system       20   0  0.0 S  10M 852K  fg modem_control   modem_control
+  284   320 root         20   0  0.0 S  13M 2.2M  fg HwBinder:284_1  thermalserviced
+  249   319 root         20   0  0.0 S  27M 3.1M  fg HwBinder:249_1  netd
+  249   318 root         20   0  0.0 S  27M 3.1M  fg Binder:249_2    netd
+  249   317 root         20   0  0.0 S  27M 3.1M  fg Binder:249_1    netd
+  275   316 system       20   0  0.0 S 8.1M 1.1M  fg vendor.sprd.har vendor.sprd.hardware.log@1.0-service
+  315   315 root         20   0  0.0 S    0    0  fg kworker/3:2     [kworker/3:2]
+  249   310 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   313 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   312 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   311 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   308 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   309 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   307 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   306 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  249   305 root         20   0  0.0 S  27M 3.1M  fg netd            netd
+  287   304 system       20   0  0.0 S 7.5M 808K  fg modemd          modemd
+  285   303 system       20   0  0.0 S 6.4M 860K  fg gnss_download   gnss_download
+  285   302 system       20   0  0.0 S 6.4M 860K  fg gnss_download   gnss_download
+  287   300 system       20   0  0.0 S 7.5M 808K  fg modemd          modemd
+  287   301 system       20   0  0.0 S 7.5M 808K  fg modemd          modemd
+  263   298 system       12  -8  0.0 S  64M 4.6M  fg android.hardwar android.hardware.graphics.composer@2.1-service
+  263   299 system       11  -9  0.0 S  64M 4.6M  fg SprdWIDIBlit    android.hardware.graphics.composer@2.1-service
+  294   294 root          0 -20  0.0 S    0    0  fg kworker/1:1H    [kworker/1:1H]
+  281   297 root         -2   0  0.0 S 5.8M 2.7M     lmkd            lmkd
+  279   296 system       20   0  0.0 S 6.4M 896K  fg gpsd            gpsd
+  279   295 system       20   0  0.0 S 6.4M 896K  fg gpsd            gpsd
+  263   293 system       20   0  0.0 S  64M 4.6M  fg Binder:263_2    android.hardware.graphics.composer@2.1-service
+  263   292 system       20   0  0.0 S  64M 4.6M  fg Binder:263_1    android.hardware.graphics.composer@2.1-service
+  291   291 system       20   0  0.0 S 5.1M 1.0M  fg tsupplicant     tsupplicant
+  290   290 system       20   0  0.0 S 4.3M 832K  fg sprdstorageprox sprdstorageproxyd
+  289   289 root         20   0  0.0 S 4.6M 1.2M  fg ip6tables-resto ip6tables-restore
+  288   288 root         20   0  0.0 S 4.6M 1.2M  fg iptables-restor iptables-restore
+  287   287 system       20   0  0.0 S 7.5M 808K  fg modemd          modemd
+  286   286 system       20   0  0.0 S  10M 852K  fg modem_control   modem_control
+  285   285 system       20   0  0.0 S 6.4M 856K  fg gnss_download   gnss_download
+  284   284 root         20   0  0.0 S  13M 2.2M  fg thermalserviced thermalserviced
+  282   282 root         20   0  0.0 S  12M 2.0M  fg performancemana performancemanager
+  281   281 root         -2   0  0.0 S 5.8M 2.7M     lmkd            lmkd
+  280   280 root          0 -20  0.0 S  29M 2.0M  fg engpc           engpc
+  279   279 system       20   0  0.0 S 6.4M 896K  fg gpsd            gpsd
+  278   278 root         20   0  0.0 S  11M 2.5M  fg healthd         healthd
+  277   277 system       20   0  0.0 S 7.2M 1.1M  fg thermal@1.0-ser vendor.sprd.hardware.thermal@1.0-service
+  275   275 system       20   0  0.0 S 8.1M 1.1M  fg log@1.0-service vendor.sprd.hardware.log@1.0-service
+  274   274 system       20   0  0.0 S 7.1M 1.1M  fg ifaa@1.0-servic vendor.sprd.hardware.ifaa@1.0-service
+  273   273 system       20   0  0.0 S  12M 1.1M  fg face@1.0-servic vendor.sprd.hardware.face@1.0-service
+  272   272 system       20   0  0.0 S 7.1M 1.1M  fg connmgr@1.0-ser vendor.sprd.hardware.connmgr@1.0-service
+  271   271 root         20   0  0.0 S  10M 2.3M  fg android.hardwar android.hardware.wifi@1.0-service
+  269   269 system       20   0  0.0 S 6.9M 1.1M  fg vibrator@1.0-se android.hardware.vibrator@1.0-service
+  268   268 system       20   0  0.0 S 8.2M 1.3M  fg usb@1.1-service android.hardware.usb@1.1-service
+  267   267 system       20   0  0.0 S 8.2M 1.5M  fg sensors@1.0-ser android.hardware.sensors@1.0-service
+  266   266 system       20   0  0.0 S 6.9M 1.2M  fg memtrack@1.0-se android.hardware.memtrack@1.0-service
+  265   265 system       20   0  0.0 S 6.9M 1.3M  fg light@2.0-servi android.hardware.light@2.0-service
+  264   264 system       20   0  0.0 S 6.9M 1.2M  fg health@1.0-serv android.hardware.health@1.0-service
+  262   262 system       20   0  0.0 S  10M 1.6M  fg allocator@2.0-s android.hardware.graphics.allocator@2.0-service
+  261   261 system       20   0  0.0 S 7.0M 1.2M  fg gatekeeper@1.0- android.hardware.gatekeeper@1.0-service
+  260   260 system       20   0  0.0 S 6.9M 1.0M  fg dumpstate@1.0-s android.hardware.dumpstate@1.0-service
+  259   259 media        20   0  0.0 S  13M 1.4M  fg drm@1.0-service android.hardware.drm@1.0-service
+  258   258 system       20   0  0.0 S 9.1M 1.2M  fg configstore@1.0 android.hardware.configstore@1.0-service
+  257   257 media        20   0  0.0 S  12M 1.4M  fg cas@1.0-service android.hardware.cas@1.0-service
+  256   256 cameraserver 20   0  0.0 S  37M 1.7M  fg provider@2.4-se android.hardware.camera.provider@2.4-service
+  255   255 bluetooth    20   0  0.0 S 8.1M 1.3M  fg bluetooth@1.0-s android.hardware.bluetooth@1.0-service
+  253   253 system       20   0  0.0 S 6.9M 2.0M  fg allocator@1.0-s android.hidl.allocator@1.0-service
+  250   250 root         20   0  0.0 S 0.9G  46M  fg main            zygote
+  249   249 root         20   0  0.0 S  27M 3.1M  fg Binder:249_2    netd
+  239   243 root         20   0  0.0 S  16M 2.8M  fg vold            vold
+  239   245 root         20   0  0.0 S  16M 2.8M  fg vold            vold
+  239   244 root         20   0  0.0 S  16M 2.8M  fg vold            vold
+  224   241 logd         30  10  0.0 S  13M 3.1M     logd.auditd     logd
+  240   240 root          0 -20  0.0 S    0    0  fg kworker/u9:1    [kworker/u9:1]
+  239   239 root         20   0  0.0 S  16M 2.8M  fg vold            vold
+  237   237 system       20   0  0.0 S 8.1M 1.0M  fg keymaster@3.0-s android.hardware.keymaster@3.0-service
+  236   236 root         20   0  0.0 S    0    0  fg kauditd         [kauditd]
+  232   232 root          0 -20  0.0 S    0    0  fg kbase_job_fault [kbase_job_fault]
+  224   235 logd         30  10  0.0 S  13M 3.1M     logd.control    logd
+  224   233 logd         30  10  0.0 S  13M 3.1M     logd            logd
+  224   231 logd         20   0  0.0 S  13M 3.1M     YlogSenderNew   logd
+  224   230 logd         30  10  0.0 S  13M 3.1M     logd.daemon     logd
+  228   228 root          0 -20  0.0 S    0    0  fg gpu_dfs         [gpu_dfs]
+  227   227 system       20   0  0.0 S 5.2M 872K     vndservicemanag vndservicemanager
+  226   226 system       20   0  0.0 S 8.4M 2.8M     hwservicemanage hwservicemanager
+  223   223 root          0 -20  0.0 S    0    0  fg ext4-rsv-conver [ext4-rsv-conver]
+  222   222 root         20   0  0.0 S    0    0  fg jbd2/mmcblk0p1- [jbd2/mmcblk0p1-]
+  220   220 root          0 -20  0.0 S    0    0  fg ext4-rsv-conver [ext4-rsv-conver]
+  219   219 root         20   0  0.0 S    0    0  fg jbd2/mmcblk0p29 [jbd2/mmcblk0p29]
+  214   214 root         20   0  0.0 S    0    0  fg f2fs_gc-259:17  [f2fs_gc-259:17]
+  213   213 root         20   0  0.0 S    0    0  fg f2fs_discard-25 [f2fs_discard-25]
+  212   212 root         20   0  0.0 S    0    0  fg f2fs_flush-259: [f2fs_flush-259:]
+  211   211 root          0 -20  0.0 S    0    0  fg kworker/0:1H    [kworker/0:1H]
+  205   205 root          0 -20  0.0 S    0    0  fg VserTestWq      [VserTestWq]
+  204   204 root          0 -20  0.0 S    0    0  fg f_mtp           [f_mtp]
+  199   199 root         20   0  0.0 S 2.8M 1.1M  fg ueventd         ueventd
+  198   198 root          0 -20  0.0 S    0    0  fg ext4-rsv-conver [ext4-rsv-conver]
+  197   197 root         20   0  0.0 S    0    0  fg jbd2/dm-1-8     [jbd2/dm-1-8]
+  196   196 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  195   195 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  194   194 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  193   193 root          0 -20  0.0 S    0    0  fg kverityd        [kverityd]
+  192   192 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  191   191 root          0 -20  0.0 S    0    0  fg kdmflush        [kdmflush]
+  189   189 root          0 -20  0.0 S    0    0  fg ext4-rsv-conver [ext4-rsv-conver]
+  188   188 root         20   0  0.0 S    0    0  fg jbd2/dm-0-8     [jbd2/dm-0-8]
+  187   187 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  186   186 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  185   185 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  184   184 root          0 -20  0.0 S    0    0  fg kverityd        [kverityd]
+  183   183 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  182   182 root          0 -20  0.0 S    0    0  fg kdmflush        [kdmflush]
+  179   179 root          0 -20  0.0 S    0    0  fg headset_reg_dum [headset_reg_dum]
+  178   178 root          0 -20  0.0 S    0    0  fg headset_detect_ [headset_detect_]
+  177   177 root          0 -20  0.0 S    0    0  fg headset_button  [headset_button]
+  175   175 root         20   0  0.0 S    0    0  fg kworker/1:4     [kworker/1:4]
+  173   173 root          0 -20  0.0 S    0    0  fg sprdbat_monitor [sprdbat_monitor]
+  172   172 root         RT   0  0.0 S    0    0  fg sbuf-3-12       [sbuf-3-12]
+  171   171 root         RT   0  0.0 S    0    0  fg sbuf-3-11       [sbuf-3-11]
+  170   170 root         RT   0  0.0 S    0    0  fg sbuf-3-5        [sbuf-3-5]
+  169   169 root         RT   0  0.0 S    0    0  fg sipx-5-25       [sipx-5-25]
+  168   168 root         RT   0  0.0 S    0    0  fg sipx-5-24       [sipx-5-24]
+  167   167 root         RT   0  0.0 S    0    0  fg sipx-5-20       [sipx-5-20]
+  166   166 root         RT   0  0.0 S    0    0  fg sipx-5-19       [sipx-5-19]
+  165   165 root         RT   0  0.0 S    0    0  fg sipx-5-18       [sipx-5-18]
+  164   164 root         RT   0  0.0 S    0    0  fg sipx-5-9        [sipx-5-9]
+  163   163 root         RT   0  0.0 S    0    0  fg sipx-5-8        [sipx-5-8]
+  162   162 root         RT   0  0.0 S    0    0  fg sipx-5-7        [sipx-5-7]
+  161   161 root          0 -20  0.0 S    0    0  fg deferwq         [deferwq]
+  152   152 root          0 -20  0.0 S    0    0  fg imsbr-ctrl[5-3] [imsbr-ctrl[5-3]]
+  151   151 root         RT   0  0.0 S    0    0  fg sblock-5-3      [sblock-5-3]
+  150   150 root          0 -20  0.0 S    0    0  fg imsbr-data[5-2] [imsbr-data[5-2]]
+  149   149 root         RT   0  0.0 S    0    0  fg sblock-5-2      [sblock-5-2]
+  148   148 root          0 -20  0.0 S    0    0  fg ipv6_addrconf   [ipv6_addrconf]
+  147   147 root          0 -20  0.0 S    0    0  fg binder          [binder]
+  145   145 root         -2   0  0.0 S    0    0  fg mmcqd/0rpmb     [mmcqd/0rpmb]
+  144   144 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  143   143 root         -2   0  0.0 S    0    0  fg mmcqd/0boot1    [mmcqd/0boot1]
+  142   142 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  141   141 root         -2   0  0.0 S    0    0  fg mmcqd/0boot0    [mmcqd/0boot0]
+  140   140 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  138   138 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+  137   137 root         RT   0  0.0 S    0    0  fg swcnblk-3-9     [swcnblk-3-9]
+  136   136 root         RT   0  0.0 S    0    0  fg swcnblk-3-8     [swcnblk-3-8]
+  135   135 root         RT   0  0.0 S    0    0  fg swcnblk-3-7     [swcnblk-3-7]
+  134   134 root         RT   0  0.0 S    0    0  fg sblock-5-5      [sblock-5-5]
+  133   133 root         RT   0  0.0 S    0    0  fg sbuf-4-4        [sbuf-4-4]
+  132   132 root         RT   0  0.0 S    0    0  fg sbuf-3-4        [sbuf-3-4]
+  131   131 root         RT   0  0.0 S    0    0  fg sbuf-5-6        [sbuf-5-6]
+  130   130 root         RT   0  0.0 S    0    0  fg sbuf-5-21       [sbuf-5-21]
+  129   129 root         RT   0  0.0 S    0    0  fg sbuf-5-4        [sbuf-5-4]
+  128   128 root         RT   0  0.0 S    0    0  fg sbuf-6-6        [sbuf-6-6]
+  127   127 root         RT   0  0.0 S    0    0  fg sbuf-6-5        [sbuf-6-5]
+  126   126 root         RT   0  0.0 S    0    0  fg irq/69-20300000 [irq/69-20300000]
+  124   124 root         RT   0  0.0 S    0    0  fg sprdhotplug     [sprdhotplug]
+  123   123 root          0 -20  0.0 S    0    0  fg dm_bufio_cache  [dm_bufio_cache]
+  122   122 root         20   0  0.0 S    0    0  fg watchdog_feeder [watchdog_feeder]
+  121   121 root         20   0  0.0 S    0    0  fg kworker/3:1     [kworker/3:1]
+  120   120 root         20   0  0.0 S    0    0  fg kworker/2:1     [kworker/2:1]
+  119   119 root         20   0  0.0 S    0    0  fg Betterlife_ts   [Betterlife_ts]
+  117   117 root         20   0  0.0 S    0    0  fg kworker/1:1     [kworker/1:1]
+  116   116 root          0 -20  0.0 S    0    0  fg uether          [uether]
+  115   115 root         RT   0  0.0 S    0    0  fg sblock-5-151    [sblock-5-151]
+  114   114 root         RT   0  0.0 S    0    0  fg sblock-5-16     [sblock-5-16]
+  113   113 root         RT   0  0.0 S    0    0  fg sblock-5-15     [sblock-5-15]
+  112   112 root         RT   0  0.0 S    0    0  fg sblock-5-14     [sblock-5-14]
+  111   111 root         RT   0  0.0 S    0    0  fg sblock-5-131    [sblock-5-131]
+  110   110 root         RT   0  0.0 S    0    0  fg sblock-5-17     [sblock-5-17]
+  109   109 root         RT   0  0.0 S    0    0  fg sblock-5-12     [sblock-5-12]
+  108   108 root         RT   0  0.0 S    0    0  fg sblock-5-11     [sblock-5-11]
+  107   107 root         20   0  0.0 S    0    0  fg saudio-5-14     [saudio-5-14]
+  106   106 root         RT   0  0.0 S    0    0  fg sblock-5-10     [sblock-5-10]
+  105   105 root          0 -20  0.0 S    0    0  fg saudio          [saudio]
+  104   104 root         RT   0  0.0 S    0    0  fg sblock-5-13     [sblock-5-13]
+  103   103 root         20   0  0.0 S    0    0  fg saudio-5-10     [saudio-5-10]
+  102   102 root          0 -20  0.0 S    0    0  fg saudio          [saudio]
+  101   101 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+   67    67 root         20   0  0.0 S    0    0  fg fsnotify_mark   [fsnotify_mark]
+   66    66 root          0 -20  0.0 S    0    0  fg vmstat          [vmstat]
+   46    46 root         RT   0  0.0 S    0    0  fg cfinteractive   [cfinteractive]
+   45    45 root          0 -20  0.0 S    0    0  fg sprdfgu_monitor [sprdfgu_monitor]
+   44    44 root         RT   0  0.0 S    0    0  fg irq/57-spi5.0   [irq/57-spi5.0]
+   43    43 root          0 -20  0.0 S    0    0  fg cfg80211        [cfg80211]
+   42    42 root          0 -20  0.0 S    0    0  fg devfreq_wq      [devfreq_wq]
+   41    41 root         20   0  0.0 D    0    0  fg mbox-send-threa [mbox-send-threa]
+   40    40 root         20   0  0.0 S    0    0  fg carveout_fb     [carveout_fb]
+   39    39 root         20   0  0.0 S    0    0  fg system          [system]
+   38    38 root         20   0  0.0 S    0    0  fg spi5            [spi5]
+   37    37 root         20   0  0.0 S    0    0  fg spi1            [spi1]
+   36    36 root         20   0  0.0 S    0    0  fg spi0            [spi0]
+   35    35 root         20   0  0.0 S    0    0  fg sprd_deep_print [sprd_deep_print]
+   34    34 root          0 -20  0.0 S    0    0  fg kblockd         [kblockd]
+   33    33 root          0 -20  0.0 S    0    0  fg bioset          [bioset]
+   32    32 root          0 -20  0.0 S    0    0  fg crypto          [crypto]
+   31    31 root          0 -20  0.0 S    0    0  fg writeback       [writeback]
+   30    30 root         RT   0  0.0 S    0    0  fg irq/23-70900000 [irq/23-70900000]
+   29    29 root         RT   0  0.0 S    0    0  fg irq/22-70800000 [irq/22-70800000]
+   28    28 root         RT   0  0.0 S    0    0  fg irq/21-70700000 [irq/21-70700000]
+   27    27 root         20   0  0.0 S    0    0  fg kworker/0:1     [kworker/0:1]
+   26    26 root         RT   0  0.0 S    0    0  fg irq/20-70500000 [irq/20-70500000]
+   25    25 root          0 -20  0.0 S    0    0  fg perf            [perf]
+   24    24 root          0 -20  0.0 S    0    0  fg suspend_sys_syn [suspend_sys_syn]
+   23    23 root         20   0  0.0 S    0    0  fg kdevtmpfs       [kdevtmpfs]
+   22    22 root          0 -20  0.0 S    0    0  fg kworker/3:0H    [kworker/3:0H]
+   20    20 root         20   0  0.0 S    0    0  fg ksoftirqd/3     [ksoftirqd/3]
+   19    19 root         RT   0  0.0 S    0    0  fg migration/3     [migration/3]
+   18    18 root          0 -20  0.0 S    0    0  fg kworker/2:0H    [kworker/2:0H]
+   15    15 root         RT   0  0.0 S    0    0  fg migration/2     [migration/2]
+   14    14 root          0 -20  0.0 S    0    0  fg kworker/1:0H    [kworker/1:0H]
+   12    12 root         20   0  0.0 S    0    0  fg ksoftirqd/1     [ksoftirqd/1]
+   11    11 root         RT   0  0.0 S    0    0  fg migration/1     [migration/1]
+   10    10 root         RT   0  0.0 S    0    0  fg migration/0     [migration/0]
+    9     9 root         20   0  0.0 S    0    0  fg rcu_bh          [rcu_bh]
+    8     8 root         20   0  0.0 S    0    0  fg rcu_sched       [rcu_sched]
+    7     7 root         20   0  0.0 S    0    0  fg rcu_preempt     [rcu_preempt]
+    5     5 root          0 -20  0.0 S    0    0  fg kworker/0:0H    [kworker/0:0H]
+    3     3 root         20   0  0.0 R    0    0  fg ksoftirqd/0     [ksoftirqd/0]
+    2     2 root         20   0  0.0 S    0    0  fg kthreadd        [kthreadd]
+    1     1 root         20   0  0.0 S 9.3M 1.4M  fg init            init

@@ -1,0 +1,617 @@
+vers,1
+ifv,com.android.statementservice,10021
+lib,android.test.mock (jar) /system/framework/android.test.mock.jar
+lib,com.android.location.provider (jar) /system/framework/com.android.location.provider.jar
+lib,com.android.future.usb.accessory (jar) /system/framework/com.android.future.usb.accessory.jar
+lib,android.ext.shared (apk) android.ext.shared
+lib,javax.obex (jar) /system/framework/javax.obex.jar
+lib,android.ext.services (apk) android.ext.services
+lib,android.test.runner (jar) /system/framework/android.test.runner.jar
+lib,org.apache.http.legacy (jar) /system/framework/org.apache.http.legacy.jar
+lib,com.android.media.remotedisplay (jar) /system/framework/com.android.media.remotedisplay.jar
+lib,com.android.mediadrm.signer (jar) /system/framework/com.android.mediadrm.signer.jar
+feat,android.hardware.sensor.proximity,0
+feat,android.hardware.sensor.accelerometer,0
+feat,android.hardware.faketouch,0
+feat,android.hardware.usb.accessory,0
+feat,android.software.backup,0
+feat,android.hardware.touchscreen,0
+feat,android.hardware.touchscreen.multitouch,0
+feat,vendor.sprd.hardware.faceid,0
+feat,android.software.print,0
+feat,android.software.activities_on_secondary_displays,0
+feat,android.software.voice_recognizers,0
+feat,android.software.picture_in_picture,0
+feat,android.hardware.fingerprint,0
+feat,android.hardware.opengles.aep,0
+feat,android.hardware.bluetooth,0
+feat,android.hardware.camera.autofocus,0
+feat,android.hardware.telephony.gsm,0
+feat,android.hardware.usb.host,0
+feat,android.hardware.audio.output,0
+feat,android.hardware.camera.flash,0
+feat,android.hardware.camera.front,0
+feat,android.hardware.screen.portrait,0
+feat,android.software.home_screen,0
+feat,android.hardware.microphone,0
+feat,android.software.autofill,0
+feat,android.hardware.bluetooth_le,0
+feat,android.hardware.sensor.compass,0
+feat,android.software.app_widgets,0
+feat,android.software.input_methods,0
+feat,android.hardware.sensor.light,0
+feat,android.hardware.vulkan.version,4194307
+feat,android.software.companion_device_setup,0
+feat,android.software.device_admin,0
+feat,android.hardware.camera,0
+feat,android.hardware.screen.landscape,0
+feat,android.hardware.ram.normal,0
+feat,android.software.managed_users,0
+feat,android.software.webview,0
+feat,android.hardware.camera.any,0
+feat,android.software.connectionservice,0
+feat,android.hardware.touchscreen.multitouch.distinct,0
+feat,android.hardware.location.network,0
+feat,android.software.cts,0
+feat,android.hardware.wifi.direct,0
+feat,android.software.live_wallpaper,0
+feat,android.hardware.location.gps,0
+feat,android.software.midi,0
+feat,android.hardware.wifi,0
+feat,android.hardware.location,0
+feat,android.hardware.vulkan.level,1
+feat,android.hardware.telephony,0
+pkg,com.android.cts.priv.ctsshim,10012,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.abupdate.fota_demo_iot,1000,24,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.telephony,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.engineermode,1000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.calendar,10019,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.media,10008,801,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.zmapp.sms,1000,211,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sohu.inputmethod.sogou,10088,1352,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.wallpapercropper,10023,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.zmapp.chat,10083,46,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,plugin.sprd.supportcpversion,10061,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.wakeupScreen,10068,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.documentsui,10010,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,android.auto_generated_rro__,10001,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.externalstorage,10007,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.divo.salesservices,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.htmlviewer,10044,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.companiondevicemanager,10031,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.mms.service,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.omacp,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.downloads,10008,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.messaging,10059,10002140,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.telecom.ringbackTonePlugin,10057,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.zmapp.album,1000,23,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.sprd.telephony.server,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.browser,10071,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,plugin.sprd.systemuidynanavigationbar,10067,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.inputmethod.pinyin,10080,21,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.aganisttest,1000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.soundrecorder,10043,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.contactsdefaultcontact,10002,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.defcontainer,10004,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.simlock,10060,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.downloads.ui,10008,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.pacprocessor,10048,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.validationtools,1000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.tencent.mm,10089,2040,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.android.certinstaller,10036,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.carrierconfig,10006,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.supportForFastScrollBar,10002,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,android,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.tencent.android.qqdownloader,10090,8412130,1684384518644,1684384518644,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.android.egg,10041,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.mtp,10008,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.backupconfirm,10003,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.contactsEFDisplay,10002,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.goodix.health,1000,1000000,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.tencent.wechatkids,10085,10601,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.sprd.quickcamera,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,addon.sprd.downloadprovider,10034,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.provision,10016,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.statementservice,10021,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.example.demo1,10091,1,1684384564445,1684384697367,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSliavpi,0,?
+pkg,com.android.messaging.smilplayer,10059,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.calendar,10070,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.systemui.theme.dark,10000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.pickUpToAnswerIncomingCall,10049,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.settings,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.sharedstoragebackup,10018,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.shakePhoneToStartRecording,10058,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.tencent.qqlite,10079,1002,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.android.webview,10074,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.inputdevices,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.flipToMute,10042,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.otaupdate,10050,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.speakerToHeadset,10062,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,addon.sprd.documentsui.plugindrm,10039,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.appclone,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.applock,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.musicfx,10011,10400,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.mmsfolderview,10059,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.cellbroadcastreceiver,10005,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,android.ext.shared,10040,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.uplmnsettings,1001,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.onetimeinitializer,10017,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.ztapp.callbyvideo,10072,222,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.server.telecom,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.supportapnsettings,10028,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.keychain,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.uasetting,10066,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.dialer,10002,150000,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.gallery3d,10026,40030,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.ss.android.ugc.aweme,10084,150301,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.spreadtrum.ims,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.spreadtrum.vce,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,android.ext.services,10009,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.calllogbackup,10002,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.powersavemodelauncher,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,2,android
+pkg,com.zmapp.supercleanmaster,10086,13,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSliavpi,0,?
+pkg,com.android.packageinstaller,10022,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.launcher,1000,11030,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.carrierdefaultapp,10032,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.watchos.contact,1000,102,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.proxyhandler,10015,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,addon.sprd.browser.storage,10064,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.maxRingingVolumeAndVibrate,10051,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprdst.contactsblacklist,10002,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.managedprovisioning,10014,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.systemuiaudioprofile,10065,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.udpDataStall,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.dreams.phototable,10053,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.cellbroadcastreceiver,10005,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.zyapp.health.heartrate,1000,3,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.divo.phone,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.spreadtrum.vowifi,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.smspush,10069,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.fileexploreraddon,10045,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.appsfolder,10027,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.bootres,1000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.wallpaper.livepicker,10055,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.market,10081,416,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.baidu.voicesearch,10073,635103,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.pressbrightness,10056,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.storagemanager,10025,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.settings,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.watch.iotcurrentdetect,1000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.spreadtrum.sgps,1000,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.antitheft,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,addon.sprd.browser.plugindrm,10029,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.systemupdate,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.cts.ctsshim,10037,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.zmapp.plugin.addfriend,10077,13,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.fadeDownRingtoneToVibrate,10038,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.timer,10078,3,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.ztapp.themestore,10082,305,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+pkg,com.android.vpndialogs,10024,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.watchos.setting,1000,14,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.zmapp.camera,1000,37,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,addon.sprd.browser.custom,10063,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.music,10054,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.phone,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.shell,2000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.ImsConnectionManager,1001,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.wallpaperbackup,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.blockednumber,10002,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.userdictionary,10002,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.emergency,10013,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.location.fused,1000,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.deskclock,1000,19,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.jx.weather,10076,20,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSliavpi,0,?
+pkg,com.android.systemui,10020,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.bluetoothmidiservice,10030,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.vodafonefeatures,10033,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.modemnotifier,10075,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.recents,10020,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.dynanavigationbar,10052,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.bluetooth,1002,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.spread.cachefdn,1001,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.sprd.fileexplorer,10047,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.providers.contacts,10002,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.android.captiveportallogin,10035,27,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,plugin.sprd.limitinfolength,10046,1,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsusLiavpi,0,?
+pkg,com.eg.android.AlipayGphone,10087,137,1230739200000,1230739200000,?
+pkg-splt,base,0
+pkg-usr,0,IbsuSLiavpi,0,?
+suid,10008,android.media
+suid,10020,android.uid.systemui
+suid,10005,com.android.cellbroadcastreceiver.plugins
+suid,1002,android.uid.bluetooth
+suid,10002,android.uid.shared
+suid,1000,android.uid.system
+suid,1001,android.uid.phone
+suid,2000,android.uid.shell
+suid,10019,android.uid.calendar
+suid,10059,com.android.messaging.plugins
+suid,10013,com.android.emergency.uid
+
+Package Changes:
+  Sequence number=38
+  User 0:
+    seq=0, package=com.sprd.powersavemodelauncher
+    seq=2, package=com.android.provision
+    seq=4, package=com.sohu.inputmethod.sogou
+    seq=5, package=com.android.carrierdefaultapp
+    seq=10, package=com.android.messaging
+    seq=12, package=com.android.calendar
+    seq=13, package=com.android.gallery3d
+    seq=14, package=com.tencent.android.qqdownloader
+    seq=35, package=com.ss.android.ugc.aweme
+    seq=36, package=com.example.demo1
+    seq=37, package=com.android.settings
+msg,2023/5/18 ??????4:32: No settings file; creating initial state
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=android
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=com.android.calllogbackup
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=com.android.providers.blockednumber
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=plugin.sprd.antitheft
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.appclone
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10005 name=com.sprd.cellbroadcastreceiver
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10008 name=com.android.providers.downloads
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10005 name=com.android.cellbroadcastreceiver
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.location.fused
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.sprd.ImsConnectionManager
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.android.mms.service
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.inputdevices
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.jx.watchos.setting
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10008 name=com.android.mtp
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.goodix.health
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10013 name=com.android.emergency
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.powersavemodelauncher
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.quickcamera
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.sprd.omacp
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.providers.settings
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10019 name=com.android.providers.calendar
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=com.android.providers.contacts
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 2000 name=com.android.shell
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10020 name=com.sprd.recents
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10008 name=com.android.providers.media
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.android.providers.telephony
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.spreadtrum.vowifi
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.android.sprd.telephony.server
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.spreadtrum.ims
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.jx.launcher
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.jx.watchos.contact
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.zmapp.sms
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.server.telecom
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=com.android.dialer
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10020 name=com.android.systemui
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.android.phone
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.settings
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.abupdate.fota_demo_iot
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.applock
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=plugin.sprdst.contactsblacklist
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.bootres
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1002 name=com.android.bluetooth
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10008 name=com.android.providers.downloads.ui
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=plugin.sprd.contactsdefaultcontact
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=plugin.sprd.contactsEFDisplay
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=plugin.sprd.supportForFastScrollBar
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.divo.salesservices
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.divo.phone
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.spread.cachefdn
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.keychain
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.watch.iotcurrentdetect
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.aganisttest
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10059 name=com.android.mmsfolderview
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.systemupdate
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1001 name=com.sprd.uplmnsettings
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10059 name=com.android.messaging.smilplayer
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10002 name=com.android.providers.userdictionary
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.udpDataStall
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.wallpaperbackup
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.spreadtrum.vce
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.zmapp.album
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.zmapp.camera
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.zyapp.health.heartrate
+msg,2023/5/18 ??????4:32: Adding duplicate user id: 10059 name=com.android.messaging
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.android.deskclock
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.spreadtrum.sgps
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.engineermode
+msg,2023/5/18 ??????4:32: Adding duplicate shared id: 1000 name=com.sprd.validationtools

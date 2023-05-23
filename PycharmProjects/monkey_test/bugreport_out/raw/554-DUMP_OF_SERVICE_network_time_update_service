@@ -1,0 +1,7 @@
+PollingIntervalMs: +1d0h0m0s0ms
+PollingIntervalShorterMs: +1m0s0ms
+TryAgainTimesMax: 3
+TimeErrorThresholdMs: +5s0ms
+TryAgainCounter: 0
+LastNtpFetchTime: +5m25s620ms
+--------- 0.003s was the duration of dumpsys network_time_update_service, ending at: 2023-05-22 17:52:10

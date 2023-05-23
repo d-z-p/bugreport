@@ -1,0 +1,3 @@
+TASK com.jx.launcher id=4 userId=0
+  ACTIVITY com.jx.launcher/.Launcher 48c3c31 pid=8668
+    Failure while dumping the activity: java.io.IOException: Timeout

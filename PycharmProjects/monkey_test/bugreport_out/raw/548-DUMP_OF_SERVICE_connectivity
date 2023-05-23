@@ -1,0 +1,108 @@
+NetworkFactories for: PhoneSwitcherNetworkRequstListener WIFI TelephonyNetworkFactory[0] WIFI_UT Ethernet
+
+Active default network: 100
+
+Current Networks:
+  NetworkAgentInfo{ ni{[type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: 3gnet, failover: false, available: true, roaming: false]}  network{100}  nethandle{429513165534}  lp{{InterfaceName: seth_lte0 LinkAddresses: [10.37.95.143/32,2408:8456:3800:980:1:2:9bb5:b1/128,]  Routes: [0.0.0.0/0 -> 10.37.95.143 seth_lte0,::/0 -> 2408:8456:3800:980:1:2:9bb5:b1 seth_lte0,10.37.95.143/32 -> 0.0.0.0 seth_lte0,2408:8456:3800:980:1:2:9bb5:b1/128 -> :: seth_lte0,] DnsAddresses: [120.80.80.80,221.5.88.88,2408:8888:0:8888::8,2408:8899:0:8899::8,] Domains: null MTU: 1500 TcpBufferSizes: 524288,1048576,2097152,262144,524288,1048576}}  nc{[ Transports: CELLULAR Capabilities: SUPL&XCAP&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&VALIDATED&FOREGROUND LinkUpBandwidth>=51200Kbps LinkDnBandwidth>=102400Kbps Specifier: <1>]}  Score{50}  everValidated{true}  lastValidated{true}  created{true} lingering{false} explicitlySelected{false} acceptUnvalidated{false} everCaptivePortalDetected{false} lastCaptivePortalDetected{false} clat{null} }
+    Requests: REQUEST:3 LISTEN:5 BACKGROUND_REQUEST:1 total:9
+      NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ LISTEN id=4, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ LISTEN id=5, [ Transports: CELLULAR|WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+      NetworkRequest [ LISTEN id=7, [] ]
+      NetworkRequest [ LISTEN id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+      NetworkRequest [ LISTEN id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+    Lingered:
+
+Network Requests:
+  uid/pid:10071/11446 NetworkRequest [ LISTEN id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  uid/pid:10071/11446 NetworkRequest [ LISTEN id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  uid/pid:1000/3369 NetworkRequest [ BACKGROUND_REQUEST id=2, [ Transports: CELLULAR Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:1000/3369 NetworkRequest [ REQUEST id=1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:1000/3369 NetworkRequest [ TRACK_DEFAULT id=3, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:1000/3369 NetworkRequest [ TRACK_DEFAULT id=6, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:10020/4188 NetworkRequest [ LISTEN id=7, [] ]
+  uid/pid:1000/3369 NetworkRequest [ LISTEN id=4, [ Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  uid/pid:1000/3369 NetworkRequest [ LISTEN id=5, [ Transports: CELLULAR|WIFI Capabilities: NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  
+mLegacyTypeTracker:
+  Supported types: 0 1 2 3 4 5 9 10 11 12 13 14 15 17
+  Current state:
+    0 NetworkAgentInfo [MOBILE (LTE) - 100] CONNECTED/CONNECTED
+
+
+Tethering:
+  Configuration:
+    tetherableUsbRegexs: [rndis0, usb0]
+    tetherableWifiRegexs: [wlan0]
+    tetherableBluetoothRegexs: [bt-pan]
+    isDunRequired: false
+    preferredUpstreamIfaceTypes: [ETHERNET, WIFI, BLUETOOTH, MOBILE]
+    dhcpRanges: [192.168.42.2, 192.168.42.254, 192.168.43.2, 192.168.43.254, 192.168.44.2, 192.168.44.254, 192.168.45.2, 192.168.45.254, 192.168.46.2, 192.168.46.254, 192.168.47.2, 192.168.47.254, 192.168.48.2, 192.168.48.254, 192.168.49.2, 192.168.49.254, 192.168.137.2, 192.168.137.254, 192.168.0.2, 192.168.0.254]
+    defaultIPv4DNS: [8.8.4.4, 8.8.8.8]
+  Tether state:
+    Upstream wanted: false
+    Current upstream interface: null
+  Hardware offload:
+    Offload HALs not started
+    Current upstream: null
+    Exempt prefixes: []
+    NAT timeout update callbacks received during the last offload session: 0
+    NAT timeout update netlink errors during the last offload session: 0
+  Log:
+    2023-05-18T04:34:59.368 - MARK constructed
+    2023-05-18T04:34:59.373 - [config] DUN check returned: DUN_UNSPECIFIED
+    2023-05-18T04:34:59.375 - [config] TetheringConfiguration{tetherableUsbRegexs:[rndis0,usb0] tetherableWifiRegexs:[wlan0] tetherableBluetoothRegexs:[bt-pan] isDunRequired:false preferredUpstreamIfaceTypes:[ETHERNET,WIFI,BLUETOOTH,MOBILE]}
+    2023-05-18T04:35:03.799 - USB bcast connected:true configured:true rndis:false
+    2023-05-18T12:35:08.948 - [config] DUN check returned: DUN_UNSPECIFIED
+    2023-05-18T12:35:08.950 - [config] TetheringConfiguration{tetherableUsbRegexs:[rndis0,usb0] tetherableWifiRegexs:[wlan0] tetherableBluetoothRegexs:[bt-pan] isDunRequired:false preferredUpstreamIfaceTypes:[ETHERNET,WIFI,BLUETOOTH,MOBILE]}
+    2023-05-18T12:35:11.353 - attempting to remove unknown iface (seth_lte0), ignoring
+    2023-05-18T12:35:11.355 - seth_lte0 is not a tetherable iface, ignoring
+    2023-05-18T12:35:12.139 - InitialState got CMD_UPSTREAM_CHANGED
+    2023-05-18T12:35:34.732 - USB bcast connected:true configured:true rndis:false
+    2023-05-18T12:35:36.295 - USB bcast connected:true configured:false rndis:false
+    2023-05-18T12:35:37.566 - USB bcast connected:false configured:false rndis:false
+    2023-05-18T12:35:40.653 - USB bcast connected:true configured:false rndis:false
+    2023-05-18T12:35:45.895 - USB bcast connected:true configured:true rndis:false
+
+Packet keepalives:
+
+Bad Wi-Fi avoidance: unrestricted
+
+mValidationLogs (most recent first):
+100 - 3gnet
+  2023-05-18T12:35:12.049 - isCaptivePortal: proxyInfo = null
+  2023-05-18T12:35:12.074 - isCaptivePortal: plmn at home,ignore validation!
+
+mNetworkRequestInfoLogs (most recent first):
+  2023-05-18T12:38:53.375 - REGISTER uid/pid:10071/11446 NetworkRequest [ LISTEN id=23, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:38:53.168 - REGISTER uid/pid:10071/11446 NetworkRequest [ LISTEN id=22, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:38:32.531 - RELEASE uid/pid:10071/10583 NetworkRequest [ LISTEN id=20, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:38:32.530 - RELEASE uid/pid:10071/10583 NetworkRequest [ LISTEN id=21, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:38:30.355 - REGISTER uid/pid:10071/10583 NetworkRequest [ LISTEN id=21, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:38:30.183 - REGISTER uid/pid:10071/10583 NetworkRequest [ LISTEN id=20, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:38:28.324 - RELEASE uid/pid:1000/4340 NetworkRequest [ LISTEN id=19, [] ]
+  2023-05-18T12:38:27.864 - REGISTER uid/pid:1000/4340 NetworkRequest [ LISTEN id=19, [] ]
+  2023-05-18T12:38:27.141 - RELEASE uid/pid:10089/10409 NetworkRequest [ TRACK_DEFAULT id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  2023-05-18T12:38:26.416 - REGISTER uid/pid:10089/10409 NetworkRequest [ TRACK_DEFAULT id=18, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  2023-05-18T12:38:08.821 - RELEASE uid/pid:10084/9245 NetworkRequest [ LISTEN id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+  2023-05-18T12:38:08.820 - RELEASE uid/pid:10084/9245 NetworkRequest [ LISTEN id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+  2023-05-18T12:38:08.468 - RELEASE uid/pid:10089/9018 NetworkRequest [ TRACK_DEFAULT id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  2023-05-18T12:38:06.617 - REGISTER uid/pid:10084/9245 NetworkRequest [ LISTEN id=17, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+  2023-05-18T12:38:06.195 - REGISTER uid/pid:10084/9245 NetworkRequest [ LISTEN id=16, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND] ]
+  2023-05-18T12:37:55.825 - REGISTER uid/pid:10089/9018 NetworkRequest [ TRACK_DEFAULT id=15, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+  2023-05-18T12:37:53.539 - RELEASE uid/pid:10073/6242 NetworkRequest [ LISTEN id=9, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED] ]
+  2023-05-18T12:37:44.240 - RELEASE uid/pid:1000/4340 NetworkRequest [ LISTEN id=14, [] ]
+  2023-05-18T12:37:43.022 - REGISTER uid/pid:1000/4340 NetworkRequest [ LISTEN id=14, [] ]
+  2023-05-18T12:37:23.612 - RELEASE uid/pid:1000/4340 NetworkRequest [ LISTEN id=13, [] ]
+
+mNetworkInfoBlockingLogs (most recent first):
+
+NetTransition WakeLock activity (most recent first):
+  total acquisitions: 0
+  total releases: 0
+  cumulative duration: 0s
+  longest duration: 0s
+--------- 0.013s was the duration of dumpsys connectivity, ending at: 2023-05-18 12:38:56

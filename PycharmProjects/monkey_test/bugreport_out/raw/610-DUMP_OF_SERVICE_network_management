@@ -1,0 +1,185 @@
+NetworkManagementService NativeDaemonConnector Log:
+2023-05-18T04:35:00.756 - RCV <- {200 4 Bandwidth command succeeeded}
+2023-05-18T04:35:00.761 - SND -> {5 strict enable}
+2023-05-18T04:35:00.774 - RCV <- {200 5 Strict command succeeded}
+2023-05-18T04:35:00.775 - SND -> {6 firewall enable blacklist}
+2023-05-18T04:35:00.777 - RCV <- {200 6 Firewall command succeeded}
+2023-05-18T04:35:00.785 - SND -> {7 bandwidth gettetherstats}
+2023-05-18T04:35:00.786 - RCV <- {200 7 Tethering stats list completed}
+2023-05-18T04:35:00.798 - SND -> {8 bandwidth setglobalalert 2097152}
+2023-05-18T04:35:00.807 - RCV <- {200 8 Bandwidth command succeeeded}
+2023-05-18T04:35:00.840 - SND -> {9 network permission user set NETWORK 10077 10078 10079 10085 10088 10089}
+2023-05-18T04:35:00.841 - RCV <- {200 9 success}
+2023-05-18T04:35:00.842 - SND -> {10 network permission user set SYSTEM 10000 10001 10002 10003 10004 10005 10006 10007 10008 10009}
+2023-05-18T04:35:00.846 - RCV <- {200 10 success}
+2023-05-18T04:35:00.848 - SND -> {11 network permission user set SYSTEM 10010 10011 10012 10013 10014 10015 10016 10017 10018 10019}
+2023-05-18T04:35:00.849 - RCV <- {200 11 success}
+2023-05-18T04:35:00.853 - SND -> {12 network permission user set SYSTEM 10020 10021 10022 10023 10024 10025 10026 10027 10028 10029}
+2023-05-18T04:35:00.854 - RCV <- {200 12 success}
+2023-05-18T04:35:00.855 - SND -> {13 network permission user set SYSTEM 10030 10031 10032 10033 10034 10035 10036 10037 10038 10039}
+2023-05-18T04:35:00.856 - RCV <- {200 13 success}
+2023-05-18T04:35:00.857 - SND -> {14 network permission user set SYSTEM 10040 10041 10042 10043 10044 10045 10046 10047 10048 10049}
+2023-05-18T04:35:00.857 - RCV <- {200 14 success}
+2023-05-18T04:35:00.858 - SND -> {16 network permission user set SYSTEM 10050 10051 10052 10053 10054 10055 10056 10057 10058 10059}
+2023-05-18T04:35:00.858 - SND -> {15 firewall enable_chain standby}
+2023-05-18T04:35:00.859 - RCV <- {200 16 success}
+2023-05-18T04:35:00.860 - SND -> {17 network permission user set SYSTEM 10060 10061 10062 10063 10064 2000 10065 10066 10067 10068}
+2023-05-18T04:35:00.863 - RCV <- {200 15 Firewall command succeeded}
+2023-05-18T04:35:00.863 - RCV <- {200 17 success}
+2023-05-18T04:35:00.870 - SND -> {18 network permission user set SYSTEM 10069 10070 10071 10072 10073 10074 10075 1000 1001 1002}
+2023-05-18T04:35:00.871 - RCV <- {200 18 success}
+2023-05-18T04:35:02.340 - SND -> {19 firewall disable_chain standby}
+2023-05-18T04:35:02.348 - RCV <- {200 19 Firewall command succeeded}
+2023-05-18T04:35:07.301 - SND -> {20 bandwidth setglobalalert 2097152}
+2023-05-18T04:35:07.303 - RCV <- {200 20 Bandwidth command succeeeded}
+2023-05-18T12:35:08.217 - SND -> {21 bandwidth setglobalalert 2097152}
+2023-05-18T12:35:08.218 - RCV <- {200 21 Bandwidth command succeeeded}
+2023-05-18T12:35:11.347 - RCV <- {616 Route updated fe80::/64 dev seth_lte0}
+2023-05-18T12:35:11.347 - RCV <- {600 Iface linkstate seth_lte0 down}
+2023-05-18T12:35:11.347 - RCV <- {600 Iface linkstate seth_lte0 up}
+2023-05-18T12:35:11.348 - RCV <- {614 Address updated fe80::1:2:9bb5:b1/64 seth_lte0 128 253}
+2023-05-18T12:35:11.348 - RCV <- {614 Address updated fe80::41c7:bec1:da0a:ea55/64 seth_lte0 128 253}
+2023-05-18T12:35:11.379 - RCV <- {616 Route updated ::/0 via fe80::5 dev seth_lte0}
+2023-05-18T12:35:11.379 - RCV <- {614 Address updated 2408:8456:3800:980:1:2:9bb5:b1/64 seth_lte0 0 0}
+2023-05-18T12:35:11.702 - SND -> {22 bandwidth gettetherstats}
+2023-05-18T12:35:11.702 - RCV <- {200 22 Tethering stats list completed}
+2023-05-18T12:35:11.746 - RCV <- {614 Address updated 10.37.95.143/32 seth_lte0 128 0}
+2023-05-18T12:35:11.752 - SND -> {23 bandwidth setglobalalert 2097152}
+2023-05-18T12:35:11.754 - RCV <- {200 23 Bandwidth command succeeeded}
+2023-05-18T12:35:11.838 - SND -> {24 network create 100}
+2023-05-18T12:35:11.839 - RCV <- {200 24 success}
+2023-05-18T12:35:11.841 - SND -> {25 network interface add 100 seth_lte0}
+2023-05-18T12:35:11.861 - RCV <- {200 25 success}
+2023-05-18T12:35:11.884 - SND -> {26 interface setmtu seth_lte0 1500}
+2023-05-18T12:35:11.885 - RCV <- {200 26 MTU changed}
+2023-05-18T12:35:11.891 - SND -> {27 network route add 100 seth_lte0 10.37.95.143/32}
+2023-05-18T12:35:11.895 - RCV <- {200 27 success}
+2023-05-18T12:35:11.901 - SND -> {28 network route add 100 seth_lte0 2408:8456:3800:980:1:2:9bb5:b1/128}
+2023-05-18T12:35:11.902 - RCV <- {200 28 success}
+2023-05-18T12:35:11.904 - SND -> {29 network route add 100 seth_lte0 0.0.0.0/0 10.37.95.143}
+2023-05-18T12:35:11.906 - RCV <- {200 29 success}
+2023-05-18T12:35:11.920 - SND -> {30 network route add 100 seth_lte0 ::/0 2408:8456:3800:980:1:2:9bb5:b1}
+2023-05-18T12:35:11.922 - RCV <- {400 30 addRoute() failed (Invalid argument)}
+2023-05-18T12:35:12 - SND -> {31 bandwidth gettetherstats}
+2023-05-18T12:35:12.001 - RCV <- {200 31 Tethering stats list completed}
+2023-05-18T12:35:12.029 - SND -> {32 bandwidth gettetherstats}
+2023-05-18T12:35:12.029 - RCV <- {200 32 Tethering stats list completed}
+2023-05-18T12:35:12.093 - SND -> {33 idletimer add seth_lte0 10 0}
+2023-05-18T12:35:12.097 - RCV <- {200 33 Add success}
+2023-05-18T12:35:12.108 - SND -> {34 network default set 100}
+2023-05-18T12:35:12.109 - RCV <- {200 34 success}
+2023-05-18T12:35:12.362 - RCV <- {614 Address updated 2408:8456:3800:980:1:2:9bb5:b1/64 seth_lte0 0 0}
+2023-05-18T12:35:13.014 - SND -> {35 bandwidth setiquota seth_lte0 9223372036854775807}
+2023-05-18T12:35:13.020 - RCV <- {200 35 Bandwidth command succeeeded}
+2023-05-18T12:35:13.022 - SND -> {36 bandwidth setglobalalert 2097152}
+2023-05-18T12:35:13.024 - RCV <- {200 36 Bandwidth command succeeeded}
+2023-05-18T12:35:13.025 - SND -> {37 bandwidth removeiquota seth_lte0}
+2023-05-18T12:35:13.031 - RCV <- {200 37 Bandwidth command succeeeded}
+2023-05-18T12:35:13.032 - SND -> {38 bandwidth setiquota seth_lte0 9223372036854775807}
+2023-05-18T12:35:13.036 - RCV <- {200 38 Bandwidth command succeeeded}
+2023-05-18T12:35:13.037 - SND -> {39 bandwidth setglobalalert 2097152}
+2023-05-18T12:35:13.038 - RCV <- {200 39 Bandwidth command succeeeded}
+2023-05-18T12:35:15.690 - RCV <- {614 Address updated 2408:8456:3800:980:1:2:9bb5:b1/64 seth_lte0 0 0}
+2023-05-18T12:35:18.698 - RCV <- {614 Address updated 2408:8456:3800:980:1:2:9bb5:b1/64 seth_lte0 0 0}
+2023-05-18T12:35:21.696 - RCV <- {614 Address updated 2408:8456:3800:980:1:2:9bb5:b1/64 seth_lte0 0 0}
+2023-05-18T12:35:34.133 - SND -> {40 network permission user set NETWORK 10090}
+2023-05-18T12:35:34.134 - RCV <- {200 40 success}
+2023-05-18T12:35:37.559 - SND -> {41 firewall enable_chain standby}
+2023-05-18T12:35:37.565 - RCV <- {200 41 Firewall command succeeded}
+2023-05-18T12:35:38.331 - SND -> {42 firewall disable_chain standby}
+2023-05-18T12:35:38.335 - RCV <- {200 42 Firewall command succeeded}
+2023-05-18T12:35:38.879 - SND -> {43 firewall enable_chain standby}
+2023-05-18T12:35:38.884 - RCV <- {200 43 Firewall command succeeded}
+2023-05-18T12:35:40.329 - SND -> {44 firewall disable_chain standby}
+2023-05-18T12:35:40.333 - RCV <- {200 44 Firewall command succeeded}
+2023-05-18T12:35:53.607 - RCV <- {613 IfaceClass idle 0 190020065247}
+2023-05-18T12:36:03.215 - RCV <- {613 IfaceClass active 0 199628041048 1000}
+2023-05-18T12:36:23.894 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:36:23.898 - SND -> {45 bandwidth gettetherstats}
+2023-05-18T12:36:23.899 - RCV <- {200 45 Tethering stats list completed}
+2023-05-18T12:36:23.927 - SND -> {46 bandwidth setglobalalert 2097152}
+2023-05-18T12:36:23.928 - RCV <- {200 46 Bandwidth command succeeeded}
+2023-05-18T12:36:26.559 - SND -> {47 bandwidth addniceapps 10008}
+2023-05-18T12:36:26.564 - RCV <- {200 47 Bandwidth command succeeeded}
+2023-05-18T12:36:26.565 - SND -> {48 bandwidth addniceapps 10089}
+2023-05-18T12:36:26.575 - RCV <- {200 48 Bandwidth command succeeeded}
+2023-05-18T12:36:26.582 - SND -> {49 bandwidth addniceapps 10073}
+2023-05-18T12:36:26.588 - RCV <- {200 49 Bandwidth command succeeeded}
+2023-05-18T12:36:26.661 - SND -> {50 interface list}
+2023-05-18T12:36:26.662 - RCV <- {110 50 vowifi_tun0}
+2023-05-18T12:36:26.663 - RCV <- {110 50 lo}
+2023-05-18T12:36:26.678 - RCV <- {110 50 sit0}
+2023-05-18T12:36:26.691 - RCV <- {110 50 dummy0}
+2023-05-18T12:36:26.691 - RCV <- {110 50 seth_lte7}
+2023-05-18T12:36:26.692 - RCV <- {110 50 seth_lte6}
+2023-05-18T12:36:26.692 - RCV <- {110 50 seth_lte5}
+2023-05-18T12:36:26.701 - RCV <- {110 50 seth_lte4}
+2023-05-18T12:36:26.706 - RCV <- {110 50 seth_lte3}
+2023-05-18T12:36:26.708 - RCV <- {110 50 seth_lte2}
+2023-05-18T12:36:26.709 - RCV <- {110 50 seth_lte1}
+2023-05-18T12:36:26.710 - RCV <- {110 50 seth_lte0}
+2023-05-18T12:36:26.710 - RCV <- {110 50 ip6tnl0}
+2023-05-18T12:36:26.712 - RCV <- {200 50 Interface list completed}
+2023-05-18T12:36:27.138 - SND -> {51 bandwidth removeniceapps 10089}
+2023-05-18T12:36:27.144 - RCV <- {200 51 Bandwidth command succeeeded}
+2023-05-18T12:36:27.145 - SND -> {52 bandwidth removeniceapps 10073}
+2023-05-18T12:36:27.153 - RCV <- {200 52 Bandwidth command succeeeded}
+2023-05-18T12:38:04.286 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:04.291 - SND -> {53 bandwidth gettetherstats}
+2023-05-18T12:38:04.292 - RCV <- {200 53 Tethering stats list completed}
+2023-05-18T12:38:04.338 - SND -> {54 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:04.339 - RCV <- {200 54 Bandwidth command succeeeded}
+2023-05-18T12:38:05.355 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:05.357 - SND -> {55 bandwidth gettetherstats}
+2023-05-18T12:38:05.358 - RCV <- {200 55 Tethering stats list completed}
+2023-05-18T12:38:05.374 - SND -> {56 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:05.375 - RCV <- {200 56 Bandwidth command succeeeded}
+2023-05-18T12:38:06.243 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:06.246 - SND -> {57 bandwidth gettetherstats}
+2023-05-18T12:38:06.246 - RCV <- {200 57 Tethering stats list completed}
+2023-05-18T12:38:06.265 - SND -> {58 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:06.267 - RCV <- {200 58 Bandwidth command succeeeded}
+2023-05-18T12:38:07.231 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:07.232 - SND -> {59 bandwidth gettetherstats}
+2023-05-18T12:38:07.233 - RCV <- {200 59 Tethering stats list completed}
+2023-05-18T12:38:07.259 - SND -> {60 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:07.260 - RCV <- {200 60 Bandwidth command succeeeded}
+2023-05-18T12:38:08.194 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:08.203 - SND -> {61 bandwidth gettetherstats}
+2023-05-18T12:38:08.204 - RCV <- {200 61 Tethering stats list completed}
+2023-05-18T12:38:08.284 - SND -> {62 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:08.286 - RCV <- {200 62 Bandwidth command succeeeded}
+2023-05-18T12:38:44.038 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:44.045 - SND -> {63 bandwidth gettetherstats}
+2023-05-18T12:38:44.046 - RCV <- {200 63 Tethering stats list completed}
+2023-05-18T12:38:44.069 - SND -> {64 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:44.071 - RCV <- {200 64 Bandwidth command succeeeded}
+2023-05-18T12:38:54.362 - RCV <- {601 limit alert globalAlert seth_lte0}
+2023-05-18T12:38:54.364 - SND -> {65 bandwidth gettetherstats}
+2023-05-18T12:38:54.364 - RCV <- {200 65 Tethering stats list completed}
+2023-05-18T12:38:54.402 - SND -> {66 bandwidth setglobalalert 2097152}
+2023-05-18T12:38:54.404 - RCV <- {200 66 Bandwidth command succeeeded}
+
+Pending requests:
+
+Bandwidth control enabled: true
+mMobileActivityFromRadio=false mLastPowerStateFromRadio=3
+mNetworkActive=true
+Active quota ifaces: {seth_lte0=9223372036854775807}
+Active alert ifaces: {}
+Data saver mode: false
+UID bandwith control blacklist rule: []
+UID bandwith control whitelist rule: [10008]
+UID firewall  rule: []
+UID firewall standby chain enabled: false
+UID firewall standby rule: []
+UID firewall dozable chain enabled: false
+UID firewall dozable rule: []
+UID firewall powersave chain enabled: false
+UID firewall powersave rule: []
+Idle timers:
+  seth_lte0:
+    timeout=10 type=0 networkCount=1
+Firewall enabled: false
+Netd service status: alive
+--------- 0.002s was the duration of dumpsys network_management, ending at: 2023-05-18 12:38:57

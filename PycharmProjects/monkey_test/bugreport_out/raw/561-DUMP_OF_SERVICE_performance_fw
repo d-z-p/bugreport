@@ -1,0 +1,259 @@
+Unknown argument: -a; use -h for help
+Dump performance:
+USAGE STATICS:
+----------------------------
+habit->UID:0|pkg:com.divo.phone|count:3|LastUsed:1546301437561|totalForegroundTime95895|launchTime:404;
+dump com.divo.phone Relevance:
+---type 0---
+com.android.systemui  count :1index2
+com.jx.launcher  count :3index1
+com.android.settings  count :4index0
+---type 1---
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.packageinstaller|count:2|LastUsed:1684749084007|totalForegroundTime1224|launchTime:833;
+dump com.android.packageinstaller Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.sms  count :1index10
+com.zmapp.chat  count :1index9
+com.example.demo1  count :1index8
+com.android.systemui  count :9index0
+com.zmapp.plugin.addfriend  count :1index7
+com.yingyonghui.market  count :2index5
+com.jx.launcher  count :2index4
+com.tencent.mm  count :3index2
+com.jx.childlike  count :3index1
+com.ztapp.callbyvideo  count :1index6
+com.android.settings  count :2index3
+---type 4---
+habit->UID:0|pkg:com.tencent.mm|count:7|LastUsed:1684749120892|totalForegroundTime11764|launchTime:1907;1242;1827;
+dump com.tencent.mm Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.chat  count :1index4
+com.android.systemui  count :4index0
+com.zmapp.plugin.addfriend  count :1index3
+com.jx.childlike  count :2index1
+com.android.settings  count :1index2
+---type 4---
+habit->UID:0|pkg:com.ztapp.callbyvideo|count:1|LastUsed:1684749087842|totalForegroundTime1694|launchTime:661;
+dump com.ztapp.callbyvideo Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.sms  count :1index9
+com.zmapp.chat  count :1index8
+com.example.demo1  count :1index7
+com.android.systemui  count :8index0
+com.zmapp.plugin.addfriend  count :1index6
+com.yingyonghui.market  count :2index4
+com.jx.launcher  count :2index3
+com.tencent.mm  count :3index1
+com.jx.childlike  count :2index2
+com.android.settings  count :1index5
+---type 4---
+habit->UID:0|pkg:com.zmapp.sms|count:2|LastUsed:1684749089288|totalForegroundTime1279|launchTime:444;141;
+dump com.zmapp.sms Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.chat  count :1index8
+com.example.demo1  count :1index7
+com.android.systemui  count :8index0
+com.zmapp.plugin.addfriend  count :1index6
+com.yingyonghui.market  count :2index4
+com.jx.launcher  count :2index3
+com.tencent.mm  count :3index1
+com.jx.childlike  count :2index2
+com.android.settings  count :1index5
+---type 4---
+habit->UID:0|pkg:com.zmapp.chat|count:1|LastUsed:1684749125721|totalForegroundTime2744|launchTime:2071;
+dump com.zmapp.chat Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.android.systemui  count :2index1
+com.zmapp.plugin.addfriend  count :1index2
+com.jx.childlike  count :2index0
+---type 4---
+habit->UID:0|pkg:com.example.demo1|count:2|LastUsed:1684749097743|totalForegroundTime1827|launchTime:818;300;
+dump com.example.demo1 Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.chat  count :1index7
+com.android.systemui  count :6index0
+com.zmapp.plugin.addfriend  count :1index6
+com.jx.launcher  count :2index3
+com.yingyonghui.market  count :1index5
+com.tencent.mm  count :3index1
+com.jx.childlike  count :2index2
+com.android.settings  count :1index4
+---type 4---
+habit->UID:0|pkg:com.jx.inputmethod.pinyin|count:0|LastUsed:0|totalForegroundTime0|launchTime:
+dump com.jx.inputmethod.pinyin Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.systemui|count:10|LastUsed:1684749129808|totalForegroundTime8893|launchTime:620;276;164;169;349;658;161;297;181;
+dump com.android.systemui Relevance:
+---type 0---
+com.divo.phone  count :1index2
+com.jx.launcher  count :2index0
+com.android.settings  count :1index1
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.sms  count :1index10
+com.zmapp.chat  count :1index9
+com.example.demo1  count :1index8
+com.zmapp.plugin.addfriend  count :1index7
+com.android.packageinstaller  count :1index6
+com.yingyonghui.market  count :2index4
+com.jx.launcher  count :2index3
+com.tencent.mm  count :3index1
+com.jx.childlike  count :3index0
+com.ztapp.callbyvideo  count :1index5
+com.android.settings  count :2index2
+---type 4---
+habit->UID:0|pkg:com.zmapp.plugin.addfriend|count:1|LastUsed:1684749128069|totalForegroundTime932|launchTime:1985;
+dump com.zmapp.plugin.addfriend Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.android.systemui  count :1index1
+com.jx.childlike  count :2index0
+---type 4---
+habit->UID:0|pkg:com.jx.launcher|count:11|LastUsed:1684749099893|totalForegroundTime82167|launchTime:894;140;253;283;169;
+dump com.jx.launcher Relevance:
+---type 0---
+com.divo.phone  count :2index1
+com.android.systemui  count :1index2
+com.android.settings  count :4index0
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.chat  count :1index6
+com.android.systemui  count :6index0
+com.zmapp.plugin.addfriend  count :1index5
+com.yingyonghui.market  count :1index4
+com.tencent.mm  count :3index1
+com.jx.childlike  count :2index2
+com.android.settings  count :1index3
+---type 4---
+com.divo.phone  count :1index1
+com.android.settings  count :1index0
+habit->UID:0|pkg:com.yingyonghui.market|count:2|LastUsed:1684749103444|totalForegroundTime8132|launchTime:1481;
+dump com.yingyonghui.market Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.chat  count :1index7
+com.example.demo1  count :1index6
+com.android.systemui  count :7index0
+com.zmapp.plugin.addfriend  count :1index5
+com.jx.launcher  count :2index3
+com.tencent.mm  count :3index1
+com.jx.childlike  count :2index2
+com.android.settings  count :1index4
+---type 4---
+habit->UID:0|pkg:com.android.provision|count:1|LastUsed:1546301249662|totalForegroundTime116|launchTime:
+dump com.android.provision Relevance:
+---type 0---
+com.divo.phone  count :2index0
+com.android.systemui  count :1index2
+com.android.settings  count :1index1
+---type 1---
+---type 2---
+---type 3---
+---type 4---
+com.divo.phone  count :1index2
+com.jx.launcher  count :2index0
+com.android.settings  count :1index1
+habit->UID:0|pkg:com.jx.childlike|count:4|LastUsed:1684749128692|totalForegroundTime989|launchTime:
+dump com.jx.childlike Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.sms  count :1index10
+com.zmapp.chat  count :1index9
+com.example.demo1  count :1index8
+com.android.systemui  count :9index0
+com.zmapp.plugin.addfriend  count :1index7
+com.android.packageinstaller  count :2index5
+com.yingyonghui.market  count :2index4
+com.jx.launcher  count :2index3
+com.tencent.mm  count :3index1
+com.ztapp.callbyvideo  count :1index6
+com.android.settings  count :2index2
+---type 4---
+habit->UID:0|pkg:com.android.settings|count:17|LastUsed:1684749122729|totalForegroundTime138447658986|launchTime:317;690;525;126;142;282;258;351;592;
+dump com.android.settings Relevance:
+---type 0---
+com.divo.phone  count :2index1
+com.android.systemui  count :1index2
+com.jx.launcher  count :3index0
+---type 1---
+---type 2---
+---type 3---
+com.zmapp.sms  count :1index10
+com.zmapp.chat  count :1index9
+com.example.demo1  count :1index8
+com.android.systemui  count :9index0
+com.zmapp.plugin.addfriend  count :1index7
+com.android.packageinstaller  count :2index5
+com.yingyonghui.market  count :2index4
+com.jx.launcher  count :2index3
+com.tencent.mm  count :3index2
+com.jx.childlike  count :4index1
+com.ztapp.callbyvideo  count :1index6
+---type 4---
+com.divo.phone  count :1index2
+com.jx.launcher  count :2index0
+com.android.provision  count :1index1
+PRIO ADJ:
+RamPolicy:
+----------------------------
+Process-reclaim current enabledtrue
+Dump MemoryConstant:
+----------------------------
+--->lowCpuLoad  : 30
+--->emergencyMemory  : 170
+--->protect_lru_limit  : 30 40 0
+--->normalMemory  : 300
+--->bigMemCriticalMemory  : 200
+--->highCpuLoad  : 60
+--->averageAppUss  : 20
+--->defaultCriticalMemory  : 150
+----------------------------
+Dump MemoryScene:
+----------------------------
+scenedefault --> policy:kill
+sceneBigMem --> policy:quickkill
+sceneidle --> policy:reclaim
+sceneEmergency --> policy:reclaimPersist
+----------------------------
+----------------------------
+PRIO SCHED:
+CURRENT SCHED BOOST ->null
+Dump ScheduleAdjust:
+----------------------------
+pkg:com.kiloo.subwaysurf|NAME:com.kiloo.subwaysurf|Threads:UnityMain UnityGfxDeviceW 
+pkg:com.tencent.mm|NAME:com.tencent.mm:appbrand0|Threads:GLThread 
+----------------------------
+--------- 0.026s was the duration of dumpsys performance_fw, ending at: 2023-05-22 17:52:11

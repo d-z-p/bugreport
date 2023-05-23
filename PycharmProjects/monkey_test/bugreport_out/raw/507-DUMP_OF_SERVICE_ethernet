@@ -1,0 +1,17 @@
+Current Ethernet state: 
+  Network Requested: true
+  Not tracking any interface
+  
+  NetworkInfo: [type: Ethernet[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), failover: false, available: false, roaming: false]
+  LinkProperties: {LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null MTU: 0}
+  NetworkAgent: null
+
+Stored Ethernet configuration: 
+  IP assignment: DHCP
+  Proxy settings: NONE
+  
+Handler:
+  EthernetServiceImplHandler (android.os.Handler) {7534565} @ 937852
+  EthernetServiceImpl  Looper (EthernetServiceThread, tid 150) {eb7823a}
+  EthernetServiceImpl    (Total messages: 0, polling=true, quitting=false)
+--------- 0.004s was the duration of dumpsys ethernet, ending at: 2023-05-22 17:52:09

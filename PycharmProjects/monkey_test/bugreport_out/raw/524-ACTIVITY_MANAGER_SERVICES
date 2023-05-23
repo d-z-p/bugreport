@@ -1,0 +1,849 @@
+  User 0 active services:
+  * ServiceRecord{49dcf76 u0 com.android.bluetooth/.hid.HidService}
+    intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-3m53s626ms startingBgTimeout=--
+    lastActivity=-3m53s626ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7ab7977}:
+      intent={act=android.bluetooth.IBluetoothInputDevice cmp=com.android.bluetooth/.hid.HidService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{c0f29e4 ProcessRecord{9874918 4188:com.android.systemui/u0a20}}
+        Per-process Connections:
+          ConnectionRecord{f818156 u0 com.android.bluetooth/.hid.HidService:@76f9f71}
+    All Connections:
+      ConnectionRecord{f818156 u0 com.android.bluetooth/.hid.HidService:@76f9f71}
+
+  * ServiceRecord{b85967f u0 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService}
+    intent={act=com.android.sprd.telephony.server.RADIOINTERACTOR_SERVICE pkg=com.android.sprd.telephony.server}
+    packageName=com.android.sprd.telephony.server
+    processName=com.android.phone
+    baseDir=/system/priv-app/radio_interactor_service/radio_interactor_service.apk
+    dataDir=/data/user/0/com.android.sprd.telephony.server
+    app=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    createTime=-3m54s757ms startingBgTimeout=--
+    lastActivity=-3m50s427ms restartTime=-3m51s193ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b907e4d CREATE}:
+      intent={act=com.android.sprd.telephony.server.RADIOINTERACTOR_SERVICE pkg=com.android.sprd.telephony.server}
+      binder=android.os.BinderProxy@f8f6d02
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{4d43613 ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{1a85f19 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@a421e60}
+          ConnectionRecord{889df9c u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@add130f}
+          ConnectionRecord{c11ce48 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@9e220eb}
+          ConnectionRecord{c4bdc57 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@68871d6}
+          ConnectionRecord{d199b9e u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@29a15d9}
+          ConnectionRecord{eb73eb3 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@aacb422}
+      * Client AppBindRecord{c870050 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{7d651cd u0 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@4421b64}
+    All Connections:
+      ConnectionRecord{d199b9e u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@29a15d9}
+      ConnectionRecord{7d651cd u0 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@4421b64}
+      ConnectionRecord{c4bdc57 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@68871d6}
+      ConnectionRecord{c11ce48 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@9e220eb}
+      ConnectionRecord{1a85f19 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@a421e60}
+      ConnectionRecord{eb73eb3 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@aacb422}
+      ConnectionRecord{889df9c u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@add130f}
+
+  * ServiceRecord{3adabde u0 com.goodix.health/.service.GoodixHealthLocalService}
+    intent={cmp=com.goodix.health/.service.GoodixHealthLocalService}
+    packageName=com.goodix.health
+    processName=com.goodix.health
+    baseDir=/system/priv-app/Fakeoxygen/Fakeoxygen.apk
+    dataDir=/data/user/0/com.goodix.health
+    app=ProcessRecord{283a263 9764:com.goodix.health/1000}
+    createTime=-47s289ms startingBgTimeout=--
+    lastActivity=-47s289ms restartTime=-47s289ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{d1db1c9 CREATE}:
+      intent={cmp=com.goodix.health/.service.GoodixHealthLocalService}
+      binder=android.os.BinderProxy@c4620ce
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{52eebef ProcessRecord{283a263 9764:com.goodix.health/1000}}
+        Per-process Connections:
+          ConnectionRecord{42f3f19 u0 CR com.goodix.health/.service.GoodixHealthLocalService:@9187e60}
+    All Connections:
+      ConnectionRecord{42f3f19 u0 CR com.goodix.health/.service.GoodixHealthLocalService:@9187e60}
+
+  * ServiceRecord{3edac u0 com.sohu.inputmethod.sogou/.SogouIME}
+    intent={act=android.view.InputMethod cmp=com.sohu.inputmethod.sogou/.SogouIME}
+    packageName=com.sohu.inputmethod.sogou
+    processName=com.sohu.inputmethod.sogou
+    permission=android.permission.BIND_INPUT_METHOD
+    baseDir=/system/preloadapp/Sougou/Sougou.apk
+    dataDir=/data/user/0/com.sohu.inputmethod.sogou
+    app=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    createTime=-3m49s422ms startingBgTimeout=--
+    lastActivity=-30s214ms restartTime=-3m49s331ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{573b249 CREATE}:
+      intent={act=android.view.InputMethod cmp=com.sohu.inputmethod.sogou/.SogouIME}
+      binder=android.os.BinderProxy@b574e
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{dc2206f ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{8eab014 u0 CR !FG IMPB !VIS com.sohu.inputmethod.sogou/.SogouIME:@7257a67}
+    All Connections:
+      ConnectionRecord{8eab014 u0 CR !FG IMPB !VIS com.sohu.inputmethod.sogou/.SogouIME:@7257a67}
+
+  * ServiceRecord{90e2a4d u0 com.spreadtrum.vowifi/.service.SecurityService}
+    intent={act=com.android.ims.internal.IVoWifiSecurity cmp=com.spreadtrum.vowifi/.service.SecurityService}
+    packageName=com.spreadtrum.vowifi
+    processName=com.spreadtrum.vowifi
+    baseDir=/system/priv-app/SprdVoWifiService/SprdVoWifiService.apk
+    dataDir=/data/user_de/0/com.spreadtrum.vowifi
+    app=ProcessRecord{d7e2238 4883:com.spreadtrum.vowifi/1000}
+    createTime=-3m49s751ms startingBgTimeout=--
+    lastActivity=-3m49s693ms restartTime=-3m49s693ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{663d17c CREATE}:
+      intent={act=com.android.ims.internal.IVoWifiSecurity cmp=com.spreadtrum.vowifi/.service.SecurityService}
+      binder=android.os.BinderProxy@43c2a05
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7499a5a ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{af5eeaa u0 CR com.spreadtrum.vowifi/.service.SecurityService:@66edd95}
+    All Connections:
+      ConnectionRecord{af5eeaa u0 CR com.spreadtrum.vowifi/.service.SecurityService:@66edd95}
+
+  * ServiceRecord{8fdb9a3 u0 com.android.music/.MediaPlaybackService}
+    intent={cmp=com.android.music/.MediaPlaybackService}
+    packageName=com.android.music
+    processName=com.android.music
+    baseDir=/system/app/Music/Music.apk
+    dataDir=/data/user/0/com.android.music
+    app=ProcessRecord{9a9e4a0 9929:com.android.music/u0a54}
+    createTime=-44s224ms startingBgTimeout=--
+    lastActivity=-42s481ms restartTime=-44s223ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=9
+    Bindings:
+    * IntentBindRecord{ab776fc}:
+      intent={cmp=com.android.music/.MediaPlaybackService}
+      binder=android.os.BinderProxy@946a185
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a277bda ProcessRecord{9a9e4a0 9929:com.android.music/u0a54}}
+        Per-process Connections:
+          ConnectionRecord{f96f50c u0 com.android.music/.MediaPlaybackService:@3a4583f}
+    All Connections:
+      ConnectionRecord{f96f50c u0 com.android.music/.MediaPlaybackService:@3a4583f}
+
+  * ServiceRecord{f22819 u0 com.sprd.applock/.AppLockService}
+    intent={cmp=com.sprd.applock/.AppLockService}
+    packageName=com.sprd.applock
+    processName=com.sprd.applock
+    baseDir=/system/app/ApplicationLock/ApplicationLock.apk
+    dataDir=/data/user/0/com.sprd.applock
+    app=ProcessRecord{2fa548b 4559:com.sprd.applock/1000}
+    createTime=-3m51s494ms startingBgTimeout=--
+    lastActivity=-3m51s494ms restartTime=-3m51s494ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{c6ff82 u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{9874918 4188:com.android.systemui/u0a20}
+    createTime=-3m55s695ms startingBgTimeout=--
+    lastActivity=-3m55s585ms restartTime=-3m55s585ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{8da8968 CREATE}:
+      intent={flg=0x100 cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@95a6181
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{ff70226 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{4d7ee15 u0 CR com.android.systemui/.keyguard.KeyguardService:@62dbcc}
+    All Connections:
+      ConnectionRecord{4d7ee15 u0 CR com.android.systemui/.keyguard.KeyguardService:@62dbcc}
+
+  * ServiceRecord{ca74125 u0 com.jx.launcher/com.zmapp.aidldemo.WatchInfoService}
+    intent={act=com.zmapp.aidl.watchinfo pkg=com.jx.launcher}
+    packageName=com.jx.launcher
+    processName=com.jx.launcher
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    app=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    createTime=-46s613ms startingBgTimeout=--
+    lastActivity=-7s169ms restartTime=-46s613ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{f28580b CREATE}:
+      intent={act=com.zmapp.aidl.watchinfo pkg=com.jx.launcher}
+      binder=android.os.BinderProxy@28306e8
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d54d101 ProcessRecord{187cfe5 10465:com.jx.watchos.contact/1000}}
+        Per-process Connections:
+          ConnectionRecord{8a1d6b u0 CR com.jx.launcher/com.zmapp.aidldemo.WatchInfoService:@8497aba}
+    All Connections:
+      ConnectionRecord{8a1d6b u0 CR com.jx.launcher/com.zmapp.aidldemo.WatchInfoService:@8497aba}
+
+  * ServiceRecord{defcefd u0 com.spreadtrum.ims/.ImsService}
+    intent={act=android.telephony.ims.ImsService cmp=com.spreadtrum.ims/.ImsService}
+    packageName=com.spreadtrum.ims
+    processName=com.android.phone
+    permission=android.permission.BIND_IMS_SERVICE
+    baseDir=/system/priv-app/ims/ims.apk
+    dataDir=/data/user_de/0/com.spreadtrum.ims
+    app=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    createTime=-3m50s366ms startingBgTimeout=--
+    lastActivity=-3m49s822ms restartTime=-3m50s366ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{c11ab2 CREATE}:
+      intent={act=android.telephony.ims.ImsService cmp=com.spreadtrum.ims/.ImsService}
+      binder=android.os.BinderProxy@6ca03
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5c31d80 ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{9eb8f54 u0 CR IMP FGS com.spreadtrum.ims/.ImsService:@ead4ea7}
+    All Connections:
+      ConnectionRecord{9eb8f54 u0 CR IMP FGS com.spreadtrum.ims/.ImsService:@ead4ea7}
+
+  * ServiceRecord{a856682 u0 com.spreadtrum.vowifi/.service.SmsService}
+    intent={act=com.android.internal.telephony.vowifisms.IVowifiSms cmp=com.spreadtrum.vowifi/.service.SmsService}
+    packageName=com.spreadtrum.vowifi
+    processName=com.spreadtrum.vowifi
+    baseDir=/system/priv-app/SprdVoWifiService/SprdVoWifiService.apk
+    dataDir=/data/user_de/0/com.spreadtrum.vowifi
+    app=ProcessRecord{d7e2238 4883:com.spreadtrum.vowifi/1000}
+    createTime=-3m47s11ms startingBgTimeout=--
+    lastActivity=-3m44s772ms restartTime=-3m47s11ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{810bfb9 CREATE}:
+      intent={act=com.android.internal.telephony.vowifisms.IVowifiSms cmp=com.spreadtrum.vowifi/.service.SmsService}
+      binder=android.os.BinderProxy@ba22ffe
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b22035f ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{3939e4a u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+          ConnectionRecord{8246dcd u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+          ConnectionRecord{b7062ea u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+    All Connections:
+      ConnectionRecord{8246dcd u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+      ConnectionRecord{b7062ea u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+      ConnectionRecord{3939e4a u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+
+  * ServiceRecord{fe081f9 u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{9874918 4188:com.android.systemui/u0a20}
+    createTime=-3m55s463ms startingBgTimeout=--
+    lastActivity=-3m55s463ms restartTime=-3m55s463ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{4fc91ac CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@af49e75
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5ed4e0a ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{24b80c0 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@e31b243}
+    All Connections:
+      ConnectionRecord{24b80c0 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@e31b243}
+
+  * ServiceRecord{61c4b76 u0 com.spreadtrum.vowifi/.service.CallService}
+    intent={act=com.android.ims.internal.IVoWifiCall cmp=com.spreadtrum.vowifi/.service.CallService}
+    packageName=com.spreadtrum.vowifi
+    processName=com.spreadtrum.vowifi
+    baseDir=/system/priv-app/SprdVoWifiService/SprdVoWifiService.apk
+    dataDir=/data/user_de/0/com.spreadtrum.vowifi
+    app=ProcessRecord{d7e2238 4883:com.spreadtrum.vowifi/1000}
+    createTime=-3m49s790ms startingBgTimeout=--
+    lastActivity=-3m49s699ms restartTime=-3m49s699ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{98d767b CREATE}:
+      intent={act=com.android.ims.internal.IVoWifiCall cmp=com.spreadtrum.vowifi/.service.CallService}
+      binder=android.os.BinderProxy@9771c98
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{7fdacf1 ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{fc00a23 u0 CR com.spreadtrum.vowifi/.service.CallService:@9d4c752}
+    All Connections:
+      ConnectionRecord{fc00a23 u0 CR com.spreadtrum.vowifi/.service.CallService:@9d4c752}
+
+  * ServiceRecord{51a40d6 u0 com.android.bluetooth/.pbap.BluetoothPbapService}
+    intent={act=android.bluetooth.IBluetoothPbap cmp=com.android.bluetooth/.pbap.BluetoothPbapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-3m53s616ms startingBgTimeout=--
+    lastActivity=-3m53s616ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{772ff57}:
+      intent={act=android.bluetooth.IBluetoothPbap cmp=com.android.bluetooth/.pbap.BluetoothPbapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{a0d6a44 ProcessRecord{9874918 4188:com.android.systemui/u0a20}}
+        Per-process Connections:
+          ConnectionRecord{77e48cf u0 com.android.bluetooth/.pbap.BluetoothPbapService:@db7652e}
+    All Connections:
+      ConnectionRecord{77e48cf u0 com.android.bluetooth/.pbap.BluetoothPbapService:@db7652e}
+
+  * ServiceRecord{c4e4577 u0 com.spreadtrum.vowifi/.service.UTService}
+    intent={act=com.android.ims.internal.IVoWifiUT cmp=com.spreadtrum.vowifi/.service.UTService}
+    packageName=com.spreadtrum.vowifi
+    processName=com.spreadtrum.vowifi
+    baseDir=/system/priv-app/SprdVoWifiService/SprdVoWifiService.apk
+    dataDir=/data/user_de/0/com.spreadtrum.vowifi
+    app=ProcessRecord{d7e2238 4883:com.spreadtrum.vowifi/1000}
+    createTime=-3m49s762ms startingBgTimeout=--
+    lastActivity=-3m49s697ms restartTime=-3m49s697ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2af272d CREATE}:
+      intent={act=com.android.ims.internal.IVoWifiUT cmp=com.spreadtrum.vowifi/.service.UTService}
+      binder=android.os.BinderProxy@c519462
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{fbe39f3 ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{454069e u0 CR com.spreadtrum.vowifi/.service.UTService:@fdf4cd9}
+    All Connections:
+      ConnectionRecord{454069e u0 CR com.spreadtrum.vowifi/.service.UTService:@fdf4cd9}
+
+  * ServiceRecord{e98e6b0 u0 com.android.bluetooth/.a2dp.A2dpService}
+    intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-3m55s614ms startingBgTimeout=--
+    lastActivity=-3m55s614ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{9840929}:
+      intent={act=android.bluetooth.IBluetoothA2dp cmp=com.android.bluetooth/.a2dp.A2dpService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{6b894ae ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{8ef5f1b u0 com.android.bluetooth/.a2dp.A2dpService:@3b8f52a}
+    All Connections:
+      ConnectionRecord{8ef5f1b u0 com.android.bluetooth/.a2dp.A2dpService:@3b8f52a}
+
+  * ServiceRecord{878cacd u0 com.android.systemui/.SystemUIService}
+    intent={cmp=com.android.systemui/.SystemUIService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{9874918 4188:com.android.systemui/u0a20}
+    createTime=-3m55s718ms startingBgTimeout=--
+    lastActivity=-3m55s588ms restartTime=-3m55s588ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{e40642f u0 android/.hardware.location.GeofenceHardwareService}
+    intent={cmp=android/.hardware.location.GeofenceHardwareService}
+    packageName=android
+    processName=system
+    permission=android.permission.LOCATION_HARDWARE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{8b725b3 3369:system/1000}
+    createTime=-3m54s797ms startingBgTimeout=--
+    lastActivity=-3m54s797ms restartTime=-3m54s797ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{678824f CREATE}:
+      intent={cmp=android/.hardware.location.GeofenceHardwareService}
+      binder=android.hardware.location.GeofenceHardwareService$1@11dbddc
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{dab0ee5 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{fcd520e u0 CR android/.hardware.location.GeofenceHardwareService:@2e9e009}
+    All Connections:
+      ConnectionRecord{fcd520e u0 CR android/.hardware.location.GeofenceHardwareService:@2e9e009}
+
+  * ServiceRecord{26d27ac u0 com.android.systemui/.EmBootNetService}
+    intent={cmp=com.android.systemui/.EmBootNetService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{9874918 4188:com.android.systemui/u0a20}
+    createTime=-3m53s456ms startingBgTimeout=--
+    lastActivity=-3m53s456ms restartTime=-3m53s456ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{6e71ab7 u0 com.jx.launcher/.notification.NotificationListener}
+    intent={act=android.service.notification.NotificationListenerService cmp=com.jx.launcher/.notification.NotificationListener}
+    packageName=com.jx.launcher
+    processName=com.jx.launcher
+    permission=android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    app=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    whitelistManager=true
+    createTime=-3m51s556ms startingBgTimeout=--
+    lastActivity=-1m4s58ms restartTime=-1m11s576ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+    restartCount=1 restartDelay=-37s95ms nextRestartTime=+4m23s83ms crashCount=0
+    Bindings:
+    * IntentBindRecord{a7d4dba CREATE}:
+      intent={act=android.service.notification.NotificationListenerService cmp=com.jx.launcher/.notification.NotificationListener}
+      binder=android.os.BinderProxy@c917ba6
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5b6dbc8 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{62ff706 u0 CR FGS com.jx.launcher/.notification.NotificationListener:@c7c9de1}
+    All Connections:
+      ConnectionRecord{62ff706 u0 CR FGS com.jx.launcher/.notification.NotificationListener:@c7c9de1}
+
+  * ServiceRecord{9878de9 u0 com.android.server.telecom/.components.BluetoothPhoneService}
+    intent={cmp=com.android.server.telecom/.components.BluetoothPhoneService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user_de/0/com.android.server.telecom
+    app=ProcessRecord{8b725b3 3369:system/1000}
+    createTime=-3m54s99ms startingBgTimeout=--
+    lastActivity=-3m54s99ms restartTime=-3m54s99ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{33164c4 u0 com.jx.launcher/com.zmapp.aee.AEEService}
+    intent={cmp=com.jx.launcher/com.zmapp.aee.AEEService}
+    packageName=com.jx.launcher
+    processName=com.jx.launcher
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    app=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    createTime=-3m50s486ms startingBgTimeout=--
+    lastActivity=-1m4s91ms restartTime=-1m11s575ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+    restartCount=1 restartDelay=+2m2s902ms nextRestartTime=+7m3s80ms crashCount=0
+
+  * ServiceRecord{68155d0 u0 com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonService}
+    intent={cmp=com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonService}
+    packageName=com.sohu.inputmethod.sogou
+    processName=com.sohu.inputmethod.sogou:daemon
+    baseDir=/system/preloadapp/Sougou/Sougou.apk
+    dataDir=/data/user/0/com.sohu.inputmethod.sogou
+    app=ProcessRecord{a82b461 5135:com.sohu.inputmethod.sogou:daemon/u0a88}
+    createTime=-3m47s67ms startingBgTimeout=--
+    lastActivity=-3m46s978ms restartTime=-3m46s978ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{78805e4 u0 com.spreadtrum.vowifi/.service.RegisterService}
+    intent={act=com.android.ims.internal.IVoWifiRegister cmp=com.spreadtrum.vowifi/.service.RegisterService}
+    packageName=com.spreadtrum.vowifi
+    processName=com.spreadtrum.vowifi
+    baseDir=/system/priv-app/SprdVoWifiService/SprdVoWifiService.apk
+    dataDir=/data/user_de/0/com.spreadtrum.vowifi
+    app=ProcessRecord{d7e2238 4883:com.spreadtrum.vowifi/1000}
+    createTime=-3m49s760ms startingBgTimeout=--
+    lastActivity=-3m49s699ms restartTime=-3m49s699ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a28b86 CREATE}:
+      intent={act=com.android.ims.internal.IVoWifiRegister cmp=com.spreadtrum.vowifi/.service.RegisterService}
+      binder=android.os.BinderProxy@b5c6c47
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{541ec74 ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{249d94c u0 CR com.spreadtrum.vowifi/.service.RegisterService:@dff257f}
+    All Connections:
+      ConnectionRecord{249d94c u0 CR com.spreadtrum.vowifi/.service.RegisterService:@dff257f}
+
+  * ServiceRecord{9c1f5f8 u0 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.ClientTrigger}
+    intent={cmp=com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.ClientTrigger}
+    packageName=com.abupdate.fota_demo_iot
+    processName=com.abupdate.fota_demo_iot
+    baseDir=/system/app/Abupdate/Abupdate.apk
+    dataDir=/data/user/0/com.abupdate.fota_demo_iot
+    app=ProcessRecord{9123d78 4649:com.abupdate.fota_demo_iot/1000}
+    createTime=-3m43s225ms startingBgTimeout=--
+    lastActivity=-3m43s225ms restartTime=-3m43s225ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{b13b67e u0 com.jx.launcher/com.zmapp.hall.StepService}
+    intent={cmp=com.jx.launcher/com.zmapp.hall.StepService}
+    packageName=com.jx.launcher
+    processName=com.jx.launcher
+    baseDir=/system/priv-app/Fwatch2_bmq_386/Fwatch2_bmq_386.apk
+    dataDir=/data/user/0/com.jx.launcher
+    app=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    createTime=-3m50s545ms startingBgTimeout=--
+    lastActivity=-1m4s185ms restartTime=-1m11s584ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=7
+    restartCount=1 restartDelay=-5m57s82ms nextRestartTime=-56s905ms crashCount=0
+    Bindings:
+    * IntentBindRecord{8d5359d CREATE}:
+      intent={cmp=com.jx.launcher/com.zmapp.hall.StepService}
+      binder=android.os.BinderProxy@60269e7
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{af5a994 ProcessRecord{271c51c 8668:com.jx.launcher/1000}}
+        Per-process Connections:
+          ConnectionRecord{8d0c6fa u0 CR com.jx.launcher/com.zmapp.hall.StepService:@427a525}
+          ConnectionRecord{e80bfed u0 CR com.jx.launcher/com.zmapp.hall.StepService:@db6ee04}
+    All Connections:
+      ConnectionRecord{8d0c6fa u0 CR com.jx.launcher/com.zmapp.hall.StepService:@427a525}
+      ConnectionRecord{e80bfed u0 CR com.jx.launcher/com.zmapp.hall.StepService:@db6ee04}
+
+  * ServiceRecord{b74a81f u0 com.android.server.telecom/.components.TelecomService}
+    intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+    packageName=com.android.server.telecom
+    processName=system
+    baseDir=/system/priv-app/Telecom/Telecom.apk
+    dataDir=/data/user_de/0/com.android.server.telecom
+    app=ProcessRecord{8b725b3 3369:system/1000}
+    createTime=-3m55s796ms startingBgTimeout=--
+    lastActivity=-3m55s796ms restartTime=-3m55s796ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{6cb5be0 CREATE}:
+      intent={act=com.android.ITelecomService cmp=com.android.server.telecom/.components.TelecomService}
+      binder=com.android.server.telecom.TelecomServiceImpl$1@9d48e99
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{649855e ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{8396fbe u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@9022679}
+    All Connections:
+      ConnectionRecord{8396fbe u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@9022679}
+
+  * ServiceRecord{2aefe5 u0 com.android.providers.media/.MtpService}
+    intent={cmp=com.android.providers.media/.MtpService}
+    packageName=com.android.providers.media
+    processName=android.process.media
+    baseDir=/system/priv-app/SprdMediaProvider/SprdMediaProvider.apk
+    dataDir=/data/user/0/com.android.providers.media
+    app=ProcessRecord{1b5972a 4847:android.process.media/u0a8}
+    createTime=-3m16s11ms startingBgTimeout=--
+    lastActivity=-3m10s768ms restartTime=-3m16s11ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Delivered Starts:
+    #0 id=1 dur=-3m10s768ms dxc=1
+      intent=Intent { cmp=com.android.providers.media/.MtpService (has extras) }
+    Bindings:
+    * IntentBindRecord{8a49d3f CREATE}:
+      intent={cmp=com.android.providers.media/.MtpService}
+      binder=android.os.BinderProxy@3ba560c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5d67b55 ProcessRecord{1b5972a 4847:android.process.media/u0a8}}
+        Per-process Connections:
+          ConnectionRecord{a1c82dc u0 CR com.android.providers.media/.MtpService:@ed33b4f}
+    All Connections:
+      ConnectionRecord{a1c82dc u0 CR com.android.providers.media/.MtpService:@ed33b4f}
+
+  * ServiceRecord{a52783f u0 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService}
+    intent={cmp=com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService}
+    packageName=com.abupdate.fota_demo_iot
+    processName=com.abupdate.fota_demo_iot
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/system/app/Abupdate/Abupdate.apk
+    dataDir=/data/user/0/com.abupdate.fota_demo_iot
+    app=ProcessRecord{9123d78 4649:com.abupdate.fota_demo_iot/1000}
+    createTime=-3m43s307ms startingBgTimeout=-3m28s287ms
+    lastActivity=-3m43s261ms restartTime=-3m43s307ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{ea4996a}:
+      intent={cmp=com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService}
+      binder=android.os.BinderProxy@4cfce5b
+      requested=true received=true hasBound=false doRebind=false
+
+  * ServiceRecord{4164f33 u0 com.android.smspush/.WapPushManager}
+    intent={act=com.android.internal.telephony.IWapPushManager cmp=com.android.smspush/.WapPushManager}
+    packageName=com.android.smspush
+    processName=com.android.smspush
+    permission=com.android.smspush.WAPPUSH_MANAGER_BIND
+    baseDir=/system/app/WAPPushManager/WAPPushManager.apk
+    dataDir=/data/user/0/com.android.smspush
+    app=ProcessRecord{2bcc6f8 4689:com.android.smspush/u0a69}
+    createTime=-3m51s360ms startingBgTimeout=--
+    lastActivity=-3m51s258ms restartTime=-3m51s258ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{ad077d1 CREATE}:
+      intent={act=com.android.internal.telephony.IWapPushManager cmp=com.android.smspush/.WapPushManager}
+      binder=android.os.BinderProxy@beae236
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{fb2f537 ProcessRecord{1230f43 4156:com.android.phone/1001}}
+        Per-process Connections:
+          ConnectionRecord{d1a6f9 u0 CR com.android.smspush/.WapPushManager:@b6619c0}
+          ConnectionRecord{9d3b6a2 u0 CR com.android.smspush/.WapPushManager:@cb76a6d}
+    All Connections:
+      ConnectionRecord{d1a6f9 u0 CR com.android.smspush/.WapPushManager:@b6619c0}
+      ConnectionRecord{9d3b6a2 u0 CR com.android.smspush/.WapPushManager:@cb76a6d}
+
+  * ServiceRecord{7cdb309 u0 com.android.phone/.vvm.RemoteVvmTaskManager}
+    intent={act=ACTION_START_CELL_SERVICE_CONNECTED cmp=com.android.phone/.vvm.RemoteVvmTaskManager}
+    packageName=com.android.phone
+    processName=com.android.phone
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user_de/0/com.android.phone
+    app=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    createTime=-3m42s928ms startingBgTimeout=--
+    lastActivity=-3m34s838ms restartTime=-3m42s928ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=5
+
+  * ServiceRecord{7c39939 u0 android/com.android.internal.backup.LocalTransportService}
+    intent={act=android.backup.TRANSPORT_HOST cmp=android/com.android.internal.backup.LocalTransportService}
+    packageName=android
+    processName=system
+    permission=android.permission.CONFIRM_FULL_BACKUP
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{8b725b3 3369:system/1000}
+    createTime=-3m51s732ms startingBgTimeout=--
+    lastActivity=-3m51s731ms restartTime=-3m51s731ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{5735aa4 CREATE}:
+      intent={act=android.backup.TRANSPORT_HOST cmp=android/com.android.internal.backup.LocalTransportService}
+      binder=android.app.backup.BackupTransport$TransportImpl@693c00d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{87aebc2 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{27b6d00 u0 CR android/com.android.internal.backup.LocalTransportService:@938a783}
+    All Connections:
+      ConnectionRecord{27b6d00 u0 CR android/com.android.internal.backup.LocalTransportService:@938a783}
+
+  * ServiceRecord{e6c260c u0 com.android.location.fused/.FusedLocationService}
+    intent={act=com.android.location.service.FusedLocationProvider cmp=com.android.location.fused/.FusedLocationService}
+    packageName=com.android.location.fused
+    processName=system
+    permission=android.permission.WRITE_SECURE_SETTINGS
+    baseDir=/system/priv-app/FusedLocation/FusedLocation.apk
+    dataDir=/data/user_de/0/com.android.location.fused
+    app=ProcessRecord{8b725b3 3369:system/1000}
+    createTime=-3m54s806ms startingBgTimeout=--
+    lastActivity=-3m54s806ms restartTime=-3m54s806ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a37add3 CREATE}:
+      intent={act=com.android.location.service.FusedLocationProvider cmp=com.android.location.fused/.FusedLocationService}
+      binder=com.android.location.provider.LocationProviderBase$Service@4dd7d10
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{8c95009 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{abbad3f u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@512d55e}
+    All Connections:
+      ConnectionRecord{abbad3f u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@512d55e}
+
+  * ServiceRecord{7d03cb7 u0 android/com.android.server.content.SyncJobService}
+    intent={cmp=android/com.android.server.content.SyncJobService}
+    packageName=android
+    processName=system
+    permission=android.permission.BIND_JOB_SERVICE
+    baseDir=/system/framework/framework-res.apk
+    dataDir=/data/system
+    app=ProcessRecord{8b725b3 3369:system/1000}
+    createTime=-3m54s402ms startingBgTimeout=--
+    lastActivity=-3m54s401ms restartTime=-3m54s401ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+
+  * ServiceRecord{6f42cd5 u0 com.spreadtrum.vce/.VceService}
+    intent={cmp=com.spreadtrum.vce/.VceService}
+    packageName=com.spreadtrum.vce
+    processName=com.spreadtrum.vce
+    baseDir=/system/app/VceDaemon/VceDaemon.apk
+    dataDir=/data/user/0/com.spreadtrum.vce
+    app=ProcessRecord{410020e 4573:com.spreadtrum.vce/1000}
+    createTime=-3m51s468ms startingBgTimeout=--
+    lastActivity=-3m51s468ms restartTime=-3m51s468ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{45542f u0 com.android.bluetooth/.map.BluetoothMapService}
+    intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-3m53s625ms startingBgTimeout=--
+    lastActivity=-3m53s625ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{8855a3c}:
+      intent={act=android.bluetooth.IBluetoothMap cmp=com.android.bluetooth/.map.BluetoothMapService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{8ade3c5 ProcessRecord{9874918 4188:com.android.systemui/u0a20}}
+        Per-process Connections:
+          ConnectionRecord{1f22330 u0 com.android.bluetooth/.map.BluetoothMapService:@4fc9873}
+    All Connections:
+      ConnectionRecord{1f22330 u0 com.android.bluetooth/.map.BluetoothMapService:@4fc9873}
+
+  * ServiceRecord{d4b141c u0 com.android.mms.service/.MmsService}
+    intent={cmp=com.android.mms.service/.MmsService}
+    packageName=com.android.mms.service
+    processName=com.android.phone
+    baseDir=/system/priv-app/MmsService/MmsService.apk
+    dataDir=/data/user/0/com.android.mms.service
+    app=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    createTime=-3m44s552ms startingBgTimeout=--
+    lastActivity=-3m44s552ms restartTime=-3m44s552ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{cce311a CREATE}:
+      intent={cmp=com.android.mms.service/.MmsService}
+      binder=android.os.BinderProxy@add044b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{46bde28 ProcessRecord{8b725b3 3369:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{6c8498f u0 CR com.android.mms.service/.MmsService:@f59f0ee}
+    All Connections:
+      ConnectionRecord{6c8498f u0 CR com.android.mms.service/.MmsService:@f59f0ee}
+
+  * ServiceRecord{bce69d2 u0 com.android.phone/.TelephonyDebugService}
+    intent={cmp=com.android.phone/.TelephonyDebugService}
+    packageName=com.android.phone
+    processName=com.android.phone
+    permission=android.permission.DUMP
+    baseDir=/system/priv-app/TeleService/TeleService.apk
+    dataDir=/data/user_de/0/com.android.phone
+    app=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    createTime=-3m50s782ms startingBgTimeout=--
+    lastActivity=-3m50s781ms restartTime=-3m50s781ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{9c49bdb u0 com.sprd.applock/com.sprd.launchapp.LaunchAppService}
+    intent={cmp=com.sprd.applock/com.sprd.launchapp.LaunchAppService}
+    packageName=com.sprd.applock
+    processName=com.sprd.applock
+    baseDir=/system/app/ApplicationLock/ApplicationLock.apk
+    dataDir=/data/user/0/com.sprd.applock
+    app=ProcessRecord{2fa548b 4559:com.sprd.applock/1000}
+    createTime=-3m51s461ms startingBgTimeout=--
+    lastActivity=-3m51s461ms restartTime=-3m51s461ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{a8df741 u0 com.android.bluetooth/.pan.PanService}
+    intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=null
+    createTime=-3m53s629ms startingBgTimeout=--
+    lastActivity=-3m53s629ms restartTime=-- createdFromFg=true
+    Bindings:
+    * IntentBindRecord{d0e44e6}:
+      intent={act=android.bluetooth.IBluetoothPan cmp=com.android.bluetooth/.pan.PanService}
+      binder=null
+      requested=false received=false hasBound=false doRebind=false
+      * Client AppBindRecord{7f59a27 ProcessRecord{9874918 4188:com.android.systemui/u0a20}}
+        Per-process Connections:
+          ConnectionRecord{f8dc1ad u0 com.android.bluetooth/.pan.PanService:@c33dec4}
+    All Connections:
+      ConnectionRecord{f8dc1ad u0 com.android.bluetooth/.pan.PanService:@c33dec4}
+
+  Connection bindings to services:
+  * ConnectionRecord{4d7ee15 u0 CR com.android.systemui/.keyguard.KeyguardService:@62dbcc}
+    binding=AppBindRecord{ff70226 com.android.systemui/.keyguard.KeyguardService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@62dbcc flags=0x1
+  * ConnectionRecord{d199b9e u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@29a15d9}
+    binding=AppBindRecord{4d43613 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:com.android.phone}
+    conn=android.os.BinderProxy@29a15d9 flags=0x1
+  * ConnectionRecord{8246dcd u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+    binding=AppBindRecord{b22035f com.spreadtrum.vowifi/.service.SmsService:com.android.phone}
+    conn=android.os.BinderProxy@2c72764 flags=0x1
+  * ConnectionRecord{b7062ea u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+    binding=AppBindRecord{b22035f com.spreadtrum.vowifi/.service.SmsService:com.android.phone}
+    conn=android.os.BinderProxy@2c72764 flags=0x1
+  * ConnectionRecord{3939e4a u0 CR com.spreadtrum.vowifi/.service.SmsService:@2c72764}
+    binding=AppBindRecord{b22035f com.spreadtrum.vowifi/.service.SmsService:com.android.phone}
+    conn=android.os.BinderProxy@2c72764 flags=0x1
+  * ConnectionRecord{fcd520e u0 CR android/.hardware.location.GeofenceHardwareService:@2e9e009}
+    binding=AppBindRecord{dab0ee5 android/.hardware.location.GeofenceHardwareService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@2e9e009 flags=0x1
+  * ConnectionRecord{f96f50c u0 com.android.music/.MediaPlaybackService:@3a4583f}
+    binding=AppBindRecord{a277bda com.android.music/.MediaPlaybackService:com.android.music}
+    activity=ActivityRecord{99f889d u0 com.android.music/.AlbumBrowserActivity t46}
+    conn=android.os.BinderProxy@3a4583f flags=0x0
+  * ConnectionRecord{8ef5f1b u0 com.android.bluetooth/.a2dp.A2dpService:@3b8f52a}
+    binding=AppBindRecord{6b894ae com.android.bluetooth/.a2dp.A2dpService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@3b8f52a flags=0x0
+  * ConnectionRecord{8d0c6fa u0 CR com.jx.launcher/com.zmapp.hall.StepService:@427a525}
+    binding=AppBindRecord{af5a994 com.jx.launcher/com.zmapp.hall.StepService:com.jx.launcher}
+    conn=android.os.BinderProxy@427a525 flags=0x1
+  * ConnectionRecord{7d651cd u0 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@4421b64}
+    binding=AppBindRecord{c870050 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@4421b64 flags=0x0
+  * ConnectionRecord{1f22330 u0 com.android.bluetooth/.map.BluetoothMapService:@4fc9873}
+    binding=AppBindRecord{8ade3c5 com.android.bluetooth/.map.BluetoothMapService:com.android.systemui}
+    conn=android.os.BinderProxy@4fc9873 flags=0x0
+  * ConnectionRecord{abbad3f u0 CR !FG !VIS com.android.location.fused/.FusedLocationService:@512d55e}
+    binding=AppBindRecord{8c95009 com.android.location.fused/.FusedLocationService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@512d55e flags=0x40000005
+  * ConnectionRecord{af5eeaa u0 CR com.spreadtrum.vowifi/.service.SecurityService:@66edd95}
+    binding=AppBindRecord{7499a5a com.spreadtrum.vowifi/.service.SecurityService:com.android.phone}
+    conn=android.os.BinderProxy@66edd95 flags=0x1
+  * ConnectionRecord{c4bdc57 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@68871d6}
+    binding=AppBindRecord{4d43613 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:com.android.phone}
+    conn=android.os.BinderProxy@68871d6 flags=0x1
+  * ConnectionRecord{8eab014 u0 CR !FG IMPB !VIS com.sohu.inputmethod.sogou/.SogouIME:@7257a67}
+    binding=AppBindRecord{dc2206f com.sohu.inputmethod.sogou/.SogouIME:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@7257a67 flags=0x40800005
+  * ConnectionRecord{f818156 u0 com.android.bluetooth/.hid.HidService:@76f9f71}
+    binding=AppBindRecord{c0f29e4 com.android.bluetooth/.hid.HidService:com.android.systemui}
+    conn=android.os.BinderProxy@76f9f71 flags=0x0
+  * ConnectionRecord{8a1d6b u0 CR com.jx.launcher/com.zmapp.aidldemo.WatchInfoService:@8497aba}
+    binding=AppBindRecord{d54d101 com.jx.launcher/com.zmapp.aidldemo.WatchInfoService:com.jx.watchos.contact}
+    activity=ActivityRecord{9a35550 u0 com.jx.watchos.contact/.MainActivity t13}
+    conn=android.os.BinderProxy@8497aba flags=0x1
+  * ConnectionRecord{8396fbe u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@9022679}
+    binding=AppBindRecord{649855e com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@9022679 flags=0x4000041
+  * ConnectionRecord{42f3f19 u0 CR com.goodix.health/.service.GoodixHealthLocalService:@9187e60}
+    binding=AppBindRecord{52eebef com.goodix.health/.service.GoodixHealthLocalService:com.goodix.health}
+    conn=android.os.BinderProxy@9187e60 flags=0x1
+  * ConnectionRecord{27b6d00 u0 CR android/com.android.internal.backup.LocalTransportService:@938a783}
+    binding=AppBindRecord{87aebc2 android/com.android.internal.backup.LocalTransportService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@938a783 flags=0x1
+  * ConnectionRecord{fc00a23 u0 CR com.spreadtrum.vowifi/.service.CallService:@9d4c752}
+    binding=AppBindRecord{7fdacf1 com.spreadtrum.vowifi/.service.CallService:com.android.phone}
+    conn=android.os.BinderProxy@9d4c752 flags=0x1
+  * ConnectionRecord{c11ce48 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@9e220eb}
+    binding=AppBindRecord{4d43613 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:com.android.phone}
+    conn=android.os.BinderProxy@9e220eb flags=0x1
+  * ConnectionRecord{1a85f19 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@a421e60}
+    binding=AppBindRecord{4d43613 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:com.android.phone}
+    conn=android.os.BinderProxy@a421e60 flags=0x1
+  * ConnectionRecord{eb73eb3 u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@aacb422}
+    binding=AppBindRecord{4d43613 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:com.android.phone}
+    conn=android.os.BinderProxy@aacb422 flags=0x1
+  * ConnectionRecord{889df9c u0 CR com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:@add130f}
+    binding=AppBindRecord{4d43613 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService:com.android.phone}
+    conn=android.os.BinderProxy@add130f flags=0x1
+  * ConnectionRecord{d1a6f9 u0 CR com.android.smspush/.WapPushManager:@b6619c0}
+    binding=AppBindRecord{fb2f537 com.android.smspush/.WapPushManager:com.android.phone}
+    conn=android.os.BinderProxy@b6619c0 flags=0x1
+  * ConnectionRecord{f8dc1ad u0 com.android.bluetooth/.pan.PanService:@c33dec4}
+    binding=AppBindRecord{7f59a27 com.android.bluetooth/.pan.PanService:com.android.systemui}
+    conn=android.os.BinderProxy@c33dec4 flags=0x0
+  * ConnectionRecord{62ff706 u0 CR FGS com.jx.launcher/.notification.NotificationListener:@c7c9de1}
+    binding=AppBindRecord{5b6dbc8 com.jx.launcher/.notification.NotificationListener:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@c7c9de1 flags=0x5000001
+  * ConnectionRecord{9d3b6a2 u0 CR com.android.smspush/.WapPushManager:@cb76a6d}
+    binding=AppBindRecord{fb2f537 com.android.smspush/.WapPushManager:com.android.phone}
+    conn=android.os.BinderProxy@cb76a6d flags=0x1
+  * ConnectionRecord{e80bfed u0 CR com.jx.launcher/com.zmapp.hall.StepService:@db6ee04}
+    binding=AppBindRecord{af5a994 com.jx.launcher/com.zmapp.hall.StepService:com.jx.launcher}
+    conn=android.os.BinderProxy@db6ee04 flags=0x1
+  * ConnectionRecord{77e48cf u0 com.android.bluetooth/.pbap.BluetoothPbapService:@db7652e}
+    binding=AppBindRecord{a0d6a44 com.android.bluetooth/.pbap.BluetoothPbapService:com.android.systemui}
+    conn=android.os.BinderProxy@db7652e flags=0x0
+  * ConnectionRecord{249d94c u0 CR com.spreadtrum.vowifi/.service.RegisterService:@dff257f}
+    binding=AppBindRecord{541ec74 com.spreadtrum.vowifi/.service.RegisterService:com.android.phone}
+    conn=android.os.BinderProxy@dff257f flags=0x1
+  * ConnectionRecord{24b80c0 u0 CR FGSA UI com.android.systemui/.ImageWallpaper:@e31b243}
+    binding=AppBindRecord{5ed4e0a com.android.systemui/.ImageWallpaper:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@e31b243 flags=0x22000001
+  * ConnectionRecord{9eb8f54 u0 CR IMP FGS com.spreadtrum.ims/.ImsService:@ead4ea7}
+    binding=AppBindRecord{5c31d80 com.spreadtrum.ims/.ImsService:com.android.phone}
+    conn=android.os.BinderProxy@ead4ea7 flags=0x4000041
+  * ConnectionRecord{a1c82dc u0 CR com.android.providers.media/.MtpService:@ed33b4f}
+    binding=AppBindRecord{5d67b55 com.android.providers.media/.MtpService:android.process.media}
+    conn=android.os.BinderProxy@ed33b4f flags=0x1
+  * ConnectionRecord{6c8498f u0 CR com.android.mms.service/.MmsService:@f59f0ee}
+    binding=AppBindRecord{46bde28 com.android.mms.service/.MmsService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@f59f0ee flags=0x1
+  * ConnectionRecord{454069e u0 CR com.spreadtrum.vowifi/.service.UTService:@fdf4cd9}
+    binding=AppBindRecord{fbe39f3 com.spreadtrum.vowifi/.service.UTService:com.android.phone}
+    conn=android.os.BinderProxy@fdf4cd9 flags=0x1
+

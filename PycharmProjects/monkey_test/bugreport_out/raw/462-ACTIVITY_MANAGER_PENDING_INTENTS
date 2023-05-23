@@ -1,0 +1,172 @@
+  * com.abupdate.fota_demo_iot: 1 items
+    #0: PendingIntentRecord{84e5228 com.abupdate.fota_demo_iot broadcastIntent}
+      uid=1000 packageName=com.abupdate.fota_demo_iot type=broadcastIntent flags=0x0
+      requestCode=888 requestResolvedType=null
+      requestIntent=act=ACTION_COM_ABUPDATE_ALARM_CHECK_VERSION (has extras)
+  * com.sohu.inputmethod.sogou: 1 items
+    #0: PendingIntentRecord{1e5d4bb com.sohu.inputmethod.sogou broadcastIntent}
+      uid=10078 packageName=com.sohu.inputmethod.sogou type=broadcastIntent flags=0x0
+      requestIntent=act=sogou.action.statisticsdata.onedayup cmp=com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.AutoUpgradeReceiver
+  * com.tencent.mm: 4 items
+    #0: PendingIntentRecord{90045d9 com.tencent.mm broadcastIntent}
+      uid=10080 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+      requestCode=111 requestResolvedType=null
+      requestIntent=act=com.tencent.mm.TrafficStatsReceiver
+    #1: PendingIntentRecord{b6f0a3f com.tencent.mm startActivity}
+      uid=10080 packageName=com.tencent.mm type=startActivity flags=0x0
+      requestIntent=flg=0x20000000 cmp=com.tencent.mm/.plugin.nfc_open.ui.NfcDispatchLogicUI
+    #2: PendingIntentRecord{d0984e com.tencent.mm broadcastIntent}
+      uid=10080 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+      requestCode=105 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(10000) (has extras)
+    #3: PendingIntentRecord{21a284 com.tencent.mm broadcastIntent}
+      uid=10080 packageName=com.tencent.mm type=broadcastIntent flags=0x0
+      requestCode=100 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(10000) (has extras)
+  * android: 24 items
+    #0: PendingIntentRecord{fa6c396 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=android.intent.action.TIME_TICK flg=0x50200000
+      sent=true canceled=false
+    #1: PendingIntentRecord{25ae1a8 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.InputMethodManagerService.SHOW_INPUT_METHOD_PICKER pkg=android
+    #2: PendingIntentRecord{f20bf0c android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=android.app.backup.intent.INIT flg=0x40000000
+    #3: PendingIntentRecord{ad3d9d8 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=ScheduleConditionProvider.EVALUATE flg=0x10000000 (has extras)
+      sent=true canceled=false
+    #4: PendingIntentRecord{d892e95 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.wifi.ConnectToNetworkNotification.USER_DISMISSED_NOTIFICATION pkg=android
+      sent=true canceled=false
+    #5: PendingIntentRecord{a6f3055 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=wifi_softap_sleep_clock
+    #6: PendingIntentRecord{8cfaa6a android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.internal.location.ALARM_WAKEUP
+    #7: PendingIntentRecord{dd5be0b android startActivity}
+      uid=1000 packageName=android type=startActivity flags=0x0
+      requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/com.sprd.settings.SprdUsbSettingsActivity
+    #8: PendingIntentRecord{eaff94a android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=EventConditionProvider.EVALUATE flg=0x10000000 (has extras)
+      sent=true canceled=false
+    #9: PendingIntentRecord{e540b5b android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.ACTION_TRIGGER_IDLE flg=0x40000000 pkg=android
+    #10: PendingIntentRecord{8a0bff8 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.internal.location.ALARM_TIMEOUT
+    #11: PendingIntentRecord{122d840 android startActivity}
+      uid=1000 packageName=android type=startActivity flags=0x0
+      requestIntent=act=android.settings.APPLICATION_DEVELOPMENT_SETTINGS flg=0x10008000
+    #12: PendingIntentRecord{8bf7cd1 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.WifiManager.action.DEVICE_IDLE
+    #13: PendingIntentRecord{c360336 android startActivity}
+      uid=1000 packageName=android type=startActivity flags=0x0
+      requestIntent=act=android.intent.action.CHOOSER (has extras)
+    #14: PendingIntentRecord{1d68b04 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x4000000
+      requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20200000
+    #15: PendingIntentRecord{9be0237 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=android.app.backup.intent.RUN flg=0x40000000
+    #16: PendingIntentRecord{81de3a4 android startActivity}
+      uid=1000 packageName=android type=startActivity flags=0x0
+      requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+    #17: PendingIntentRecord{4ee150d android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=android.net.proxy.PAC_REFRESH
+    #18: PendingIntentRecord{4f0c308 android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+      sent=true canceled=false
+    #19: PendingIntentRecord{54a7b6f android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.powercontroller.CHECK_APPSTATE flg=0x40000000 pkg=android
+      sent=true canceled=false
+    #20: PendingIntentRecord{b6fd39b android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.wifi.ConnectToNetworkNotification.PICK_WIFI_NETWORK pkg=android
+    #21: PendingIntentRecord{4aa965d android startActivity}
+      uid=1000 packageName=android type=startActivity flags=0x0
+      requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:plugin.sprd.contactsdefaultcontact
+    #22: PendingIntentRecord{bd86baa android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.wifi.ConnectToNetworkNotification.CONNECT_TO_NETWORK pkg=android
+    #23: PendingIntentRecord{c763a7b android broadcastIntent}
+      uid=1000 packageName=android type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+  * com.android.calendar: 1 items
+    #0: PendingIntentRecord{d92251 com.android.calendar broadcastIntent}
+      uid=10061 packageName=com.android.calendar type=broadcastIntent flags=0x0
+      requestCode=0 requestResolvedType=vnd.android.data/update
+      requestIntent=act=com.android.calendar.APPWIDGET_SCHEDULED_UPDATE dat=content://com.android.calendar typ=vnd.android.data/update
+      sent=true canceled=false
+  * com.jx.launcher: 1 items
+    #0: PendingIntentRecord{a1fa731 com.jx.launcher broadcastIntent}
+      uid=1000 packageName=com.jx.launcher type=broadcastIntent flags=0x0
+      requestIntent=act=jx.no.sim.poweroff
+  * com.android.phone: 1 items
+    #0: PendingIntentRecord{8d71cc2 com.android.phone broadcastIntent}
+      uid=1001 packageName=com.android.phone type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.ims.IMS_INCOMING_CALL flg=0x10000000
+  * com.yingyonghui.market: 3 items
+    #0: PendingIntentRecord{cb7916f com.yingyonghui.market broadcastIntent}
+      uid=10076 packageName=com.yingyonghui.market type=broadcastIntent flags=0x0
+      requestCode=-1 requestResolvedType=null
+      requestIntent=act=ACTION_FORCE_STOP_RESCHEDULE cmp=com.yingyonghui.market/androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+    #1: PendingIntentRecord{e668ad3 com.yingyonghui.market broadcastIntent}
+      uid=10076 packageName=com.yingyonghui.market type=broadcastIntent flags=0x0
+      requestCode=140433566 requestResolvedType=null
+      requestIntent=act=AlarmNioTaskSchedule.com.yingyonghui.market
+    #2: PendingIntentRecord{dca2896 com.yingyonghui.market broadcastIntent}
+      uid=10076 packageName=com.yingyonghui.market type=broadcastIntent flags=0x0
+      requestCode=140433564 requestResolvedType=null
+      requestIntent=act=AlarmTaskSchedule.com.yingyonghui.market
+  * com.android.deskclock: 1 items
+    #0: PendingIntentRecord{859d5b3 com.android.deskclock broadcastIntent}
+      uid=1000 packageName=com.android.deskclock type=broadcastIntent flags=0x0
+      requestIntent=act=com.android.deskclock.ON_QUARTER_HOUR
+  * com.android.systemui: 7 items
+    #0: PendingIntentRecord{255e8df com.android.systemui broadcastIntent (whitelist: 2b58e9:+30s0ms)}
+      uid=10022 packageName=com.android.systemui type=broadcastIntent flags=0x40000000
+      requestIntent=cmp=com.android.systemui/.screenshot.GlobalScreenshot$DeleteScreenshotReceiver (has extras)
+      whitelistDuration=2b58e9:+30s0ms
+    #1: PendingIntentRecord{3a93d22 com.android.systemui startActivity (whitelist: 2b58e9:+30s0ms)}
+      uid=10022 packageName=com.android.systemui type=startActivity flags=0x0
+      requestCode=0 requestResolvedType=image/png
+      requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/34 typ=image/png flg=0x10000001
+      whitelistDuration=2b58e9:+30s0ms
+    #2: PendingIntentRecord{2279610 com.android.systemui broadcastIntent}
+      uid=10022 packageName=com.android.systemui type=broadcastIntent flags=0x0
+      requestCode=7002 requestResolvedType=null
+      requestIntent=act=android.intent.action.dw_clear_apps
+    #3: PendingIntentRecord{483b7e com.android.systemui startActivity (whitelist: 2b58e9:+30s0ms)}
+      uid=10022 packageName=com.android.systemui type=startActivity flags=0x0
+      requestCode=0 requestResolvedType=image/png
+      requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/36 typ=image/png flg=0x10000001
+      whitelistDuration=2b58e9:+30s0ms
+    #4: PendingIntentRecord{ab5e383 com.android.systemui broadcastIntent}
+      uid=10022 packageName=com.android.systemui type=broadcastIntent flags=0x0
+      requestCode=7003 requestResolvedType=null
+      requestIntent=act=android.intent.action.dw_nosim_shutdown
+      sent=true canceled=false
+    #5: PendingIntentRecord{702492c com.android.systemui broadcastIntent (whitelist: 2b58e9:+30s0ms)}
+      uid=10022 packageName=com.android.systemui type=broadcastIntent flags=0x0
+      requestIntent=cmp=com.android.systemui/.screenshot.GlobalScreenshot$ShareReceiver (has extras)
+      whitelistDuration=2b58e9:+30s0ms
+    #6: PendingIntentRecord{6c2b3bf com.android.systemui startActivity (whitelist: 2b58e9:+30s0ms)}
+      uid=10022 packageName=com.android.systemui type=startActivity flags=0x0
+      requestCode=0 requestResolvedType=image/png
+      requestIntent=act=android.intent.action.VIEW dat=content://media/external/images/media/35 typ=image/png flg=0x10000001
+      whitelistDuration=2b58e9:+30s0ms
+

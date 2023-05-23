@@ -1,0 +1,9 @@
+------- PhoneGlobals -------
+  mNoDataDueToRoaming=false
+  mDefaultDataSubId=-1
+  mDataRoamingNotifLog:
+------- End PhoneGlobals -------
+******* OmtpVvm *******
+======= Configs =======
+Security exception: Package com.android.phone does not belong to 2000
+--------- 0.020s was the duration of dumpsys phone, ending at: 2023-05-22 17:52:11

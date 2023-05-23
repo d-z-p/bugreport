@@ -1,0 +1,15 @@
+Active interfaces:
+Active UID interfaces:
+Dev stats:
+  Pending bytes: 172146
+  History since boot:
+  ident=[{type=WIFI, subType=COMBINED, networkId="heshuncheng-5G", metered=false}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1684746000 rb=164970 rp=2338 tb=7176 tp=79 op=0
+Xt stats:
+  Pending bytes: 104724
+  History since boot:
+  ident=[{type=WIFI, subType=COMBINED, networkId="heshuncheng-5G", metered=false}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1684746000 rb=98822 rp=561 tb=5902 tp=73 op=0
+--------- 0.005s was the duration of dumpsys netstats, ending at: 2023-05-22 17:52:10

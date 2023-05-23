@@ -1,0 +1,1174 @@
+Unknown argument: -a; use -h for help
+Dump performance:
+USAGE STATICS:
+----------------------------
+habit->UID:0|pkg:com.jx.watchos.contact|count:3|LastUsed:1684384706637|totalForegroundTime2261|launchTime:647;645;276;
+dump com.jx.watchos.contact Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.divo.phone  count :1index29
+com.eg.android.AlipayGphone  count :3index6
+com.tencent.mm  count :3index5
+com.zmapp.sms  count :1index28
+com.zmapp.chat  count :2index18
+com.zmapp.album  count :2index17
+com.baidu.voicesearch  count :1index27
+com.jx.inputmethod.pinyin  count :2index16
+com.android.systemui  count :2index15
+com.jx.launcher  count :13index0
+com.jx.timer  count :1index26
+com.tencent.wechatkids  count :1index25
+com.android.browser  count :3index4
+com.android.music  count :1index24
+com.ztapp.themestore  count :1index23
+com.android.deskclock  count :1index22
+com.android.packageinstaller  count :1index21
+com.android.gallery3d  count :2index14
+com.goodix.health  count :1index20
+com.tencent.android.qqdownloader  count :2index13
+com.zmapp.plugin.addfriend  count :3index3
+com.android.documentsui  count :2index12
+com.jx.watchos.setting  count :5index2
+com.sprd.bootres  count :2index11
+com.android.calendar  count :2index10
+com.android.settings  count :9index1
+com.zmapp.camera  count :2index9
+com.sprd.fileexplorer  count :1index19
+com.jx.market  count :2index8
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.ss.android.ugc.aweme|count:6|LastUsed:1684384725840|totalForegroundTime12931|launchTime:1572;1020;1413;
+dump com.ss.android.ugc.aweme Relevance:
+---type 0---
+---type 1---
+com.ztapp.themestore  count :3index6
+com.jx.watchos.contact  count :1index19
+com.divo.phone  count :1index18
+com.eg.android.AlipayGphone  count :1index17
+com.android.packageinstaller  count :2index12
+com.tencent.mm  count :4index4
+com.goodix.health  count :3index5
+com.zmapp.chat  count :2index11
+com.tencent.android.qqdownloader  count :2index10
+com.jx.inputmethod.pinyin  count :1index16
+com.zmapp.plugin.addfriend  count :1index15
+com.android.documentsui  count :1index14
+com.android.systemui  count :2index9
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index3
+com.android.calendar  count :2index8
+com.android.settings  count :5index1
+com.jx.market  count :4index2
+com.android.browser  count :2index7
+com.android.music  count :1index13
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.divo.phone|count:6|LastUsed:1684384719850|totalForegroundTime29746|launchTime:493;
+dump com.divo.phone Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :1index27
+com.ss.android.ugc.aweme  count :3index3
+com.eg.android.AlipayGphone  count :3index2
+com.tencent.mm  count :1index26
+com.zmapp.sms  count :1index25
+com.baidu.voicesearch  count :2index15
+com.zmapp.album  count :2index14
+com.jx.inputmethod.pinyin  count :2index13
+com.android.systemui  count :1index24
+com.jx.launcher  count :14index0
+com.jx.timer  count :1index23
+com.tencent.wechatkids  count :1index22
+com.android.browser  count :2index12
+com.ztapp.themestore  count :1index21
+com.android.deskclock  count :1index20
+com.android.packageinstaller  count :1index19
+com.android.gallery3d  count :2index11
+com.tencent.android.qqdownloader  count :1index18
+com.zmapp.plugin.addfriend  count :2index10
+com.android.documentsui  count :2index9
+com.jx.watchos.setting  count :2index8
+com.sprd.bootres  count :2index7
+com.android.calendar  count :2index6
+com.android.settings  count :7index1
+com.tencent.qqlite  count :2index5
+com.zmapp.camera  count :2index4
+com.sprd.fileexplorer  count :1index17
+com.jx.market  count :1index16
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.eg.android.AlipayGphone|count:8|LastUsed:1684384735894|totalForegroundTime5209|launchTime:348;408;152;548;152;
+dump com.eg.android.AlipayGphone Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.jx.watchos.contact  count :1index26
+com.divo.phone  count :1index25
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index24
+com.zmapp.chat  count :2index15
+com.zmapp.album  count :2index14
+com.baidu.voicesearch  count :1index23
+com.jx.inputmethod.pinyin  count :2index13
+com.android.systemui  count :2index12
+com.jx.launcher  count :8index0
+com.android.browser  count :1index22
+com.android.music  count :1index21
+com.ztapp.themestore  count :2index11
+com.android.deskclock  count :1index20
+com.android.packageinstaller  count :1index19
+com.goodix.health  count :3index6
+com.tencent.android.qqdownloader  count :2index10
+com.zmapp.plugin.addfriend  count :2index9
+com.android.documentsui  count :1index18
+com.jx.watchos.setting  count :3index5
+com.android.calendar  count :3index4
+com.sprd.bootres  count :1index17
+com.android.settings  count :7index1
+com.zmapp.camera  count :2index8
+com.sprd.fileexplorer  count :1index16
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.tencent.mm|count:8|LastUsed:1684384713283|totalForegroundTime6364|launchTime:735;722;2164;
+dump com.tencent.mm Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index6
+com.ztapp.themestore  count :3index5
+com.jx.watchos.contact  count :1index22
+com.android.deskclock  count :1index21
+com.divo.phone  count :1index20
+com.eg.android.AlipayGphone  count :1index19
+com.android.packageinstaller  count :2index14
+com.goodix.health  count :3index4
+com.zmapp.chat  count :2index13
+com.zmapp.album  count :1index18
+com.tencent.android.qqdownloader  count :2index12
+com.jx.inputmethod.pinyin  count :2index11
+com.zmapp.plugin.addfriend  count :2index10
+com.android.documentsui  count :1index17
+com.android.systemui  count :2index9
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index3
+com.android.calendar  count :2index8
+com.android.settings  count :6index1
+com.sprd.fileexplorer  count :1index16
+com.jx.market  count :4index2
+com.android.browser  count :2index7
+com.android.music  count :1index15
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.zmapp.sms|count:1|LastUsed:1684384667376|totalForegroundTime532|launchTime:557;
+dump com.zmapp.sms Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.ztapp.themestore  count :3index6
+com.jx.watchos.contact  count :1index23
+com.android.deskclock  count :1index22
+com.divo.phone  count :1index21
+com.eg.android.AlipayGphone  count :1index20
+com.android.packageinstaller  count :2index15
+com.tencent.mm  count :5index2
+com.goodix.health  count :3index5
+com.zmapp.chat  count :2index14
+com.zmapp.album  count :1index19
+com.tencent.android.qqdownloader  count :2index13
+com.jx.inputmethod.pinyin  count :2index12
+com.zmapp.plugin.addfriend  count :2index11
+com.android.documentsui  count :1index18
+com.android.systemui  count :2index10
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index4
+com.android.calendar  count :2index9
+com.android.settings  count :6index1
+com.sprd.fileexplorer  count :1index17
+com.jx.market  count :4index3
+com.android.browser  count :2index8
+com.android.music  count :1index16
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.zmapp.chat|count:2|LastUsed:1684384692145|totalForegroundTime1598|launchTime:1006;
+dump com.zmapp.chat Relevance:
+---type 0---
+---type 1---
+com.ztapp.themestore  count :3index5
+com.jx.watchos.contact  count :1index19
+com.ss.android.ugc.aweme  count :1index18
+com.divo.phone  count :1index17
+com.eg.android.AlipayGphone  count :1index16
+com.android.packageinstaller  count :2index11
+com.tencent.mm  count :4index3
+com.goodix.health  count :2index10
+com.tencent.android.qqdownloader  count :2index9
+com.jx.inputmethod.pinyin  count :1index15
+com.zmapp.plugin.addfriend  count :1index14
+com.android.documentsui  count :1index13
+com.android.systemui  count :2index8
+com.jx.launcher  count :6index0
+com.jx.watchos.setting  count :4index2
+com.android.calendar  count :2index7
+com.android.settings  count :5index1
+com.jx.market  count :3index4
+com.android.browser  count :2index6
+com.android.music  count :1index12
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.baidu.voicesearch|count:2|LastUsed:1684384610848|totalForegroundTime1076|launchTime:
+dump com.baidu.voicesearch Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :2index21
+com.ss.android.ugc.aweme  count :3index8
+com.divo.phone  count :1index30
+com.eg.android.AlipayGphone  count :2index20
+com.tencent.mm  count :5index3
+com.zmapp.sms  count :1index29
+com.zmapp.chat  count :2index19
+com.zmapp.album  count :2index18
+com.jx.inputmethod.pinyin  count :2index17
+com.android.systemui  count :2index16
+com.jx.launcher  count :12index0
+com.jx.timer  count :1index28
+com.tencent.wechatkids  count :1index27
+com.android.browser  count :2index15
+com.android.music  count :1index26
+com.ztapp.themestore  count :2index14
+com.android.deskclock  count :1index25
+com.android.packageinstaller  count :1index24
+com.android.gallery3d  count :2index13
+com.goodix.health  count :3index7
+com.tencent.android.qqdownloader  count :2index12
+com.zmapp.plugin.addfriend  count :3index6
+com.android.documentsui  count :3index5
+com.jx.watchos.setting  count :5index2
+com.sprd.bootres  count :2index11
+com.android.calendar  count :2index10
+com.android.settings  count :9index1
+com.tencent.qqlite  count :1index23
+com.zmapp.camera  count :2index9
+com.sprd.fileexplorer  count :1index22
+com.jx.market  count :4index4
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.zmapp.album|count:4|LastUsed:1684384676880|totalForegroundTime1246|launchTime:195;
+dump com.zmapp.album Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.jx.watchos.contact  count :1index26
+com.divo.phone  count :1index25
+com.eg.android.AlipayGphone  count :1index24
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index23
+com.zmapp.chat  count :2index15
+com.baidu.voicesearch  count :1index22
+com.jx.inputmethod.pinyin  count :2index14
+com.android.systemui  count :2index13
+com.jx.launcher  count :8index1
+com.android.browser  count :2index12
+com.android.music  count :1index21
+com.ztapp.themestore  count :3index6
+com.android.deskclock  count :1index20
+com.android.packageinstaller  count :2index11
+com.goodix.health  count :3index5
+com.tencent.android.qqdownloader  count :2index10
+com.zmapp.plugin.addfriend  count :2index9
+com.android.documentsui  count :1index19
+com.jx.watchos.setting  count :4index4
+com.sprd.bootres  count :1index18
+com.android.calendar  count :2index8
+com.android.settings  count :8index0
+com.zmapp.camera  count :1index17
+com.sprd.fileexplorer  count :1index16
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.jx.inputmethod.pinyin|count:2|LastUsed:1684384721546|totalForegroundTime1000|launchTime:783;
+dump com.jx.inputmethod.pinyin Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.ztapp.themestore  count :3index6
+com.jx.watchos.contact  count :1index22
+com.android.deskclock  count :1index21
+com.divo.phone  count :1index20
+com.eg.android.AlipayGphone  count :1index19
+com.android.packageinstaller  count :2index13
+com.tencent.mm  count :4index4
+com.goodix.health  count :3index5
+com.zmapp.chat  count :2index12
+com.zmapp.album  count :1index18
+com.tencent.android.qqdownloader  count :2index11
+com.zmapp.plugin.addfriend  count :1index17
+com.android.documentsui  count :1index16
+com.android.systemui  count :2index10
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index3
+com.android.calendar  count :2index9
+com.android.settings  count :6index1
+com.sprd.fileexplorer  count :1index15
+com.jx.market  count :4index2
+com.android.browser  count :2index8
+com.android.music  count :1index14
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.systemui|count:3|LastUsed:1684384717159|totalForegroundTime691|launchTime:219;124;
+dump com.android.systemui Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :1index24
+com.ss.android.ugc.aweme  count :1index23
+com.divo.phone  count :2index13
+com.eg.android.AlipayGphone  count :3index3
+com.tencent.mm  count :1index22
+com.baidu.voicesearch  count :2index12
+com.zmapp.album  count :1index21
+com.jx.inputmethod.pinyin  count :1index20
+com.jx.launcher  count :13index0
+com.jx.timer  count :1index19
+com.tencent.wechatkids  count :1index18
+com.android.browser  count :2index11
+com.ztapp.themestore  count :1index17
+com.android.packageinstaller  count :1index16
+com.android.gallery3d  count :2index10
+com.tencent.android.qqdownloader  count :2index9
+com.zmapp.plugin.addfriend  count :1index15
+com.android.documentsui  count :2index8
+com.jx.watchos.setting  count :5index2
+com.sprd.bootres  count :2index7
+com.android.calendar  count :2index6
+com.android.settings  count :6index1
+com.tencent.qqlite  count :2index5
+com.zmapp.camera  count :2index4
+com.jx.market  count :1index14
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.jx.launcher|count:21|LastUsed:1684384736780|totalForegroundTime43847|launchTime:1839;191;113;954;808;
+dump com.jx.launcher Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :2index24
+com.ss.android.ugc.aweme  count :3index13
+com.divo.phone  count :6index1
+com.eg.android.AlipayGphone  count :3index12
+com.tencent.mm  count :5index3
+com.zmapp.sms  count :1index30
+com.zmapp.chat  count :2index23
+com.baidu.voicesearch  count :2index22
+com.zmapp.album  count :2index21
+com.jx.inputmethod.pinyin  count :2index20
+com.android.systemui  count :3index11
+com.jx.timer  count :1index29
+com.tencent.wechatkids  count :1index28
+com.android.browser  count :3index10
+com.android.music  count :1index27
+com.ztapp.themestore  count :3index9
+com.android.deskclock  count :1index26
+com.android.packageinstaller  count :2index19
+com.android.gallery3d  count :2index18
+com.goodix.health  count :3index8
+com.tencent.android.qqdownloader  count :2index17
+com.zmapp.plugin.addfriend  count :3index7
+com.android.documentsui  count :3index6
+com.jx.watchos.setting  count :5index2
+com.sprd.bootres  count :2index16
+com.android.calendar  count :3index5
+com.android.settings  count :10index0
+com.tencent.qqlite  count :2index15
+com.zmapp.camera  count :2index14
+com.sprd.fileexplorer  count :1index25
+com.jx.market  count :4index4
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.provision|count:1|LastUsed:1684384504981|totalForegroundTime75|launchTime:
+dump com.android.provision Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :1index18
+com.divo.phone  count :5index1
+com.eg.android.AlipayGphone  count :2index8
+com.android.gallery3d  count :2index7
+com.baidu.voicesearch  count :2index6
+com.zmapp.album  count :1index17
+com.android.systemui  count :1index16
+com.zmapp.plugin.addfriend  count :1index15
+com.android.documentsui  count :2index5
+com.jx.launcher  count :9index0
+com.jx.watchos.setting  count :1index14
+com.sprd.bootres  count :1index13
+com.jx.timer  count :1index12
+com.android.calendar  count :1index11
+com.android.settings  count :3index2
+com.tencent.qqlite  count :2index4
+com.tencent.wechatkids  count :1index10
+com.android.browser  count :1index9
+com.zmapp.camera  count :2index3
+---type 2---
+---type 3---
+---type 4---
+com.jx.launcher  count :1index0
+habit->UID:0|pkg:com.jx.timer|count:1|LastUsed:1684384599865|totalForegroundTime25|launchTime:
+dump com.jx.timer Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :2index15
+com.jx.watchos.contact  count :1index27
+com.divo.phone  count :1index26
+com.eg.android.AlipayGphone  count :2index14
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index25
+com.zmapp.chat  count :2index13
+com.zmapp.album  count :2index12
+com.baidu.voicesearch  count :1index24
+com.jx.inputmethod.pinyin  count :1index23
+com.android.systemui  count :2index11
+com.jx.launcher  count :6index1
+com.android.browser  count :1index22
+com.android.music  count :1index21
+com.ztapp.themestore  count :2index10
+com.android.deskclock  count :1index20
+com.android.packageinstaller  count :1index19
+com.goodix.health  count :3index5
+com.tencent.android.qqdownloader  count :1index18
+com.android.documentsui  count :2index9
+com.zmapp.plugin.addfriend  count :2index8
+com.jx.watchos.setting  count :3index4
+com.android.calendar  count :2index7
+com.sprd.bootres  count :1index17
+com.android.settings  count :6index0
+com.zmapp.camera  count :2index6
+com.sprd.fileexplorer  count :1index16
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.tencent.wechatkids|count:2|LastUsed:1684384594652|totalForegroundTime1127|launchTime:411;
+dump com.tencent.wechatkids Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :2index13
+com.jx.watchos.contact  count :1index27
+com.eg.android.AlipayGphone  count :2index12
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index26
+com.zmapp.chat  count :2index11
+com.zmapp.album  count :2index10
+com.baidu.voicesearch  count :1index25
+com.jx.inputmethod.pinyin  count :1index24
+com.android.systemui  count :1index23
+com.jx.launcher  count :6index1
+com.jx.timer  count :1index22
+com.android.browser  count :1index21
+com.android.music  count :1index20
+com.ztapp.themestore  count :2index9
+com.android.deskclock  count :1index19
+com.android.packageinstaller  count :1index18
+com.android.gallery3d  count :1index17
+com.goodix.health  count :3index5
+com.android.documentsui  count :3index4
+com.zmapp.plugin.addfriend  count :2index8
+com.jx.watchos.setting  count :1index16
+com.android.calendar  count :2index7
+com.sprd.bootres  count :1index15
+com.android.settings  count :6index0
+com.zmapp.camera  count :2index6
+com.sprd.fileexplorer  count :1index14
+com.jx.market  count :3index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.browser|count:3|LastUsed:1684384733537|totalForegroundTime4469|launchTime:1416;967;
+dump com.android.browser Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index8
+com.divo.phone  count :1index28
+com.eg.android.AlipayGphone  count :3index7
+com.tencent.mm  count :4index4
+com.zmapp.sms  count :1index27
+com.zmapp.chat  count :2index19
+com.zmapp.album  count :2index18
+com.baidu.voicesearch  count :1index26
+com.jx.inputmethod.pinyin  count :2index17
+com.android.systemui  count :2index16
+com.jx.launcher  count :11index0
+com.jx.timer  count :1index25
+com.tencent.wechatkids  count :1index24
+com.android.music  count :1index23
+com.ztapp.themestore  count :2index15
+com.android.deskclock  count :1index22
+com.android.packageinstaller  count :2index14
+com.android.gallery3d  count :2index13
+com.goodix.health  count :1index21
+com.tencent.android.qqdownloader  count :2index12
+com.zmapp.plugin.addfriend  count :3index6
+com.android.documentsui  count :3index5
+com.jx.watchos.setting  count :4index3
+com.sprd.bootres  count :2index11
+com.android.calendar  count :2index10
+com.android.settings  count :8index1
+com.zmapp.camera  count :2index9
+com.sprd.fileexplorer  count :1index20
+com.jx.market  count :4index2
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.sohu.inputmethod.sogou|count:0|LastUsed:0|totalForegroundTime0|launchTime:
+dump com.sohu.inputmethod.sogou Relevance:
+---type 0---
+---type 1---
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.music|count:10|LastUsed:1684384694460|totalForegroundTime1847|launchTime:354;146;130;134;171;90;
+dump com.android.music Relevance:
+---type 0---
+---type 1---
+com.ztapp.themestore  count :3index5
+com.jx.watchos.contact  count :1index17
+com.ss.android.ugc.aweme  count :1index16
+com.divo.phone  count :1index15
+com.eg.android.AlipayGphone  count :1index14
+com.android.packageinstaller  count :2index11
+com.tencent.mm  count :4index3
+com.goodix.health  count :2index10
+com.tencent.android.qqdownloader  count :2index9
+com.jx.inputmethod.pinyin  count :1index13
+com.android.documentsui  count :1index12
+com.android.systemui  count :2index8
+com.jx.launcher  count :6index0
+com.jx.watchos.setting  count :4index2
+com.android.calendar  count :2index7
+com.android.settings  count :5index1
+com.jx.market  count :3index4
+com.android.browser  count :2index6
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.ztapp.themestore|count:3|LastUsed:1684384731895|totalForegroundTime1068|launchTime:
+dump com.ztapp.themestore Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :1index15
+com.ss.android.ugc.aweme  count :1index14
+com.divo.phone  count :1index13
+com.eg.android.AlipayGphone  count :1index12
+com.android.packageinstaller  count :2index10
+com.tencent.mm  count :2index9
+com.goodix.health  count :2index8
+com.tencent.android.qqdownloader  count :2index7
+com.jx.inputmethod.pinyin  count :1index11
+com.android.systemui  count :2index6
+com.jx.launcher  count :6index0
+com.jx.watchos.setting  count :4index2
+com.android.calendar  count :2index5
+com.android.settings  count :5index1
+com.jx.market  count :2index4
+com.android.browser  count :2index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.deskclock|count:1|LastUsed:1684384675434|totalForegroundTime3162|launchTime:918;
+dump com.android.deskclock Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.ztapp.themestore  count :3index6
+com.jx.watchos.contact  count :1index22
+com.divo.phone  count :1index21
+com.eg.android.AlipayGphone  count :1index20
+com.android.packageinstaller  count :2index13
+com.tencent.mm  count :4index4
+com.goodix.health  count :3index5
+com.zmapp.chat  count :2index12
+com.zmapp.album  count :1index19
+com.tencent.android.qqdownloader  count :2index11
+com.jx.inputmethod.pinyin  count :1index18
+com.zmapp.plugin.addfriend  count :1index17
+com.android.documentsui  count :1index16
+com.android.systemui  count :2index10
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index3
+com.android.calendar  count :2index9
+com.android.settings  count :5index1
+com.sprd.fileexplorer  count :1index15
+com.jx.market  count :4index2
+com.android.browser  count :2index8
+com.android.music  count :1index14
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.packageinstaller|count:2|LastUsed:1684384732289|totalForegroundTime654|launchTime:
+dump com.android.packageinstaller Relevance:
+---type 0---
+---type 1---
+com.ztapp.themestore  count :2index10
+com.jx.watchos.contact  count :1index15
+com.ss.android.ugc.aweme  count :1index14
+com.divo.phone  count :1index13
+com.eg.android.AlipayGphone  count :1index12
+com.tencent.mm  count :2index9
+com.goodix.health  count :2index8
+com.tencent.android.qqdownloader  count :2index7
+com.jx.inputmethod.pinyin  count :1index11
+com.android.systemui  count :2index6
+com.jx.launcher  count :6index0
+com.jx.watchos.setting  count :4index2
+com.android.calendar  count :2index5
+com.android.settings  count :5index1
+com.jx.market  count :2index4
+com.android.browser  count :2index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.gallery3d|count:6|LastUsed:1684384597322|totalForegroundTime4443|launchTime:481;337;198;
+dump com.android.gallery3d Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :2index15
+com.jx.watchos.contact  count :1index27
+com.eg.android.AlipayGphone  count :2index14
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index26
+com.zmapp.chat  count :2index13
+com.zmapp.album  count :2index12
+com.baidu.voicesearch  count :1index25
+com.jx.inputmethod.pinyin  count :1index24
+com.android.systemui  count :2index11
+com.jx.launcher  count :6index1
+com.jx.timer  count :1index23
+com.tencent.wechatkids  count :1index22
+com.android.browser  count :1index21
+com.android.music  count :1index20
+com.ztapp.themestore  count :2index10
+com.android.deskclock  count :1index19
+com.android.packageinstaller  count :1index18
+com.goodix.health  count :3index6
+com.android.documentsui  count :3index5
+com.zmapp.plugin.addfriend  count :2index9
+com.jx.watchos.setting  count :3index4
+com.android.calendar  count :2index8
+com.sprd.bootres  count :1index17
+com.android.settings  count :6index0
+com.zmapp.camera  count :2index7
+com.sprd.fileexplorer  count :1index16
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.goodix.health|count:3|LastUsed:1684384703706|totalForegroundTime1288|launchTime:346;159;
+dump com.goodix.health Relevance:
+---type 0---
+---type 1---
+com.ztapp.themestore  count :3index5
+com.jx.watchos.contact  count :1index19
+com.ss.android.ugc.aweme  count :1index18
+com.divo.phone  count :1index17
+com.eg.android.AlipayGphone  count :1index16
+com.android.packageinstaller  count :2index11
+com.tencent.mm  count :4index3
+com.zmapp.chat  count :2index10
+com.tencent.android.qqdownloader  count :2index9
+com.jx.inputmethod.pinyin  count :1index15
+com.zmapp.plugin.addfriend  count :1index14
+com.android.documentsui  count :1index13
+com.android.systemui  count :2index8
+com.jx.launcher  count :6index0
+com.jx.watchos.setting  count :4index2
+com.android.calendar  count :2index7
+com.android.settings  count :5index1
+com.jx.market  count :3index4
+com.android.browser  count :2index6
+com.android.music  count :1index12
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.tencent.android.qqdownloader|count:2|LastUsed:1684384720849|totalForegroundTime2876|launchTime:1176;
+dump com.tencent.android.qqdownloader Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :1index10
+com.ztapp.themestore  count :1index9
+com.divo.phone  count :1index8
+com.jx.inputmethod.pinyin  count :1index7
+com.eg.android.AlipayGphone  count :1index6
+com.jx.launcher  count :4index0
+com.android.packageinstaller  count :1index5
+com.jx.watchos.setting  count :1index4
+com.android.calendar  count :1index3
+com.android.settings  count :2index1
+com.android.browser  count :1index2
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.zmapp.plugin.addfriend|count:3|LastUsed:1684384692061|totalForegroundTime1881|launchTime:571;370;266;
+dump com.zmapp.plugin.addfriend Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index10
+com.jx.watchos.contact  count :1index29
+com.divo.phone  count :1index28
+com.eg.android.AlipayGphone  count :3index9
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index27
+com.zmapp.chat  count :2index20
+com.zmapp.album  count :2index19
+com.baidu.voicesearch  count :1index26
+com.jx.inputmethod.pinyin  count :2index18
+com.android.systemui  count :2index17
+com.jx.launcher  count :12index0
+com.jx.timer  count :1index25
+com.tencent.wechatkids  count :1index24
+com.android.browser  count :2index16
+com.android.music  count :1index23
+com.ztapp.themestore  count :3index8
+com.android.deskclock  count :1index22
+com.android.packageinstaller  count :2index15
+com.android.gallery3d  count :2index14
+com.goodix.health  count :3index7
+com.tencent.android.qqdownloader  count :2index13
+com.android.documentsui  count :3index6
+com.jx.watchos.setting  count :4index4
+com.sprd.bootres  count :2index12
+com.android.calendar  count :3index5
+com.android.settings  count :9index1
+com.zmapp.camera  count :2index11
+com.sprd.fileexplorer  count :1index21
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.documentsui|count:4|LastUsed:1684384696864|totalForegroundTime2903|launchTime:1269;
+dump com.android.documentsui Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index9
+com.jx.watchos.contact  count :1index27
+com.divo.phone  count :1index26
+com.eg.android.AlipayGphone  count :3index8
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index25
+com.zmapp.chat  count :2index18
+com.zmapp.album  count :2index17
+com.baidu.voicesearch  count :1index24
+com.jx.inputmethod.pinyin  count :2index16
+com.android.systemui  count :2index15
+com.jx.launcher  count :10index0
+com.jx.timer  count :1index23
+com.android.browser  count :2index14
+com.android.music  count :1index22
+com.ztapp.themestore  count :3index7
+com.android.deskclock  count :1index21
+com.android.packageinstaller  count :2index13
+com.goodix.health  count :3index6
+com.tencent.android.qqdownloader  count :2index12
+com.zmapp.plugin.addfriend  count :2index11
+com.jx.watchos.setting  count :4index4
+com.android.calendar  count :3index5
+com.sprd.bootres  count :1index20
+com.android.settings  count :8index1
+com.zmapp.camera  count :2index10
+com.sprd.fileexplorer  count :1index19
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.jx.watchos.setting|count:5|LastUsed:1684384729706|totalForegroundTime3084|launchTime:526;597;299;
+dump com.jx.watchos.setting Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index5
+com.divo.phone  count :1index28
+com.eg.android.AlipayGphone  count :3index4
+com.tencent.mm  count :2index16
+com.zmapp.sms  count :1index27
+com.zmapp.chat  count :2index15
+com.zmapp.album  count :2index14
+com.baidu.voicesearch  count :1index26
+com.jx.inputmethod.pinyin  count :2index13
+com.android.systemui  count :1index25
+com.jx.launcher  count :11index0
+com.jx.timer  count :1index24
+com.tencent.wechatkids  count :1index23
+com.android.browser  count :2index12
+com.android.music  count :1index22
+com.ztapp.themestore  count :1index21
+com.android.deskclock  count :1index20
+com.android.packageinstaller  count :1index19
+com.android.gallery3d  count :2index11
+com.goodix.health  count :1index18
+com.tencent.android.qqdownloader  count :2index10
+com.zmapp.plugin.addfriend  count :3index3
+com.android.documentsui  count :3index2
+com.sprd.bootres  count :2index9
+com.android.calendar  count :2index8
+com.android.settings  count :6index1
+com.zmapp.camera  count :2index7
+com.sprd.fileexplorer  count :1index17
+com.jx.market  count :2index6
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.sprd.bootres|count:3|LastUsed:1684384662945|totalForegroundTime174|launchTime:384;
+dump com.sprd.bootres Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index10
+com.jx.watchos.contact  count :1index29
+com.divo.phone  count :1index28
+com.eg.android.AlipayGphone  count :3index9
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index27
+com.zmapp.chat  count :2index20
+com.zmapp.album  count :2index19
+com.baidu.voicesearch  count :1index26
+com.jx.inputmethod.pinyin  count :2index18
+com.android.systemui  count :2index17
+com.jx.launcher  count :11index0
+com.jx.timer  count :1index25
+com.tencent.wechatkids  count :1index24
+com.android.browser  count :2index16
+com.android.music  count :1index23
+com.ztapp.themestore  count :3index8
+com.android.deskclock  count :1index22
+com.android.packageinstaller  count :2index15
+com.android.gallery3d  count :2index14
+com.goodix.health  count :3index7
+com.tencent.android.qqdownloader  count :2index13
+com.android.documentsui  count :3index6
+com.zmapp.plugin.addfriend  count :2index12
+com.jx.watchos.setting  count :4index4
+com.android.calendar  count :3index5
+com.android.settings  count :8index1
+com.zmapp.camera  count :2index11
+com.sprd.fileexplorer  count :1index21
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.calendar|count:3|LastUsed:1684384702352|totalForegroundTime1419|launchTime:
+dump com.android.calendar Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.jx.watchos.contact  count :1index26
+com.divo.phone  count :1index25
+com.eg.android.AlipayGphone  count :1index24
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index23
+com.zmapp.chat  count :2index15
+com.zmapp.album  count :2index14
+com.baidu.voicesearch  count :1index22
+com.jx.inputmethod.pinyin  count :2index13
+com.android.systemui  count :2index12
+com.jx.launcher  count :8index1
+com.android.browser  count :2index11
+com.android.music  count :1index21
+com.ztapp.themestore  count :3index6
+com.android.deskclock  count :1index20
+com.android.packageinstaller  count :2index10
+com.goodix.health  count :3index5
+com.tencent.android.qqdownloader  count :2index9
+com.zmapp.plugin.addfriend  count :2index8
+com.android.documentsui  count :1index19
+com.jx.watchos.setting  count :4index4
+com.sprd.bootres  count :1index18
+com.android.settings  count :8index0
+com.zmapp.camera  count :1index17
+com.sprd.fileexplorer  count :1index16
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.android.settings|count:27|LastUsed:1684384730785|totalForegroundTime50642|launchTime:185;401;191;299;180;147;341;244;239;
+dump com.android.settings Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :2index24
+com.ss.android.ugc.aweme  count :3index13
+com.divo.phone  count :6index1
+com.eg.android.AlipayGphone  count :3index12
+com.tencent.mm  count :5index3
+com.zmapp.sms  count :1index30
+com.zmapp.chat  count :2index23
+com.baidu.voicesearch  count :2index22
+com.zmapp.album  count :2index21
+com.jx.inputmethod.pinyin  count :2index20
+com.android.systemui  count :3index11
+com.jx.launcher  count :17index0
+com.jx.timer  count :1index29
+com.tencent.wechatkids  count :1index28
+com.android.browser  count :3index10
+com.android.music  count :1index27
+com.ztapp.themestore  count :3index9
+com.android.deskclock  count :1index26
+com.android.packageinstaller  count :2index19
+com.android.gallery3d  count :2index18
+com.goodix.health  count :3index8
+com.tencent.android.qqdownloader  count :2index17
+com.zmapp.plugin.addfriend  count :3index7
+com.android.documentsui  count :3index6
+com.jx.watchos.setting  count :5index2
+com.sprd.bootres  count :2index16
+com.android.calendar  count :3index5
+com.tencent.qqlite  count :2index15
+com.zmapp.camera  count :2index14
+com.sprd.fileexplorer  count :1index25
+com.jx.market  count :4index4
+---type 2---
+---type 3---
+---type 4---
+com.jx.launcher  count :1index1
+com.android.provision  count :1index0
+habit->UID:0|pkg:com.tencent.qqlite|count:5|LastUsed:1684384574842|totalForegroundTime6424|launchTime:538;436;163;328;531;
+dump com.tencent.qqlite Relevance:
+---type 0---
+---type 1---
+com.jx.watchos.contact  count :1index25
+com.ss.android.ugc.aweme  count :2index12
+com.eg.android.AlipayGphone  count :2index11
+com.tencent.mm  count :2index10
+com.zmapp.sms  count :1index24
+com.zmapp.chat  count :2index9
+com.baidu.voicesearch  count :2index8
+com.zmapp.album  count :2index7
+com.jx.inputmethod.pinyin  count :1index23
+com.jx.launcher  count :9index0
+com.jx.timer  count :1index22
+com.tencent.wechatkids  count :1index21
+com.android.browser  count :1index20
+com.android.music  count :1index19
+com.android.deskclock  count :1index18
+com.android.gallery3d  count :2index6
+com.goodix.health  count :1index17
+com.zmapp.plugin.addfriend  count :3index2
+com.android.documentsui  count :2index5
+com.jx.watchos.setting  count :1index16
+com.sprd.bootres  count :2index4
+com.android.calendar  count :1index15
+com.android.settings  count :4index1
+com.zmapp.camera  count :2index3
+com.sprd.fileexplorer  count :1index14
+com.jx.market  count :1index13
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.zmapp.camera|count:2|LastUsed:1684384611654|totalForegroundTime2592|launchTime:664;
+dump com.zmapp.camera Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.jx.watchos.contact  count :1index26
+com.divo.phone  count :1index25
+com.eg.android.AlipayGphone  count :1index24
+com.tencent.mm  count :5index2
+com.zmapp.sms  count :1index23
+com.zmapp.chat  count :2index14
+com.zmapp.album  count :2index13
+com.baidu.voicesearch  count :1index22
+com.jx.inputmethod.pinyin  count :2index12
+com.android.systemui  count :2index11
+com.jx.launcher  count :7index1
+com.android.browser  count :1index21
+com.android.music  count :1index20
+com.ztapp.themestore  count :3index6
+com.android.deskclock  count :1index19
+com.android.packageinstaller  count :1index18
+com.goodix.health  count :3index5
+com.tencent.android.qqdownloader  count :2index10
+com.zmapp.plugin.addfriend  count :2index9
+com.android.documentsui  count :1index17
+com.jx.watchos.setting  count :4index4
+com.android.calendar  count :2index8
+com.sprd.bootres  count :1index16
+com.android.settings  count :8index0
+com.sprd.fileexplorer  count :1index15
+com.jx.market  count :4index3
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.sprd.fileexplorer|count:1|LastUsed:1684384676398|totalForegroundTime795|launchTime:908;
+dump com.sprd.fileexplorer Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :3index7
+com.ztapp.themestore  count :3index6
+com.jx.watchos.contact  count :1index21
+com.divo.phone  count :1index20
+com.eg.android.AlipayGphone  count :1index19
+com.android.packageinstaller  count :2index13
+com.tencent.mm  count :4index4
+com.goodix.health  count :3index5
+com.zmapp.chat  count :2index12
+com.zmapp.album  count :1index18
+com.tencent.android.qqdownloader  count :2index11
+com.jx.inputmethod.pinyin  count :1index17
+com.zmapp.plugin.addfriend  count :1index16
+com.android.documentsui  count :1index15
+com.android.systemui  count :2index10
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index3
+com.android.calendar  count :2index9
+com.android.settings  count :5index1
+com.jx.market  count :4index2
+com.android.browser  count :2index8
+com.android.music  count :1index14
+---type 2---
+---type 3---
+---type 4---
+habit->UID:0|pkg:com.jx.market|count:4|LastUsed:1684384716313|totalForegroundTime4032|launchTime:909;952;970;
+dump com.jx.market Relevance:
+---type 0---
+---type 1---
+com.ss.android.ugc.aweme  count :2index12
+com.ztapp.themestore  count :3index5
+com.jx.watchos.contact  count :1index19
+com.divo.phone  count :1index18
+com.eg.android.AlipayGphone  count :1index17
+com.android.packageinstaller  count :2index11
+com.tencent.mm  count :4index3
+com.goodix.health  count :3index4
+com.zmapp.chat  count :2index10
+com.tencent.android.qqdownloader  count :2index9
+com.jx.inputmethod.pinyin  count :1index16
+com.zmapp.plugin.addfriend  count :1index15
+com.android.documentsui  count :1index14
+com.android.systemui  count :2index8
+com.jx.launcher  count :7index0
+com.jx.watchos.setting  count :4index2
+com.android.calendar  count :2index7
+com.android.settings  count :5index1
+com.android.browser  count :2index6
+com.android.music  count :1index13
+---type 2---
+---type 3---
+---type 4---
+PROCESS STATUS:
+----------------------------
+procState->UID:0|pkg:com.jx.watchos.contact|proc:com.jx.watchos.contact|pss:0|cou t0
+procState->UID:0|pkg:com.ss.android.ugc.aweme|proc:com.ss.android.ugc.aweme|pss:0|cou t0
+procState->UID:0|pkg:com.divo.phone|proc:com.divo.phone|pss:0|cou t0
+procState->UID:0|pkg:com.divo.salesservices|proc:com.divo.salesservices|pss:0|cou t0
+procState->UID:0|pkg:com.sprd.applock|proc:com.sprd.applock|pss:0|cou t0
+procState->UID:0|pkg:com.sprd.udpDataStall|proc:com.sprd.udpDataStall|pss:0|cou t0
+procState->UID:0|pkg:com.android.defcontainer|proc:com.android.defcontainer|pss:0|cou t0
+procState->UID:0|pkg:com.tencent.mm|proc:com.tencent.mm|pss:0|cou t0
+procState->UID:0|pkg:com.android.carrierconfig|proc:com.android.carrierconfig|pss:0|cou t0
+procState->UID:0|pkg:android.ext.services|proc:android.ext.services|pss:0|cou t0
+procState->UID:0|pkg:com.android.dialer|proc:com.android.dialer|pss:0|cou t0
+procState->UID:0|pkg:com.android.phone|proc:com.android.phone|pss:0|cou t0
+procState->UID:0|pkg:com.zmapp.sms|proc:com.zmapp.sms|pss:0|cou t0
+procState->UID:0|pkg:com.zmapp.chat|proc:com.zmapp.chat|pss:0|cou t0
+procState->UID:0|pkg:com.zmapp.album|proc:com.zmapp.album|pss:0|cou t0
+procState->UID:0|pkg:com.jx.inputmethod.pinyin|proc:com.jx.inputmethod.pinyin|pss:0|cou t0
+procState->UID:0|pkg:com.sprd.systemupdate|proc:com.sprd.systemupdate|pss:0|cou t0
+procState->UID:0|pkg:com.jx.launcher|proc:com.jx.launcher|pss:62853|cou t2
+procState->UID:0|pkg:com.tencent.wechatkids|proc:com.tencent.wechatkids|pss:0|cou t0
+procState->UID:0|pkg:com.android.providers.calendar|proc:com.android.providers.calendar|pss:0|cou t0
+procState->UID:0|pkg:com.sohu.inputmethod.sogou|proc:com.sohu.inputmethod.sogou|pss:0|cou t0
+procState->UID:0|pkg:com.ztapp.themestore|proc:com.ztapp.themestore|pss:0|cou t0
+procState->UID:0|pkg:com.android.deskclock|proc:com.android.deskclock|pss:0|cou t0
+procState->UID:0|pkg:com.android.externalstorage|proc:com.android.externalstorage|pss:0|cou t0
+procState->UID:0|pkg:com.android.keychain|proc:com.android.keychain|pss:0|cou t0
+procState->UID:0|pkg:com.android.gallery3d|proc:com.android.gallery3d|pss:0|cou t0
+procState->UID:0|pkg:com.android.providers.contacts|proc:com.android.providers.contacts|pss:0|cou t0
+procState->UID:0|pkg:com.goodix.health|proc:com.goodix.health|pss:0|cou t0
+procState->UID:0|pkg:com.android.managedprovisioning|proc:com.android.managedprovisioning|pss:0|cou t0
+procState->UID:0|pkg:com.sprd.aganisttest|proc:com.sprd.aganisttest|pss:0|cou t0
+procState->UID:0|pkg:com.android.mtp|proc:com.android.mtp|pss:0|cou t0
+procState->UID:0|pkg:com.android.modemnotifier|proc:com.android.modemnotifier|pss:0|cou t0
+procState->UID:0|pkg:com.zmapp.plugin.addfriend|proc:com.zmapp.plugin.addfriend|pss:0|cou t0
+procState->UID:0|pkg:com.android.documentsui|proc:com.android.documentsui|pss:0|cou t0
+procState->UID:0|pkg:com.sprd.bootres|proc:com.sprd.bootres|pss:0|cou t0
+procState->UID:0|pkg:com.tencent.qqlite|proc:com.tencent.qqlite|pss:0|cou t0
+procState->UID:0|pkg:com.jx.market|proc:com.jx.market|pss:0|cou t0
+procState->UID:0|pkg:com.spreadtrum.vce|proc:com.spreadtrum.vce|pss:0|cou t0
+procState->UID:0|pkg:com.eg.android.AlipayGphone|proc:com.eg.android.AlipayGphone|pss:0|cou t0
+procState->UID:0|pkg:android|proc:android|pss:0|cou t0
+procState->UID:0|pkg:com.android.carrierdefaultapp|proc:com.android.carrierdefaultapp|pss:0|cou t0
+procState->UID:0|pkg:com.android.onetimeinitializer|proc:com.android.onetimeinitializer|pss:0|cou t0
+procState->UID:0|pkg:com.android.cellbroadcastreceiver|proc:com.android.cellbroadcastreceiver|pss:0|cou t0
+procState->UID:0|pkg:com.baidu.voicesearch|proc:com.baidu.voicesearch|pss:0|cou t0
+procState->UID:0|pkg:com.android.systemui|proc:com.android.systemui|pss:0|cou t0
+procState->UID:0|pkg:com.android.provision|proc:com.android.provision|pss:0|cou t0
+procState->UID:0|pkg:com.spreadtrum.vowifi|proc:com.spreadtrum.vowifi|pss:0|cou t0
+procState->UID:0|pkg:com.jx.timer|proc:com.jx.timer|pss:0|cou t0
+procState->UID:0|pkg:com.android.browser|proc:com.android.browser|pss:0|cou t0
+procState->UID:0|pkg:com.android.music|proc:com.android.music|pss:0|cou t0
+procState->UID:0|pkg:com.android.smspush|proc:com.android.smspush|pss:0|cou t0
+procState->UID:0|pkg:com.sprd.engineermode|proc:com.sprd.engineermode|pss:0|cou t0
+procState->UID:0|pkg:com.android.messaging|proc:com.android.messaging|pss:0|cou t0
+procState->UID:0|pkg:com.android.providers.downloads|proc:com.android.providers.downloads|pss:0|cou t0
+procState->UID:0|pkg:com.android.packageinstaller|proc:com.android.packageinstaller|pss:0|cou t0
+procState->UID:0|pkg:com.android.bluetooth|proc:com.android.bluetooth|pss:0|cou t0
+procState->UID:0|pkg:com.tencent.android.qqdownloader|proc:com.tencent.android.qqdownloader|pss:0|cou t0
+procState->UID:0|pkg:com.abupdate.fota_demo_iot|proc:com.abupdate.fota_demo_iot|pss:0|cou t0
+procState->UID:0|pkg:com.jx.watchos.setting|proc:com.jx.watchos.setting|pss:0|cou t0
+procState->UID:0|pkg:plugin.sprd.antitheft|proc:plugin.sprd.antitheft|pss:0|cou t0
+procState->UID:0|pkg:com.android.calendar|proc:com.android.calendar|pss:0|cou t0
+procState->UID:0|pkg:com.android.settings|proc:com.android.settings|pss:58491|cou t1
+procState->UID:0|pkg:com.sprd.fileexplorer|proc:com.sprd.fileexplorer|pss:0|cou t0
+procState->UID:0|pkg:com.zmapp.camera|proc:com.zmapp.camera|pss:0|cou t0
+procState->UID:0|pkg:com.android.soundrecorder|proc:com.android.soundrecorder|pss:0|cou t0
+----------------------------
+PRIO ADJ:
+usage :com.ss.android.ugc.aweme launchCount = 6index = 2pos :0.23076923
+usage :com.zmapp.chat launchCount = 2index = 5pos :0.46153846
+usage :com.tencent.android.qqdownloader launchCount = 2index = 11pos :0.9230769
+usage :com.jx.inputmethod.pinyin launchCount = 2index = 7pos :0.61538464
+usage :com.eg.android.AlipayGphone launchCount = 8index = 0pos :0.07692308
+usage :com.zmapp.plugin.addfriend launchCount = 3index = 3pos :0.30769232
+usage :com.tencent.mm launchCount = 8index = 4pos :0.3846154
+usage :com.jx.timer launchCount = 1index = 8pos :0.6923077
+usage :com.tencent.qqlite launchCount = 5index = 1pos :0.15384616
+usage :com.tencent.wechatkids launchCount = 2index = 6pos :0.53846157
+usage :com.jx.market launchCount = 4index = 9pos :0.7692308
+usage :com.sohu.inputmethod.sogou launchCount = 0index = 10pos :0.84615386
+CPUSTATUS:
+TOTAL :81.975075% USED
+----------------------------
+RamPolicy:
+----------------------------
+Process-reclaim current enabledfalse
+Dump MemoryConstant:
+----------------------------
+--->lowCpuLoad  : 30
+--->emergencyMemory  : 350
+--->protect_lru_limit  : 30 40 0
+--->normalMemory  : 900
+--->bigMemCriticalMemory  : 400
+--->highCpuLoad  : 60
+--->averageAppUss  : 20
+--->defaultCriticalMemory  : 600
+----------------------------
+Dump MemoryScene:
+----------------------------
+scenedefault --> policy:kill
+sceneBigMem --> policy:quickkill
+sceneidle --> policy:reclaim
+sceneEmergency --> policy:reclaimPersist
+----------------------------
+----------------------------
+PRIO SCHED:
+CURRENT SCHED BOOST ->null
+Dump ScheduleAdjust:
+----------------------------
+pkg:com.kiloo.subwaysurf|NAME:com.kiloo.subwaysurf|Threads:UnityMain UnityGfxDeviceW 
+pkg:com.tencent.mm|NAME:com.tencent.mm:appbrand0|Threads:GLThread 
+----------------------------
+--------- 0.040s was the duration of dumpsys performance_fw, ending at: 2023-05-18 12:38:58

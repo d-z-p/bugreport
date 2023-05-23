@@ -1,0 +1,12 @@
+Bluetooth Status
+  enabled: false
+  state: OFF
+  address: null
+  name: null
+Bluetooth never enabled!
+Bluetooth crashed 0 times
+
+No BLE Apps registered.
+
+Bluetooth Service not connected
+--------- 0.014s was the duration of dumpsys bluetooth_manager, ending at: 2023-05-22 17:52:06

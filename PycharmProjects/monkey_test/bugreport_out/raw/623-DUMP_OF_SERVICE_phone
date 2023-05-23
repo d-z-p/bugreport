@@ -1,0 +1,18 @@
+------- PhoneGlobals -------
+  mNoDataDueToRoaming=false
+  mDefaultDataSubId=1
+  mDataRoamingNotifLog:
+    2023-05-18T12:35:09.368 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:09.495 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:10.496 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:11.591 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:11.802 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:12.168 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:17.244 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:17.471 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+    2023-05-18T12:35:17.510 - dataAllowed=true, reasons=Data allowed, reason: NORMAL
+------- End PhoneGlobals -------
+******* OmtpVvm *******
+======= Configs =======
+Security exception: Package com.android.phone does not belong to 2000
+--------- 0.016s was the duration of dumpsys phone, ending at: 2023-05-18 12:38:58

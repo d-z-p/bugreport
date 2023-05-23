@@ -1,0 +1,989 @@
+9,0,i,vers,27,167,OPM2.171019.012,OPM2.171019.012
+9,hsp,0,1000,"com.jx.launcher"
+9,hsp,1,1000,"com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService"
+9,hsp,2,0,"0"
+9,hsp,3,1000,"com.divo.phone"
+9,hsp,4,0,"battery-state"
+9,hsp,5,10020,"com.android.systemui"
+9,hsp,6,0,"modem-data"
+9,hsp,7,1000,""
+9,hsp,8,10079,"com.tencent.qqlite"
+9,hsp,9,1,"com.example.demo1"
+9,hsp,10,10089,"com.tencent.mm"
+9,hsp,11,10073,"com.baidu.voicesearch"
+9,hsp,12,1000,"android/com.android.server.pm.BackgroundDexOptService"
+9,hsp,13,1000,"com.jx.watchos.contact"
+9,hsp,14,1000,"com.jx.watchos.setting"
+9,hsp,15,10071,"com.android.browser"
+9,hsp,16,10077,"com.zmapp.plugin.addfriend"
+9,hsp,17,1000,"com.android.settings"
+9,hsp,18,0,"get-stats"
+9,hsp,19,1000,"com.sprd.bootres"
+9,hsp,20,10026,"com.android.gallery3d"
+9,hsp,21,10085,"com.tencent.wechatkids"
+9,hsp,22,10010,"com.android.documentsui"
+9,hsp,23,10078,"com.jx.timer"
+9,hsp,24,10087,"com.eg.android.AlipayGphone"
+9,hsp,25,1000,"com.zmapp.camera"
+9,hsp,26,0,"dump"
+9,hsp,27,10070,"com.android.calendar"
+9,hsp,28,1000,"com.zmapp.album"
+9,hsp,29,1000,"ActivityManager-Sleep"
+9,hsp,30,10091,"*dexopt*"
+9,hsp,31,1000,"android.policy:KEY"
+9,hsp,32,-1,"screen"
+9,hsp,33,1000,"keychain"
+9,hsp,34,1000,"com.zmapp.sms"
+9,hsp,35,10080,"com.jx.inputmethod.pinyin"
+9,hsp,36,1000,"com.android.deskclock"
+9,hsp,37,10047,"com.sprd.fileexplorer"
+9,hsp,38,10084,"com.ss.android.ugc.aweme"
+9,hsp,39,10081,"com.jx.market"
+9,hsp,40,1000,"com.goodix.health"
+9,hsp,41,10083,"com.zmapp.chat"
+9,hsp,42,10054,"com.android.music"
+9,hsp,43,10082,"com.ztapp.themestore"
+9,hsp,44,10022,"com.android.packageinstaller"
+9,hsp,45,10090,"com.tencent.android.qqdownloader"
+9,hsp,46,10086,"com.zmapp.supercleanmaster"
+9,h,0:RESET:TIME:1684384538892
+9,h,0,Bl=99,Bs=d,Bh=g,Bp=n,Bt=231,Bv=4344,Bcc=891,+r,+w,+Pr,+S,Pcn=lte,Pss=4,Sb=1,Etp=0
+9,h,0,Ejb=1
+9,h,0,Eur=2
+9,h,0,Euf=2
+9,h,14,-Etp=0
+9,h,0,Pss=3,+Etp=3
+9,h,1421,Est=4
+9,h,8,Bs=c,Bp=u,Bv=4278,+BP,+ch,-Etp=3
+9,h,6,Pss=4,+Etp=0
+9,h,3473,-Ejb=1
+9,h,1586,-Etp=0
+9,h,0,+Etp=3
+9,h,719,-Etp=3
+9,h,0,+Etp=5
+9,h,113,-Etp=5
+9,h,0,+Etp=3
+9,h,7377,-Pr,Est=6
+9,h,9609,+Pr,Ewa=7
+9,h,1110,Sb=0
+9,h,1139,Sb=1,-Etp=3
+9,h,12,+Etp=8
+9,h,192,Epi=9
+9,h,2535,-Etp=8
+9,h,0,+Etp=0
+9,h,531,-Etp=0
+9,h,0,+Etp=10
+9,h,17,-Etp=10
+9,h,0,+Etp=0
+9,h,933,-Etp=0
+9,h,0,+Etp=11
+9,h,1261,-Etp=11
+9,h,0,+Etp=8
+9,h,377,+a,+Efg=11
+9,h,1058,-a,+Ejb=12
+9,h,2478,-Etp=8
+9,h,0,+Etp=0
+9,h,417,-Etp=0
+9,h,0,+Etp=13
+9,h,0,-Ejb=12
+9,h,862,-Etp=13
+9,h,0,+Etp=14
+9,h,753,-Etp=14
+9,h,0,+Etp=0
+9,h,866,-Etp=0
+9,h,0,+Etp=15
+9,h,2548,-Etp=15
+9,h,0,+Etp=16
+9,h,832,-Etp=16
+9,h,0,+Etp=17
+9,h,1401,Est=18
+9,h,28,Est=18
+9,h,6501,-Etp=17
+9,h,0,+Etp=0
+9,h,1429,-Etp=0
+9,h,0,+Etp=19
+9,h,109,-Etp=19
+9,h,0,+Etp=0
+9,h,643,-Etp=0
+9,h,0,+v,+Etp=20
+9,h,912,-v
+9,h,340,+a,Sb=0,+v
+9,h,784,-a,-v,-Etp=20
+9,h,150,Sb=1,+Etp=21
+9,h,1123,+a,-Etp=21
+9,h,110,Sb=0,+v,+Etp=20
+9,h,2358,-a,Sb=1,-v,-Etp=20
+9,h,371,+Etp=22
+9,h,2429,-Etp=22
+9,h,0,+Etp=23
+9,h,196,-Etp=23
+9,h,0,+Etp=22
+9,h,606,-Etp=22
+9,h,0,+Etp=0
+9,h,551,-Etp=0
+9,h,0,+Etp=24
+9,h,1016,Sb=4,-Etp=24
+9,h,156,Sb=1,+Etp=0
+9,h,998,-Etp=0
+9,h,0,+Etp=25
+9,h,96,Sb=2,+ca,Est=26
+9,h,2024,-Etp=25
+9,h,0,Sb=1,+Etp=24
+9,h,749,Sb=4,-ca,Est=26
+9,h,334,Sb=1
+9,h,1647,-Etp=24
+9,h,0,+a,+Etp=27
+9,h,1129,-Etp=27
+9,h,0,+Etp=28
+9,h,473,-Etp=28
+9,h,0,+Etp=13
+9,h,37,-Etp=13
+9,h,0,+v,+Etp=28
+9,h,213,-v,-Etp=28
+9,h,377,+v,+Etp=11
+9,h,270,-v,-Etp=11
+9,h,402,Sb=2,+ca,+Etp=25
+9,h,568,-Etp=25
+9,h,1,Sb=1,-ca,+Etp=17
+9,h,1128,Est=18
+9,h,6227,-a
+9,h,18553,Sb=0
+9,h,6003,-w,-S
+9,h,2,+w=29
+9,h,8631,-w
+9,h,381,Bv=4322
+9,h,9249,+w=30,-Etp=17
+9,h,526,-w,+Etp=19
+9,h,470,+w=32,+S,Sb=1,Esw=31
+9,h,115,-Etp=19
+9,h,0,+Etp=17
+9,h,825,+Etw=33
+9,h,72,Epi=9
+9,h,416,Est=18
+9,h,204,Est=18
+9,h,15,Est=18
+9,h,20,Est=18
+9,h,269,Est=18
+9,h,18,Est=18
+9,h,252,-Etp=17
+9,h,0,+Etp=0
+9,h,1750,-Etp=0
+9,h,0,+a,+Etp=34
+9,h,592,-a,-Etp=34
+9,h,55,+Etp=10
+9,h,2469,-Etp=10
+9,h,0,+Etp=16
+9,h,527,-Etp=16
+9,h,0,+Etp=35
+9,h,955,-Etp=35
+9,h,0,+Etp=17
+9,h,782,-Etp=17
+9,h,0,+Etp=0
+9,h,69,-Etp=0
+9,h,0,+Etp=36
+9,h,1174,-Efg=11
+9,h,2082,-Etp=36
+9,h,0,+Etp=37
+9,h,952,-Etp=37
+9,h,0,+Etp=28
+9,h,473,-Etp=28
+9,h,0,+Etp=38
+9,h,3778,-Etp=38
+9,h,0,+Etp=39
+9,h,877,-Etp=39
+9,h,0,+Etp=38
+9,h,6428,-Etp=38
+9,h,0,+Etp=0
+9,h,1250,-Etp=0
+9,h,0,+Etp=40
+9,h,497,-Etp=40
+9,h,0,+Etp=41
+9,h,1613,-Etp=41
+9,h,0,+Etp=16
+9,h,715,-Etp=16
+9,h,0,+Etp=41
+9,h,101,-Etp=41
+9,h,0,+Etp=42
+9,h,1637,-Etw=33
+9,h,669,-Etp=42
+9,h,0,+Etp=10
+9,h,2314,-Etp=10
+9,h,0,+Etp=22
+9,h,117,-Etp=22
+9,h,0,+Etp=10
+9,h,796,Bv=4271,-Etp=10
+9,h,506,+Etp=39
+9,h,554,-Etp=39
+9,h,0,+Etp=43
+9,h,556,-Etp=43
+9,h,0,+Etp=44
+9,h,464,-Etp=44
+9,h,0,+Etp=39
+9,h,757,+Etw=33
+9,h,26,Epi=9
+9,h,557,+Efg=39
+9,h,261,-Efg=39
+9,h,506,-Etp=39
+9,h,0,+Etp=27
+9,h,482,-Etp=27
+9,h,0,+Etp=40
+9,h,251,-Etp=40
+9,h,0,+Etp=43
+9,h,409,-Etp=43
+9,h,0,+Etp=40
+9,h,669,-Etp=40
+9,h,0,+Etp=10
+9,h,1323,-Etp=10
+9,h,0,+Etp=13
+9,h,1651,-Etp=13
+9,h,1,+Etp=0
+9,h,677,-Etp=0
+9,h,0,Pss=3,+Etp=17
+9,h,2173,-Etp=17
+9,h,1,+Etp=15
+9,h,1073,Pss=4,-Etp=15
+9,h,109,+Etp=17
+9,h,703,-Etp=17
+9,h,0,Sb=0,+Etp=5
+9,h,333,Sb=1
+9,h,40,Sb=0
+9,h,69,Sb=1
+9,h,5,Sb=0
+9,h,0,Sb=1
+9,h,70,Sb=0
+9,h,1,Sb=1
+9,h,26,Sb=0,-Etp=5
+9,h,9,Sb=1,+Etp=17
+9,h,244,-Etp=17
+9,h,0,+Etp=0
+9,h,451,-Etp=0
+9,h,0,+Etp=10
+9,h,1124,-Etp=10
+9,h,0,+Etp=14
+9,h,1369,-Etp=14
+9,h,0,+Etp=39
+9,h,1166,-Etp=39
+9,h,0,+Etp=14
+9,h,665,-Etp=14
+9,h,0,+Etp=5
+9,h,182,-Etp=5
+9,h,0,+Etp=14
+9,h,248,-Etp=14
+9,h,0,+Etp=45
+9,h,2096,-Etp=45
+9,h,0,+Etp=3
+9,h,380,-Etp=3
+9,h,0,+Etp=45
+9,h,980,-Etp=45
+9,h,0,+Etp=0
+9,h,422,-Etp=0
+9,h,0,+Etp=35
+9,h,253,-Etp=35
+9,h,0,+Etp=17
+9,h,769,-Etp=17
+9,h,0,+Etp=38
+9,h,3682,-Etp=38
+9,h,0,+Etp=0
+9,h,3320,-Etp=0
+9,h,0,+Etp=14
+9,h,391,-Etp=14
+9,h,0,+Etp=17
+9,h,876,-Etw=33
+9,h,326,-Etp=17
+9,h,0,+Etp=0
+9,h,633,-Etp=0
+9,h,0,+Etp=43
+9,h,436,-Etp=43
+9,h,0,+Etp=44
+9,h,430,-Etp=44
+9,h,0,+Etp=15
+9,h,1252,-Etp=15
+9,h,0,Sb=4,+Etp=24
+9,h,1192,Sb=1
+9,h,1538,-Etp=24
+9,h,1,+Etp=0
+9,h,393,-Etp=0
+9,h,0,+Etp=46
+9,h,41,Est=26
+9,h,18,-Etp=46
+9,h,0,+Etp=27
+9,h,2940,Est=26
+9,0,i,uid,1000,com.abupdate.fota_demo_iot
+9,0,i,uid,1000,com.sprd.engineermode
+9,0,i,uid,1000,com.zmapp.sms
+9,0,i,uid,1000,com.divo.salesservices
+9,0,i,uid,1000,com.zmapp.album
+9,0,i,uid,1000,com.sprd.aganisttest
+9,0,i,uid,1000,com.sprd.validationtools
+9,0,i,uid,1000,android
+9,0,i,uid,1000,com.goodix.health
+9,0,i,uid,1000,com.sprd.quickcamera
+9,0,i,uid,1000,com.android.providers.settings
+9,0,i,uid,1000,com.android.inputdevices
+9,0,i,uid,1000,com.sprd.appclone
+9,0,i,uid,1000,com.sprd.applock
+9,0,i,uid,1000,com.android.server.telecom
+9,0,i,uid,1000,com.android.keychain
+9,0,i,uid,1000,com.spreadtrum.vce
+9,0,i,uid,1000,com.sprd.powersavemodelauncher
+9,0,i,uid,1000,com.jx.launcher
+9,0,i,uid,1000,com.jx.watchos.contact
+9,0,i,uid,1000,com.sprd.udpDataStall
+9,0,i,uid,1000,com.zyapp.health.heartrate
+9,0,i,uid,1000,com.divo.phone
+9,0,i,uid,1000,com.spreadtrum.vowifi
+9,0,i,uid,1000,com.sprd.bootres
+9,0,i,uid,1000,com.android.settings
+9,0,i,uid,1000,com.watch.iotcurrentdetect
+9,0,i,uid,1000,com.spreadtrum.sgps
+9,0,i,uid,1000,plugin.sprd.antitheft
+9,0,i,uid,1000,com.sprd.systemupdate
+9,0,i,uid,1000,com.jx.watchos.setting
+9,0,i,uid,1000,com.zmapp.camera
+9,0,i,uid,1000,com.android.wallpaperbackup
+9,0,i,uid,1000,com.android.location.fused
+9,0,i,uid,1000,com.android.deskclock
+9,0,i,uid,1001,com.android.providers.telephony
+9,0,i,uid,1001,com.android.mms.service
+9,0,i,uid,1001,com.sprd.omacp
+9,0,i,uid,1001,com.android.sprd.telephony.server
+9,0,i,uid,1001,com.sprd.uplmnsettings
+9,0,i,uid,1001,com.spreadtrum.ims
+9,0,i,uid,1001,com.android.phone
+9,0,i,uid,1001,com.sprd.ImsConnectionManager
+9,0,i,uid,1001,com.spread.cachefdn
+9,0,i,uid,1002,com.android.bluetooth
+9,0,i,uid,2000,com.android.shell
+9,0,i,uid,10002,plugin.sprd.contactsdefaultcontact
+9,0,i,uid,10002,plugin.sprd.supportForFastScrollBar
+9,0,i,uid,10002,plugin.sprd.contactsEFDisplay
+9,0,i,uid,10002,com.android.dialer
+9,0,i,uid,10002,com.android.calllogbackup
+9,0,i,uid,10002,plugin.sprdst.contactsblacklist
+9,0,i,uid,10002,com.android.providers.blockednumber
+9,0,i,uid,10002,com.android.providers.userdictionary
+9,0,i,uid,10002,com.android.providers.contacts
+9,0,i,uid,10003,com.android.backupconfirm
+9,0,i,uid,10004,com.android.defcontainer
+9,0,i,uid,10005,com.android.cellbroadcastreceiver
+9,0,i,uid,10005,com.sprd.cellbroadcastreceiver
+9,0,i,uid,10006,com.android.carrierconfig
+9,0,i,uid,10007,com.android.externalstorage
+9,0,i,uid,10008,com.android.providers.media
+9,0,i,uid,10008,com.android.providers.downloads
+9,0,i,uid,10008,com.android.providers.downloads.ui
+9,0,i,uid,10008,com.android.mtp
+9,0,i,uid,10009,android.ext.services
+9,0,i,uid,10010,com.android.documentsui
+9,0,i,uid,10011,com.android.musicfx
+9,0,i,uid,10013,com.android.emergency
+9,0,i,uid,10014,com.android.managedprovisioning
+9,0,i,uid,10015,com.android.proxyhandler
+9,0,i,uid,10016,com.android.provision
+9,0,i,uid,10017,com.android.onetimeinitializer
+9,0,i,uid,10018,com.android.sharedstoragebackup
+9,0,i,uid,10019,com.android.providers.calendar
+9,0,i,uid,10020,com.android.systemui
+9,0,i,uid,10020,com.sprd.recents
+9,0,i,uid,10021,com.android.statementservice
+9,0,i,uid,10022,com.android.packageinstaller
+9,0,i,uid,10023,com.android.wallpapercropper
+9,0,i,uid,10024,com.android.vpndialogs
+9,0,i,uid,10025,com.android.storagemanager
+9,0,i,uid,10026,com.android.gallery3d
+9,0,i,uid,10027,com.android.appsfolder
+9,0,i,uid,10028,plugin.sprd.supportapnsettings
+9,0,i,uid,10029,addon.sprd.browser.plugindrm
+9,0,i,uid,10030,com.android.bluetoothmidiservice
+9,0,i,uid,10031,com.android.companiondevicemanager
+9,0,i,uid,10032,com.android.carrierdefaultapp
+9,0,i,uid,10033,plugin.sprd.vodafonefeatures
+9,0,i,uid,10034,addon.sprd.downloadprovider
+9,0,i,uid,10035,com.android.captiveportallogin
+9,0,i,uid,10036,com.android.certinstaller
+9,0,i,uid,10038,plugin.sprd.fadeDownRingtoneToVibrate
+9,0,i,uid,10039,addon.sprd.documentsui.plugindrm
+9,0,i,uid,10040,android.ext.shared
+9,0,i,uid,10041,com.android.egg
+9,0,i,uid,10042,plugin.sprd.flipToMute
+9,0,i,uid,10043,com.android.soundrecorder
+9,0,i,uid,10044,com.android.htmlviewer
+9,0,i,uid,10045,com.sprd.fileexploreraddon
+9,0,i,uid,10046,plugin.sprd.limitinfolength
+9,0,i,uid,10047,com.sprd.fileexplorer
+9,0,i,uid,10048,com.android.pacprocessor
+9,0,i,uid,10049,plugin.sprd.pickUpToAnswerIncomingCall
+9,0,i,uid,10050,plugin.sprd.otaupdate
+9,0,i,uid,10051,plugin.sprd.maxRingingVolumeAndVibrate
+9,0,i,uid,10052,plugin.sprd.dynanavigationbar
+9,0,i,uid,10053,com.android.dreams.phototable
+9,0,i,uid,10054,com.android.music
+9,0,i,uid,10055,com.android.wallpaper.livepicker
+9,0,i,uid,10056,plugin.sprd.pressbrightness
+9,0,i,uid,10057,com.sprd.telecom.ringbackTonePlugin
+9,0,i,uid,10058,plugin.sprd.shakePhoneToStartRecording
+9,0,i,uid,10059,com.android.messaging
+9,0,i,uid,10059,com.android.messaging.smilplayer
+9,0,i,uid,10059,com.android.mmsfolderview
+9,0,i,uid,10060,plugin.sprd.simlock
+9,0,i,uid,10061,plugin.sprd.supportcpversion
+9,0,i,uid,10062,plugin.sprd.speakerToHeadset
+9,0,i,uid,10063,addon.sprd.browser.custom
+9,0,i,uid,10064,addon.sprd.browser.storage
+9,0,i,uid,10065,plugin.sprd.systemuiaudioprofile
+9,0,i,uid,10066,com.sprd.uasetting
+9,0,i,uid,10067,plugin.sprd.systemuidynanavigationbar
+9,0,i,uid,10068,plugin.sprd.wakeupScreen
+9,0,i,uid,10069,com.android.smspush
+9,0,i,uid,10070,com.android.calendar
+9,0,i,uid,10071,com.android.browser
+9,0,i,uid,10072,com.ztapp.callbyvideo
+9,0,i,uid,10073,com.baidu.voicesearch
+9,0,i,uid,10074,com.android.webview
+9,0,i,uid,10075,com.android.modemnotifier
+9,0,i,uid,10076,com.jx.weather
+9,0,i,uid,10077,com.zmapp.plugin.addfriend
+9,0,i,uid,10078,com.jx.timer
+9,0,i,uid,10079,com.tencent.qqlite
+9,0,i,uid,10080,com.jx.inputmethod.pinyin
+9,0,i,uid,10081,com.jx.market
+9,0,i,uid,10082,com.ztapp.themestore
+9,0,i,uid,10083,com.zmapp.chat
+9,0,i,uid,10084,com.ss.android.ugc.aweme
+9,0,i,uid,10085,com.tencent.wechatkids
+9,0,i,uid,10086,com.zmapp.supercleanmaster
+9,0,i,uid,10087,com.eg.android.AlipayGphone
+9,0,i,uid,10088,com.sohu.inputmethod.sogou
+9,0,i,uid,10089,com.tencent.mm
+9,0,i,uid,10090,com.tencent.android.qqdownloader
+9,0,i,uid,10091,com.example.demo1
+9,0,l,bt,0,1443,1443,200924,200924,1684384538890,0,0,900,900000,900000,0
+9,0,l,gn,0,0,0,0,0,0,0,0,0,0
+9,0,l,gwfl,0,0,0,0,0
+9,0,l,m,1443,0,0,0,1443,0,1443,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,0,l,br,0,1443,0,0,0
+9,0,l,sgt,0,0,0,474,969
+9,0,l,sst,0
+9,0,l,sgc,0,0,0,1,0
+9,0,l,dct,0,0,0,0,0,0,0,0,0,0,0,0,0,1443,0,0,0
+9,0,l,dcc,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,0,l,wst,0,0,0,0,0,0,0,0
+9,0,l,wsc,0,0,0,0,0,0,0,0
+9,0,l,wsst,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,0,l,wssc,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,0,l,wsgt,0,0,0,0,0
+9,0,l,wsgc,0,0,0,0,0
+9,0,l,dc,0,0,0,0,0,0,0,0
+9,0,l,kwl,"sprd_dual_role_usb              ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-4-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-14-tx                  ",0,0,-1,-1
+9,0,l,kwl,"musb-sprd                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-10-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-28-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"event8                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-8-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-11-tx                  ",0,0,-1,-1
+9,0,l,kwl,"usb                             ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-2-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-14-rx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-18                       ",0,0,-1,-1
+9,0,l,kwl,"40380000.spi:pmic@0:rtc@200     ",0,0,-1,-1
+9,0,l,kwl,"sprdfgu                         ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-15-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-5-0-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-4-4                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-6-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-11-0-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-29-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-2-rx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-11                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-15-rx                  ",0,0,-1,-1
+9,0,l,kwl,"chg_inner                       ",0,0,-1,-1
+9,0,l,kwl,"event5                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-7-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-8-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-30-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-11-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-5-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-17-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-16-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-12-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-31-tx                  ",0,0,-1,-1
+9,0,l,kwl,"charger_wake_lock               ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-9-tx                   ",0,0,-1,-1
+9,0,l,kwl,"headset_button_wakelock         ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-4-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-6-5                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-0-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-9                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-31-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-13-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-9-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-10-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-4-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-5                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-10-tx                  ",0,0,-1,-1
+9,0,l,kwl,"pm_message_wakelock             ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-25                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-21-0-tx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-13                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-6-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-21-0-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-13-rx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-12                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-30-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-12-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-2-tx                   ",0,0,-1,-1
+9,0,l,kwl,"event9                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-9-rx                   ",0,0,-1,-1
+9,0,l,kwl,"headset_detect_wakelock         ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-14-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-1-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-23-rx                  ",0,0,-1,-1
+9,0,l,kwl,"[timerfd]                       ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-14                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-28-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-24-rx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-4                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-5-tx                   ",0,0,-1,-1
+9,0,l,kwl,"ac                              ",0,0,-1,-1
+9,0,l,kwl,"PowerManagerService.Display     ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-131                      ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-1-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-19-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-8-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-14-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-6-5-0-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-8-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-14-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-5-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-6-5-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-11-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-4-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-5-tx                   ",0,0,-1,-1
+9,0,l,kwl,"TrimTask                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"NETLINK                         ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-4-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-4                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-26-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-8-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sc wakelock                     ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-21-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-5-rx                   ",0,0,-1,-1
+9,0,l,kwl,"nvitem_work                     ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-21-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sprdfgu_powerlow_lock           ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-20                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-12-0-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-4-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-12-0-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-11-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-1-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-12-rx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-151                      ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-12-tx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-16                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-26-rx                  ",0,0,-1,-1
+9,0,l,kwl,"gpio-keys                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-1-tx                   ",0,0,-1,-1
+9,0,l,kwl,"mdbg_wake_lock                  ",0,0,-1,-1
+9,0,l,kwl,"KeyEvents                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-8-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-9-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-7                        ",0,0,-1,-1
+9,0,l,kwl,"battery                         ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-2                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-19-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-9-rx                   ",0,0,-1,-1
+9,0,l,kwl,"Camera Sensor Waklelock         ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-11                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-23-tx                  ",0,0,-1,-1
+9,0,l,kwl,"audio-ldo                       ",0,0,-1,-1
+9,0,l,kwl,"radio-interface                 ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-24-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-3-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-10                       ",0,0,-1,-1
+9,0,l,kwl,"FM_wakelock                     ",0,0,-1,-1
+9,0,l,kwl,"smsg-6-22                       ",0,0,-1,-1
+9,0,l,kwl,"event3                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-4-4-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-8                        ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-7                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-22-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-11-tx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-9                        ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-6                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-18-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-25-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-1-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-5-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-14-rx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-19                       ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-24                       ",0,0,-1,-1
+9,0,l,kwl,"pm_message_wakelock_vsp         ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-0-tx                   ",0,0,-1,-1
+9,0,l,kwl,"Camera Sys Wakelock             ",0,0,-1,-1
+9,0,l,kwl,"70a00000.spi                    ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-16-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-4-4-0-tx                   ",0,0,-1,-1
+9,0,l,kwl,"eventpoll                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-17-rx                  ",0,0,-1,-1
+9,0,l,kwl,"musb-time                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-7-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-12-tx                  ",0,0,-1,-1
+9,0,l,kwl,"autosleep                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-13-rx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-12                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-3-rx                   ",0,0,-1,-1
+9,0,l,kwl,"event7                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-13-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-7-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-1-tx                   ",0,0,-1,-1
+9,0,l,kwl,"musb-hdrc.0.auto                ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-12-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-5-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-9-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-6-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-5                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-3-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-29-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-2-rx                   ",0,0,-1,-1
+9,0,l,kwl,"alarmtimer                      ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-10-rx                  ",0,0,-1,-1
+9,0,l,kwl,"event0                          ",0,0,-1,-1
+9,0,l,kwl,"vbc-eq-loading                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-2-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-6-6-0-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-2-tx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-22-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-18-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-15-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-6-tx                   ",0,0,-1,-1
+9,0,l,kwl,"deleted                         ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-11-0-rx                  ",0,0,-1,-1
+9,0,l,kwl,"event2                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-25-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-11-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-15-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-3-rx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-15                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-7-tx                   ",0,0,-1,-1
+9,0,l,kwl,"PowerManagerService.Broadcasts  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-6-6-0-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-3                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-6-rx                   ",0,0,-1,-1
+9,0,l,kwl,"rtc_irq                         ",0,0,-1,-1
+9,0,l,kwl,"vbus-20e00000.hsphy             ",0,0,-1,-1
+9,0,l,kwl,"smsg-6-6                        ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-3-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-7-tx                   ",0,0,-1,-1
+9,0,l,kwl,"2-0018                          ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-27-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-10-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-27-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-10-tx                  ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-21                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-7-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-3-4-6-rx                   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-20-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-4-3-tx                   ",0,0,-1,-1
+9,0,l,kwl,"smsg-3-8                        ",0,0,-1,-1
+9,0,l,kwl,"smsg-5-17                       ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-20-tx                  ",0,0,-1,-1
+9,0,l,kwl,"PowerManagerService.WakeLocks   ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-13-tx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-13-rx                  ",0,0,-1,-1
+9,0,l,kwl,"sbuf-5-6-0-tx                   ",0,0,-1,-1
+9,0,l,pws,1380,0.175,0,0
+9,0,l,pwi,cell,0.0891,1,0,0
+9,0,l,pwi,scrn,0.0453,1,0,0
+9,0,l,pwi,idle,0.0162,1,0,0
+9,1000,l,pwi,uid,0.0120,1,0,0
+9,10088,l,pwi,uid,0.00519,0,0,0.00781
+9,10090,l,pwi,uid,0.00297,0,0,0.00446
+9,0,l,pwi,uid,0.00260,1,0,0
+9,1001,l,pwi,uid,0.000371,1,0,0
+9,1036,l,pwi,uid,0.000371,1,0,0
+9,10020,l,pwi,uid,0.000371,1,0,0
+9,0,l,cpu,30,40,0
+9,1000,l,ua,1,0,1,0
+9,1000,l,awl,0,0
+9,1000,l,wl,ActivityManager-Sleep,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,*job*/com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,*alarm*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,AlarmClock,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,NetworkStats,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,launcher:myTag,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,*job*/android/com.android.server.pm.BackgroundDexOptService,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,wl,SyncLoopWakeLock,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1000,l,jb,"com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService",1443,0,0,0
+9,1000,l,sr,5,1412,1,0,1412,0
+9,1000,l,fg,1422,1
+9,1000,l,st,0,1443,0,0,0,0
+9,1000,l,cpu,260,60,0
+9,1000,l,pr,"com.jx.launcher",0,0,440,0,0,0
+9,1000,l,apk,0,com.jx.launcher,com.zmapp.aidldemo.WatchInfoService,0,0,1
+9,1000,l,apk,0,com.goodix.health,com.goodix.health.service.GoodixHealthLocalService,0,0,1
+9,1001,l,awl,0,0
+9,1001,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1001,l,wl,*alarm*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1001,l,wl,RILJ,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1001,l,st,0,1443,0,0,0,0
+9,1001,l,cpu,10,0,0
+9,1002,l,awl,0,0
+9,1002,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,1036,l,cpu,10,0,0
+9,1041,l,awl,0,0
+9,1041,l,wl,AudioMixAudioOut_D,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,2000,l,awl,0,0
+9,2000,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10002,l,awl,0,0
+9,10002,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10002,l,st,0,0,0,0,0,1443
+9,10003,l,awl,0,0
+9,10003,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10004,l,awl,0,0
+9,10004,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10004,l,st,0,0,0,0,0,1443
+9,10005,l,awl,0,0
+9,10005,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10006,l,awl,0,0
+9,10006,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10007,l,awl,0,0
+9,10007,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10008,l,awl,0,0
+9,10008,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10008,l,st,0,0,0,0,0,1443
+9,10008,l,apk,0,com.android.providers.media,com.android.providers.media.MtpService,0,1,1
+9,10009,l,awl,0,0
+9,10009,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10010,l,awl,0,0
+9,10010,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10010,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10011,l,awl,0,0
+9,10011,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10013,l,awl,0,0
+9,10013,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10014,l,awl,0,0
+9,10014,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10014,l,st,0,0,0,0,0,1443
+9,10015,l,awl,0,0
+9,10015,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10016,l,awl,0,0
+9,10016,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10017,l,awl,0,0
+9,10017,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10017,l,st,0,0,0,0,0,1443
+9,10018,l,awl,0,0
+9,10018,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10019,l,awl,0,0
+9,10019,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10019,l,wl,*alarm*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10019,l,st,0,0,0,0,0,1443
+9,10020,l,awl,0,0
+9,10020,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10020,l,wl,*alarm*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10020,l,wl,AudioMixAudioOut_D,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10020,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10020,l,st,0,1443,0,0,0,0
+9,10020,l,cpu,10,0,0
+9,10021,l,awl,0,0
+9,10021,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10022,l,awl,0,0
+9,10022,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10022,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10022,l,st,0,0,0,0,0,1443
+9,10023,l,awl,0,0
+9,10023,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10024,l,awl,0,0
+9,10024,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10025,l,awl,0,0
+9,10025,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10026,l,awl,0,0
+9,10026,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10026,l,wl,AudioMixAudioOut_D,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10026,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10026,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10026,l,st,0,0,0,0,0,1443
+9,10027,l,awl,0,0
+9,10027,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10028,l,awl,0,0
+9,10028,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10029,l,awl,0,0
+9,10029,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10030,l,awl,0,0
+9,10030,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10031,l,awl,0,0
+9,10031,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10032,l,awl,0,0
+9,10032,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10033,l,awl,0,0
+9,10033,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10034,l,awl,0,0
+9,10034,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10035,l,awl,0,0
+9,10035,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10036,l,awl,0,0
+9,10036,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10038,l,awl,0,0
+9,10038,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10039,l,awl,0,0
+9,10039,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10040,l,awl,0,0
+9,10040,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10041,l,awl,0,0
+9,10041,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10042,l,awl,0,0
+9,10042,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10043,l,awl,0,0
+9,10043,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10043,l,st,0,0,0,0,0,1443
+9,10044,l,awl,0,0
+9,10044,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10045,l,awl,0,0
+9,10045,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10046,l,awl,0,0
+9,10046,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10047,l,awl,0,0
+9,10047,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10047,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10048,l,awl,0,0
+9,10048,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10049,l,awl,0,0
+9,10049,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10050,l,awl,0,0
+9,10050,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10051,l,awl,0,0
+9,10051,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10052,l,awl,0,0
+9,10052,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10053,l,awl,0,0
+9,10053,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10054,l,awl,0,0
+9,10054,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10054,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10054,l,apk,0,com.android.music,com.android.music.MediaPlaybackService,0,1,1
+9,10055,l,awl,0,0
+9,10055,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10056,l,awl,0,0
+9,10056,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10057,l,awl,0,0
+9,10057,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10058,l,awl,0,0
+9,10058,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10059,l,awl,0,0
+9,10059,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10059,l,st,0,0,0,0,0,1443
+9,10060,l,awl,0,0
+9,10060,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10061,l,awl,0,0
+9,10061,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10062,l,awl,0,0
+9,10062,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10063,l,awl,0,0
+9,10063,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10064,l,awl,0,0
+9,10064,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10065,l,awl,0,0
+9,10065,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10066,l,awl,0,0
+9,10066,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10067,l,awl,0,0
+9,10067,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10068,l,awl,0,0
+9,10068,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10069,l,awl,0,0
+9,10069,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10069,l,st,0,0,0,1443,0,0
+9,10070,l,awl,0,0
+9,10070,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10070,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10071,l,awl,0,0
+9,10071,l,wl,Browser,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10071,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10071,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10072,l,awl,0,0
+9,10072,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10073,l,awl,0,0
+9,10073,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10073,l,wl,*alarm*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10073,l,wl,AudioMixAudioOut_D,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10073,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10073,l,wl,RILJ,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10073,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10074,l,awl,0,0
+9,10074,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10075,l,awl,0,0
+9,10075,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10075,l,st,0,1443,0,0,0,0
+9,10076,l,awl,0,0
+9,10076,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10077,l,awl,0,0
+9,10077,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10077,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10077,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10078,l,awl,0,0
+9,10078,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10078,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10079,l,awl,0,0
+9,10079,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10079,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10079,l,apk,0,com.tencent.qqlite,com.tencent.mobileqq.msf.service.MsfService,0,1,0
+9,10080,l,awl,0,0
+9,10080,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10080,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10081,l,awl,0,0
+9,10081,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10081,l,wl,*vibrator*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10081,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10081,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10082,l,awl,0,0
+9,10082,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10082,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10083,l,awl,0,0
+9,10083,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10083,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10084,l,awl,0,0
+9,10084,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10084,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10084,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10084,l,apk,0,com.ss.android.ugc.aweme,com.ss.android.socialbase.downloader.downloader.DownloadService,0,1,0
+9,10084,l,apk,0,com.ss.android.ugc.aweme,com.ss.android.websocket.internal.WebSocketService,0,1,0
+9,10084,l,apk,0,com.ss.android.ugc.aweme,com.ss.android.socialbase.downloader.notification.DownloadNotificationService,0,1,0
+9,10085,l,awl,0,0
+9,10085,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10085,l,wl,WakeLockStatus.kt,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10085,l,wl,AudioMixAudioOut_D,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10085,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10086,l,awl,0,0
+9,10086,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10086,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10087,l,awl,0,0
+9,10087,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10087,l,wl,AudioMixAudioOut_D,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10087,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10087,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10088,l,awl,0,0
+9,10088,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10088,l,st,0,0,0,0,1443,0
+9,10088,l,cpu,130,10,0
+9,10089,l,awl,0,0
+9,10089,l,wl,MicroMsg.MMAutoAuth,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10089,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10089,l,wl,PlatformComm,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10089,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10090,l,awl,0,0
+9,10090,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10090,l,wl,*launch*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10090,l,wl,WindowManager,0,f,0,-1,-1,-1,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0
+9,10090,l,st,0,0,0,0,0,1443
+9,10090,l,cpu,80,0,0
+9,10090,l,apk,0,com.tencent.android.qqdownloader,com.tencent.assistant.sdk.SDKSupportService,0,1,0
+9,10091,l,awl,0,0
+9,10091,l,wl,*dexopt*,0,f,0,0,0,0,0,p,0,0,0,0,0,bp,0,0,0,0,0,w,0,0,0,0

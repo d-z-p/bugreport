@@ -1,0 +1,10 @@
+
+User: 0
+  Searchable authorities:
+    browser
+    browser
+    call_log
+    com.android.mms.SuggestionsProvider
+    media
+    com.android.calendar
+--------- 0.001s was the duration of dumpsys search, ending at: 2023-05-22 17:52:12

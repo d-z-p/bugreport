@@ -1,0 +1,424 @@
+  Published single-user content providers (by class):
+  * ContentProviderRecord{e430864 u0 com.android.providers.telephony/.TelephonyProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@713acd
+    singleton=true
+    authority=telephony
+  * ContentProviderRecord{7aeaf82 u0 com.android.providers.telephony/.MmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@f668693
+    singleton=true
+    authority=mms
+  * ContentProviderRecord{45a46d0 u0 com.android.providers.telephony/.CarrierProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@e3b6c9
+    singleton=true
+    authority=carrier_information
+  * ContentProviderRecord{b1c41ce u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{8b725b3 3369:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@b9c3ce1
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 4188:com.android.systemui/u0a20 s1/1 u0/0 +3m55s203ms
+      -> 4340:com.android.settings/1000 s1/1 u0/0 +3m54s362ms
+      -> 4156:com.android.phone/1001 s1/1 u0/0 +3m51s730ms
+      -> 4847:android.process.media/u0a8 s1/1 u0/0 +3m48s755ms
+      -> 4923:com.sohu.inputmethod.sogou/u0a88 s1/1 u0/0 +3m46s974ms
+      -> 5135:com.sohu.inputmethod.sogou:daemon/u0a88 s1/1 u0/0 +3m45s95ms
+      -> 7184:com.android.documentsui/u0a10 s1/1 u0/0 +2m19s141ms
+      -> 8052:com.android.calendar/u0a70 s1/1 u0/0 +2m8s220ms
+      -> 8117:com.zmapp.album/1000 s1/1 u0/0 +2m7s245ms
+      -> 8191:android.process.acore/u0a2 s1/1 u0/0 +2m5s495ms
+      -> 8668:com.jx.launcher/1000 s1/1 u0/0 +1m11s466ms
+      -> 8762:com.zmapp.sms/1000 s1/1 u0/0 +1m9s714ms
+      -> 8961:com.jx.inputmethod.pinyin/u0a80 s1/1 u0/0 +1m5s916ms
+      -> 9033:com.android.deskclock/1000 s1/1 u0/0 +1m4s251ms
+      -> 9144:com.sprd.fileexplorer/u0a47 s1/1 u0/0 +1m0s861ms
+      -> 9764:com.goodix.health/1000 s1/1 u0/0 +47s310ms
+      -> 9929:com.android.music/u0a54 s1/1 u0/0 +44s376ms
+      -> 10264:com.android.packageinstaller/u0a22 s1/1 u0/0 +37s233ms
+      -> 10465:com.jx.watchos.contact/1000 s1/1 u0/0 +31s474ms
+      -> 10764:com.jx.watchos.setting/1000 s1/1 u0/0 +22s604ms
+      -> 11082:com.divo.phone/1000 s1/1 u0/0 +16s972ms
+      -> 11385:com.ztapp.themestore/u0a82 s1/1 u0/0 +4s892ms
+      -> 11446:com.android.browser/u0a71 s1/1 u0/0 +3s904ms
+      -> 11530:com.eg.android.AlipayGphone/u0a87 s1/1 u0/0 +2s865ms
+  * ContentProviderRecord{a68f8ef u0 android/com.android.server.am.DumpHeapProvider}
+    package=android process=system
+    proc=ProcessRecord{8b725b3 3369:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@a5b1223
+    singleton=true
+    authority=com.android.server.heapdump
+  * ContentProviderRecord{264fffc u0 com.android.providers.telephony/.ServiceStateProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@3e7f685
+    singleton=true
+    authority=service-state
+  * ContentProviderRecord{6beacda u0 com.android.providers.telephony/.HbpcdLookupProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@276350b
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{2001fe8 u0 com.android.providers.telephony/.MmsSmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@9367601
+    singleton=true
+    authority=mms-sms
+  * ContentProviderRecord{9eabca6 u0 com.android.providers.telephony/.SmsProvider}
+    package=com.android.providers.telephony process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@cd116e7
+    singleton=true
+    authority=sms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{402ba7e u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{1b5972a 4847:android.process.media/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@56ffbdf
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{80c008a u0 com.sohu.inputmethod.sogou/android.support.v4.content.FileProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@46f5318
+    authority=com.sohu.inputmethod.sogou.provider
+  * ContentProviderRecord{bba51a8 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@149e6c
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{b47e171 u0 com.sohu.inputmethod.sogou/com.sogou.apm.android.core.ApmProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@2b19b56
+    authority=com.sohu.inputmethod.sogou.apm.storage
+  * ContentProviderRecord{4948c35 u0 com.android.browser/.provider.SnapshotProvider}
+    package=com.android.browser process=com.android.browser
+    proc=ProcessRecord{bf608ca 11446:com.android.browser/u0a71}
+    uid=10071 provider=android.content.ContentProviderProxy@4ab7a3b
+    authority=com.android.browser.snapshots
+  * ContentProviderRecord{c916d30 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderUI}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@c504da9
+    authority=com.sohu.inputmethod.sogou.loader.p.mainN1
+  * ContentProviderRecord{e33558 u0 com.android.browser/.provider.BrowserProvider2}
+    package=com.android.browser process=com.android.browser
+    proc=ProcessRecord{bf608ca 11446:com.android.browser/u0a71}
+    uid=10071 provider=android.content.ContentProviderProxy@50eb6b1
+    authority=com.android.browser;browser
+  * ContentProviderRecord{d3e796 u0 com.android.providers.calendar/.CalendarProvider2}
+    package=com.android.providers.calendar process=com.android.providers.calendar
+    proc=ProcessRecord{ecd7f17 10366:com.android.providers.calendar/u0a19}
+    launchingApp=ProcessRecord{ecd7f17 10366:com.android.providers.calendar/u0a19}
+    uid=10019 provider=android.content.ContentProviderProxy@d024f04
+    authority=com.android.calendar
+  * ContentProviderRecord{4b6a466 u0 com.android.providers.contacts/.ContactMetadataProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@f270ced
+    authority=com.android.contacts.metadata
+  * ContentProviderRecord{5dee722 u0 com.android.browser/android.support.v4.content.FileProvider}
+    package=com.android.browser process=com.android.browser
+    proc=ProcessRecord{bf608ca 11446:com.android.browser/u0a71}
+    uid=10071 provider=android.content.ContentProviderProxy@a0f5b3
+    authority=com.android.browser-classic.file
+  * ContentProviderRecord{aaa6497 u0 com.android.calendar/.CalendarRecentSuggestionsProvider}
+    package=com.android.calendar process=com.android.calendar
+    proc=ProcessRecord{ad75770 8052:com.android.calendar/u0a70}
+    uid=10070 provider=android.content.ContentProviderProxy@af48ae9
+    authority=com.android.calendar.CalendarRecentSuggestionsProvider
+  * ContentProviderRecord{fad648c u0 com.android.settings/android.support.v4.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{1bea7d5 4340:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@90e8bea
+    authority=com.android.settings.files
+  * ContentProviderRecord{f3a3045 u0 com.android.phone/.PhoneSearchIndexablesProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@d9c39a
+    authority=com.android.phone
+  * ContentProviderRecord{ed28bc1 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderPersist}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@e807f66
+    authority=com.sohu.inputmethod.sogou.Plugin.NP.PSP
+  * ContentProviderRecord{5a8536e u0 com.android.browser/.homepages.HomeProvider}
+    package=com.android.browser process=com.android.browser
+    proc=ProcessRecord{bf608ca 11446:com.android.browser/u0a71}
+    uid=10071 provider=android.content.ContentProviderProxy@72b3a0f
+    authority=com.android.browser.home
+  * ContentProviderRecord{743a243 u0 com.sohu.inputmethod.sogou/com.huawei.hms.update.provider.UpdateProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@60eb0c0
+    authority=com.sohu.inputmethod.sogou.hms.update.provider
+  * ContentProviderRecord{29bf1f9 u0 com.android.providers.media/.MediaProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{1b5972a 4847:android.process.media/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@fb6153e
+    authority=media
+    Connections:
+      -> 9929:com.android.music/u0a54 s1/1 u0/17 +44s168ms
+  * ContentProviderRecord{a5ca21c u0 com.android.calendar/android.support.v4.content.FileProvider}
+    package=com.android.calendar process=com.android.calendar
+    proc=ProcessRecord{ad75770 8052:com.android.calendar/u0a70}
+    uid=10070 provider=android.content.ContentProviderProxy@fb27a9c
+    authority=com.android.calendar.fileprovider
+  * ContentProviderRecord{101eca5 u0 com.jx.watchos.setting/com.yanzhenjie.permission.FileProvider}
+    package=com.jx.watchos.setting process=com.jx.watchos.setting
+    proc=ProcessRecord{83b93d6 10764:com.jx.watchos.setting/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@8a387a
+    authority=com.jx.watchos.setting.file.path.share
+  * ContentProviderRecord{6b682b u0 com.android.browser/.sitenavigation.SiteNavigationProvider}
+    package=com.android.browser process=com.android.browser
+    proc=ProcessRecord{bf608ca 11446:com.android.browser/u0a71}
+    uid=10071 provider=android.content.ContentProviderProxy@3baa488
+    authority=com.android.browser.site_navigation
+  * ContentProviderRecord{dc9ae21 u0 com.ztapp.themestore/android.support.v4.content.FileProvider}
+    package=com.ztapp.themestore process=com.ztapp.themestore
+    proc=ProcessRecord{736246 11385:com.ztapp.themestore/u0a82}
+    uid=10082 provider=android.content.ContentProviderProxy@1365c07
+    authority=com.ztapp.themestore.android7.fileprovider
+  * ContentProviderRecord{fa93525 u0 com.android.settings/com.sprd.settings.timerpower.AlarmProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{1bea7d5 4340:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@8db16fa
+    authority=com.android.settings.alarm
+  * ContentProviderRecord{8998134 u0 com.android.deskclock/.provider.ClockProvider}
+    package=com.android.deskclock process=com.android.deskclock
+    proc=ProcessRecord{f20b5d 9033:com.android.deskclock/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@d735cd2
+    authority=com.android.deskclock
+  * ContentProviderRecord{df6bb4 u0 com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.SogouContentProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@329e3dd
+    authority=com.sohu.inputmethod.sogou
+  * ContentProviderRecord{b176bfa u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@cd2b1a3
+    authority=call_log
+  * ContentProviderRecord{6318b52 u0 com.android.providers.media/.MediaDocumentsProvider}
+    package=com.android.providers.media process=android.process.media
+    proc=ProcessRecord{1b5972a 4847:android.process.media/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@ef77e23
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{31c8e9b u0 com.spreadtrum.vowifi/.conf.AccountSettingsProvider}
+    package=com.spreadtrum.vowifi process=com.spreadtrum.vowifi
+    proc=ProcessRecord{d7e2238 4883:com.spreadtrum.vowifi/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c71d211
+    authority=com.spreadtrum.vowifi.accountsettings
+  * ContentProviderRecord{85715cb u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@ee77ca0
+    authority=user_dictionary
+  * ContentProviderRecord{84416e2 u0 com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonClientProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@8c2ca73
+    authority=com.sohu.inputmethod.sogou.daemon.client
+  * ContentProviderRecord{f90bf2e u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderUI}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@6759acf
+    authority=com.sohu.inputmethod.sogou.Plugin.NP.UIP
+  * ContentProviderRecord{c69b248 u0 com.android.phone/.IccProvider}
+    package=com.android.phone process=com.android.phone
+    proc=ProcessRecord{1230f43 4156:com.android.phone/1001}
+    uid=1001 provider=android.content.ContentProviderProxy@90308e1
+    authority=icc
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{68baaf4 u0 com.sohu.inputmethod.sogou/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@446521d
+    authority=com.sohu.inputmethod.sogou.updateSdk.fileProvider
+  * ContentProviderRecord{4490059 u0 com.sprd.fileexplorer/android.support.v4.content.FileProvider}
+    package=com.sprd.fileexplorer process=com.sprd.fileexplorer
+    proc=ProcessRecord{f06741e 9144:com.sprd.fileexplorer/u0a47}
+    uid=10047 provider=android.content.ContentProviderProxy@a54c4ff
+    authority=com.sprd.fileexplorer.fileProvider
+  * ContentProviderRecord{4bf43a7 u0 com.android.providers.contacts/.ShadowCallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@657c2cc
+    authority=call_log_shadow
+  * ContentProviderRecord{6804915 u0 com.jx.launcher/com.zmapp.provider.GlobalProvider}
+    package=com.jx.launcher process=com.jx.launcher
+    proc=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@621b42a
+    authority=com.jx.launcher
+  * ContentProviderRecord{cc14fde u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.packages.PluginFastInstallProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@858d5bf
+    authority=com.sohu.inputmethod.sogou.loader.p.pip
+  * ContentProviderRecord{acf0edb u0 com.abupdate.fota_demo_iot/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.abupdate.fota_demo_iot process=com.abupdate.fota_demo_iot
+    proc=ProcessRecord{9123d78 4649:com.abupdate.fota_demo_iot/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@e4eec51
+    authority=com.abupdate.fota_demo_iot.lifecycle-trojan
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{de9b924 u0 com.android.documentsui/.picker.LastAccessedProvider}
+    package=com.android.documentsui process=com.android.documentsui
+    proc=ProcessRecord{8c4fc8d 7184:com.android.documentsui/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@2e0ae42
+    authority=com.android.documentsui.lastAccessed
+  * ContentProviderRecord{3bab21b u0 com.jx.launcher/android.support.v4.content.FileProvider}
+    package=com.jx.launcher process=com.jx.launcher
+    proc=ProcessRecord{271c51c 8668:com.jx.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@4a43fb8
+    authority=com.jx.launcher.fileprovider
+  * ContentProviderRecord{611d489 u0 com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderPersist}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@f4f6c8e
+    authority=com.sohu.inputmethod.sogou.loader.p.main
+  * ContentProviderRecord{bb8acaf u0 com.sohu.inputmethod.sogou/com.qihoo360.mobilesafe.svcmanager.ServiceProvider}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@9908bc
+    authority=com.sohu.inputmethod.sogou.svcmanager
+  * ContentProviderRecord{96d64cb u0 com.android.settings/com.sprd.audioprofile.AudioProfileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{1bea7d5 4340:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@84bf4a8
+    authority=com.sprd.audioprofile.provider
+  * ContentProviderRecord{5a96191 u0 com.android.packageinstaller/.wear.WearPackageIconProvider}
+    package=com.android.packageinstaller process=com.android.packageinstaller
+    proc=ProcessRecord{bfee8f6 10264:com.android.packageinstaller/u0a22}
+    uid=10022 provider=android.content.ContentProviderProxy@ac854f7
+    authority=com.google.android.packageinstaller.wear.provider
+  * ContentProviderRecord{6f41f9f u0 com.android.providers.downloads/.DownloadProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{1b5972a 4847:android.process.media/u0a8}
+    uid=10008 provider=android.content.ContentProviderProxy@b8e18ec
+    authority=downloads
+  * ContentProviderRecord{9a0b4b5 u0 com.sohu.inputmethod.sogou/android.arch.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.sohu.inputmethod.sogou process=com.sohu.inputmethod.sogou
+    proc=ProcessRecord{a0276fb 4923:com.sohu.inputmethod.sogou/u0a88}
+    uid=10088 provider=android.content.ContentProviderProxy@97a474a
+    authority=com.sohu.inputmethod.sogou.lifecycle-trojan
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{5f4e731 u0 com.android.documentsui/.archives.ArchivesProvider}
+    package=com.android.documentsui process=com.android.documentsui
+    proc=ProcessRecord{8c4fc8d 7184:com.android.documentsui/u0a10}
+    uid=10010 provider=android.content.ContentProviderProxy@89d8e16
+    authority=com.android.documentsui.archives
+  * ContentProviderRecord{a0f4f8f u0 com.android.providers.contacts/.ContactsProvider2}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    launchingApp=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@f399f64
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{7646397 u0 com.android.systemui/android.support.v4.content.FileProvider}
+    package=com.android.systemui process=com.android.systemui
+    proc=ProcessRecord{9874918 4188:com.android.systemui/u0a20}
+    uid=10020 provider=android.content.ContentProviderProxy@9e09984
+    authority=com.android.systemui.fileprovider
+  * ContentProviderRecord{901a233 u0 com.android.settings/com.sprd.audioprofile.AudioProfileSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{1bea7d5 4340:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@b8fc9f0
+    authority=com.sprd.audioprofile
+  * ContentProviderRecord{7dbe25 u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    package=com.android.providers.blockednumber process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@57185cd
+    authority=com.android.blockednumber
+  * ContentProviderRecord{62a2e8f u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{1bea7d5 4340:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@bbf951c
+    authority=com.android.settings
+  * ContentProviderRecord{93b55ab u0 com.zmapp.album/android.support.v4.content.FileProvider}
+    package=com.zmapp.album process=com.zmapp.album
+    proc=ProcessRecord{1a89e82 8117:com.zmapp.album/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@fa34993
+    authority=com.zmapp.album.fileprovider
+  * ContentProviderRecord{f9fc408 u0 com.android.providers.contacts/.VoicemailContentProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{6134b1f 8191:android.process.acore/u0a2}
+    uid=10002 provider=android.content.ContentProviderProxy@3a34dd0
+    authority=com.android.voicemail
+
+  Single-user authority to provider mappings:
+  settings: b1c41ce/com.android.providers.settings/.SettingsProvider
+  mms: 7aeaf82/com.android.providers.telephony/.MmsProvider
+  com.android.server.heapdump: a68f8ef/android/com.android.server.am.DumpHeapProvider
+  hbpcd_lookup: 6beacda/com.android.providers.telephony/.HbpcdLookupProvider
+  telephony: e430864/com.android.providers.telephony/.TelephonyProvider
+  sms: 9eabca6/com.android.providers.telephony/.SmsProvider
+  carrier_information: 45a46d0/com.android.providers.telephony/.CarrierProvider
+  mms-sms: 2001fe8/com.android.providers.telephony/.MmsSmsProvider
+  service-state: 264fffc/com.android.providers.telephony/.ServiceStateProvider
+
+  User 0 authority to provider mappings:
+  com.android.calendar.CalendarRecentSuggestionsProvider: aaa6497/com.android.calendar/.CalendarRecentSuggestionsProvider
+  com.ztapp.themestore.android7.fileprovider: dc9ae21/com.ztapp.themestore/android.support.v4.content.FileProvider
+  com.sohu.inputmethod.sogou.daemon.client: 84416e2/com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonClientProvider
+  com.sohu.inputmethod.sogou.loader.p.main: 611d489/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderPersist
+  com.jx.launcher: 6804915/com.jx.launcher/com.zmapp.provider.GlobalProvider
+  com.android.providers.downloads.documents: 402ba7e/com.android.providers.downloads/.DownloadStorageProvider
+  com.android.contacts: a0f4f8f/com.android.providers.contacts/.ContactsProvider2
+  com.android.deskclock: 8998134/com.android.deskclock/.provider.ClockProvider
+  com.jx.launcher.fileprovider: 3bab21b/com.jx.launcher/android.support.v4.content.FileProvider
+  com.android.documentsui.archives: 5f4e731/com.android.documentsui/.archives.ArchivesProvider
+  call_log_shadow: 4bf43a7/com.android.providers.contacts/.ShadowCallLogProvider
+  com.android.calendar.fileprovider: a5ca21c/com.android.calendar/android.support.v4.content.FileProvider
+  com.android.contacts.dumpfile: bba51a8/com.android.providers.contacts/.debug.DumpFileProvider
+  com.sohu.inputmethod.sogou.Plugin.NP.UIP: f90bf2e/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderUI
+  call_log: b176bfa/com.android.providers.contacts/.CallLogProvider
+  com.sohu.inputmethod.sogou.svcmanager: bb8acaf/com.sohu.inputmethod.sogou/com.qihoo360.mobilesafe.svcmanager.ServiceProvider
+  com.android.settings.alarm: fa93525/com.android.settings/com.sprd.settings.timerpower.AlarmProvider
+  com.android.documentsui.lastAccessed: de9b924/com.android.documentsui/.picker.LastAccessedProvider
+  com.sohu.inputmethod.sogou.provider: 80c008a/com.sohu.inputmethod.sogou/android.support.v4.content.FileProvider
+  com.sprd.fileexplorer.fileProvider: 4490059/com.sprd.fileexplorer/android.support.v4.content.FileProvider
+  com.sohu.inputmethod.sogou.updateSdk.fileProvider: 68baaf4/com.sohu.inputmethod.sogou/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider
+  com.android.browser.site_navigation: 6b682b/com.android.browser/.sitenavigation.SiteNavigationProvider
+  com.android.calendar: d3e796/com.android.providers.calendar/.CalendarProvider2
+  com.android.settings: 62a2e8f/com.android.settings/.search.SettingsSearchIndexablesProvider
+  contacts: a0f4f8f/com.android.providers.contacts/.ContactsProvider2
+  com.jx.watchos.setting.file.path.share: 101eca5/com.jx.watchos.setting/com.yanzhenjie.permission.FileProvider
+  com.abupdate.fota_demo_iot.lifecycle-trojan: acf0edb/com.abupdate.fota_demo_iot/android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+  icc: c69b248/com.android.phone/.IccProvider
+  com.android.browser.home: 5a8536e/com.android.browser/.homepages.HomeProvider
+  com.android.phone: f3a3045/com.android.phone/.PhoneSearchIndexablesProvider
+  com.android.providers.media.documents: 6318b52/com.android.providers.media/.MediaDocumentsProvider
+  com.sohu.inputmethod.sogou: df6bb4/com.sohu.inputmethod.sogou/com.sohu.inputmethod.settings.SogouContentProvider
+  com.sohu.inputmethod.sogou.hms.update.provider: 743a243/com.sohu.inputmethod.sogou/com.huawei.hms.update.provider.UpdateProvider
+  user_dictionary: 85715cb/com.android.providers.userdictionary/.UserDictionaryProvider
+  com.android.blockednumber: 7dbe25/com.android.providers.blockednumber/.BlockedNumberProvider
+  com.sprd.audioprofile: 901a233/com.android.settings/com.sprd.audioprofile.AudioProfileSearchIndexablesProvider
+  com.sohu.inputmethod.sogou.apm.storage: b47e171/com.sohu.inputmethod.sogou/com.sogou.apm.android.core.ApmProvider
+  media: 29bf1f9/com.android.providers.media/.MediaProvider
+  com.sohu.inputmethod.sogou.Plugin.NP.PSP: ed28bc1/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.provider.PluginPitProviderPersist
+  com.sohu.inputmethod.sogou.loader.p.pip: cc14fde/com.sohu.inputmethod.sogou/com.qihoo360.replugin.packages.PluginFastInstallProvider
+  downloads: 6f41f9f/com.android.providers.downloads/.DownloadProvider
+  browser: e33558/com.android.browser/.provider.BrowserProvider2
+  com.android.browser-classic.file: 5dee722/com.android.browser/android.support.v4.content.FileProvider
+  com.android.browser: e33558/com.android.browser/.provider.BrowserProvider2
+  com.android.contacts.metadata: 4b6a466/com.android.providers.contacts/.ContactMetadataProvider
+  com.android.voicemail: f9fc408/com.android.providers.contacts/.VoicemailContentProvider
+  com.sprd.audioprofile.provider: 96d64cb/com.android.settings/com.sprd.audioprofile.AudioProfileProvider
+  com.sohu.inputmethod.sogou.lifecycle-trojan: 9a0b4b5/com.sohu.inputmethod.sogou/android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+  com.google.android.packageinstaller.wear.provider: 5a96191/com.android.packageinstaller/.wear.WearPackageIconProvider
+  com.spreadtrum.vowifi.accountsettings: 31c8e9b/com.spreadtrum.vowifi/.conf.AccountSettingsProvider
+  com.android.browser.snapshots: 4948c35/com.android.browser/.provider.SnapshotProvider
+  com.android.systemui.fileprovider: 7646397/com.android.systemui/android.support.v4.content.FileProvider
+  com.android.settings.files: fad648c/com.android.settings/android.support.v4.content.FileProvider
+  com.zmapp.album.fileprovider: 93b55ab/com.zmapp.album/android.support.v4.content.FileProvider
+  com.sohu.inputmethod.sogou.loader.p.mainN1: c916d30/com.sohu.inputmethod.sogou/com.qihoo360.replugin.component.process.ProcessPitProviderUI
+

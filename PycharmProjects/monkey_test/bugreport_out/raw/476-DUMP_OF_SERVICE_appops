@@ -1,0 +1,288 @@
+Current AppOps Service state:
+  Op mode watchers:
+    Op COARSE_LOCATION:
+      #0: com.android.server.AppOpsService$Callback@9a223d1
+    Op SYSTEM_ALERT_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@5242d91
+    Op PLAY_AUDIO:
+      #0: com.android.server.AppOpsService$Callback@1537b7f
+      #1: com.android.server.AppOpsService$Callback@8072cff
+    Op TOAST_WINDOW:
+      #0: com.android.server.AppOpsService$Callback@5242d91
+    Op GET_ACCOUNTS:
+      #0: com.android.server.AppOpsService$Callback@2100d
+    Op RUN_IN_BACKGROUND:
+      #0: com.android.server.AppOpsService$Callback@a6830e9
+  Package mode watchers:
+    Pkg com.android.systemui:
+      #0: com.android.server.AppOpsService$Callback@1537b7f
+      #1: com.android.server.AppOpsService$Callback@8072cff
+  All mode watchers:
+    android.app.AppOpsManager$1@59a2f8 -> com.android.server.AppOpsService$Callback@9a223d1
+    android.app.AppOpsManager$1@168eaa4 -> com.android.server.AppOpsService$Callback@2100d
+    com.android.server.am.ActivityManagerService$3@2d9d570 -> com.android.server.AppOpsService$Callback@a6830e9
+    android.os.BinderProxy@3e17c1e -> com.android.server.AppOpsService$Callback@8072cff
+    android.app.AppOpsManager$1@55abbb8 -> com.android.server.AppOpsService$Callback@5242d91
+    android.os.BinderProxy@58bf49e -> com.android.server.AppOpsService$Callback@1537b7f
+  Clients:
+    android.os.Binder@8f715d0:
+      ClientState{mAppToken=android.os.Binder@8f715d0, local}
+
+  Uid 0:
+    Package root:
+      VIBRATE: mode=0; time=+36s25ms ago; duration=+156ms
+  Uid 1000:
+    Package com.abupdate.fota_demo_iot:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s82ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s82ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+45s146ms ago
+    Package com.sprd.engineermode:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m59s306ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m59s306ms ago
+    Package com.zmapp.sms:
+      READ_SMS: mode=0; time=+38s459ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+38s663ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+38s663ms ago
+    Package com.sprd.aganisttest:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m16s961ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m16s961ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1602d9h44m16s961ms ago
+    Package android:
+      COARSE_LOCATION: mode=0
+      READ_CALENDAR: mode=0; time=+10m9s337ms ago
+      WRITE_SETTINGS: mode=3; rejectTime=+1602d9h41m13s676ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+15s738ms ago
+      AUDIO_MEDIA_VOLUME: mode=0; time=+25s470ms ago
+      AUDIO_ALARM_VOLUME: mode=0; time=+16s537ms ago
+      AUDIO_NOTIFICATION_VOLUME: mode=0; time=+272ms ago
+      WAKE_LOCK: mode=0; time=+45s237ms ago (running)
+      MONITOR_LOCATION: mode=0; time=+1602d9h44m38s76ms ago (running)
+      TOAST_WINDOW: mode=0; time=+11s603ms ago; duration=+2s5ms
+    Package com.sprd.applock:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s350ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s350ms ago
+    Package com.android.server.telecom:
+      READ_CALL_LOG: mode=0; time=+1602d9h44m16s813ms ago
+    Package com.android.keychain:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s932ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s932ms ago
+    Package com.spreadtrum.vce:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s311ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s311ms ago
+    Package com.jx.launcher:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s817ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s817ms ago
+    Package com.divo.phone:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m6s52ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m6s52ms ago
+    Package com.spreadtrum.vowifi:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s167ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s167ms ago
+    Package com.sprd.bootres:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h42m58s888ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h42m58s888ms ago
+    Package com.android.settings:
+      COARSE_LOCATION: mode=0; time=+44s618ms ago
+      WIFI_SCAN: mode=0; time=+44s618ms ago
+      WRITE_SETTINGS: mode=3; rejectTime=+42s96ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+15s149ms ago
+      AUDIO_MEDIA_VOLUME: mode=0; time=+15s128ms ago
+      AUDIO_ALARM_VOLUME: mode=0; time=+15s140ms ago
+      AUDIO_NOTIFICATION_VOLUME: mode=0; time=+15s155ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+16s437ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+16s437ms ago
+    Package plugin.sprd.antitheft:
+      WRITE_SMS: mode=0
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s958ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s958ms ago
+    Package com.sprd.systemupdate:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m57s36ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m57s36ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+44s818ms ago
+    Package com.zmapp.camera:
+      RECORD_AUDIO: mode=0; time=+1602d9h44m42s753ms ago
+    Package com.android.deskclock:
+      WAKE_LOCK: mode=0; time=+10m9s432ms ago; duration=+15ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m1s528ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m1s528ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+7m5s541ms ago
+  Uid 1001:
+      WRITE_SMS: mode=0
+    Package com.android.providers.telephony:
+      WRITE_SMS: mode=0
+    Package com.android.mms.service:
+      WRITE_SMS: mode=0
+    Package com.spreadtrum.ims:
+      WAKE_LOCK: mode=0; time=+1602d9h42m59s149ms ago; duration=+2ms
+    Package com.android.phone:
+      READ_CONTACTS: mode=0; time=+1602d9h44m35s621ms ago
+      READ_SMS: mode=0; time=+38s459ms ago
+      WRITE_SMS: mode=0; time=+1602d9h44m34s313ms ago
+      WAKE_LOCK: mode=0; time=+1m14s548ms ago; duration=+18ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m42s109ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m42s109ms ago
+  Uid 1002:
+    Package com.android.bluetooth:
+      WRITE_SMS: mode=0
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m42s68ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m42s68ms ago
+  Uid 1041:
+    Package audioserver:
+      WAKE_LOCK: mode=0; time=+1s907ms ago; duration=+2s898ms
+  Uid u0a2:
+    Package com.android.dialer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m33s246ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m33s246ms ago
+    Package com.android.providers.contacts:
+      READ_CONTACTS: mode=0; time=+1602d9h44m17s449ms ago
+      READ_CALL_LOG: mode=0; time=+1602d9h44m16s813ms ago
+      WRITE_CALL_LOG: mode=0; time=+1602d9h44m34s947ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s191ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s191ms ago
+  Uid u0a4:
+    Package com.android.carrierconfig:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s324ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s324ms ago
+  Uid u0a5:
+    Package com.android.defcontainer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+47s32ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+47s31ms ago
+  Uid u0a6:
+    Package com.android.cellbroadcastreceiver:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h42m59s255ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h42m59s255ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1602d9h42m59s256ms ago
+  Uid u0a7:
+    Package android.ext.services:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m38s76ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m38s76ms ago
+  Uid u0a9:
+    Package com.android.providers.media:
+      WRITE_SETTINGS: mode=3; rejectTime=+1602d9h43m59s785ms ago
+      WAKE_LOCK: mode=0; time=+1602d9h43m59s437ms ago; duration=+1s471ms
+    Package com.android.providers.downloads:
+      READ_EXTERNAL_STORAGE: mode=0; time=+4s475ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4s475ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+44s966ms ago
+  Uid u0a14:
+    Package com.android.onetimeinitializer:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m1s307ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m1s307ms ago
+  Uid u0a15:
+    Package com.android.managedprovisioning:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m33s707ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m33s707ms ago
+  Uid u0a16:
+    Package com.android.provision:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s133ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s133ms ago
+  Uid u0a19:
+    Package com.android.providers.calendar:
+      READ_CALENDAR: mode=0; time=+10m4s456ms ago
+      WRITE_CALENDAR: mode=0; time=+1602d9h43m46s491ms ago
+      WAKE_LOCK: mode=0; time=+1602d9h44m1s109ms ago; duration=+5ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m32s752ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m32s752ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+10m4s464ms ago
+  Uid u0a20:
+    Package com.android.gallery3d:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s187ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m36s187ms ago
+  Uid u0a21:
+    Package com.android.packageinstaller:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m1s209ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m1s209ms ago
+  Uid u0a22:
+    Package com.android.systemui:
+      COARSE_LOCATION: mode=0; time=+4m21s493ms ago
+      VIBRATE: mode=0; time=+16s141ms ago; duration=+54ms
+      WIFI_SCAN: mode=0; time=+4m21s493ms ago
+      AUDIO_RING_VOLUME: mode=0; time=+15s510ms ago
+      AUDIO_MEDIA_VOLUME: mode=0; time=+16s597ms ago
+      AUDIO_ALARM_VOLUME: mode=0; time=+16s549ms ago
+      AUDIO_NOTIFICATION_VOLUME: mode=0; time=+13s205ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+41s509ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+4s500ms ago
+  Uid u0a34:
+    Package com.android.carrierdefaultapp:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m34s661ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m34s661ms ago
+  Uid u0a43:
+    Package com.android.soundrecorder:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m59s414ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h43m59s414ms ago
+  Uid u0a50:
+    Package com.android.messaging:
+      READ_CONTACTS: mode=0; time=+1602d9h44m17s449ms ago
+      READ_SMS: mode=0; time=+1602d9h44m1s345ms ago
+      WRITE_SMS: mode=0
+      WAKE_LOCK: mode=0; time=+1602d9h44m1s310ms ago; duration=+53ms
+      OP_READ_PHONE_STATE: mode=0; time=+1602d9h42m59s215ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m17s844ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m17s844ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+1602d9h44m1s367ms ago
+    Package com.android.mmsfolderview:
+      WRITE_SMS: mode=0
+  Uid u0a61:
+    Package com.android.calendar:
+      READ_CALENDAR: mode=0; time=+10m9s325ms ago
+      WRITE_CALENDAR: mode=0; time=+1602d9h43m46s491ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m16s645ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m16s645ms ago
+      RUN_IN_BACKGROUND: mode=0; time=+10m9s335ms ago
+  Uid u0a65:
+    Package com.ztapp.callbyvideo:
+      TOAST_WINDOW: mode=0; time=+36s974ms ago; duration=+2s960ms
+      OP_READ_PHONE_STATE: mode=0; time=+39s940ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+39s937ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+39s937ms ago
+  Uid u0a66:
+    Package com.android.modemnotifier:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s285ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m37s285ms ago
+  Uid u0a68:
+    Package com.zmapp.plugin.addfriend:
+      READ_EXTERNAL_STORAGE: mode=0; time=+777ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+777ms ago
+  Uid u0a72:
+    Package com.jx.inputmethod.pinyin:
+      READ_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s468ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1602d9h44m35s468ms ago
+  Uid u0a74:
+    Package com.jx.childlike:
+      TAKE_AUDIO_FOCUS: mode=0; time=+42s399ms ago
+      WAKE_LOCK: mode=0; time=+45s519ms ago (running)
+      TOAST_WINDOW: mode=0; time=+40s209ms ago; duration=+1s936ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+45s848ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+45s848ms ago
+  Uid u0a76:
+    Package com.yingyonghui.market:
+      COARSE_LOCATION: mode=0; time=+32s362ms ago
+      FINE_LOCATION: mode=0; time=+5s697ms ago
+      WIFI_SCAN: mode=0; time=+32s362ms ago
+      TOAST_WINDOW: mode=0; time=+22s159ms ago; duration=+3s614ms
+      OP_READ_PHONE_STATE: mode=0; time=+32s116ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+32s124ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+32s124ms ago
+  Uid u0a77:
+    Package com.zmapp.chat:
+      OP_READ_PHONE_STATE: mode=0; time=+2s351ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+1s56ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+1s56ms ago
+  Uid u0a78:
+    Package com.sohu.inputmethod.sogou:
+      OP_READ_PHONE_STATE: mode=0; time=+6s956ms ago
+      READ_EXTERNAL_STORAGE: mode=0; time=+6s951ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+6s951ms ago
+  Uid u0a80:
+    Package com.tencent.mm:
+      WAKE_LOCK: mode=0; time=+3s28ms ago (running)
+      READ_EXTERNAL_STORAGE: mode=0; time=+3s994ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+3s994ms ago
+  Uid u0a81:
+    Package com.example.demo1:
+      TOAST_WINDOW: mode=0; time=+27s728ms ago; duration=+2s20ms
+      READ_EXTERNAL_STORAGE: mode=0; time=+30s810ms ago
+      WRITE_EXTERNAL_STORAGE: mode=0; time=+30s810ms ago
+
+--------- 0.005s was the duration of dumpsys appops, ending at: 2023-05-22 17:52:06

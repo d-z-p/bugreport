@@ -1,0 +1,164 @@
+1     /init                                          0.35    2.99    0.00
+2     [kthreadd]                                             0.01
+3     [ksoftirqd/0]                                  0.02    1.15
+6     [kworker/u8:0]                                         0.66
+7     [rcu_preempt]                                          0.80
+8     [rcu_sched]                                            0.12
+12    [ksoftirqd/1]                                  0.09    0.00
+16    [ksoftirqd/2]                                  0.10    0.00
+17    [kworker/2:0]                                          0.20
+20    [ksoftirqd/3]                                  0.11    0.00
+21    [kworker/3:0]                                          0.41
+24    [kworker/u8:1]                                         1.04
+39    [kworker/u8:2]                                         3.16
+381   [irq/6-70700000.]                              1.17    0.00    0.01  0.9%
+388   [irq/7-70800000.]                                      0.08    0.01 12.5%
+726   [system]                                               0.21
+822   [cfinteractive]                                        0.47    0.01  2.1%
+864   [kswapd0]                                              7.79
+1006  [sprd-adf-dev]                                         1.09
+1152  [kworker/1:1]                                  0.01    0.01
+1174  [focal-wait-queu]                                      0.08    0.02 25.0%
+1215  [gsp-core[0]]                                          0.02
+1336  [sbuf-5-6]                                             0.05    0.02 40.0%
+1472  [mmcqd/0]                                              6.73    0.01  0.1%
+1549  [sipx-5-7]                                     0.03    0.11    0.02 14.3%
+2079  [kworker/3:1H]                                         0.17
+2111  /sbin/ueventd                                  0.31    0.16    0.00
+2866  [f2fs_discard-25]                                      0.41
+2877  /system/bin/logd                               5.97    2.63    0.03  0.3%
+2878  /system/bin/servicemanager                     0.85    2.15    0.00
+2879  /system/bin/hwservicemanager                   0.34    0.15    0.00
+2880  /vendor/bin/vndservicemanager                  0.00    0.02    0.00
+2885  [kworker/u9:0]                                         0.35
+2891  [kauditd]                                              0.02
+2894  /vendor/bin/hw/android.hardware.keymaster@3.0-service 0.04 0.00 0.00
+2895  /system/bin/vold                               0.09    0.54    0.00
+2896  [kworker/u9:1]                                 0.01    0.85
+2976  /system/bin/netd                               0.22    0.57    0.00
+2977  zygote64                                       1.56    1.44    0.00
+2978  zygote                                         1.64    0.68    0.00
+2981  /system/bin/hw/android.hidl.allocator@1.0-service 0.06 0.09    0.00
+2982  /vendor/bin/hw/android.hardware.audio@2.0-service 0.63 0.75    0.00
+2983  /vendor/bin/hw/android.hardware.bluetooth@1.0-service 0.03 0.00 0.00
+2984  /vendor/bin/hw/android.hardware.camera.provider@2.4-service 0.63 0.36 0.00
+2985  /vendor/bin/hw/android.hardware.cas@1.0-service 0.08   0.01    0.00
+2986  /vendor/bin/hw/android.hardware.configstore@1.0-service 0.04 0.01 0.00
+2987  /vendor/bin/hw/android.hardware.drm@1.0-service 0.10   0.02    0.00
+2988  /vendor/bin/hw/android.hardware.dumpstate@1.0-service 0.03 0.00 0.00
+2989  /vendor/bin/hw/android.hardware.gatekeeper@1.0-service 0.00 0.03 0.00
+2990  /vendor/bin/hw/android.hardware.graphics.allocator@2.0-service 0.31 0.79 0.00
+2991  /vendor/bin/hw/android.hardware.graphics.composer@2.1-service 2.87 3.43 0.01 0.2%
+2992  /vendor/bin/hw/android.hardware.health@1.0-service 0.03 0.00   0.00
+2993  /vendor/bin/hw/android.hardware.light@2.0-service 0.03 0.06    0.00
+2994  /vendor/bin/hw/android.hardware.memtrack@1.0-service 0.18 0.22 0.00
+2995  /vendor/bin/hw/android.hardware.sensors@1.0-service 1.54 1.45  0.01  0.3%
+2996  /vendor/bin/hw/android.hardware.usb@1.1-service 0.03   0.03    0.00
+2997  /vendor/bin/hw/android.hardware.vibrator@1.0-service 0.02 0.02 0.00
+2998  /vendor/bin/hw/android.hardware.wifi@1.0-service 0.04  0.01    0.00
+2999  /vendor/bin/hw/vendor.sprd.hardware.connmgr@1.0-service 0.01 0.02 0.00
+3000  /vendor/bin/hw/vendor.sprd.hardware.face@1.0-service 0.02 0.01 0.00
+3001  /vendor/bin/hw/vendor.sprd.hardware.ifaa@1.0-service 0.01 0.02 0.00
+3002  /vendor/bin/hw/vendor.sprd.hardware.log@1.0-service 0.02 0.01  0.00
+3003  /vendor/bin/hw/vendor.sprd.hardware.power@2.0-service 0.53 0.60 0.00
+3004  [kworker/u8:5]                                         2.63
+3005  /vendor/bin/hw/vendor.sprd.hardware.thermal@1.0-service 0.02 0.01 0.00
+3006  /system/bin/healthd                            0.11    0.00    0.00
+3007  /vendor/bin/gpsd                               0.02    0.00    0.00
+3008  /vendor/bin/engpc                              0.48    0.05    0.00
+3009  /system/bin/lmkd                               0.05    0.27    0.01  3.1%
+3010  /system/bin/performancemanager                 0.05    0.00    0.00
+3011  /system/bin/surfaceflinger                    12.38   10.60    0.01  0.0%
+3012  /system/bin/thermalserviced                    0.07    0.00    0.00
+3013  /vendor/bin/gnss_download                      0.00    0.02    0.00
+3014  /vendor/bin/modem_control                      0.02    0.13    0.00
+3015  /vendor/bin/modemd                             0.01    0.00    0.00
+3016  /vendor/bin/sprdstorageproxyd                  0.01    0.00    0.00
+3020  /vendor/bin/tsupplicant                        0.02    0.00    0.00
+3021  /system/bin/iptables-restore                   0.03    0.04    0.00
+3022  /system/bin/ip6tables-restore                  0.03    0.04    0.00
+3024  [kworker/u8:6]                                         1.96
+3037  /system/bin/audioserver                        1.08    0.44    0.00
+3038  /system/bin/cameraserver                       0.35    0.14    0.00
+3039  /system/bin/drmserver                          0.74    0.19    0.00
+3040  /system/bin/ims_bridged                        0.00    0.01    0.00
+3041  /system/bin/installd                           1.34    1.94    0.00
+3042  /system/bin/sh                                 0.01    0.00    0.00
+3043  /system/bin/keystore                           0.09    0.02    0.00
+3044  /system/bin/log_service                        0.02    0.00    0.00
+3045  /system/bin/mediadrmserver                     0.10    0.03    0.00
+3046  [kworker/0:2]                                  0.48    0.00
+3047  media.extractor                                1.84    1.11    0.00
+3048  media.metrics                                  0.22    0.03    0.00
+3049  /system/bin/mediaserver                        2.59    2.21    0.00
+3063  /vendor/bin/phasecheckserver                   0.04    0.01    0.00
+3064  /system/bin/ju_ipsec_server                    0.01    0.00    0.00
+3065  /system/bin/storaged                           0.06    0.02    0.00
+3068  ip                                             0.01    0.00    0.00
+3069  /system/bin/sh                                 0.02    0.02    0.00
+3071  /system/bin/wificond                           0.08    0.00    0.00
+3072  media.codec                                    1.85    1.18    0.00
+3073  /vendor/bin/ext_data                           0.01    0.00    0.00
+3074  /vendor/bin/refnotify                          0.01    0.01    0.00
+3075  /vendor/bin/slogmodem                          0.00    0.02    0.00
+3076  /vendor/bin/thermald                           0.13    0.15    0.00
+3077  /vendor/bin/hw/vendor.sprd.hardware.gnss@1.0-service 0.65 0.16 0.00
+3079  [kworker/0:1H]                                         0.14
+3083  /system/bin/gatekeeperd                        0.07    0.01    0.00
+3084  /system/bin/tombstoned                         0.00    0.08    0.00
+3085  /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service 0.09 0.00 0.00
+3086  /vendor/bin/sprdstorageproxyd                  0.01    0.00    0.00
+3087  /vendor/bin/connmgr                            0.28    0.05    0.00
+3098  [kworker/u8:7]                                         1.77
+3134  [kworker/3:2]                                          0.09
+3176  [kworker/1:1H]                                 0.01    0.13
+3177  [kworker/2:1H]                                         0.07
+3351  /vendor/bin/hw/sprdrild                        0.57    0.39    0.00
+3352  /vendor/bin/cp_diskserver                      0.06    0.06    0.00
+3369  system_server                                 95.20   39.44    0.00
+4019  [kworker/u9:2]                                         0.40
+4156  com.android.phone                              9.75    2.86    0.00
+4188  com.android.systemui                           8.86    3.20    0.00
+4223  /system/bin/webview_zygote32                   0.89    0.08    0.00
+4340  com.android.settings                          12.51    3.21    0.00
+4559  com.sprd.applock                               0.54    0.25    0.00
+4573  com.spreadtrum.vce                             0.49    0.12    0.00
+4603  com.android.modemnotifier                      0.34    0.11    0.00
+4649  com.abupdate.fota_demo_iot                     4.21    0.25    0.00
+4689  com.android.smspush                            0.37    0.07    0.00
+4847  android.process.media                          8.48    1.43    0.00
+4883  com.spreadtrum.vowifi                          0.55    0.11    0.00
+4923  com.sohu.inputmethod.sogou                    32.53    6.41    0.00
+5135  com.sohu.inputmethod.sogou:daemon              1.12    0.19    0.00
+5410  [kworker/3:3]                                  0.31    0.48
+5449  [kworker/1:2]                                  0.02    0.03
+5597  com.sprd.udpDataStall                          0.33    0.09    0.00
+5878  /system/bin/adbd                               0.67    2.07    0.00
+7184  com.android.documentsui                        2.64    0.49    0.00
+7600  com.zmapp.camera                               0.98    0.31    0.00
+8052  com.android.calendar                           1.28    0.28    0.00
+8117  com.zmapp.album                                2.09    0.40    0.00
+8191  android.process.acore                          4.80    0.31    0.00
+8561  com.android.defcontainer                       0.21    0.06    0.00
+8641  com.android.keychain                           0.23    0.04    0.00
+8668  com.jx.launcher                                7.38    2.36    0.00
+8720  com.android.commands.monkey                    1.80    0.51    0.00
+8724  com.android.systemui:screenshot                0.35    0.22    0.00
+8762  com.zmapp.sms                                  0.53    0.13    0.00
+8961  com.jx.inputmethod.pinyin                      0.62    0.17    0.00
+8980  [kworker/0:3]                                  0.16    0.00
+9033  com.android.deskclock                          2.59    0.52    0.00
+9144  com.sprd.fileexplorer                          0.69    0.15    0.00
+9764  com.goodix.health                              1.41    0.31    0.00
+9929  com.android.music                              1.33    0.35    0.00
+10082 com.android.commands.monkey                    1.12    0.36    0.00
+10264 com.android.packageinstaller                   0.68    0.21    0.00
+10352 com.android.commands.monkey                    1.02    0.40    0.00
+10366 com.android.providers.calendar                 0.19    0.17    0.00
+10465 com.jx.watchos.contact                         1.61    0.37    0.00
+10513 bugreport                                      0.02    0.09    0.00
+10516 /system/bin/dumpstate                          0.20    0.31    0.00
+10764 com.jx.watchos.setting                         1.30    0.45    0.00
+11082 com.divo.phone                                 0.21    0.10    0.00
+11385 com.ztapp.themestore                           0.59    0.13    0.00
+11446 com.android.browser                            0.24    0.10    0.00

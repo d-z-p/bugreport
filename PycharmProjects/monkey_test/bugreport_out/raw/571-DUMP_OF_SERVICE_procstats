@@ -1,0 +1,3857 @@
+CURRENT STATS:
+System memory usage:
+  SOn /Norm: 2 samples:
+    Cached: 152MB min, 262MB avg, 372MB max
+    Free: 35MB min, 36MB avg, 37MB max
+    ZRam: 15MB min, 27MB avg, 40MB max
+    Kernel: 51MB min, 64MB avg, 78MB max
+    Native: 108MB min, 142MB avg, 177MB max
+
+Per-Package Stats:
+  * com.abupdate.fota_demo_iot / 1000 / v20:
+      Process com.abupdate.fota_demo_iot (unique, 4 entries):
+        SOn /Norm/ImpBg  : +30s204ms
+                  Service: +4m5s521ms (running)
+                  Receivr: +488ms
+                  CchEmty: +4s306ms
+                  TOTAL  : +4m40s519ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 3 samples 12MB 12MB 13MB / 6.0MB 6.9MB 7.8MB
+        myID=9b90962 mCommonProcess=9b90962 mPackage=com.abupdate.fota_demo_iot
+        mActive=true
+        mNumActiveServices=2 mNumStartedServices=2
+      Service com.abupdate.iot_libs.service.ClientTrigger:
+        Process: com.abupdate.fota_demo_iot
+        Running op count 1:
+          SOn /Norm: +14m20s69ms (running)
+              TOTAL: +14m20s69ms
+        Started op count 1:
+          SOn /Norm: +14m20s69ms (running)
+              TOTAL: +14m20s69ms
+        Executing op count 1:
+          SOn /Norm: +58ms
+              TOTAL: +58ms
+        mOwner=ServiceRecord{cc46b2c u0 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.ClientTrigger}
+        mStarted=true mRestarting=false
+      Service com.abupdate.iot_libs.service.JobSchedulerService:
+        Process: com.abupdate.fota_demo_iot
+        Running op count 1:
+          SOn /Norm: +14m20s101ms (running)
+              TOTAL: +14m20s101ms
+        Started op count 1:
+          SOn /Norm: +14m20s101ms (running)
+              TOTAL: +14m20s101ms
+        Bound op count 1:
+          SOn /Norm: +30s204ms
+              TOTAL: +30s204ms
+        Executing op count 3:
+          SOn /Norm: +63ms
+              TOTAL: +63ms
+        mOwner=ServiceRecord{a72a339 u0 com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService}
+        mStarted=true mRestarting=false
+  * com.android.providers.telephony / 1001 / v27:
+      Process com.android.phone (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=8710af3 mCommonProcess=469e3b0 mPackage=com.android.providers.telephony
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+        mActive=true
+  * com.sprd.engineermode / 1000 / v1:
+      Process com.sprd.engineermode (unique, 3 entries):
+        SOn /Norm/ImpBg  : +717ms
+                  Receivr: +2s296ms
+                  CchEmty: +13m28s809ms
+                  TOTAL  : +13m31s822ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 9.0MB 9.5MB 9.8MB / 5.6MB 6.2MB 6.5MB
+        myID=e95c229 mCommonProcess=e95c229 mPackage=com.sprd.engineermode
+  * com.android.providers.calendar / u0a19 / v27:
+      Process com.android.providers.calendar (unique, 5 entries):
+        SOn /Norm/ImpFg  : +166ms
+                  Service: +85ms
+                  Receivr: +299ms
+                  LastAct: +2m18s889ms
+                  CchEmty: +11m48s105ms
+                  TOTAL  : +14m7s544ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.9MB 4.9MB 4.9MB / 1.4MB 1.4MB 1.4MB
+        myID=ba259ae mCommonProcess=ba259ae mPackage=com.android.providers.calendar
+  * com.android.providers.media / u0a9 / v801:
+      Process android.process.media (multi, 5 entries):
+        SOn /Norm/ImpFg  : +251ms
+                  Service: +13m40s482ms (running)
+                  Receivr: +1s322ms
+                  LastAct: +22s458ms
+                  CchEmty: +10s20ms
+                  TOTAL  : +14m14s533ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 3 samples 11MB 12MB 15MB / 4.9MB 6.2MB 8.8MB
+                    CchEmty: 1 samples 12MB 12MB 12MB / 5.9MB 5.9MB 5.9MB
+        myID=607634f mCommonProcess=f818adc mPackage=com.android.providers.media
+        Common Proc: android.process.media/10009 pkg=com.android.providers.downloads
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=1
+      Service com.android.providers.media.MtpService:
+        Process: android.process.media
+        Running op count 1:
+          SOn /Norm: +13m47s532ms (running)
+              TOTAL: +13m47s532ms
+        Started op count 1:
+          SOn /Norm: +13m47s529ms (running)
+              TOTAL: +13m47s529ms
+        Bound op count 1:
+          SOn /Norm: +13m47s532ms (running)
+              TOTAL: +13m47s532ms
+        Executing op count 2:
+          SOn /Norm: +50ms
+              TOTAL: +50ms
+        mOwner=ServiceRecord{1bd1810 u0 com.android.providers.media/.MtpService}
+        mStarted=true mRestarting=false
+      Service com.android.providers.media.MediaScannerService:
+        Process: android.process.media
+        Running op count 4:
+          SOn /Norm: +2s649ms
+              TOTAL: +2s649ms
+        Started op count 2:
+          SOn /Norm: +2s621ms
+              TOTAL: +2s621ms
+        Executing op count 4:
+          SOn /Norm: +338ms
+              TOTAL: +338ms
+  * com.zmapp.sms / 1000 / v101:
+      Process com.zmapp.sms (unique, 2 entries):
+        SOn /Norm/Top    : +1s706ms
+                  LastAct: +5s525ms
+                  TOTAL  : +7s231ms
+        PSS/USS (2 entries):
+          SOn /Norm/LastAct: 1 samples 13MB 13MB 13MB / 8.7MB 8.7MB 8.7MB
+                    CchAct : 1 samples 12MB 12MB 12MB / 1.3MB 1.3MB 1.3MB
+        myID=49f57e5 mCommonProcess=49f57e5 mPackage=com.zmapp.sms
+        mActive=true
+  * com.sohu.inputmethod.sogou / u0a78 / v1352:
+      Process com.sohu.inputmethod.sogou:daemon (unique, 1 entries):
+        SOn /Norm/ServRst: +151ms
+                  TOTAL  : +151ms
+        myID=4be62ba mCommonProcess=4be62ba mPackage=com.sohu.inputmethod.sogou
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=1
+      Process com.sohu.inputmethod.sogou (unique, 3 entries):
+        SOn /Norm/ImpFg  : +3s556ms
+                  ImpBg  : +5s967ms (running)
+                  Receivr: +6ms
+                  TOTAL  : +9s529ms
+        myID=d00e56b mCommonProcess=d00e56b mPackage=com.sohu.inputmethod.sogou
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+      Service com.sogou.daemon.DaemonService:
+        Process: com.sohu.inputmethod.sogou:daemon
+        Running op count 1:
+          SOn /Norm: +15s497ms (running)
+              TOTAL: +15s497ms
+        Started op count 1:
+          SOn /Norm: +15s497ms (running)
+              TOTAL: +15s497ms
+        Executing op count 2:
+          SOn /Norm: +848ms
+              TOTAL: +848ms
+        mOwner=ServiceRecord{16ed531 u0 com.sohu.inputmethod.sogou/com.sogou.daemon.DaemonService}
+        mStarted=true mRestarting=false
+      Service com.sohu.inputmethod.sogou.SogouIME:
+        Process: com.sohu.inputmethod.sogou
+        Running op count 2:
+          SOn /Norm: +18s704ms (running)
+              TOTAL: +18s704ms
+        Started op count 1:
+          SOn /Norm: +127ms
+              TOTAL: +127ms
+        Bound op count 2:
+          SOn /Norm: +18s699ms (running)
+              TOTAL: +18s699ms
+        Executing op count 3:
+          SOn /Norm: +4s175ms
+              TOTAL: +4s175ms
+        mOwner=ServiceRecord{fda2ba2 u0 com.sohu.inputmethod.sogou/.SogouIME}
+  * com.zmapp.chat / u0a77 / v35:
+      Process com.zmapp.chat (unique, 2 entries):
+        SOn /Norm/Top    : +4s605ms
+                  LastAct: +1s10ms
+                  TOTAL  : +5s615ms
+        myID=b0a78c8 mCommonProcess=b0a78c8 mPackage=com.zmapp.chat
+        mActive=true
+  * com.android.mms.service / 1001 / v27:
+      Process com.android.phone (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=6f28d61 mCommonProcess=469e3b0 mPackage=com.android.mms.service
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+      Service com.android.mms.service.MmsService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m5s574ms (running)
+              TOTAL: +14m5s574ms
+        Bound op count 1:
+          SOn /Norm: +14m5s574ms (running)
+              TOTAL: +14m5s574ms
+        Executing op count 1:
+          SOn /Norm: +29ms
+              TOTAL: +29ms
+        mOwner=ServiceRecord{37474b7 u0 com.android.mms.service/.MmsService}
+  * com.android.providers.downloads / u0a9 / v27:
+      Process android.process.media (multi, 5 entries):
+        SOn /Norm/ImpFg  : +251ms
+                  Service: +13m40s482ms (running)
+                  Receivr: +1s322ms
+                  LastAct: +22s458ms
+                  CchEmty: +10s20ms
+                  TOTAL  : +14m14s533ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 3 samples 11MB 12MB 15MB / 4.9MB 6.2MB 8.8MB
+                    CchEmty: 1 samples 12MB 12MB 12MB / 5.9MB 5.9MB 5.9MB
+        myID=65ff086 mCommonProcess=f818adc mPackage=com.android.providers.downloads
+        Common Proc: android.process.media/10009 pkg=com.android.providers.downloads
+        mActive=true
+  * com.android.messaging / u0a50 / v1000210:
+      Process com.android.messaging (unique, 5 entries):
+        SOn /Norm/ImpFg  : +86ms
+                  Service: +238ms
+                  Receivr: +4ms
+                  LastAct: +20s100ms
+                  CchEmty: +13m3s406ms
+                  TOTAL  : +13m23s834ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 8.3MB 8.3MB 8.3MB
+        myID=fc66d47 mCommonProcess=fc66d47 mPackage=com.android.messaging
+      Service com.android.messaging.datamodel.action.BackgroundWorkerService:
+        Process: com.android.messaging
+        Running op count 2:
+          SOn /Norm: +60ms
+              TOTAL: +60ms
+        Started op count 1:
+          SOn /Norm: +54ms
+              TOTAL: +54ms
+        Executing op count 2:
+          SOn /Norm: +13ms
+              TOTAL: +13ms
+      Service com.android.messaging.datamodel.action.ActionServiceImpl:
+        Process: com.android.messaging
+        Running op count 6:
+          SOn /Norm: +218ms
+              TOTAL: +218ms
+        Started op count 3:
+          SOn /Norm: +196ms
+              TOTAL: +196ms
+        Executing op count 6:
+          SOn /Norm: +114ms
+              TOTAL: +114ms
+  * com.android.sprd.telephony.server / 1001 / v27:
+      Process com.android.phone (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=8b25974 mCommonProcess=469e3b0 mPackage=com.android.sprd.telephony.server
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+      Service com.android.sprd.telephony.RadioInteractorService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m24s830ms (running)
+              TOTAL: +14m24s830ms
+        Bound op count 1:
+          SOn /Norm: +14m24s830ms (running)
+              TOTAL: +14m24s830ms
+        Executing op count 1:
+          SOn /Norm: +1s20ms
+              TOTAL: +1s20ms
+        mOwner=ServiceRecord{4315f99 u0 com.android.sprd.telephony.server/com.android.sprd.telephony.RadioInteractorService}
+  * com.jx.inputmethod.pinyin / u0a72 / v21:
+      Process com.jx.inputmethod.pinyin (unique, 4 entries):
+        SOn /Norm/ImpFg  : +987ms
+                  ImpBg  : +14m3s819ms
+                  Service: +99ms
+                  CchAct : +14s744ms
+                  TOTAL  : +14m19s649ms
+        PSS/USS (1 entries):
+          SOn /Norm/ImpBg  : 2 samples 7.7MB 12MB 16MB / 4.3MB 7.8MB 11MB
+        myID=ee99e9d mCommonProcess=ee99e9d mPackage=com.jx.inputmethod.pinyin
+      Service com.jx.inputmethod.pinyin.PinyinDecoderService:
+        Process: com.jx.inputmethod.pinyin
+        Running op count 1:
+          SOn /Norm: +14m4s724ms
+              TOTAL: +14m4s724ms
+        Bound op count 1:
+          SOn /Norm: +14m4s671ms
+              TOTAL: +14m4s671ms
+        Executing op count 2:
+          SOn /Norm: +144ms
+              TOTAL: +144ms
+      Service com.jx.inputmethod.pinyin.PinyinIME:
+        Process: com.jx.inputmethod.pinyin
+        Running op count 1:
+          SOn /Norm: +14m4s960ms
+              TOTAL: +14m4s960ms
+        Bound op count 1:
+          SOn /Norm: +14m4s865ms
+              TOTAL: +14m4s865ms
+        Executing op count 2:
+          SOn /Norm: +328ms
+              TOTAL: +328ms
+  * com.sprd.aganisttest / 1000 / v1:
+      Process com.sprd.aganisttest (unique, 2 entries):
+        SOn /Norm/Receivr: +37ms
+                  CchEmty: +1m5s467ms
+                  TOTAL  : +1m5s504ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.2MB 3.2MB 3.2MB / 1.0MB 1.0MB 1.0MB
+        myID=23a8f12 mCommonProcess=23a8f12 mPackage=com.sprd.aganisttest
+  * com.android.soundrecorder / u0a43 / v27:
+      Process com.android.soundrecorder (unique, 2 entries):
+        SOn /Norm/Receivr: +56ms
+                  CchEmty: +13m27s561ms
+                  TOTAL  : +13m27s617ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 5.0MB 5.2MB 5.5MB / 2.5MB 3.0MB 3.5MB
+        myID=47296e3 mCommonProcess=47296e3 mPackage=com.android.soundrecorder
+  * plugin.sprd.contactsdefaultcontact / u0a2 / v1:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +30ms
+                  Service: +3ms
+                  Receivr: +63ms
+                  LastAct: +316ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m20s587ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=55598e0 mCommonProcess=7468799 mPackage=plugin.sprd.contactsdefaultcontact
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+      Service plugin.sprd.contactsdefaultcontact.PreDefineContactsService:
+        Process: android.process.acore
+        Running op count 2:
+          SOn /Norm: +33ms
+              TOTAL: +33ms
+        Started op count 1:
+          SOn /Norm: +29ms
+              TOTAL: +29ms
+        Executing op count 2:
+          SOn /Norm: +13ms
+              TOTAL: +13ms
+  * com.android.defcontainer / u0a5 / v27:
+      Process com.android.defcontainer (unique, 2 entries):
+        SOn /Norm/ImpFg  : +10s149ms
+                  Service: +8ms
+                  TOTAL  : +10s157ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 3.3MB 4.1MB 4.9MB / 524KB 566KB 608KB
+        myID=fae8a5e mCommonProcess=fae8a5e mPackage=com.android.defcontainer
+        mActive=true
+      Service com.android.defcontainer.DefaultContainerService:
+        Process: com.android.defcontainer
+        Running op count 1:
+          SOn /Norm: +10s197ms
+              TOTAL: +10s197ms
+        Bound op count 1:
+          SOn /Norm: +10s192ms
+              TOTAL: +10s192ms
+        Executing op count 2:
+          SOn /Norm: +95ms
+              TOTAL: +95ms
+  * com.tencent.mm / u0a80 / v2040:
+      Process com.tencent.mm:push (unique, 3 entries):
+        SOn /Norm/ImpFg  : +9s333ms
+                  Receivr: +62ms
+                  LastAct: +5s318ms (running)
+                  TOTAL  : +14s713ms
+        myID=e2dbe3f mCommonProcess=e2dbe3f mPackage=com.tencent.mm
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+      Process com.tencent.mm (unique, 4 entries):
+        SOn /Norm/Top    : +16s22ms
+                  ImpFg  : +961ms
+                  Receivr: +43ms
+                  LastAct: +7s55ms (running)
+                  TOTAL  : +24s81ms
+        myID=d2b630c mCommonProcess=d2b630c mPackage=com.tencent.mm
+        mActive=true
+        mNumActiveServices=2 mNumStartedServices=0
+      Service com.tencent.mm.ipcinvoker.wx_extension.service.MainProcessIPCService:
+        Process: com.tencent.mm
+        Running op count 1:
+          SOn /Norm: +13s495ms (running)
+              TOTAL: +13s495ms
+        Bound op count 1:
+          SOn /Norm: +13s495ms (running)
+              TOTAL: +13s495ms
+        Executing op count 1:
+          SOn /Norm: +497ms
+              TOTAL: +497ms
+        mOwner=ServiceRecord{810edb9 u0 com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService}
+      Service com.tencent.mm.booter.CoreService:
+        Process: com.tencent.mm:push
+        Running op count 1:
+          SOn /Norm: +17s550ms (running)
+              TOTAL: +17s550ms
+        Bound op count 1:
+          SOn /Norm: +17s550ms (running)
+              TOTAL: +17s550ms
+        Executing op count 1:
+          SOn /Norm: +9s317ms
+              TOTAL: +9s317ms
+        mOwner=ServiceRecord{cbc2378 u0 com.tencent.mm/.booter.CoreService}
+      Service com.tencent.mm.service.ProcessService$MMProcessService:
+        Process: com.tencent.mm
+        Running op count 1:
+          SOn /Norm: +23s531ms (running)
+              TOTAL: +23s531ms
+        Bound op count 1:
+          SOn /Norm: +23s531ms (running)
+              TOTAL: +23s531ms
+        Executing op count 1:
+          SOn /Norm: +2s454ms
+              TOTAL: +2s454ms
+        mOwner=ServiceRecord{9a88269 u0 com.tencent.mm/.service.ProcessService$MMProcessService}
+  * com.android.carrierconfig / u0a4 / v1:
+      Process com.android.carrierconfig (unique, 3 entries):
+        SOn /Norm/ImpFg  : +569ms
+                  Service: +67ms
+                  CchEmty: +14m6s984ms
+                  TOTAL  : +14m7s620ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 3.2MB 3.4MB 3.5MB / 532KB 658KB 844KB
+        myID=aef0455 mCommonProcess=aef0455 mPackage=com.android.carrierconfig
+      Service com.android.carrierconfig.DefaultCarrierConfigServiceEx:
+        Process: com.android.carrierconfig
+        Running op count 4:
+          SOn /Norm: +738ms
+              TOTAL: +738ms
+        Bound op count 4:
+          SOn /Norm: +673ms
+              TOTAL: +673ms
+        Executing op count 8:
+          SOn /Norm: +222ms
+              TOTAL: +222ms
+  * android / 1000 / v27:
+      Process system (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=9d4ee6a mCommonProcess=49ff5b mPackage=android
+        Common Proc: system/1000 pkg=android
+        mActive=true
+  * com.android.provision / u0a16 / v27:
+      Process com.android.provision (unique, 2 entries):
+        SOn /Norm/Top    : +1s582ms
+                  CchEmty: +38s992ms
+                  TOTAL  : +40s574ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.5MB 4.5MB 4.5MB / 572KB 572KB 572KB
+        myID=6b1a3f8 mCommonProcess=6b1a3f8 mPackage=com.android.provision
+  * com.example.demo1 / u0a81 / v1:
+      Process com.example.demo1 (unique, 3 entries):
+        SOn /Norm/Top    : +2s691ms
+                  ImpBg  : +220ms
+                  LastAct: +10s931ms
+                  TOTAL  : +13s842ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 1 samples 12MB 12MB 12MB / 1.3MB 1.3MB 1.3MB
+        myID=36890d1 mCommonProcess=36890d1 mPackage=com.example.demo1
+        mActive=true
+  * com.android.calendar / u0a61 / v27:
+      Process com.android.calendar (unique, 3 entries):
+        SOn /Norm/Service: +30s56ms
+                  Receivr: +225ms
+                  CchEmty: +13m20s645ms
+                  TOTAL  : +13m50s926ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 1 samples 7.8MB 7.8MB 7.8MB / 5.0MB 5.0MB 5.0MB
+                    CchEmty: 2 samples 7.8MB 7.9MB 7.9MB / 4.2MB 4.3MB 4.4MB
+        myID=24b8736 mCommonProcess=24b8736 mPackage=com.android.calendar
+      Service com.android.calendar.alerts.InitAlarmsService:
+        Process: com.android.calendar
+        Running op count 2:
+          SOn /Norm: +30s48ms
+              TOTAL: +30s48ms
+        Started op count 1:
+          SOn /Norm: +30s47ms
+              TOTAL: +30s47ms
+        Executing op count 2:
+          SOn /Norm: +4ms
+              TOTAL: +4ms
+      Service com.android.calendar.alerts.AlertService:
+        Process: com.android.calendar
+        Running op count 4:
+          SOn /Norm: +8s87ms
+              TOTAL: +8s87ms
+        Started op count 2:
+          SOn /Norm: +8s81ms
+              TOTAL: +8s81ms
+        Executing op count 4:
+          SOn /Norm: +19ms
+              TOTAL: +19ms
+  * com.android.providers.settings / 1000 / v27:
+      Process system (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=71f3637 mCommonProcess=49ff5b mPackage=com.android.providers.settings
+        Common Proc: system/1000 pkg=android
+        mActive=true
+  * com.sprd.applock / 1000 / v27:
+      Process com.sprd.applock (unique, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 3.6MB 3.8MB 4.1MB / 1.4MB 1.6MB 1.8MB
+        myID=5907a4 mCommonProcess=5907a4 mPackage=com.sprd.applock
+        mActive=true
+  * com.android.cellbroadcastreceiver / u0a6 / v27:
+      Process com.android.cellbroadcastreceiver (unique, 2 entries):
+        SOn /Norm/Receivr: +315ms
+                  CchEmty: +13m48s604ms
+                  TOTAL  : +13m48s919ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 3.8MB 4.4MB 5.1MB / 1.1MB 1.6MB 2.0MB
+        myID=314690d mCommonProcess=314690d mPackage=com.android.cellbroadcastreceiver
+  * com.android.onetimeinitializer / u0a14 / v27:
+      Process com.android.onetimeinitializer (unique, 2 entries):
+        SOn /Norm/Receivr: +81ms
+                  CchEmty: +13m24s439ms
+                  TOTAL  : +13m24s520ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 2.9MB 3.2MB 3.4MB / 396KB 742KB 1.1MB
+        myID=4c0e0c2 mCommonProcess=4c0e0c2 mPackage=com.android.onetimeinitializer
+  * com.ztapp.callbyvideo / u0a65 / v121:
+      Process com.ztapp.callbyvideo (unique, 4 entries):
+        SOn /Norm/Top    : +2s202ms
+                  ImpBg  : +1s108ms
+                  LastAct: +58ms
+                  CchAct : +22s371ms
+                  TOTAL  : +25s739ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchAct : 1 samples 16MB 16MB 16MB / 11MB 11MB 11MB
+        myID=2a6fed3 mCommonProcess=2a6fed3 mPackage=com.ztapp.callbyvideo
+        mActive=true
+  * com.android.server.telecom / 1000 / v27:
+      Process system (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=cf0fa10 mCommonProcess=49ff5b mPackage=com.android.server.telecom
+        Common Proc: system/1000 pkg=android
+        mActive=true
+        mNumActiveServices=2 mNumStartedServices=1
+      Service com.android.server.telecom.components.BluetoothPhoneService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m27s965ms (running)
+              TOTAL: +14m27s965ms
+        Started op count 1:
+          SOn /Norm: +14m27s965ms (running)
+              TOTAL: +14m27s965ms
+        Executing op count 1:
+          SOn /Norm: +214ms
+              TOTAL: +214ms
+        mOwner=ServiceRecord{bcf4eb6 u0 com.android.server.telecom/.components.BluetoothPhoneService}
+        mStarted=true mRestarting=false
+      Service com.android.server.telecom.components.TelecomService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m30s179ms (running)
+              TOTAL: +14m30s179ms
+        Bound op count 1:
+          SOn /Norm: +14m30s179ms (running)
+              TOTAL: +14m30s179ms
+        Executing op count 1:
+          SOn /Norm: +2s215ms
+              TOTAL: +2s215ms
+        mOwner=ServiceRecord{dcee0eb u0 com.android.server.telecom/.components.TelecomService}
+  * com.android.keychain / 1000 / v27:
+      Process com.android.keychain (unique, 3 entries):
+        SOn /Norm/ImpFg  : +152ms
+                  Service: +8ms
+                  CchEmty: +1m38s749ms
+                  TOTAL  : +1m38s909ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.5MB 3.5MB 3.5MB / 656KB 656KB 656KB
+        myID=72b8909 mCommonProcess=72b8909 mPackage=com.android.keychain
+      Service com.android.keychain.KeyChainService:
+        Process: com.android.keychain
+        Running op count 2:
+          SOn /Norm: +204ms
+              TOTAL: +204ms
+        Bound op count 2:
+          SOn /Norm: +198ms
+              TOTAL: +198ms
+        Executing op count 4:
+          SOn /Norm: +126ms
+              TOTAL: +126ms
+  * com.android.dialer / u0a2 / v150000:
+      Process com.android.dialer (unique, 4 entries):
+        SOn /Norm/ImpBg  : +55ms
+                  Service: +24ms
+                  Receivr: +367ms
+                  CchEmty: +14m5s198ms
+                  TOTAL  : +14m5s644ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 9.4MB 9.6MB 10MB / 4.3MB 4.8MB 5.0MB
+        myID=740470e mCommonProcess=740470e mPackage=com.android.dialer
+      Service com.android.voicemail.impl.StatusCheckJobService:
+        Process: com.android.dialer
+        Running op count 1:
+          SOn /Norm: +81ms
+              TOTAL: +81ms
+        Bound op count 1:
+          SOn /Norm: +55ms
+              TOTAL: +55ms
+        Executing op count 2:
+          SOn /Norm: +46ms
+              TOTAL: +46ms
+  * com.android.gallery3d / u0a20 / v40030:
+      Process com.android.gallery3d (unique, 2 entries):
+        SOn /Norm/Receivr: +355ms
+                  CchEmty: +2m29s479ms
+                  TOTAL  : +2m29s834ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 8.7MB 8.7MB 8.7MB
+        myID=ed8b52f mCommonProcess=ed8b52f mPackage=com.android.gallery3d
+  * com.spreadtrum.ims / 1001 / v27:
+      Process com.android.phone (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=ad3a73c mCommonProcess=469e3b0 mPackage=com.spreadtrum.ims
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=1
+      Service com.spreadtrum.ims.ImsService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m23s830ms (running)
+              TOTAL: +14m23s830ms
+        Started op count 1:
+          SOn /Norm: +14m23s353ms (running)
+              TOTAL: +14m23s353ms
+        Bound op count 1:
+          SOn /Norm: +14m23s830ms (running)
+              TOTAL: +14m23s830ms
+        Executing op count 1:
+          SOn /Norm: +861ms
+              TOTAL: +861ms
+        mOwner=ServiceRecord{e296e5 u0 com.spreadtrum.ims/.ImsService}
+        mStarted=true mRestarting=false
+  * com.spreadtrum.vce / 1000 / v27:
+      Process com.spreadtrum.vce (unique, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 6.8MB 7.0MB 7.3MB / 680KB 1.8MB 2.9MB
+        myID=d7aacc5 mCommonProcess=d7aacc5 mPackage=com.spreadtrum.vce
+        mActive=true
+  * com.jx.childlike / u0a74 / v24:
+      Process com.jx.childlike (unique, 4 entries):
+        SOn /Norm/Top    : +3s829ms (running)
+                  ImpBg  : +1s786ms
+                  Service: +40s607ms
+                  LastAct: +3s3ms
+                  TOTAL  : +49s225ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 2 samples 16MB 16MB 16MB / 5.5MB 7.2MB 8.9MB
+        myID=33dc61a mCommonProcess=33dc61a mPackage=com.jx.childlike
+        mActive=true
+  * android.ext.services / u0a7 / v1:
+      Process android.ext.services (unique, 3 entries):
+        SOn /Norm/ImpFg  : +232ms
+                  Service: +99ms
+                  CchEmty: +667ms
+                  TOTAL  : +998ms
+        myID=5c5754b mCommonProcess=5c5754b mPackage=android.ext.services
+      Service android.ext.services.storage.CacheQuotaServiceImpl:
+        Process: android.ext.services
+        Running op count 1:
+          SOn /Norm: +31s485ms
+              TOTAL: +31s485ms
+        Bound op count 1:
+          SOn /Norm: +31s384ms
+              TOTAL: +31s384ms
+        Executing op count 2:
+          SOn /Norm: +173ms
+              TOTAL: +173ms
+  * com.android.packageinstaller / u0a21 / v27:
+      Process com.android.packageinstaller (unique, 4 entries):
+        SOn /Norm/Top    : +2s519ms
+                  Receivr: +56ms
+                  LastAct: +711ms
+                  CchEmty: +12m58s784ms (running)
+                  TOTAL  : +13m2s70ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 6.1MB 11MB 14MB / 2.7MB 3.4MB 3.9MB
+        myID=1d1fb28 mCommonProcess=1d1fb28 mPackage=com.android.packageinstaller
+        mActive=true
+  * com.jx.launcher / 1000 / v1088:
+      Process com.jx.launcher (unique, 4 entries):
+        SOn /Norm/Top    : +1m28s287ms
+                  ImpFg  : +9s451ms (running)
+                  ImpBg  : +3s771ms
+                  Service: +12m41s586ms
+                  TOTAL  : +14m23s95ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 3 samples 28MB 29MB 30MB / 17MB 19MB 20MB
+                    Service: 4 samples 27MB 32MB 38MB / 18MB 20MB 21MB
+        myID=9de5041 mCommonProcess=9de5041 mPackage=com.jx.launcher
+        mActive=true
+        mNumActiveServices=3 mNumStartedServices=2
+      Service com.zmapp.aidldemo.WatchInfoService:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +50s583ms (running)
+              TOTAL: +50s583ms
+        Bound op count 1:
+          SOn /Norm: +50s583ms (running)
+              TOTAL: +50s583ms
+        Executing op count 1:
+          SOn /Norm: +23ms
+              TOTAL: +23ms
+        mOwner=ServiceRecord{e6f2e76 u0 com.jx.launcher/com.zmapp.aidldemo.WatchInfoService}
+      Service com.jx.launcher.notification.NotificationListener:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +14m24s484ms (running)
+              TOTAL: +14m24s484ms
+        Started op count 1:
+          SOn /Norm: +14m24s484ms (running)
+              TOTAL: +14m24s484ms
+        Executing op count 2:
+          SOn /Norm: +564ms
+              TOTAL: +564ms
+        mOwner=ServiceRecord{eb85ee7 u0 com.jx.launcher/.notification.NotificationListener}
+        mStarted=true mRestarting=false
+      Service com.zmapp.aee.AEEService:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +14m24s326ms (running)
+              TOTAL: +14m24s326ms
+        Started op count 1:
+          SOn /Norm: +14m24s326ms (running)
+              TOTAL: +14m24s326ms
+        Executing op count 2:
+          SOn /Norm: +380ms
+              TOTAL: +380ms
+        mOwner=ServiceRecord{745b845 u0 com.jx.launcher/com.zmapp.aee.AEEService}
+        mStarted=true mRestarting=false
+  * com.android.carrierdefaultapp / u0a34 / v27:
+      Process com.android.carrierdefaultapp (unique, 2 entries):
+        SOn /Norm/Receivr: +173ms
+                  CchEmty: +37s940ms
+                  TOTAL  : +38s113ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.6MB 3.6MB 3.6MB / 812KB 812KB 812KB
+        myID=36229e6 mCommonProcess=36229e6 mPackage=com.android.carrierdefaultapp
+  * com.android.managedprovisioning / u0a15 / v27:
+      Process com.android.managedprovisioning (unique, 2 entries):
+        SOn /Norm/Receivr: +130ms
+                  CchEmty: +3m4s681ms
+                  TOTAL  : +3m4s811ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.3MB 4.3MB 4.3MB / 1.7MB 1.7MB 1.7MB
+        myID=7741b27 mCommonProcess=7741b27 mPackage=com.android.managedprovisioning
+  * com.divo.phone / 1000 / v27:
+      Process com.divo.phone (unique, 3 entries):
+        SOn /Norm/Top    : +1m36s547ms
+                  LastAct: +596ms
+                  CchEmty: +11m1s430ms
+                  TOTAL  : +12m38s573ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 1 samples 12MB 12MB 12MB / 5.7MB 5.7MB 5.7MB
+                    CchEmty: 2 samples 8.7MB 9.8MB 11MB / 1.1MB 2.3MB 3.5MB
+        myID=3dfa1d4 mCommonProcess=3dfa1d4 mPackage=com.divo.phone
+  * com.spreadtrum.vowifi / 1000 / v27:
+      Process com.spreadtrum.vowifi (unique, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/ImpFg  : 2 samples 11MB 12MB 13MB / 5.7MB 6.6MB 7.5MB
+        myID=77eaf7d mCommonProcess=77eaf7d mPackage=com.spreadtrum.vowifi
+        mActive=true
+        mNumActiveServices=4 mNumStartedServices=0
+      Service com.spreadtrum.vowifi.service.CallService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s272ms (running)
+              TOTAL: +14m23s272ms
+        Bound op count 1:
+          SOn /Norm: +14m23s272ms (running)
+              TOTAL: +14m23s272ms
+        Executing op count 1:
+          SOn /Norm: +836ms
+              TOTAL: +836ms
+        mOwner=ServiceRecord{259ff41 u0 com.spreadtrum.vowifi/.service.CallService}
+      Service com.spreadtrum.vowifi.service.UTService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s250ms (running)
+              TOTAL: +14m23s250ms
+        Bound op count 1:
+          SOn /Norm: +14m23s250ms (running)
+              TOTAL: +14m23s250ms
+        Executing op count 1:
+          SOn /Norm: +844ms
+              TOTAL: +844ms
+        mOwner=ServiceRecord{95dace6 u0 com.spreadtrum.vowifi/.service.UTService}
+      Service com.spreadtrum.vowifi.service.RegisterService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s248ms (running)
+              TOTAL: +14m23s248ms
+        Bound op count 1:
+          SOn /Norm: +14m23s248ms (running)
+              TOTAL: +14m23s248ms
+        Executing op count 1:
+          SOn /Norm: +846ms
+              TOTAL: +846ms
+        mOwner=ServiceRecord{774e227 u0 com.spreadtrum.vowifi/.service.RegisterService}
+      Service com.spreadtrum.vowifi.service.SecurityService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s244ms (running)
+              TOTAL: +14m23s244ms
+        Bound op count 1:
+          SOn /Norm: +14m23s244ms (running)
+              TOTAL: +14m23s244ms
+        Executing op count 1:
+          SOn /Norm: +848ms
+              TOTAL: +848ms
+        mOwner=ServiceRecord{ad65cd4 u0 com.spreadtrum.vowifi/.service.SecurityService}
+  * com.sprd.bootres / 1000 / v1:
+      Process com.sprd.bootres (unique, 2 entries):
+        SOn /Norm/Receivr: +30ms
+                  CchEmty: +12m27s973ms
+                  TOTAL  : +12m28s3ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 2.9MB 3.1MB 3.3MB / 544KB 0.93MB 1.3MB
+        myID=216fe72 mCommonProcess=216fe72 mPackage=com.sprd.bootres
+  * com.android.settings / 1000 / v27:
+      Process com.android.settings:CryptKeeper (unique, 2 entries):
+        SOn /Norm/Top    : +676ms
+                  CchEmty: +3s5ms
+                  TOTAL  : +3s681ms
+        myID=37d42c3 mCommonProcess=37d42c3 mPackage=com.android.settings
+      Process com.android.settings (unique, 5 entries):
+        SOn /Norm/Top    : +10m50s262ms
+                  Receivr: +1s421ms
+                  LastAct: +26s993ms
+                  CchAct : +21s93ms
+                  CchEmty: +2m38s646ms (running)
+                  TOTAL  : +14m18s415ms
+        PSS/USS (3 entries):
+          SOn /Norm/Top    : 7 samples 39MB 43MB 44MB / 22MB 25MB 27MB
+                    CchAct : 1 samples 46MB 46MB 46MB / 28MB 28MB 28MB
+                    CchEmty: 2 samples 21MB 29MB 37MB / 6.0MB 12MB 19MB
+        myID=c7f0740 mCommonProcess=c7f0740 mPackage=com.android.settings
+        mActive=true
+  * plugin.sprd.antitheft / 1000 / v27:
+      Process plugin.sprd.antitheft (unique, 3 entries):
+        SOn /Norm/Service: +94ms
+                  ServRst: +93ms
+                  CchEmty: +38s930ms
+                  TOTAL  : +39s117ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.7MB 3.7MB 3.7MB / 500KB 500KB 500KB
+        myID=1cbc679 mCommonProcess=1cbc679 mPackage=plugin.sprd.antitheft
+      Service plugin.sprd.antitheft.AntitheftService:
+        Process: plugin.sprd.antitheft
+        Running op count 1:
+          SOn /Norm: +191ms
+              TOTAL: +191ms
+        Started op count 1:
+          SOn /Norm: +170ms
+              TOTAL: +170ms
+        Executing op count 1:
+          SOn /Norm: +98ms
+              TOTAL: +98ms
+  * com.sprd.systemupdate / 1000 / v27:
+      Process com.sprd.systemupdate (unique, 2 entries):
+        SOn /Norm/Receivr: +101ms
+                  CchEmty: +12m55s136ms (running)
+                  TOTAL  : +12m55s237ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 3.3MB 3.4MB 3.5MB / 812KB 1.2MB 1.6MB
+        myID=4d28fbe mCommonProcess=4d28fbe mPackage=com.sprd.systemupdate
+        mActive=true
+  * com.zmapp.plugin.addfriend / u0a68 / v5:
+      Process com.zmapp.plugin.addfriend (unique, 3 entries):
+        SOn /Norm/Top    : +1s439ms
+                  ImpBg  : +1s542ms
+                  CchEmty: +1s5ms
+                  TOTAL  : +3s986ms
+        myID=67481f mCommonProcess=67481f mPackage=com.zmapp.plugin.addfriend
+        mActive=true
+  * com.android.phone / 1001 / v27:
+      Process com.android.phone (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=aed576c mCommonProcess=469e3b0 mPackage=com.android.phone
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+        mActive=true
+  * com.sprd.ImsConnectionManager / 1001 / v27:
+      Process com.android.phone (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=1395135 mCommonProcess=469e3b0 mPackage=com.sprd.ImsConnectionManager
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+        mActive=true
+  * com.android.providers.blockednumber / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=23e9ca mCommonProcess=7468799 mPackage=com.android.providers.blockednumber
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+  * com.android.providers.userdictionary / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=cc2473b mCommonProcess=7468799 mPackage=com.android.providers.userdictionary
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+  * com.yingyonghui.market / u0a76 / v30064263:
+      Process com.yingyonghui.market:pushservice (unique, 1 entries):
+        SOn /Norm/ServRst: +53ms
+                  TOTAL  : +53ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 1 samples 7.7MB 7.7MB 7.7MB / 1.6MB 1.6MB 1.6MB
+        myID=30e7e58 mCommonProcess=30e7e58 mPackage=com.yingyonghui.market
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=1
+      Process com.yingyonghui.market (unique, 3 entries):
+        SOn /Norm/Top    : +14s391ms
+                  ImpBg  : +128ms
+                  Service: +4s712ms (running)
+                  TOTAL  : +19s231ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 1 samples 9.7MB 9.7MB 9.7MB / 6.7MB 6.7MB 6.7MB
+                    Service: 1 samples 23MB 23MB 23MB / 4.6MB 4.6MB 4.6MB
+        myID=7bacbb1 mCommonProcess=7bacbb1 mPackage=com.yingyonghui.market
+        mActive=true
+      Service com.yingyonghui.market.feature.push.GetuiIntentService:
+        Process: com.yingyonghui.market
+        Running op count 2:
+          SOn /Norm: +30s50ms
+              TOTAL: +30s50ms
+        Started op count 1:
+          SOn /Norm: +30s42ms
+              TOTAL: +30s42ms
+        Executing op count 2:
+          SOn /Norm: +46ms
+              TOTAL: +46ms
+      Service com.igexin.sdk.PushService:
+        Process: com.yingyonghui.market:pushservice
+        Running op count 1:
+          SOn /Norm: +37s411ms (running)
+              TOTAL: +37s411ms
+        Started op count 1:
+          SOn /Norm: +37s411ms (running)
+              TOTAL: +37s411ms
+        Executing op count 2:
+          SOn /Norm: +184ms
+              TOTAL: +184ms
+        mOwner=ServiceRecord{9e4cb28 u0 com.yingyonghui.market/com.igexin.sdk.PushService}
+        mStarted=true mRestarting=false
+  * com.android.location.fused / 1000 / v27:
+      Process system (multi, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=7ed896 mCommonProcess=49ff5b mPackage=com.android.location.fused
+        Common Proc: system/1000 pkg=android
+        mActive=true
+        mNumActiveServices=1 mNumStartedServices=0
+      Service com.android.location.fused.FusedLocationService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m28s980ms (running)
+              TOTAL: +14m28s980ms
+        Bound op count 1:
+          SOn /Norm: +14m28s980ms (running)
+              TOTAL: +14m28s980ms
+        Executing op count 1:
+          SOn /Norm: +1s64ms
+              TOTAL: +1s64ms
+        mOwner=ServiceRecord{343d1e7 u0 com.android.location.fused/.FusedLocationService}
+  * com.android.deskclock / 1000 / v7:
+      Process com.android.deskclock (unique, 2 entries):
+        SOn /Norm/Receivr: +497ms
+                  CchEmty: +6m39s390ms (running)
+                  TOTAL  : +6m39s887ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 6.2MB 6.3MB 6.4MB / 3.1MB 3.3MB 3.5MB
+        myID=6041c17 mCommonProcess=6041c17 mPackage=com.android.deskclock
+        mActive=true
+  * com.android.systemui / u0a22 / v27:
+      Process com.android.systemui:screenshot (unique, 3 entries):
+        SOn /Norm/ImpFg  : +3s682ms
+                  Service: +38ms
+                  CchEmty: +33s353ms (running)
+                  TOTAL  : +37s73ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 4.8MB 4.8MB 4.8MB
+        myID=1192804 mCommonProcess=1192804 mPackage=com.android.systemui
+        mActive=true
+      Process com.android.systemui (unique, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 39MB 44MB 49MB / 22MB 27MB 33MB
+        myID=8ff71ed mCommonProcess=8ff71ed mPackage=com.android.systemui
+        mActive=true
+  * com.android.modemnotifier / u0a66 / v1:
+      Process com.android.modemnotifier (unique, 0 entries):
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 3.0MB 3.2MB 3.3MB / 536KB 0.95MB 1.4MB
+        myID=3c7e822 mCommonProcess=3c7e822 mPackage=com.android.modemnotifier
+        mActive=true
+  * com.android.bluetooth / 1002 / v27:
+      Process com.android.bluetooth (unique, 2 entries):
+        SOn /Norm/ImpFg  : +2s175ms
+                  Service: +1s100ms
+                  TOTAL  : +3s275ms
+        myID=12462b3 mCommonProcess=12462b3 mPackage=com.android.bluetooth
+      Service com.android.bluetooth.btservice.AdapterService:
+        Process: com.android.bluetooth
+        Running op count 1:
+          SOn /Norm: +3s326ms
+              TOTAL: +3s326ms
+        Bound op count 1:
+          SOn /Norm: +2s228ms
+              TOTAL: +2s228ms
+        Executing op count 2:
+          SOn /Norm: +1s828ms
+              TOTAL: +1s828ms
+  * com.android.providers.contacts / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=c02c070 mCommonProcess=7468799 mPackage=com.android.providers.contacts
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+
+  Total procs: 0 shown of 51 total
+
+Summary:
+  * system / 1000 / v27:
+           TOTAL: 100% (73MB-73MB-73MB/58MB-59MB-61MB over 2)
+      Persistent: 100% (73MB-73MB-73MB/58MB-59MB-61MB over 2)
+  * com.android.phone / 1001 / v27:
+           TOTAL: 97% (20MB-22MB-25MB/13MB-16MB-19MB over 2)
+      Persistent: 97% (20MB-22MB-25MB/13MB-16MB-19MB over 2)
+  * com.android.systemui / u0a22 / v27:
+           TOTAL: 97% (39MB-44MB-49MB/22MB-27MB-33MB over 2)
+      Persistent: 97% (39MB-44MB-49MB/22MB-27MB-33MB over 2)
+  * com.sprd.applock / 1000 / v27:
+           TOTAL: 96% (3.6MB-3.8MB-4.1MB/1.4MB-1.6MB-1.8MB over 2)
+      Persistent: 96% (3.6MB-3.8MB-4.1MB/1.4MB-1.6MB-1.8MB over 2)
+  * com.spreadtrum.vce / 1000 / v27:
+           TOTAL: 96% (6.8MB-7.0MB-7.3MB/680KB-1.8MB-2.9MB over 2)
+      Persistent: 96% (6.8MB-7.0MB-7.3MB/680KB-1.8MB-2.9MB over 2)
+  * com.android.modemnotifier / u0a66 / v1:
+           TOTAL: 96% (3.0MB-3.2MB-3.3MB/536KB-0.95MB-1.4MB over 2)
+      Persistent: 96% (3.0MB-3.2MB-3.3MB/536KB-0.95MB-1.4MB over 2)
+  * com.jx.launcher / 1000 / v1088:
+           TOTAL: 96% (27MB-31MB-38MB/17MB-19MB-21MB over 7)
+             Top: 9.8% (28MB-29MB-30MB/17MB-19MB-20MB over 3)
+          Imp Fg: 1.3%
+          Imp Bg: 0.42%
+         Service: 85% (27MB-32MB-38MB/18MB-20MB-21MB over 4)
+  * com.spreadtrum.vowifi / 1000 / v27:
+           TOTAL: 96% (11MB-12MB-13MB/5.7MB-6.6MB-7.5MB over 2)
+          Imp Fg: 96% (11MB-12MB-13MB/5.7MB-6.6MB-7.5MB over 2)
+  * com.abupdate.fota_demo_iot / 1000 / v20:
+           TOTAL: 96% (12MB-12MB-13MB/6.0MB-6.9MB-7.8MB over 3)
+          Imp Bg: 3.4%
+         Service: 92% (12MB-12MB-13MB/6.0MB-6.9MB-7.8MB over 3)
+        Receiver: 0.05%
+        (Cached): 0.48%
+  * com.jx.inputmethod.pinyin / u0a72 / v21:
+           TOTAL: 94% (7.7MB-12MB-16MB/4.3MB-7.8MB-11MB over 2)
+          Imp Fg: 0.11%
+          Imp Bg: 94% (7.7MB-12MB-16MB/4.3MB-7.8MB-11MB over 2)
+         Service: 0.01%
+        (Cached): 1.6%
+  * android.process.media / u0a9 / v27:
+           TOTAL: 93% (11MB-12MB-15MB/4.9MB-6.2MB-8.8MB over 3)
+          Imp Fg: 0.03%
+         Service: 92% (11MB-12MB-15MB/4.9MB-6.2MB-8.8MB over 3)
+        Receiver: 0.15%
+      (Last Act): 2.5%
+        (Cached): 1.1% (12MB-12MB-12MB/5.9MB-5.9MB-5.9MB over 1)
+  * com.android.settings / 1000 / v27:
+           TOTAL: 73% (39MB-43MB-44MB/22MB-25MB-27MB over 7)
+             Top: 72% (39MB-43MB-44MB/22MB-25MB-27MB over 7)
+        Receiver: 0.16%
+      (Last Act): 3.0%
+        (Cached): 21% (21MB-35MB-46MB/6.0MB-18MB-28MB over 3)
+  * com.divo.phone / 1000 / v27:
+           TOTAL: 11% (12MB-12MB-12MB/5.7MB-5.7MB-5.7MB over 1)
+             Top: 11% (12MB-12MB-12MB/5.7MB-5.7MB-5.7MB over 1)
+      (Last Act): 0.07%
+        (Cached): 74% (8.7MB-9.8MB-11MB/1.1MB-2.3MB-3.5MB over 2)
+  * com.jx.childlike / u0a74 / v24:
+           TOTAL: 5.3% (16MB-16MB-16MB/5.5MB-7.2MB-8.9MB over 2)
+             Top: 0.62%
+          Imp Bg: 0.20%
+         Service: 4.5% (16MB-16MB-16MB/5.5MB-7.2MB-8.9MB over 2)
+      (Last Act): 0.33%
+  * com.yingyonghui.market / u0a76 / v30064263:
+           TOTAL: 4.6% (9.7MB-17MB-23MB/4.6MB-5.6MB-6.7MB over 2)
+             Top: 1.6% (9.7MB-9.7MB-9.7MB/6.7MB-6.7MB-6.7MB over 1)
+          Imp Bg: 0.01%
+         Service: 3.0% (23MB-23MB-23MB/4.6MB-4.6MB-4.6MB over 1)
+  * com.yingyonghui.market:pushservice / u0a76 / v30064263:
+           TOTAL: 4.2% (7.7MB-7.7MB-7.7MB/1.6MB-1.6MB-1.6MB over 1)
+         Service: 4.2% (7.7MB-7.7MB-7.7MB/1.6MB-1.6MB-1.6MB over 1)
+      Service Rs: 0.01%
+  * com.android.calendar / u0a61 / v27:
+           TOTAL: 3.4% (7.8MB-7.8MB-7.8MB/5.0MB-5.0MB-5.0MB over 1)
+         Service: 3.3% (7.8MB-7.8MB-7.8MB/5.0MB-5.0MB-5.0MB over 1)
+        Receiver: 0.03%
+        (Cached): 89% (7.8MB-7.9MB-7.9MB/4.2MB-4.3MB-4.4MB over 2)
+  * com.example.demo1 / u0a81 / v1:
+           TOTAL: 2.8% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+             Top: 0.30%
+          Imp Bg: 0.02%
+         Service: 2.4% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+      (Last Act): 1.2%
+  * com.sohu.inputmethod.sogou / u0a78 / v1352:
+           TOTAL: 2.1%
+          Imp Fg: 0.40%
+          Imp Bg: 1.7%
+  * com.tencent.mm / u0a80 / v2040:
+           TOTAL: 1.9%
+             Top: 1.8%
+          Imp Fg: 0.11%
+      (Last Act): 1.1%
+  * com.sohu.inputmethod.sogou:daemon / u0a78 / v1352:
+           TOTAL: 1.7%
+         Service: 1.7%
+      Service Rs: 0.02%
+  * com.android.defcontainer / u0a5 / v27:
+           TOTAL: 1.1%
+          Imp Fg: 1.1%
+        (Cached): 4.7% (3.3MB-4.1MB-4.9MB/524KB-566KB-608KB over 2)
+  * com.tencent.mm:push / u0a80 / v2040:
+           TOTAL: 1.0%
+          Imp Fg: 1.0%
+        Receiver: 0.01%
+      (Last Act): 0.88%
+  * com.zmapp.chat / u0a77 / v35:
+           TOTAL: 0.85%
+             Top: 0.51%
+         Service: 0.34%
+      (Last Act): 0.11%
+  * com.zmapp.plugin.addfriend / u0a68 / v5:
+           TOTAL: 0.50%
+             Top: 0.16%
+          Imp Bg: 0.17%
+         Service: 0.17%
+        (Cached): 0.11%
+  * com.android.systemui:screenshot / u0a22 / v27:
+           TOTAL: 0.41%
+          Imp Fg: 0.41%
+        (Cached): 4.8% (12MB-12MB-12MB/4.8MB-4.8MB-4.8MB over 1)
+  * com.ztapp.callbyvideo / u0a65 / v121:
+           TOTAL: 0.37%
+             Top: 0.25%
+          Imp Bg: 0.12%
+      (Last Act): 0.01%
+        (Cached): 2.9% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+  * com.android.bluetooth / 1002 / v27:
+           TOTAL: 0.36%
+          Imp Fg: 0.24%
+         Service: 0.12%
+  * com.sprd.engineermode / 1000 / v1:
+           TOTAL: 0.34%
+          Imp Bg: 0.08%
+        Receiver: 0.26%
+        (Cached): 90% (9.0MB-9.5MB-9.8MB/5.6MB-6.2MB-6.5MB over 3)
+  * com.android.packageinstaller / u0a21 / v27:
+           TOTAL: 0.29%
+             Top: 0.28%
+        Receiver: 0.01%
+      (Last Act): 0.08%
+        (Cached): 92% (6.1MB-11MB-14MB/2.7MB-3.4MB-3.9MB over 3)
+  * android.process.acore / u0a2 / v27:
+           TOTAL: 0.25%
+          Imp Fg: 0.22%
+        Receiver: 0.03%
+      (Last Act): 4.1%
+        (Cached): 89% (15MB-16MB-17MB/7.0MB-8.2MB-9.4MB over 2)
+  * com.zmapp.sms / 1000 / v101:
+           TOTAL: 0.19%
+             Top: 0.19%
+      (Last Act): 0.62% (13MB-13MB-13MB/8.7MB-8.7MB-8.7MB over 1)
+        (Cached): 4.1% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+  * com.android.provision / u0a16 / v27:
+           TOTAL: 0.18%
+             Top: 0.18%
+        (Cached): 4.3% (4.5MB-4.5MB-4.5MB/572KB-572KB-572KB over 1)
+  * com.android.settings:CryptKeeper / 1000 / v27:
+           TOTAL: 0.08%
+             Top: 0.08%
+        (Cached): 0.33%
+  * com.android.carrierconfig / u0a4 / v1:
+           TOTAL: 0.07%
+          Imp Fg: 0.06%
+         Service: 0.01%
+        (Cached): 94% (3.2MB-3.4MB-3.5MB/532KB-658KB-844KB over 3)
+  * com.android.providers.calendar / u0a19 / v27:
+           TOTAL: 0.06%
+          Imp Fg: 0.02%
+         Service: 0.01%
+        Receiver: 0.03%
+      (Last Act): 15%
+        (Cached): 79% (4.9MB-4.9MB-4.9MB/1.4MB-1.4MB-1.4MB over 1)
+  * com.android.deskclock / 1000 / v7:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+        (Cached): 92% (6.2MB-6.3MB-6.4MB/3.1MB-3.3MB-3.5MB over 2)
+  * com.android.dialer / u0a2 / v150000:
+           TOTAL: 0.05%
+          Imp Bg: 0.01%
+        Receiver: 0.04%
+        (Cached): 94% (9.4MB-9.6MB-10MB/4.3MB-4.8MB-5.0MB over 3)
+  * com.android.gallery3d / u0a20 / v40030:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 17% (12MB-12MB-12MB/8.7MB-8.7MB-8.7MB over 1)
+  * android.ext.services / u0a7 / v1:
+           TOTAL: 0.04%
+          Imp Fg: 0.03%
+         Service: 0.01%
+        (Cached): 0.07%
+  * com.android.messaging / u0a50 / v1000210:
+           TOTAL: 0.04%
+          Imp Fg: 0.01%
+         Service: 0.03%
+      (Last Act): 2.2%
+        (Cached): 87% (12MB-12MB-12MB/8.3MB-8.3MB-8.3MB over 1)
+  * com.android.cellbroadcastreceiver / u0a6 / v27:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 92% (3.8MB-4.4MB-5.1MB/1.1MB-1.6MB-2.0MB over 3)
+  * plugin.sprd.antitheft / 1000 / v27:
+           TOTAL: 0.02%
+         Service: 0.01%
+      Service Rs: 0.01%
+        (Cached): 4.3% (3.7MB-3.7MB-3.7MB/500KB-500KB-500KB over 1)
+  * com.android.carrierdefaultapp / u0a34 / v27:
+           TOTAL: 0.02%
+        Receiver: 0.02%
+        (Cached): 4.2% (3.6MB-3.6MB-3.6MB/812KB-812KB-812KB over 1)
+  * com.android.keychain / 1000 / v27:
+           TOTAL: 0.02%
+          Imp Fg: 0.02%
+        (Cached): 11% (3.5MB-3.5MB-3.5MB/656KB-656KB-656KB over 1)
+  * com.android.managedprovisioning / u0a15 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 21% (4.3MB-4.3MB-4.3MB/1.7MB-1.7MB-1.7MB over 1)
+  * com.sprd.systemupdate / 1000 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 92% (3.3MB-3.4MB-3.5MB/812KB-1.2MB-1.6MB over 2)
+  * com.android.onetimeinitializer / u0a14 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 90% (2.9MB-3.2MB-3.4MB/396KB-742KB-1.1MB over 2)
+  * com.android.soundrecorder / u0a43 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 90% (5.0MB-5.2MB-5.5MB/2.5MB-3.0MB-3.5MB over 2)
+  * com.sprd.aganisttest / 1000 / v1:
+        (Cached): 7.3% (3.2MB-3.2MB-3.2MB/1.0MB-1.0MB-1.0MB over 1)
+  * com.sprd.bootres / 1000 / v1:
+        (Cached): 83% (2.9MB-3.1MB-3.3MB/544KB-0.93MB-1.3MB over 2)
+
+Run time Stats:
+  SOn /Norm: +14m57s762ms (running)
+      TOTAL: +14m57s762ms
+
+Memory usage:
+  Kernel : 64MB (16 samples)
+  Native : 142MB (16 samples)
+  Top    : 35MB (20 samples)
+  ImpFg  : 477KB (17 samples)
+  ImpBg  : 12MB (20 samples)
+  Service: 52MB (36 samples)
+  Receivr: 132KB (60 samples)
+  LastAct: 3.2MB (22 samples)
+  CchAct : 1.7MB (6 samples)
+  CchEmty: 107MB (47 samples)
+  Cached : 262MB (16 samples)
+  Free   : 36MB (16 samples)
+  Z-Ram  : 27MB (16 samples)
+  TOTAL  : 743MB
+  ServRst: 405 (2 samples)
+
+          Start time: 2019-01-01 08:06:27
+  Total elapsed time: +15m27s353ms (partial) (swapped-out-pss) libart.so
+
+Internal state:
+  mRunning=true
+
+Available pages by page size:
+Zone   0       Unmovable      0     0     0     0     1     0     1     1     0     1     8
+Zone   0         Movable      0     1     1     1     0     0     1     1     0     1    53
+Zone   0     Reclaimable      1     0     1     0     0     0     3     4     1     1     0
+Zone   0      HighAtomic      0     0     0     0     0     0     0     0     0     0     0
+Zone   0          Detour      0     0     0     0     0     0     0     0     0     0     4
+Zone   0       Unmovable      0     0     1     1     1     1     0     0     1     1     0
+Zone   0         Movable      0     1     0     0     0     1     0     1     0     1    51
+Zone   0     Reclaimable      0     0     0     0     0     0     0     0     0     0     0
+Zone   0      HighAtomic      0     0     0     0     0     0     0     0     0     0     0
+Zone   0          Detour      0     0     0     0     0     0     0     0     0     0     0
+  mFile=/data/system/procstats/state-2019-01-01-00-06-27.bin
+
+AGGREGATED OVER LAST 24 HOURS:
+System memory usage:
+  SOn /Norm: 2 samples:
+    Cached: 152MB min, 262MB avg, 372MB max
+    Free: 35MB min, 36MB avg, 37MB max
+    ZRam: 15MB min, 27MB avg, 40MB max
+    Kernel: 51MB min, 64MB avg, 78MB max
+    Native: 108MB min, 142MB avg, 177MB max
+
+Per-Package Stats:
+  * com.abupdate.fota_demo_iot / 1000 / v20:
+      Process com.abupdate.fota_demo_iot (unique, 4 entries):
+        SOn /Norm/ImpBg  : +30s204ms
+                  Service: +13m50s43ms
+                  Receivr: +488ms
+                  CchEmty: +4s306ms
+                  TOTAL  : +14m25s41ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 3 samples 12MB 12MB 13MB / 6.0MB 6.9MB 7.8MB
+        myID=a6e3fe9 mCommonProcess=a6e3fe9 mPackage=com.abupdate.fota_demo_iot
+      Service com.abupdate.iot_libs.service.ClientTrigger:
+        Process: com.abupdate.fota_demo_iot
+        Running op count 1:
+          SOn /Norm: +14m20s215ms
+              TOTAL: +14m20s215ms
+        Started op count 1:
+          SOn /Norm: +14m20s215ms
+              TOTAL: +14m20s215ms
+        Executing op count 1:
+          SOn /Norm: +58ms
+              TOTAL: +58ms
+      Service com.abupdate.iot_libs.service.JobSchedulerService:
+        Process: com.abupdate.fota_demo_iot
+        Running op count 1:
+          SOn /Norm: +14m20s247ms
+              TOTAL: +14m20s247ms
+        Started op count 1:
+          SOn /Norm: +14m20s247ms
+              TOTAL: +14m20s247ms
+        Bound op count 1:
+          SOn /Norm: +30s204ms
+              TOTAL: +30s204ms
+        Executing op count 3:
+          SOn /Norm: +63ms
+              TOTAL: +63ms
+  * com.android.providers.telephony / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m30s285ms
+                  TOTAL  : +14m30s285ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=fa0646e mCommonProcess=f8770f mPackage=com.android.providers.telephony
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+  * com.sprd.engineermode / 1000 / v1:
+      Process com.sprd.engineermode (unique, 3 entries):
+        SOn /Norm/ImpBg  : +717ms
+                  Receivr: +2s296ms
+                  CchEmty: +13m28s809ms
+                  TOTAL  : +13m31s822ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 9.0MB 9.5MB 9.8MB / 5.6MB 6.2MB 6.5MB
+        myID=2ab739c mCommonProcess=2ab739c mPackage=com.sprd.engineermode
+  * com.android.providers.calendar / u0a19 / v27:
+      Process com.android.providers.calendar (unique, 5 entries):
+        SOn /Norm/ImpFg  : +166ms
+                  Service: +85ms
+                  Receivr: +299ms
+                  LastAct: +2m18s889ms
+                  CchEmty: +11m48s105ms
+                  TOTAL  : +14m7s544ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.9MB 4.9MB 4.9MB / 1.4MB 1.4MB 1.4MB
+        myID=6e1f1a5 mCommonProcess=6e1f1a5 mPackage=com.android.providers.calendar
+  * com.android.providers.media / u0a9 / v801:
+      Process android.process.media (multi, 5 entries):
+        SOn /Norm/ImpFg  : +251ms
+                  Service: +13m50s91ms
+                  Receivr: +1s322ms
+                  LastAct: +22s458ms
+                  CchEmty: +10s20ms
+                  TOTAL  : +14m24s142ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 3 samples 11MB 12MB 15MB / 4.9MB 6.2MB 8.8MB
+                    CchEmty: 1 samples 12MB 12MB 12MB / 5.9MB 5.9MB 5.9MB
+        myID=72597a mCommonProcess=64f752b mPackage=com.android.providers.media
+        Common Proc: android.process.media/10009 pkg=com.android.providers.downloads
+      Service com.android.providers.media.MtpService:
+        Process: android.process.media
+        Running op count 1:
+          SOn /Norm: +13m47s678ms
+              TOTAL: +13m47s678ms
+        Started op count 1:
+          SOn /Norm: +13m47s675ms
+              TOTAL: +13m47s675ms
+        Bound op count 1:
+          SOn /Norm: +13m47s678ms
+              TOTAL: +13m47s678ms
+        Executing op count 2:
+          SOn /Norm: +50ms
+              TOTAL: +50ms
+      Service com.android.providers.media.MediaScannerService:
+        Process: android.process.media
+        Running op count 4:
+          SOn /Norm: +2s649ms
+              TOTAL: +2s649ms
+        Started op count 2:
+          SOn /Norm: +2s621ms
+              TOTAL: +2s621ms
+        Executing op count 4:
+          SOn /Norm: +338ms
+              TOTAL: +338ms
+  * com.zmapp.sms / 1000 / v101:
+      Process com.zmapp.sms (unique, 3 entries):
+        SOn /Norm/Top    : +1s706ms
+                  LastAct: +5s525ms
+                  CchAct : +36s565ms
+                  TOTAL  : +43s796ms
+        PSS/USS (2 entries):
+          SOn /Norm/LastAct: 1 samples 13MB 13MB 13MB / 8.7MB 8.7MB 8.7MB
+                    CchAct : 1 samples 12MB 12MB 12MB / 1.3MB 1.3MB 1.3MB
+        myID=fca2d88 mCommonProcess=fca2d88 mPackage=com.zmapp.sms
+  * com.sohu.inputmethod.sogou / u0a78 / v1352:
+      Process com.sohu.inputmethod.sogou:daemon (unique, 2 entries):
+        SOn /Norm/Service: +15s492ms
+                  ServRst: +151ms
+                  TOTAL  : +15s643ms
+        myID=2250321 mCommonProcess=2250321 mPackage=com.sohu.inputmethod.sogou
+      Process com.sohu.inputmethod.sogou (unique, 3 entries):
+        SOn /Norm/ImpFg  : +3s556ms
+                  ImpBg  : +15s126ms
+                  Receivr: +6ms
+                  TOTAL  : +18s688ms
+        myID=d3c9346 mCommonProcess=d3c9346 mPackage=com.sohu.inputmethod.sogou
+      Service com.sogou.daemon.DaemonService:
+        Process: com.sohu.inputmethod.sogou:daemon
+        Running op count 1:
+          SOn /Norm: +15s643ms
+              TOTAL: +15s643ms
+        Started op count 1:
+          SOn /Norm: +15s643ms
+              TOTAL: +15s643ms
+        Executing op count 2:
+          SOn /Norm: +848ms
+              TOTAL: +848ms
+      Service com.sohu.inputmethod.sogou.SogouIME:
+        Process: com.sohu.inputmethod.sogou
+        Running op count 2:
+          SOn /Norm: +18s850ms
+              TOTAL: +18s850ms
+        Started op count 1:
+          SOn /Norm: +127ms
+              TOTAL: +127ms
+        Bound op count 2:
+          SOn /Norm: +18s845ms
+              TOTAL: +18s845ms
+        Executing op count 3:
+          SOn /Norm: +4s175ms
+              TOTAL: +4s175ms
+  * com.zmapp.chat / u0a77 / v35:
+      Process com.zmapp.chat (unique, 3 entries):
+        SOn /Norm/Top    : +4s605ms
+                  Service: +3s161ms
+                  LastAct: +1s10ms
+                  TOTAL  : +8s776ms
+        myID=5ce3907 mCommonProcess=5ce3907 mPackage=com.zmapp.chat
+  * com.android.mms.service / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m5s720ms
+                  TOTAL  : +14m5s720ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=989a34 mCommonProcess=f8770f mPackage=com.android.mms.service
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+      Service com.android.mms.service.MmsService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m5s720ms
+              TOTAL: +14m5s720ms
+        Bound op count 1:
+          SOn /Norm: +14m5s720ms
+              TOTAL: +14m5s720ms
+        Executing op count 1:
+          SOn /Norm: +29ms
+              TOTAL: +29ms
+  * com.android.providers.downloads / u0a9 / v27:
+      Process android.process.media (multi, 5 entries):
+        SOn /Norm/ImpFg  : +251ms
+                  Service: +13m50s91ms
+                  Receivr: +1s322ms
+                  LastAct: +22s458ms
+                  CchEmty: +10s20ms
+                  TOTAL  : +14m24s142ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 3 samples 11MB 12MB 15MB / 4.9MB 6.2MB 8.8MB
+                    CchEmty: 1 samples 12MB 12MB 12MB / 5.9MB 5.9MB 5.9MB
+        myID=82db05d mCommonProcess=64f752b mPackage=com.android.providers.downloads
+        Common Proc: android.process.media/10009 pkg=com.android.providers.downloads
+  * com.android.messaging / u0a50 / v1000210:
+      Process com.android.messaging (unique, 5 entries):
+        SOn /Norm/ImpFg  : +86ms
+                  Service: +238ms
+                  Receivr: +4ms
+                  LastAct: +20s100ms
+                  CchEmty: +13m3s406ms
+                  TOTAL  : +13m23s834ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 8.3MB 8.3MB 8.3MB
+        myID=c1e9dd2 mCommonProcess=c1e9dd2 mPackage=com.android.messaging
+      Service com.android.messaging.datamodel.action.BackgroundWorkerService:
+        Process: com.android.messaging
+        Running op count 2:
+          SOn /Norm: +60ms
+              TOTAL: +60ms
+        Started op count 1:
+          SOn /Norm: +54ms
+              TOTAL: +54ms
+        Executing op count 2:
+          SOn /Norm: +13ms
+              TOTAL: +13ms
+      Service com.android.messaging.datamodel.action.ActionServiceImpl:
+        Process: com.android.messaging
+        Running op count 6:
+          SOn /Norm: +218ms
+              TOTAL: +218ms
+        Started op count 3:
+          SOn /Norm: +196ms
+              TOTAL: +196ms
+        Executing op count 6:
+          SOn /Norm: +114ms
+              TOTAL: +114ms
+  * com.android.sprd.telephony.server / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m24s976ms
+                  TOTAL  : +14m24s976ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=f8b5ea3 mCommonProcess=f8770f mPackage=com.android.sprd.telephony.server
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+      Service com.android.sprd.telephony.RadioInteractorService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m24s976ms
+              TOTAL: +14m24s976ms
+        Bound op count 1:
+          SOn /Norm: +14m24s976ms
+              TOTAL: +14m24s976ms
+        Executing op count 1:
+          SOn /Norm: +1s20ms
+              TOTAL: +1s20ms
+  * com.jx.inputmethod.pinyin / u0a72 / v21:
+      Process com.jx.inputmethod.pinyin (unique, 4 entries):
+        SOn /Norm/ImpFg  : +987ms
+                  ImpBg  : +14m3s819ms
+                  Service: +99ms
+                  CchAct : +14s744ms
+                  TOTAL  : +14m19s649ms
+        PSS/USS (1 entries):
+          SOn /Norm/ImpBg  : 2 samples 7.7MB 12MB 16MB / 4.3MB 7.8MB 11MB
+        myID=a3f25a0 mCommonProcess=a3f25a0 mPackage=com.jx.inputmethod.pinyin
+      Service com.jx.inputmethod.pinyin.PinyinDecoderService:
+        Process: com.jx.inputmethod.pinyin
+        Running op count 1:
+          SOn /Norm: +14m4s724ms
+              TOTAL: +14m4s724ms
+        Bound op count 1:
+          SOn /Norm: +14m4s671ms
+              TOTAL: +14m4s671ms
+        Executing op count 2:
+          SOn /Norm: +144ms
+              TOTAL: +144ms
+      Service com.jx.inputmethod.pinyin.PinyinIME:
+        Process: com.jx.inputmethod.pinyin
+        Running op count 1:
+          SOn /Norm: +14m4s960ms
+              TOTAL: +14m4s960ms
+        Bound op count 1:
+          SOn /Norm: +14m4s865ms
+              TOTAL: +14m4s865ms
+        Executing op count 2:
+          SOn /Norm: +328ms
+              TOTAL: +328ms
+  * com.sprd.aganisttest / 1000 / v1:
+      Process com.sprd.aganisttest (unique, 2 entries):
+        SOn /Norm/Receivr: +37ms
+                  CchEmty: +1m5s467ms
+                  TOTAL  : +1m5s504ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.2MB 3.2MB 3.2MB / 1.0MB 1.0MB 1.0MB
+        myID=419f559 mCommonProcess=419f559 mPackage=com.sprd.aganisttest
+  * com.android.soundrecorder / u0a43 / v27:
+      Process com.android.soundrecorder (unique, 2 entries):
+        SOn /Norm/Receivr: +56ms
+                  CchEmty: +13m27s561ms
+                  TOTAL  : +13m27s617ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 5.0MB 5.2MB 5.5MB / 2.5MB 3.0MB 3.5MB
+        myID=3a4c51e mCommonProcess=3a4c51e mPackage=com.android.soundrecorder
+  * plugin.sprd.contactsdefaultcontact / u0a2 / v1:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +30ms
+                  Service: +3ms
+                  Receivr: +63ms
+                  LastAct: +316ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m20s587ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=46b41ff mCommonProcess=a00fbcc mPackage=plugin.sprd.contactsdefaultcontact
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+      Service plugin.sprd.contactsdefaultcontact.PreDefineContactsService:
+        Process: android.process.acore
+        Running op count 2:
+          SOn /Norm: +33ms
+              TOTAL: +33ms
+        Started op count 1:
+          SOn /Norm: +29ms
+              TOTAL: +29ms
+        Executing op count 2:
+          SOn /Norm: +13ms
+              TOTAL: +13ms
+  * com.android.defcontainer / u0a5 / v27:
+      Process com.android.defcontainer (unique, 3 entries):
+        SOn /Norm/ImpFg  : +10s149ms
+                  Service: +8ms
+                  CchEmty: +42s42ms
+                  TOTAL  : +52s199ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 3.3MB 4.1MB 4.9MB / 524KB 566KB 608KB
+        myID=aeb8e15 mCommonProcess=aeb8e15 mPackage=com.android.defcontainer
+      Service com.android.defcontainer.DefaultContainerService:
+        Process: com.android.defcontainer
+        Running op count 1:
+          SOn /Norm: +10s197ms
+              TOTAL: +10s197ms
+        Bound op count 1:
+          SOn /Norm: +10s192ms
+              TOTAL: +10s192ms
+        Executing op count 2:
+          SOn /Norm: +95ms
+              TOTAL: +95ms
+  * com.tencent.mm / u0a80 / v2040:
+      Process com.tencent.mm:push (unique, 3 entries):
+        SOn /Norm/ImpFg  : +9s333ms
+                  Receivr: +62ms
+                  LastAct: +8s69ms
+                  TOTAL  : +17s464ms
+        myID=4d4152a mCommonProcess=4d4152a mPackage=com.tencent.mm
+      Process com.tencent.mm (unique, 4 entries):
+        SOn /Norm/Top    : +16s22ms
+                  ImpFg  : +961ms
+                  Receivr: +43ms
+                  LastAct: +9s806ms
+                  TOTAL  : +26s832ms
+        myID=53bff1b mCommonProcess=53bff1b mPackage=com.tencent.mm
+      Service com.tencent.mm.ipcinvoker.wx_extension.service.MainProcessIPCService:
+        Process: com.tencent.mm
+        Running op count 1:
+          SOn /Norm: +13s641ms
+              TOTAL: +13s641ms
+        Bound op count 1:
+          SOn /Norm: +13s641ms
+              TOTAL: +13s641ms
+        Executing op count 1:
+          SOn /Norm: +497ms
+              TOTAL: +497ms
+      Service com.tencent.mm.booter.CoreService:
+        Process: com.tencent.mm:push
+        Running op count 1:
+          SOn /Norm: +17s696ms
+              TOTAL: +17s696ms
+        Bound op count 1:
+          SOn /Norm: +17s696ms
+              TOTAL: +17s696ms
+        Executing op count 1:
+          SOn /Norm: +9s317ms
+              TOTAL: +9s317ms
+      Service com.tencent.mm.service.ProcessService$MMProcessService:
+        Process: com.tencent.mm
+        Running op count 1:
+          SOn /Norm: +23s677ms
+              TOTAL: +23s677ms
+        Bound op count 1:
+          SOn /Norm: +23s677ms
+              TOTAL: +23s677ms
+        Executing op count 1:
+          SOn /Norm: +2s454ms
+              TOTAL: +2s454ms
+  * com.android.carrierconfig / u0a4 / v1:
+      Process com.android.carrierconfig (unique, 3 entries):
+        SOn /Norm/ImpFg  : +569ms
+                  Service: +67ms
+                  CchEmty: +14m6s984ms
+                  TOTAL  : +14m7s620ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 3.2MB 3.4MB 3.5MB / 532KB 658KB 844KB
+        myID=c2808b8 mCommonProcess=c2808b8 mPackage=com.android.carrierconfig
+      Service com.android.carrierconfig.DefaultCarrierConfigServiceEx:
+        Process: com.android.carrierconfig
+        Running op count 4:
+          SOn /Norm: +738ms
+              TOTAL: +738ms
+        Bound op count 4:
+          SOn /Norm: +673ms
+              TOTAL: +673ms
+        Executing op count 8:
+          SOn /Norm: +222ms
+              TOTAL: +222ms
+  * android / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m57s363ms
+                  TOTAL  : +14m57s363ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=603f691 mCommonProcess=9f659f6 mPackage=android
+        Common Proc: system/1000 pkg=android
+  * com.android.provision / u0a16 / v27:
+      Process com.android.provision (unique, 2 entries):
+        SOn /Norm/Top    : +1s582ms
+                  CchEmty: +38s992ms
+                  TOTAL  : +40s574ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.5MB 4.5MB 4.5MB / 572KB 572KB 572KB
+        myID=79171f7 mCommonProcess=79171f7 mPackage=com.android.provision
+  * com.example.demo1 / u0a81 / v1:
+      Process com.example.demo1 (unique, 4 entries):
+        SOn /Norm/Top    : +2s691ms
+                  ImpBg  : +220ms
+                  Service: +22s39ms
+                  LastAct: +10s931ms
+                  TOTAL  : +35s881ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 1 samples 12MB 12MB 12MB / 1.3MB 1.3MB 1.3MB
+        myID=5b0f864 mCommonProcess=5b0f864 mPackage=com.example.demo1
+  * com.android.calendar / u0a61 / v27:
+      Process com.android.calendar (unique, 3 entries):
+        SOn /Norm/Service: +30s56ms
+                  Receivr: +225ms
+                  CchEmty: +13m20s645ms
+                  TOTAL  : +13m50s926ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 1 samples 7.8MB 7.8MB 7.8MB / 5.0MB 5.0MB 5.0MB
+                    CchEmty: 2 samples 7.8MB 7.9MB 7.9MB / 4.2MB 4.3MB 4.4MB
+        myID=9606acd mCommonProcess=9606acd mPackage=com.android.calendar
+      Service com.android.calendar.alerts.InitAlarmsService:
+        Process: com.android.calendar
+        Running op count 2:
+          SOn /Norm: +30s48ms
+              TOTAL: +30s48ms
+        Started op count 1:
+          SOn /Norm: +30s47ms
+              TOTAL: +30s47ms
+        Executing op count 2:
+          SOn /Norm: +4ms
+              TOTAL: +4ms
+      Service com.android.calendar.alerts.AlertService:
+        Process: com.android.calendar
+        Running op count 4:
+          SOn /Norm: +8s87ms
+              TOTAL: +8s87ms
+        Started op count 2:
+          SOn /Norm: +8s81ms
+              TOTAL: +8s81ms
+        Executing op count 4:
+          SOn /Norm: +19ms
+              TOTAL: +19ms
+  * com.android.providers.settings / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m57s363ms
+                  TOTAL  : +14m57s363ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=6261f82 mCommonProcess=9f659f6 mPackage=com.android.providers.settings
+        Common Proc: system/1000 pkg=android
+  * com.sprd.applock / 1000 / v27:
+      Process com.sprd.applock (unique, 1 entries):
+        SOn /Norm/Persist: +14m25s509ms
+                  TOTAL  : +14m25s509ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 3.6MB 3.8MB 4.1MB / 1.4MB 1.6MB 1.8MB
+        myID=c613693 mCommonProcess=c613693 mPackage=com.sprd.applock
+  * com.android.cellbroadcastreceiver / u0a6 / v27:
+      Process com.android.cellbroadcastreceiver (unique, 2 entries):
+        SOn /Norm/Receivr: +315ms
+                  CchEmty: +13m48s604ms
+                  TOTAL  : +13m48s919ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 3.8MB 4.4MB 5.1MB / 1.1MB 1.6MB 2.0MB
+        myID=cb736d0 mCommonProcess=cb736d0 mPackage=com.android.cellbroadcastreceiver
+  * com.android.onetimeinitializer / u0a14 / v27:
+      Process com.android.onetimeinitializer (unique, 2 entries):
+        SOn /Norm/Receivr: +81ms
+                  CchEmty: +13m24s439ms
+                  TOTAL  : +13m24s520ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 2.9MB 3.2MB 3.4MB / 396KB 742KB 1.1MB
+        myID=195e6c9 mCommonProcess=195e6c9 mPackage=com.android.onetimeinitializer
+  * com.ztapp.callbyvideo / u0a65 / v121:
+      Process com.ztapp.callbyvideo (unique, 5 entries):
+        SOn /Norm/Top    : +2s202ms
+                  ImpBg  : +1s108ms
+                  LastAct: +58ms
+                  CchAct : +22s371ms
+                  CchEmty: +3s398ms
+                  TOTAL  : +29s137ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchAct : 1 samples 16MB 16MB 16MB / 11MB 11MB 11MB
+        myID=19ab1ce mCommonProcess=19ab1ce mPackage=com.ztapp.callbyvideo
+  * com.android.server.telecom / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m30s325ms
+                  TOTAL  : +14m30s325ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=45ea8ef mCommonProcess=9f659f6 mPackage=com.android.server.telecom
+        Common Proc: system/1000 pkg=android
+      Service com.android.server.telecom.components.BluetoothPhoneService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m28s111ms
+              TOTAL: +14m28s111ms
+        Started op count 1:
+          SOn /Norm: +14m28s111ms
+              TOTAL: +14m28s111ms
+        Executing op count 1:
+          SOn /Norm: +214ms
+              TOTAL: +214ms
+      Service com.android.server.telecom.components.TelecomService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m30s325ms
+              TOTAL: +14m30s325ms
+        Bound op count 1:
+          SOn /Norm: +14m30s325ms
+              TOTAL: +14m30s325ms
+        Executing op count 1:
+          SOn /Norm: +2s215ms
+              TOTAL: +2s215ms
+  * com.android.keychain / 1000 / v27:
+      Process com.android.keychain (unique, 3 entries):
+        SOn /Norm/ImpFg  : +152ms
+                  Service: +8ms
+                  CchEmty: +1m38s749ms
+                  TOTAL  : +1m38s909ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.5MB 3.5MB 3.5MB / 656KB 656KB 656KB
+        myID=ba0effc mCommonProcess=ba0effc mPackage=com.android.keychain
+      Service com.android.keychain.KeyChainService:
+        Process: com.android.keychain
+        Running op count 2:
+          SOn /Norm: +204ms
+              TOTAL: +204ms
+        Bound op count 2:
+          SOn /Norm: +198ms
+              TOTAL: +198ms
+        Executing op count 4:
+          SOn /Norm: +126ms
+              TOTAL: +126ms
+  * com.android.dialer / u0a2 / v150000:
+      Process com.android.dialer (unique, 4 entries):
+        SOn /Norm/ImpBg  : +55ms
+                  Service: +24ms
+                  Receivr: +367ms
+                  CchEmty: +14m5s198ms
+                  TOTAL  : +14m5s644ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 9.4MB 9.6MB 10MB / 4.3MB 4.8MB 5.0MB
+        myID=58d2685 mCommonProcess=58d2685 mPackage=com.android.dialer
+      Service com.android.voicemail.impl.StatusCheckJobService:
+        Process: com.android.dialer
+        Running op count 1:
+          SOn /Norm: +81ms
+              TOTAL: +81ms
+        Bound op count 1:
+          SOn /Norm: +55ms
+              TOTAL: +55ms
+        Executing op count 2:
+          SOn /Norm: +46ms
+              TOTAL: +46ms
+  * com.android.gallery3d / u0a20 / v40030:
+      Process com.android.gallery3d (unique, 2 entries):
+        SOn /Norm/Receivr: +355ms
+                  CchEmty: +2m29s479ms
+                  TOTAL  : +2m29s834ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 8.7MB 8.7MB 8.7MB
+        myID=eb41cda mCommonProcess=eb41cda mPackage=com.android.gallery3d
+  * com.spreadtrum.ims / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m23s976ms
+                  TOTAL  : +14m23s976ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=e16e50b mCommonProcess=f8770f mPackage=com.spreadtrum.ims
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+      Service com.spreadtrum.ims.ImsService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m23s976ms
+              TOTAL: +14m23s976ms
+        Started op count 1:
+          SOn /Norm: +14m23s499ms
+              TOTAL: +14m23s499ms
+        Bound op count 1:
+          SOn /Norm: +14m23s976ms
+              TOTAL: +14m23s976ms
+        Executing op count 1:
+          SOn /Norm: +861ms
+              TOTAL: +861ms
+  * com.spreadtrum.vce / 1000 / v27:
+      Process com.spreadtrum.vce (unique, 1 entries):
+        SOn /Norm/Persist: +14m25s463ms
+                  TOTAL  : +14m25s463ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 6.8MB 7.0MB 7.3MB / 680KB 1.8MB 2.9MB
+        myID=b0b0fe8 mCommonProcess=b0b0fe8 mPackage=com.spreadtrum.vce
+  * com.jx.childlike / u0a74 / v24:
+      Process com.jx.childlike (unique, 4 entries):
+        SOn /Norm/Top    : +5s752ms
+                  ImpBg  : +1s786ms
+                  Service: +40s607ms
+                  LastAct: +3s3ms
+                  TOTAL  : +51s148ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 2 samples 16MB 16MB 16MB / 5.5MB 7.2MB 8.9MB
+        myID=7fea601 mCommonProcess=7fea601 mPackage=com.jx.childlike
+  * android.ext.services / u0a7 / v1:
+      Process android.ext.services (unique, 3 entries):
+        SOn /Norm/ImpFg  : +232ms
+                  Service: +99ms
+                  CchEmty: +667ms
+                  TOTAL  : +998ms
+        myID=3c72ca6 mCommonProcess=3c72ca6 mPackage=android.ext.services
+      Service android.ext.services.storage.CacheQuotaServiceImpl:
+        Process: android.ext.services
+        Running op count 1:
+          SOn /Norm: +31s485ms
+              TOTAL: +31s485ms
+        Bound op count 1:
+          SOn /Norm: +31s384ms
+              TOTAL: +31s384ms
+        Executing op count 2:
+          SOn /Norm: +173ms
+              TOTAL: +173ms
+  * com.android.packageinstaller / u0a21 / v27:
+      Process com.android.packageinstaller (unique, 4 entries):
+        SOn /Norm/Top    : +2s519ms
+                  Receivr: +56ms
+                  LastAct: +711ms
+                  CchEmty: +13m46s141ms
+                  TOTAL  : +13m49s427ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 6.1MB 11MB 14MB / 2.7MB 3.4MB 3.9MB
+        myID=9ccc6e7 mCommonProcess=9ccc6e7 mPackage=com.android.packageinstaller
+  * com.jx.launcher / 1000 / v1088:
+      Process com.jx.launcher (unique, 4 entries):
+        SOn /Norm/Top    : +1m28s287ms
+                  ImpFg  : +11s374ms
+                  ImpBg  : +3s771ms
+                  Service: +12m41s586ms
+                  TOTAL  : +14m25s18ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 3 samples 28MB 29MB 30MB / 17MB 19MB 20MB
+                    Service: 4 samples 27MB 32MB 38MB / 18MB 20MB 21MB
+        myID=e754294 mCommonProcess=e754294 mPackage=com.jx.launcher
+      Service com.zmapp.aidldemo.WatchInfoService:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +50s729ms
+              TOTAL: +50s729ms
+        Bound op count 1:
+          SOn /Norm: +50s729ms
+              TOTAL: +50s729ms
+        Executing op count 1:
+          SOn /Norm: +23ms
+              TOTAL: +23ms
+      Service com.jx.launcher.notification.NotificationListener:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +14m24s630ms
+              TOTAL: +14m24s630ms
+        Started op count 1:
+          SOn /Norm: +14m24s630ms
+              TOTAL: +14m24s630ms
+        Executing op count 2:
+          SOn /Norm: +564ms
+              TOTAL: +564ms
+      Service com.zmapp.aee.AEEService:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +14m24s472ms
+              TOTAL: +14m24s472ms
+        Started op count 1:
+          SOn /Norm: +14m24s472ms
+              TOTAL: +14m24s472ms
+        Executing op count 2:
+          SOn /Norm: +380ms
+              TOTAL: +380ms
+  * com.android.carrierdefaultapp / u0a34 / v27:
+      Process com.android.carrierdefaultapp (unique, 2 entries):
+        SOn /Norm/Receivr: +173ms
+                  CchEmty: +37s940ms
+                  TOTAL  : +38s113ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.6MB 3.6MB 3.6MB / 812KB 812KB 812KB
+        myID=4aea13d mCommonProcess=4aea13d mPackage=com.android.carrierdefaultapp
+  * com.android.managedprovisioning / u0a15 / v27:
+      Process com.android.managedprovisioning (unique, 2 entries):
+        SOn /Norm/Receivr: +130ms
+                  CchEmty: +3m4s681ms
+                  TOTAL  : +3m4s811ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.3MB 4.3MB 4.3MB / 1.7MB 1.7MB 1.7MB
+        myID=5a96d32 mCommonProcess=5a96d32 mPackage=com.android.managedprovisioning
+  * com.divo.phone / 1000 / v27:
+      Process com.divo.phone (unique, 3 entries):
+        SOn /Norm/Top    : +1m36s547ms
+                  LastAct: +596ms
+                  CchEmty: +11m1s430ms
+                  TOTAL  : +12m38s573ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 1 samples 12MB 12MB 12MB / 5.7MB 5.7MB 5.7MB
+                    CchEmty: 2 samples 8.7MB 9.8MB 11MB / 1.1MB 2.3MB 3.5MB
+        myID=f14ea83 mCommonProcess=f14ea83 mPackage=com.divo.phone
+  * com.spreadtrum.vowifi / 1000 / v27:
+      Process com.spreadtrum.vowifi (unique, 1 entries):
+        SOn /Norm/ImpFg  : +14m23s354ms
+                  TOTAL  : +14m23s354ms
+        PSS/USS (1 entries):
+          SOn /Norm/ImpFg  : 2 samples 11MB 12MB 13MB / 5.7MB 6.6MB 7.5MB
+        myID=fadf400 mCommonProcess=fadf400 mPackage=com.spreadtrum.vowifi
+      Service com.spreadtrum.vowifi.service.CallService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s418ms
+              TOTAL: +14m23s418ms
+        Bound op count 1:
+          SOn /Norm: +14m23s418ms
+              TOTAL: +14m23s418ms
+        Executing op count 1:
+          SOn /Norm: +836ms
+              TOTAL: +836ms
+      Service com.spreadtrum.vowifi.service.UTService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s396ms
+              TOTAL: +14m23s396ms
+        Bound op count 1:
+          SOn /Norm: +14m23s396ms
+              TOTAL: +14m23s396ms
+        Executing op count 1:
+          SOn /Norm: +844ms
+              TOTAL: +844ms
+      Service com.spreadtrum.vowifi.service.RegisterService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s394ms
+              TOTAL: +14m23s394ms
+        Bound op count 1:
+          SOn /Norm: +14m23s394ms
+              TOTAL: +14m23s394ms
+        Executing op count 1:
+          SOn /Norm: +846ms
+              TOTAL: +846ms
+      Service com.spreadtrum.vowifi.service.SecurityService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s390ms
+              TOTAL: +14m23s390ms
+        Bound op count 1:
+          SOn /Norm: +14m23s390ms
+              TOTAL: +14m23s390ms
+        Executing op count 1:
+          SOn /Norm: +848ms
+              TOTAL: +848ms
+  * com.sprd.bootres / 1000 / v1:
+      Process com.sprd.bootres (unique, 2 entries):
+        SOn /Norm/Receivr: +30ms
+                  CchEmty: +12m27s973ms
+                  TOTAL  : +12m28s3ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 2.9MB 3.1MB 3.3MB / 544KB 0.93MB 1.3MB
+        myID=5691439 mCommonProcess=5691439 mPackage=com.sprd.bootres
+  * com.android.settings / 1000 / v27:
+      Process com.android.settings:CryptKeeper (unique, 2 entries):
+        SOn /Norm/Top    : +676ms
+                  CchEmty: +3s5ms
+                  TOTAL  : +3s681ms
+        myID=efd2a7e mCommonProcess=efd2a7e mPackage=com.android.settings
+      Process com.android.settings (unique, 5 entries):
+        SOn /Norm/Top    : +10m50s262ms
+                  Receivr: +1s421ms
+                  LastAct: +26s993ms
+                  CchAct : +21s93ms
+                  CchEmty: +2m45s442ms
+                  TOTAL  : +14m25s211ms
+        PSS/USS (3 entries):
+          SOn /Norm/Top    : 7 samples 39MB 43MB 44MB / 22MB 25MB 27MB
+                    CchAct : 1 samples 46MB 46MB 46MB / 28MB 28MB 28MB
+                    CchEmty: 2 samples 21MB 29MB 37MB / 6.0MB 12MB 19MB
+        myID=31abdf mCommonProcess=31abdf mPackage=com.android.settings
+  * plugin.sprd.antitheft / 1000 / v27:
+      Process plugin.sprd.antitheft (unique, 3 entries):
+        SOn /Norm/Service: +94ms
+                  ServRst: +93ms
+                  CchEmty: +38s930ms
+                  TOTAL  : +39s117ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.7MB 3.7MB 3.7MB / 500KB 500KB 500KB
+        myID=4fe502c mCommonProcess=4fe502c mPackage=plugin.sprd.antitheft
+      Service plugin.sprd.antitheft.AntitheftService:
+        Process: plugin.sprd.antitheft
+        Running op count 1:
+          SOn /Norm: +191ms
+              TOTAL: +191ms
+        Started op count 1:
+          SOn /Norm: +170ms
+              TOTAL: +170ms
+        Executing op count 1:
+          SOn /Norm: +98ms
+              TOTAL: +98ms
+  * com.sprd.systemupdate / 1000 / v27:
+      Process com.sprd.systemupdate (unique, 2 entries):
+        SOn /Norm/Receivr: +101ms
+                  CchEmty: +13m45s153ms
+                  TOTAL  : +13m45s254ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 3.3MB 3.4MB 3.5MB / 812KB 1.2MB 1.6MB
+        myID=abdbaf5 mCommonProcess=abdbaf5 mPackage=com.sprd.systemupdate
+  * com.zmapp.plugin.addfriend / u0a68 / v5:
+      Process com.zmapp.plugin.addfriend (unique, 4 entries):
+        SOn /Norm/Top    : +1s439ms
+                  ImpBg  : +1s542ms
+                  Service: +1s651ms
+                  CchEmty: +1s5ms
+                  TOTAL  : +5s637ms
+        myID=3d708a mCommonProcess=3d708a mPackage=com.zmapp.plugin.addfriend
+  * com.android.phone / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m30s285ms
+                  TOTAL  : +14m30s285ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=72f26fb mCommonProcess=f8770f mPackage=com.android.phone
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+  * com.sprd.ImsConnectionManager / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m21s77ms
+                  TOTAL  : +14m21s77ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=e164318 mCommonProcess=f8770f mPackage=com.sprd.ImsConnectionManager
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+  * com.android.providers.blockednumber / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=47c1171 mCommonProcess=a00fbcc mPackage=com.android.providers.blockednumber
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+  * com.android.providers.userdictionary / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=48a0b56 mCommonProcess=a00fbcc mPackage=com.android.providers.userdictionary
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+  * com.yingyonghui.market / u0a76 / v30064263:
+      Process com.yingyonghui.market:pushservice (unique, 2 entries):
+        SOn /Norm/Service: +37s504ms
+                  ServRst: +53ms
+                  TOTAL  : +37s557ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 1 samples 7.7MB 7.7MB 7.7MB / 1.6MB 1.6MB 1.6MB
+        myID=8bf37d7 mCommonProcess=8bf37d7 mPackage=com.yingyonghui.market
+      Process com.yingyonghui.market (unique, 3 entries):
+        SOn /Norm/Top    : +14s391ms
+                  ImpBg  : +128ms
+                  Service: +27s91ms
+                  TOTAL  : +41s610ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 1 samples 9.7MB 9.7MB 9.7MB / 6.7MB 6.7MB 6.7MB
+                    Service: 1 samples 23MB 23MB 23MB / 4.6MB 4.6MB 4.6MB
+        myID=3b878c4 mCommonProcess=3b878c4 mPackage=com.yingyonghui.market
+      Service com.yingyonghui.market.feature.push.GetuiIntentService:
+        Process: com.yingyonghui.market
+        Running op count 2:
+          SOn /Norm: +30s50ms
+              TOTAL: +30s50ms
+        Started op count 1:
+          SOn /Norm: +30s42ms
+              TOTAL: +30s42ms
+        Executing op count 2:
+          SOn /Norm: +46ms
+              TOTAL: +46ms
+      Service com.igexin.sdk.PushService:
+        Process: com.yingyonghui.market:pushservice
+        Running op count 1:
+          SOn /Norm: +37s557ms
+              TOTAL: +37s557ms
+        Started op count 1:
+          SOn /Norm: +37s557ms
+              TOTAL: +37s557ms
+        Executing op count 2:
+          SOn /Norm: +184ms
+              TOTAL: +184ms
+  * com.android.location.fused / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m29s126ms
+                  TOTAL  : +14m29s126ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=5ef53ad mCommonProcess=9f659f6 mPackage=com.android.location.fused
+        Common Proc: system/1000 pkg=android
+      Service com.android.location.fused.FusedLocationService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m29s126ms
+              TOTAL: +14m29s126ms
+        Bound op count 1:
+          SOn /Norm: +14m29s126ms
+              TOTAL: +14m29s126ms
+        Executing op count 1:
+          SOn /Norm: +1s64ms
+              TOTAL: +1s64ms
+  * com.android.deskclock / 1000 / v7:
+      Process com.android.deskclock (unique, 2 entries):
+        SOn /Norm/Receivr: +497ms
+                  CchEmty: +13m50s128ms
+                  TOTAL  : +13m50s625ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 6.2MB 6.3MB 6.4MB / 3.1MB 3.3MB 3.5MB
+        myID=73386e2 mCommonProcess=73386e2 mPackage=com.android.deskclock
+  * com.android.systemui / u0a22 / v27:
+      Process com.android.systemui:screenshot (unique, 3 entries):
+        SOn /Norm/ImpFg  : +3s682ms
+                  Service: +38ms
+                  CchEmty: +42s926ms
+                  TOTAL  : +46s646ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 4.8MB 4.8MB 4.8MB
+        myID=8d57a73 mCommonProcess=8d57a73 mPackage=com.android.systemui
+      Process com.android.systemui (unique, 1 entries):
+        SOn /Norm/Persist: +14m30s132ms
+                  TOTAL  : +14m30s132ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 39MB 44MB 49MB / 22MB 27MB 33MB
+        myID=6265d30 mCommonProcess=6265d30 mPackage=com.android.systemui
+  * com.android.modemnotifier / u0a66 / v1:
+      Process com.android.modemnotifier (unique, 1 entries):
+        SOn /Norm/Persist: +14m25s454ms
+                  TOTAL  : +14m25s454ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 3.0MB 3.2MB 3.3MB / 536KB 0.95MB 1.4MB
+        myID=1da7da9 mCommonProcess=1da7da9 mPackage=com.android.modemnotifier
+  * com.android.bluetooth / 1002 / v27:
+      Process com.android.bluetooth (unique, 2 entries):
+        SOn /Norm/ImpFg  : +2s175ms
+                  Service: +1s100ms
+                  TOTAL  : +3s275ms
+        myID=6072f2e mCommonProcess=6072f2e mPackage=com.android.bluetooth
+      Service com.android.bluetooth.btservice.AdapterService:
+        Process: com.android.bluetooth
+        Running op count 1:
+          SOn /Norm: +3s326ms
+              TOTAL: +3s326ms
+        Bound op count 1:
+          SOn /Norm: +2s228ms
+              TOTAL: +2s228ms
+        Executing op count 2:
+          SOn /Norm: +1s828ms
+              TOTAL: +1s828ms
+  * com.android.providers.contacts / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=64c1c5c mCommonProcess=a00fbcc mPackage=com.android.providers.contacts
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+
+  Total procs: 0 shown of 51 total
+
+Summary:
+  * system / 1000 / v27:
+           TOTAL: 100% (73MB-73MB-73MB/58MB-59MB-61MB over 2)
+      Persistent: 100% (73MB-73MB-73MB/58MB-59MB-61MB over 2)
+  * com.android.phone / 1001 / v27:
+           TOTAL: 97% (20MB-22MB-25MB/13MB-16MB-19MB over 2)
+      Persistent: 97% (20MB-22MB-25MB/13MB-16MB-19MB over 2)
+  * com.android.systemui / u0a22 / v27:
+           TOTAL: 97% (39MB-44MB-49MB/22MB-27MB-33MB over 2)
+      Persistent: 97% (39MB-44MB-49MB/22MB-27MB-33MB over 2)
+  * com.sprd.applock / 1000 / v27:
+           TOTAL: 96% (3.6MB-3.8MB-4.1MB/1.4MB-1.6MB-1.8MB over 2)
+      Persistent: 96% (3.6MB-3.8MB-4.1MB/1.4MB-1.6MB-1.8MB over 2)
+  * com.spreadtrum.vce / 1000 / v27:
+           TOTAL: 96% (6.8MB-7.0MB-7.3MB/680KB-1.8MB-2.9MB over 2)
+      Persistent: 96% (6.8MB-7.0MB-7.3MB/680KB-1.8MB-2.9MB over 2)
+  * com.android.modemnotifier / u0a66 / v1:
+           TOTAL: 96% (3.0MB-3.2MB-3.3MB/536KB-0.95MB-1.4MB over 2)
+      Persistent: 96% (3.0MB-3.2MB-3.3MB/536KB-0.95MB-1.4MB over 2)
+  * com.jx.launcher / 1000 / v1088:
+           TOTAL: 96% (27MB-31MB-38MB/17MB-19MB-21MB over 7)
+             Top: 9.8% (28MB-29MB-30MB/17MB-19MB-20MB over 3)
+          Imp Fg: 1.3%
+          Imp Bg: 0.42%
+         Service: 85% (27MB-32MB-38MB/18MB-20MB-21MB over 4)
+  * com.spreadtrum.vowifi / 1000 / v27:
+           TOTAL: 96% (11MB-12MB-13MB/5.7MB-6.6MB-7.5MB over 2)
+          Imp Fg: 96% (11MB-12MB-13MB/5.7MB-6.6MB-7.5MB over 2)
+  * com.abupdate.fota_demo_iot / 1000 / v20:
+           TOTAL: 96% (12MB-12MB-13MB/6.0MB-6.9MB-7.8MB over 3)
+          Imp Bg: 3.4%
+         Service: 92% (12MB-12MB-13MB/6.0MB-6.9MB-7.8MB over 3)
+        Receiver: 0.05%
+        (Cached): 0.48%
+  * com.jx.inputmethod.pinyin / u0a72 / v21:
+           TOTAL: 94% (7.7MB-12MB-16MB/4.3MB-7.8MB-11MB over 2)
+          Imp Fg: 0.11%
+          Imp Bg: 94% (7.7MB-12MB-16MB/4.3MB-7.8MB-11MB over 2)
+         Service: 0.01%
+        (Cached): 1.6%
+  * android.process.media / u0a9 / v27:
+           TOTAL: 93% (11MB-12MB-15MB/4.9MB-6.2MB-8.8MB over 3)
+          Imp Fg: 0.03%
+         Service: 92% (11MB-12MB-15MB/4.9MB-6.2MB-8.8MB over 3)
+        Receiver: 0.15%
+      (Last Act): 2.5%
+        (Cached): 1.1% (12MB-12MB-12MB/5.9MB-5.9MB-5.9MB over 1)
+  * com.android.settings / 1000 / v27:
+           TOTAL: 73% (39MB-43MB-44MB/22MB-25MB-27MB over 7)
+             Top: 72% (39MB-43MB-44MB/22MB-25MB-27MB over 7)
+        Receiver: 0.16%
+      (Last Act): 3.0%
+        (Cached): 21% (21MB-35MB-46MB/6.0MB-18MB-28MB over 3)
+  * com.divo.phone / 1000 / v27:
+           TOTAL: 11% (12MB-12MB-12MB/5.7MB-5.7MB-5.7MB over 1)
+             Top: 11% (12MB-12MB-12MB/5.7MB-5.7MB-5.7MB over 1)
+      (Last Act): 0.07%
+        (Cached): 74% (8.7MB-9.8MB-11MB/1.1MB-2.3MB-3.5MB over 2)
+  * com.jx.childlike / u0a74 / v24:
+           TOTAL: 5.4% (16MB-16MB-16MB/5.5MB-7.2MB-8.9MB over 2)
+             Top: 0.64%
+          Imp Bg: 0.20%
+         Service: 4.5% (16MB-16MB-16MB/5.5MB-7.2MB-8.9MB over 2)
+      (Last Act): 0.33%
+  * com.yingyonghui.market / u0a76 / v30064263:
+           TOTAL: 4.6% (9.7MB-17MB-23MB/4.6MB-5.6MB-6.7MB over 2)
+             Top: 1.6% (9.7MB-9.7MB-9.7MB/6.7MB-6.7MB-6.7MB over 1)
+          Imp Bg: 0.01%
+         Service: 3.0% (23MB-23MB-23MB/4.6MB-4.6MB-4.6MB over 1)
+  * com.yingyonghui.market:pushservice / u0a76 / v30064263:
+           TOTAL: 4.2% (7.7MB-7.7MB-7.7MB/1.6MB-1.6MB-1.6MB over 1)
+         Service: 4.2% (7.7MB-7.7MB-7.7MB/1.6MB-1.6MB-1.6MB over 1)
+      Service Rs: 0.01%
+  * com.android.calendar / u0a61 / v27:
+           TOTAL: 3.4% (7.8MB-7.8MB-7.8MB/5.0MB-5.0MB-5.0MB over 1)
+         Service: 3.3% (7.8MB-7.8MB-7.8MB/5.0MB-5.0MB-5.0MB over 1)
+        Receiver: 0.03%
+        (Cached): 89% (7.8MB-7.9MB-7.9MB/4.2MB-4.3MB-4.4MB over 2)
+  * com.example.demo1 / u0a81 / v1:
+           TOTAL: 2.8% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+             Top: 0.30%
+          Imp Bg: 0.02%
+         Service: 2.5% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+      (Last Act): 1.2%
+  * com.sohu.inputmethod.sogou / u0a78 / v1352:
+           TOTAL: 2.1%
+          Imp Fg: 0.40%
+          Imp Bg: 1.7%
+  * com.tencent.mm / u0a80 / v2040:
+           TOTAL: 1.9%
+             Top: 1.8%
+          Imp Fg: 0.11%
+      (Last Act): 1.1%
+  * com.sohu.inputmethod.sogou:daemon / u0a78 / v1352:
+           TOTAL: 1.7%
+         Service: 1.7%
+      Service Rs: 0.02%
+  * com.android.defcontainer / u0a5 / v27:
+           TOTAL: 1.1%
+          Imp Fg: 1.1%
+        (Cached): 4.7% (3.3MB-4.1MB-4.9MB/524KB-566KB-608KB over 2)
+  * com.tencent.mm:push / u0a80 / v2040:
+           TOTAL: 1.0%
+          Imp Fg: 1.0%
+        Receiver: 0.01%
+      (Last Act): 0.90%
+  * com.zmapp.chat / u0a77 / v35:
+           TOTAL: 0.86%
+             Top: 0.51%
+         Service: 0.35%
+      (Last Act): 0.11%
+  * com.zmapp.plugin.addfriend / u0a68 / v5:
+           TOTAL: 0.52%
+             Top: 0.16%
+          Imp Bg: 0.17%
+         Service: 0.18%
+        (Cached): 0.11%
+  * com.android.systemui:screenshot / u0a22 / v27:
+           TOTAL: 0.41%
+          Imp Fg: 0.41%
+        (Cached): 4.8% (12MB-12MB-12MB/4.8MB-4.8MB-4.8MB over 1)
+  * com.ztapp.callbyvideo / u0a65 / v121:
+           TOTAL: 0.37%
+             Top: 0.25%
+          Imp Bg: 0.12%
+      (Last Act): 0.01%
+        (Cached): 2.9% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+  * com.android.bluetooth / 1002 / v27:
+           TOTAL: 0.36%
+          Imp Fg: 0.24%
+         Service: 0.12%
+  * com.sprd.engineermode / 1000 / v1:
+           TOTAL: 0.34%
+          Imp Bg: 0.08%
+        Receiver: 0.26%
+        (Cached): 90% (9.0MB-9.5MB-9.8MB/5.6MB-6.2MB-6.5MB over 3)
+  * com.android.packageinstaller / u0a21 / v27:
+           TOTAL: 0.29%
+             Top: 0.28%
+        Receiver: 0.01%
+      (Last Act): 0.08%
+        (Cached): 92% (6.1MB-11MB-14MB/2.7MB-3.4MB-3.9MB over 3)
+  * android.process.acore / u0a2 / v27:
+           TOTAL: 0.25%
+          Imp Fg: 0.22%
+        Receiver: 0.03%
+      (Last Act): 4.1%
+        (Cached): 89% (15MB-16MB-17MB/7.0MB-8.2MB-9.4MB over 2)
+  * com.zmapp.sms / 1000 / v101:
+           TOTAL: 0.19%
+             Top: 0.19%
+      (Last Act): 0.62% (13MB-13MB-13MB/8.7MB-8.7MB-8.7MB over 1)
+        (Cached): 4.1% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+  * com.android.provision / u0a16 / v27:
+           TOTAL: 0.18%
+             Top: 0.18%
+        (Cached): 4.3% (4.5MB-4.5MB-4.5MB/572KB-572KB-572KB over 1)
+  * com.android.settings:CryptKeeper / 1000 / v27:
+           TOTAL: 0.08%
+             Top: 0.08%
+        (Cached): 0.33%
+  * com.android.carrierconfig / u0a4 / v1:
+           TOTAL: 0.07%
+          Imp Fg: 0.06%
+         Service: 0.01%
+        (Cached): 94% (3.2MB-3.4MB-3.5MB/532KB-658KB-844KB over 3)
+  * com.android.providers.calendar / u0a19 / v27:
+           TOTAL: 0.06%
+          Imp Fg: 0.02%
+         Service: 0.01%
+        Receiver: 0.03%
+      (Last Act): 15%
+        (Cached): 79% (4.9MB-4.9MB-4.9MB/1.4MB-1.4MB-1.4MB over 1)
+  * com.android.deskclock / 1000 / v7:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+        (Cached): 92% (6.2MB-6.3MB-6.4MB/3.1MB-3.3MB-3.5MB over 2)
+  * com.android.dialer / u0a2 / v150000:
+           TOTAL: 0.05%
+          Imp Bg: 0.01%
+        Receiver: 0.04%
+        (Cached): 94% (9.4MB-9.6MB-10MB/4.3MB-4.8MB-5.0MB over 3)
+  * com.android.gallery3d / u0a20 / v40030:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 17% (12MB-12MB-12MB/8.7MB-8.7MB-8.7MB over 1)
+  * android.ext.services / u0a7 / v1:
+           TOTAL: 0.04%
+          Imp Fg: 0.03%
+         Service: 0.01%
+        (Cached): 0.07%
+  * com.android.messaging / u0a50 / v1000210:
+           TOTAL: 0.04%
+          Imp Fg: 0.01%
+         Service: 0.03%
+      (Last Act): 2.2%
+        (Cached): 87% (12MB-12MB-12MB/8.3MB-8.3MB-8.3MB over 1)
+  * com.android.cellbroadcastreceiver / u0a6 / v27:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 92% (3.8MB-4.4MB-5.1MB/1.1MB-1.6MB-2.0MB over 3)
+  * plugin.sprd.antitheft / 1000 / v27:
+           TOTAL: 0.02%
+         Service: 0.01%
+      Service Rs: 0.01%
+        (Cached): 4.3% (3.7MB-3.7MB-3.7MB/500KB-500KB-500KB over 1)
+  * com.android.carrierdefaultapp / u0a34 / v27:
+           TOTAL: 0.02%
+        Receiver: 0.02%
+        (Cached): 4.2% (3.6MB-3.6MB-3.6MB/812KB-812KB-812KB over 1)
+  * com.android.keychain / 1000 / v27:
+           TOTAL: 0.02%
+          Imp Fg: 0.02%
+        (Cached): 11% (3.5MB-3.5MB-3.5MB/656KB-656KB-656KB over 1)
+  * com.android.managedprovisioning / u0a15 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 21% (4.3MB-4.3MB-4.3MB/1.7MB-1.7MB-1.7MB over 1)
+  * com.sprd.systemupdate / 1000 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 92% (3.3MB-3.4MB-3.5MB/812KB-1.2MB-1.6MB over 2)
+  * com.android.onetimeinitializer / u0a14 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 90% (2.9MB-3.2MB-3.4MB/396KB-742KB-1.1MB over 2)
+  * com.android.soundrecorder / u0a43 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 90% (5.0MB-5.2MB-5.5MB/2.5MB-3.0MB-3.5MB over 2)
+  * com.sprd.aganisttest / 1000 / v1:
+        (Cached): 7.3% (3.2MB-3.2MB-3.2MB/1.0MB-1.0MB-1.0MB over 1)
+  * com.sprd.bootres / 1000 / v1:
+        (Cached): 83% (2.9MB-3.1MB-3.3MB/544KB-0.93MB-1.3MB over 2)
+
+Run time Stats:
+  SOn /Norm: +14m57s908ms
+      TOTAL: +14m57s908ms
+
+Memory usage:
+  Kernel : 64MB (16 samples)
+  Native : 142MB (16 samples)
+  Persist: 151MB (12 samples)
+  Top    : 35MB (22 samples)
+  ImpFg  : 12MB (21 samples)
+  ImpBg  : 12MB (21 samples)
+  Service: 52MB (42 samples)
+  Receivr: 132KB (60 samples)
+  LastAct: 3.3MB (24 samples)
+  CchAct : 2.2MB (7 samples)
+  CchEmty: 107MB (50 samples)
+  Cached : 262MB (16 samples)
+  Free   : 36MB (16 samples)
+  Z-Ram  : 27MB (16 samples)
+  TOTAL  : 0.89GB
+  ServRst: 880 (3 samples)
+
+          Start time: 2019-01-01 08:06:27
+  Total elapsed time: +15m27s355ms (partial) (swapped-out-pss) libart.so
+
+Internal state:
+  mRunning=false
+
+Available pages by page size:
+Zone   0       Unmovable      0     0     0     0     1     0     1     1     0     1     8
+Zone   0         Movable      0     1     1     1     0     0     1     1     0     1    53
+Zone   0     Reclaimable      1     0     1     0     0     0     3     4     1     1     0
+Zone   0      HighAtomic      0     0     0     0     0     0     0     0     0     0     0
+Zone   0          Detour      0     0     0     0     0     0     0     0     0     0     4
+Zone   0       Unmovable      0     0     1     1     1     1     0     0     1     1     0
+Zone   0         Movable      0     1     0     0     0     1     0     1     0     1    51
+Zone   0     Reclaimable      0     0     0     0     0     0     0     0     0     0     0
+Zone   0      HighAtomic      0     0     0     0     0     0     0     0     0     0     0
+Zone   0          Detour      0     0     0     0     0     0     0     0     0     0     0
+
+AGGREGATED OVER LAST 3 HOURS:
+System memory usage:
+  SOn /Norm: 2 samples:
+    Cached: 152MB min, 262MB avg, 372MB max
+    Free: 35MB min, 36MB avg, 37MB max
+    ZRam: 15MB min, 27MB avg, 40MB max
+    Kernel: 51MB min, 64MB avg, 78MB max
+    Native: 108MB min, 142MB avg, 177MB max
+
+Per-Package Stats:
+  * com.abupdate.fota_demo_iot / 1000 / v20:
+      Process com.abupdate.fota_demo_iot (unique, 4 entries):
+        SOn /Norm/ImpBg  : +30s204ms
+                  Service: +13m50s193ms
+                  Receivr: +488ms
+                  CchEmty: +4s306ms
+                  TOTAL  : +14m25s191ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 3 samples 12MB 12MB 13MB / 6.0MB 6.9MB 7.8MB
+        myID=a344b65 mCommonProcess=a344b65 mPackage=com.abupdate.fota_demo_iot
+      Service com.abupdate.iot_libs.service.ClientTrigger:
+        Process: com.abupdate.fota_demo_iot
+        Running op count 1:
+          SOn /Norm: +14m20s365ms
+              TOTAL: +14m20s365ms
+        Started op count 1:
+          SOn /Norm: +14m20s365ms
+              TOTAL: +14m20s365ms
+        Executing op count 1:
+          SOn /Norm: +58ms
+              TOTAL: +58ms
+      Service com.abupdate.iot_libs.service.JobSchedulerService:
+        Process: com.abupdate.fota_demo_iot
+        Running op count 1:
+          SOn /Norm: +14m20s397ms
+              TOTAL: +14m20s397ms
+        Started op count 1:
+          SOn /Norm: +14m20s397ms
+              TOTAL: +14m20s397ms
+        Bound op count 1:
+          SOn /Norm: +30s204ms
+              TOTAL: +30s204ms
+        Executing op count 3:
+          SOn /Norm: +63ms
+              TOTAL: +63ms
+  * com.android.providers.telephony / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m30s435ms
+                  TOTAL  : +14m30s435ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=c5b103a mCommonProcess=893c4eb mPackage=com.android.providers.telephony
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+  * com.sprd.engineermode / 1000 / v1:
+      Process com.sprd.engineermode (unique, 3 entries):
+        SOn /Norm/ImpBg  : +717ms
+                  Receivr: +2s296ms
+                  CchEmty: +13m28s809ms
+                  TOTAL  : +13m31s822ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 9.0MB 9.5MB 9.8MB / 5.6MB 6.2MB 6.5MB
+        myID=5aca248 mCommonProcess=5aca248 mPackage=com.sprd.engineermode
+  * com.android.providers.calendar / u0a19 / v27:
+      Process com.android.providers.calendar (unique, 5 entries):
+        SOn /Norm/ImpFg  : +166ms
+                  Service: +85ms
+                  Receivr: +299ms
+                  LastAct: +2m18s889ms
+                  CchEmty: +11m48s105ms
+                  TOTAL  : +14m7s544ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.9MB 4.9MB 4.9MB / 1.4MB 1.4MB 1.4MB
+        myID=fa338e1 mCommonProcess=fa338e1 mPackage=com.android.providers.calendar
+  * com.android.providers.media / u0a9 / v801:
+      Process android.process.media (multi, 5 entries):
+        SOn /Norm/ImpFg  : +251ms
+                  Service: +13m50s241ms
+                  Receivr: +1s322ms
+                  LastAct: +22s458ms
+                  CchEmty: +10s20ms
+                  TOTAL  : +14m24s292ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 3 samples 11MB 12MB 15MB / 4.9MB 6.2MB 8.8MB
+                    CchEmty: 1 samples 12MB 12MB 12MB / 5.9MB 5.9MB 5.9MB
+        myID=2d9f606 mCommonProcess=e67c4c7 mPackage=com.android.providers.media
+        Common Proc: android.process.media/10009 pkg=com.android.providers.downloads
+      Service com.android.providers.media.MtpService:
+        Process: android.process.media
+        Running op count 1:
+          SOn /Norm: +13m47s828ms
+              TOTAL: +13m47s828ms
+        Started op count 1:
+          SOn /Norm: +13m47s825ms
+              TOTAL: +13m47s825ms
+        Bound op count 1:
+          SOn /Norm: +13m47s828ms
+              TOTAL: +13m47s828ms
+        Executing op count 2:
+          SOn /Norm: +50ms
+              TOTAL: +50ms
+      Service com.android.providers.media.MediaScannerService:
+        Process: android.process.media
+        Running op count 4:
+          SOn /Norm: +2s649ms
+              TOTAL: +2s649ms
+        Started op count 2:
+          SOn /Norm: +2s621ms
+              TOTAL: +2s621ms
+        Executing op count 4:
+          SOn /Norm: +338ms
+              TOTAL: +338ms
+  * com.zmapp.sms / 1000 / v101:
+      Process com.zmapp.sms (unique, 3 entries):
+        SOn /Norm/Top    : +1s706ms
+                  LastAct: +5s525ms
+                  CchAct : +36s715ms
+                  TOTAL  : +43s946ms
+        PSS/USS (2 entries):
+          SOn /Norm/LastAct: 1 samples 13MB 13MB 13MB / 8.7MB 8.7MB 8.7MB
+                    CchAct : 1 samples 12MB 12MB 12MB / 1.3MB 1.3MB 1.3MB
+        myID=90d9af4 mCommonProcess=90d9af4 mPackage=com.zmapp.sms
+  * com.sohu.inputmethod.sogou / u0a78 / v1352:
+      Process com.sohu.inputmethod.sogou:daemon (unique, 2 entries):
+        SOn /Norm/Service: +15s642ms
+                  ServRst: +151ms
+                  TOTAL  : +15s793ms
+        myID=cb9821d mCommonProcess=cb9821d mPackage=com.sohu.inputmethod.sogou
+      Process com.sohu.inputmethod.sogou (unique, 3 entries):
+        SOn /Norm/ImpFg  : +3s556ms
+                  ImpBg  : +15s276ms
+                  Receivr: +6ms
+                  TOTAL  : +18s838ms
+        myID=f6c92 mCommonProcess=f6c92 mPackage=com.sohu.inputmethod.sogou
+      Service com.sogou.daemon.DaemonService:
+        Process: com.sohu.inputmethod.sogou:daemon
+        Running op count 1:
+          SOn /Norm: +15s793ms
+              TOTAL: +15s793ms
+        Started op count 1:
+          SOn /Norm: +15s793ms
+              TOTAL: +15s793ms
+        Executing op count 2:
+          SOn /Norm: +848ms
+              TOTAL: +848ms
+      Service com.sohu.inputmethod.sogou.SogouIME:
+        Process: com.sohu.inputmethod.sogou
+        Running op count 2:
+          SOn /Norm: +19s0ms
+              TOTAL: +19s0ms
+        Started op count 1:
+          SOn /Norm: +127ms
+              TOTAL: +127ms
+        Bound op count 2:
+          SOn /Norm: +18s995ms
+              TOTAL: +18s995ms
+        Executing op count 3:
+          SOn /Norm: +4s175ms
+              TOTAL: +4s175ms
+  * com.zmapp.chat / u0a77 / v35:
+      Process com.zmapp.chat (unique, 3 entries):
+        SOn /Norm/Top    : +4s605ms
+                  Service: +3s311ms
+                  LastAct: +1s10ms
+                  TOTAL  : +8s926ms
+        myID=491e663 mCommonProcess=491e663 mPackage=com.zmapp.chat
+  * com.android.mms.service / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m5s870ms
+                  TOTAL  : +14m5s870ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=9e37260 mCommonProcess=893c4eb mPackage=com.android.mms.service
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+      Service com.android.mms.service.MmsService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m5s870ms
+              TOTAL: +14m5s870ms
+        Bound op count 1:
+          SOn /Norm: +14m5s870ms
+              TOTAL: +14m5s870ms
+        Executing op count 1:
+          SOn /Norm: +29ms
+              TOTAL: +29ms
+  * com.android.providers.downloads / u0a9 / v27:
+      Process android.process.media (multi, 5 entries):
+        SOn /Norm/ImpFg  : +251ms
+                  Service: +13m50s241ms
+                  Receivr: +1s322ms
+                  LastAct: +22s458ms
+                  CchEmty: +10s20ms
+                  TOTAL  : +14m24s292ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 3 samples 11MB 12MB 15MB / 4.9MB 6.2MB 8.8MB
+                    CchEmty: 1 samples 12MB 12MB 12MB / 5.9MB 5.9MB 5.9MB
+        myID=8f12319 mCommonProcess=e67c4c7 mPackage=com.android.providers.downloads
+        Common Proc: android.process.media/10009 pkg=com.android.providers.downloads
+  * com.android.messaging / u0a50 / v1000210:
+      Process com.android.messaging (unique, 5 entries):
+        SOn /Norm/ImpFg  : +86ms
+                  Service: +238ms
+                  Receivr: +4ms
+                  LastAct: +20s100ms
+                  CchEmty: +13m3s406ms
+                  TOTAL  : +13m23s834ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 8.3MB 8.3MB 8.3MB
+        myID=5b3bfde mCommonProcess=5b3bfde mPackage=com.android.messaging
+      Service com.android.messaging.datamodel.action.BackgroundWorkerService:
+        Process: com.android.messaging
+        Running op count 2:
+          SOn /Norm: +60ms
+              TOTAL: +60ms
+        Started op count 1:
+          SOn /Norm: +54ms
+              TOTAL: +54ms
+        Executing op count 2:
+          SOn /Norm: +13ms
+              TOTAL: +13ms
+      Service com.android.messaging.datamodel.action.ActionServiceImpl:
+        Process: com.android.messaging
+        Running op count 6:
+          SOn /Norm: +218ms
+              TOTAL: +218ms
+        Started op count 3:
+          SOn /Norm: +196ms
+              TOTAL: +196ms
+        Executing op count 6:
+          SOn /Norm: +114ms
+              TOTAL: +114ms
+  * com.android.sprd.telephony.server / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m25s126ms
+                  TOTAL  : +14m25s126ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=5b285bf mCommonProcess=893c4eb mPackage=com.android.sprd.telephony.server
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+      Service com.android.sprd.telephony.RadioInteractorService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m25s126ms
+              TOTAL: +14m25s126ms
+        Bound op count 1:
+          SOn /Norm: +14m25s126ms
+              TOTAL: +14m25s126ms
+        Executing op count 1:
+          SOn /Norm: +1s20ms
+              TOTAL: +1s20ms
+  * com.jx.inputmethod.pinyin / u0a72 / v21:
+      Process com.jx.inputmethod.pinyin (unique, 4 entries):
+        SOn /Norm/ImpFg  : +987ms
+                  ImpBg  : +14m3s819ms
+                  Service: +99ms
+                  CchAct : +14s744ms
+                  TOTAL  : +14m19s649ms
+        PSS/USS (1 entries):
+          SOn /Norm/ImpBg  : 2 samples 7.7MB 12MB 16MB / 4.3MB 7.8MB 11MB
+        myID=27d548c mCommonProcess=27d548c mPackage=com.jx.inputmethod.pinyin
+      Service com.jx.inputmethod.pinyin.PinyinDecoderService:
+        Process: com.jx.inputmethod.pinyin
+        Running op count 1:
+          SOn /Norm: +14m4s724ms
+              TOTAL: +14m4s724ms
+        Bound op count 1:
+          SOn /Norm: +14m4s671ms
+              TOTAL: +14m4s671ms
+        Executing op count 2:
+          SOn /Norm: +144ms
+              TOTAL: +144ms
+      Service com.jx.inputmethod.pinyin.PinyinIME:
+        Process: com.jx.inputmethod.pinyin
+        Running op count 1:
+          SOn /Norm: +14m4s960ms
+              TOTAL: +14m4s960ms
+        Bound op count 1:
+          SOn /Norm: +14m4s865ms
+              TOTAL: +14m4s865ms
+        Executing op count 2:
+          SOn /Norm: +328ms
+              TOTAL: +328ms
+  * com.sprd.aganisttest / 1000 / v1:
+      Process com.sprd.aganisttest (unique, 2 entries):
+        SOn /Norm/Receivr: +37ms
+                  CchEmty: +1m5s467ms
+                  TOTAL  : +1m5s504ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.2MB 3.2MB 3.2MB / 1.0MB 1.0MB 1.0MB
+        myID=f67d7d5 mCommonProcess=f67d7d5 mPackage=com.sprd.aganisttest
+  * com.android.soundrecorder / u0a43 / v27:
+      Process com.android.soundrecorder (unique, 2 entries):
+        SOn /Norm/Receivr: +56ms
+                  CchEmty: +13m27s561ms
+                  TOTAL  : +13m27s617ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 5.0MB 5.2MB 5.5MB / 2.5MB 3.0MB 3.5MB
+        myID=6b7fbea mCommonProcess=6b7fbea mPackage=com.android.soundrecorder
+  * plugin.sprd.contactsdefaultcontact / u0a2 / v1:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +30ms
+                  Service: +3ms
+                  Receivr: +63ms
+                  LastAct: +316ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m20s587ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=c13bedb mCommonProcess=f12d78 mPackage=plugin.sprd.contactsdefaultcontact
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+      Service plugin.sprd.contactsdefaultcontact.PreDefineContactsService:
+        Process: android.process.acore
+        Running op count 2:
+          SOn /Norm: +33ms
+              TOTAL: +33ms
+        Started op count 1:
+          SOn /Norm: +29ms
+              TOTAL: +29ms
+        Executing op count 2:
+          SOn /Norm: +13ms
+              TOTAL: +13ms
+  * com.android.defcontainer / u0a5 / v27:
+      Process com.android.defcontainer (unique, 3 entries):
+        SOn /Norm/ImpFg  : +10s149ms
+                  Service: +8ms
+                  CchEmty: +42s192ms
+                  TOTAL  : +52s349ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 3.3MB 4.1MB 4.9MB / 524KB 566KB 608KB
+        myID=55b1c51 mCommonProcess=55b1c51 mPackage=com.android.defcontainer
+      Service com.android.defcontainer.DefaultContainerService:
+        Process: com.android.defcontainer
+        Running op count 1:
+          SOn /Norm: +10s197ms
+              TOTAL: +10s197ms
+        Bound op count 1:
+          SOn /Norm: +10s192ms
+              TOTAL: +10s192ms
+        Executing op count 2:
+          SOn /Norm: +95ms
+              TOTAL: +95ms
+  * com.tencent.mm / u0a80 / v2040:
+      Process com.tencent.mm:push (unique, 3 entries):
+        SOn /Norm/ImpFg  : +9s333ms
+                  Receivr: +62ms
+                  LastAct: +8s219ms
+                  TOTAL  : +17s614ms
+        myID=211ecb6 mCommonProcess=211ecb6 mPackage=com.tencent.mm
+      Process com.tencent.mm (unique, 4 entries):
+        SOn /Norm/Top    : +16s22ms
+                  ImpFg  : +961ms
+                  Receivr: +43ms
+                  LastAct: +9s956ms
+                  TOTAL  : +26s982ms
+        myID=2856db7 mCommonProcess=2856db7 mPackage=com.tencent.mm
+      Service com.tencent.mm.ipcinvoker.wx_extension.service.MainProcessIPCService:
+        Process: com.tencent.mm
+        Running op count 1:
+          SOn /Norm: +13s791ms
+              TOTAL: +13s791ms
+        Bound op count 1:
+          SOn /Norm: +13s791ms
+              TOTAL: +13s791ms
+        Executing op count 1:
+          SOn /Norm: +497ms
+              TOTAL: +497ms
+      Service com.tencent.mm.booter.CoreService:
+        Process: com.tencent.mm:push
+        Running op count 1:
+          SOn /Norm: +17s846ms
+              TOTAL: +17s846ms
+        Bound op count 1:
+          SOn /Norm: +17s846ms
+              TOTAL: +17s846ms
+        Executing op count 1:
+          SOn /Norm: +9s317ms
+              TOTAL: +9s317ms
+      Service com.tencent.mm.service.ProcessService$MMProcessService:
+        Process: com.tencent.mm
+        Running op count 1:
+          SOn /Norm: +23s827ms
+              TOTAL: +23s827ms
+        Bound op count 1:
+          SOn /Norm: +23s827ms
+              TOTAL: +23s827ms
+        Executing op count 1:
+          SOn /Norm: +2s454ms
+              TOTAL: +2s454ms
+  * com.android.carrierconfig / u0a4 / v1:
+      Process com.android.carrierconfig (unique, 3 entries):
+        SOn /Norm/ImpFg  : +569ms
+                  Service: +67ms
+                  CchEmty: +14m6s984ms
+                  TOTAL  : +14m7s620ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 3.2MB 3.4MB 3.5MB / 532KB 658KB 844KB
+        myID=cc7a924 mCommonProcess=cc7a924 mPackage=com.android.carrierconfig
+      Service com.android.carrierconfig.DefaultCarrierConfigServiceEx:
+        Process: com.android.carrierconfig
+        Running op count 4:
+          SOn /Norm: +738ms
+              TOTAL: +738ms
+        Bound op count 4:
+          SOn /Norm: +673ms
+              TOTAL: +673ms
+        Executing op count 8:
+          SOn /Norm: +222ms
+              TOTAL: +222ms
+  * android / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m57s513ms
+                  TOTAL  : +14m57s513ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=c642c8d mCommonProcess=e481e42 mPackage=android
+        Common Proc: system/1000 pkg=android
+  * com.android.provision / u0a16 / v27:
+      Process com.android.provision (unique, 2 entries):
+        SOn /Norm/Top    : +1s582ms
+                  CchEmty: +38s992ms
+                  TOTAL  : +40s574ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.5MB 4.5MB 4.5MB / 572KB 572KB 572KB
+        myID=6f92e53 mCommonProcess=6f92e53 mPackage=com.android.provision
+  * com.example.demo1 / u0a81 / v1:
+      Process com.example.demo1 (unique, 4 entries):
+        SOn /Norm/Top    : +2s691ms
+                  ImpBg  : +220ms
+                  Service: +22s189ms
+                  LastAct: +10s931ms
+                  TOTAL  : +36s31ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 1 samples 12MB 12MB 12MB / 1.3MB 1.3MB 1.3MB
+        myID=b683390 mCommonProcess=b683390 mPackage=com.example.demo1
+  * com.android.calendar / u0a61 / v27:
+      Process com.android.calendar (unique, 3 entries):
+        SOn /Norm/Service: +30s56ms
+                  Receivr: +225ms
+                  CchEmty: +13m20s645ms
+                  TOTAL  : +13m50s926ms
+        PSS/USS (2 entries):
+          SOn /Norm/Service: 1 samples 7.8MB 7.8MB 7.8MB / 5.0MB 5.0MB 5.0MB
+                    CchEmty: 2 samples 7.8MB 7.9MB 7.9MB / 4.2MB 4.3MB 4.4MB
+        myID=c740489 mCommonProcess=c740489 mPackage=com.android.calendar
+      Service com.android.calendar.alerts.InitAlarmsService:
+        Process: com.android.calendar
+        Running op count 2:
+          SOn /Norm: +30s48ms
+              TOTAL: +30s48ms
+        Started op count 1:
+          SOn /Norm: +30s47ms
+              TOTAL: +30s47ms
+        Executing op count 2:
+          SOn /Norm: +4ms
+              TOTAL: +4ms
+      Service com.android.calendar.alerts.AlertService:
+        Process: com.android.calendar
+        Running op count 4:
+          SOn /Norm: +8s87ms
+              TOTAL: +8s87ms
+        Started op count 2:
+          SOn /Norm: +8s81ms
+              TOTAL: +8s81ms
+        Executing op count 4:
+          SOn /Norm: +19ms
+              TOTAL: +19ms
+  * com.android.providers.settings / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m57s513ms
+                  TOTAL  : +14m57s513ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=1bddc8e mCommonProcess=e481e42 mPackage=com.android.providers.settings
+        Common Proc: system/1000 pkg=android
+  * com.sprd.applock / 1000 / v27:
+      Process com.sprd.applock (unique, 1 entries):
+        SOn /Norm/Persist: +14m25s659ms
+                  TOTAL  : +14m25s659ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 3.6MB 3.8MB 4.1MB / 1.4MB 1.6MB 1.8MB
+        myID=ade5caf mCommonProcess=ade5caf mPackage=com.sprd.applock
+  * com.android.cellbroadcastreceiver / u0a6 / v27:
+      Process com.android.cellbroadcastreceiver (unique, 2 entries):
+        SOn /Norm/Receivr: +315ms
+                  CchEmty: +13m48s604ms
+                  TOTAL  : +13m48s919ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 3.8MB 4.4MB 5.1MB / 1.1MB 1.6MB 2.0MB
+        myID=f44f8bc mCommonProcess=f44f8bc mPackage=com.android.cellbroadcastreceiver
+  * com.android.onetimeinitializer / u0a14 / v27:
+      Process com.android.onetimeinitializer (unique, 2 entries):
+        SOn /Norm/Receivr: +81ms
+                  CchEmty: +13m24s439ms
+                  TOTAL  : +13m24s520ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 2.9MB 3.2MB 3.4MB / 396KB 742KB 1.1MB
+        myID=18f6045 mCommonProcess=18f6045 mPackage=com.android.onetimeinitializer
+  * com.ztapp.callbyvideo / u0a65 / v121:
+      Process com.ztapp.callbyvideo (unique, 5 entries):
+        SOn /Norm/Top    : +2s202ms
+                  ImpBg  : +1s108ms
+                  LastAct: +58ms
+                  CchAct : +22s371ms
+                  CchEmty: +3s548ms
+                  TOTAL  : +29s287ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchAct : 1 samples 16MB 16MB 16MB / 11MB 11MB 11MB
+        myID=3bf339a mCommonProcess=3bf339a mPackage=com.ztapp.callbyvideo
+  * com.android.server.telecom / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m30s475ms
+                  TOTAL  : +14m30s475ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=d3e14cb mCommonProcess=e481e42 mPackage=com.android.server.telecom
+        Common Proc: system/1000 pkg=android
+      Service com.android.server.telecom.components.BluetoothPhoneService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m28s261ms
+              TOTAL: +14m28s261ms
+        Started op count 1:
+          SOn /Norm: +14m28s261ms
+              TOTAL: +14m28s261ms
+        Executing op count 1:
+          SOn /Norm: +214ms
+              TOTAL: +214ms
+      Service com.android.server.telecom.components.TelecomService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m30s475ms
+              TOTAL: +14m30s475ms
+        Bound op count 1:
+          SOn /Norm: +14m30s475ms
+              TOTAL: +14m30s475ms
+        Executing op count 1:
+          SOn /Norm: +2s215ms
+              TOTAL: +2s215ms
+  * com.android.keychain / 1000 / v27:
+      Process com.android.keychain (unique, 3 entries):
+        SOn /Norm/ImpFg  : +152ms
+                  Service: +8ms
+                  CchEmty: +1m38s749ms
+                  TOTAL  : +1m38s909ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.5MB 3.5MB 3.5MB / 656KB 656KB 656KB
+        myID=dc6e4a8 mCommonProcess=dc6e4a8 mPackage=com.android.keychain
+      Service com.android.keychain.KeyChainService:
+        Process: com.android.keychain
+        Running op count 2:
+          SOn /Norm: +204ms
+              TOTAL: +204ms
+        Bound op count 2:
+          SOn /Norm: +198ms
+              TOTAL: +198ms
+        Executing op count 4:
+          SOn /Norm: +126ms
+              TOTAL: +126ms
+  * com.android.dialer / u0a2 / v150000:
+      Process com.android.dialer (unique, 4 entries):
+        SOn /Norm/ImpBg  : +55ms
+                  Service: +24ms
+                  Receivr: +367ms
+                  CchEmty: +14m5s198ms
+                  TOTAL  : +14m5s644ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 9.4MB 9.6MB 10MB / 4.3MB 4.8MB 5.0MB
+        myID=94abbc1 mCommonProcess=94abbc1 mPackage=com.android.dialer
+      Service com.android.voicemail.impl.StatusCheckJobService:
+        Process: com.android.dialer
+        Running op count 1:
+          SOn /Norm: +81ms
+              TOTAL: +81ms
+        Bound op count 1:
+          SOn /Norm: +55ms
+              TOTAL: +55ms
+        Executing op count 2:
+          SOn /Norm: +46ms
+              TOTAL: +46ms
+  * com.android.gallery3d / u0a20 / v40030:
+      Process com.android.gallery3d (unique, 2 entries):
+        SOn /Norm/Receivr: +355ms
+                  CchEmty: +2m29s479ms
+                  TOTAL  : +2m29s834ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 8.7MB 8.7MB 8.7MB
+        myID=24cef66 mCommonProcess=24cef66 mPackage=com.android.gallery3d
+  * com.spreadtrum.ims / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m24s126ms
+                  TOTAL  : +14m24s126ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=a9732a7 mCommonProcess=893c4eb mPackage=com.spreadtrum.ims
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+      Service com.spreadtrum.ims.ImsService:
+        Process: com.android.phone
+        Running op count 1:
+          SOn /Norm: +14m24s126ms
+              TOTAL: +14m24s126ms
+        Started op count 1:
+          SOn /Norm: +14m23s649ms
+              TOTAL: +14m23s649ms
+        Bound op count 1:
+          SOn /Norm: +14m24s126ms
+              TOTAL: +14m24s126ms
+        Executing op count 1:
+          SOn /Norm: +861ms
+              TOTAL: +861ms
+  * com.spreadtrum.vce / 1000 / v27:
+      Process com.spreadtrum.vce (unique, 1 entries):
+        SOn /Norm/Persist: +14m25s613ms
+                  TOTAL  : +14m25s613ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 6.8MB 7.0MB 7.3MB / 680KB 1.8MB 2.9MB
+        myID=7f9a354 mCommonProcess=7f9a354 mPackage=com.spreadtrum.vce
+  * com.jx.childlike / u0a74 / v24:
+      Process com.jx.childlike (unique, 4 entries):
+        SOn /Norm/Top    : +5s902ms
+                  ImpBg  : +1s786ms
+                  Service: +40s607ms
+                  LastAct: +3s3ms
+                  TOTAL  : +51s298ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 2 samples 16MB 16MB 16MB / 5.5MB 7.2MB 8.9MB
+        myID=c0652fd mCommonProcess=c0652fd mPackage=com.jx.childlike
+  * android.ext.services / u0a7 / v1:
+      Process android.ext.services (unique, 3 entries):
+        SOn /Norm/ImpFg  : +232ms
+                  Service: +99ms
+                  CchEmty: +667ms
+                  TOTAL  : +998ms
+        myID=8a89bf2 mCommonProcess=8a89bf2 mPackage=android.ext.services
+      Service android.ext.services.storage.CacheQuotaServiceImpl:
+        Process: android.ext.services
+        Running op count 1:
+          SOn /Norm: +31s485ms
+              TOTAL: +31s485ms
+        Bound op count 1:
+          SOn /Norm: +31s384ms
+              TOTAL: +31s384ms
+        Executing op count 2:
+          SOn /Norm: +173ms
+              TOTAL: +173ms
+  * com.android.packageinstaller / u0a21 / v27:
+      Process com.android.packageinstaller (unique, 4 entries):
+        SOn /Norm/Top    : +2s519ms
+                  Receivr: +56ms
+                  LastAct: +711ms
+                  CchEmty: +13m46s291ms
+                  TOTAL  : +13m49s577ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 3 samples 6.1MB 11MB 14MB / 2.7MB 3.4MB 3.9MB
+        myID=e7a5243 mCommonProcess=e7a5243 mPackage=com.android.packageinstaller
+  * com.jx.launcher / 1000 / v1088:
+      Process com.jx.launcher (unique, 4 entries):
+        SOn /Norm/Top    : +1m28s287ms
+                  ImpFg  : +11s524ms
+                  ImpBg  : +3s771ms
+                  Service: +12m41s586ms
+                  TOTAL  : +14m25s168ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 3 samples 28MB 29MB 30MB / 17MB 19MB 20MB
+                    Service: 4 samples 27MB 32MB 38MB / 18MB 20MB 21MB
+        myID=1f7a0c0 mCommonProcess=1f7a0c0 mPackage=com.jx.launcher
+      Service com.zmapp.aidldemo.WatchInfoService:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +50s879ms
+              TOTAL: +50s879ms
+        Bound op count 1:
+          SOn /Norm: +50s879ms
+              TOTAL: +50s879ms
+        Executing op count 1:
+          SOn /Norm: +23ms
+              TOTAL: +23ms
+      Service com.jx.launcher.notification.NotificationListener:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +14m24s780ms
+              TOTAL: +14m24s780ms
+        Started op count 1:
+          SOn /Norm: +14m24s780ms
+              TOTAL: +14m24s780ms
+        Executing op count 2:
+          SOn /Norm: +564ms
+              TOTAL: +564ms
+      Service com.zmapp.aee.AEEService:
+        Process: com.jx.launcher
+        Running op count 1:
+          SOn /Norm: +14m24s622ms
+              TOTAL: +14m24s622ms
+        Started op count 1:
+          SOn /Norm: +14m24s622ms
+              TOTAL: +14m24s622ms
+        Executing op count 2:
+          SOn /Norm: +380ms
+              TOTAL: +380ms
+  * com.android.carrierdefaultapp / u0a34 / v27:
+      Process com.android.carrierdefaultapp (unique, 2 entries):
+        SOn /Norm/Receivr: +173ms
+                  CchEmty: +37s940ms
+                  TOTAL  : +38s113ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.6MB 3.6MB 3.6MB / 812KB 812KB 812KB
+        myID=dea21f9 mCommonProcess=dea21f9 mPackage=com.android.carrierdefaultapp
+  * com.android.managedprovisioning / u0a15 / v27:
+      Process com.android.managedprovisioning (unique, 2 entries):
+        SOn /Norm/Receivr: +130ms
+                  CchEmty: +3m4s681ms
+                  TOTAL  : +3m4s811ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 4.3MB 4.3MB 4.3MB / 1.7MB 1.7MB 1.7MB
+        myID=2a0853e mCommonProcess=2a0853e mPackage=com.android.managedprovisioning
+  * com.divo.phone / 1000 / v27:
+      Process com.divo.phone (unique, 3 entries):
+        SOn /Norm/Top    : +1m36s547ms
+                  LastAct: +596ms
+                  CchEmty: +11m1s430ms
+                  TOTAL  : +12m38s573ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 1 samples 12MB 12MB 12MB / 5.7MB 5.7MB 5.7MB
+                    CchEmty: 2 samples 8.7MB 9.8MB 11MB / 1.1MB 2.3MB 3.5MB
+        myID=2e5cf9f mCommonProcess=2e5cf9f mPackage=com.divo.phone
+  * com.spreadtrum.vowifi / 1000 / v27:
+      Process com.spreadtrum.vowifi (unique, 1 entries):
+        SOn /Norm/ImpFg  : +14m23s504ms
+                  TOTAL  : +14m23s504ms
+        PSS/USS (1 entries):
+          SOn /Norm/ImpFg  : 2 samples 11MB 12MB 13MB / 5.7MB 6.6MB 7.5MB
+        myID=51608ec mCommonProcess=51608ec mPackage=com.spreadtrum.vowifi
+      Service com.spreadtrum.vowifi.service.CallService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s568ms
+              TOTAL: +14m23s568ms
+        Bound op count 1:
+          SOn /Norm: +14m23s568ms
+              TOTAL: +14m23s568ms
+        Executing op count 1:
+          SOn /Norm: +836ms
+              TOTAL: +836ms
+      Service com.spreadtrum.vowifi.service.UTService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s546ms
+              TOTAL: +14m23s546ms
+        Bound op count 1:
+          SOn /Norm: +14m23s546ms
+              TOTAL: +14m23s546ms
+        Executing op count 1:
+          SOn /Norm: +844ms
+              TOTAL: +844ms
+      Service com.spreadtrum.vowifi.service.RegisterService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s544ms
+              TOTAL: +14m23s544ms
+        Bound op count 1:
+          SOn /Norm: +14m23s544ms
+              TOTAL: +14m23s544ms
+        Executing op count 1:
+          SOn /Norm: +846ms
+              TOTAL: +846ms
+      Service com.spreadtrum.vowifi.service.SecurityService:
+        Process: com.spreadtrum.vowifi
+        Running op count 1:
+          SOn /Norm: +14m23s540ms
+              TOTAL: +14m23s540ms
+        Bound op count 1:
+          SOn /Norm: +14m23s540ms
+              TOTAL: +14m23s540ms
+        Executing op count 1:
+          SOn /Norm: +848ms
+              TOTAL: +848ms
+  * com.sprd.bootres / 1000 / v1:
+      Process com.sprd.bootres (unique, 2 entries):
+        SOn /Norm/Receivr: +30ms
+                  CchEmty: +12m27s973ms
+                  TOTAL  : +12m28s3ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 2.9MB 3.1MB 3.3MB / 544KB 0.93MB 1.3MB
+        myID=3a1e4b5 mCommonProcess=3a1e4b5 mPackage=com.sprd.bootres
+  * com.android.settings / 1000 / v27:
+      Process com.android.settings:CryptKeeper (unique, 2 entries):
+        SOn /Norm/Top    : +676ms
+                  CchEmty: +3s5ms
+                  TOTAL  : +3s681ms
+        myID=89bb74a mCommonProcess=89bb74a mPackage=com.android.settings
+      Process com.android.settings (unique, 5 entries):
+        SOn /Norm/Top    : +10m50s262ms
+                  Receivr: +1s421ms
+                  LastAct: +26s993ms
+                  CchAct : +21s93ms
+                  CchEmty: +2m45s592ms
+                  TOTAL  : +14m25s361ms
+        PSS/USS (3 entries):
+          SOn /Norm/Top    : 7 samples 39MB 43MB 44MB / 22MB 25MB 27MB
+                    CchAct : 1 samples 46MB 46MB 46MB / 28MB 28MB 28MB
+                    CchEmty: 2 samples 21MB 29MB 37MB / 6.0MB 12MB 19MB
+        myID=961c6bb mCommonProcess=961c6bb mPackage=com.android.settings
+  * plugin.sprd.antitheft / 1000 / v27:
+      Process plugin.sprd.antitheft (unique, 3 entries):
+        SOn /Norm/Service: +94ms
+                  ServRst: +93ms
+                  CchEmty: +38s930ms
+                  TOTAL  : +39s117ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 3.7MB 3.7MB 3.7MB / 500KB 500KB 500KB
+        myID=8d0c7d8 mCommonProcess=8d0c7d8 mPackage=plugin.sprd.antitheft
+      Service plugin.sprd.antitheft.AntitheftService:
+        Process: plugin.sprd.antitheft
+        Running op count 1:
+          SOn /Norm: +191ms
+              TOTAL: +191ms
+        Started op count 1:
+          SOn /Norm: +170ms
+              TOTAL: +170ms
+        Executing op count 1:
+          SOn /Norm: +98ms
+              TOTAL: +98ms
+  * com.sprd.systemupdate / 1000 / v27:
+      Process com.sprd.systemupdate (unique, 2 entries):
+        SOn /Norm/Receivr: +101ms
+                  CchEmty: +13m45s303ms
+                  TOTAL  : +13m45s404ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 3.3MB 3.4MB 3.5MB / 812KB 1.2MB 1.6MB
+        myID=6d91731 mCommonProcess=6d91731 mPackage=com.sprd.systemupdate
+  * com.zmapp.plugin.addfriend / u0a68 / v5:
+      Process com.zmapp.plugin.addfriend (unique, 4 entries):
+        SOn /Norm/Top    : +1s439ms
+                  ImpBg  : +1s542ms
+                  Service: +1s801ms
+                  CchEmty: +1s5ms
+                  TOTAL  : +5s787ms
+        myID=65fe16 mCommonProcess=65fe16 mPackage=com.zmapp.plugin.addfriend
+  * com.android.phone / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m30s435ms
+                  TOTAL  : +14m30s435ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=9dc1397 mCommonProcess=893c4eb mPackage=com.android.phone
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+  * com.sprd.ImsConnectionManager / 1001 / v27:
+      Process com.android.phone (multi, 1 entries):
+        SOn /Norm/Persist: +14m21s227ms
+                  TOTAL  : +14m21s227ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 20MB 22MB 25MB / 13MB 16MB 19MB
+        myID=e768984 mCommonProcess=893c4eb mPackage=com.sprd.ImsConnectionManager
+        Common Proc: com.android.phone/1001 pkg=com.android.phone
+  * com.android.providers.blockednumber / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=676f56d mCommonProcess=f12d78 mPackage=com.android.providers.blockednumber
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+  * com.android.providers.userdictionary / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=ebbe5a2 mCommonProcess=f12d78 mPackage=com.android.providers.userdictionary
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+  * com.yingyonghui.market / u0a76 / v30064263:
+      Process com.yingyonghui.market:pushservice (unique, 2 entries):
+        SOn /Norm/Service: +37s654ms
+                  ServRst: +53ms
+                  TOTAL  : +37s707ms
+        PSS/USS (1 entries):
+          SOn /Norm/Service: 1 samples 7.7MB 7.7MB 7.7MB / 1.6MB 1.6MB 1.6MB
+        myID=3445233 mCommonProcess=3445233 mPackage=com.yingyonghui.market
+      Process com.yingyonghui.market (unique, 3 entries):
+        SOn /Norm/Top    : +14s391ms
+                  ImpBg  : +128ms
+                  Service: +27s241ms
+                  TOTAL  : +41s760ms
+        PSS/USS (2 entries):
+          SOn /Norm/Top    : 1 samples 9.7MB 9.7MB 9.7MB / 6.7MB 6.7MB 6.7MB
+                    Service: 1 samples 23MB 23MB 23MB / 4.6MB 4.6MB 4.6MB
+        myID=b94b9f0 mCommonProcess=b94b9f0 mPackage=com.yingyonghui.market
+      Service com.yingyonghui.market.feature.push.GetuiIntentService:
+        Process: com.yingyonghui.market
+        Running op count 2:
+          SOn /Norm: +30s50ms
+              TOTAL: +30s50ms
+        Started op count 1:
+          SOn /Norm: +30s42ms
+              TOTAL: +30s42ms
+        Executing op count 2:
+          SOn /Norm: +46ms
+              TOTAL: +46ms
+      Service com.igexin.sdk.PushService:
+        Process: com.yingyonghui.market:pushservice
+        Running op count 1:
+          SOn /Norm: +37s707ms
+              TOTAL: +37s707ms
+        Started op count 1:
+          SOn /Norm: +37s707ms
+              TOTAL: +37s707ms
+        Executing op count 2:
+          SOn /Norm: +184ms
+              TOTAL: +184ms
+  * com.android.location.fused / 1000 / v27:
+      Process system (multi, 1 entries):
+        SOn /Norm/Persist: +14m29s276ms
+                  TOTAL  : +14m29s276ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 73MB 73MB 73MB / 58MB 59MB 61MB
+        myID=e9a7b69 mCommonProcess=e481e42 mPackage=com.android.location.fused
+        Common Proc: system/1000 pkg=android
+      Service com.android.location.fused.FusedLocationService:
+        Process: system
+        Running op count 1:
+          SOn /Norm: +14m29s276ms
+              TOTAL: +14m29s276ms
+        Bound op count 1:
+          SOn /Norm: +14m29s276ms
+              TOTAL: +14m29s276ms
+        Executing op count 1:
+          SOn /Norm: +1s64ms
+              TOTAL: +1s64ms
+  * com.android.deskclock / 1000 / v7:
+      Process com.android.deskclock (unique, 2 entries):
+        SOn /Norm/Receivr: +497ms
+                  CchEmty: +13m50s278ms
+                  TOTAL  : +13m50s775ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 6.2MB 6.3MB 6.4MB / 3.1MB 3.3MB 3.5MB
+        myID=596b9ee mCommonProcess=596b9ee mPackage=com.android.deskclock
+  * com.android.systemui / u0a22 / v27:
+      Process com.android.systemui:screenshot (unique, 3 entries):
+        SOn /Norm/ImpFg  : +3s682ms
+                  Service: +38ms
+                  CchEmty: +43s76ms
+                  TOTAL  : +46s796ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 1 samples 12MB 12MB 12MB / 4.8MB 4.8MB 4.8MB
+        myID=9e7de8f mCommonProcess=9e7de8f mPackage=com.android.systemui
+      Process com.android.systemui (unique, 1 entries):
+        SOn /Norm/Persist: +14m30s282ms
+                  TOTAL  : +14m30s282ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 39MB 44MB 49MB / 22MB 27MB 33MB
+        myID=f23851c mCommonProcess=f23851c mPackage=com.android.systemui
+  * com.android.modemnotifier / u0a66 / v1:
+      Process com.android.modemnotifier (unique, 1 entries):
+        SOn /Norm/Persist: +14m25s604ms
+                  TOTAL  : +14m25s604ms
+        PSS/USS (1 entries):
+          SOn /Norm/Persist: 2 samples 3.0MB 3.2MB 3.3MB / 536KB 0.95MB 1.4MB
+        myID=4566525 mCommonProcess=4566525 mPackage=com.android.modemnotifier
+  * com.android.bluetooth / 1002 / v27:
+      Process com.android.bluetooth (unique, 2 entries):
+        SOn /Norm/ImpFg  : +2s175ms
+                  Service: +1s100ms
+                  TOTAL  : +3s275ms
+        myID=b3886fa mCommonProcess=b3886fa mPackage=com.android.bluetooth
+      Service com.android.bluetooth.btservice.AdapterService:
+        Process: com.android.bluetooth
+        Running op count 1:
+          SOn /Norm: +3s326ms
+              TOTAL: +3s326ms
+        Bound op count 1:
+          SOn /Norm: +2s228ms
+              TOTAL: +2s228ms
+        Executing op count 2:
+          SOn /Norm: +1s828ms
+              TOTAL: +1s828ms
+  * com.android.providers.contacts / u0a2 / v27:
+      Process android.process.acore (multi, 5 entries):
+        SOn /Norm/ImpFg  : +1s970ms
+                  Service: +26ms
+                  Receivr: +261ms
+                  LastAct: +37s218ms
+                  CchEmty: +13m20s175ms
+                  TOTAL  : +13m59s650ms
+        PSS/USS (1 entries):
+          SOn /Norm/CchEmty: 2 samples 15MB 16MB 17MB / 7.0MB 8.2MB 9.4MB
+        myID=f8dd4ab mCommonProcess=f12d78 mPackage=com.android.providers.contacts
+        Common Proc: android.process.acore/10002 pkg=com.android.providers.contacts
+
+  Total procs: 0 shown of 51 total
+
+Summary:
+  * system / 1000 / v27:
+           TOTAL: 100% (73MB-73MB-73MB/58MB-59MB-61MB over 2)
+      Persistent: 100% (73MB-73MB-73MB/58MB-59MB-61MB over 2)
+  * com.android.phone / 1001 / v27:
+           TOTAL: 97% (20MB-22MB-25MB/13MB-16MB-19MB over 2)
+      Persistent: 97% (20MB-22MB-25MB/13MB-16MB-19MB over 2)
+  * com.android.systemui / u0a22 / v27:
+           TOTAL: 97% (39MB-44MB-49MB/22MB-27MB-33MB over 2)
+      Persistent: 97% (39MB-44MB-49MB/22MB-27MB-33MB over 2)
+  * com.sprd.applock / 1000 / v27:
+           TOTAL: 96% (3.6MB-3.8MB-4.1MB/1.4MB-1.6MB-1.8MB over 2)
+      Persistent: 96% (3.6MB-3.8MB-4.1MB/1.4MB-1.6MB-1.8MB over 2)
+  * com.spreadtrum.vce / 1000 / v27:
+           TOTAL: 96% (6.8MB-7.0MB-7.3MB/680KB-1.8MB-2.9MB over 2)
+      Persistent: 96% (6.8MB-7.0MB-7.3MB/680KB-1.8MB-2.9MB over 2)
+  * com.android.modemnotifier / u0a66 / v1:
+           TOTAL: 96% (3.0MB-3.2MB-3.3MB/536KB-0.95MB-1.4MB over 2)
+      Persistent: 96% (3.0MB-3.2MB-3.3MB/536KB-0.95MB-1.4MB over 2)
+  * com.jx.launcher / 1000 / v1088:
+           TOTAL: 96% (27MB-31MB-38MB/17MB-19MB-21MB over 7)
+             Top: 9.8% (28MB-29MB-30MB/17MB-19MB-20MB over 3)
+          Imp Fg: 1.3%
+          Imp Bg: 0.42%
+         Service: 85% (27MB-32MB-38MB/18MB-20MB-21MB over 4)
+  * com.spreadtrum.vowifi / 1000 / v27:
+           TOTAL: 96% (11MB-12MB-13MB/5.7MB-6.6MB-7.5MB over 2)
+          Imp Fg: 96% (11MB-12MB-13MB/5.7MB-6.6MB-7.5MB over 2)
+  * com.abupdate.fota_demo_iot / 1000 / v20:
+           TOTAL: 96% (12MB-12MB-13MB/6.0MB-6.9MB-7.8MB over 3)
+          Imp Bg: 3.4%
+         Service: 92% (12MB-12MB-13MB/6.0MB-6.9MB-7.8MB over 3)
+        Receiver: 0.05%
+        (Cached): 0.48%
+  * com.jx.inputmethod.pinyin / u0a72 / v21:
+           TOTAL: 94% (7.7MB-12MB-16MB/4.3MB-7.8MB-11MB over 2)
+          Imp Fg: 0.11%
+          Imp Bg: 94% (7.7MB-12MB-16MB/4.3MB-7.8MB-11MB over 2)
+         Service: 0.01%
+        (Cached): 1.6%
+  * android.process.media / u0a9 / v27:
+           TOTAL: 93% (11MB-12MB-15MB/4.9MB-6.2MB-8.8MB over 3)
+          Imp Fg: 0.03%
+         Service: 92% (11MB-12MB-15MB/4.9MB-6.2MB-8.8MB over 3)
+        Receiver: 0.15%
+      (Last Act): 2.5%
+        (Cached): 1.1% (12MB-12MB-12MB/5.9MB-5.9MB-5.9MB over 1)
+  * com.android.settings / 1000 / v27:
+           TOTAL: 73% (39MB-43MB-44MB/22MB-25MB-27MB over 7)
+             Top: 72% (39MB-43MB-44MB/22MB-25MB-27MB over 7)
+        Receiver: 0.16%
+      (Last Act): 3.0%
+        (Cached): 21% (21MB-35MB-46MB/6.0MB-18MB-28MB over 3)
+  * com.divo.phone / 1000 / v27:
+           TOTAL: 11% (12MB-12MB-12MB/5.7MB-5.7MB-5.7MB over 1)
+             Top: 11% (12MB-12MB-12MB/5.7MB-5.7MB-5.7MB over 1)
+      (Last Act): 0.07%
+        (Cached): 74% (8.7MB-9.8MB-11MB/1.1MB-2.3MB-3.5MB over 2)
+  * com.jx.childlike / u0a74 / v24:
+           TOTAL: 5.4% (16MB-16MB-16MB/5.5MB-7.2MB-8.9MB over 2)
+             Top: 0.66%
+          Imp Bg: 0.20%
+         Service: 4.5% (16MB-16MB-16MB/5.5MB-7.2MB-8.9MB over 2)
+      (Last Act): 0.33%
+  * com.yingyonghui.market / u0a76 / v30064263:
+           TOTAL: 4.7% (9.7MB-17MB-23MB/4.6MB-5.6MB-6.7MB over 2)
+             Top: 1.6% (9.7MB-9.7MB-9.7MB/6.7MB-6.7MB-6.7MB over 1)
+          Imp Bg: 0.01%
+         Service: 3.0% (23MB-23MB-23MB/4.6MB-4.6MB-4.6MB over 1)
+  * com.yingyonghui.market:pushservice / u0a76 / v30064263:
+           TOTAL: 4.2% (7.7MB-7.7MB-7.7MB/1.6MB-1.6MB-1.6MB over 1)
+         Service: 4.2% (7.7MB-7.7MB-7.7MB/1.6MB-1.6MB-1.6MB over 1)
+      Service Rs: 0.01%
+  * com.android.calendar / u0a61 / v27:
+           TOTAL: 3.4% (7.8MB-7.8MB-7.8MB/5.0MB-5.0MB-5.0MB over 1)
+         Service: 3.3% (7.8MB-7.8MB-7.8MB/5.0MB-5.0MB-5.0MB over 1)
+        Receiver: 0.03%
+        (Cached): 89% (7.8MB-7.9MB-7.9MB/4.2MB-4.3MB-4.4MB over 2)
+  * com.example.demo1 / u0a81 / v1:
+           TOTAL: 2.8% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+             Top: 0.30%
+          Imp Bg: 0.02%
+         Service: 2.5% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+      (Last Act): 1.2%
+  * com.sohu.inputmethod.sogou / u0a78 / v1352:
+           TOTAL: 2.1%
+          Imp Fg: 0.40%
+          Imp Bg: 1.7%
+  * com.tencent.mm / u0a80 / v2040:
+           TOTAL: 1.9%
+             Top: 1.8%
+          Imp Fg: 0.11%
+      (Last Act): 1.1%
+  * com.sohu.inputmethod.sogou:daemon / u0a78 / v1352:
+           TOTAL: 1.8%
+         Service: 1.7%
+      Service Rs: 0.02%
+  * com.android.defcontainer / u0a5 / v27:
+           TOTAL: 1.1%
+          Imp Fg: 1.1%
+        (Cached): 4.7% (3.3MB-4.1MB-4.9MB/524KB-566KB-608KB over 2)
+  * com.tencent.mm:push / u0a80 / v2040:
+           TOTAL: 1.0%
+          Imp Fg: 1.0%
+        Receiver: 0.01%
+      (Last Act): 0.92%
+  * com.zmapp.chat / u0a77 / v35:
+           TOTAL: 0.88%
+             Top: 0.51%
+         Service: 0.37%
+      (Last Act): 0.11%
+  * com.zmapp.plugin.addfriend / u0a68 / v5:
+           TOTAL: 0.53%
+             Top: 0.16%
+          Imp Bg: 0.17%
+         Service: 0.20%
+        (Cached): 0.11%
+  * com.android.systemui:screenshot / u0a22 / v27:
+           TOTAL: 0.41%
+          Imp Fg: 0.41%
+        (Cached): 4.8% (12MB-12MB-12MB/4.8MB-4.8MB-4.8MB over 1)
+  * com.ztapp.callbyvideo / u0a65 / v121:
+           TOTAL: 0.37%
+             Top: 0.25%
+          Imp Bg: 0.12%
+      (Last Act): 0.01%
+        (Cached): 2.9% (16MB-16MB-16MB/11MB-11MB-11MB over 1)
+  * com.android.bluetooth / 1002 / v27:
+           TOTAL: 0.36%
+          Imp Fg: 0.24%
+         Service: 0.12%
+  * com.sprd.engineermode / 1000 / v1:
+           TOTAL: 0.34%
+          Imp Bg: 0.08%
+        Receiver: 0.26%
+        (Cached): 90% (9.0MB-9.5MB-9.8MB/5.6MB-6.2MB-6.5MB over 3)
+  * com.android.packageinstaller / u0a21 / v27:
+           TOTAL: 0.29%
+             Top: 0.28%
+        Receiver: 0.01%
+      (Last Act): 0.08%
+        (Cached): 92% (6.1MB-11MB-14MB/2.7MB-3.4MB-3.9MB over 3)
+  * android.process.acore / u0a2 / v27:
+           TOTAL: 0.25%
+          Imp Fg: 0.22%
+        Receiver: 0.03%
+      (Last Act): 4.1%
+        (Cached): 89% (15MB-16MB-17MB/7.0MB-8.2MB-9.4MB over 2)
+  * com.zmapp.sms / 1000 / v101:
+           TOTAL: 0.19%
+             Top: 0.19%
+      (Last Act): 0.62% (13MB-13MB-13MB/8.7MB-8.7MB-8.7MB over 1)
+        (Cached): 4.1% (12MB-12MB-12MB/1.3MB-1.3MB-1.3MB over 1)
+  * com.android.provision / u0a16 / v27:
+           TOTAL: 0.18%
+             Top: 0.18%
+        (Cached): 4.3% (4.5MB-4.5MB-4.5MB/572KB-572KB-572KB over 1)
+  * com.android.settings:CryptKeeper / 1000 / v27:
+           TOTAL: 0.08%
+             Top: 0.08%
+        (Cached): 0.33%
+  * com.android.carrierconfig / u0a4 / v1:
+           TOTAL: 0.07%
+          Imp Fg: 0.06%
+         Service: 0.01%
+        (Cached): 94% (3.2MB-3.4MB-3.5MB/532KB-658KB-844KB over 3)
+  * com.android.providers.calendar / u0a19 / v27:
+           TOTAL: 0.06%
+          Imp Fg: 0.02%
+         Service: 0.01%
+        Receiver: 0.03%
+      (Last Act): 15%
+        (Cached): 79% (4.9MB-4.9MB-4.9MB/1.4MB-1.4MB-1.4MB over 1)
+  * com.android.deskclock / 1000 / v7:
+           TOTAL: 0.06%
+        Receiver: 0.06%
+        (Cached): 92% (6.2MB-6.3MB-6.4MB/3.1MB-3.3MB-3.5MB over 2)
+  * com.android.dialer / u0a2 / v150000:
+           TOTAL: 0.05%
+          Imp Bg: 0.01%
+        Receiver: 0.04%
+        (Cached): 94% (9.4MB-9.6MB-10MB/4.3MB-4.8MB-5.0MB over 3)
+  * com.android.gallery3d / u0a20 / v40030:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 17% (12MB-12MB-12MB/8.7MB-8.7MB-8.7MB over 1)
+  * android.ext.services / u0a7 / v1:
+           TOTAL: 0.04%
+          Imp Fg: 0.03%
+         Service: 0.01%
+        (Cached): 0.07%
+  * com.android.messaging / u0a50 / v1000210:
+           TOTAL: 0.04%
+          Imp Fg: 0.01%
+         Service: 0.03%
+      (Last Act): 2.2%
+        (Cached): 87% (12MB-12MB-12MB/8.3MB-8.3MB-8.3MB over 1)
+  * com.android.cellbroadcastreceiver / u0a6 / v27:
+           TOTAL: 0.04%
+        Receiver: 0.04%
+        (Cached): 92% (3.8MB-4.4MB-5.1MB/1.1MB-1.6MB-2.0MB over 3)
+  * plugin.sprd.antitheft / 1000 / v27:
+           TOTAL: 0.02%
+         Service: 0.01%
+      Service Rs: 0.01%
+        (Cached): 4.3% (3.7MB-3.7MB-3.7MB/500KB-500KB-500KB over 1)
+  * com.android.carrierdefaultapp / u0a34 / v27:
+           TOTAL: 0.02%
+        Receiver: 0.02%
+        (Cached): 4.2% (3.6MB-3.6MB-3.6MB/812KB-812KB-812KB over 1)
+  * com.android.keychain / 1000 / v27:
+           TOTAL: 0.02%
+          Imp Fg: 0.02%
+        (Cached): 11% (3.5MB-3.5MB-3.5MB/656KB-656KB-656KB over 1)
+  * com.android.managedprovisioning / u0a15 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 21% (4.3MB-4.3MB-4.3MB/1.7MB-1.7MB-1.7MB over 1)
+  * com.sprd.systemupdate / 1000 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 92% (3.3MB-3.4MB-3.5MB/812KB-1.2MB-1.6MB over 2)
+  * com.android.onetimeinitializer / u0a14 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 90% (2.9MB-3.2MB-3.4MB/396KB-742KB-1.1MB over 2)
+  * com.android.soundrecorder / u0a43 / v27:
+           TOTAL: 0.01%
+        Receiver: 0.01%
+        (Cached): 90% (5.0MB-5.2MB-5.5MB/2.5MB-3.0MB-3.5MB over 2)
+  * com.sprd.aganisttest / 1000 / v1:
+        (Cached): 7.3% (3.2MB-3.2MB-3.2MB/1.0MB-1.0MB-1.0MB over 1)
+  * com.sprd.bootres / 1000 / v1:
+        (Cached): 83% (2.9MB-3.1MB-3.3MB/544KB-0.93MB-1.3MB over 2)
+
+Run time Stats:
+  SOn /Norm: +14m58s58ms
+      TOTAL: +14m58s58ms
+
+Memory usage:
+  Kernel : 64MB (16 samples)
+  Native : 142MB (16 samples)
+  Persist: 151MB (12 samples)
+  Top    : 35MB (22 samples)
+  ImpFg  : 12MB (21 samples)
+  ImpBg  : 12MB (21 samples)
+  Service: 52MB (42 samples)
+  Receivr: 132KB (60 samples)
+  LastAct: 3.3MB (24 samples)
+  CchAct : 2.2MB (7 samples)
+  CchEmty: 107MB (50 samples)
+  Cached : 262MB (16 samples)
+  Free   : 36MB (16 samples)
+  Z-Ram  : 27MB (16 samples)
+  TOTAL  : 0.89GB
+  ServRst: 880 (3 samples)
+
+          Start time: 2019-01-01 08:06:27
+  Total elapsed time: +15m27s505ms (partial) (swapped-out-pss) libart.so
+
+Internal state:
+  mRunning=false
+
+Available pages by page size:
+Zone   0       Unmovable      0     0     0     0     1     0     1     1     0     1     8
+Zone   0         Movable      0     1     1     1     0     0     1     1     0     1    53
+Zone   0     Reclaimable      1     0     1     0     0     0     3     4     1     1     0
+Zone   0      HighAtomic      0     0     0     0     0     0     0     0     0     0     0
+Zone   0          Detour      0     0     0     0     0     0     0     0     0     0     4
+Zone   0       Unmovable      0     0     1     1     1     1     0     0     1     1     0
+Zone   0         Movable      0     1     0     0     0     1     0     1     0     1    51
+Zone   0     Reclaimable      0     0     0     0     0     0     0     0     0     0     0
+Zone   0      HighAtomic      0     0     0     0     0     0     0     0     0     0     0
+Zone   0          Detour      0     0     0     0     0     0     0     0     0     0     0
+--------- 0.415s was the duration of dumpsys procstats, ending at: 2023-05-22 17:52:12

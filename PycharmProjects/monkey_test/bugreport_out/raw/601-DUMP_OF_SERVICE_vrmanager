@@ -1,0 +1,29 @@
+********* Dump of VrManagerService *********
+VR mode is currently: allowed
+Persistent VR mode is currently: disabled
+Currently bound VR listener service: None
+Currently bound VR compositor service: None
+Previous state transitions:
+
+  None
+
+
+Remote Callbacks:
+  com.android.server.UiModeManagerService$5@ce6def7,
+  android.service.vr.IVrStateCallbacks$Stub$Proxy@9cb042f,
+  com.android.server.power.PowerManagerService$2@1b6fc31,
+  com.android.server.policy.ImmersiveModeConfirmation$2@9320d8
+
+Persistent Vr State Remote Callbacks:
+  com.android.server.am.VrController$1@f777c2c,
+  com.android.server.vr.Vr2dDisplay$1@7b9062a,
+  com.android.server.policy.PhoneWindowManager$4@1c1e3bb
+
+Installed VrListenerService components:
+None
+Enabled VrListenerService components:
+None
+
+
+********* End of VrManagerService Dump *********
+--------- 0.002s was the duration of dumpsys vrmanager, ending at: 2023-05-22 17:52:12

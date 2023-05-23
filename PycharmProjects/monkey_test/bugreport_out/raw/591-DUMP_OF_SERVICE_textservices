@@ -1,0 +1,10 @@
+Current Text Services Manager state:
+  Spell Checkers:
+
+  Spell Checker Bind Groups:
+
+  mSettings:
+    mCurrentUserId=0
+    mCurrentProfileIds=[0]
+    mCopyOnWrite=false
+--------- 0.001s was the duration of dumpsys textservices, ending at: 2023-05-22 17:52:12

@@ -1,0 +1,62 @@
+Disks:
+
+Volumes:
+  VolumeInfo{emulated}:
+    type=EMULATED diskId=null partGuid=null mountFlags=PRIMARY|VISIBLE mountUserId=-1 state=MOUNTED 
+    fsType=null fsUuid=null fsLabel=null 
+    path=/storage/emulated internalPath=/data/media linkName=null 
+
+Records:
+
+Primary storage UUID: null
+Internal storage (null) total size: 16000000000 (14.901161 GB)
+Force adoptable: false
+
+Local unlocked users: [0]
+System unlocked users: [0]
+
+mObbMounts:
+
+mObbPathToStateMap:
+
+mConnector:
+  2019-01-01T00:07:24.374 - RCV <- {200 28 Command succeeded}
+  2019-01-01T00:07:24.376 - SND -> {29 volume remount_uid 10043 default}
+  2019-01-01T00:07:24.386 - RCV <- {200 29 Command succeeded}
+  2019-01-01T00:07:24.390 - SND -> {30 volume remount_uid 10025 read}
+  2019-01-01T00:07:24.399 - RCV <- {200 30 Command succeeded}
+  2019-01-01T00:07:24.401 - SND -> {31 volume remount_uid 10025 write}
+  2019-01-01T00:07:24.410 - RCV <- {200 31 Command succeeded}
+  2019-01-01T00:07:24.505 - SND -> {32 volume reset}
+  2019-01-01T00:07:24.506 - RCV <- {651 emulated 7}
+  2019-01-01T00:07:24.507 - RCV <- {659 emulated}
+  2019-01-01T00:07:24.508 - RCV <- {650 emulated 2 "" "" ""}
+  2019-01-01T00:07:24.508 - RCV <- {651 emulated 0}
+  2019-01-01T00:07:24.509 - RCV <- {200 32 Command succeeded}
+  2019-01-01T00:07:24.517 - SND -> {33 volume user_added 0 0}
+  2019-01-01T00:07:24.517 - RCV <- {200 33 Command succeeded}
+  2019-01-01T00:07:24.523 - SND -> {34 volume mount emulated 3 -1}
+  2019-01-01T00:07:24.524 - RCV <- {651 emulated 1}
+  2019-01-01T00:07:24.527 - RCV <- {656 emulated /data/media}
+  2019-01-01T00:07:24.528 - RCV <- {655 emulated /storage/emulated}
+  2019-01-01T00:07:24.579 - RCV <- {651 emulated 2}
+  2019-01-01T00:07:24.580 - RCV <- {200 34 Command succeeded}
+  2019-01-01T00:07:29.068 - SND -> {35 volume user_started 0}
+  2019-01-01T00:07:29.072 - RCV <- {200 35 Command succeeded}
+  2023-05-22T17:51:45.647 - SND -> {36 volume mkdirs /storage/emulated/0/Android/data/com.tencent.mm/cache/}
+  2023-05-22T17:51:45.648 - RCV <- {200 36 Command succeeded}
+  
+  Pending requests:
+
+mCryptConnector:
+  2019-01-01T00:06:57.951 - SND -> {1 cryptfs getfield SystemLocale}
+  2019-01-01T00:06:57.963 - RCV <- {200 1 -1}
+  2019-01-01T00:07:24.502 - SND -> {2 cryptfs unlock_user_key 0 0 ! !}
+  2019-01-01T00:07:24.504 - RCV <- {200 2 Command succeeded}
+  2019-01-01T00:07:28.484 - SND -> {3 cryptfs prepare_user_storage ! 0 0 2}
+  2019-01-01T00:07:28.487 - RCV <- {200 3 Command succeeded}
+  
+  Pending requests:
+
+Last maintenance: 2019-01-01 00:07:20
+--------- 0.010s was the duration of dumpsys mount, ending at: 2023-05-22 17:52:10

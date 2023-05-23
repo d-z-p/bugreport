@@ -1,0 +1,5 @@
+Latency: 1ms [512B Data Write]
+Data-Free: 11365996K / 12575708K total = 90% free
+Cache-Free: 11365996K / 12575708K total = 90% free
+System-Free: 142332K / 1952384K total = 7% free
+--------- 0.011s was the duration of dumpsys diskstats, ending at: 2023-05-22 17:52:09

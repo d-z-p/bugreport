@@ -1,0 +1,38 @@
+    DisplayContentsAnimator #0:
+      Window #0: WindowStateAnimator{b756b45 com.android.systemui.ImageWallpaper}
+      Window #1: WindowStateAnimator{8b33075 com.jx.launcher/com.jx.launcher.Launcher}
+      Window #2: WindowStateAnimator{c358e66 com.android.documentsui/com.android.documentsui.files.FilesActivity}
+      Window #3: WindowStateAnimator{d14e5a7 PopupWindow:a8de0ae}
+      Window #4: WindowStateAnimator{c8d780a com.android.settings/com.android.settings.Settings$StorageUseActivity}
+      Window #5: WindowStateAnimator{48b587b PopupWindow:754c198}
+      Window #6: WindowStateAnimator{e6c5698 com.zmapp.sms/com.zmapp.sms.MainActivity}
+      Window #7: WindowStateAnimator{8135ef1 com.android.deskclock/com.android.deskclock.DeskClock}
+      Window #8: WindowStateAnimator{6930ad6 com.sprd.fileexplorer/com.sprd.fileexplorer.activities.FileManagerActivity}
+      Window #9: WindowStateAnimator{16d0157 com.zmapp.album/com.zmapp.album.MainActivity}
+      Window #10: WindowStateAnimator{21c4444 com.zmapp.album/com.zmapp.album.ImageBrowseNewActivity}
+      Window #11: WindowStateAnimator{36df92d com.android.music/com.android.music.AlbumBrowserActivity}
+      Window #12: WindowStateAnimator{d8cfe62 com.goodix.health/com.goodix.health.main.BloodOxygenActivity}
+      Window #13: WindowStateAnimator{c565bf3 com.goodix.health/com.goodix.health.main.BloodOxygenActivity}
+      Window #14: WindowStateAnimator{1bb60b0 com.jx.watchos.contact/com.jx.watchos.contact.MainActivity}
+      Window #15: WindowStateAnimator{c5dfb29 com.jx.watchos.contact/com.jx.watchos.contact.AddContactActivity}
+      Window #16: WindowStateAnimator{1409eae SubPanel:com.jx.watchos.contact/com.jx.watchos.contact.AddContactActivity}
+      Window #17: WindowStateAnimator{170c44f com.jx.launcher/com.jx.launcher.Launcher}
+      Window #18: WindowStateAnimator{cedd7dc com.android.settings/com.android.settings.Settings2}
+      Window #19: WindowStateAnimator{93220e5 com.android.settings/com.android.settings.Settings$DisplaySettingsActivity}
+      Window #20: WindowStateAnimator{67bf7ba com.android.settings/com.android.settings.Settings$DisplaySettingsActivity}
+      Window #21: WindowStateAnimator{c1f566b com.jx.inputmethod.pinyin/com.jx.inputmethod.pinyin.T9SettingActivity}
+      Window #22: WindowStateAnimator{76e95c8 com.android.settings/com.android.settings.Settings$AvailableVirtualKeyboardActivity}
+      Window #23: WindowStateAnimator{c68e661 com.android.settings/com.android.settings.Settings$AvailableVirtualKeyboardActivity}
+      Window #24: WindowStateAnimator{ee1d586 com.android.calendar/com.android.calendar.AllInOneActivity}
+      Window #25: WindowStateAnimator{b06e29f InputMethod}
+      Window #26: WindowStateAnimator{daee47 PopupWindow:a195a16}
+      Window #27: WindowStateAnimator{6a03543 DockedStackDivider}
+      Window #28: WindowStateAnimator{74347c0 AssistPreviewPanel}
+      Window #29: WindowStateAnimator{6023cf9 StatusBar}
+      Window #30: WindowStateAnimator{f1e043e Navtion}
+      no ScreenRotationAnimation 
+
+
+    mAnimTransactionSequence=1673    mCurrentTime=376020 (74 ms ago)
+    mBulkUpdateParams=0x8 ORIENTATION_CHANGE_COMPLETE
+

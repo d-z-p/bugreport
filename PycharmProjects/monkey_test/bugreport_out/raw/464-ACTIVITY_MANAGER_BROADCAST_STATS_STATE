@@ -1,0 +1,386 @@
+  Current stats (from -14m24s838ms to now, +14m24s838ms uptime):
+    android.intent.action.BOOT_COMPLETED:
+      Number received: 30, skipped: 0
+      Total dispatch time: +35s477ms, max: +35s477ms
+      Package null: 1 times
+    android.intent.action.PROVIDER_CHANGED:
+      Number received: 2, skipped: 0
+      Total dispatch time: +8s75ms, max: +8s75ms
+      Package com.android.providers.calendar: 1 times
+    null:
+      Number received: 1, skipped: 0
+      Total dispatch time: +3s469ms, max: +3s469ms
+      Package com.tencent.mm: 1 times
+    android.intent.action.MEDIA_MOUNTED:
+      Number received: 4, skipped: 0
+      Total dispatch time: +3s375ms, max: +3s375ms
+      Package android: 1 times
+    android.media.INTERNAL_RINGER_MODE_CHANGED_ACTION:
+      Number received: 5, skipped: 0
+      Total dispatch time: +1s593ms, max: +940ms
+      Package android: 5 times
+    android.intent.action.PRE_BOOT_COMPLETED:
+      Number received: 5, skipped: 0
+      Total dispatch time: +594ms, max: +277ms
+      Package null: 5 times
+    android.net.conn.CONNECTIVITY_CHANGE:
+      Number received: 6, skipped: 4
+      Total dispatch time: +525ms, max: +346ms
+      Package android: 2 times
+    android.intent.action.SIM_STATE_CHANGED:
+      Number received: 6, skipped: 0
+      Total dispatch time: +472ms, max: +472ms
+      Package null: 1 times
+    android.intent.action.SERVICE_STATE:
+      Number received: 4, skipped: 0
+      Total dispatch time: +431ms, max: +285ms
+      Package android: 4 times
+    sogou.action.statisticsdata.onedayup.addition:
+      Number received: 1, skipped: 0
+      Total dispatch time: +405ms, max: +405ms
+      Package com.sohu.inputmethod.sogou: 1 times
+    android.intent.action.LOCKED_BOOT_COMPLETED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +391ms, max: +391ms
+      Package null: 1 times
+    android.os.action.POWEREX_SAVE_MODE_CHANGED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +335ms, max: +335ms
+      Package android: 1 times
+    com.android.internal.telephony.CARRIER_SIGNAL_RESET:
+      Number received: 1, skipped: 0
+      Total dispatch time: +270ms, max: +270ms
+      Package com.android.phone: 1 times
+    android.provider.Telephony.SECRET_CODE:
+      Number received: 4, skipped: 0
+      Total dispatch time: +127ms, max: +127ms
+      Package com.divo.phone: 1 times
+    android.intent.action.TIME_SET:
+      Number received: 4, skipped: 0
+      Total dispatch time: +98ms, max: +98ms
+      Package android: 1 times
+    jx.android.provider.RtcWakeUp:
+      Number received: 0, skipped: 0
+      Total dispatch time: +94ms, max: +51ms
+      Package com.jx.launcher: 3 times
+    ACTION_COM_ABUPDATE_ALARM_CHECK_VERSION:
+      Number received: 0, skipped: 0
+      Total dispatch time: +73ms, max: +73ms
+      Package com.abupdate.fota_demo_iot: 1 times
+    com.android.providers.calendar.intent.CalendarProvider2:
+      Number received: 4, skipped: 0
+      Total dispatch time: +67ms, max: +20ms
+      Package com.android.providers.calendar: 4 times
+    android.telephony.action.CARRIER_CONFIG_CHANGED:
+      Number received: 10, skipped: 0
+      Total dispatch time: +54ms, max: +26ms
+      Package null: 5 times
+    android.net.wifi.STATE_CHANGE:
+      Number received: 30, skipped: 0
+      Total dispatch time: +43ms, max: +10ms
+      Package android: 30 times
+      Bg Check Violation cn.heils.faceunlock: 30 times
+    android.intent.action.TIMEZONE_CHANGED:
+      Number received: 4, skipped: 0
+      Total dispatch time: +43ms, max: +43ms
+      Package android: 1 times
+    android.hardware.usb.action.USB_STATE:
+      Number received: 6, skipped: 0
+      Total dispatch time: +36ms, max: +13ms
+      Package android: 4 times
+    ScheduleConditionProvider.EVALUATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: +35ms, max: +35ms
+      Package android: 1 times
+    android.media.RINGER_MODE_CHANGED:
+      Number received: 4, skipped: 0
+      Total dispatch time: +23ms, max: +13ms
+      Package android: 4 times
+    com.android.deskclock.ON_QUARTER_HOUR:
+      Number received: 2, skipped: 0
+      Total dispatch time: +22ms, max: +14ms
+      Package com.android.deskclock: 2 times
+    android.intent.action.dw_nosim_shutdown:
+      Number received: 0, skipped: 0
+      Total dispatch time: +18ms, max: +18ms
+      Package com.android.systemui: 1 times
+    android.intent.action.PACKAGE_ADDED:
+      Number received: 3, skipped: 0
+      Total dispatch time: +16ms, max: +16ms
+      Package null: 1 times
+      Bg Check Violation com.android.gallery3d: 1 times
+      Bg Check Violation com.android.musicfx: 1 times
+    com.android.server.action.NETWORK_STATS_POLL:
+      Number received: 0, skipped: 0
+      Total dispatch time: +15ms, max: +15ms
+      Package android: 1 times
+    com.android.calendar.APPWIDGET_SCHEDULED_UPDATE:
+      Number received: 1, skipped: 0
+      Total dispatch time: +12ms, max: +12ms
+      Package com.android.calendar: 1 times
+    EventConditionProvider.EVALUATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: +7ms, max: +7ms
+      Package android: 1 times
+    android.telecom.action.PHONE_ACCOUNT_REGISTERED:
+      Number received: 1, skipped: 0
+      Total dispatch time: +6ms, max: +6ms
+      Package android: 1 times
+    com.android.calendar.APPWIDGET_UPDATE:
+      Number received: 2, skipped: 0
+      Total dispatch time: +6ms, max: +4ms
+      Package com.android.calendar: 2 times
+    android.intent.action.CLEAR_DNS_CACHE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    com.tencent.mm.ui.ACTION_DEACTIVE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.tencent.mm: 1 times
+    com.jx.launcher.action.FIRST_LOAD_COMPLETE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 1 times
+    android.intent.action.OVERLAY_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 1 times
+    android.media.VOLUME_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 99 times
+    android.net.wifi.WIFI_STATE_CHANGED:
+      Number received: 2, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+      Bg Check Violation cn.heils.faceunlock: 2 times
+    android.net.wifi.p2p.CONNECTION_STATE_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.net.conn.TETHER_STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.media.ACTION_SCO_AUDIO_STATE_UPDATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.WALLPAPER_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.net.wifi.p2p.THIS_DEVICE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    startup.show.over.second..msg:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 1 times
+    android.location.PROVIDERS_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.NETWORK_SET_TIMEZONE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 1 times
+    android.intent.action.MEDIA_SCANNER_FINISHED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.providers.downloads: 3 times
+    com.jx.launcher.SYSTEM_READY:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 1 times
+    com.jx.launcher.action.HEARTRATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 3 times
+    com.tencent.qqlite.system.ACTION_WAKEUP_ALARM:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 3 times
+    com.android.calendar.alerts.DismissAlarmsReceiver:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.calendar: 1 times
+    com.tencent.wechatkids.HEARTBEAT_BROADCAST:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 3 times
+    android.intent.action.INPUT_METHOD_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    android.intent.action.ANY_DATA_STATE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 44 times
+    com.tencent.mm.AppForegroundDelegate.ACTION_ACTIVE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.tencent.mm: 4 times
+    android.intent.action.PACKAGE_RESTARTED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 1 times
+    android.provider.Telephony.SPN_STRINGS_UPDATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    com.zmapp.fwatch.init.complete:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 1 times
+    android.location.MODE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.net.wifi.RSSI_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 4 times
+    android.intent.action.ACTION_SUBINFO_RECORD_UPDATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 3 times
+    android.dmyk.net.conn.CONNECTIVITY_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    android.intent.action.SIG_STR:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    com.android.ims.IMS_SERVICE_UP:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 2 times
+    android.intent.action.DROPBOX_ENTRY_ADDED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    android.net.wifi.supplicant.CONNECTION_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.provider.Contacts.DATABASE_CREATED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.providers.contacts: 1 times
+    android.intent.action.PACKAGE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 1 times
+    android.net.wifi.supplicant.STATE_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 17 times
+    android.net.wifi.p2p.PERSISTENT_GROUPS_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    com.tencent.mm.AppForegroundDelegate.ACTION_DEAD:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.tencent.mm: 3 times
+    android.hardware.usb.action.USB_PORT_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.PRECISE_DATA_CONNECTION_STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 44 times
+    android.net.conn.INET_CONDITION_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.ACTION_SUBINFO_CONTENT_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.phone: 3 times
+    android.media.SCO_AUDIO_STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.intent.action.USER_PRESENT:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.systemui: 3 times
+    android.media.VIBRATE_SETTING_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    android.net.wifi.WIFI_CREDENTIAL_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 2 times
+    android.net.conn.DATA_ACTIVITY_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 10 times
+    android.media.MASTER_MUTE_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    wifi_scan_available:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.search.action.SEARCHABLES_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 11 times
+    android.intent.action.ACTION_PREFERRED_ACTIVITY_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 4 times
+    android.intent.action.MEDIA_SCANNER_STARTED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.providers.downloads: 3 times
+    com.zmapp.fwatch.wifi.pwd:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.jx.launcher: 1 times
+    android.net.wifi.LINK_CONFIGURATION_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    android.net.wifi.CONFIGURED_NETWORKS_CHANGE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 9 times
+    android.net.wifi.p2p.STATE_CHANGED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 1 times
+    com.android.sprd.active_stream:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.android.systemui: 21 times
+    android.net.wifi.SCAN_RESULTS:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 66 times
+    android.media.STREAM_MUTE_CHANGED_ACTION:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package android: 16 times
+    statusNotify:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.tencent.mm: 3 times
+    com.tencent.mm.ui.ACTION_ACTIVE:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package com.tencent.mm: 1 times
+    sprd.intent.action.USER_SWITCHED:
+      Number received: 0, skipped: 0
+      Total dispatch time: 0, max: 0
+      Package null: 1 times
+

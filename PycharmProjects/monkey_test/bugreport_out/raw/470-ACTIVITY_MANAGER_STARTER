@@ -1,0 +1,100 @@
+  mCurrentUser=0
+  mLastStartReason=startActivityAsUser
+  mLastStartActivityTimeMs=2023???5???22??? ??????5:52:05
+  mLastStartActivityResult=0
+  mLastStartActivityRecord:
+    packageName=com.android.systemui processName=com.android.systemui
+    launchedFromUid=1000 launchedFromPackage=android userId=0
+    app=ProcessRecord{e40db4 925:com.android.systemui/u0a22}
+    Intent { flg=0x10000000 cmp=com.android.systemui/.NoNetAlertActivity (has extras) }
+    frontOfTask=true task=TaskRecord{412f15e #27 A=com.android.systemui U=0 StackId=1 sz=1}
+    taskAffinity=com.android.systemui
+    realActivity=com.android.systemui/.NoNetAlertActivity
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    stateNotNeeded=false componentSpecified=true mActivityType=0
+    compat={120dpi always-compat} labelRes=0x7f110118 icon=0x7f08023c theme=0x7f120118
+    mLastReportedConfigurations:
+     mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+     mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+    CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+    taskDescription: iconFilename=null label="null" primaryColor=ff222222
+      backgroundColor=ff000000
+      statusBarColor=ff000000
+      navigationBarColor=ff000000
+    launchFailed=false launchCount=1 lastLaunchTime=-502ms
+    haveState=false icicle=null
+    state=RESUMED stopped=false delayedResume=false finishing=false
+    keysPaused=false inHistory=true visible=true sleeping=false idle=false mStartingWindowState=STARTING_WINDOW_SHOWN
+    fullscreen=true noDisplay=false immersive=false launchMode=3
+    frozenBeforeDestroy=false forceNewConfig=false
+    mActivityType=APPLICATION_ACTIVITY_TYPE
+    waitingVisible=false nowVisible=true lastVisibleTime=-144ms
+    resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  mLastHomeActivityStartResult=0
+  mLastHomeActivityStartRecord:
+    packageName=com.jx.launcher processName=com.jx.launcher
+    launchedFromUid=0 launchedFromPackage=null userId=0
+    app=ProcessRecord{b97b447 1310:com.jx.launcher/1000}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.jx.launcher/.Launcher }
+    frontOfTask=true task=TaskRecord{783ec09 #4 A=com.jx.launcher U=0 StackId=0 sz=1}
+    taskAffinity=com.jx.launcher
+    realActivity=com.jx.launcher/.Launcher
+    baseDir=/system/priv-app/Fwatch2_280/Fwatch2_280.apk
+    dataDir=/data/user/0/com.jx.launcher
+    stateNotNeeded=true componentSpecified=false mActivityType=1
+    compat={120dpi always-compat} labelRes=0x7f110041 icon=0x7f0e0013 theme=0x7f120117
+    mLastReportedConfigurations:
+     mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+     mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+    CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+    taskDescription: iconFilename=null label="null" primaryColor=fff5f5f5
+      backgroundColor=fffafafa
+      statusBarColor=ff757575
+      navigationBarColor=ff000000
+    launchFailed=false launchCount=0 lastLaunchTime=-14m19s711ms
+    haveState=true icicle=Bundle[mParcelledData.dataSize=7104]
+    state=STOPPED stopped=true delayedResume=false finishing=false
+    keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_REMOVED
+    fullscreen=true noDisplay=false immersive=false launchMode=2
+    frozenBeforeDestroy=false forceNewConfig=false
+    mActivityType=HOME_ACTIVITY_TYPE
+    waitingVisible=false nowVisible=false lastVisibleTime=-11m11s803ms
+    connections=[ConnectionRecord{a75bd9d u0 CR com.android.systemui/.EmBootNetService:@e6f9474}]
+    resizeMode=RESIZE_MODE_UNRESIZEABLE
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  mStartActivity:
+    packageName=com.android.systemui processName=com.android.systemui
+    launchedFromUid=1000 launchedFromPackage=android userId=0
+    app=ProcessRecord{e40db4 925:com.android.systemui/u0a22}
+    Intent { flg=0x10000000 cmp=com.android.systemui/.NoNetAlertActivity (has extras) }
+    frontOfTask=true task=TaskRecord{412f15e #27 A=com.android.systemui U=0 StackId=1 sz=1}
+    taskAffinity=com.android.systemui
+    realActivity=com.android.systemui/.NoNetAlertActivity
+    baseDir=/system/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    stateNotNeeded=false componentSpecified=true mActivityType=0
+    compat={120dpi always-compat} labelRes=0x7f110118 icon=0x7f08023c theme=0x7f120118
+    mLastReportedConfigurations:
+     mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+     mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+    CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw320dp w320dp h318dp 120dpi smll port finger -keyb/v/h -nav/h appBounds=Rect(0, 0 - 240, 240) s.5}
+    taskDescription: iconFilename=null label="null" primaryColor=ff222222
+      backgroundColor=ff000000
+      statusBarColor=ff000000
+      navigationBarColor=ff000000
+    launchFailed=false launchCount=1 lastLaunchTime=-505ms
+    haveState=false icicle=null
+    state=RESUMED stopped=false delayedResume=false finishing=false
+    keysPaused=false inHistory=true visible=true sleeping=false idle=false mStartingWindowState=STARTING_WINDOW_SHOWN
+    fullscreen=true noDisplay=false immersive=false launchMode=3
+    frozenBeforeDestroy=false forceNewConfig=false
+    mActivityType=APPLICATION_ACTIVITY_TYPE
+    waitingVisible=false nowVisible=true lastVisibleTime=-147ms
+    resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+    mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  mIntent=Intent { flg=0x10000000 cmp=com.android.systemui/.NoNetAlertActivity (has extras) }
+  mLaunchSingleTop=false mLaunchSingleInstance=true mLaunchSingleTask=false
+  mLaunchFlags=0x10000000 mDoResume=true mAddingToTask=false
+

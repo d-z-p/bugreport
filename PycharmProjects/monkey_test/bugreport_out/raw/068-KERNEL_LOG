@@ -1,0 +1,574 @@
+<6>[  925.196826] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  925.219658] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.220006] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.222052] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.225078] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  925.248541] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.248693] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.250512] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.253472] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  925.279360] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.279682] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.281485] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.281851] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  925.304603] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.304933] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.306609] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.311560] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  925.330781] c3 [ASoC: PCM ] sprd_pcm_trigger, VBC cpu_dai->id = 0 Trigger Playback cmd:0
+<6>[  925.330798] c3 [ASoC: PCM ] dma_chanall_lslp_bypass REF: 0
+<6>[  925.330803] c3 [ASoC: PCM ] E
+<6>[  925.336379] c3 [ASoC: VBC ] vbc_da01_fifo_enable_raw wait fifo empty 2 channel, cnt_1=520, cnt_2=0
+<6>[  925.336388] c0 [ASoC: VBC ] DAC01 fifo 8 REF: 0
+<6>[  925.336395] c3 [ASoC: VBC ] VBC eq Disable
+<6>[  925.336399] c3 [ASoC: VBC ] VBC eq EN REF: 0
+<6>[  925.336551] c3 [ASoC: PCM ] sprd_pcm_hw_free
+<6>[  925.336576] c3 [ASoC: PCM ] sprd_pcm_free_dma_cfg stage[1]
+<6>[  925.336586] c3 [ASoC: PCM ] sprd_pcm_hw_free chan_id 0, channels 5
+<6>[  925.336614] c3 [ASoC: PCM ] sprd_pcm_hw_free chan_id 1, channels 6
+<6>[  925.336661] c3 [ASoC: VBC ] vbc_hw_free VBC(DAC01)
+<6>[  925.336669] c3 [ASoC: VBC ] vbc_shutdown VBC(DAC01)
+<6>[  925.336675] c3 [ASoC: VBC ] VBC Power Off
+<6>[  925.336680] c0 [ASoC: VBC ] VBC Power REF: 0
+<6>[  925.336685] c3 [ASoC: PCM ] VBC Close Playback
+<6>[  925.336691] c3 [ASoC: PCM ] return sprd_pcm_close line[1218]
+<6>[  925.337999] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<6>[  925.338875] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<3>[  925.339691] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.342441] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.361637] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.362027] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.365440] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.368001] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  925.390783] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.390909] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.391746] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.396487] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  925.419261] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.421274] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.424001] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.424541] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  925.447123] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.447470] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.449329] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.453191] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  925.475748] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.475872] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.477782] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.481849] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  925.505122] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.505244] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.507388] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.511437] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  925.534407] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.534744] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.535514] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.538599] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<36>[  925.544399] c3 type=1400 audit(1684749116.220:292): avc: denied { search } for pid=2486 comm="dumpstate" name="mmc0" dev="debugfs" ino=4830 scontext=u:r:dumpstate:s0 tcontext=u:object_r:debugfs_mmc:s0 tclass=dir permissive=0
+<36>[  925.544419] c3 type=1400 audit(1684749116.970:293): avc: denied { read } for pid=3071 comm="Thread-3" name="anr" dev="mmcblk0p33" ino=66 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+<6>[  925.561684] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.561801] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.562536] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.567139] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  925.595731] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  925.659031] c2 hotplug: userspace ops cluster0 min: 1
+<6>[  925.659046] c2 update cluster0 cpu num: 1 - 4
+<6>[  925.659167] c2 hotplug: userspace ops cluster0 max: 4
+<6>[  925.661917] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.662048] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.662763] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<4>[  925.723587] c2 MALI GPU_DVFS  kbase_platform_set_freq index=0! freq=256000 
+<6>[  925.762228] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.762349] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.763066] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.863705] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.863817] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.864790] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  925.963227] c2 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  925.963339] c2 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  925.964069] c2 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.067270] c2 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.067397] c2 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.071058] c2 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.167340] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.167465] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.168211] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.233024] c2 lowmemorykiller: Killing 'ndroid.calendar' (1694:1694), adj 906,
+<6>[  926.233024] c2    to free 72868kB on behalf of 'kswapd0' (65) because
+<6>[  926.233024] c2    cache is 266916kB , limit is 153600kB for oom_score_adj 900
+<6>[  926.233024] c2    Free memory is 20480kB above reserved
+<6>[  926.233024] c2    swaptotal is 819196kB, swapfree is 632444kB, pressure is 96
+<6>[  926.233024] c2    cache_orig is 471244kB
+<6>[  926.269150] c1 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.269264] c1 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.270833] c1 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.297286] c2 ieee80211 phy0: [926293]mode 1 send[WIFI_CMD_LLSTAT]
+<6>[  926.297520] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_LLSTAT]
+<3>[  926.297557] c2 ieee80211 phy0: beacon_rx=275, rssi_mgmt=209, on_time=100, tx_time=10, rx_time=15, on_time_scan=594,
+<4>[  926.303878] c0 MALI GPU_DVFS  kbase_platform_set_freq index=3! freq=600000 
+<6>[  926.307719] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  926.311954] c0 wlan sprd-wlan wlan0: sprdwl_cfg80211_disconnect EHOME_500BDX reason: 3
+<6>[  926.311975] c0 ieee80211 phy0: [926308]mode 1 send[WIFI_CMD_DISCONNECT]
+<6>[  926.315938] c0 ieee80211 phy0: [926308]mode 1 recv[WIFI_EVENT_DISCONNECT]len: 16
+<6>[  926.315964] c0 wlan sprd-wlan wlan0: sprdwl_report_disconnection EHOME_500BDX, reason_code 0
+<6>[  926.316379] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_DISCONNECT]
+<6>[  926.328306] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key_index=0, pairwise=0
+<3>[  926.328320] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key index 0 is empty!
+<6>[  926.328329] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key_index=1, pairwise=0
+<3>[  926.328337] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key index 1 is empty!
+<6>[  926.328345] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key_index=2, pairwise=0
+<3>[  926.328352] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key index 2 is empty!
+<6>[  926.328359] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key_index=3, pairwise=0
+<3>[  926.328366] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key index 3 is empty!
+<6>[  926.328374] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key_index=4, pairwise=0
+<3>[  926.328381] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key index 4 out of bounds!
+<6>[  926.328388] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key_index=5, pairwise=0
+<3>[  926.328395] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_del_key key index 5 out of bounds!
+<6>[  926.328404] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_set_qos_map
+<6>[  926.328772] c2 ieee80211 phy0: sprdwl_reg_notify 00 initiator 0 hint_type 0
+<6>[  926.328795] c2 ieee80211 phy0: [926325]mode 0 send[WIFI_CMD_SET_REGDOM]
+<6>[  926.329831] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_SET_REGDOM]
+<6>[  926.329882] c2 cfg80211: World regulatory domain updated:
+<6>[  926.329889] c0 cfg80211:  DFS Master region: unset
+<6>[  926.329894] c2 cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+<6>[  926.329901] c2 cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+<6>[  926.329909] c2 cfg80211:   (2457000 KHz - 2482000 KHz @ 20000 KHz, 92000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+<6>[  926.329916] c2 cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+<6>[  926.329923] c2 cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+<6>[  926.329930] c2 cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+<6>[  926.329937] c2 cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+<6>[  926.329943] c2 cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+<6>[  926.329950] c2 cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+<6>[  926.330038] c2 ieee80211 phy0: sprdwl_reg_notify CN initiator 1 hint_type 0
+<6>[  926.330061] c2 ieee80211 phy0: [926326]mode 0 send[WIFI_CMD_SET_REGDOM]
+<6>[  926.331067] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_SET_REGDOM]
+<6>[  926.331980] c2 cfg80211: Regulatory domain changed to country: CN
+<6>[  926.331992] c0 cfg80211:  DFS Master region: FCC
+<6>[  926.331996] c2 cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+<6>[  926.332004] c2 cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+<6>[  926.332011] c2 cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (N/A)
+<6>[  926.332019] c2 cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2300 mBm), (0 s)
+<6>[  926.332026] c2 cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 3000 mBm), (N/A)
+<6>[  926.332032] c2 cfg80211:   (57240000 KHz - 59400000 KHz @ 2160000 KHz), (N/A, 2800 mBm), (N/A)
+<6>[  926.332038] c2 cfg80211:   (59400000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4400 mBm), (N/A)
+<6>[  926.332045] c2 cfg80211:   (63720000 KHz - 65880000 KHz @ 2160000 KHz), (N/A, 2800 mBm), (N/A)
+<6>[  926.346678] c0 wlan sprd-wlan wlan0: sprdwl_cfg80211_set_power_mgmt power save status:1
+<6>[  926.346702] c0 ieee80211 phy0: [926343]mode 1 send[WIFI_CMD_POWER_SAVE]
+<6>[  926.347709] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_POWER_SAVE]
+<6>[  926.348868] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast multicast address num: 2
+<6>[  926.348881] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 01:00:5e:00:00:01
+<6>[  926.348888] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 33:33:00:00:00:01
+<6>[  926.350543] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast multicast address num: 1
+<6>[  926.350556] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 01:00:5e:00:00:01
+<6>[  926.350938] c2 ieee80211 phy0: [926347]mode 1 send[WIFI_CMD_MULTICAST_FILTER]
+<6>[  926.351987] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_MULTICAST_FILTER]
+<6>[  926.352193] c2 ieee80211 phy0: [926348]mode 1 send[WIFI_CMD_MULTICAST_FILTER]
+<6>[  926.353238] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_MULTICAST_FILTER]
+<6>[  926.371241] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.371373] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.372135] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.437944] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_scan n_channels 13
+<6>[  926.437980] c2 ieee80211 phy0: [926434]mode 1 send[WIFI_CMD_SCAN]
+<4>[  926.438266] c0 MALI GPU_DVFS  kbase_platform_set_freq index=0! freq=256000 
+<6>[  926.471698] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.471807] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.472532] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.572146] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.572251] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.572961] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.671957] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.672078] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.676039] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.681071] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<4>[  926.693593] c2 MALI GPU_DVFS  kbase_platform_set_freq index=3! freq=600000 
+<6>[  926.772382] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.772498] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.773228] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.832087] c2 lowmemorykiller: Killing 'viders.calendar' (1606:1606), adj 906,
+<6>[  926.832087] c2    to free 71280kB on behalf of 'kswapd0' (65) because
+<6>[  926.832087] c2    cache is 467756kB , limit is 153600kB for oom_score_adj 900
+<6>[  926.832087] c2    Free memory is 20992kB above reserved
+<6>[  926.832087] c2    swaptotal is 819196kB, swapfree is 633700kB, pressure is 95
+<6>[  926.832087] c2    cache_orig is 465500kB
+<4>[  926.832127] c2 lowmem_scan: 6 callbacks suppressed
+<6>[  926.832133] c2 lowmemorykiller: [ pid ]   uid  tgid total_vm      rss   swap cpu oom_score_adj name
+<6>[  926.832187] c2 lowmemorykiller: [  199]     0   199      739      290     54   2         -1000 ueventd
+<6>[  926.837257] c2 lowmemorykiller: [  224]  1036   224     3391      804    149   1         -1000 logd
+<6>[  926.837270] c2 lowmemorykiller: [  225]  1000   225     1384      396     85   3         -1000 servicemanager
+<6>[  926.837279] c2 lowmemorykiller: [  226]  1000   226     2169      733    100   0         -1000 hwservicemanage
+<6>[  926.837287] c2 lowmemorykiller: [  227]  1000   227     1340      219    105   2         -1000 vndservicemanag
+<6>[  926.837297] c2 lowmemorykiller: [  237]  1000   237     2076      260    144   3         -1000 keymaster@3.0-s
+<6>[  926.837305] c2 lowmemorykiller: [  239]     0   239     4087      728    212   3         -1000 vold
+<6>[  926.837313] c2 lowmemorykiller: [  249]     0   249     6803      789    155   2         -1000 Binder:249_2
+<6>[  926.837322] c2 lowmemorykiller: [  250]     0   250   259621    11794   1395   0         -1000 main
+<6>[  926.837330] c2 lowmemorykiller: [  253]  1000   253     1776      528     70   3         -1000 allocator@1.0-s
+<6>[  926.837339] c2 lowmemorykiller: [  254]  1041   254     7273      535    301   3         -1000 audio@2.0-servi
+<6>[  926.837348] c2 lowmemorykiller: [  255]  1002   255     2095      333     99   3         -1000 bluetooth@1.0-s
+<6>[  926.837356] c2 lowmemorykiller: [  256]  1047   256     9558      446    416   1         -1000 provider@2.4-se
+<6>[  926.837365] c2 lowmemorykiller: [  257]  1013   257     3028      359    161   2         -1000 cas@1.0-service
+<6>[  926.837373] c2 lowmemorykiller: [  258]  1000   258     2334      326     88   1         -1000 configstore@1.0
+<6>[  926.837381] c2 lowmemorykiller: [  259]  1013   259     3398      359    201   2         -1000 drm@1.0-service
+<6>[  926.837390] c2 lowmemorykiller: [  260]  1000   260     1777      257    114   3         -1000 dumpstate@1.0-s
+<6>[  926.837398] c2 lowmemorykiller: [  261]  1000   261     1804      283    127   2         -1000 gatekeeper@1.0-
+<6>[  926.837406] c2 lowmemorykiller: [  262]  1000   262     2517      409    117   3         -1000 allocator@2.0-s
+<6>[  926.837415] c2 lowmemorykiller: [  263]  1000   263    16551     1195   1120   3         -1000 composer@2.1-se
+<6>[  926.837424] c2 lowmemorykiller: [  264]  1000   264     1781      306     85   3         -1000 health@1.0-serv
+<6>[  926.837432] c2 lowmemorykiller: [  265]  1000   265     1790      335     84   2         -1000 light@2.0-servi
+<6>[  926.837441] c2 lowmemorykiller: [  266]  1000   266     1788      321     82   2         -1000 memtrack@1.0-se
+<6>[  926.837449] c2 lowmemorykiller: [  267]  1000   267     2111      406     80   0         -1000 sensors@1.0-ser
+<6>[  926.837458] c2 lowmemorykiller: [  268]  1000   268     2112      317    101   1         -1000 usb@1.1-service
+<6>[  926.837466] c2 lowmemorykiller: [  269]  1000   269     1789      298     91   2         -1000 vibrator@1.0-se
+<6>[  926.837475] c2 lowmemorykiller: [  271]     0   271     2463      595     83   2         -1000 android.hardwar
+<6>[  926.837483] c2 lowmemorykiller: [  272]  1000   272     1821      298    122   3         -1000 connmgr@1.0-ser
+<6>[  926.837492] c2 lowmemorykiller: [  273]  1000   273     3119      291    157   1         -1000 face@1.0-servic
+<6>[  926.837501] c2 lowmemorykiller: [  274]  1000   274     1824      299    125   3         -1000 ifaa@1.0-servic
+<6>[  926.837509] c2 lowmemorykiller: [  275]  1000   275     2083      293    123   3         -1000 log@1.0-service
+<6>[  926.837518] c2 lowmemorykiller: [  276]  1000   276     4356      441    522   1         -1000 power@2.0-servi
+<6>[  926.837526] c2 lowmemorykiller: [  277]  1000   277     1849      301    126   2         -1000 thermal@1.0-ser
+<6>[  926.837535] c2 lowmemorykiller: [  278]     0   278     2886      641    112   3         -1000 healthd
+<6>[  926.837544] c2 lowmemorykiller: [  279]  1000   279     1642      222     80   2         -1000 gpsd
+<6>[  926.837552] c2 lowmemorykiller: [  280]     0   280     7393      513    404   3         -1000 engpc
+<6>[  926.837560] c2 lowmemorykiller: [  281]     0   281     1507      692     80   3         -1000 lmkd
+<6>[  926.837569] c2 lowmemorykiller: [  282]     0   282     3015      521    147   3         -1000 performancemana
+<6>[  926.837578] c2 lowmemorykiller: [  283]  1000   283    19865     2641    974   1         -1000 surfaceflinger
+<6>[  926.837586] c2 lowmemorykiller: [  284]     0   284     3455      586    170   2         -1000 thermalserviced
+<6>[  926.837595] c2 lowmemorykiller: [  285]  1000   285     1651      215     78   1         -1000 gnss_download
+<6>[  926.837604] c2 lowmemorykiller: [  286]  1000   286     2454      213    226   1         -1000 modem_control
+<6>[  926.837612] c2 lowmemorykiller: [  287]  1000   287     1938      202     86   1         -1000 modemd
+<6>[  926.837621] c2 lowmemorykiller: [  288]     0   288     1201      318     99   2         -1000 iptables-restor
+<6>[  926.837630] c2 lowmemorykiller: [  289]     0   289     1203      309     99   3         -1000 ip6tables-resto
+<6>[  926.837638] c2 lowmemorykiller: [  290]  1000   290     1120      208     79   3         -1000 sprdstorageprox
+<6>[  926.837647] c2 lowmemorykiller: [  291]  1000   291     1313      262     95   3         -1000 tsupplicant
+<6>[  926.837656] c2 lowmemorykiller: [  326]     0   326     1243      337     89   2         -1000 srtd
+<6>[  926.837665] c2 lowmemorykiller: [  327]  1041   327     8594     1297    309   1         -1000 audioserver
+<6>[  926.837673] c2 lowmemorykiller: [  328]  1047   328     6161     1105    343   2         -1000 cameraserver
+<6>[  926.837681] c2 lowmemorykiller: [  329]  1019   329    10346     1444    639   3         -1000 drmserver
+<6>[  926.837689] c2 lowmemorykiller: [  331]     0   331     1161      382     65   3         -1000 ims_bridged
+<6>[  926.837698] c2 lowmemorykiller: [  333]     0   333     4161      661    233   1         -1000 Binder:333_2
+<6>[  926.837706] c2 lowmemorykiller: [  334]     0   334     1102      271    102   3         -1000 ip_monitor.sh
+<6>[  926.837715] c2 lowmemorykiller: [  335]  1017   335     3624      677    167   3         -1000 keystore
+<6>[  926.837724] c2 lowmemorykiller: [  336]     0   336     1726      438    122   3         -1000 log_service
+<6>[  926.837732] c2 lowmemorykiller: [  337]  1013   337     3856      688    189   2         -1000 mediadrmserver
+<6>[  926.837741] c2 lowmemorykiller: [  346]  1013   346     4387      967    271   3         -1000 mediametrics
+<6>[  926.837750] c2 lowmemorykiller: [  348]  1013   348    12799     1844    487   1         -1000 mediaserver
+<6>[  926.837758] c2 lowmemorykiller: [  349]  1000   349     2222      296    131   2         -1000 phasecheckserve
+<6>[  926.837767] c2 lowmemorykiller: [  350]     0   350     1135      343     74   3         -1000 ju_ipsec_server
+<6>[  926.837775] c2 lowmemorykiller: [  351]     0   351     3072      596    125   3         -1000 storaged
+<6>[  926.837784] c2 lowmemorykiller: [  353]  1010   353     3211      796    116   2         -1000 wificond
+<6>[  926.837792] c2 lowmemorykiller: [  354]  1046   354    11227     1975    748   3         -1000 omx@1.0-service
+<6>[  926.837801] c2 lowmemorykiller: [  355]     0   355     1124      204     80   3         -1000 ext_data
+<6>[  926.837809] c2 lowmemorykiller: [  356]  1000   356     2157      229    107   0         -1000 refnotify
+<6>[  926.837818] c2 lowmemorykiller: [  357]  2000   357     2202      301     81   1         -1000 slogmodem
+<6>[  926.837826] c2 lowmemorykiller: [  358]  1000   358     4599      423    198   2         -1000 thermald
+<6>[  926.837835] c2 lowmemorykiller: [  359]  1000   359    15437     1392   1545   3         -1000 gnss@1.0-servic
+<6>[  926.837843] c2 lowmemorykiller: [  360]  1000   360     3257      671    184   1         -1000 gatekeeperd
+<6>[  926.837852] c2 lowmemorykiller: [  361]  1058   361     1147      379     57   3         -1000 tombstoned
+<6>[  926.837861] c2 lowmemorykiller: [  362]  1000   362     3316      379    175   0         -1000 fingerprint@2.1
+<6>[  926.837869] c2 lowmemorykiller: [  363]  1000   363     1120      206     80   0         -1000 sprdstorageprox
+<6>[  926.837878] c2 lowmemorykiller: [  364]  1000   364     4771      519    303   1         -1000 connmgr
+<6>[  926.837886] c2 lowmemorykiller: [  365]     0   365     1307        1     89   0         -1000 srtd
+<6>[  926.837895] c2 lowmemorykiller: [  374]     0   374     1133      356     69   2         -1000 ip
+<6>[  926.837904] c2 lowmemorykiller: [  376]     0   376     1102      229     68   2         -1000 ip_monitor.sh
+<6>[  926.837912] c2 lowmemorykiller: [  600]  1001   600     6909      763    169   3         -1000 sprdrild
+<6>[  926.837921] c2 lowmemorykiller: [  601]     0   601     3126      338   1336   0         -1000 cp_diskserver
+<6>[  926.837929] c2 lowmemorykiller: [  622]  1000   622   313520    38144   1562   0          -900 system_server
+<6>[  926.837938] c2 lowmemorykiller: [  891]  1001   891   291972    24085   1354   2          -800 m.android.phone
+<6>[  926.837947] c2 lowmemorykiller: [  925] 10022   925   303297    33354   2411   0          -800 ndroid.systemui
+<6>[  926.837956] c2 lowmemorykiller: [ 1197]  1000  1197   278540    18111   1172   1          -800 om.sprd.applock
+<6>[  926.837965] c2 lowmemorykiller: [ 1210]  1000  1210   282439    17502   1500   1          -800 .spreadtrum.vce
+<6>[  926.837973] c2 lowmemorykiller: [ 1221] 10066  1221   277978    16110   1201   2          -800 d.modemnotifier
+<6>[  926.837982] c2 lowmemorykiller: [ 1264]  1000  1264   281574    18067   2232   1           800 e.fota_demo_iot
+<6>[  926.837990] c2 lowmemorykiller: [ 1310]  1000  1310   289032    28357   2096   3           200 com.jx.launcher
+<6>[  926.837999] c2 lowmemorykiller: [ 1404] 10009  1404   281694    21248   2111   1           500 d.process.media
+<6>[  926.838008] c2 lowmemorykiller: [ 1449] 10072  1449   285835    24344   3288   0           903 utmethod.pinyin
+<6>[  926.838016] c2 lowmemorykiller: [ 1484]  1000  1484   283548    18488   1580   0           100 readtrum.vowifi
+<6>[  926.838027] c2 lowmemorykiller: [ 1737]  1000  1737   279971    17722   1932   0           906 droid.deskclock
+<6>[  926.838035] c2 lowmemorykiller: [ 1771] 10021  1771   285642    23715   2828   0           904 ackageinstaller
+<6>[  926.838043] c2 lowmemorykiller: [ 1840]  1000  1840   277802    16219   1859   0           904 rd.systemupdate
+<6>[  926.838052] c2 lowmemorykiller: [ 1971]  2000  1971     4685      292     69   3         -1000 adbd
+<6>[  926.838060] c2 lowmemorykiller: [ 1988]  2000  1988     1102      473    101   2         -1000 sh
+<6>[  926.838069] c2 lowmemorykiller: [ 1990]  2000  1990   222233    15929   1331   0         -1000 main
+<6>[  926.838077] c2 lowmemorykiller: [ 2007]  2000  2007   218336    13340    838   0         -1000 main
+<6>[  926.838086] c2 lowmemorykiller: [ 2065]  1010  2065     2753     1596    109   0         -1000 wpa_supplicant
+<6>[  926.838096] c2 lowmemorykiller: [ 2189]  2000  2189   224547    16316    872   3         -1000 commands.monkey
+<6>[  926.838104] c2 lowmemorykiller: [ 2198] 10005  2198   278375    16790   1875   2           902 id.defcontainer
+<6>[  926.838113] c2 lowmemorykiller: [ 2227] 10074  2227   286723    24677   3089   0           800 om.jx.childlike
+<6>[  926.838123] c2 lowmemorykiller: [ 2352]  2000  2352   224547    16414    550   3         -1000 commands.monkey
+<6>[  926.838131] c2 lowmemorykiller: [ 2363] 10022  2363   291447    23635   2499   2           902 emui:screenshot
+<6>[  926.838140] c2 lowmemorykiller: [ 2440]  1000  2440   284613    23594   2946   1           901 com.zmapp.sms
+<6>[  926.838149] c2 lowmemorykiller: [ 2484]  2000  2484     1059      493      0   3         -1000 bugreport
+<6>[  926.838157] c2 lowmemorykiller: [ 2486]  2000  2486     3161     1341      0   3         -1000 dumpstate
+<6>[  926.838165] c2 lowmemorykiller: [ 2492] 10076  2492   303688    28411   3999   1           800 gyonghui.market
+<6>[  926.838174] c2 lowmemorykiller: [ 2619] 10076  2619   282005    19326   1929   1           800 ket:pushservice
+<6>[  926.838183] c2 lowmemorykiller: [ 2653] 10081  2653   284484    20693   2770   0           800 m.example.demo1
+<6>[  926.838192] c2 lowmemorykiller: [ 2766] 10080  2766   378563    67003   1731   0             0 com.tencent.mm
+<6>[  926.838201] c2 lowmemorykiller: [ 2898]  1000  2898   291328    21430   1835   2           900 ndroid.settings
+<6>[  926.838209] c2 lowmemorykiller: [ 2940] 10078  2940   302311    31863   1128   0           200 putmethod.sogou
+<6>[  926.838218] c2 lowmemorykiller: [ 2964]  1040  2964    11107     3045      0   2         -1000 mediaextractor
+<6>[  926.838227] c2 lowmemorykiller: [ 2974] 10080  2974   333406    41128   1126   3             0 tencent.mm:push
+<6>[  926.838235] c2 lowmemorykiller: [ 3071] 10078  3071   293899    23125   1823   0           500 od.sogou:daemon
+<6>[  926.838243] c2 lowmemorykiller: [ 3084]  2000  3084     1764     1172      0   1         -1000 top
+<6>[  926.838252] c2 lowmemorykiller: [ 3130]     0  3130      429      151      0   3         -1000 log
+<6>[  926.878583] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.878720] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.879466] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.900566] c3 hotplug: userspace ops cluster0 min: 4
+<6>[  926.900583] c3 update cluster0 cpu num: 4 - 4
+<6>[  926.900734] c3 hotplug: userspace ops cluster0 max: 4
+<6>[  926.902043] c2 ion_system_heap_allocate, size:  233472, time:175us, pool:36864, bud:196608, ord 8:0, 4:3, 0:0
+<6>[  926.904528] c2 ion_system_heap_allocate, size:  233472, time:166us, pool:36864, bud:196608, ord 8:0, 4:3, 0:0
+<6>[  926.906552] c2 ion_system_heap_allocate, size:  233472, time:271us, pool:36864, bud:196608, ord 8:0, 4:3, 0:0
+<6>[  926.923112] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.923233] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.923991] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.934451] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  926.962978] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  926.977077] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_SCAN]
+<6>[  926.977333] c0 ieee80211 phy0: [0]mode 1 recv[WIFI_EVENT_SCAN_DONE]len: 13
+<6>[  926.977359] c0 wlan sprd-wlan wlan0: sprdwl_event_scan_done got 20 BSSes
+<6>[  926.983450] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  926.983636] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  926.987140] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  926.990878] c2 ion_system_heap_allocate, size:  233472, time:10us, pool:233472, bud:0, ord 8:0, 4:0, 0:0
+<6>[  926.991506] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.020047] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<36>[  927.050557] c3 type=1400 audit(1684749116.970:293): avc: denied { read } for pid=3071 comm="Thread-3" name="anr" dev="mmcblk0p33" ino=66 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+<36>[  927.052920] c3 type=1400 audit(1684749118.470:294): avc: denied { read } for pid=2940 comm="Sogou-Aysnc-Thr" name="anr" dev="mmcblk0p33" ino=66 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+<6>[  927.067099] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.067210] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.069179] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.077070] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.129583] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.130451] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.131293] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.134374] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.174667] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.174794] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.182548] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.191258] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.196558] c0 wlan sprd-wlan wlan0: frame_type 208, reg 0
+<6>[  927.196578] c0 ieee80211 phy0: [927193]mode 1 send[WIFI_CMD_REGISTER_FRAME]
+<6>[  927.197589] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_REGISTER_FRAME]
+<6>[  927.198109] c0 wlan sprd-wlan wlan0: frame_type 208, reg 1
+<6>[  927.198130] c0 ieee80211 phy0: [927194]mode 1 send[WIFI_CMD_REGISTER_FRAME]
+<6>[  927.198590] c2 ion_system_heap_allocate, size:  233472, time:6us, pool:233472, bud:0, ord 8:0, 4:0, 0:0
+<6>[  927.199101] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_REGISTER_FRAME]
+<6>[  927.212439] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.212567] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.213753] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.219915] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.226409] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.226531] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.227390] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.228608] c2 ion_system_heap_allocate, size:  233472, time:10us, pool:233472, bud:0, ord 8:0, 4:0, 0:0
+<6>[  927.247981] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.248141] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.249168] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.249718] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.268907] c0 wlan sprd-wlan wlan0: set assoc req ie, len 4
+<6>[  927.268932] c0 ieee80211 phy0: [927265]mode 1 send[WIFI_CMD_SET_IE]
+<6>[  927.269916] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_SET_IE]
+<6>[  927.275017] c0 wlan sprd-wlan wlan0: wpa versions 0x0
+<6>[  927.275031] c0 wlan sprd-wlan wlan0: management frame protection 0x0
+<6>[  927.275038] c0 wlan sprd-wlan wlan0: auth type 0x0
+<6>[  927.275046] c0 wlan sprd-wlan wlan0: group cipher 0x0
+<6>[  927.275053] c0 wlan sprd-wlan wlan0: channel 10
+<6>[  927.275061] c0 wlan sprd-wlan wlan0: bssid 48:1f:2d:0b:24:5a
+<6>[  927.275080] c0 ieee80211 phy0: [927271]mode 1 send[WIFI_CMD_CONNECT]
+<6>[  927.277100] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.278777] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.279294] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.280120] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.285602] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_CONNECT]
+<6>[  927.285732] c0 wlan sprd-wlan wlan0: sprdwl_cfg80211_connect EHOME_500BDX
+<6>[  927.305374] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.305920] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.306668] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.307255] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.334947] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.335097] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.335355] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.335877] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.363626] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.365517] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.365679] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.366523] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.391756] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.395321] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.395456] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.396654] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.420185] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.443273] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.444062] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.444844] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.448969] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.472033] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.472183] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.473711] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.478231] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.501750] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.501893] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.503283] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.506155] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.538063] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.559414] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.559558] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.561442] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.565538] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.569977] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.570640] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.571459] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.580422] c0 ieee80211 phy0: [0]mode 1 recv[WIFI_EVENT_CONNECT]len: 371
+<6>[  927.580441] c0 wlan sprd-wlan wlan0: sprdwl_report_connection update BSS EHOME_500BDX
+<6>[  927.580491] c0 wlan sprd-wlan wlan0: sprdwl_report_connection connect to EHOME_500BDX (48:1f:2d:0b:24:5a)
+<6>[  927.587450] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.587568] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.589077] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.592845] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.620494] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.626810] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.626934] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.627720] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.633553] c1 WCN: mdbg_proc_poll:loopcheck:power_state_changed:0
+<6>[  927.633927] c1 WCN: mdbg_proc_write:mdbg_proc->write_buf:at+loopcheck
+<6>[  927.633945] c1 WCN: mdbg_comm_write:len:13,
+<6>[  927.634114] c0 WCN: mdbg_loopcheck_read:loopcheck buf:loopcheck_ack
+<6>[  927.649327] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.661171] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.661288] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.662107] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.674021] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.674590] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.675471] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.677979] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.689392] c2 ieee80211 phy0: [927685]mode 1 send[WIFI_CMD_LLSTAT]
+<6>[  927.689764] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_LLSTAT]
+<3>[  927.690829] c2 ieee80211 phy0: beacon_rx=1, rssi_mgmt=202, on_time=100, tx_time=10, rx_time=15, on_time_scan=0,
+<6>[  927.694637] c2 ieee80211 phy0: [927691]mode 1 send[WIFI_CMD_LLSTAT]
+<6>[  927.694857] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_LLSTAT]
+<3>[  927.694898] c2 ieee80211 phy0: beacon_rx=1, rssi_mgmt=202, on_time=100, tx_time=10, rx_time=15, on_time_scan=0,
+<6>[  927.698494] c2 ieee80211 phy0: [927694]mode 1 send[WIFI_CMD_GET_STATION]
+<6>[  927.698684] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_GET_STATION]
+<6>[  927.698868] c2 wlan sprd-wlan wlan0: sprdwl_cfg80211_get_station signal -54 txrate 390
+<6>[  927.701033] c1 adc channel 1, value4080
+<6>[  927.701046] c1 sensor id:10,vol:0x4cc, temp:-39700
+<6>[  927.704010] c2 ieee80211 phy0: sprdwl_vendor_enable_nd_offload
+<6>[  927.706430] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.714403] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.714938] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.715987] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.729414] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.729938] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.730723] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.734094] c1 WCN: wcn_get_cp2_comm_rx_count:cp2 comm rx count :4583
+<6>[  927.734106] c1 WCN: mdbg_rx_count_change:rx_count:0x11e7 rx_count_last:0x11be
+<6>[  927.734112] c1 WCN: mdbg_proc_read:CP run well with rx_cnt change
+<6>[  927.734216] c1 WCN: mdbg_proc_poll:loopcheck:power_state_changed:0
+<6>[  927.735028] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.760418] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.761122] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.761865] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.764801] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.787747] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.788713] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.789471] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.792638] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.797595] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast multicast address num: 2
+<6>[  927.797609] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 01:00:5e:00:00:01
+<6>[  927.797616] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 33:33:00:00:00:01
+<6>[  927.799198] c2 ieee80211 phy0: [927795]mode 1 send[WIFI_CMD_MULTICAST_FILTER]
+<6>[  927.804022] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast multicast address num: 3
+<6>[  927.804035] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 01:00:5e:00:00:01
+<6>[  927.804042] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 33:33:00:00:00:01
+<6>[  927.804050] c2 wlan sprd-wlan wlan0: sprdwl_set_multicast set mac: 33:33:ff:5b:9a:bb
+<6>[  927.804126] c0 adc channel 1, value4080
+<6>[  927.804137] c0 sensor id:10,vol:0x4cc, temp:-39700
+<6>[  927.804560] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_MULTICAST_FILTER]
+<6>[  927.804807] c2 ieee80211 phy0: [927801]mode 1 send[WIFI_CMD_NOTIFY_IP_ACQUIRED]
+<6>[  927.805059] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_NOTIFY_IP_ACQUIRED]
+<6>[  927.805524] c2 ieee80211 phy0: [927802]mode 1 send[WIFI_CMD_MULTICAST_FILTER]
+<6>[  927.805772] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_MULTICAST_FILTER]
+<6>[  927.815528] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.816058] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.816818] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.821064] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.844631] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.844752] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.845713] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.850920] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.873851] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.873975] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.875252] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.878209] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.901003] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.901121] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.901879] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.906928] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.908452] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.908818] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.909580] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.936720] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.936846] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.937666] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.939607] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  927.966894] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  927.969144] c0 wlan sprd-wlan wlan0: sprdwl_set_power_save: set suspend mode,value : 0
+<6>[  927.969165] c0 ieee80211 phy0: [927965]mode 1 send[WIFI_CMD_POWER_SAVE]
+<6>[  927.969376] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<6>[  927.969481] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_POWER_SAVE]
+<3>[  927.969493] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.970417] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  927.970862] c0 wlan sprd-wlan wlan0: sprdwl_cfg80211_set_power_mgmt power save status:0
+<6>[  927.970883] c0 ieee80211 phy0: [927967]mode 1 send[WIFI_CMD_POWER_SAVE]
+<6>[  927.971187] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_POWER_SAVE]
+<6>[  927.972307] c2 ieee80211 phy0: [927968]mode 1 send[WIFI_CMD_LLSTAT]
+<6>[  927.972486] c0 ieee80211 phy0: mode 1 recv rsp[WIFI_CMD_LLSTAT]
+<3>[  927.972541] c2 ieee80211 phy0: beacon_rx=4, rssi_mgmt=202, on_time=100, tx_time=10, rx_time=15, on_time_scan=0,
+<6>[  927.993035] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  927.995830] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  927.996296] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  927.997044] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.021141] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.021683] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.022122] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  928.023255] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.049935] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  928.051412] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.051807] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.052546] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.069922] c0 hotplug: userspace ops cluster0 min: 1
+<6>[  928.069939] c0 update cluster0 cpu num: 1 - 4
+<6>[  928.070123] c0 hotplug: userspace ops cluster0 max: 4
+<6>[  928.078013] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.078467] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.079272] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.079951] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<36>[  928.104452] c3 type=1400 audit(1684749118.470:294): avc: denied { read } for pid=2940 comm="Sogou-Aysnc-Thr" name="anr" dev="mmcblk0p33" ino=66 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:anr_data_file:s0 tclass=dir permissive=0
+<36>[  928.104478] c3 type=1400 audit(1684749119.530:295): avc: denied { read } for pid=3071 comm="pool-1-thread-1" name="u:object_r:serialno_prop:s0" dev="tmpfs" ino=5027 scontext=u:r:untrusted_app:s0:c512,c768 tcontext=u:object_r:serialno_prop:s0 tclass=file permissive=0
+<6>[  928.107187] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  928.108537] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.108929] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.109679] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.135609] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.135754] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.137012] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  928.137828] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.164488] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  928.166107] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.166238] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.167172] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.202285] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.205834] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.208686] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.210177] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+<6>[  928.235932] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c172000 bpp 32
+<6>[  928.241000] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.241151] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.242086] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.264751] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c139000 bpp 32
+<6>[  928.265225] c3 vsp iommu map success iova addr 0x10070000 size 0x39000
+<3>[  928.265356] c3 [iommu] sprd_iommuex_cll_reset()-iommu_id 15 map_cnt 4 !
+<6>[  928.266220] c3 vsp iommu-unmap success iova addr 0x10070000 size 0x39000
+<6>[  928.293298] c3 [sprd-adf][ sprd_spi_flip_layer] layer base 9c100000 bpp 32
+
+

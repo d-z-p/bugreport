@@ -1,0 +1,1 @@
+*** command 'logcat -L -b all -v threadtime -v printable -v uid -d *:v' failed: exit code 1

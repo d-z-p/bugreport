@@ -1,0 +1,487 @@
+Applications Database Info:
+
+** Database info for pid 8052 [com.android.calendar] **
+
+** Database info for pid 8668 [com.jx.launcher] **
+
+** Database info for pid 11530 [com.eg.android.AlipayGphone] **
+
+** Database info for pid 4340 [com.android.settings] **
+
+Connection pool for /data/user_de/0/com.android.settings/databases/timerpower.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2023-05-18 12:38:29.900] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2023-05-18 12:38:29.900] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2023-05-18 12:38:29.900] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        3: [2023-05-18 12:37:53.808] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        4: [2023-05-18 12:37:53.807] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        5: [2023-05-18 12:37:53.807] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        6: [2023-05-18 12:36:54.200] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        7: [2023-05-18 12:36:54.199] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        8: [2023-05-18 12:36:54.198] executeForLong took 2ms - succeeded, sql="PRAGMA page_count;"
+        9: [2023-05-18 12:36:17.253] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        10: [2023-05-18 12:36:17.252] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        11: [2023-05-18 12:36:17.251] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        12: [2023-05-18 12:35:18.217] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, hour, minutes, daysofweek, alarmtime, enabled, vibrate, message, alert FROM timerpowers WHERE (enabled=1)"
+        13: [2023-05-18 12:35:18.215] prepare took 0ms - succeeded, sql="SELECT _id, hour, minutes, daysofweek, alarmtime, enabled, vibrate, message, alert FROM timerpowers WHERE (enabled=1)"
+        14: [2023-05-18 12:35:18.176] executeForChangedRowCount took 1ms - succeeded, sql="UPDATE timerpowers SET enabled=? WHERE _id=2"
+        15: [2023-05-18 12:35:18.176] prepare took 0ms - succeeded, sql="UPDATE timerpowers SET enabled=? WHERE _id=2"
+        16: [2023-05-18 12:35:18.172] executeForChangedRowCount took 2ms - succeeded, sql="UPDATE timerpowers SET enabled=? WHERE _id=1"
+        17: [2023-05-18 12:35:18.172] prepare took 0ms - succeeded, sql="UPDATE timerpowers SET enabled=? WHERE _id=1"
+        18: [2023-05-18 12:35:18.170] executeForCursorWindow took 1ms - succeeded, sql="SELECT _id, hour, minutes, daysofweek, alarmtime, enabled, vibrate, message, alert FROM timerpowers"
+        19: [2023-05-18 12:35:18.166] prepare took 0ms - succeeded, sql="SELECT _id, hour, minutes, daysofweek, alarmtime, enabled, vibrate, message, alert FROM timerpowers"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user_de/0/com.android.settings/databases/ProfileProvider.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2023-05-18 12:38:52.890] executeForChangedRowCount took 1ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE _id=1"
+        1: [2023-05-18 12:38:52.890] prepare took 0ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE _id=1"
+        2: [2023-05-18 12:38:52.883] executeForChangedRowCount took 3ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE isSelected=?"
+        3: [2023-05-18 12:38:52.883] prepare took 0ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE isSelected=?"
+        4: [2023-05-18 12:38:52.882] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM profiles WHERE _id = 1"
+        5: [2023-05-18 12:38:52.882] prepare took 0ms - succeeded, sql="SELECT * FROM profiles WHERE _id = 1"
+        6: [2023-05-18 12:38:52.856] executeForChangedRowCount took 2ms - succeeded, sql="UPDATE profiles SET ringVolumeIndex=?,notificationVolumeIndex=?,mediaVolumeIndex=?,alarmVolumeIndex=? WHERE _id=1"
+        7: [2023-05-18 12:38:52.856] prepare took 0ms - succeeded, sql="UPDATE profiles SET ringVolumeIndex=?,notificationVolumeIndex=?,mediaVolumeIndex=?,alarmVolumeIndex=? WHERE _id=1"
+        8: [2023-05-18 12:38:52.853] executeForChangedRowCount took 1ms - succeeded, sql="UPDATE profiles SET ringVolumeIndex=?,notificationVolumeIndex=?,mediaVolumeIndex=?,alarmVolumeIndex=? WHERE _id=1"
+        9: [2023-05-18 12:38:52.853] prepare took 0ms - succeeded, sql="UPDATE profiles SET ringVolumeIndex=?,notificationVolumeIndex=?,mediaVolumeIndex=?,alarmVolumeIndex=? WHERE _id=1"
+        10: [2023-05-18 12:38:52.835] executeForChangedRowCount took 1ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE _id=1"
+        11: [2023-05-18 12:38:52.835] prepare took 0ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE _id=1"
+        12: [2023-05-18 12:38:52.834] executeForCursorWindow took 0ms - succeeded, sql="SELECT * FROM profiles WHERE _id = 1"
+        13: [2023-05-18 12:38:52.833] prepare took 0ms - succeeded, sql="SELECT * FROM profiles WHERE _id = 1"
+        14: [2023-05-18 12:38:52.832] executeForChangedRowCount took 1ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE isSelected=?"
+        15: [2023-05-18 12:38:52.832] prepare took 0ms - succeeded, sql="UPDATE profiles SET isSelected=? WHERE isSelected=?"
+        16: [2023-05-18 12:38:52.831] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM profiles WHERE _id = 1"
+        17: [2023-05-18 12:38:52.829] executeForChangedRowCount took 1ms - succeeded, sql="UPDATE profiles SET ringVolumeIndex=?,notificationVolumeIndex=?,mediaVolumeIndex=?,alarmVolumeIndex=? WHERE _id=1"
+        18: [2023-05-18 12:38:52.829] prepare took 0ms - succeeded, sql="UPDATE profiles SET ringVolumeIndex=?,notificationVolumeIndex=?,mediaVolumeIndex=?,alarmVolumeIndex=? WHERE _id=1"
+        19: [2023-05-18 12:38:52.829] prepare took 0ms - succeeded, sql="SELECT * FROM profiles WHERE _id = 1"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 8961 [com.jx.inputmethod.pinyin] **
+
+** Database info for pid 4923 [com.sohu.inputmethod.sogou] **
+
+Connection pool for /data/user/0/com.sohu.inputmethod.sogou/databases/apm.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2023-05-18 12:38:27.942] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2023-05-18 12:38:27.941] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2023-05-18 12:38:27.941] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        3: [2023-05-18 12:37:57.390] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        4: [2023-05-18 12:37:57.389] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        5: [2023-05-18 12:37:57.389] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        6: [2023-05-18 12:37:47.945] executeForChangedRowCount took 0ms - succeeded, sql="DELETE FROM trace WHERE tr < ?"
+        7: [2023-05-18 12:37:47.944] prepare took 0ms - succeeded, sql="DELETE FROM trace WHERE tr < ?"
+        8: [2023-05-18 12:37:47.944] execute took 1ms - succeeded, sql="COMMIT;"
+        9: [2023-05-18 12:37:47.944] executeForChangedRowCount took 0ms - succeeded, sql="PRAGMA user_version = 3"
+        10: [2023-05-18 12:37:47.944] prepare took 0ms - succeeded, sql="PRAGMA user_version = 3"
+        11: [2023-05-18 12:37:47.943] executeForChangedRowCount took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS thread(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        12: [2023-05-18 12:37:47.943] prepare took 1ms - succeeded, sql="CREATE TABLE IF NOT EXISTS thread(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        13: [2023-05-18 12:37:47.943] executeForChangedRowCount took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS resource(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        14: [2023-05-18 12:37:47.942] prepare took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS resource(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        15: [2023-05-18 12:37:47.942] executeForChangedRowCount took 1ms - succeeded, sql="CREATE TABLE IF NOT EXISTS io(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        16: [2023-05-18 12:37:47.942] prepare took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS io(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        17: [2023-05-18 12:37:47.942] executeForChangedRowCount took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS trace(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        18: [2023-05-18 12:37:47.941] prepare took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS trace(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,pn TEXT,tc TEXT,av TEXT);"
+        19: [2023-05-18 12:37:47.940] executeForChangedRowCount took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS fileinfo(id INTEGER PRIMARY KEY AUTOINCREMENT,tr INTEGER,fn TEXT,fp TEXT,ft INTEGER,lm INTEGER,fs INTEGER,fr INTEGER,fw INTEGER,fe INTEGER,sfn INTEGER,par TEXT,r1 TEXT,r2 TEXT,av TEXT);"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user/0/com.sohu.inputmethod.sogou/databases/performance.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2023-05-18 12:38:27.942] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2023-05-18 12:38:27.942] executeForLong took 1ms - succeeded, sql="PRAGMA page_size;"
+        2: [2023-05-18 12:38:27.942] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        3: [2023-05-18 12:37:57.390] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        4: [2023-05-18 12:37:57.390] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        5: [2023-05-18 12:37:57.390] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        6: [2023-05-18 12:36:53.078] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        7: [2023-05-18 12:36:53.077] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        8: [2023-05-18 12:36:53.075] executeForLong took 2ms - succeeded, sql="PRAGMA page_count;"
+        9: [2023-05-18 12:36:16.724] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        10: [2023-05-18 12:36:16.723] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        11: [2023-05-18 12:36:16.723] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        12: [2023-05-18 12:35:08.207] execute took 2ms - succeeded, sql="COMMIT;"
+        13: [2023-05-18 12:35:08.207] executeForChangedRowCount took 0ms - succeeded, sql="PRAGMA user_version = 2"
+        14: [2023-05-18 12:35:08.207] prepare took 0ms - succeeded, sql="PRAGMA user_version = 2"
+        15: [2023-05-18 12:35:08.199] executeForChangedRowCount took 1ms - succeeded, sql="CREATE TABLE "PERFORMANCE_SAMPLE_ENTITY" ("_id" INTEGER PRIMARY KEY AUTOINCREMENT ,"time_stamp" INTEGER NOT NULL ,"tag" TEXT NOT NULL ,"fd_sample" TEXT NOT NULL ,"memory_sample" TEXT NOT NULL ,"thread_sample" TEXT NOT NULL ,"disk_sample" TEXT NOT NULL );"
+        16: [2023-05-18 12:35:08.198] prepare took 1ms - succeeded, sql="CREATE TABLE "PERFORMANCE_SAMPLE_ENTITY" ("_id" INTEGER PRIMARY KEY AUTOINCREMENT ,"time_stamp" INTEGER NOT NULL ,"tag" TEXT NOT NULL ,"fd_sample" TEXT NOT NULL ,"memory_sample" TEXT NOT NULL ,"thread_sample" TEXT NOT NULL ,"disk_sample" TEXT NOT NULL );"
+        17: [2023-05-18 12:35:08.181] execute took 1ms - succeeded, sql="BEGIN EXCLUSIVE;"
+        18: [2023-05-18 12:35:08.180] executeForLong took 0ms - succeeded, sql="PRAGMA user_version;"
+        19: [2023-05-18 12:35:08.180] prepare took 0ms - succeeded, sql="PRAGMA user_version;"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 10465 [com.jx.watchos.contact] **
+
+** Database info for pid 9764 [com.goodix.health] **
+
+** Database info for pid 7184 [com.android.documentsui] **
+
+** Database info for pid 9929 [com.android.music] **
+
+** Database info for pid 8117 [com.zmapp.album] **
+
+** Database info for pid 9144 [com.sprd.fileexplorer] **
+
+** Database info for pid 9033 [com.android.deskclock] **
+
+Connection pool for /data/user_de/0/com.android.deskclock/databases/alarms.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2023-05-18 12:38:29.570] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2023-05-18 12:38:29.569] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2023-05-18 12:38:29.569] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        3: [2023-05-18 12:37:54.799] executeForCursorWindow took 1ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_state<5)"
+        4: [2023-05-18 12:37:54.795] prepare took 0ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_state<5)"
+        5: [2023-05-18 12:37:54.775] executeForCursorWindow took 6ms - succeeded, sql="SELECT alarm_templates._id, alarm_templates.hour, alarm_templates.minutes, alarm_templates.daysofweek, alarm_templates.enabled, alarm_templates.vibrate, alarm_templates.label, alarm_templates.ringtone, alarm_templates.delete_after_use, alarm_instances.alarm_state, alarm_instances._id, alarm_instances.year, alarm_instances.month, alarm_instances.day, alarm_instances.hour, alarm_instances.minutes, alarm_instances.label, alarm_instances.vibrate FROM alarm_templates LEFT JOIN alarm_instances ON (alarm_templates._id = alarm_id) WHERE (alarm_state IS NULL OR alarm_state = (SELECT MIN(alarm_state) FROM alarm_instances WHERE alarm_id = alarm_templates._id)) ORDER BY alarm_templates.hour, alarm_templates.minutes ASC, alarm_templates._id DESC"
+        6: [2023-05-18 12:37:54.770] prepare took 0ms - succeeded, sql="SELECT alarm_templates._id, alarm_templates.hour, alarm_templates.minutes, alarm_templates.daysofweek, alarm_templates.enabled, alarm_templates.vibrate, alarm_templates.label, alarm_templates.ringtone, alarm_templates.delete_after_use, alarm_instances.alarm_state, alarm_instances._id, alarm_instances.year, alarm_instances.month, alarm_instances.day, alarm_instances.hour, alarm_instances.minutes, alarm_instances.label, alarm_instances.vibrate FROM alarm_templates LEFT JOIN alarm_instances ON (alarm_templates._id = alarm_id) WHERE (alarm_state IS NULL OR alarm_state = (SELECT MIN(alarm_state) FROM alarm_instances WHERE alarm_id = alarm_templates._id)) ORDER BY alarm_templates.hour, alarm_templates.minutes ASC, alarm_templates._id DESC"
+        7: [2023-05-18 12:37:54.731] executeForChangedRowCount took 0ms - succeeded, sql="UPDATE alarm_instances SET month=?,hour=?,year=?,minutes=?,alarm_state=?,vibrate=?,ringtone=?,_id=?,label=?,alarm_id=?,day=? WHERE _id=2"
+        8: [2023-05-18 12:37:54.731] prepare took 1ms - succeeded, sql="UPDATE alarm_instances SET month=?,hour=?,year=?,minutes=?,alarm_state=?,vibrate=?,ringtone=?,_id=?,label=?,alarm_id=?,day=? WHERE _id=2"
+        9: [2023-05-18 12:37:54.728] executeForCursorWindow took 1ms - succeeded, sql="SELECT _id, hour, minutes, daysofweek, enabled, vibrate, label, ringtone, delete_after_use FROM alarm_templates WHERE (_id=1)"
+        10: [2023-05-18 12:37:54.726] prepare took 0ms - succeeded, sql="SELECT _id, hour, minutes, daysofweek, enabled, vibrate, label, ringtone, delete_after_use FROM alarm_templates WHERE (_id=1)"
+        11: [2023-05-18 12:37:54.723] executeForLastInsertedRowId took 2ms - succeeded, sql="INSERT INTO alarm_instances(month,hour,year,minutes,alarm_state,vibrate,ringtone,label,alarm_id,day) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        12: [2023-05-18 12:37:54.723] prepare took 0ms - succeeded, sql="INSERT INTO alarm_instances(month,hour,year,minutes,alarm_state,vibrate,ringtone,label,alarm_id,day) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        13: [2023-05-18 12:37:54.722] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_id = 1)"
+        14: [2023-05-18 12:37:54.720] prepare took 0ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_id = 1)"
+        15: [2023-05-18 12:37:54.685] executeForCursorWindow took 0ms - succeeded, sql="SELECT alarm_templates._id, alarm_templates.hour, alarm_templates.minutes, alarm_templates.daysofweek, alarm_templates.enabled, alarm_templates.vibrate, alarm_templates.label, alarm_templates.ringtone, alarm_templates.delete_after_use, alarm_instances.alarm_state, alarm_instances._id, alarm_instances.year, alarm_instances.month, alarm_instances.day, alarm_instances.hour, alarm_instances.minutes, alarm_instances.label, alarm_instances.vibrate FROM alarm_templates LEFT JOIN alarm_instances ON (alarm_templates._id = alarm_id) WHERE (alarm_state IS NULL OR alarm_state = (SELECT MIN(alarm_state) FROM alarm_instances WHERE alarm_id = alarm_templates._id)) ORDER BY alarm_templates.hour, alarm_templates.minutes ASC, alarm_templates._id DESC"
+        16: [2023-05-18 12:37:54.681] prepare took 0ms - succeeded, sql="SELECT alarm_templates._id, alarm_templates.hour, alarm_templates.minutes, alarm_templates.daysofweek, alarm_templates.enabled, alarm_templates.vibrate, alarm_templates.label, alarm_templates.ringtone, alarm_templates.delete_after_use, alarm_instances.alarm_state, alarm_instances._id, alarm_instances.year, alarm_instances.month, alarm_instances.day, alarm_instances.hour, alarm_instances.minutes, alarm_instances.label, alarm_instances.vibrate FROM alarm_templates LEFT JOIN alarm_instances ON (alarm_templates._id = alarm_id) WHERE (alarm_state IS NULL OR alarm_state = (SELECT MIN(alarm_state) FROM alarm_instances WHERE alarm_id = alarm_templates._id)) ORDER BY alarm_templates.hour, alarm_templates.minutes ASC, alarm_templates._id DESC"
+        17: [2023-05-18 12:37:54.679] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_state<5)"
+        18: [2023-05-18 12:37:54.678] prepare took 0ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_state<5)"
+        19: [2023-05-18 12:37:54.669] executeForCursorWindow took 1ms - succeeded, sql="SELECT _id, year, month, day, hour, minutes, label, vibrate, ringtone, alarm_id, alarm_state FROM alarm_instances WHERE (alarm_id=1)"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 8762 [com.zmapp.sms] **
+
+** Database info for pid 4847 [android.process.media] **
+
+Connection pool for /data/user/0/com.android.providers.media/databases/external-fffffff.db:
+  Open: true
+  Max connections: 4
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user/0/com.android.providers.media/databases/internal.db:
+  Open: true
+  Max connections: 4
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    Connection #5:
+      isPrimaryConnection: false
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2023-05-18 12:38:52.840] executeForCursorWindow took 0ms - succeeded, sql="SELECT _data FROM audio WHERE (_id=?)"
+        1: [2023-05-18 12:38:52.839] prepare took 0ms - succeeded, sql="SELECT _data FROM audio WHERE (_id=?)"
+        2: [2023-05-18 12:38:52.741] executeForCursorWindow took 3ms - succeeded, sql="SELECT _data FROM audio WHERE (_id=?)"
+        3: [2023-05-18 12:38:52.700] prepare took 2ms - succeeded, sql="SELECT _data FROM audio WHERE (_id=?)"
+        4: [2023-05-18 12:38:52.700] executeForString took 0ms - succeeded, sql="SELECT locale FROM android_metadata UNION SELECT NULL ORDER BY locale DESC LIMIT 1"
+        5: [2023-05-18 12:38:52.699] execute took 0ms - succeeded, sql="CREATE TABLE IF NOT EXISTS android_metadata (locale TEXT)"
+        6: [2023-05-18 12:38:52.699] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint=100"
+        7: [2023-05-18 12:38:52.699] executeForLong took 0ms - succeeded, sql="PRAGMA wal_autocheckpoint"
+        8: [2023-05-18 12:38:52.699] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit=524288"
+        9: [2023-05-18 12:38:52.699] executeForLong took 0ms - succeeded, sql="PRAGMA journal_size_limit"
+        10: [2023-05-18 12:38:52.699] executeForString took 1ms - succeeded, sql="PRAGMA synchronous"
+        11: [2023-05-18 12:38:52.681] executeForString took 17ms - succeeded, sql="PRAGMA journal_mode"
+        12: [2023-05-18 12:38:52.681] executeForLong took 0ms - succeeded, sql="PRAGMA foreign_keys"
+        13: [2023-05-18 12:38:52.681] executeForLong took 0ms - succeeded, sql="PRAGMA page_size"
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user/0/com.android.providers.downloads/databases/downloads.db:
+  Open: true
+  Max connections: 1
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 10264 [com.android.packageinstaller] **
+
+** Database info for pid 10764 [com.jx.watchos.setting] **
+
+** Database info for pid 11082 [com.divo.phone] **
+
+** Database info for pid 10366 [com.android.providers.calendar] **
+
+Connection pool for /data/user/0/com.android.providers.calendar/databases/calendar.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2023-05-18 12:38:35.245] executeForCursorWindow took 8ms - succeeded, sql="SELECT Instances.event_id AS event_id, begin, allDay FROM Instances INNER JOIN view_events AS Events ON (Instances.event_id=Events._id) WHERE (begin<=? AND end>=?) AND ((visible=? AND begin>=? AND begin<=? AND allDay=?) OR (visible=? AND begin>=? AND begin<=? AND allDay=?))"
+        1: [2023-05-18 12:38:35.244] prepare took 1ms - succeeded, sql="SELECT Instances.event_id AS event_id, begin, allDay FROM Instances INNER JOIN view_events AS Events ON (Instances.event_id=Events._id) WHERE (begin<=? AND end>=?) AND ((visible=? AND begin>=? AND begin<=? AND allDay=?) OR (visible=? AND begin>=? AND begin<=? AND allDay=?))"
+        2: [2023-05-18 12:38:35.243] execute took 0ms - succeeded, sql="COMMIT;"
+        3: [2023-05-18 12:38:35.243] execute took 1ms - succeeded, sql="BEGIN EXCLUSIVE;"
+        4: [2023-05-18 12:38:35.242] executeForCursorWindow took 0ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+        5: [2023-05-18 12:38:35.242] prepare took 0ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+        6: [2023-05-18 12:38:35.240] executeForCursorWindow took 2ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+        7: [2023-05-18 12:38:35.227] prepare took 0ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+        8: [2023-05-18 12:38:34.998] executeForCursorWindow took 1ms - succeeded, sql="SELECT CalendarAlerts._id AS _id, event_id, state, title, eventLocation, selfAttendeeStatus, allDay, alarmTime, minutes, begin, end, description FROM CalendarAlerts, view_events WHERE (view_events._id=CalendarAlerts.event_id) AND ((state=? OR state=?) AND alarmTime<=1684384714877) ORDER BY begin DESC, end DESC"
+        9: [2023-05-18 12:38:34.993] prepare took 1ms - succeeded, sql="SELECT CalendarAlerts._id AS _id, event_id, state, title, eventLocation, selfAttendeeStatus, allDay, alarmTime, minutes, begin, end, description FROM CalendarAlerts, view_events WHERE (view_events._id=CalendarAlerts.event_id) AND ((state=? OR state=?) AND alarmTime<=1684384714877) ORDER BY begin DESC, end DESC"
+        10: [2023-05-18 12:38:30.846] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        11: [2023-05-18 12:38:30.845] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        12: [2023-05-18 12:38:30.845] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        13: [2023-05-18 12:38:26.960] executeForCursorWindow took 0ms - succeeded, sql="SELECT allDay, begin, end, title, eventLocation, Instances.event_id AS event_id, startDay, endDay, displayColor, selfAttendeeStatus FROM Instances INNER JOIN view_events AS Events ON (Instances.event_id=Events._id) WHERE (begin<=? AND end>=?) AND (visible=1) ORDER BY startDay ASC, startMinute ASC, endDay ASC, endMinute ASC LIMIT 100"
+        14: [2023-05-18 12:38:26.959] prepare took 1ms - succeeded, sql="SELECT allDay, begin, end, title, eventLocation, Instances.event_id AS event_id, startDay, endDay, displayColor, selfAttendeeStatus FROM Instances INNER JOIN view_events AS Events ON (Instances.event_id=Events._id) WHERE (begin<=? AND end>=?) AND (visible=1) ORDER BY startDay ASC, startMinute ASC, endDay ASC, endMinute ASC LIMIT 100"
+        15: [2023-05-18 12:38:26.959] execute took 0ms - succeeded, sql="COMMIT;"
+        16: [2023-05-18 12:38:26.958] execute took 0ms - succeeded, sql="BEGIN EXCLUSIVE;"
+        17: [2023-05-18 12:38:26.958] executeForCursorWindow took 0ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+        18: [2023-05-18 12:38:26.957] prepare took 0ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+        19: [2023-05-18 12:38:26.955] executeForCursorWindow took 2ms - succeeded, sql="SELECT key, value FROM CalendarCache WHERE key=?"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 8561 [com.android.defcontainer] **
+
+** Database info for pid 4649 [com.abupdate.fota_demo_iot] **
+
+Connection pool for /data/user/0/com.abupdate.fota_demo_iot/databases/fota_sdk.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2023-05-18 12:38:32.472] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2023-05-18 12:38:32.471] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2023-05-18 12:38:32.470] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        3: [2023-05-18 12:37:59.193] executeForCursorWindow took 1ms - succeeded, sql="PRAGMA database_list;"
+        4: [2023-05-18 12:37:59.192] executeForLong took 1ms - succeeded, sql="PRAGMA page_size;"
+        5: [2023-05-18 12:37:59.191] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        6: [2023-05-18 12:36:54.811] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        7: [2023-05-18 12:36:54.810] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        8: [2023-05-18 12:36:54.808] executeForLong took 2ms - succeeded, sql="PRAGMA page_count;"
+        9: [2023-05-18 12:36:18.159] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        10: [2023-05-18 12:36:18.158] executeForLong took 1ms - succeeded, sql="PRAGMA page_size;"
+        11: [2023-05-18 12:36:18.154] executeForLong took 4ms - succeeded, sql="PRAGMA page_count;"
+        12: [2023-05-18 12:35:43.811] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM report_error_log"
+        13: [2023-05-18 12:35:43.809] prepare took 0ms - succeeded, sql="SELECT * FROM report_error_log"
+        14: [2023-05-18 12:35:43.808] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM push_response"
+        15: [2023-05-18 12:35:43.806] prepare took 0ms - succeeded, sql="SELECT * FROM push_response"
+        16: [2023-05-18 12:35:43.805] executeForCursorWindow took 1ms - succeeded, sql="SELECT * FROM report_down"
+        17: [2023-05-18 12:35:43.804] prepare took 0ms - succeeded, sql="SELECT * FROM report_down"
+        18: [2023-05-18 12:35:43.802] executeForCursorWindow took 0ms - succeeded, sql="SELECT * FROM report_event_track"
+        19: [2023-05-18 12:35:43.801] prepare took 1ms - succeeded, sql="SELECT * FROM report_event_track"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 5135 [com.sohu.inputmethod.sogou:daemon] **
+
+** Database info for pid 4883 [com.spreadtrum.vowifi] **
+
+** Database info for pid 4689 [com.android.smspush] **
+
+** Database info for pid 4603 [com.android.modemnotifier] **
+
+** Database info for pid 5597 [com.sprd.udpDataStall] **
+
+** Database info for pid 4573 [com.spreadtrum.vce] **
+
+** Database info for pid 4559 [com.sprd.applock] **
+
+** Database info for pid 4188 [com.android.systemui] **
+
+** Database info for pid 4156 [com.android.phone] **
+
+Connection pool for /data/user_de/0/com.android.providers.telephony/databases/telephony.db:
+  Open: true
+  Max connections: 1
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user_de/0/com.android.providers.telephony/databases/HbpcdLookup.db:
+  Open: true
+  Max connections: 1
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/user_de/0/com.android.providers.telephony/databases/mmssms.db:
+  Open: true
+  Max connections: 1
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+** Database info for pid 3369 [system] **
+
+Connection pool for /data/system_de/0/accounts_de.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: true
+      Most recently executed operations:
+        0: [2023-05-18 12:38:56.538] executeForCursorWindow took 0ms - succeeded, sql="SELECT visibility._package, visibility.value, accounts.name, accounts.type FROM visibility JOIN accounts ON accounts._id = visibility.accounts_id"
+        1: [2023-05-18 12:38:56.537] prepare took 0ms - succeeded, sql="SELECT visibility._package, visibility.value, accounts.name, accounts.type FROM visibility JOIN accounts ON accounts._id = visibility.accounts_id"
+        2: [2023-05-18 12:38:56.525] executeForCursorWindow took 0ms - succeeded, sql="SELECT * FROM debug_table ORDER BY time"
+        3: [2023-05-18 12:38:56.525] prepare took 0ms - succeeded, sql="SELECT * FROM debug_table ORDER BY time"
+        4: [2023-05-18 12:38:34.971] executeForLong took 0ms - succeeded, sql="PRAGMA ceDb.page_size;"
+        5: [2023-05-18 12:38:34.971] executeForLong took 0ms - succeeded, sql="PRAGMA ceDb.page_count;"
+        6: [2023-05-18 12:38:34.970] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        7: [2023-05-18 12:38:34.965] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        8: [2023-05-18 12:38:34.965] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        9: [2023-05-18 12:38:20.586] executeForLong took 0ms - succeeded, sql="SELECT COUNT(*) FROM grants, accounts WHERE accounts_id=_id AND uid=? AND name=? AND type=?"
+        10: [2023-05-18 12:38:20.584] prepare took 2ms - succeeded, sql="SELECT COUNT(*) FROM grants, accounts WHERE accounts_id=_id AND uid=? AND name=? AND type=?"
+        11: [2023-05-18 12:38:08.452] execute took 1ms - succeeded, sql="INSERT OR REPLACE INTO debug_table VALUES (?,?,?,?,?,?)"
+        12: [2023-05-18 12:38:08.421] execute took 31ms - succeeded, sql="COMMIT;"
+        13: [2023-05-18 12:38:08.409] executeForLastInsertedRowId took 1ms - succeeded, sql="INSERT INTO accounts(name,_id,last_password_entry_time_millis_epoch,type) VALUES (?,?,?,?)"
+        14: [2023-05-18 12:38:08.409] prepare took 0ms - succeeded, sql="INSERT INTO accounts(name,_id,last_password_entry_time_millis_epoch,type) VALUES (?,?,?,?)"
+        15: [2023-05-18 12:38:08.402] executeForLastInsertedRowId took 6ms - succeeded, sql="INSERT INTO ceDb.accounts(name,password,type) VALUES (?,?,?)"
+        16: [2023-05-18 12:38:08.402] prepare took 1ms - succeeded, sql="INSERT INTO ceDb.accounts(name,password,type) VALUES (?,?,?)"
+        17: [2023-05-18 12:38:08.398] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id FROM ceDb.accounts WHERE name=? AND type=?"
+        18: [2023-05-18 12:38:08.379] prepare took 0ms - succeeded, sql="SELECT _id FROM ceDb.accounts WHERE name=? AND type=?"
+        19: [2023-05-18 12:38:08.378] execute took 0ms - succeeded, sql="BEGIN EXCLUSIVE;"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/system/locksettings.db:
+  Open: true
+  Max connections: 4
+  Idle connection timeout: 30000
+  Available primary connection:
+    <none>
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Connection pool for /data/system/notification_log.db:
+  Open: true
+  Max connections: 1
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2023-05-18 12:38:34.972] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        1: [2023-05-18 12:38:34.971] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        2: [2023-05-18 12:38:34.971] executeForLong took 0ms - succeeded, sql="PRAGMA page_count;"
+        3: [2023-05-18 12:38:20.831] executeForLastInsertedRowId took 3ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        4: [2023-05-18 12:38:20.830] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        5: [2023-05-18 12:38:20.823] executeForLastInsertedRowId took 0ms - succeeded, sql="INSERT INTO log(event_user_id,nid,flags,when_ms,action_count,demoted,noisy,pkg,event_time_ms,importance_final,event_type,importance_request,muted,key) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        6: [2023-05-18 12:38:20.823] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,nid,flags,when_ms,action_count,demoted,noisy,pkg,event_time_ms,importance_final,event_type,importance_request,muted,key) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        7: [2023-05-18 12:38:16.248] executeForLastInsertedRowId took 44ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        8: [2023-05-18 12:38:16.248] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        9: [2023-05-18 12:38:16.227] executeForLastInsertedRowId took 21ms - succeeded, sql="INSERT INTO log(event_user_id,nid,flags,when_ms,action_count,demoted,noisy,pkg,event_time_ms,importance_final,event_type,category,importance_request,muted,key) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        10: [2023-05-18 12:38:16.227] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,nid,flags,when_ms,action_count,demoted,noisy,pkg,event_time_ms,importance_final,event_type,category,importance_request,muted,key) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        11: [2023-05-18 12:38:14.669] executeForLastInsertedRowId took 1ms - succeeded, sql="INSERT INTO log(event_user_id,nid,flags,when_ms,action_count,demoted,noisy,pkg,event_time_ms,importance_final,event_type,category,importance_request,muted,key) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        12: [2023-05-18 12:38:14.669] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,nid,flags,when_ms,action_count,demoted,noisy,pkg,event_time_ms,importance_final,event_type,category,importance_request,muted,key) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        13: [2023-05-18 12:38:02.255] executeForCursorWindow took 0ms - succeeded, sql="PRAGMA database_list;"
+        14: [2023-05-18 12:38:02.249] executeForLong took 0ms - succeeded, sql="PRAGMA page_size;"
+        15: [2023-05-18 12:38:02.249] executeForLong took 1ms - succeeded, sql="PRAGMA page_count;"
+        16: [2023-05-18 12:37:53.423] executeForLastInsertedRowId took 5ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        17: [2023-05-18 12:37:53.423] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        18: [2023-05-18 12:37:47.515] executeForLastInsertedRowId took 1ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+        19: [2023-05-18 12:37:47.515] prepare took 0ms - succeeded, sql="INSERT INTO log(event_user_id,event_type,posttime_ms,airtime_ms,expansion_airtime_ms,pkg,event_time_ms,key,expansion_count,first_expansion_time_ms) VALUES (?,?,?,?,?,?,?,?,?,?)"
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+--------- 0.391s was the duration of dumpsys dbinfo, ending at: 2023-05-18 12:38:57

@@ -1,0 +1,40 @@
+Chain PREROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+     553    98154 wakeupctrl_mangle_INPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+     553    98154 routectrl_mangle_INPUT  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 natctrl_mangle_FORWARD  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain POSTROUTING (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      66     5378 oem_mangle_post  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+      66     5378 bw_mangle_POSTROUTING  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+      66     5378 idletimer_mangle_POSTROUTING  all  --  *      *       0.0.0.0/0            0.0.0.0/0           
+
+Chain bw_mangle_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+      66     5378            all  --  *      *       0.0.0.0/0            0.0.0.0/0            owner socket exists
+
+Chain idletimer_mangle_POSTROUTING (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain natctrl_mangle_FORWARD (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 TCPMSS     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            tcp flags:0x02/0x02 TCPMSS clamp to PMTU
+
+Chain oem_mangle_post (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain routectrl_mangle_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain wakeupctrl_mangle_INPUT (1 references)
+    pkts      bytes target     prot opt in     out     source               destination         

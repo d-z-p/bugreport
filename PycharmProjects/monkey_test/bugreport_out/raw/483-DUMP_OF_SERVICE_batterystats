@@ -1,0 +1,531 @@
+Per-PID Stats:
+  PID 622 wake time: +1m26s55ms
+  PID 1737 wake time: +47ms
+  PID 622 wake time: +29ms
+  PID 891 wake time: +3s318ms
+  PID 622 wake time: +3ms
+  PID 0 wake time: +14s772ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +56ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +7ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +7ms
+  PID 622 wake time: +17ms
+  PID 1404 wake time: +2s308ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +324ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +38s732ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +1s204ms
+  PID 0 wake time: +1s544ms
+  PID 622 wake time: +4s600ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +1ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +16ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +14ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +922ms
+  PID 622 wake time: +2ms
+  PID 622 wake time: +6ms
+  PID 622 wake time: +184ms
+  PID 622 wake time: +7ms
+  PID 622 wake time: +14ms
+  PID 622 wake time: +7ms
+  PID 622 wake time: +3ms
+  PID 622 wake time: +5ms
+  PID 622 wake time: +803ms
+  PID 2227 wake time: +45s858ms
+  PID 622 wake time: +4ms
+  PID 622 wake time: +5s373ms
+  PID 622 wake time: +2s199ms
+  PID 622 wake time: +26ms
+  PID 622 wake time: +22ms
+  PID 622 wake time: +12s237ms
+  PID 2974 wake time: +3s367ms
+  PID 622 wake time: +2s859ms
+
+Daily stats:
+  Current start time: 2019-01-01-08-06-27
+  Next min deadline: 2019-01-02-09-00-00
+  Next max deadline: 2019-01-02-11-00-00
+    Package changes:
+      Update com.example.demo1 vers=1
+
+Statistics since last charge:
+  System starts: 1, currently on battery: false
+  Estimated battery capacity: 1380 mAh
+  Min learned battery capacity: 900 mAh
+  Max learned battery capacity: 900 mAh
+  Time on battery: 0ms (0.0%) realtime, 0ms (--%) uptime
+  Time on battery screen off: 0ms (--%) realtime, 0ms (--%) uptime
+  Time on battery screen doze: 0ms (--%)
+  Total run time: 15m 22s 508ms realtime, 15m 22s 508ms uptime
+  Discharge: 0 mAh
+  Screen off discharge: 0 mAh
+  Screen doze discharge: 0 mAh
+  Screen on discharge: 0 mAh
+  Start clock time: 2023-05-22-17-36-44
+  Screen on: 0ms (--%) 0x, Interactive: 0ms (--%)
+  Screen brightnesses: (no activity)
+  Connectivity changes: 2
+
+  CONNECTIVITY POWER SUMMARY START
+  Logging duration for connectivity statistics: 0ms 
+  Cellular Statistics:
+     Cellular kernel active time: 0ms (--%)
+     Cellular data received: 0B
+     Cellular data sent: 0B
+     Cellular packets received: 0
+     Cellular packets sent: 0
+     Cellular Radio Access Technology: (no activity)
+     Cellular Rx signal strength (RSRP): (no activity)
+     Cellular Sleep time:  0ms (--%)
+     Cellular Idle time:   0ms (--%)
+     Cellular Rx time:     0ms (--%)
+     Cellular Tx time:     
+       less than 0dBm:  0ms (--%)
+       0dBm to 8dBm:  0ms (--%)
+       8dBm to 15dBm:  0ms (--%)
+       15dBm to 20dBm:  0ms (--%)
+       above 20dBm:  0ms (--%)
+  Wifi Statistics:
+     Wifi data received: 0B
+     Wifi data sent: 0B
+     Wifi packets received: 0
+     Wifi packets sent: 0
+     Wifi states: (no activity)
+     Wifi supplicant states: (no activity)
+     Wifi Rx signal strength (RSSI): (no activity)
+     WiFi Sleep time:  0ms (--%)
+     WiFi Idle time:   0ms (--%)
+     WiFi Rx time:     0ms (--%)
+     WiFi Tx time:     0ms (--%)
+  CONNECTIVITY POWER SUMMARY END
+
+  Bluetooth total received: 0B, sent: 0B
+  Bluetooth scan time: 0ms 
+     Bluetooth Sleep time:  0ms (--%)
+     Bluetooth Idle time:   0ms (--%)
+     Bluetooth Rx time:     0ms (--%)
+     Bluetooth Tx time:     0ms (--%)
+
+  Device battery use since last full charge
+    Amount discharged (lower bound): 0
+    Amount discharged (upper bound): 0
+    Amount discharged while screen on: 0
+    Amount discharged while screen off: 0
+    Amount discharged while screen doze: 0
+
+  Estimated power use (mAh):
+    Capacity: 1380, Computed drain: 0, actual drain: 0
+    Uid 0: 0 Excluded from smearing
+
+  0:
+    (nothing executed)
+  1000:
+    Wake lock *job*/com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService realtime
+    Wake lock *dexopt* realtime
+    Wake lock WiredAccessoryManager realtime
+    Wake lock *alarm* realtime
+    Wake lock AlarmClock realtime
+    Wake lock *launch* realtime
+    Wake lock NetworkStats realtime
+    Wake lock GnssLocationProviderXtraDownload realtime
+    Wake lock WindowManager realtime
+    Wake lock GnssLocationProvider realtime
+    Wake lock NetworkTimeUpdateService realtime
+    Wake lock *job*/android/com.android.server.pm.BackgroundDexOptService realtime
+    Wake lock ConnectivityService realtime
+    Wake lock SyncLoopWakeLock realtime
+    Job android/com.android.server.pm.BackgroundDexOptService: (not used)
+    Job com.abupdate.fota_demo_iot/com.abupdate.iot_libs.service.JobSchedulerService: (not used)
+    Apk com.android.location.fused:
+      Service com.android.location.fused.FusedLocationService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk plugin.sprd.antitheft:
+      (nothing executed)
+    Apk com.spreadtrum.vowifi:
+      Service com.spreadtrum.vowifi.service.SecurityService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.spreadtrum.vowifi.service.RegisterService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.spreadtrum.vowifi.service.UTService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.spreadtrum.vowifi.service.CallService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.jx.launcher:
+      Service com.zmapp.aee.AEEService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.jx.launcher.notification.NotificationListener:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.zmapp.aidldemo.WatchInfoService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.spreadtrum.vce:
+      Service com.spreadtrum.vce.VceService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.keychain:
+      (nothing executed)
+    Apk com.android.server.telecom:
+      Service com.android.server.telecom.components.TelecomService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.android.server.telecom.components.BluetoothPhoneService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+    Apk com.sprd.applock:
+      Service com.sprd.launchapp.LaunchAppService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.sprd.applock.AppLockService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+    Apk android:
+      Service android.hardware.location.GeofenceHardwareService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.android.server.content.SyncJobService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.android.internal.backup.LocalTransportService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.abupdate.fota_demo_iot:
+      Service com.abupdate.iot_libs.service.JobSchedulerService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.abupdate.iot_libs.service.ClientTrigger:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  1001:
+    Wake lock *dexopt* realtime
+    Wake lock RadioInteractor realtime
+    Wake lock CallerInfoCache realtime
+    Wake lock CdmaInboundSmsHandler realtime
+    Wake lock RILJ realtime
+    Wake lock GsmCellBroadcastHandler realtime
+    Wake lock CdmaServiceCategoryProgramHandler realtime
+    Wake lock ImsRILJ realtime
+    Wake lock GsmInboundSmsHandler realtime
+    Wake lock CellBroadcastHandler realtime
+    Apk com.android.phone:
+      Service com.android.phone.TelephonyDebugService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+    Apk com.spreadtrum.ims:
+      Service com.spreadtrum.ims.ImsService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.sprd.telephony.server:
+      Service com.android.sprd.telephony.RadioInteractorService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+    Apk com.android.mms.service:
+      Service com.android.mms.service.MmsService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  1002:
+    Wake lock *dexopt* realtime
+    Apk com.android.bluetooth:
+      (nothing executed)
+  1010:
+    (nothing executed)
+  1041:
+    Wake lock AudioMixAudioOut_D realtime
+  2000:
+    Wake lock *dexopt* realtime
+  u0a2:
+    Wake lock *dexopt* realtime
+    Wake lock *job*/com.android.dialer/com.android.voicemail.impl.StatusCheckJobService realtime
+    Job com.android.dialer/com.android.voicemail.impl.StatusCheckJobService: (not used)
+    Apk com.android.dialer:
+      (nothing executed)
+    Apk plugin.sprd.contactsdefaultcontact:
+      (nothing executed)
+  u0a3:
+    Wake lock *dexopt* realtime
+  u0a4:
+    Wake lock *dexopt* realtime
+    Apk com.android.carrierconfig:
+      (nothing executed)
+  u0a5:
+    Wake lock *dexopt* realtime
+    Apk com.android.defcontainer:
+      (nothing executed)
+  u0a6:
+    Wake lock *dexopt* realtime
+  u0a7:
+    Wake lock *dexopt* realtime
+    Apk android.ext.services:
+      (nothing executed)
+  u0a8:
+    Wake lock *dexopt* realtime
+  u0a9:
+    Wake lock MediaScannerService realtime
+    Wake lock *dexopt* realtime
+    Apk com.android.providers.media:
+      Service com.android.providers.media.MtpService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a11:
+    Wake lock *dexopt* realtime
+  u0a12:
+    Wake lock *dexopt* realtime
+  u0a13:
+    Wake lock *dexopt* realtime
+  u0a14:
+    Wake lock *dexopt* realtime
+  u0a15:
+    Wake lock *dexopt* realtime
+  u0a16:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+  u0a17:
+    Wake lock *dexopt* realtime
+  u0a18:
+    Wake lock *dexopt* realtime
+  u0a19:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Wake lock CalendarReceiver_Provider realtime
+  u0a20:
+    Wake lock *dexopt* realtime
+  u0a21:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+  u0a22:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Wake lock AudioMixAudioOut_D realtime
+    Wake lock *launch* realtime
+    Apk com.android.systemui:
+      Service com.android.systemui.ImageWallpaper:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.android.systemui.keyguard.KeyguardService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.android.systemui.EmBootNetService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+      Service com.android.systemui.SystemUIService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a23:
+    Wake lock *dexopt* realtime
+  u0a24:
+    Wake lock *dexopt* realtime
+  u0a25:
+    Wake lock *dexopt* realtime
+  u0a26:
+    Wake lock *dexopt* realtime
+  u0a27:
+    Wake lock *dexopt* realtime
+  u0a28:
+    Wake lock *dexopt* realtime
+  u0a29:
+    Wake lock *dexopt* realtime
+  u0a30:
+    Wake lock *dexopt* realtime
+  u0a31:
+    Wake lock *dexopt* realtime
+  u0a32:
+    Wake lock *dexopt* realtime
+  u0a33:
+    Wake lock *dexopt* realtime
+  u0a34:
+    Wake lock *dexopt* realtime
+  u0a36:
+    Wake lock *dexopt* realtime
+  u0a37:
+    Wake lock *dexopt* realtime
+  u0a38:
+    Wake lock *dexopt* realtime
+  u0a39:
+    Wake lock *dexopt* realtime
+  u0a40:
+    Wake lock *dexopt* realtime
+  u0a41:
+    Wake lock *dexopt* realtime
+  u0a42:
+    Wake lock *dexopt* realtime
+  u0a43:
+    Wake lock *dexopt* realtime
+  u0a44:
+    Wake lock *dexopt* realtime
+  u0a45:
+    Wake lock *dexopt* realtime
+  u0a46:
+    Wake lock *dexopt* realtime
+  u0a47:
+    Wake lock *dexopt* realtime
+  u0a48:
+    Wake lock *dexopt* realtime
+  u0a49:
+    Wake lock *dexopt* realtime
+  u0a50:
+    Wake lock *dexopt* realtime
+    Wake lock bugle_background_worker_wakelock realtime
+    Wake lock bugle_datamodel_service_wakelock realtime
+    Apk com.android.messaging:
+      (nothing executed)
+  u0a51:
+    Wake lock *dexopt* realtime
+  u0a52:
+    Wake lock *dexopt* realtime
+  u0a53:
+    Wake lock *dexopt* realtime
+  u0a54:
+    Wake lock *dexopt* realtime
+  u0a55:
+    Wake lock *dexopt* realtime
+  u0a56:
+    Wake lock *dexopt* realtime
+  u0a57:
+    Wake lock *dexopt* realtime
+  u0a58:
+    Wake lock *dexopt* realtime
+  u0a59:
+    Wake lock *dexopt* realtime
+  u0a60:
+    Wake lock *dexopt* realtime
+  u0a61:
+    Wake lock *dexopt* realtime
+    Wake lock *alarm* realtime
+    Apk com.android.calendar:
+      (nothing executed)
+  u0a62:
+    Wake lock *dexopt* realtime
+  u0a63:
+    Wake lock *dexopt* realtime
+  u0a64:
+    Wake lock *dexopt* realtime
+  u0a65:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+  u0a66:
+    Wake lock *dexopt* realtime
+  u0a67:
+    Wake lock *dexopt* realtime
+  u0a68:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+  u0a69:
+    Wake lock *dexopt* realtime
+  u0a70:
+    Wake lock *dexopt* realtime
+  u0a71:
+    Wake lock *dexopt* realtime
+  u0a72:
+    Wake lock *dexopt* realtime
+    Apk com.jx.inputmethod.pinyin:
+      (nothing executed)
+  u0a73:
+    Wake lock *dexopt* realtime
+  u0a74:
+    Wake lock *dexopt* realtime
+    Wake lock com.jx.childlike.MainActivity realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 0: (not used)
+  u0a75:
+    Wake lock *dexopt* realtime
+  u0a76:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+    Sensor 0: (not used)
+    Apk com.yingyonghui.market:
+      Service com.igexin.sdk.PushService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a77:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Sensor 0: (not used)
+  u0a78:
+    Wake lock *dexopt* realtime
+    Apk com.sohu.inputmethod.sogou:
+      Service com.sohu.inputmethod.sogou.SogouIME:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.sogou.daemon.DaemonService:
+        Created for: 0ms uptime
+        Starts: 1, launches: 1
+  u0a79:
+    Wake lock *dexopt* realtime
+  u0a80:
+    Wake lock MicroMsg.MMAutoAuth realtime
+    Wake lock *dexopt* realtime
+    Wake lock PlatformComm realtime
+    Wake lock *launch* realtime
+    Apk com.tencent.mm:
+      Service com.tencent.mm.service.ProcessService$MMProcessService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.tencent.mm.booter.CoreService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+      Service com.tencent.mm.ipcinvoker.wx_extension.service.MainProcessIPCService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a81:
+    Wake lock *dexopt* realtime
+    Wake lock *launch* realtime
+    Wake lock WindowManager realtime
+
+--------- 0.292s was the duration of dumpsys batterystats, ending at: 2023-05-22 17:52:06
